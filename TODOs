@@ -1,4 +1,9 @@
+in progress
+    list a1 vocabulary as service
+    display vocabulary list as div
+
 # oop model
+    factory to create entry (maybe after having created all entry of a1 to have stable fields pro typ)
 
 # entities:
     - entry

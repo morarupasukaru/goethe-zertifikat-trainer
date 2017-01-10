@@ -1,8 +1,9 @@
 import angular from 'angular';
 import Gui from './gui/gui';
+import Data from './data/data';
 
 let componentModule = angular.module('app.components', [
-    Gui.name
+    Data.name, Gui.name
 ]);
 
 export default componentModule;
