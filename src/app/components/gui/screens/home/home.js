@@ -1,7 +1,6 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 
-import template from './home.html';
 import controller from './home.controller';
 
 let homeModule = angular.module('app.components.gui.screen.home', [
@@ -15,6 +14,6 @@ let homeModule = angular.module('app.components.gui.screen.home', [
         });
     })
 
-    .component('home', { template, controller });
+    .component('home', { controller });
 
 export default homeModule;
