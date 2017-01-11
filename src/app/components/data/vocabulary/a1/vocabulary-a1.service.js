@@ -1,48 +1,48 @@
 class VocabularyA1Service {
 
     /*@ngInject*/
-    constructor() {
-        this.createEntries();
+    constructor(GoetheA1VocabularyBuilder) {
+        this.createEntries(GoetheA1VocabularyBuilder);
     }
 
-    createEntries() {
+    createEntries(Builder) {
         this.entries = [];
-        this.addEntries(this.createZahlenEntries());
-        this.addEntries(this.createDatumEntries());
-        this.addEntries(this.createUhrzeitEntries());
-        this.addEntries(this.createZeitmasseEntries());
-        this.addEntries(this.createWocheEntries());
-        this.addEntries(this.createTagEntries());
-        this.addEntries(this.createMonatEntries());
-        this.addEntries(this.createJahrEntries());
-        this.addEntries(this.createWaehrungenEntries());
-        this.addEntries(this.createMasseUndGewichteEntries());
-        this.addEntries(this.createLaenderEntries());
-        this.addEntries(this.createFarbenEntries());
-        this.addEntries(this.createHimmelsrichtungenEntries());
-        this.addEntries(this.createAEntries());
-        this.addEntries(this.createBEntries());
-        this.addEntries(this.createCEntries());
-        this.addEntries(this.createDEntries());
-        this.addEntries(this.createEEntries());
-        this.addEntries(this.createFEntries());
-        this.addEntries(this.createGEntries());
-        this.addEntries(this.createHEntries());
-        this.addEntries(this.createIEntries());
-        this.addEntries(this.createJEntries());
-        this.addEntries(this.createKEntries());
-        this.addEntries(this.createLEntries());
-        this.addEntries(this.createMEntries());
-        this.addEntries(this.createNEntries());
-        this.addEntries(this.createOEntries());
-        this.addEntries(this.createPEntries());
-        this.addEntries(this.createREntries());
-        this.addEntries(this.createSEntries());
-        this.addEntries(this.createTEntries());
-        this.addEntries(this.createUEntries());
-        this.addEntries(this.createVEntries());
-        this.addEntries(this.createWEntries());
-        this.addEntries(this.createZEntries());
+        this.addEntries(this.createZahlenEntries(Builder));
+        this.addEntries(this.createDatumEntries(Builder));
+        this.addEntries(this.createUhrzeitEntries(Builder));
+        this.addEntries(this.createZeitmasseEntries(Builder));
+        this.addEntries(this.createWocheEntries(Builder));
+        this.addEntries(this.createTagEntries(Builder));
+        this.addEntries(this.createMonatEntries(Builder));
+        this.addEntries(this.createJahrEntries(Builder));
+        this.addEntries(this.createWaehrungenEntries(Builder));
+        this.addEntries(this.createMasseUndGewichteEntries(Builder));
+        this.addEntries(this.createLaenderEntries(Builder));
+        this.addEntries(this.createFarbenEntries(Builder));
+        this.addEntries(this.createHimmelsrichtungenEntries(Builder));
+        this.addEntries(this.createAEntries(Builder));
+        this.addEntries(this.createBEntries(Builder));
+        this.addEntries(this.createCEntries(Builder));
+        this.addEntries(this.createDEntries(Builder));
+        this.addEntries(this.createEEntries(Builder));
+        this.addEntries(this.createFEntries(Builder));
+        this.addEntries(this.createGEntries(Builder));
+        this.addEntries(this.createHEntries(Builder));
+        this.addEntries(this.createIEntries(Builder));
+        this.addEntries(this.createJEntries(Builder));
+        this.addEntries(this.createKEntries(Builder));
+        this.addEntries(this.createLEntries(Builder));
+        this.addEntries(this.createMEntries(Builder));
+        this.addEntries(this.createNEntries(Builder));
+        this.addEntries(this.createOEntries(Builder));
+        this.addEntries(this.createPEntries(Builder));
+        this.addEntries(this.createREntries(Builder));
+        this.addEntries(this.createSEntries(Builder));
+        this.addEntries(this.createTEntries(Builder));
+        this.addEntries(this.createUEntries(Builder));
+        this.addEntries(this.createVEntries(Builder));
+        this.addEntries(this.createWEntries(Builder));
+        this.addEntries(this.createZEntries(Builder));
     }
 
     addEntries(newEntries) {
@@ -51,486 +51,529 @@ class VocabularyA1Service {
         }
     }
 
-    createZahlenEntries() {
+    createZahlenEntries(Builder) {
         let entries = [];
         let thema = 'Zahlen';
-        entries.push(this.createEntry(thema, 'Zahl'));
-        entries.push(this.createEntry(thema, 'eins', '1'));
-        entries.push(this.createEntry(thema, 'zwei', '2'));
-        entries.push(this.createEntry(thema, 'drei', '3'));
-        entries.push(this.createEntry(thema, 'vier', '4'));
-        entries.push(this.createEntry(thema, 'fünf', '5'));
-        entries.push(this.createEntry(thema, 'sechs', '6'));
-        entries.push(this.createEntry(thema, 'sieben', '7'));
-        entries.push(this.createEntry(thema, 'acht', '8'));
-        entries.push(this.createEntry(thema, 'neun', '9'));
-        entries.push(this.createEntry(thema, 'zehn', '10'));
-        entries.push(this.createEntry(thema, 'elf', '11'));
-        entries.push(this.createEntry(thema, 'zwölf', '12'));
-        entries.push(this.createEntry(thema, 'dreizehn', '13'));
-        entries.push(this.createEntry(thema, 'vierzehn', '14'));
-        entries.push(this.createEntry(thema, 'fünfzehn', '15'));
-        entries.push(this.createEntry(thema, 'sechzehn', '16'));
-        entries.push(this.createEntry(thema, 'siebzehn', '17'));
-        entries.push(this.createEntry(thema, 'achtzehn', '18'));
-        entries.push(this.createEntry(thema, 'neunzehn', '19'));
-        entries.push(this.createEntry(thema, 'zwanzig', '20'));
-        entries.push(this.createEntry(thema, 'einundzwanzig', '21'));
-        entries.push(this.createEntry(thema, 'dreißig', '30'));
-        entries.push(this.createEntry(thema, 'vierzig', '40'));
-        entries.push(this.createEntry(thema, 'fünfzig', '50'));
-        entries.push(this.createEntry(thema, 'sechzig', '60'));
-        entries.push(this.createEntry(thema, 'siebzig', '70'));
-        entries.push(this.createEntry(thema, 'achtzig', '80'));
-        entries.push(this.createEntry(thema, 'neunzig', '90'));
-        entries.push(this.createEntry(thema, '(ein)hundert', '100'));
-        entries.push(this.createEntry(thema, 'hunderteins', '101'));
-        entries.push(this.createEntry(thema, 'zweihundert', '200'));
-        entries.push(this.createEntry(thema, '(ein)tausend', '1000'));
-        entries.push(this.createEntry(thema, 'eine Million, en', "1'000'000"));
-        entries.push(this.createEntry(thema, 'eine Milliarde, en', "1'000'000'000"));
-        entries.push(this.createEntry(thema, 'das/der/die erste'));
-        entries.push(this.createEntry(thema, 'zweite'));
-        entries.push(this.createEntry(thema, 'dritte'));
-        entries.push(this.createEntry(thema, 'vierte'));
-        entries.push(this.createEntry(thema, 'usw.'));
+        entries.push(new Builder().thema(thema).entry('Zahl').get());
+        entries.push(new Builder().thema(thema).entry('eins').alternative('1').get());
+        entries.push(new Builder().thema(thema).entry('zwei').alternative('2').get());
+        entries.push(new Builder().thema(thema).entry('drei').alternative('3').get());
+        entries.push(new Builder().thema(thema).entry('vier').alternative('4').get());
+        entries.push(new Builder().thema(thema).entry('fünf').alternative('5').get());
+        entries.push(new Builder().thema(thema).entry('sechs').alternative('6').get());
+        entries.push(new Builder().thema(thema).entry('sieben').alternative('7').get());
+        entries.push(new Builder().thema(thema).entry('acht').alternative('8').get());
+        entries.push(new Builder().thema(thema).entry('neun').alternative('9').get());
+        entries.push(new Builder().thema(thema).entry('zehn').alternative('10').get());
+        entries.push(new Builder().thema(thema).entry('elf').alternative('11').get());
+        entries.push(new Builder().thema(thema).entry('zwölf').alternative('12').get());
+        entries.push(new Builder().thema(thema).entry('dreizehn').alternative('13').get());
+        entries.push(new Builder().thema(thema).entry('vierzehn').alternative('14').get());
+        entries.push(new Builder().thema(thema).entry('fünfzehn').alternative('15').get());
+        entries.push(new Builder().thema(thema).entry('sechzehn').alternative('16').get());
+        entries.push(new Builder().thema(thema).entry('siebzehn').alternative('17').get());
+        entries.push(new Builder().thema(thema).entry('achtzehn').alternative('18').get());
+        entries.push(new Builder().thema(thema).entry('neunzehn').alternative('19').get());
+        entries.push(new Builder().thema(thema).entry('zwanzig').alternative('20').get());
+        entries.push(new Builder().thema(thema).entry('einundzwanzig').alternative('21').get());
+        entries.push(new Builder().thema(thema).entry('dreißig').alternative('30').get());
+        entries.push(new Builder().thema(thema).entry('vierzig').alternative('40').get());
+        entries.push(new Builder().thema(thema).entry('fünfzig').alternative('50').get());
+        entries.push(new Builder().thema(thema).entry('sechzig').alternative('60').get());
+        entries.push(new Builder().thema(thema).entry('siebzig').alternative('70').get());
+        entries.push(new Builder().thema(thema).entry('achtzig').alternative('80').get());
+        entries.push(new Builder().thema(thema).entry('neunzig').alternative('90').get());
+        entries.push(new Builder().thema(thema).entry('(ein)hundert').alternative('100').get());
+        entries.push(new Builder().thema(thema).entry('hunderteins').alternative('101').get());
+        entries.push(new Builder().thema(thema).entry('zweihundert').alternative('200').get());
+        entries.push(new Builder().thema(thema).entry('(ein)tausend').alternative('1000').get());
+        entries.push(new Builder().thema(thema).entry('eine Million, en').alternative("1'000'000").get());
+        entries.push(new Builder().thema(thema).entry('eine Milliarde, en').alternative("1'000'000'000").get());
+        entries.push(new Builder().thema(thema).entry('das/der/die erste').get());
+        entries.push(new Builder().thema(thema).entry('zweite').get());
+        entries.push(new Builder().thema(thema).entry('dritte').get());
+        entries.push(new Builder().thema(thema).entry('vierte').get());
+        entries.push(new Builder().thema(thema).entry('usw.').get());
         return entries;
     }
 
-    createDatumEntries() {
+    createDatumEntries(Builder) {
         let entries = [];
         let thema = 'Datum';
-        entries.push(this.createEntry(thema, 'Datum'));
-        entries.push(this.createEntry(thema, 'ein halb; halb', '1/2'));
-        entries.push(this.createEntry(thema, 'ein Vertiel; Viertel ...', '1/4'));
-        entries.push(this.createEntry(thema, 'neunzehnhundertneunundneunzig', '1999'));
-        entries.push(this.createEntry(thema, 'zweitausendvierzehn', '2014'));
-        entries.push(this.createEntry(thema, 'heute ist der erste März/der erste Dritte', 'heute ist der 1. März'));
-        entries.push(this.createEntry(thema, 'Berlin, zwölfter Vierter zweitausendzwei', 'Berlin, 12. April 2002'));
+        entries.push(new Builder().thema(thema).entry('Datum').get());
+        entries.push(new Builder().thema(thema).entry('ein halb; halb').alternative('1/2').get());
+        entries.push(new Builder().thema(thema).entry('ein Vertiel; Viertel ...').alternative('1/4').get());
+        entries.push(new Builder().thema(thema).entry('neunzehnhundertneunundneunzig').alternative('1999').get());
+        entries.push(new Builder().thema(thema).entry('zweitausendvierzehn').alternative('2014').get());
+        entries.push(new Builder().thema(thema).entry('heute ist der erste März/der erste Dritte').alternative('heute ist der 1. März').get());
+        entries.push(new Builder().thema(thema).entry('Berlin, zwölfter Vierter zweitausendzwei').alternative('Berlin, 12. April 2002').get());
         return entries;
     }
 
-    createUhrzeitEntries() {
+    createUhrzeitEntries(Builder) {
         let entries = [];
         let thema = 'Uhrzeit';
-        entries.push(this.createEntry(thema, 'Uhrzeit'));
-        entries.push(this.createEntry(thema, '0.03 Uhr', 'null Uhr drei'));
-        entries.push(this.createEntry(thema, '7.15 Uhr', 'sieben Uhr fünfzehn'));
-        entries.push(this.createEntry(thema, '13.17 Uhr', 'dreizehn Uhr siebzehn'));
-        entries.push(this.createEntry(thema, '24.00 Uhr', 'vierundzwanzig Uhr'));
-        entries.push(this.createEntry(thema, 'ein Uhr'));
-        entries.push(this.createEntry(thema, 'fünf Minuten vor/nach eins (ein Uhr)'));
-        entries.push(this.createEntry(thema, 'Viertel vor/nach zwei (zwei Uhr)'));
-        entries.push(this.createEntry(thema, 'halb drei'));
+        entries.push(new Builder().thema(thema).entry('Uhrzeit').get());
+        entries.push(new Builder().thema(thema).entry('0.03 Uhr').alternative('null Uhr drei').get());
+        entries.push(new Builder().thema(thema).entry('7.15 Uhr').alternative('sieben Uhr fünfzehn').get());
+        entries.push(new Builder().thema(thema).entry('13.17 Uhr').alternative('dreizehn Uhr siebzehn').get());
+        entries.push(new Builder().thema(thema).entry('24.00 Uhr').alternative('vierundzwanzig Uhr').get());
+        entries.push(new Builder().thema(thema).entry('ein Uhr').get());
+        entries.push(new Builder().thema(thema).entry('fünf Minuten vor/nach eins (ein Uhr)').get());
+        entries.push(new Builder().thema(thema).entry('Viertel vor/nach zwei (zwei Uhr)').get());
+        entries.push(new Builder().thema(thema).entry('halb drei').get());
         return entries;
     }
 
-    createZeitmasseEntries() {
+    createZeitmasseEntries(Builder) {
         let entries = [];
         let thema = 'Zeitmaße, Zeitangaben';
-        entries.push(this.createEntry(thema, 'Zeitmaß'));
-        entries.push(this.createEntry(thema, 'Zeitangabe'));
-        entries.push(this.createEntry(thema, 'die Sekunde, -n'));
-        entries.push(this.createEntry(thema, 'die Minute, -n'));
-        entries.push(this.createEntry(thema, 'die Stunde, -n'));
-        entries.push(this.createEntry(thema, 'der Tag, -e'));
-        entries.push(this.createEntry(thema, 'die Woche, -e'));
-        entries.push(this.createEntry(thema, 'das Jahr, -e'));
+        entries.push(new Builder().thema(thema).entry('Zeitmaß').get());
+        entries.push(new Builder().thema(thema).entry('Zeitangabe').get());
+        entries.push(new Builder().thema(thema).entry('die Sekunde, -n').get());
+        entries.push(new Builder().thema(thema).entry('die Minute, -n').get());
+        entries.push(new Builder().thema(thema).entry('die Stunde, -n').get());
+        entries.push(new Builder().thema(thema).entry('der Tag, -e').get());
+        entries.push(new Builder().thema(thema).entry('die Woche, -e').get());
+        entries.push(new Builder().thema(thema).entry('das Jahr, -e').get());
         return entries;
     }
 
-    createWocheEntries() {
+    createWocheEntries(Builder) {
         let entries = [];
         let thema = 'Woche/Wochentage';
-        entries.push(this.createEntry(thema, 'Woche'));
-        entries.push(this.createEntry(thema, 'der Wochentag, -e'));
-        entries.push(this.createEntry(thema, 'der Sonntag'));
-        entries.push(this.createEntry(thema, 'der Montag'));
-        entries.push(this.createEntry(thema, 'der Dienstag'));
-        entries.push(this.createEntry(thema, 'der Mittwoch'));
-        entries.push(this.createEntry(thema, 'der Donnerstag'));
-        entries.push(this.createEntry(thema, 'der Freitag'));
-        entries.push(this.createEntry(thema, 'der Samstag/Sonnabend'));
-        entries.push(this.createEntry(thema, 'das Wochenende'));
-        entries.push(this.createEntry(thema, 'am Wochenende'));
+        entries.push(new Builder().thema(thema).entry('Woche').get());
+        entries.push(new Builder().thema(thema).entry('der Wochentag, -e').get());
+        entries.push(new Builder().thema(thema).entry('der Sonntag').get());
+        entries.push(new Builder().thema(thema).entry('der Montag').get());
+        entries.push(new Builder().thema(thema).entry('der Dienstag').get());
+        entries.push(new Builder().thema(thema).entry('der Mittwoch').get());
+        entries.push(new Builder().thema(thema).entry('der Donnerstag').get());
+        entries.push(new Builder().thema(thema).entry('der Freitag').get());
+        entries.push(new Builder().thema(thema).entry('der Samstag/Sonnabend').get());
+        entries.push(new Builder().thema(thema).entry('das Wochenende').get());
+        entries.push(new Builder().thema(thema).entry('am Wochenende').get());
         return entries;
     }
 
-    createTagEntries() {
+    createTagEntries(Builder) {
         let entries = [];
         let thema = 'Tag/Tageszeiten';
-        entries.push(this.createEntry(thema, 'Tag'));
-        entries.push(this.createEntry(thema, 'Tageszeit'));
-        entries.push(this.createEntry(thema, 'der Tag'));
-        entries.push(this.createEntry(thema, 'der Morgen'));
-        entries.push(this.createEntry(thema, 'der Vormittag,-e'));
-        entries.push(this.createEntry(thema, 'der Mittag'));
-        entries.push(this.createEntry(thema, 'der Nachmittag,-e'));
-        entries.push(this.createEntry(thema, 'der Abend,-e'));
-        entries.push(this.createEntry(thema, 'die Nacht, ̈-e'));
+        entries.push(new Builder().thema(thema).entry('Tag').get());
+        entries.push(new Builder().thema(thema).entry('Tageszeit').get());
+        entries.push(new Builder().thema(thema).entry('der Tag').get());
+        entries.push(new Builder().thema(thema).entry('der Morgen').get());
+        entries.push(new Builder().thema(thema).entry('der Vormittag,-e').get());
+        entries.push(new Builder().thema(thema).entry('der Mittag').get());
+        entries.push(new Builder().thema(thema).entry('der Nachmittag,-e').get());
+        entries.push(new Builder().thema(thema).entry('der Abend,-e').get());
+        entries.push(new Builder().thema(thema).entry('die Nacht, ̈-e').get());
         return entries;
     }
 
-    createMonatEntries() {
+    createMonatEntries(Builder) {
         let entries = [];
         let thema = 'Monat/Monatsnamen';
-        entries.push(this.createEntry(thema, 'Monat'));
-        entries.push(this.createEntry(thema, 'Monatsname'));
-        entries.push(this.createEntry(thema, 'der Januar'));
-        entries.push(this.createEntry(thema, 'der Februar'));
-        entries.push(this.createEntry(thema, 'der März'));
-        entries.push(this.createEntry(thema, 'der April'));
-        entries.push(this.createEntry(thema, 'der Mai'));
-        entries.push(this.createEntry(thema, 'der Juni'));
-        entries.push(this.createEntry(thema, 'der Juli'));
-        entries.push(this.createEntry(thema, 'der August'));
-        entries.push(this.createEntry(thema, 'der September'));
-        entries.push(this.createEntry(thema, 'der Oktober'));
-        entries.push(this.createEntry(thema, 'der November'));
-        entries.push(this.createEntry(thema, 'der Dezember'));
+        entries.push(new Builder().thema(thema).entry('Monat').get());
+        entries.push(new Builder().thema(thema).entry('Monatsname').get());
+        entries.push(new Builder().thema(thema).entry('der Januar').get());
+        entries.push(new Builder().thema(thema).entry('der Februar').get());
+        entries.push(new Builder().thema(thema).entry('der März').get());
+        entries.push(new Builder().thema(thema).entry('der April').get());
+        entries.push(new Builder().thema(thema).entry('der Mai').get());
+        entries.push(new Builder().thema(thema).entry('der Juni').get());
+        entries.push(new Builder().thema(thema).entry('der Juli').get());
+        entries.push(new Builder().thema(thema).entry('der August').get());
+        entries.push(new Builder().thema(thema).entry('der September').get());
+        entries.push(new Builder().thema(thema).entry('der Oktober').get());
+        entries.push(new Builder().thema(thema).entry('der November').get());
+        entries.push(new Builder().thema(thema).entry('der Dezember').get());
         return entries;
     }
 
-    createJahrEntries() {
+    createJahrEntries(Builder) {
         let entries = [];
         let thema = 'Jahr/Jahreszeiten';
-        entries.push(this.createEntry(thema, 'Jahr'));
-            entries.push(this.createEntry(thema, 'Jahreszeit'));
-        entries.push(this.createEntry(thema, 'der Frühling/das Frühjahr'));
-        entries.push(this.createEntry(thema, 'der Sommer'));
-        entries.push(this.createEntry(thema, 'der Herbst'));
-        entries.push(this.createEntry(thema, 'der Winter'));
+        entries.push(new Builder().thema(thema).entry('Jahr').get());
+            entries.push(new Builder().thema(thema).entry('Jahreszeit').get());
+        entries.push(new Builder().thema(thema).entry('der Frühling/das Frühjahr').get());
+        entries.push(new Builder().thema(thema).entry('der Sommer').get());
+        entries.push(new Builder().thema(thema).entry('der Herbst').get());
+        entries.push(new Builder().thema(thema).entry('der Winter').get());
         return entries;
     }
 
-    createWaehrungenEntries() {
+    createWaehrungenEntries(Builder) {
         let entries = [];
         let thema = 'Währungen';
-        entries.push(this.createEntry(thema, 'Währung'));
-        entries.push(this.createEntry(thema, '1 Euro'));
-        entries.push(this.createEntry(thema, '100 Cent'));
+        entries.push(new Builder().thema(thema).entry('Währung').get());
+        entries.push(new Builder().thema(thema).entry('1 Euro').get());
+        entries.push(new Builder().thema(thema).entry('100 Cent').get());
         return entries;
     }
 
-    createMasseUndGewichteEntries() {
+    createMasseUndGewichteEntries(Builder) {
         let entries = [];
         let thema = 'Maße und Gewichte';
-        entries.push(this.createEntry(thema, 'Maße'));
-        entries.push(this.createEntry(thema, 'Gewicht'));
-        entries.push(this.createEntry(thema, 'ein Meter', '1 m'));
-        entries.push(this.createEntry(thema, 'ein Zentimeter', '1 cm'));
-        entries.push(this.createEntry(thema, 'ein Meter fünfzehn', '1,15 m'));
-        entries.push(this.createEntry(thema, 'zweihundert Kilometer', '200 km'));
-        entries.push(this.createEntry(thema, 'ein Quadratmeter', '1 m2'));
-        entries.push(this.createEntry(thema, 'ein Grad unter Null/minus ein Grad', '– 1°'));
-        entries.push(this.createEntry(thema, 'vier Grad über Null/plus vier Grad', '+ 4°'));
-        entries.push(this.createEntry(thema, 'ein Prozent', '1 %'));
-        entries.push(this.createEntry(thema, 'ein Liter', '1 l'));
-        entries.push(this.createEntry(thema, 'ein Gramm', '1 g'));
-        entries.push(this.createEntry(thema, 'ein Pfund', '500 g'));
-        entries.push(this.createEntry(thema, 'ein Kilo(gramm)', '1 kg'));
+        entries.push(new Builder().thema(thema).entry('Maße').get());
+        entries.push(new Builder().thema(thema).entry('Gewicht').get());
+        entries.push(new Builder().thema(thema).entry('ein Meter').alternative('1 m').get());
+        entries.push(new Builder().thema(thema).entry('ein Zentimeter').alternative('1 cm').get());
+        entries.push(new Builder().thema(thema).entry('ein Meter fünfzehn').alternative('1,15 m').get());
+        entries.push(new Builder().thema(thema).entry('zweihundert Kilometer').alternative('200 km').get());
+        entries.push(new Builder().thema(thema).entry('ein Quadratmeter').alternative('1 m2').get());
+        entries.push(new Builder().thema(thema).entry('ein Grad unter Null/minus ein Grad').alternative('– 1°').get());
+        entries.push(new Builder().thema(thema).entry('vier Grad über Null/plus vier Grad').alternative('+ 4°').get());
+        entries.push(new Builder().thema(thema).entry('ein Prozent').alternative('1 %').get());
+        entries.push(new Builder().thema(thema).entry('ein Liter').alternative('1 l').get());
+        entries.push(new Builder().thema(thema).entry('ein Gramm').alternative('1 g').get());
+        entries.push(new Builder().thema(thema).entry('ein Pfund').alternative('500 g').get());
+        entries.push(new Builder().thema(thema).entry('ein Kilo(gramm)').alternative('1 kg').get());
         return entries;
     }
 
-    createLaenderEntries() {
+    createLaenderEntries(Builder) {
         let entries = [];
         let thema = 'Länder/Ländernamen/Nationalitäten';
-        entries.push(this.createEntry(thema, 'Land'));
-        entries.push(this.createEntry(thema, 'Ländername'));
-        entries.push(this.createEntry(thema, 'Nationalität'));
-        entries.push(this.createEntry(thema, 'Deutschland'));
-        entries.push(this.createEntry(thema, 'der/die Deutsche, -n'));
-        entries.push(this.createEntry(thema, 'ein Deutscher, eine Deutsche, Deutsche'));
-        entries.push(this.createEntry(thema, 'deutsch'));
-        entries.push(this.createEntry(thema, 'Europa'));
-        entries.push(this.createEntry(thema, 'Europäer'));
-        entries.push(this.createEntry(thema, 'europäisch'));
-        entries.push(this.createEntry(thema, 'Herkunft'));
-        entries.push(this.createEntry(thema, 'Bewohner'));
-        entries.push(this.createEntry(thema, 'die Schweiz'));
-        entries.push(this.createEntry(thema, 'der Schweizer, die Schweizerin'));
+        entries.push(new Builder().thema(thema).entry('Land').get());
+        entries.push(new Builder().thema(thema).entry('Ländername').get());
+        entries.push(new Builder().thema(thema).entry('Nationalität').get());
+        entries.push(new Builder().thema(thema).entry('Deutschland').get());
+        entries.push(new Builder().thema(thema).entry('der/die Deutsche, -n').get());
+        entries.push(new Builder().thema(thema).entry('ein Deutscher, eine Deutsche, Deutsche').get());
+        entries.push(new Builder().thema(thema).entry('deutsch').get());
+        entries.push(new Builder().thema(thema).entry('Europa').get());
+        entries.push(new Builder().thema(thema).entry('Europäer').get());
+        entries.push(new Builder().thema(thema).entry('europäisch').get());
+        entries.push(new Builder().thema(thema).entry('Herkunft').get());
+        entries.push(new Builder().thema(thema).entry('Bewohner').get());
+        entries.push(new Builder().thema(thema).entry('die Schweiz').get());
+        entries.push(new Builder().thema(thema).entry('der Schweizer, die Schweizerin').get());
         return entries;
     }
 
-    createFarbenEntries() {
+    createFarbenEntries(Builder) {
         let entries = [];
         let thema = 'Farben';
-        entries.push(this.createEntry(thema, 'Farbe'));
-        entries.push(this.createEntry(thema, 'schwarz'));
-        entries.push(this.createEntry(thema, 'grau'));
-        entries.push(this.createEntry(thema, 'blau'));
-        entries.push(this.createEntry(thema, 'grün'));
-        entries.push(this.createEntry(thema, 'weiß'));
-        entries.push(this.createEntry(thema, 'rot'));
-        entries.push(this.createEntry(thema, 'gelb'));
-        entries.push(this.createEntry(thema, 'braun'));
+        entries.push(new Builder().thema(thema).entry('Farbe').get());
+        entries.push(new Builder().thema(thema).entry('schwarz').get());
+        entries.push(new Builder().thema(thema).entry('grau').get());
+        entries.push(new Builder().thema(thema).entry('blau').get());
+        entries.push(new Builder().thema(thema).entry('grün').get());
+        entries.push(new Builder().thema(thema).entry('weiß').get());
+        entries.push(new Builder().thema(thema).entry('rot').get());
+        entries.push(new Builder().thema(thema).entry('gelb').get());
+        entries.push(new Builder().thema(thema).entry('braun').get());
         return entries;
     }
 
-    createHimmelsrichtungenEntries() {
+    createHimmelsrichtungenEntries(Builder) {
         let entries = [];
         let thema = 'Himmelsrichtungen';
-        entries.push(this.createEntry(thema, 'Himmelsrichtung'));
-        entries.push(this.createEntry(thema, 'der Norden'));
-        entries.push(this.createEntry(thema, 'der Süden'));
-        entries.push(this.createEntry(thema, 'der Westen'));
-        entries.push(this.createEntry(thema, 'der Westen'));
+        entries.push(new Builder().thema(thema).entry('Himmelsrichtung').get());
+        entries.push(new Builder().thema(thema).entry('der Norden').get());
+        entries.push(new Builder().thema(thema).entry('der Süden').get());
+        entries.push(new Builder().thema(thema).entry('der Westen').get());
+        entries.push(new Builder().thema(thema).entry('der Westen').get());
         return entries;
     }
 
-    createAEntries() {
+    createAEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'A'];
-        entries.push(this.createEntry(thema, 'ab', null, 'Ab morgen muss ich arbeiten.'));
-        entries.push(this.createEntry(thema, 'aber', null, 'Ich bin oft im Büro, aber nur für wenige Stunden.'));
-        entries.push(this.createEntry(thema, 'abfahren', null, 'Wir fahren um zwölf Uhr ab.'));
-        entries.push(this.createEntry(thema, 'die Abfahrt', null, 'Vor der Abfahrt rufe ich an.'));
-        entries.push(this.createEntry(thema, 'abgeben', null, 'Ich muss meine Schlüssel abgeben.'));
-        entries.push(this.createEntry(thema, 'abholen', null, ['Wann kann ich den Schrank bei dir abholen?', 'Wir müssen noch meinen Bruder abholen.']));
-        entries.push(this.createEntry(thema, 'der Absender', null, 'Da ist ein Brief für dich ohne Absender.'));
-        entries.push(this.createEntry(thema, 'Achtung', null, 'Achtung! Das dürfen Sie nicht tun.'));
-        entries.push(this.createEntry(thema, 'die Adresse,-en', null, 'Können Sie mir seine Adresse sagen?'));
-        entries.push(this.createEntry(thema, 'all-', null, ['Alles Gute!', 'Das ist alles.', 'Sind alle da?', 'Alle Freunde kommen.', 'Hast du alles?']));
-        entries.push(this.createEntry(thema, 'allein', null, 'Er kommt allein.'));
-        entries.push(this.createEntry(thema, 'also', null, ['Also, es ist so: ...', 'Er hat Zeit, also muss er uns helfen.']));
-        entries.push(this.createEntry(thema, 'alt', null, ['Wie alt sind Sie?', 'Sie sehen aber nicht so alt aus.', 'Mein Auto ist schon sehr alt.', 'Wir wohnen in einem sehr alten Haus.', 'Köln ist eine alte Stadt.']));
-        entries.push(this.createEntry(thema, 'das Alter', null, 'Alter: 26 Jahre.'));
-        entries.push(this.createEntry(thema, 'an', null, ['Fahren Sie an der nächsten Straße nach rechts.', 'Wir treffen uns am Bahnhof.', 'Am nächsten Montag geht es leider nicht.']));
-        entries.push(this.createEntry(thema, 'anbieten', null, 'Was darf ich dir anbieten?'));
-        entries.push(this.createEntry(thema, 'das Angebot, -e', null, 'Heute sind Sportschuhe im Angebot.'));
-        entries.push(this.createEntry(thema, 'ander-', null, ['WiIlst du diese Jacke?\n– Nein, ich möchte die andere.']));
-        entries.push(this.createEntry(thema, 'anfangen', null, ['Hier fängt die Bahnhofstraße an.', 'Der Unterricht fängt gleich an.']));
-        entries.push(this.createEntry(thema, 'der Anfang', null, ['Sie wohnt am Anfang der Straße.', 'Wir machen Anfang Juli Urlaub.']));
-        entries.push(this.createEntry(thema, 'anklicken', null, 'Da musst du dieses Wort anklicken.'));
-        entries.push(this.createEntry(thema, 'ankommen', null, 'Wann kommt dieser Zug in Hamburg an?'));
-        entries.push(this.createEntry(thema, 'die Ankunft', null, 'Auf diesem Plan steht nur die Ankunft(-szeit) der Züge.'));
-        entries.push(this.createEntry(thema, 'ankreuzen', null, 'Auf dem Formular müssen Sie an mehreren Stellen etwas ankreuzen.'));
-        entries.push(this.createEntry(thema, 'anmachen', null, 'Mach bitte das Licht an!'));
-        entries.push(this.createEntry(thema, '(sich) anmelden', null, 'Wo kann ich mich anmelden?'));
-        entries.push(this.createEntry(thema, 'die Anmeldung', null, 'Eine Anmeldung für diesen Kurs ist nicht mehr möglich.'));
-        entries.push(this.createEntry(thema, 'die Anrede', null, 'Schreiben Sie auch eine Anrede und einen Gruß.'));
-        entries.push(this.createEntry(thema, 'anrufen', null, ['Kann man Sie anrufen?', 'Peter ruft kurz seine Freundin an.']));
-        entries.push(this.createEntry(thema, 'der Anruf, -e', null, 'Sie bekommt viele Anrufe auf ihrem Handy.'));
-        entries.push(this.createEntry(thema, 'der Anrufbeantworter', null, 'Wir sind im Moment nicht da. Sprechen Sie bitte auf den Anrufbeantworter.'));
-        entries.push(this.createEntry(thema, 'die Ansage, -n', null, 'Hören Sie die Ansagen.'));
-        entries.push(this.createEntry(thema, 'der Anschluss', null, ['In Mannheim haben Sie Anschluss nach Saarbrücken.', 'Ist das die Anmeldung für einen Telefonanschluss?']));
-        entries.push(this.createEntry(thema, 'an sein', null, 'Heute Nacht war das Licht an.'));
-        entries.push(this.createEntry(thema, 'antworten', null, 'Er antwortet nicht.'));
-        entries.push(this.createEntry(thema, 'die Antwort, -en', null, 'Er gibt leider keine Antwort.'));
-        entries.push(this.createEntry(thema, 'die Anzeige, -n', null, 'Ich habe Ihre Anzeige in der Zeitung gelesen.'));
-        entries.push(this.createEntry(thema, '(sich) anziehen', null, 'Ich muss mich noch anziehen.'));
-        entries.push(this.createEntry(thema, 'das Apartment, -s', null, 'Wir haben ein Apartment gemietet.'));
-        entries.push(this.createEntry(thema, 'der Apfel, -Ä', null, 'Ein Pfund Äpfel bitte.'));
-        entries.push(this.createEntry(thema, 'der Appetit', null, 'Guten Appetit!'));
-        entries.push(this.createEntry(thema, 'arbeiten', null, 'Wo arbeiten Sie?'));
-        entries.push(this.createEntry(thema, 'die Arbeit, -en', null, 'Mein Bruder sucht Arbeit.'));
-        entries.push(this.createEntry(thema, 'arbeitslos', null, 'Es gibt bei uns viele Leute, die schon lange arbeitslos sind.'));
-        entries.push(this.createEntry(thema, 'der Arbeitsplatz, -ä, e', null, 'An meinem Arbeitsplatz fehlt ein Drucker.'));
-        entries.push(this.createEntry(thema, 'der Arm, -e', null, 'Mein Arm tut weh.'));
-        entries.push(this.createEntry(thema, 'der Arzt, -Ä, e', null, 'Morgen habe ich einen Termin bei meiner Ärztin.'));
-        entries.push(this.createEntry(thema, 'auch', null, 'Ich bin auch Spanier.'));
-        entries.push(this.createEntry(thema, 'auf', null, ['Die Kinder spielen auf der Straße.', 'Auf Wiedersehen.', 'Wie heißt das auf Deutsch?']));
-        entries.push(this.createEntry(thema, 'die Aufgabe, -n', null, 'Das ist eine schwere Aufgabe.'));
-        entries.push(this.createEntry(thema, 'aufhören', null, ['Der Kurs hört in einer Woche auf.', 'Hier hört die Bahnhofstraße auf.']));
-        entries.push(this.createEntry(thema, 'auf sein', null, 'Du brauchst den Schlüssel nicht. Die Wohnung ist auf.'));
-        entries.push(this.createEntry(thema, 'aufstehen', null, ['Ich muss immer um vier Uhr aufstehen.', 'Soll ich aufstehen?']));
-        entries.push(this.createEntry(thema, 'der Aufzug, -ü, e', null, 'In diesem Haus gibt es keinen Aufzug.'));
-        entries.push(this.createEntry(thema, 'das Auge, -n', null, 'Er hat blaue Augen.'));
-        entries.push(this.createEntry(thema, 'aus', null, 'Er kommt aus Brasilien.'));
-        entries.push(this.createEntry(thema, 'der Ausflug', null, 'Morgen machen wir einen Ausflug nach Heidelberg.'));
-        entries.push(this.createEntry(thema, 'ausfüllen', null, 'Füllen Sie bitte dieses Formular aus.'));
-        entries.push(this.createEntry(thema, 'der Ausgang', null, 'Wo ist der Ausgang?'));
-        entries.push(this.createEntry(thema, 'die Auskunft, -ü, e', null, 'Können Sie mir eine Auskunft geben?'));
-        entries.push(this.createEntry(thema, 'das Ausland', null, 'Fahren Sie ins Ausland?'));
-        entries.push(this.createEntry(thema, 'der Ausländer, -', null, 'Sind Sie Ausländerin?'));
-        entries.push(this.createEntry(thema, 'ausländisch', null, 'Leider habe ich nur ausländisches Geld.'));
-        entries.push(this.createEntry(thema, 'ausmachen', null, 'Mach bitte das Licht aus!'));
-        entries.push(this.createEntry(thema, 'die Aussage, -n', null, 'Ist die Aussage richtig oder falsch?'));
-        entries.push(this.createEntry(thema, 'aussehen', null, 'Das sieht schön aus.'));
-        entries.push(this.createEntry(thema, 'aus sein', null, ['Das Licht ist aus.', 'Die Schule ist aus.']));
-        entries.push(this.createEntry(thema, 'aussteigen', null, 'Wo muss ich aussteigen?'));
-        entries.push(this.createEntry(thema, 'der Ausweis', null, 'Hier ist mein Ausweis.'));
-        entries.push(this.createEntry(thema, '(sich) ausziehen', null, 'Zieh die Schuhe aus, bitte!'));
-        entries.push(this.createEntry(thema, 'das Auto, -s', null, 'Er kommt mit dem Auto.'));
-        entries.push(this.createEntry(thema, 'die Autobahn, -en', null, 'Wo geht‘s hier bitte zur Autobahn?'));
-        entries.push(this.createEntry(thema, 'der Automat', null, 'Die Fahrkarten gibt es nur am Automaten.'));
-        entries.push(this.createEntry(thema, 'automatisch', null, 'Du musst nichts machen. Das geht automatisch.'));
+        entries.push(new Builder().thema(thema).entry('ab').example('Ab morgen muss ich arbeiten.').get());
+        entries.push(new Builder().thema(thema).entry('aber').example('Ich bin oft im Büro, aber nur für wenige Stunden.').get());
+        entries.push(new Builder().thema(thema).entry('abfahren').example('Wir fahren um zwölf Uhr ab.').get());
+        entries.push(new Builder().thema(thema).entry('die Abfahrt').example('Vor der Abfahrt rufe ich an.').get());
+        entries.push(new Builder().thema(thema).entry('abgeben').example('Ich muss meine Schlüssel abgeben.').get());
+        entries.push(new Builder().thema(thema).entry('abholen').example(['Wann kann ich den Schrank bei dir abholen?', 'Wir müssen noch meinen Bruder abholen.']).get());
+        entries.push(new Builder().thema(thema).entry('der Absender').example('Da ist ein Brief für dich ohne Absender.').get());
+        entries.push(new Builder().thema(thema).entry('Achtung').example('Achtung! Das dürfen Sie nicht tun.').get());
+        entries.push(new Builder().thema(thema).entry('die Adresse,-en').example('Können Sie mir seine Adresse sagen?').get());
+        entries.push(new Builder().thema(thema).entry('all-').example(['Alles Gute!', 'Das ist alles.', 'Sind alle da?', 'Alle Freunde kommen.', 'Hast du alles?']).get());
+        entries.push(new Builder().thema(thema).entry('allein').example('Er kommt allein.').get());
+        entries.push(new Builder().thema(thema).entry('also').example(['Also, es ist so: ...', 'Er hat Zeit, also muss er uns helfen.']).get());
+        entries.push(new Builder().thema(thema).entry('alt').example(['Wie alt sind Sie?', 'Sie sehen aber nicht so alt aus.', 'Mein Auto ist schon sehr alt.', 'Wir wohnen in einem sehr alten Haus.', 'Köln ist eine alte Stadt.']).get());
+        entries.push(new Builder().thema(thema).entry('das Alter').example('Alter: 26 Jahre.').get());
+        entries.push(new Builder().thema(thema).entry('an').example(['Fahren Sie an der nächsten Straße nach rechts.', 'Wir treffen uns am Bahnhof.', 'Am nächsten Montag geht es leider nicht.']).get());
+        entries.push(new Builder().thema(thema).entry('anbieten').example('Was darf ich dir anbieten?').get());
+        entries.push(new Builder().thema(thema).entry('das Angebot, -e').example('Heute sind Sportschuhe im Angebot.').get());
+        entries.push(new Builder().thema(thema).entry('ander-').example(['WiIlst du diese Jacke?\n– Nein, ich möchte die andere.']).get());
+        entries.push(new Builder().thema(thema).entry('anfangen').example(['Hier fängt die Bahnhofstraße an.', 'Der Unterricht fängt gleich an.']).get());
+        entries.push(new Builder().thema(thema).entry('der Anfang').example(['Sie wohnt am Anfang der Straße.', 'Wir machen Anfang Juli Urlaub.']).get());
+        entries.push(new Builder().thema(thema).entry('anklicken').example('Da musst du dieses Wort anklicken.').get());
+        entries.push(new Builder().thema(thema).entry('ankommen').example('Wann kommt dieser Zug in Hamburg an?').get());
+        entries.push(new Builder().thema(thema).entry('die Ankunft').example('Auf diesem Plan steht nur die Ankunft(-szeit) der Züge.').get());
+        entries.push(new Builder().thema(thema).entry('ankreuzen').example('Auf dem Formular müssen Sie an mehreren Stellen etwas ankreuzen.').get());
+        entries.push(new Builder().thema(thema).entry('anmachen').example('Mach bitte das Licht an!').get());
+        entries.push(new Builder().thema(thema).entry('(sich) anmelden').example('Wo kann ich mich anmelden?').get());
+        entries.push(new Builder().thema(thema).entry('die Anmeldung').example('Eine Anmeldung für diesen Kurs ist nicht mehr möglich.').get());
+        entries.push(new Builder().thema(thema).entry('die Anrede').example('Schreiben Sie auch eine Anrede und einen Gruß.').get());
+        entries.push(new Builder().thema(thema).entry('anrufen').example(['Kann man Sie anrufen?', 'Peter ruft kurz seine Freundin an.']).get());
+        entries.push(new Builder().thema(thema).entry('der Anruf, -e').example('Sie bekommt viele Anrufe auf ihrem Handy.').get());
+        entries.push(new Builder().thema(thema).entry('der Anrufbeantworter').example('Wir sind im Moment nicht da. Sprechen Sie bitte auf den Anrufbeantworter.').get());
+        entries.push(new Builder().thema(thema).entry('die Ansage, -n').example('Hören Sie die Ansagen.').get());
+        entries.push(new Builder().thema(thema).entry('der Anschluss').example(['In Mannheim haben Sie Anschluss nach Saarbrücken.', 'Ist das die Anmeldung für einen Telefonanschluss?']).get());
+        entries.push(new Builder().thema(thema).entry('an sein').example('Heute Nacht war das Licht an.').get());
+        entries.push(new Builder().thema(thema).entry('antworten').example('Er antwortet nicht.').get());
+        entries.push(new Builder().thema(thema).entry('die Antwort, -en').example('Er gibt leider keine Antwort.').get());
+        entries.push(new Builder().thema(thema).entry('die Anzeige, -n').example('Ich habe Ihre Anzeige in der Zeitung gelesen.').get());
+        entries.push(new Builder().thema(thema).entry('(sich) anziehen').example('Ich muss mich noch anziehen.').get());
+        entries.push(new Builder().thema(thema).entry('das Apartment, -s').example('Wir haben ein Apartment gemietet.').get());
+        entries.push(new Builder().thema(thema).entry('der Apfel, -Ä').example('Ein Pfund Äpfel bitte.').get());
+        entries.push(new Builder().thema(thema).entry('der Appetit').example('Guten Appetit!').get());
+        entries.push(new Builder().thema(thema).entry('arbeiten').example('Wo arbeiten Sie?').get());
+        entries.push(new Builder().thema(thema).entry('die Arbeit, -en').example('Mein Bruder sucht Arbeit.').get());
+        entries.push(new Builder().thema(thema).entry('arbeitslos').example('Es gibt bei uns viele Leute, die schon lange arbeitslos sind.').get());
+        entries.push(new Builder().thema(thema).entry('der Arbeitsplatz, -ä, e').example('An meinem Arbeitsplatz fehlt ein Drucker.').get());
+        entries.push(new Builder().thema(thema).entry('der Arm, -e').example('Mein Arm tut weh.').get());
+        entries.push(new Builder().thema(thema).entry('der Arzt, -Ä, e').example('Morgen habe ich einen Termin bei meiner Ärztin.').get());
+        entries.push(new Builder().thema(thema).entry('auch').example('Ich bin auch Spanier.').get());
+        entries.push(new Builder().thema(thema).entry('auf').example(['Die Kinder spielen auf der Straße.', 'Auf Wiedersehen.', 'Wie heißt das auf Deutsch?']).get());
+        entries.push(new Builder().thema(thema).entry('die Aufgabe, -n').example('Das ist eine schwere Aufgabe.').get());
+        entries.push(new Builder().thema(thema).entry('aufhören').example(['Der Kurs hört in einer Woche auf.', 'Hier hört die Bahnhofstraße auf.']).get());
+        entries.push(new Builder().thema(thema).entry('auf sein').example('Du brauchst den Schlüssel nicht. Die Wohnung ist auf.').get());
+        entries.push(new Builder().thema(thema).entry('aufstehen').example(['Ich muss immer um vier Uhr aufstehen.', 'Soll ich aufstehen?']).get());
+        entries.push(new Builder().thema(thema).entry('der Aufzug, -ü, e').example('In diesem Haus gibt es keinen Aufzug.').get());
+        entries.push(new Builder().thema(thema).entry('das Auge, -n').example('Er hat blaue Augen.').get());
+        entries.push(new Builder().thema(thema).entry('aus').example('Er kommt aus Brasilien.').get());
+        entries.push(new Builder().thema(thema).entry('der Ausflug').example('Morgen machen wir einen Ausflug nach Heidelberg.').get());
+        entries.push(new Builder().thema(thema).entry('ausfüllen').example('Füllen Sie bitte dieses Formular aus.').get());
+        entries.push(new Builder().thema(thema).entry('der Ausgang').example('Wo ist der Ausgang?').get());
+        entries.push(new Builder().thema(thema).entry('die Auskunft, -ü, e').example('Können Sie mir eine Auskunft geben?').get());
+        entries.push(new Builder().thema(thema).entry('das Ausland').example('Fahren Sie ins Ausland?').get());
+        entries.push(new Builder().thema(thema).entry('der Ausländer, -').example('Sind Sie Ausländerin?').get());
+        entries.push(new Builder().thema(thema).entry('ausländisch').example('Leider habe ich nur ausländisches Geld.').get());
+        entries.push(new Builder().thema(thema).entry('ausmachen').example('Mach bitte das Licht aus!').get());
+        entries.push(new Builder().thema(thema).entry('die Aussage, -n').example('Ist die Aussage richtig oder falsch?').get());
+        entries.push(new Builder().thema(thema).entry('aussehen').example('Das sieht schön aus.').get());
+        entries.push(new Builder().thema(thema).entry('aus sein').example(['Das Licht ist aus.', 'Die Schule ist aus.']).get());
+        entries.push(new Builder().thema(thema).entry('aussteigen').example('Wo muss ich aussteigen?').get());
+        entries.push(new Builder().thema(thema).entry('der Ausweis').example('Hier ist mein Ausweis.').get());
+        entries.push(new Builder().thema(thema).entry('(sich) ausziehen').example('Zieh die Schuhe aus, bitte!').get());
+        entries.push(new Builder().thema(thema).entry('das Auto, -s').example('Er kommt mit dem Auto.').get());
+        entries.push(new Builder().thema(thema).entry('die Autobahn, -en').example('Wo geht‘s hier bitte zur Autobahn?').get());
+        entries.push(new Builder().thema(thema).entry('der Automat').example('Die Fahrkarten gibt es nur am Automaten.').get());
+        entries.push(new Builder().thema(thema).entry('automatisch').example('Du musst nichts machen. Das geht automatisch.').get());
         return entries;
     }
 
-    createBEntries() {
+    createBEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'B'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+        entries.push(new Builder().thema(thema).entry('das Baby, -s').example('Mein Kind ist noch ein Baby.').get());
+        entries.push(new Builder().thema(thema).entry('die Bäckerei').example('Ich geh mal schnell zur Bäckerei.').get());
+        // TODO
+        entries.push(new Builder().thema(thema).entry('das Bad').example('').get());
+        entries.push(new Builder().thema(thema).entry('baden').example('').get());
+        entries.push(new Builder().thema(thema).entry('die Bahn').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Bahnhof').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Bahnsteig').example('').get());
+        entries.push(new Builder().thema(thema).entry('bald').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Balkon').example('').get());
+        entries.push(new Builder().thema(thema).entry('die Banane, -n').example('').get());
+        entries.push(new Builder().thema(thema).entry('die Bank').example('').get());
+        entries.push(new Builder().thema(thema).entry('bar').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Bauch').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Baum, -ä, e').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Beamte, -n').example('').get());
+        entries.push(new Builder().thema(thema).entry('bedeuten').example('').get());
+        entries.push(new Builder().thema(thema).entry('beginnen').example('').get());
+        entries.push(new Builder().thema(thema).entry('bei').example('').get());
+        entries.push(new Builder().thema(thema).entry('beide').example('').get());
+        entries.push(new Builder().thema(thema).entry('das Bein, -e').example('').get());
+        entries.push(new Builder().thema(thema).entry('das Beispiel, -e').example('').get());
+        entries.push(new Builder().thema(thema).entry('zum Beispiel/z. B.').example('').get());
+        entries.push(new Builder().thema(thema).entry('bekannt').example('').get());
+        entries.push(new Builder().thema(thema).entry('der/die Bekannte, -n').example('').get());
+        entries.push(new Builder().thema(thema).entry('bekommen').example('').get());
+        entries.push(new Builder().thema(thema).entry('benutzen').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Beruf, -e').example('').get());
+        entries.push(new Builder().thema(thema).entry('besetzt').example('').get());
+        entries.push(new Builder().thema(thema).entry('besichtigen').example('').get());
+        entries.push(new Builder().thema(thema).entry('besser').example('').get());
+        entries.push(new Builder().thema(thema).entry('best-').example('').get());
+        entries.push(new Builder().thema(thema).entry('bestellen').example('').get());
+        entries.push(new Builder().thema(thema).entry('besuchen').example('').get());
+        entries.push(new Builder().thema(thema).entry('das Bett, -en').example('').get());
+        entries.push(new Builder().thema(thema).entry('bezahlen').example('').get());
+        entries.push(new Builder().thema(thema).entry('das Bier').example('').get());
+        entries.push(new Builder().thema(thema).entry('das Bild, -er').example('').get());
+        entries.push(new Builder().thema(thema).entry('billig').example('Die Jacke kostet nur 10 Euro! Die ist aber billig!').get());
+        entries.push(new Builder().thema(thema).entry('die Birne, -n').example('Ein Kilo Birnen, bitte!').get());
+        entries.push(new Builder().thema(thema).entry('bis').example('').get());
+        entries.push(new Builder().thema(thema).entry('bisschen').example('').get());
+        entries.push(new Builder().thema(thema).entry('bitte').example('').get());
+        entries.push(new Builder().thema(thema).entry('die Bitte, -n').example('').get());
+        entries.push(new Builder().thema(thema).entry('bitten').example('').get());
+        entries.push(new Builder().thema(thema).entry('bitter').example('').get());
+        entries.push(new Builder().thema(thema).entry('bleiben').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Bleistift, -e').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Blick').example('').get());
+        entries.push(new Builder().thema(thema).entry('die Blume, -n').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Bogen').example('').get());
+        entries.push(new Builder().thema(thema).entry('böse').example('').get());
+        entries.push(new Builder().thema(thema).entry('brauchen').example('').get());
+        entries.push(new Builder().thema(thema).entry('breit').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Brief, -e').example('').get());
+        entries.push(new Builder().thema(thema).entry('die Briefmarke, -n').example('').get());
+        entries.push(new Builder().thema(thema).entry('bringen').example('').get());
+        entries.push(new Builder().thema(thema).entry('das Brot, -e').example('').get());
+        entries.push(new Builder().thema(thema).entry('das Brötchen, –').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Bruder, -ü').example('').get());
+        entries.push(new Builder().thema(thema).entry('das Buch, -ü, er').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Buchstabe, -n').example('').get());
+        entries.push(new Builder().thema(thema).entry('buchstabieren').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Bus, -se').example('').get());
+        entries.push(new Builder().thema(thema).entry('die Butter').example('').get());
         return entries;
     }
 
-    createCEntries() {
+    createCEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'C'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createDEntries() {
+    createDEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'D'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createEEntries() {
+    createEEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'E'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createFEntries() {
+    createFEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'F'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createGEntries() {
+    createGEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'G'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createHEntries() {
+    createHEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'H'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createIEntries() {
+    createIEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'I'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createJEntries() {
+    createJEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'J'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createKEntries() {
+    createKEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'K'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createLEntries() {
+    createLEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'L'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createMEntries() {
+    createMEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'M'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createNEntries() {
+    createNEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'N'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createOEntries() {
+    createOEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'O'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createPEntries() {
+    createPEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'P'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createREntries() {
+    createREntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'R'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createSEntries() {
+    createSEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'S'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createTEntries() {
+    createTEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'T'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createUEntries() {
+    createUEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'U'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createVEntries() {
+    createVEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'V'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createWEntries() {
+    createWEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'W'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
-    createZEntries() {
+    createZEntries(Builder) {
         let entries = [];
         let thema = ['Alphabetische Wortliste', 'Z'];
-//        entries.push(this.createEntry(thema, '', null, ''));
+//        entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
-    }
-
-    createEntry(thema, entry, alternative, examples) {
-        let result = {
-            type: 'vocabulary',
-            level: 'a1',
-            source: ['Goethe Institut', 'GOETHE-ZERTIFIKAT A1 START DEUTSCH 1', 'PRÜFUNGSZIELE TESTBESCHREIBUNG', 'ISBN 978-3-939670-76-6']
-        };
-        if (!!thema) {
-            result.thema = thema;
-        }
-        if (!!entry) {
-            result.entry = entry;
-        }
-        if (!!alternative) {
-            result.alternative = alternative;
-        }
-        if (!!examples) {
-            result.examples = examples;
-        }
-        return result;
     }
 
     getEntries() {
