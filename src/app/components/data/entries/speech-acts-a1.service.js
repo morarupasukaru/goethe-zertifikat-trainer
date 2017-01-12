@@ -7,7 +7,7 @@ class SpeechActsA1Service {
 
     createEntries(Builder) {
         this.entries = [];
-        this.addEntries(this.createEntries(Builder));
+        this.addEntries(this.createSpeechActsEntries(Builder));
     }
 
     addEntries(newEntries) {
@@ -16,10 +16,17 @@ class SpeechActsA1Service {
         }
     }
 
-    createEntries(Builder) {
+    createSpeechActsEntries(Builder) {
         let entries = [];
-        let thema = 'xyz';
-        entries.push(new Builder().thema(thema).entry('xyz').get());
+        let thema = ['Sprachhandlungen', 'Informationsaustausch', 'benennen/definieren/identifizieren'];
+        entries.push(new Builder().thema(thema).entry('Wer ist das?').get());
+        entries.push(new Builder().thema(thema).entry('Das ist Wolfgang/Frau Schuster/meine Kollegin.').get());
+        entries.push(new Builder().thema(thema).entry('Was ist das?').get());
+        entries.push(new Builder().thema(thema).entry('Das ist eine Blume.').get());
+        entries.push(new Builder().thema(thema).entry('Ist das eine Orange?').get());
+        entries.push(new Builder().thema(thema).entry('Nein, eine Zitrone.').get());
+        entries.push(new Builder().thema(thema).entry('Wie heißt das auf Deutsch?').get());
+        entries.push(new Builder().thema(thema).entry('Erklären Sie mal.').get());
         return entries;
     }
 

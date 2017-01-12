@@ -7,7 +7,7 @@ class StrategiesA1Service {
 
     createEntries(Builder) {
         this.entries = [];
-        this.addEntries(this.createEntries(Builder));
+        this.addEntries(this.createStrategiesEntries(Builder));
     }
 
     addEntries(newEntries) {
@@ -16,7 +16,7 @@ class StrategiesA1Service {
         }
     }
 
-    createEntries(Builder) {
+    createStrategiesEntries(Builder) {
         let entries = [];
         let thema = 'xyz';
         entries.push(new Builder().thema(thema).entry('xyz').get());

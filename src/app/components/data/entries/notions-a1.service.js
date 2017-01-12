@@ -7,7 +7,7 @@ class NotionsA1Service {
 
     createEntries(Builder) {
         this.entries = [];
-        this.addEntries(this.createEntries(Builder));
+        this.addEntries(this.createNotionsEntries(Builder));
     }
 
     addEntries(newEntries) {
@@ -16,7 +16,7 @@ class NotionsA1Service {
         }
     }
 
-    createEntries(Builder) {
+    createNotionsEntries(Builder) {
         let entries = [];
         let thema = 'xyz';
         entries.push(new Builder().thema(thema).entry('xyz').get());

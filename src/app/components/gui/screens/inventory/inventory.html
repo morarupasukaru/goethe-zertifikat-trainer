@@ -5,26 +5,35 @@
             <h2>Inventorare</h2>
 
 
-            <h2>Sprachhandlungen</h2>
-            <!-- TODO 56-65 -->
+            <h3>Sprachhandlungen</h3>
+            <ng-repeat ng-repeat="entry in $ctrl.speechActs">
+                <button>{{ entry.entry }}</button>
+            </ng-repeat>
 
-            <h2>Strategien</h2>
-            <!-- TODO 66-68 -->
+            <h3>Strategien</h3>
+            <ng-repeat ng-repeat="entry in $ctrl.strategies">
+                <button>{{ entry.entry }}</button>
+            </ng-repeat>
 
-            <h2>Notionen</h2>
-            <!-- TODO 69-75 -->
+            <h3>Notionen</h3>
+            <ng-repeat ng-repeat="entry in $ctrl.notions">
+                <button>{{ entry.entry }}</button>
+            </ng-repeat>
 
             <h3>Themen</h3>
-            <!-- TODO 76-77 -->
+            <ng-repeat ng-repeat="entry in $ctrl.themas">
+                <button>{{ entry.entry }}</button>
+            </ng-repeat>
 
             <h3>Wortschatz ({{ $ctrl.vocabulary.length }} Einträge)</h3>
-            <!-- TODO 78-99 -->
             <ng-repeat ng-repeat="entry in $ctrl.vocabulary">
                 <button>{{ entry.entry }}</button>
             </ng-repeat>
 
             <h3>Grammatik</h3>
-            <!-- TODO 101-106 -->
+            <ng-repeat ng-repeat="entry in $ctrl.grammar">
+                <button>{{ entry.entry }}</button>
+            </ng-repeat>
         </div>
     </div>
 </div>
