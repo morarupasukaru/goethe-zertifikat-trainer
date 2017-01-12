@@ -1,8 +1,8 @@
 class VocabularyA1Service {
 
     /*@ngInject*/
-    constructor(GoetheA1VocabularyBuilder) {
-        this.createEntries(GoetheA1VocabularyBuilder);
+    constructor(VocabularyBuilder) {
+        this.createEntries(VocabularyBuilder);
     }
 
     createEntries(Builder) {

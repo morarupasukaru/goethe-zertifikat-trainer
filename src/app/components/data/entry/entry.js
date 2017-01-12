@@ -4,6 +4,8 @@ let entryModule = angular.module('app.components.data.entry', [])
     .factory("EntryBuilder", function() {
         function Entry() {
             this.result = {};
+            this.result.level = 'a1';
+            this.result.source = ['Goethe Institut', 'GOETHE-ZERTIFIKAT A1 START DEUTSCH 1', 'PRÜFUNGSZIELE TESTBESCHREIBUNG', 'ISBN 978-3-939670-76-6'];
             Entry.prototype.thema = function(value) {
                 if (!!value) {
                     this.result.thema = value;
@@ -46,17 +48,22 @@ let entryModule = angular.module('app.components.data.entry', [])
             return Vocabulary;
         }
     )
-    .factory("GoetheA1VocabularyBuilder",
+    .factory("LanguageCapacityBuilder",
         /*@ngInject*/
-        function(VocabularyBuilder) {
-            function GoetheA1Vocabulary() {
-                VocabularyBuilder.call(this);
-                this.result.level = 'a1';
-                this.result.source = ['Goethe Institut', 'GOETHE-ZERTIFIKAT A1 START DEUTSCH 1', 'PRÜFUNGSZIELE TESTBESCHREIBUNG', 'ISBN 978-3-939670-76-6'];
+        function(EntryBuilder) {
+            function Vocabulary() {
+                EntryBuilder.call(this);
+                this.result.type = 'vocabulary';
             }
-            GoetheA1Vocabulary.prototype = Object.create(VocabularyBuilder.prototype);
-            GoetheA1Vocabulary.prototype.constructor = GoetheA1Vocabulary;
-            return GoetheA1Vocabulary;
+            Vocabulary.prototype = Object.create(EntryBuilder.prototype);
+            Vocabulary.prototype.alternative = function(value) {
+                if (!!value) {
+                    this.result.alternative = value;
+                }
+                return this;
+            };
+            Vocabulary.prototype.constructor = Vocabulary;
+            return Vocabulary;
         }
     );
 
