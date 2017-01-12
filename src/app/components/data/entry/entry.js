@@ -48,22 +48,64 @@ let entryModule = angular.module('app.components.data.entry', [])
             return Vocabulary;
         }
     )
-    .factory("LanguageCapacityBuilder",
+    .factory("SpeechActBuilder",
         /*@ngInject*/
         function(EntryBuilder) {
-            function Vocabulary() {
+            function LanguageCapacity() {
                 EntryBuilder.call(this);
-                this.result.type = 'vocabulary';
+                this.result.type = 'speechAct';
             }
-            Vocabulary.prototype = Object.create(EntryBuilder.prototype);
-            Vocabulary.prototype.alternative = function(value) {
-                if (!!value) {
-                    this.result.alternative = value;
-                }
-                return this;
-            };
-            Vocabulary.prototype.constructor = Vocabulary;
-            return Vocabulary;
+            LanguageCapacity.prototype = Object.create(EntryBuilder.prototype);
+            LanguageCapacity.prototype.constructor = LanguageCapacity;
+            return LanguageCapacity;
+        }
+    )
+    .factory("StrategyBuilder",
+        /*@ngInject*/
+        function(EntryBuilder) {
+            function Strategy() {
+                EntryBuilder.call(this);
+                this.result.type = 'strategy';
+            }
+            Strategy.prototype = Object.create(EntryBuilder.prototype);
+            Strategy.prototype.constructor = Strategy;
+            return Strategy;
+        }
+    )
+    .factory("NotionBuilder",
+        /*@ngInject*/
+        function(EntryBuilder) {
+            function Notion() {
+                EntryBuilder.call(this);
+                this.result.type = 'notion';
+            }
+            Notion.prototype = Object.create(EntryBuilder.prototype);
+            Notion.prototype.constructor = Notion;
+            return Notion;
+        }
+    )
+    .factory("ThemaBuilder",
+        /*@ngInject*/
+        function(EntryBuilder) {
+            function Notion() {
+                EntryBuilder.call(this);
+                this.result.type = 'thema';
+            }
+            Notion.prototype = Object.create(EntryBuilder.prototype);
+            Notion.prototype.constructor = Notion;
+            return Notion;
+        }
+    )
+    .factory("GrammarBuilder",
+        /*@ngInject*/
+        function(EntryBuilder) {
+            function Grammar() {
+                EntryBuilder.call(this);
+                this.result.type = 'grammar';
+            }
+            Grammar.prototype = Object.create(EntryBuilder.prototype);
+            Grammar.prototype.constructor = Grammar;
+            return Grammar;
         }
     );
 
