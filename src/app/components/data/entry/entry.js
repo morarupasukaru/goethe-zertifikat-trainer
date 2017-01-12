@@ -1,6 +1,8 @@
 import angular from 'angular';
+import vocabularyA1Service from './vocabulary-a1.service';
 
 let entryModule = angular.module('app.components.data.entry', [])
+    .service('vocabularyA1Service', vocabularyA1Service)
     .factory("EntryBuilder", function() {
         function Entry() {
             this.result = {};
