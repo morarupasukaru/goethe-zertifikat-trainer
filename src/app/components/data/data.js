@@ -1,8 +1,8 @@
 import angular from 'angular';
-import Entry from './entry/entry';
+import Entries from './entries/entries';
 
 let dataModule = angular.module('app.components.data', [
-    Entry.name
+    Entries.name
 ]);
 
 export default dataModule;

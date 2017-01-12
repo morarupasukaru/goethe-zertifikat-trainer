@@ -1,7 +1,17 @@
 import angular from 'angular';
+import grammarA1Service from './grammar-a1.service.js';
+import notionsA1Service from './notions-a1.service.js';
+import speechActsA1Service from './speech-acts-a1.service';
+import strategiesA1Service from './strategies-a1.service.js';
+import themasA1Service from './themas-a1.service.js';
 import vocabularyA1Service from './vocabulary-a1.service';
 
-let entryModule = angular.module('app.components.data.entry', [])
+let entriesModule = angular.module('app.components.data.entries', [])
+    .service('grammarA1Service', grammarA1Service)
+    .service('notionsA1Service', notionsA1Service)
+    .service('speechActsA1Service', speechActsA1Service)
+    .service('strategiesA1Service', strategiesA1Service)
+    .service('themasA1Service', themasA1Service)
     .service('vocabularyA1Service', vocabularyA1Service)
     .factory("EntryBuilder", function() {
         function Entry() {
@@ -111,4 +121,4 @@ let entryModule = angular.module('app.components.data.entry', [])
         }
     );
 
-export default entryModule;
+export default entriesModule;

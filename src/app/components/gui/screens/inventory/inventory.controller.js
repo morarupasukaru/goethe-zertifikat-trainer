@@ -1,7 +1,7 @@
 class HomeController {
     /*@ngInject*/
-    constructor(vocabularyA1Service) {
-        this.entries = vocabularyA1Service.getEntries();
+    constructor(grammarA1Service, notionsA1Service, speechActsA1Service, strategiesA1Service, themasA1Service, vocabularyA1Service) {
+        this.vocabulary = vocabularyA1Service.getEntries();
     }
 }
 

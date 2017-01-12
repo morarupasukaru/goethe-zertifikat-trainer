@@ -17,9 +17,9 @@
             <h3>Themen</h3>
             <!-- TODO 76-77 -->
 
-            <h3>Wortschatz ({{ $ctrl.entries.length }} Einträge)</h3>
+            <h3>Wortschatz ({{ $ctrl.vocabulary.length }} Einträge)</h3>
             <!-- TODO 78-99 -->
-            <ng-repeat ng-repeat="entry in $ctrl.entries">
+            <ng-repeat ng-repeat="entry in $ctrl.vocabulary">
                 <button>{{ entry.entry }}</button>
             </ng-repeat>
 
