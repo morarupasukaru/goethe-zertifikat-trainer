@@ -3,9 +3,11 @@ import uiRouter from 'angular-ui-router';
 
 import template from './inventory.html';
 import controller from './inventory.controller';
+import Entries from './entries';
+import Themas from './themas';
 
 let inventoryModule = angular.module('app.components.gui.screen.inventory', [
-    uiRouter
+    uiRouter, Entries.name, Themas.name
 ])
     .config(/*@ngInject*/($stateProvider, $urlRouterProvider) => {
         $urlRouterProvider.otherwise('/');

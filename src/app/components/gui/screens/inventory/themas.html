@@ -1,0 +1,4 @@
+<ng-repeat ng-repeat="row in $ctrl.data">
+    <h4>{{ row.thema }}</h4><!-- TODO h...-> -->
+    <entries entries="row.entries" ng-if="!!row.entries"></entries>
+</ng-repeat>

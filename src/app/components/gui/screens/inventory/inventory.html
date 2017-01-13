@@ -6,34 +6,23 @@
 
 
             <h3>Sprachhandlungen</h3>
-            <ng-repeat ng-repeat="entry in $ctrl.speechActs">
-                <button>{{ entry.entry }}</button>
-            </ng-repeat>
-
+            <themas themas="$ctrl.speechActs"></themas>
+<!--
             <h3>Strategien</h3>
-            <ng-repeat ng-repeat="entry in $ctrl.strategies">
-                <button>{{ entry.entry }}</button>
-            </ng-repeat>
+            <themas themas="$ctrl.strategies"></themas>
 
             <h3>Notionen</h3>
-            <ng-repeat ng-repeat="entry in $ctrl.notions">
-                <button>{{ entry.entry }}</button>
-            </ng-repeat>
+            <themas themas="$ctrl.notions"></themas>
 
             <h3>Themen</h3>
-            <ng-repeat ng-repeat="entry in $ctrl.themas">
-                <button>{{ entry.entry }}</button>
-            </ng-repeat>
+            <themas themas="$ctrl.themas"></themas>
 
             <h3>Wortschatz ({{ $ctrl.vocabulary.length }} Einträge)</h3>
-            <ng-repeat ng-repeat="entry in $ctrl.vocabulary">
-                <button>{{ entry.entry }}</button>
-            </ng-repeat>
+            <themas themas="$ctrl.vocabulary"></themas>
 
             <h3>Grammatik</h3>
-            <ng-repeat ng-repeat="entry in $ctrl.grammar">
-                <button>{{ entry.entry }}</button>
-            </ng-repeat>
+            <themas themas="$ctrl.grammar"></themas>
+            -->
         </div>
     </div>
 </div>
