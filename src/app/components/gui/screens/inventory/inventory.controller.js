@@ -3,7 +3,7 @@ class InventoryController {
     constructor(grammarA1Service, notionsA1Service, speechActsA1Service, strategiesA1Service, themasA1Service, vocabularyA1Service) {
 
         this.data = {
-            thema: 'Goethe-Zertifikat A1 - Start Deutsch 1',
+            thema: 'Goethe-Zertifikat A1',
             children: [],
             level: 1
         };
