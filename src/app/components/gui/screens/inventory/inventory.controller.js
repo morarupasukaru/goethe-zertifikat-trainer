@@ -1,48 +1,76 @@
 class InventoryController {
     /*@ngInject*/
     constructor(grammarA1Service, notionsA1Service, speechActsA1Service, strategiesA1Service, themasA1Service, vocabularyA1Service) {
-        this.grammar = this.groupByThema(grammarA1Service.getEntries());
-        this.notions = this.groupByThema(notionsA1Service.getEntries());
-        this.speechActs = this.groupByThema(speechActsA1Service.getEntries());
-        this.strategies = this.groupByThema(strategiesA1Service.getEntries());
-        this.themas = this.groupByThema(themasA1Service.getEntries());
-        this.vocabulary = this.groupByThema(vocabularyA1Service.getEntries());
+
+        this.data = {
+            thema: 'Goethe-Zertifikat A1 - Start Deutsch 1',
+            children: [],
+            level: 1
+        };
+        this.themas = {
+            thema: 'Inventorare',
+            children: [],
+            level: 2
+        };
+        this.data.children.push(this.themas);
+        this.themas.children.push(this.groupByThema(speechActsA1Service.getEntries()));
+        this.themas.children.push(this.groupByThema(strategiesA1Service.getEntries()));
+        this.themas.children.push(this.groupByThema(notionsA1Service.getEntries()));
+        this.themas.children.push(this.groupByThema(themasA1Service.getEntries()));
+        this.themas.children.push(this.groupByThema(vocabularyA1Service.getEntries()));
+        this.themas.children.push(this.groupByThema(grammarA1Service.getEntries()));
     }
 
     groupByThema(entries) {
-        let results = {};
+        let mergedThemas = {
+            children: []
+        };
         for (let i = 0; i < entries.length; i++) {
             let entry = entries[i];
-            let themas = entry.thema;
-            if (Array.isArray(themas)) {
-                let subRepository = results;
-                for (let j = 0; j < themas.length; j++) {
-                    subRepository = this.addThema(subRepository, themas[j]);
-                }
-                this.addEntry(subRepository, entry);
-
-            } else {
-                let subRepository = this.addThema(results, themas);
-                this.addEntry(subRepository, entry);
+            let entryThemas = this.getThemas(entry);
+            let lastThema = this.mergeThemas(mergedThemas, entryThemas);
+            if (!lastThema.entries) {
+                lastThema.entries = [];
             }
+            lastThema.entries.push(entry);
         }
-        return results;
+        return mergedThemas;
     }
 
-    addThema(repository, thema) {
-        if (!repository[thema]) {
-            repository[thema] = {};
+    getThemas(entry) {
+        let themas;
+        if (Array.isArray(entry.thema)) {
+            themas = entry.thema;
+        } else {
+            themas = [];
+            themas.push(entry.thema);
         }
-        return repository[thema];
+        return themas;
     }
 
-    addEntry(repository, entry) {
-        if (!!entry) {
-            if (!repository.entries) {
-                repository.entries = [];
+    mergeThemas(mergedThemas, entryThemas) {
+        for (let i = 0; i < entryThemas.length; i++) {
+            let findThema = this.findMergeThema(mergedThemas, entryThemas[i]);
+            if (!findThema) {
+                findThema = {
+                    level: i+3,
+                    thema: entryThemas[i],
+                    children: []
+                };
+                mergedThemas.children.push(findThema);
             }
-            repository.entries.push(entry);
+            mergedThemas = findThema;
         }
+        return mergedThemas;
+    }
+
+    findMergeThema(mergedThemas, entryThema) {
+        for (let i = 0; i < mergedThemas.children.length; i++) {
+            if (mergedThemas.children[i].thema === entryThema) {
+                return mergedThemas.children[i];
+            }
+        }
+        return null;
     }
 }
 

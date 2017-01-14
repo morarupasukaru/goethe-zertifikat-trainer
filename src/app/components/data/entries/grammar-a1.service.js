@@ -18,7 +18,7 @@ class GrammarA1Service {
 
     createGrammarEntries(Builder) {
         let entries = [];
-        let thema = 'xyz';
+        let thema = ['Grammatik', 'xyz'];
         entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }

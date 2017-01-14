@@ -8,7 +8,7 @@ let themasModule = angular.module('app.components.gui.screen.inventory.themas', 
         template,
         controller,
         bindings: {
-            themas: '<'
+            data: '<'
         }
     });
 

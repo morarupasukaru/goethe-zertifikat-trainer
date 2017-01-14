@@ -18,7 +18,7 @@ class StrategiesA1Service {
 
     createStrategiesEntries(Builder) {
         let entries = [];
-        let thema = 'xyz';
+        let thema = ['Strategien', 'xyz'];
         entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }

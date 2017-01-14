@@ -53,7 +53,7 @@ class VocabularyA1Service {
 
     createZahlenEntries(Builder) {
         let entries = [];
-        let thema = 'Zahlen';
+        let thema = ['Wortschatz', 'Zahlen'];
         entries.push(new Builder().thema(thema).entry('Zahl').get());
         entries.push(new Builder().thema(thema).entry('eins').alternative('1').get());
         entries.push(new Builder().thema(thema).entry('zwei').alternative('2').get());
@@ -99,7 +99,7 @@ class VocabularyA1Service {
 
     createDatumEntries(Builder) {
         let entries = [];
-        let thema = 'Datum';
+        let thema = ['Wortschatz', 'Datum'];
         entries.push(new Builder().thema(thema).entry('Datum').get());
         entries.push(new Builder().thema(thema).entry('ein halb; halb').alternative('1/2').get());
         entries.push(new Builder().thema(thema).entry('ein Vertiel; Viertel ...').alternative('1/4').get());
@@ -112,7 +112,7 @@ class VocabularyA1Service {
 
     createUhrzeitEntries(Builder) {
         let entries = [];
-        let thema = 'Uhrzeit';
+        let thema = ['Wortschatz', 'Uhrzeit'];
         entries.push(new Builder().thema(thema).entry('Uhrzeit').get());
         entries.push(new Builder().thema(thema).entry('0.03 Uhr').alternative('null Uhr drei').get());
         entries.push(new Builder().thema(thema).entry('7.15 Uhr').alternative('sieben Uhr fünfzehn').get());
@@ -127,7 +127,7 @@ class VocabularyA1Service {
 
     createZeitmasseEntries(Builder) {
         let entries = [];
-        let thema = 'Zeitmaße, Zeitangaben';
+        let thema = ['Wortschatz', 'Zeitmaße, Zeitangaben'];
         entries.push(new Builder().thema(thema).entry('Zeitmaß').get());
         entries.push(new Builder().thema(thema).entry('Zeitangabe').get());
         entries.push(new Builder().thema(thema).entry('die Sekunde, -n').get());
@@ -141,7 +141,7 @@ class VocabularyA1Service {
 
     createWocheEntries(Builder) {
         let entries = [];
-        let thema = 'Woche/Wochentage';
+        let thema = ['Wortschatz', 'Woche/Wochentage'];
         entries.push(new Builder().thema(thema).entry('Woche').get());
         entries.push(new Builder().thema(thema).entry('der Wochentag, -e').get());
         entries.push(new Builder().thema(thema).entry('der Sonntag').get());
@@ -158,7 +158,7 @@ class VocabularyA1Service {
 
     createTagEntries(Builder) {
         let entries = [];
-        let thema = 'Tag/Tageszeiten';
+        let thema = ['Wortschatz', 'Tag/Tageszeiten'];
         entries.push(new Builder().thema(thema).entry('Tag').get());
         entries.push(new Builder().thema(thema).entry('Tageszeit').get());
         entries.push(new Builder().thema(thema).entry('der Tag').get());
@@ -173,7 +173,7 @@ class VocabularyA1Service {
 
     createMonatEntries(Builder) {
         let entries = [];
-        let thema = 'Monat/Monatsnamen';
+        let thema = ['Wortschatz', 'Monat/Monatsnamen'];
         entries.push(new Builder().thema(thema).entry('Monat').get());
         entries.push(new Builder().thema(thema).entry('Monatsname').get());
         entries.push(new Builder().thema(thema).entry('der Januar').get());
@@ -193,7 +193,7 @@ class VocabularyA1Service {
 
     createJahrEntries(Builder) {
         let entries = [];
-        let thema = 'Jahr/Jahreszeiten';
+        let thema = ['Wortschatz', 'Jahr/Jahreszeiten'];
         entries.push(new Builder().thema(thema).entry('Jahr').get());
             entries.push(new Builder().thema(thema).entry('Jahreszeit').get());
         entries.push(new Builder().thema(thema).entry('der Frühling/das Frühjahr').get());
@@ -205,7 +205,7 @@ class VocabularyA1Service {
 
     createWaehrungenEntries(Builder) {
         let entries = [];
-        let thema = 'Währungen';
+        let thema = ['Wortschatz', 'Währungen'];
         entries.push(new Builder().thema(thema).entry('Währung').get());
         entries.push(new Builder().thema(thema).entry('1 Euro').get());
         entries.push(new Builder().thema(thema).entry('100 Cent').get());
@@ -214,7 +214,7 @@ class VocabularyA1Service {
 
     createMasseUndGewichteEntries(Builder) {
         let entries = [];
-        let thema = 'Maße und Gewichte';
+        let thema = ['Wortschatz', 'Maße und Gewichte'];
         entries.push(new Builder().thema(thema).entry('Maße').get());
         entries.push(new Builder().thema(thema).entry('Gewicht').get());
         entries.push(new Builder().thema(thema).entry('ein Meter').alternative('1 m').get());
@@ -234,7 +234,7 @@ class VocabularyA1Service {
 
     createLaenderEntries(Builder) {
         let entries = [];
-        let thema = 'Länder/Ländernamen/Nationalitäten';
+        let thema = ['Wortschatz', 'Länder/Ländernamen/Nationalitäten'];
         entries.push(new Builder().thema(thema).entry('Land').get());
         entries.push(new Builder().thema(thema).entry('Ländername').get());
         entries.push(new Builder().thema(thema).entry('Nationalität').get());
@@ -254,7 +254,7 @@ class VocabularyA1Service {
 
     createFarbenEntries(Builder) {
         let entries = [];
-        let thema = 'Farben';
+        let thema = ['Wortschatz', 'Farben'];
         entries.push(new Builder().thema(thema).entry('Farbe').get());
         entries.push(new Builder().thema(thema).entry('schwarz').get());
         entries.push(new Builder().thema(thema).entry('grau').get());
@@ -269,7 +269,7 @@ class VocabularyA1Service {
 
     createHimmelsrichtungenEntries(Builder) {
         let entries = [];
-        let thema = 'Himmelsrichtungen';
+        let thema = ['Wortschatz', 'Himmelsrichtungen'];
         entries.push(new Builder().thema(thema).entry('Himmelsrichtung').get());
         entries.push(new Builder().thema(thema).entry('der Norden').get());
         entries.push(new Builder().thema(thema).entry('der Süden').get());
@@ -280,7 +280,7 @@ class VocabularyA1Service {
 
     createAEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'A'];
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'A'];
         entries.push(new Builder().thema(thema).entry('ab').example('Ab morgen muss ich arbeiten.').get());
         entries.push(new Builder().thema(thema).entry('aber').example('Ich bin oft im Büro, aber nur für wenige Stunden.').get());
         entries.push(new Builder().thema(thema).entry('abfahren').example('Wir fahren um zwölf Uhr ab.').get());
@@ -360,7 +360,7 @@ class VocabularyA1Service {
 
     createBEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'B'];
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'B'];
         entries.push(new Builder().thema(thema).entry('das Baby, -s').example('Mein Kind ist noch ein Baby.').get());
         entries.push(new Builder().thema(thema).entry('die Bäckerei').example('Ich geh mal schnell zur Bäckerei.').get());
         entries.push(new Builder().thema(thema).entry('das Bad').example('Wir haben kein großes Bad.').get());
@@ -430,7 +430,7 @@ class VocabularyA1Service {
 
     createCEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'C'];
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'C'];
         entries.push(new Builder().thema(thema).entry('das Café, -s').example('Sollen wir uns im Café treffen?').get());
         entries.push(new Builder().thema(thema).entry('die CD, -s').example('Bring bitte deine Lieblings-CD mit.').get());
         entries.push(new Builder().thema(thema).entry('der Chef').example('Wir haben eine neue Chefin.').get());
@@ -441,7 +441,7 @@ class VocabularyA1Service {
 
     createDEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'D'];
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'D'];
         entries.push(new Builder().thema(thema).entry('da').example(['Da hinten ist er ja.', 'Wir sprechen gerade über Paul. Da kommt er ja gerade.', 'Ich nehme das da.', 'Ist Herr Klein schon da?']).get());
             entries.push(new Builder().thema(thema).entry('die Dame, -n').example(['Damen (an der Toilette)', 'Sehr geehrte Damen und Herren!']).get());
         entries.push(new Builder().thema(thema).entry('daneben').example('Du kennst doch die Post. Daneben ist die Bank.').get());
@@ -477,7 +477,8 @@ class VocabularyA1Service {
 
     createEEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'E'];
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'E'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
 //        entries.push(new Builder().thema(thema).entry('').example('').get());
 /*
 die Ecke, -n
@@ -558,127 +559,127 @@ Euer Kurs beginnt heute.
 
     createFEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'F'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'F'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createGEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'G'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'G'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createHEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'H'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'H'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createIEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'I'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'I'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createJEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'J'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'J'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createKEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'K'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'K'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createLEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'L'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'L'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createMEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'M'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'M'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createNEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'N'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'N'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createOEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'O'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'O'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createPEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'P'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'P'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createREntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'R'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'R'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createSEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'S'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'S'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createTEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'T'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'T'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createUEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'U'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'U'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createVEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'V'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'V'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createWEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'W'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'W'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 
     createZEntries(Builder) {
         let entries = [];
-        let thema = ['Alphabetische Wortliste', 'Z'];
-//        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'Z'];
+        entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
 

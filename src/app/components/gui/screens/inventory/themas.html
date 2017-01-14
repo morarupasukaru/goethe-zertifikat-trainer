@@ -1,4 +1,11 @@
-<ng-repeat ng-repeat="row in $ctrl.data">
-    <h4>{{ row.thema }}</h4><!-- TODO h...-> -->
-    <entries entries="row.entries" ng-if="!!row.entries"></entries>
+<h1 ng-if="!!$ctrl.data.thema && $ctrl.data.level === 1">{{ $ctrl.data.thema }}</h1>
+<h2 ng-if="!!$ctrl.data.thema && $ctrl.data.level === 2">{{ $ctrl.data.thema }}</h2>
+<h3 ng-if="!!$ctrl.data.thema && $ctrl.data.level === 3">{{ $ctrl.data.thema }}</h3>
+<h4 ng-if="!!$ctrl.data.thema && $ctrl.data.level === 4">{{ $ctrl.data.thema }}</h4>
+<h5 ng-if="!!$ctrl.data.thema && $ctrl.data.level === 5">{{ $ctrl.data.thema }}</h5>
+<h6 ng-if="!!$ctrl.data.thema && $ctrl.data.level === 6">{{ $ctrl.data.thema }}</h6>
+
+<entries entries="$ctrl.data.entries" ng-if="!!$ctrl.data.entries"></entries>
+<ng-repeat ng-repeat="row in $ctrl.data.children">
+    <themas data="row"></themas>
 </ng-repeat>

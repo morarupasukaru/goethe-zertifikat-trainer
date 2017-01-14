@@ -18,7 +18,7 @@ class ThemasA1Service {
 
     createThemasEntries(Builder) {
         let entries = [];
-        let thema = 'xyz';
+        let thema = ['Themen', 'xyz'];
         entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }

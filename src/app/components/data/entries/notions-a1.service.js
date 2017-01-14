@@ -18,7 +18,7 @@ class NotionsA1Service {
 
     createNotionsEntries(Builder) {
         let entries = [];
-        let thema = 'xyz';
+        let thema = ['Notionen', 'xyz'];
         entries.push(new Builder().thema(thema).entry('xyz').get());
         return entries;
     }
