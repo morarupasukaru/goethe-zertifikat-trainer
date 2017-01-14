@@ -13,18 +13,21 @@ class InventoryController {
             level: 2
         };
         this.data.children.push(this.themas);
-        this.themas.children.push(this.groupByThema(speechActsA1Service.getEntries()));
-        this.themas.children.push(this.groupByThema(strategiesA1Service.getEntries()));
-        this.themas.children.push(this.groupByThema(notionsA1Service.getEntries()));
-        this.themas.children.push(this.groupByThema(themasA1Service.getEntries()));
-        this.themas.children.push(this.groupByThema(vocabularyA1Service.getEntries()));
-        this.themas.children.push(this.groupByThema(grammarA1Service.getEntries()));
+        this.groupByThema(this.themas, speechActsA1Service.getEntries());
+        this.groupByThema(this.themas, strategiesA1Service.getEntries());
+        this.groupByThema(this.themas, notionsA1Service.getEntries());
+        this.groupByThema(this.themas, themasA1Service.getEntries());
+        this.groupByThema(this.themas, vocabularyA1Service.getEntries());
+        this.groupByThema(this.themas, grammarA1Service.getEntries());
+
+        this.themas.count = 0;
+        for (let i = 0; i < this.themas.children.length; i++) {
+            this.themas.children[i].count = this.countEntries(this.themas.children[i]);
+            this.themas.count = this.themas.count + this.themas.children[i].count;
+        }
     }
 
-    groupByThema(entries) {
-        let mergedThemas = {
-            children: []
-        };
+    groupByThema(mergedThemas, entries) {
         for (let i = 0; i < entries.length; i++) {
             let entry = entries[i];
             let entryThemas = this.getThemas(entry);
@@ -71,6 +74,19 @@ class InventoryController {
             }
         }
         return null;
+    }
+
+    countEntries(thema) {
+        let count = 0;
+        if (!!thema.children) {
+            for (let i = 0; i < thema.children.length; i++) {
+                count = count + this.countEntries(thema.children[i]);
+            }
+        }
+        if (!!thema.entries) {
+            count = count + thema.entries.length;
+        }
+        return count;
     }
 }
 
