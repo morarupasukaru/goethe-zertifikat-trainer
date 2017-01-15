@@ -659,21 +659,70 @@ class VocabularyA1Service {
     createIEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'Alphabetische Wortliste', 'I'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        entries.push(new Builder().thema(thema).entry('ich').example('Ich heiße Veronika.').get());
+        entries.push(new Builder().thema(thema).entry('ihr/ihm/ihn').example(['Gib ihr/ihm bitte das Buch.', 'Ruf ihn bitte an.']).get());
+        entries.push(new Builder().thema(thema).entry('immer').example('Frau Bast kommt immer zu spät.').get());
+        entries.push(new Builder().thema(thema).entry('in').example(['Ich wohne in Wiesbaden.', 'Der Zug kommt in fünf Minuten.', 'Frau Rausch arbeitet in einem Geschäft.', 'Komm, wir gehen ins Kino.']).get());
+        entries.push(new Builder().thema(thema).entry('die Information, -en').example(['Wenn Sie Fragen haben, gehen Sie zur Information.', 'Wir haben hier wichtige Informationen für Sie.']).get());
+        entries.push(new Builder().thema(thema).entry('international').example('Unser Deutschkurs ist international: Silvana kommt aus Italien, Conchi aus Spanien, Yin aus China ...').get());
+        entries.push(new Builder().thema(thema).entry('das Internet').example('Das findest du im Internet.').get());
         return entries;
     }
 
     createJEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'Alphabetische Wortliste', 'J'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        entries.push(new Builder().thema(thema).entry('ja').example('Sind Sie Herr Watanabe? – Ja.').get());
+        entries.push(new Builder().thema(thema).entry('die Jacke, -n').example('Zieh dir eine Jacke an. Es ist kalt.').get());
+        entries.push(new Builder().thema(thema).entry('jed-').example('Blumen kannst du in jedem Bahnhof kaufen.').get());
+        entries.push(new Builder().thema(thema).entry('jetzt').example('Jetzt machen wir eine Pause.').get());
+        entries.push(new Builder().thema(thema).entry('der Job, -s').example('Jenny hat einen neuen Job bei der Post.').get());
+        entries.push(new Builder().thema(thema).entry('der Jugendliche, -n ').example('Viele Jugendliche kaufen gern ein.').get());
+        entries.push(new Builder().thema(thema).entry('jung').example('Claudia ist 21. – Was? Noch so jung?').get());
+        entries.push(new Builder().thema(thema).entry('der Junge, -n ').example('Ich habe zwei Kinder. Einen Jungen und ein Mädchen.').get());
         return entries;
     }
 
     createKEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'Alphabetische Wortliste', 'K'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Kaffee').example('Zum Frühstück trinke ich immer Kaffee.').get());
+        entries.push(new Builder().thema(thema).entry('kaputt').example('Das Glas war teuer. Es geht sehr leicht kaputt.').get());
+        entries.push(new Builder().thema(thema).entry('die Karte, -n').example(['Ich schreibe meinen Bekannten eine Karte aus dem Urlaub.', 'Wollen wir Karten spielen?', 'Ich möchte auch etwas essen. Bringen Sie mir die Karte, bitte.']).get());
+        entries.push(new Builder().thema(thema).entry('(Kredit)-Karte, -n').example('Kann ich auch mit Karte (be-) zahlen?').get());
+        entries.push(new Builder().thema(thema).entry('die Kartoffel, -n').example('Für Pommes frites braucht man Kartoffeln.').get());
+        entries.push(new Builder().thema(thema).entry('die Kasse').example('Zahlen Sie bitte an der Kasse.').get());
+        entries.push(new Builder().thema(thema).entry('kaufen').example('Tim kauft sich ein neues Auto.').get());
+        entries.push(new Builder().thema(thema).entry('kein').example('Es gibt keine Eintrittskarten mehr.').get());
+        entries.push(new Builder().thema(thema).entry('kennen').example('Kennen Sie diese Frau? – Nein, leider nicht.').get());
+        entries.push(new Builder().thema(thema).entry('kennenlernen').example('Wir sind neu hier. Wir möchten Sie kennenlernen.').get());
+        entries.push(new Builder().thema(thema).entry('das Kind, -er').example('Wie viele Kinder haben Sie?').get());
+        entries.push(new Builder().thema(thema).entry('der Kindergarten').example('Die kleine Laura geht schon in den Kindergarten.').get());
+        entries.push(new Builder().thema(thema).entry('das Kino, -s').example('Wir sehen heute Abend im Kino einen schönen Film.').get());
+        entries.push(new Builder().thema(thema).entry('der Kiosk').example('Am Kiosk bekommen Sie Getränke, Zigaretten und Zeitungen.').get());
+        entries.push(new Builder().thema(thema).entry('klar').example('Kommst du mit? – Klar!').get());
+        entries.push(new Builder().thema(thema).entry('die Klasse').example(['In unserer Klasse sind fünfundzwanzig Schüler.', 'Im Zug fahre ich immer 2. Klasse.']).get());
+        entries.push(new Builder().thema(thema).entry('die Kleidung').example('Wo finde ich Kleidung? – Jacken im ersten, Jeans im zweiten Stock.').get());
+        entries.push(new Builder().thema(thema).entry('klein').example('Eltville ist eine kleine Stadt am Rhein.').get());
+        entries.push(new Builder().thema(thema).entry('kochen').example('Herr Georgi kann gut kochen.').get());
+        entries.push(new Builder().thema(thema).entry('der Koffer, –').example('Ist das Ihr Koffer?').get());
+        entries.push(new Builder().thema(thema).entry('der Kollege, -n').example('Wie heißt die neue Kollegin?').get());
+        entries.push(new Builder().thema(thema).entry('kommen').example(['Woher kommen Sie? – Aus Frankreich.', 'Kommst du mit ins Schwimmbad?']).get());
+        entries.push(new Builder().thema(thema).entry('können').example(['Ich kann Deutsch und Russisch.', 'Können Sie mir helfen?']).get());
+        entries.push(new Builder().thema(thema).entry('das Konto').example('Das Geld überweisen wir am ersten März auf Ihr Konto.').get());
+        entries.push(new Builder().thema(thema).entry('der Kopf').example('Mein Kopf tut weh!').get());
+        entries.push(new Builder().thema(thema).entry('kosten').example('Wie viel kostet das? – 10 Euro.').get());
+        entries.push(new Builder().thema(thema).entry('krank').example('Ich kann heute nicht zur Arbeit kommen, ich bin krank und liege im Bett.').get());
+        entries.push(new Builder().thema(thema).entry('kriegen').example('Ich kriege 15 Euro in der Stunde für meine Arbeit.').get());
+        entries.push(new Builder().thema(thema).entry('die Küche').example('Der neue Herd kommt in die Küche.').get());
+        entries.push(new Builder().thema(thema).entry('der Kuchen').example('Ich nehme ein Stück Kuchen.').get());
+        entries.push(new Builder().thema(thema).entry('der Kugelschreiber').example('Hast du einen Kugelschreiber für mich?').get());
+        entries.push(new Builder().thema(thema).entry('der Kühlschrank').example('Haben wir noch Milch? – Ja, im Kühlschrank.').get());
+        entries.push(new Builder().thema(thema).entry('kulturell').example('Ich bin kulturell interessiert. Ich gehe oft ins Museum.').get());
+        entries.push(new Builder().thema(thema).entry('sich kümmern').example('Jede Mutter kümmert sich um ihre kleinen Kinder.').get());
+        entries.push(new Builder().thema(thema).entry('der Kunde, -n').example('Einen Moment, bitte. Ich habe eine Kundin.').get());
+        entries.push(new Builder().thema(thema).entry('der Kurs, -e').example('Der Deutschkurs geht bis zum Sommer.').get());
+        entries.push(new Builder().thema(thema).entry('kurz').example('Ricardo hat kurzes Haar.').get());
         return entries;
     }
 
