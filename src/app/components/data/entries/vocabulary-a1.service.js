@@ -729,7 +729,39 @@ class VocabularyA1Service {
     createLEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'Alphabetische Wortliste', 'L'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        entries.push(new Builder().thema(thema).entry('lachen').example('Die Kinder lachen viel.').get());
+        entries.push(new Builder().thema(thema).entry('der Laden, -ä').example('Im Buchladen können Sie Bücher kaufen.').get());
+        entries.push(new Builder().thema(thema).entry('das Land, -ä, er').example('Italien ist ein schönes Land.').get());
+        entries.push(new Builder().thema(thema).entry('lang').example('Die Jeans ist zu lang.').get());
+        entries.push(new Builder().thema(thema).entry('lange').example('Wie lange fährt der Zug von Hamburg nach Berlin?').get());
+        entries.push(new Builder().thema(thema).entry('langsam').example('Könnten Sie bitte etwas langsamer sprechen?').get());
+        entries.push(new Builder().thema(thema).entry('laufen').example('Ich möchte nicht Auto fahren, ich möchte laufen.').get());
+        entries.push(new Builder().thema(thema).entry('laut').example('Nicht so laut! Das Baby schläft.').get());
+        entries.push(new Builder().thema(thema).entry('leben').example(['Sie lebt bei ihrer Schwester.', 'Ihre Eltern leben nicht mehr.']).get());
+        entries.push(new Builder().thema(thema).entry('das Leben').example('Das Leben in diesem Land ist teuer.').get());
+        entries.push(new Builder().thema(thema).entry('die Lebensmittel (pl.)').example('Lebensmittel bekommen Sie im Supermarkt.').get());
+        entries.push(new Builder().thema(thema).entry('ledig').example('Sind Sie verheiratet? – Nein. Ledig.').get());
+        entries.push(new Builder().thema(thema).entry('legen').example('Legen Sie das Buch auf den Tisch.').get());
+        entries.push(new Builder().thema(thema).entry('der Lehrer, –').example('Unsere Deutschlehrerin heißt Frau Müller.').get());
+        entries.push(new Builder().thema(thema).entry('leicht').example(['Der Koffer ist leicht.', 'Deutsch ist nicht leicht.']).get());
+        entries.push(new Builder().thema(thema).entry('leider').example('Leider kann ich nicht kommen. Ich muss zum Arzt.').get());
+        entries.push(new Builder().thema(thema).entry('leise').example('Seid leise. Die anderen schlafen schon.').get());
+        entries.push(new Builder().thema(thema).entry('lernen').example('Wie lange lernen Sie schon Deutsch?').get());
+        entries.push(new Builder().thema(thema).entry('lesen').example('Ich lese ein Buch von García Márquez.').get());
+        entries.push(new Builder().thema(thema).entry('letzt-').example('Morgen ist der letzte Kurstag.').get());
+        entries.push(new Builder().thema(thema).entry('die Leute (pl.)').example('In der Disko sind viele Leute.').get());
+        entries.push(new Builder().thema(thema).entry('das Licht').example('Wo macht man hier das Licht an?').get());
+        entries.push(new Builder().thema(thema).entry('lieb-').example('Liebe Susanne, lieber Hans,').get());
+        entries.push(new Builder().thema(thema).entry('lieben').example('Ich liebe dich!').get());
+        entries.push(new Builder().thema(thema).entry('lieber').example('Sie fährt lieber mit der Bahn.').get());
+        entries.push(new Builder().thema(thema).entry('Lieblings-').example('Mein Lieblingsfilm ist „Schwarze Augen“.').get());
+        entries.push(new Builder().thema(thema).entry('das Lied, -er').example('Welches ist dein Lieblingslied?').get());
+        entries.push(new Builder().thema(thema).entry('liegen').example(['Um neun Uhr liegt Judith noch im Bett.', 'Frankfurt liegt am Main.']).get());
+        entries.push(new Builder().thema(thema).entry('links').example('Gehen Sie die nächste Straße links.').get());
+        entries.push(new Builder().thema(thema).entry('der Lkw, -s').example('Dieser Lastkraftwagen ist sehr groß.').get());
+        entries.push(new Builder().thema(thema).entry('das Lokal').example('In unserer Straße gibt es ein neues Lokal.').get());
+        entries.push(new Builder().thema(thema).entry('die Lösung, -en').example('Die Lösung ist ganz einfach.').get());
+        entries.push(new Builder().thema(thema).entry('lustig').example('Frau Mertens ist lustig. Sie lacht immer.').get());
         return entries;
     }
 
