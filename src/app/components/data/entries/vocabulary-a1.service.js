@@ -768,7 +768,36 @@ class VocabularyA1Service {
     createMEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'Alphabetische Wortliste', 'M'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        entries.push(new Builder().thema(thema).entry('machen').example(['Was machst du heute Abend?', 'Ich muss jetzt das Essen machen.', 'Das macht 5 Euro 95.', 'Das macht nichts.']).get());
+        entries.push(new Builder().thema(thema).entry('das Mädchen, –').example('Familie Kurz bekommt ein Baby. – Junge oder Mädchen?').get());
+        entries.push(new Builder().thema(thema).entry('man').example('Hier darf man nicht rauchen.').get());
+        entries.push(new Builder().thema(thema).entry('der Mann, -ä, er').example('Mein Mann arbeitet bei der Polizei.').get());
+        entries.push(new Builder().thema(thema).entry('männlich').example('Kreuzen Sie bitte an: „weiblich“ oder „männlich“.').get());
+        entries.push(new Builder().thema(thema).entry('die Maschine, -n').example('Die Waschmaschine ist günstig.').get());
+        entries.push(new Builder().thema(thema).entry('das Meer').example('Wir machen Urlaub am Meer.').get());
+        entries.push(new Builder().thema(thema).entry('mehr').example('Dieses Auto kostet 1.000 Euro mehr als das andere.').get());
+        entries.push(new Builder().thema(thema).entry('mein').example('Mein Vater ist Arzt.').get());
+        entries.push(new Builder().thema(thema).entry('meist-').example('Die meisten Norddeutschen sind sehr groß.').get());
+        entries.push(new Builder().thema(thema).entry('der Mensch, -en').example('Die Menschen sind hier anders als bei uns.').get());
+        entries.push(new Builder().thema(thema).entry('mieten').example('Ich möchte ein Auto mieten.').get());
+        entries.push(new Builder().thema(thema).entry('die Miete').example('Die Miete für diese Wohnung ist 600 Euro.').get());
+        entries.push(new Builder().thema(thema).entry('die Milch').example('Die Milch steht im Kühlschrank.').get());
+        entries.push(new Builder().thema(thema).entry('mit').example('Trinken Sie den Kaffee mit Milch?').get());
+        entries.push(new Builder().thema(thema).entry('mitbringen').example('Ich gehe einkaufen. Soll ich dir was mitbringen?').get());
+        entries.push(new Builder().thema(thema).entry('mitkommen').example('Ich gehe ins Kino. Kommst du mit?').get());
+        entries.push(new Builder().thema(thema).entry('mitmachen').example('Warum macht ihr nicht mit?').get());
+        entries.push(new Builder().thema(thema).entry('mitnehmen').example('Nehmen wir meine Schwester ins Kino mit?').get());
+        entries.push(new Builder().thema(thema).entry('die Mitte').example('Der Lehrer steht in der Mitte des Klassenzimmers.').get());
+        entries.push(new Builder().thema(thema).entry('die Möbel (pl.)').example('Sind die Möbel neu?').get());
+        entries.push(new Builder().thema(thema).entry('möchten').example('Was möchten Sie trinken?').get());
+        entries.push(new Builder().thema(thema).entry('mögen').example('Magst du Kaffee oder Tee?').get());
+        entries.push(new Builder().thema(thema).entry('möglich').example('Mit dieser Fahrkarte ist die Fahrt ab 9 Uhr möglich.').get());
+        entries.push(new Builder().thema(thema).entry('der Moment').example(['Moment mal bitte!', 'Einen Moment bitte.']).get());
+        entries.push(new Builder().thema(thema).entry('morgen').example('Morgen beginnt die Schule um 10 Uhr.').get());
+        entries.push(new Builder().thema(thema).entry('müde').example('Ich bin müde. Ich gehe schlafen.').get());
+        entries.push(new Builder().thema(thema).entry('der Mund').example('Öffnen Sie den Mund.').get());
+        entries.push(new Builder().thema(thema).entry('müssen').example('Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten.').get());
+        entries.push(new Builder().thema(thema).entry('die Mutter, -ü').example('Frau Berghäuser ist die Mutter von Michaela.').get());
         return entries;
     }
 
