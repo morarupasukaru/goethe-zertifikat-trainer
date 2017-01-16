@@ -16,7 +16,6 @@ let entriesModule = angular.module('app.components.data.entries', [])
     .factory("EntryBuilder", function() {
         function Entry() {
             this.result = {};
-            this.result.level = 'a1';
             this.result.source = ['Goethe Institut', 'GOETHE-ZERTIFIKAT A1 START DEUTSCH 1', 'PRÜFUNGSZIELE TESTBESCHREIBUNG', 'ISBN 978-3-939670-76-6'];
             Entry.prototype.thema = function(value) {
                 if (!!value) {

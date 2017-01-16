@@ -53,7 +53,7 @@ class VocabularyA1Service {
 
     createZahlenEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Zahlen'];
+        let thema = ['Wortschatz', 'A1', 'Zahlen'];
         entries.push(new Builder().thema(thema).entry('Zahl').get());
         entries.push(new Builder().thema(thema).entry('eins').alternative('1').get());
         entries.push(new Builder().thema(thema).entry('zwei').alternative('2').get());
@@ -99,7 +99,7 @@ class VocabularyA1Service {
 
     createDatumEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Datum'];
+        let thema = ['Wortschatz', 'A1', 'Datum'];
         entries.push(new Builder().thema(thema).entry('Datum').get());
         entries.push(new Builder().thema(thema).entry('ein halb; halb').alternative('1/2').get());
         entries.push(new Builder().thema(thema).entry('ein Vertiel; Viertel ...').alternative('1/4').get());
@@ -112,7 +112,7 @@ class VocabularyA1Service {
 
     createUhrzeitEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Uhrzeit'];
+        let thema = ['Wortschatz', 'A1', 'Uhrzeit'];
         entries.push(new Builder().thema(thema).entry('Uhrzeit').get());
         entries.push(new Builder().thema(thema).entry('0.03 Uhr').alternative('null Uhr drei').get());
         entries.push(new Builder().thema(thema).entry('7.15 Uhr').alternative('sieben Uhr fünfzehn').get());
@@ -127,7 +127,7 @@ class VocabularyA1Service {
 
     createZeitmasseEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Zeitmaße, Zeitangaben'];
+        let thema = ['Wortschatz', 'A1', 'Zeitmaße, Zeitangaben'];
         entries.push(new Builder().thema(thema).entry('Zeitmaß').get());
         entries.push(new Builder().thema(thema).entry('Zeitangabe').get());
         entries.push(new Builder().thema(thema).entry('die Sekunde, -n').get());
@@ -141,7 +141,7 @@ class VocabularyA1Service {
 
     createWocheEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Woche/Wochentage'];
+        let thema = ['Wortschatz', 'A1', 'Woche/Wochentage'];
         entries.push(new Builder().thema(thema).entry('Woche').get());
         entries.push(new Builder().thema(thema).entry('der Wochentag, -e').get());
         entries.push(new Builder().thema(thema).entry('der Sonntag').get());
@@ -158,7 +158,7 @@ class VocabularyA1Service {
 
     createTagEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Tag/Tageszeiten'];
+        let thema = ['Wortschatz', 'A1', 'Tag/Tageszeiten'];
         entries.push(new Builder().thema(thema).entry('Tag').get());
         entries.push(new Builder().thema(thema).entry('Tageszeit').get());
         entries.push(new Builder().thema(thema).entry('der Tag').get());
@@ -173,7 +173,7 @@ class VocabularyA1Service {
 
     createMonatEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Monat/Monatsnamen'];
+        let thema = ['Wortschatz', 'A1', 'Monat/Monatsnamen'];
         entries.push(new Builder().thema(thema).entry('Monat').get());
         entries.push(new Builder().thema(thema).entry('Monatsname').get());
         entries.push(new Builder().thema(thema).entry('der Januar').get());
@@ -193,7 +193,7 @@ class VocabularyA1Service {
 
     createJahrEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Jahr/Jahreszeiten'];
+        let thema = ['Wortschatz', 'A1', 'Jahr/Jahreszeiten'];
         entries.push(new Builder().thema(thema).entry('Jahr').get());
             entries.push(new Builder().thema(thema).entry('Jahreszeit').get());
         entries.push(new Builder().thema(thema).entry('der Frühling/das Frühjahr').get());
@@ -205,7 +205,7 @@ class VocabularyA1Service {
 
     createWaehrungenEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Währungen'];
+        let thema = ['Wortschatz', 'A1', 'Währungen'];
         entries.push(new Builder().thema(thema).entry('Währung').get());
         entries.push(new Builder().thema(thema).entry('1 Euro').get());
         entries.push(new Builder().thema(thema).entry('100 Cent').get());
@@ -214,7 +214,7 @@ class VocabularyA1Service {
 
     createMasseUndGewichteEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Maße und Gewichte'];
+        let thema = ['Wortschatz', 'A1', 'Maße und Gewichte'];
         entries.push(new Builder().thema(thema).entry('Maße').get());
         entries.push(new Builder().thema(thema).entry('Gewicht').get());
         entries.push(new Builder().thema(thema).entry('ein Meter').alternative('1 m').get());
@@ -234,7 +234,7 @@ class VocabularyA1Service {
 
     createLaenderEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Länder/Ländernamen/Nationalitäten'];
+        let thema = ['Wortschatz', 'A1', 'Länder/Ländernamen/Nationalitäten'];
         entries.push(new Builder().thema(thema).entry('Land').get());
         entries.push(new Builder().thema(thema).entry('Ländername').get());
         entries.push(new Builder().thema(thema).entry('Nationalität').get());
@@ -254,7 +254,7 @@ class VocabularyA1Service {
 
     createFarbenEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Farben'];
+        let thema = ['Wortschatz', 'A1', 'Farben'];
         entries.push(new Builder().thema(thema).entry('Farbe').get());
         entries.push(new Builder().thema(thema).entry('schwarz').get());
         entries.push(new Builder().thema(thema).entry('grau').get());
@@ -269,7 +269,7 @@ class VocabularyA1Service {
 
     createHimmelsrichtungenEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Himmelsrichtungen'];
+        let thema = ['Wortschatz', 'A1', 'Himmelsrichtungen'];
         entries.push(new Builder().thema(thema).entry('Himmelsrichtung').get());
         entries.push(new Builder().thema(thema).entry('der Norden').get());
         entries.push(new Builder().thema(thema).entry('der Süden').get());
@@ -280,7 +280,7 @@ class VocabularyA1Service {
 
     createAEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'A'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'A'];
         entries.push(new Builder().thema(thema).entry('ab').example('Ab morgen muss ich arbeiten.').get());
         entries.push(new Builder().thema(thema).entry('aber').example('Ich bin oft im Büro, aber nur für wenige Stunden.').get());
         entries.push(new Builder().thema(thema).entry('abfahren').example('Wir fahren um zwölf Uhr ab.').get());
@@ -360,7 +360,7 @@ class VocabularyA1Service {
 
     createBEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'B'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'B'];
         entries.push(new Builder().thema(thema).entry('das Baby, -s').example('Mein Kind ist noch ein Baby.').get());
         entries.push(new Builder().thema(thema).entry('die Bäckerei').example('Ich geh mal schnell zur Bäckerei.').get());
         entries.push(new Builder().thema(thema).entry('das Bad').example('Wir haben kein großes Bad.').get());
@@ -430,7 +430,7 @@ class VocabularyA1Service {
 
     createCEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'C'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'C'];
         entries.push(new Builder().thema(thema).entry('das Café, -s').example('Sollen wir uns im Café treffen?').get());
         entries.push(new Builder().thema(thema).entry('die CD, -s').example('Bring bitte deine Lieblings-CD mit.').get());
         entries.push(new Builder().thema(thema).entry('der Chef').example('Wir haben eine neue Chefin.').get());
@@ -441,7 +441,7 @@ class VocabularyA1Service {
 
     createDEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'D'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'D'];
         entries.push(new Builder().thema(thema).entry('da').example(['Da hinten ist er ja.', 'Wir sprechen gerade über Paul. Da kommt er ja gerade.', 'Ich nehme das da.', 'Ist Herr Klein schon da?']).get());
             entries.push(new Builder().thema(thema).entry('die Dame, -n').example(['Damen (an der Toilette)', 'Sehr geehrte Damen und Herren!']).get());
         entries.push(new Builder().thema(thema).entry('daneben').example('Du kennst doch die Post. Daneben ist die Bank.').get());
@@ -477,7 +477,7 @@ class VocabularyA1Service {
 
     createEEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'E'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'E'];
         entries.push(new Builder().thema(thema).entry('die Ecke, -n').example('An der nächsten Ecke links.').get());
         entries.push(new Builder().thema(thema).entry('die Ehefrau, -en/der Ehemann, ä, er').example('Das ist mein (Ehe-) Mann/meine (Ehe-) Frau.').get());
         entries.push(new Builder().thema(thema).entry('das Ei, -er').example('Möchtest du ein Ei zum Frühstück?').get());
@@ -515,7 +515,7 @@ class VocabularyA1Service {
 
     createFEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'F'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'F'];
         entries.push(new Builder().thema(thema).entry('fahren').example('Ich fahre mit dem Auto zur Arbeit.').get());
         entries.push(new Builder().thema(thema).entry('der Fahrer').example('Bitte nicht mit dem Fahrer sprechen!').get());
         entries.push(new Builder().thema(thema).entry('die Fahrkarte, -n').example('Hast du schon eine Fahrkarte?').get());
@@ -567,7 +567,7 @@ class VocabularyA1Service {
 
     createGEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'G'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'G'];
         entries.push(new Builder().thema(thema).entry('der Garten').example('Wir haben leider keinen Garten.').get());
         entries.push(new Builder().thema(thema).entry('der Gast, -ä, e').example('Am Wochenende haben wir mehrere Gäste.').get());
         entries.push(new Builder().thema(thema).entry('geben').example(['Kannst du mir bitte deinen Kugelschreiber geben?', 'Es gibt keine Karten mehr.']).get());
@@ -619,7 +619,7 @@ class VocabularyA1Service {
 
     createHEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'H'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'H'];
         entries.push(new Builder().thema(thema).entry('das Haar, -e').example('Sie hat lange Haare.').get());
         entries.push(new Builder().thema(thema).entry('haben').example('Ich habe ein neues Auto.').get());
         entries.push(new Builder().thema(thema).entry('das Hähnchen, -').example('Ein Hähnchen mit Pommes bitte!').get());
@@ -658,7 +658,7 @@ class VocabularyA1Service {
 
     createIEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'I'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'I'];
         entries.push(new Builder().thema(thema).entry('ich').example('Ich heiße Veronika.').get());
         entries.push(new Builder().thema(thema).entry('ihr/ihm/ihn').example(['Gib ihr/ihm bitte das Buch.', 'Ruf ihn bitte an.']).get());
         entries.push(new Builder().thema(thema).entry('immer').example('Frau Bast kommt immer zu spät.').get());
@@ -671,7 +671,7 @@ class VocabularyA1Service {
 
     createJEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'J'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'J'];
         entries.push(new Builder().thema(thema).entry('ja').example('Sind Sie Herr Watanabe? – Ja.').get());
         entries.push(new Builder().thema(thema).entry('die Jacke, -n').example('Zieh dir eine Jacke an. Es ist kalt.').get());
         entries.push(new Builder().thema(thema).entry('jed-').example('Blumen kannst du in jedem Bahnhof kaufen.').get());
@@ -685,7 +685,7 @@ class VocabularyA1Service {
 
     createKEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'K'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'K'];
         entries.push(new Builder().thema(thema).entry('der Kaffee').example('Zum Frühstück trinke ich immer Kaffee.').get());
         entries.push(new Builder().thema(thema).entry('kaputt').example('Das Glas war teuer. Es geht sehr leicht kaputt.').get());
         entries.push(new Builder().thema(thema).entry('die Karte, -n').example(['Ich schreibe meinen Bekannten eine Karte aus dem Urlaub.', 'Wollen wir Karten spielen?', 'Ich möchte auch etwas essen. Bringen Sie mir die Karte, bitte.']).get());
@@ -728,7 +728,7 @@ class VocabularyA1Service {
 
     createLEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'L'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'L'];
         entries.push(new Builder().thema(thema).entry('lachen').example('Die Kinder lachen viel.').get());
         entries.push(new Builder().thema(thema).entry('der Laden, -ä').example('Im Buchladen können Sie Bücher kaufen.').get());
         entries.push(new Builder().thema(thema).entry('das Land, -ä, er').example('Italien ist ein schönes Land.').get());
@@ -767,7 +767,7 @@ class VocabularyA1Service {
 
     createMEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'M'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'M'];
         entries.push(new Builder().thema(thema).entry('machen').example(['Was machst du heute Abend?', 'Ich muss jetzt das Essen machen.', 'Das macht 5 Euro 95.', 'Das macht nichts.']).get());
         entries.push(new Builder().thema(thema).entry('das Mädchen, –').example('Familie Kurz bekommt ein Baby. – Junge oder Mädchen?').get());
         entries.push(new Builder().thema(thema).entry('man').example('Hier darf man nicht rauchen.').get());
@@ -803,70 +803,198 @@ class VocabularyA1Service {
 
     createNEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'N'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'N'];
+        entries.push(new Builder().thema(thema).entry('nach').example(['Ich gehe jetzt nach Hause.', 'Ich fliege nach München.', 'Es ist schon 5 nach 12.']).get());
+        entries.push(new Builder().thema(thema).entry('nächst-').example('Sehen wir uns nächste Woche?').get());
+        entries.push(new Builder().thema(thema).entry('der Name, -n').example(['Mein Name ist Thomas Schmidt.', 'Mein Vorname ist Thomas; Schmidt ist der Familienname.']).get());
+        entries.push(new Builder().thema(thema).entry('nehmen').example(['Heute gibt es Hähnchen. Das nehme ich.', 'Ich nehme den Bus.']).get());
+        entries.push(new Builder().thema(thema).entry('nein').example('Fährst du auch nach München? – Nein, ich habe keine Zeit.').get());
+        entries.push(new Builder().thema(thema).entry('neu').example(['Ich bin der neue Kollege.', 'Wir haben eine neue Wohnung.']).get());
+        entries.push(new Builder().thema(thema).entry('nicht').example(['Das stimmt nicht.', 'Das ist doch schön, nicht?']).get());
+        entries.push(new Builder().thema(thema).entry('nichts').example(['Das macht nichts.', 'Hier kaufe ich nichts. Der Laden gefällt mir nicht.']).get());
+        entries.push(new Builder().thema(thema).entry('nie').example('Er kommt nie pünktlich.').get());
+        entries.push(new Builder().thema(thema).entry('noch').example(['Vielleicht kommt er noch.', 'Wir warten noch fünf Minuten.', 'Ich habe noch 20 Euro.']).get());
+        entries.push(new Builder().thema(thema).entry('normal').example('75 kg. Sein Gewicht ist normal.').get());
+        entries.push(new Builder().thema(thema).entry('die Nummer, -n').example(['Sie haben Zimmer Nummer zwölf.', 'Welche Hausnummer haben Sie?', 'Können Sie mir Ihre Nummer geben?']).get());
+        entries.push(new Builder().thema(thema).entry('nur').example('Ich möchte nur ein Glas Wasser.').get());
         return entries;
     }
 
     createOEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'O'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'O'];
+        entries.push(new Builder().thema(thema).entry('oben').example('Ich wohne oben.').get());
+        entries.push(new Builder().thema(thema).entry('das Obst').example('Im Sommer ist das Obst billig.').get());
+        entries.push(new Builder().thema(thema).entry('oder').example('Wann können Sie kommen – heute oder morgen?').get());
+        entries.push(new Builder().thema(thema).entry('öffnen').example('Ich öffne die Tür.').get());
+        entries.push(new Builder().thema(thema).entry('geöffnet').example('Der Laden ist samstags bis 16.00 Uhr geöffnet.').get());
+        entries.push(new Builder().thema(thema).entry('oft').example('Petra treffe ich oft.').get());
+        entries.push(new Builder().thema(thema).entry('ohne').example('Ohne Geld kann er nichts kaufen.').get());
+        entries.push(new Builder().thema(thema).entry('das Öl').example('Den Salat machen wir ohne Öl.').get());
+        entries.push(new Builder().thema(thema).entry('die Oma, -s').example('Meine Oma ist schon tot.').get());
+        entries.push(new Builder().thema(thema).entry('der Opa, -s').example('Mein Opa heißt Hans.').get());
+        entries.push(new Builder().thema(thema).entry('die Ordnung').example('Das ist in Ordnung.').get());
+        entries.push(new Builder().thema(thema).entry('der Ort, -e').example('Der Ort liegt am Meer.').get());
         return entries;
     }
 
     createPEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'P'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'P'];
+        entries.push(new Builder().thema(thema).entry('das Papier').example('Hier sind Papier und Bleistift.').get());
+        entries.push(new Builder().thema(thema).entry('die Papiere (pl.)').example('Haben Sie Ihre Papiere dabei?').get());
+        entries.push(new Builder().thema(thema).entry('der Partner, -/die Partnerin, -nen').example('Sie ist meine Partnerin.').get());
+        entries.push(new Builder().thema(thema).entry('die Party').example('Heute Abend machen wir eine Party.').get());
+        entries.push(new Builder().thema(thema).entry('der Pass, -ä, e').example('Im Hotel brauchst du deinen Pass.').get());
+        entries.push(new Builder().thema(thema).entry('die Pause, -n').example('Von 12.00 bis 12.30 Uhr haben wir Mittagspause.').get());
+        entries.push(new Builder().thema(thema).entry('der Plan, -ä, e').example('Ich kaufe mir einen Stadtplan.').get());
+        entries.push(new Builder().thema(thema).entry('der Platz, -ä, e').example(['Tut mir leid, der Platz ist besetzt.', 'Bitte nehmen Sie Platz!', 'Ich wohne Messeplatz 5.']).get());
+        entries.push(new Builder().thema(thema).entry('die Polizei').example('Holen Sie die Polizei!').get());
+        entries.push(new Builder().thema(thema).entry('die Pommes frites (pl.)').example('Die Kinder essen Hähnchen mit Pommes frites.').get());
+        entries.push(new Builder().thema(thema).entry('die Post').example(['Wo ist die Post, bitte?' , 'Ist Post da?']).get());
+        entries.push(new Builder().thema(thema).entry('die Postleitzahl').example('Wie ist Ihre Postleitzahl?').get());
+        entries.push(new Builder().thema(thema).entry('das Praktikum').example('Ich mache ein Praktikum bei Siemens.').get());
+        entries.push(new Builder().thema(thema).entry('die Praxis').example('Die Praxis ist ab acht Uhr geöffnet.').get());
+        entries.push(new Builder().thema(thema).entry('der Preis, -e').example('Die Preise sind hoch.').get());
+        entries.push(new Builder().thema(thema).entry('das Problem, -e').example('Mein Problem ist die Sprache.').get());
+        entries.push(new Builder().thema(thema).entry('der Prospekt, -e').example('Bitte schicken Sie mir einen Prospekt von Ihrem Hotel.').get());
+        entries.push(new Builder().thema(thema).entry('die Prüfung').example('Die Prüfung ist am Montag um 8.00 Uhr.').get());
+        entries.push(new Builder().thema(thema).entry('pünktlich').example(['Der Bus fährt pünktlich um acht Uhr.', 'Herr Müller ist immer pünktlich.']).get());
         return entries;
     }
 
     createREntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'R'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'R'];
+        entries.push(new Builder().thema(thema).entry('Rad fahren').example('Das Kind kann schon Rad fahren.').get());
+        entries.push(new Builder().thema(thema).entry('rauchen').example('Ich rauche nicht.').get());
+        entries.push(new Builder().thema(thema).entry('der Raum, -ä, e').example('Der Unterricht ist in Raum 332.').get());
+        entries.push(new Builder().thema(thema).entry('die Rechnung, -en').example('Die Rechnung, bitte.').get());
+        entries.push(new Builder().thema(thema).entry('rechts').example('Die Schillerstraße ist hier rechts.').get());
+        entries.push(new Builder().thema(thema).entry('regnen').example('Heute regnet es.').get());
+        entries.push(new Builder().thema(thema).entry('der Regen').example('Bei diesem Regen gehe ich nicht raus.').get());
+        entries.push(new Builder().thema(thema).entry('der Reis').example('Ich esse gern Reis.').get());
+        entries.push(new Builder().thema(thema).entry('reisen').example('Ich reise gern.').get());
+        entries.push(new Builder().thema(thema).entry('die Reise').example('Wir machen eine Reise nach Österreich.').get());
+        entries.push(new Builder().thema(thema).entry('das Reisebüro, -s').example('Mein Mann arbeitet im Reisebüro.').get());
+        entries.push(new Builder().thema(thema).entry('der Reiseführer').example(['Ich kaufe mir einen Reiseführer von Berlin.', 'Unser Reiseführer heißt Peter.']).get());
+        entries.push(new Builder().thema(thema).entry('reparieren').example('Er hat das Fahrrad repariert.').get());
+        entries.push(new Builder().thema(thema).entry('die Reparatur').example('Die Reparatur ist sehr teuer.').get());
+        entries.push(new Builder().thema(thema).entry('das Restaurant, -s').example('Wir essen heute in einem Restaurant.').get());
+        entries.push(new Builder().thema(thema).entry('die Rezeption').example('Fragen Sie bitte im Hotel an der Rezeption.').get());
+        entries.push(new Builder().thema(thema).entry('richtig').example(['Habe ich das richtig verstanden?', 'Das ist richtig.']).get());
+        entries.push(new Builder().thema(thema).entry('riechen').example('Dieser Wein riecht gut.').get());
+        entries.push(new Builder().thema(thema).entry('ruhig').example('Ich möchte ein ruhiges Zimmer.').get());
         return entries;
     }
 
     createSEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'S'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'S'];
+        entries.push(new Builder().thema(thema).entry('der Saft').example('Möchtest du einen Apfelsaft?').get());
+        entries.push(new Builder().thema(thema).entry('sagen').example('Sag mal, wie geht es dir denn?').get());
+        entries.push(new Builder().thema(thema).entry('der Salat').example('Wie schmeckt dir der Salat?').get());
+        entries.push(new Builder().thema(thema).entry('das Salz').example('Herr Ober, kann ich bitte Salz haben?').get());
+        entries.push(new Builder().thema(thema).entry('Satz, -ä, e').example('Dieser Satz ist sehr einfach.').get());
+        entries.push(new Builder().thema(thema).entry('die S-Bahn').example('Ich nehme lieber die S-Bahn.').get());
+        entries.push(new Builder().thema(thema).entry('der Schalter').example('Gehen Sie bitte zum Schalter drei!').get());
+        entries.push(new Builder().thema(thema).entry('scheinen').example('Die Sonne scheint.').get());
+        entries.push(new Builder().thema(thema).entry('schicken').example('Bitte schicken Sie mir eine E-Mail.').get());
+        entries.push(new Builder().thema(thema).entry('das Schild, -er ').example('Haben Sie nicht das Schild gesehen?').get());
+        entries.push(new Builder().thema(thema).entry('der Schinken, –').example('Ich möchte gern ein Schinkenbrot.').get());
+        entries.push(new Builder().thema(thema).entry('schlafen').example('Ich schlafe meistens acht Stunden.').get());
+        entries.push(new Builder().thema(thema).entry('schlecht').example(['Mir ist schlecht!', 'Sie sehen schlecht aus.', 'Wir haben schlechtes Wetter.']).get());
+        entries.push(new Builder().thema(thema).entry('schließen').example('Bitte, schließen Sie die Tür.').get());
+        entries.push(new Builder().thema(thema).entry('geschlossen').example('Die Bank hat am Samstag geschlossen.').get());
+        entries.push(new Builder().thema(thema).entry('der Schluss').example(['Ich muss jetzt Schluss machen.', 'Zum Schluss gibt er uns allen die Hand.']).get());
+        entries.push(new Builder().thema(thema).entry('der Schlüssel, –').example('Ich gebe Ihnen noch den Zimmerschlüssel.').get());
+        entries.push(new Builder().thema(thema).entry('schmecken').example('Schmeckt das gut?').get());
+        entries.push(new Builder().thema(thema).entry('schnell').example('Er fährt schnell.').get());
+        entries.push(new Builder().thema(thema).entry('schon').example('Ist das Essen schon fertig?').get());
+        entries.push(new Builder().thema(thema).entry('schön').example(['Schönen Urlaub!', 'Das ist sehr schön.']).get());
+        entries.push(new Builder().thema(thema).entry('der Schrank, -ä, e').example('Die Gläser stehen im Schrank.').get());
+        entries.push(new Builder().thema(thema).entry('schreiben').example('Er schreibt jeden Tag fünfzig E-Mails.').get());
+        entries.push(new Builder().thema(thema).entry('der Schuh, -e').example('Zieh die Schuhe aus!').get());
+        entries.push(new Builder().thema(thema).entry('die Schule').example(['Meine Tochter geht schon in die Schule.', 'Die Schule ist gleich hier um die Ecke.']).get());
+        entries.push(new Builder().thema(thema).entry('der Schüler, –').example('In meinem Kurs sind acht Schülerinnen und fünf Schüler.').get());
+        entries.push(new Builder().thema(thema).entry('schwer').example(['Ist Ihr Gepäck sehr schwer?', 'Das ist eine schwere Arbeit.']).get());
+        entries.push(new Builder().thema(thema).entry('die Schwester, -n').example('Meine Schwester kommt am Dienstag.').get());
+        entries.push(new Builder().thema(thema).entry('schwimmen').example('Ich schwimme jeden Tag einen Kilometer.').get());
+        entries.push(new Builder().thema(thema).entry('das Schwimmbad').example('Kommst du mit ins Schwimmbad?').get());
+        entries.push(new Builder().thema(thema).entry('der See').example('Komm, wir fahren zum Starnberger See.').get());
+        entries.push(new Builder().thema(thema).entry('sehen').example(['Ich kann dich nicht sehen.', 'Ich habe diesen Jungen schon einmal gesehen.']).get());
+        entries.push(new Builder().thema(thema).entry('die Sehenswürdigkeit, -en').example('Welche Sehenswürdigkeiten gibt es in Frankfurt?').get());
+        entries.push(new Builder().thema(thema).entry('sehr').example(['Danke sehr!', 'Das ist sehr schwer.']).get());
+        entries.push(new Builder().thema(thema).entry('sein').example(['Herr Müller ist in seinem Zimmer.', 'Mir ist kalt.', 'Ich bin dreiundzwanzig.']).get());
+        entries.push(new Builder().thema(thema).entry('an sein').example('Das Licht ist noch an.').get());
+        entries.push(new Builder().thema(thema).entry('auf sein').example('Das Fenster ist noch auf.').get());
+        entries.push(new Builder().thema(thema).entry('weg sein').example('Herr Meier ist schon weg.').get());
+        entries.push(new Builder().thema(thema).entry('zu sein').example('Die Tür ist zu.').get());
+        entries.push(new Builder().thema(thema).entry('seit').example('Ich wohne seit drei Jahren in Köln.').get());
+        entries.push(new Builder().thema(thema).entry('selbstständig').example('Er ist selbstständig.').get());
+        entries.push(new Builder().thema(thema).entry('sich').example('Sie müssen sich erst anmelden.').get());
+        entries.push(new Builder().thema(thema).entry('sie').example('Wie heißt sie?').get());
+        entries.push(new Builder().thema(thema).entry('Sie').example('Wie heißen Sie, bitte?').get());
+        entries.push(new Builder().thema(thema).entry('sitzen').example('Wo sitzen Sie?').get());
+        entries.push(new Builder().thema(thema).entry('so').example(['Sie müssen das so machen!', 'Fahren Sie bitte nicht so schnell!', 'Meine Frau ist so groß wie ich.', 'So, das war‘s/wär‘s!']).get());
+        entries.push(new Builder().thema(thema).entry('das Sofa').example('Das Sofa ist neu.').get());
+        entries.push(new Builder().thema(thema).entry('sofort').example('Bitte antworten Sie sofort.').get());
+        entries.push(new Builder().thema(thema).entry('der Sohn, -ö, e').example('Das ist Hans, mein Sohn.').get());
+        entries.push(new Builder().thema(thema).entry('sollen').example(['Soll ich kommen?', 'Was soll ich mitbringen?']).get());
+        entries.push(new Builder().thema(thema).entry('die Sonne').example('Die Sonne scheint.').get());
+        entries.push(new Builder().thema(thema).entry('spät').example('Es ist schon spät, ich muss gehen.').get());
+        entries.push(new Builder().thema(thema).entry('später').example('Das können wir später machen.').get());
+        entries.push(new Builder().thema(thema).entry('die Speisekarte').example('Bringen Sie mir die Speisekarte, bitte.').get());
+        entries.push(new Builder().thema(thema).entry('spielen').example(['Die Kinder spielen draußen.', 'Spielen Sie Karten?']).get());
+        entries.push(new Builder().thema(thema).entry('der Sport').example('Ich mache viel Sport.').get());
+        entries.push(new Builder().thema(thema).entry('die Sprache, -n').example('Welche Sprachen sprichst du?').get());
+        entries.push(new Builder().thema(thema).entry('sprechen').example('Kann ich (mit) Herrn Klein sprechen?').get());
+        entries.push(new Builder().thema(thema).entry('die Stadt, -ä, e').example('Heidelberg ist eine alte Stadt.').get());
+        entries.push(new Builder().thema(thema).entry('stehen').example(['Ich glaube es nicht, aber es steht in der Zeitung.', 'Der Bus steht schon an der Haltestelle.']).get());
+        entries.push(new Builder().thema(thema).entry('die Stelle, -n').example('Ich habe eine neue Stelle.').get());
+        entries.push(new Builder().thema(thema).entry('stellen').example('Stell die Tasche rechts in die Ecke!').get());
+        entries.push(new Builder().thema(thema).entry('der Stock').example('Unsere Wohnung liegt im ersten Stock.').get());
+        entries.push(new Builder().thema(thema).entry('die Straße, -n').example('In welcher Straße wohnen Sie?').get());
+        entries.push(new Builder().thema(thema).entry('die Straßenbahn').example('Wo fährt die Straßenbahn ab?').get());
+        entries.push(new Builder().thema(thema).entry('studieren').example('Ich studiere in Mainz.').get());
+        entries.push(new Builder().thema(thema).entry('das Studium').example('Das Studium beginnt im Oktober.').get());
+        entries.push(new Builder().thema(thema).entry('der Student, -en').example('Ich bin Studentin.').get());
+        entries.push(new Builder().thema(thema).entry('die Stunde, -n').example('Ich bin in einer Stunde zurück.').get());
+        entries.push(new Builder().thema(thema).entry('suchen').example('Suchst du etwas?').get());
         return entries;
     }
 
     createTEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'T'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'T'];
         entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
     createUEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'U'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'U'];
         entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
     createVEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'V'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'V'];
         entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
     createWEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'W'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'W'];
         entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
 
     createZEntries(Builder) {
         let entries = [];
-        let thema = ['Wortschatz', 'Alphabetische Wortliste', 'Z'];
+        let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'Z'];
         entries.push(new Builder().thema(thema).entry('').example('').get());
         return entries;
     }
