@@ -967,35 +967,136 @@ class VocabularyA1Service {
     createTEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'T'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        entries.push(new Builder().thema(thema).entry('tanzen').example('Tanzen Sie gern?').get());
+        entries.push(new Builder().thema(thema).entry('die Tasche, -n').example('Ich habe die Schlüssel in der Tasche.').get());
+        entries.push(new Builder().thema(thema).entry('das Taxi, -s').example('Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi.').get());
+        entries.push(new Builder().thema(thema).entry('der Tee').example('Ich trinke morgens immer Tee.').get());
+        entries.push(new Builder().thema(thema).entry('der Teil, -e').example('Lies bitte auch den zweiten Teil.').get());
+        entries.push(new Builder().thema(thema).entry('telefonieren').example('Darf ich mal telefonieren?').get());
+        entries.push(new Builder().thema(thema).entry('das Telefon').example('Haben Sie Telefon?').get());
+        entries.push(new Builder().thema(thema).entry('der Termin, -e').example('Am besten machen wir sofort einen Termin.').get());
+        entries.push(new Builder().thema(thema).entry('der Test').example('Der Test war einfach.').get());
+        entries.push(new Builder().thema(thema).entry('teuer').example('Das ist mir zu teuer.').get());
+        entries.push(new Builder().thema(thema).entry('der Text, -e').example('Lesen Sie bitte diesen Text.').get());
+        entries.push(new Builder().thema(thema).entry('das Thema').example('Wir sprechen heute über das Thema „Essen und Trinken“.').get());
+        entries.push(new Builder().thema(thema).entry('das Ticket, -s').example('Wie viel kostet das Ticket?').get());
+        entries.push(new Builder().thema(thema).entry('der Tisch, -e').example('Die Fotos liegen auf dem Tisch.').get());
+        entries.push(new Builder().thema(thema).entry('die Tochter, -ö').example('Das ist meine Tochter Katharina.').get());
+        entries.push(new Builder().thema(thema).entry('die Toilette, -en').example('Wo ist die Toilette, bitte?').get());
+        entries.push(new Builder().thema(thema).entry('die Tomate, -n').example('Die Tomate ist noch grün.').get());
+        entries.push(new Builder().thema(thema).entry('tot').example('Sein Vater ist schon lange tot.').get());
+        entries.push(new Builder().thema(thema).entry('(sich) treffen').example(['Ich treffe in der Stadt einen Kollegen.', 'Wir treffen uns immer freitags.']).get());
+        entries.push(new Builder().thema(thema).entry('die Treppe, -n').example('Die Toilette? Die Treppe hoch und dann links.').get());
+        entries.push(new Builder().thema(thema).entry('trinken').example('Möchtest du etwas trinken?').get());
+        entries.push(new Builder().thema(thema).entry('tschüss').example('Junge Leute sagen meistens „tschüss!“ und nicht „auf Wiedersehen“.').get());
+        entries.push(new Builder().thema(thema).entry('tun').example(['Ich habe noch etwas zu tun.', 'Was tut Ihr Mann?']).get());
         return entries;
     }
 
     createUEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'U'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        entries.push(new Builder().thema(thema).entry('über').example(['Gehen Sie hier über die Straße.', 'Er wohnt im zweiten Stock über Familie Meier.', 'Sind Sie über 18?']).get());
+        entries.push(new Builder().thema(thema).entry('übernachten').example('Du kannst bei mir übernachten.').get());
+        entries.push(new Builder().thema(thema).entry('überweisen').example('Sie können das Geld auch überweisen.').get());
+        entries.push(new Builder().thema(thema).entry('die Uhr').example('Es ist vier Uhr.').get());
+        entries.push(new Builder().thema(thema).entry('um').example(['Er kommt um sieben Uhr.', 'Da kommt er gerade um die Ecke.']).get());
+        entries.push(new Builder().thema(thema).entry('umziehen').example('Nächsten Monat ziehen wir um.').get());
+        entries.push(new Builder().thema(thema).entry('und').example('Peter und Helmut sind meine Söhne.').get());
+        entries.push(new Builder().thema(thema).entry('unser-').example('Das ist unsere Lehrerin.').get());
+        entries.push(new Builder().thema(thema).entry('unten').example('Er wohnt ganz unten im Haus.').get());
+        entries.push(new Builder().thema(thema).entry('unter').example('Unter uns wohnt eine Familie mit drei Kindern.').get());
+        entries.push(new Builder().thema(thema).entry('der Unterricht').example('Wir haben Unterricht von 8.00 bis 12.00 Uhr.').get());
+        entries.push(new Builder().thema(thema).entry('unterschreiben').example('Wo muss ich unterschreiben?').get());
+        entries.push(new Builder().thema(thema).entry('die Unterschrift').example('Hier fehlt noch Ihre Unterschrift.').get());
+        entries.push(new Builder().thema(thema).entry('der Urlaub').example('Ich nehme im September Urlaub.').get());
         return entries;
     }
 
     createVEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'V'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        entries.push(new Builder().thema(thema).entry('der Vater, -ä').example('Mein Vater ist Arbeiter.').get());
+        entries.push(new Builder().thema(thema).entry('verboten').example('Hier ist Rauchen verboten.').get());
+        entries.push(new Builder().thema(thema).entry('verdienen').example('Ich verdiene 1.500 Euro im Monat.').get());
+        entries.push(new Builder().thema(thema).entry('der Verein').example('Es gibt einen neuen Sportverein in der Stadt.').get());
+        entries.push(new Builder().thema(thema).entry('verheiratet').example('Ich bin verheiratet und habe drei Kinder.').get());
+        entries.push(new Builder().thema(thema).entry('verkaufen').example('Er verkauft sein altes Auto.').get());
+        entries.push(new Builder().thema(thema).entry('der Verkäufer, –').example('Meine Mutter ist Verkäuferin im Kaufhaus.').get());
+        entries.push(new Builder().thema(thema).entry('vermieten').example('Die Wohnung ist schon vermietet.').get());
+        entries.push(new Builder().thema(thema).entry('der Vermieter').example('Unser Vermieter heißt Huber. Er wohnt auch hier.').get());
+        entries.push(new Builder().thema(thema).entry('verstehen').example('Können Sie mich verstehen?').get());
+        entries.push(new Builder().thema(thema).entry('der Verwandte, -n').example('Peter besucht seine Verwandten in Polen.').get());
+        entries.push(new Builder().thema(thema).entry('viel').example('Hier regnet es viel.').get());
+        entries.push(new Builder().thema(thema).entry('vielleicht').example('Ich komme vielleicht mit dem Bus.').get());
+        entries.push(new Builder().thema(thema).entry('von').example(['Das Auto von Felix ist kaputt.', 'Er kommt gerade von Köln/von zu Hause.']).get());
+        entries.push(new Builder().thema(thema).entry('vor').example(['Der Termin war vor einer Stunde.', 'Das Auto steht vor der Tür.']).get());
+        entries.push(new Builder().thema(thema).entry('der Vorname, -n').example('Ich heiße Müller, mein Vorname ist Eva.').get());
+        entries.push(new Builder().thema(thema).entry('die Vorsicht').example('Vorsicht! Da kommt ein Auto.').get());
+        entries.push(new Builder().thema(thema).entry('(sich) vorstellen').example('Wir wollen uns kennenlernen. Können Sie sich bitte vorstellen?').get());
+        entries.push(new Builder().thema(thema).entry('die Vorwahl').example('Wie ist die Vorwahl von München?').get());
         return entries;
     }
 
     createWEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'W'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        entries.push(new Builder().thema(thema).entry('wandern').example('Wir wandern um den Chiemsee.').get());
+        entries.push(new Builder().thema(thema).entry('wann').example(['Wann bist du fertig?', 'Wann kann ich Sie anrufen?', 'Wann sind Sie geboren?']).get());
+        entries.push(new Builder().thema(thema).entry('warten').example(['Können Sie ein paar Minuten warten?', 'Auf wen warten Sie?']).get());
+        entries.push(new Builder().thema(thema).entry('warum').example('Warum kommt er nicht?').get());
+        entries.push(new Builder().thema(thema).entry('was').example(['Was ist das?', 'Was möchten Sie?']).get());
+        entries.push(new Builder().thema(thema).entry('was für ein').example('Was für eine Farbe möchten Sie?').get());
+        entries.push(new Builder().thema(thema).entry('(sich) waschen').example(['Wo kann ich mir die Hände waschen?', 'Ich muss morgen waschen.']).get());
+        entries.push(new Builder().thema(thema).entry('das Wasser').example('Ein Glas Wasser, bitte.').get());
+        entries.push(new Builder().thema(thema).entry('weh tun').example('Ich muss zum Arzt. Mein Bein tut weh.').get());
+        entries.push(new Builder().thema(thema).entry('weiblich').example('Kreuzen Sie bitte an: „weiblich“ oder „männlich“.').get());
+        entries.push(new Builder().thema(thema).entry('der Wein').example('Nein danke, ich möchte keinen Wein.').get());
+        entries.push(new Builder().thema(thema).entry('weit').example('Zum Bahnhof ist es nicht weit.').get());
+        entries.push(new Builder().thema(thema).entry('weiter').example('Der Bus fährt nicht weiter.').get());
+        entries.push(new Builder().thema(thema).entry('welch-').example('Welches Buch möchtest du?').get());
+        entries.push(new Builder().thema(thema).entry('die Welt').example('Es gibt viele Probleme auf der Welt.').get());
+        entries.push(new Builder().thema(thema).entry('wenig').example(['Ich habe leider nur wenig verstanden.', 'Er verdient wenig.']).get());
+        entries.push(new Builder().thema(thema).entry('wer').example('Wer ist das?').get());
+        entries.push(new Builder().thema(thema).entry('werden').example('Mein Sohn will Arzt werden.').get());
+        entries.push(new Builder().thema(thema).entry('das Wetter').example('Wir hatten schlechtes Wetter.').get());
+        entries.push(new Builder().thema(thema).entry('wichtig').example('Dieses Formular ist sehr wichtig.').get());
+        entries.push(new Builder().thema(thema).entry('wie').example(['Wie heißt du?', 'Er schreibt wie ein Kind.', 'Meine Frau ist so groß wie ich.', 'Wie soll ich das machen?', 'Wie groß ist die Wohnung?', 'Wie bitte?', 'Wie lange bist du schon hier?']).get());
+        entries.push(new Builder().thema(thema).entry('wiederholen').example('Können Sie das bitte wiederholen?').get());
+        entries.push(new Builder().thema(thema).entry('das Wiederhören').example('Wir müssen jetzt Schluss machen. Also auf Wiederhören!').get());
+        entries.push(new Builder().thema(thema).entry('das Wiedersehen').example('Auf Wiedersehen!').get());
+        entries.push(new Builder().thema(thema).entry('wie viel').example('Wie viel Milch nehmen Sie?').get());
+        entries.push(new Builder().thema(thema).entry('willkommen').example('Herzlich willkommen!').get());
+        entries.push(new Builder().thema(thema).entry('der Wind').example('Der Wind kommt aus Osten.').get());
+        entries.push(new Builder().thema(thema).entry('wir').example('Wir lernen Deutsch.').get());
+        entries.push(new Builder().thema(thema).entry('wissen').example('Weißt du, wie er heißt?').get());
+        entries.push(new Builder().thema(thema).entry('wo').example(['Wo waren Sie im Urlaub?', 'Wo ist die Post?', 'Wo sind Sie geboren?']).get());
+        entries.push(new Builder().thema(thema).entry('woher').example('Woher kommen Sie?').get());
+        entries.push(new Builder().thema(thema).entry('wohin').example(['Wohin fährt dieser Bus?', 'Wohin wollen Sie am Wochenende?']).get());
+        entries.push(new Builder().thema(thema).entry('wohnen').example('Ich wohne in München.').get());
+        entries.push(new Builder().thema(thema).entry('die Wohnung, -en').example('Seit wann haben Sie diese Wohnung?').get());
+        entries.push(new Builder().thema(thema).entry('wollen').example('Wollen Sie einen Kaffee trinken?').get());
+        entries.push(new Builder().thema(thema).entry('das Wort, -ö, er/-e').example('Ich kenne das Wort nicht.').get());
+        entries.push(new Builder().thema(thema).entry('wunderbar').example('Das Essen schmeckt wunderbar.').get());
         return entries;
     }
 
     createZEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'Z'];
-        entries.push(new Builder().thema(thema).entry('').example('').get());
+        entries.push(new Builder().thema(thema).entry('zahlen').example('Zahlen, bitte!').get());
+        entries.push(new Builder().thema(thema).entry('die Zeit').example('Ich habe heute keine Zeit.').get());
+        entries.push(new Builder().thema(thema).entry('zurzeit').example('Zurzeit habe ich sehr viel zu tun.').get());
+        entries.push(new Builder().thema(thema).entry('die Zeitung, -en').example('Ich lese gern Zeitung.').get());
+        entries.push(new Builder().thema(thema).entry('die Zigarette, -n').example('Wie teuer sind die Zigaretten?').get());
+        entries.push(new Builder().thema(thema).entry('das Zimmer, –').example(['Das Zimmer ist groß.', 'Öffne im Schlafzimmer das Fenster, bitte!', 'Die Wohnung hat drei Zimmer.', 'Ich habe ein Zimmer bestellt.']).get());
+        entries.push(new Builder().thema(thema).entry('der Zoll').example('Wir müssen noch durch den Zoll.').get());
+        entries.push(new Builder().thema(thema).entry('zu').example(['Der Bus fährt zum Bahnhof.', 'Ich gehe zu Fuß.', 'Ich bin zu Hause.']).get());
+        entries.push(new Builder().thema(thema).entry('zufrieden').example('Ich bin mit der Wohnung zufrieden.').get());
+        entries.push(new Builder().thema(thema).entry('der Zug, -ü, e').example('Ich fahre gern mit dem Zug.').get());
+        entries.push(new Builder().thema(thema).entry('zurück').example(['Einmal Frankfurt und zurück.', 'Wann kommst du zurück?']).get());
+        entries.push(new Builder().thema(thema).entry('zusammen').example(['Sollen wir zusammen essen gehen?', 'Das macht zusammen 2 Euro 80.']).get());
+        entries.push(new Builder().thema(thema).entry('zwischen').example(['Heidelberg liegt zwischen Frankfurt und Stuttgart.', 'Zwischen 8 und 10 Uhr bin ich zu Hause.']).get());
         return entries;
     }
 
