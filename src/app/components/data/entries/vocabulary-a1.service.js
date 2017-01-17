@@ -55,64 +55,71 @@ class VocabularyA1Service {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Zahlen'];
         entries.push(new Builder().id('8fb96813-36bc-4932-adfb-412ccfd88548').thema(thema).entry('Zahl').get());
-        entries.push(new Builder().id('').thema(thema).entry('eins').alternative('1').get());
-        entries.push(new Builder().id('').thema(thema).entry('zwei').alternative('2').get());
-        entries.push(new Builder().id('').thema(thema).entry('drei').alternative('3').get());
-        entries.push(new Builder().id('').thema(thema).entry('vier').alternative('4').get());
-        entries.push(new Builder().id('').thema(thema).entry('fünf').alternative('5').get());
-        entries.push(new Builder().id('').thema(thema).entry('sechs').alternative('6').get());
-        entries.push(new Builder().id('').thema(thema).entry('sieben').alternative('7').get());
-        entries.push(new Builder().id('').thema(thema).entry('acht').alternative('8').get());
-        entries.push(new Builder().id('').thema(thema).entry('neun').alternative('9').get());
-        entries.push(new Builder().id('').thema(thema).entry('zehn').alternative('10').get());
-        entries.push(new Builder().id('').thema(thema).entry('elf').alternative('11').get());
-        entries.push(new Builder().id('').thema(thema).entry('zwölf').alternative('12').get());
-        entries.push(new Builder().id('').thema(thema).entry('dreizehn').alternative('13').get());
-        entries.push(new Builder().id('').thema(thema).entry('vierzehn').alternative('14').get());
-        entries.push(new Builder().id('').thema(thema).entry('fünfzehn').alternative('15').get());
-        entries.push(new Builder().id('').thema(thema).entry('sechzehn').alternative('16').get());
-        entries.push(new Builder().id('').thema(thema).entry('siebzehn').alternative('17').get());
-        entries.push(new Builder().id('').thema(thema).entry('achtzehn').alternative('18').get());
-        entries.push(new Builder().id('').thema(thema).entry('neunzehn').alternative('19').get());
-        entries.push(new Builder().id('').thema(thema).entry('zwanzig').alternative('20').get());
-        entries.push(new Builder().id('').thema(thema).entry('einundzwanzig').alternative('21').get());
-        entries.push(new Builder().id('').thema(thema).entry('dreißig').alternative('30').get());
-        entries.push(new Builder().id('').thema(thema).entry('vierzig').alternative('40').get());
-        entries.push(new Builder().id('').thema(thema).entry('fünfzig').alternative('50').get());
-        entries.push(new Builder().id('').thema(thema).entry('sechzig').alternative('60').get());
-        entries.push(new Builder().id('').thema(thema).entry('siebzig').alternative('70').get());
-        entries.push(new Builder().id('').thema(thema).entry('achtzig').alternative('80').get());
-        entries.push(new Builder().id('').thema(thema).entry('neunzig').alternative('90').get());
-        entries.push(new Builder().id('').thema(thema).entry('(ein)hundert').alternative('100').get());
-        entries.push(new Builder().id('').thema(thema).entry('hunderteins').alternative('101').get());
-        entries.push(new Builder().id('').thema(thema).entry('zweihundert').alternative('200').get());
-        entries.push(new Builder().id('').thema(thema).entry('(ein)tausend').alternative('1000').get());
-        entries.push(new Builder().id('').thema(thema).entry('eine Million, en').alternative("1'000'000").get());
-        entries.push(new Builder().id('').thema(thema).entry('eine Milliarde, en').alternative("1'000'000'000").get());
-        entries.push(new Builder().id('').thema(thema).entry('das/der/die erste').get());
-        entries.push(new Builder().id('').thema(thema).entry('zweite').get());
-        entries.push(new Builder().id('').thema(thema).entry('dritte').get());
-        entries.push(new Builder().id('').thema(thema).entry('vierte').get());
-        entries.push(new Builder().id('').thema(thema).entry('usw.').get());
+        entries.push(new Builder().id('5bf6a357-242b-46b7-8a0e-7c66c0669dda').thema(thema).entry('eins').alternative('1').get());
+        entries.push(new Builder().id('e90d5dc4-c6a4-4a4c-b8ce-2e9bee153829').thema(thema).entry('zwei').alternative('2').get());
+        entries.push(new Builder().id('a197814b-5ee1-4f16-9395-57c8cb777591').thema(thema).entry('drei').alternative('3').get());
+        entries.push(new Builder().id('34306518-3707-418e-9211-474bfc39d362').thema(thema).entry('vier').alternative('4').get());
+        entries.push(new Builder().id('62bd4c52-e48c-46e0-84e9-c95ecad656cf').thema(thema).entry('fünf').alternative('5').get());
+        entries.push(new Builder().id('33a413a6-0089-482b-aedc-c889da7516d1').thema(thema).entry('sechs').alternative('6').get());
+        entries.push(new Builder().id('09f4f3da-6848-404d-8276-22b2079a815a').thema(thema).entry('sieben').alternative('7').get());
+        entries.push(new Builder().id('f56eeeaf-0e5b-49be-a04d-0a98f61c6875').thema(thema).entry('acht').alternative('8').get());
+        entries.push(new Builder().id('b3634442-cbd6-4381-a7f5-dd43dc8823ba').thema(thema).entry('neun').alternative('9').get());
+        entries.push(new Builder().id('f0aa1d7f-b6b6-4310-ba8d-ab4e41c9fb9b').thema(thema).entry('zehn').alternative('10').get());
+        entries.push(new Builder().id('28d70b8e-6815-4c63-a0f9-cd13e2371063').thema(thema).entry('elf').alternative('11').get());
+        entries.push(new Builder().id('eafe7b9b-abed-4ea2-84e2-152fe61fdfb4').thema(thema).entry('zwölf').alternative('12').get());
+        entries.push(new Builder().id('3cd0c12b-9e1f-4aff-909d-20ffd3236685').thema(thema).entry('dreizehn').alternative('13').get());
+        entries.push(new Builder().id('177b4a0e-bf0e-403f-b6c5-11ef82d97919').thema(thema).entry('vierzehn').alternative('14').get());
+        entries.push(new Builder().id('aa8c796d-5050-4d5c-8308-83d92be40948').thema(thema).entry('fünfzehn').alternative('15').get());
+        entries.push(new Builder().id('4cf1a752-49f1-43f9-99ec-c76a2430c1a9').thema(thema).entry('sechzehn').alternative('16').get());
+        entries.push(new Builder().id('7cca6fa6-b816-4208-bd3f-4a74b0513253').thema(thema).entry('siebzehn').alternative('17').get());
+        entries.push(new Builder().id('b77cbc54-d06b-48c1-a56a-5e16ad62ec67').thema(thema).entry('achtzehn').alternative('18').get());
+        entries.push(new Builder().id('2d9f4a13-c185-4649-b85b-8cd69b846778').thema(thema).entry('neunzehn').alternative('19').get());
+        entries.push(new Builder().id('2b6ac0b9-1f4c-4449-8d12-741837c5c782').thema(thema).entry('zwanzig').alternative('20').get());
+        entries.push(new Builder().id('5a94b5f5-1f24-42f2-9a0f-b346b315b2eb').thema(thema).entry('einundzwanzig').alternative('21').get());
+        entries.push(new Builder().id('b8861ea0-2fcd-4f71-a530-cdca19fc76df').thema(thema).entry('dreißig').alternative('30').get());
+        entries.push(new Builder().id('c1335ed0-ec29-4a2e-b8b7-b08183239ecb').thema(thema).entry('vierzig').alternative('40').get());
+        entries.push(new Builder().id('cebdb768-0955-4c3f-acb9-c92896a29232').thema(thema).entry('fünfzig').alternative('50').get());
+        entries.push(new Builder().id('8176a0e1-4625-4052-b6c4-a179cceac7a2').thema(thema).entry('sechzig').alternative('60').get());
+        entries.push(new Builder().id('760f822c-31c6-4e38-b520-a025d417beb6').thema(thema).entry('siebzig').alternative('70').get());
+        entries.push(new Builder().id('12736972-c1d2-4b61-8b42-1f8d073ff3a8').thema(thema).entry('achtzig').alternative('80').get());
+        entries.push(new Builder().id('2b62351f-704c-4584-a0df-427edef277c5').thema(thema).entry('neunzig').alternative('90').get());
+        entries.push(new Builder().id('d48a709d-f128-4972-8d45-d8e969d567ab').thema(thema).entry('(ein)hundert').alternative('100').get());
+        entries.push(new Builder().id('cdcbef4a-69da-471d-aa51-8298f6cca231').thema(thema).entry('hunderteins').alternative('101').get());
+        entries.push(new Builder().id('37c0dc05-4838-4bcd-9dfe-acd02387cdf3').thema(thema).entry('zweihundert').alternative('200').get());
+        entries.push(new Builder().id('2b1d5c95-fb5a-4428-b2a5-22fbb2d69b6e').thema(thema).entry('(ein)tausend').alternative('1000').get());
+        entries.push(new Builder().id('baa8b5d8-8fb7-4870-ac19-7570de3d1154').thema(thema).entry('eine Million, en').alternative("1'000'000").get());
+        entries.push(new Builder().id('78e9fbd0-1c94-4e2a-954a-0f6f63c662b3').thema(thema).entry('eine Milliarde, en').alternative("1'000'000'000").get());
+        entries.push(new Builder().id('169ed0eb-37bc-4072-a6c8-d441cc3bdba9').thema(thema).entry('das/der/die erste').get());
+        entries.push(new Builder().id('b325d6ad-19ae-44c9-b2e1-92f706527a28').thema(thema).entry('zweite').get());
+        entries.push(new Builder().id('ea424c12-d3a7-40bd-8708-e0145d650d69').thema(thema).entry('dritte').get());
+        entries.push(new Builder().id('3e3e5149-95f3-4eae-bfb2-6d4b0059eb3f').thema(thema).entry('vierte').get());
+        entries.push(new Builder().id('2639629e-b3d6-4f22-b5b8-9fa23a8173ef').thema(thema).entry('usw.').get());
         return entries;
     }
 
     createDatumEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Datum'];
-        entries.push(new Builder().id('').thema(thema).entry('Datum').get());
-        entries.push(new Builder().id('').thema(thema).entry('ein halb; halb').alternative('1/2').get());
-        entries.push(new Builder().id('').thema(thema).entry('ein Vertiel; Viertel ...').alternative('1/4').get());
-        entries.push(new Builder().id('').thema(thema).entry('neunzehnhundertneunundneunzig').alternative('1999').get());
-        entries.push(new Builder().id('').thema(thema).entry('zweitausendvierzehn').alternative('2014').get());
-        entries.push(new Builder().id('').thema(thema).entry('heute ist der erste März/der erste Dritte').alternative('heute ist der 1. März').get());
-        entries.push(new Builder().id('').thema(thema).entry('Berlin, zwölfter Vierter zweitausendzwei').alternative('Berlin, 12. April 2002').get());
+        entries.push(new Builder().id('4b49807e-625b-4339-bf4d-ab4fda27cbbf').thema(thema).entry('Datum').get());
+        entries.push(new Builder().id('155e7251-c663-4699-ad9c-d7d59b25989f').thema(thema).entry('ein halb; halb').alternative('1/2').get());
+        entries.push(new Builder().id('102e14fe-89eb-423e-99b5-5791bb967747').thema(thema).entry('ein Vertiel; Viertel ...').alternative('1/4').get());
+        entries.push(new Builder().id('c286892c-3595-4b35-a110-ce36b485f406').thema(thema).entry('neunzehnhundertneunundneunzig').alternative('1999').get());
+        entries.push(new Builder().id('261bec94-db27-4c3f-a59b-1b4ee8e3cbc4').thema(thema).entry('zweitausendvierzehn').alternative('2014').get());
+        entries.push(new Builder().id('258fb3cd-9b3e-49d0-a1aa-dc34c1efbec1').thema(thema).entry('heute ist der erste März/der erste Dritte').alternative('heute ist der 1. März').get());
+        entries.push(new Builder().id('dde3aee0-42d0-4191-91c8-54ec097f605f').thema(thema).entry('Berlin, zwölfter Vierter zweitausendzwei').alternative('Berlin, 12. April 2002').get());
         return entries;
     }
 
     createUhrzeitEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Uhrzeit'];
+        /*
+bc1db69f-13b1-4040-b02b-fca5bc8804af
+b866a346-0417-4145-9d9b-3824bbc34fc2
+8cf09d42-daa8-4b66-b43a-7b3ce538a722
+2eddd640-816b-44db-a872-c9ccfd74a871
+708a0806-fa82-4c5c-8eb1-aa604cd3874e
+        */
         entries.push(new Builder().id('').thema(thema).entry('Uhrzeit').get());
         entries.push(new Builder().id('').thema(thema).entry('0.03 Uhr').alternative('null Uhr drei').get());
         entries.push(new Builder().id('').thema(thema).entry('7.15 Uhr').alternative('sieben Uhr fünfzehn').get());
