@@ -54,7 +54,7 @@ class VocabularyA1Service {
     createZahlenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Zahlen'];
-        entries.push(new Builder().thema(thema).entry('Zahl').get());
+        entries.push(new Builder().id('8fb96813-36bc-4932-adfb-412ccfd88548').thema(thema).entry('Zahl').get());
         entries.push(new Builder().thema(thema).entry('eins').alternative('1').get());
         entries.push(new Builder().thema(thema).entry('zwei').alternative('2').get());
         entries.push(new Builder().thema(thema).entry('drei').alternative('3').get());

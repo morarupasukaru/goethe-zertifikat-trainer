@@ -5,6 +5,7 @@ import speechActsA1Service from './speech-acts-a1.service';
 import strategiesA1Service from './strategies-a1.service.js';
 import themasA1Service from './themas-a1.service.js';
 import vocabularyA1Service from './vocabulary-a1.service';
+import entriesService from './entries.service';
 
 let entriesModule = angular.module('app.components.data.entries', [])
     .service('grammarA1Service', grammarA1Service)
@@ -13,6 +14,7 @@ let entriesModule = angular.module('app.components.data.entries', [])
     .service('strategiesA1Service', strategiesA1Service)
     .service('themasA1Service', themasA1Service)
     .service('vocabularyA1Service', vocabularyA1Service)
+    .service('entriesService', entriesService)
     .factory("EntryBuilder", function() {
         function Entry() {
             this.result = {};
@@ -32,6 +34,12 @@ let entriesModule = angular.module('app.components.data.entries', [])
             Entry.prototype.example = function(value) {
                 if (!!value) {
                     this.result.example = value;
+                }
+                return this;
+            };
+            Entry.prototype.id = function(value) {
+                if (!!value) {
+                    this.result.id = value;
                 }
                 return this;
             };
