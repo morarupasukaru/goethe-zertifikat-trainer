@@ -3,7 +3,8 @@ class EntryController {
     constructor($stateParams, entriesService) {
         this.id = $stateParams.id;
         this.data = entriesService.getEntry(this.id);
-        debugger;
+
+        this.fields = Object.keys(this.data);
     }
 }
 

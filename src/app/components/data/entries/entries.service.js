@@ -32,7 +32,6 @@ class EntriesService {
     }
 
     getEntry(id) {
-        debugger;
         for (let i = 0; i < this.entries.length; i++) {
             if (this.entries[i].id === id) {
                 return this.entries[i];

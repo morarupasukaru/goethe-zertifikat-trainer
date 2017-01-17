@@ -1,7 +1,10 @@
 <div class="container">
     <div class="row">
         <div class="twelve column" style="margin-top: 25%">
-            <themas data="$ctrl.data"></themas>
+            <div ng-repeat="row in $ctrl.fields">
+                <label for="{{ row }}">{{ row }}</label>
+                <input class="u-full-width" type="text" id="{{ row }}" ng-model="$ctrl.data[row]" readonly>
+            </div>
         </div>
     </div>
 </div>
