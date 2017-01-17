@@ -19,7 +19,7 @@ class NotionsA1Service {
     createNotionsEntries(Builder) {
         let entries = [];
         let thema = ['Notionen', 'xyz'];
-        entries.push(new Builder().thema(thema).entry('xyz').get());
+        entries.push(new Builder().id('341e9b4e-9c8f-4b9a-aa23-4ee2f4a2ef9e').thema(thema).entry('xyz').get());
         return entries;
     }
 

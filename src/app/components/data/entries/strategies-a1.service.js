@@ -19,7 +19,7 @@ class StrategiesA1Service {
     createStrategiesEntries(Builder) {
         let entries = [];
         let thema = ['Strategien', 'xyz'];
-        entries.push(new Builder().thema(thema).entry('xyz').get());
+        entries.push(new Builder().id('4e0ea898-9140-4482-9bc0-219c24a915ab').thema(thema).entry('xyz').get());
         return entries;
     }
 
