@@ -46,6 +46,7 @@ let entriesModule = angular.module('app.components.data.entries', [])
             Entry.prototype.get = function() {
                 return this.result;
             };
+            this.result.visibleFields = [ 'entry', 'type', 'thema', 'source'];
         }
         return Entry;
     })

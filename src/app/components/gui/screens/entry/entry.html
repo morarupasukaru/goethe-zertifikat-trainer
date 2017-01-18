@@ -2,8 +2,11 @@
     <div class="row">
         <div class="twelve column" style="margin-top: 25%">
             <div ng-repeat="row in $ctrl.fields">
-                <label for="{{ row }}">{{ row }}</label>
-                <input class="u-full-width" type="text" id="{{ row }}" ng-model="$ctrl.data[row]" readonly>
+                <label for="{{ row.name }}">{{ row.name }}</label>
+                <ul ng-if="!!row.list">
+                    <li ng-repeat="value in row.value">{{ value }}</li>
+                </ul>
+                <input class="u-full-width" type="text" id="{{ row.name }}" ng-model="row.value" ng-if="!row.list" readonly>
             </div>
         </div>
     </div>
