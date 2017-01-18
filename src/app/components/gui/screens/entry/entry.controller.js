@@ -1,6 +1,7 @@
 class EntryController {
     /*@ngInject*/
-    constructor($stateParams, entriesService) {
+    constructor($stateParams, $location, entriesService) {
+        this.$location = $location;
         this.id = $stateParams.id;
         this.data = entriesService.getEntry(this.id);
         this.fields = this.computeFields(this.data);
@@ -16,6 +17,10 @@ class EntryController {
             fields.push(field);
         }
         return fields;
+    }
+
+    back() {
+        this.$location.url('/inventory');
     }
 }
 
