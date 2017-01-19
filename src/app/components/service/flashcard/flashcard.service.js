@@ -40,8 +40,8 @@ class FlashcardService {
             id: 'vocabulary-entry-example',
             name: 'Verstehst du den Eintrag?',
             fields: {
-                question: ['entry'],
-                answer: ['example']
+                question: [ { id: 'entry', name: 'Eintrag' } ],
+                answer: [ { id:'example', name: 'Beispiel'} ]
             }
         }
         vocabularyEntryExampleFlashcardType.isSupported = function(entry) {

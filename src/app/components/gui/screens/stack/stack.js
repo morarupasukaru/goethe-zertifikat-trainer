@@ -3,6 +3,7 @@ import uiRouter from 'angular-ui-router';
 
 import template from './stack.html';
 import controller from './stack.controller';
+import stackService from './stack.service';
 
 let stackModule = angular.module('app.components.gui.screen.stack', [
 ])
@@ -16,7 +17,8 @@ let stackModule = angular.module('app.components.gui.screen.stack', [
     .component('stack', {
         template,
         controller
-    }
-);
+    })
+    .service('stackService', stackService);
+
 
 export default stackModule;

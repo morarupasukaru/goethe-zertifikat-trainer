@@ -15,6 +15,18 @@
                 <button ng-if="(!row.question && !$ctrl.showAnswer)" ng-click="$ctrl.displayAnswer()">Clicken hier um die Antwort anzuzeigen</button>
             </div>
 
+            <div>
+                <label>Beweg Flashcard im ...</label>
+                <ng-repeat ng-repeat="stack in $ctrl.stacksDestination">
+                    <button ng-click="$ctrl.display(entry)">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
+                </ng-repeat>
+
+                <label>Prüft nächste Flashcard von ...</label>
+                <ng-repeat ng-repeat="stack in $ctrl.stacksToLearn">
+                    <button ng-click="$ctrl.display(entry)">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
+                </ng-repeat>
+            </div>
+
             <button ng-click="$ctrl.back()">Zurück</button>
         </div>
     </div>
