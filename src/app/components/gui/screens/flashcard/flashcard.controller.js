@@ -15,6 +15,7 @@ class FlashcardController {
         let flashcardType = this.flashcardService.getFlashcardType(this.type);
         this.fields = this.computeFields(entry, flashcardType);
         this.showAnswer = false;
+        this.title = flashcardType.name;
     }
 
     computeFields(entry, flashcardType) {
