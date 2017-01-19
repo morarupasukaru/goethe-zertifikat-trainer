@@ -1,4 +1,4 @@
-class StackController {
+class FlashcardController {
     /*@ngInject*/
     constructor() {
         this.initData();
@@ -23,4 +23,4 @@ class StackController {
     }
 }
 
-export default StackController;
+export default FlashcardController;
