@@ -24,6 +24,17 @@ class FlashcardService {
         }
     }
 
+    getFlashcardType(id) {
+        let flashcardTypes = this.getFlashcardTypes();
+        for (let i = 0; i < flashcardTypes.length; i++) {
+            let flashcardType = flashcardTypes[i];
+            if (flashcardType.id === id) {
+                return flashcardType;
+            }
+        }
+        return null;
+    }
+
     getFlashcardTypes() {
         let vocabularyEntryExampleFlashcardType = {
             id: 'vocabulary-entry-example',

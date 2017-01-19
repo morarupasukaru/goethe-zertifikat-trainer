@@ -1,11 +1,27 @@
 <div class="container">
     <div class="row">
         <div class="twelve column" style="margin-top: 25%">
-            <h1>Flashcards Kisten</h1>
+            <div ng-repeat="row in $ctrl.fields">
+                <label for="{{ row.name }}">{{ row.name }}</label>
+                <ul ng-if="!!row.list && (!!row.question || !!$ctrl.showAnswer)">
+                    <li ng-repeat="value in row.value">{{ value }}</li>
+                </ul>
+                <input class="u-full-width"
+                       type="text"
+                       id="{{ row.name }}"
+                       ng-model="row.value"
+                       ng-if="!row.list && (!!row.question || !!$ctrl.showAnswer)" readonly>
+                <input class="u-full-width"
+                       type="text"
+                       id="{{ row.name }}"
+                       ng-if="(!row.question && !$ctrl.showAnswer)"
+                       value="Bitte clicken 'Antwort'"
+                       readonly>
 
-            <ng-repeat ng-repeat="stack in $ctrl.stacks">
-                <button ng-click="$ctrl.display(entry)">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
-            </ng-repeat>
+            </div>
+
+            <button ng-click="$ctrl.displayAnswer()">Antwort</button>
+            <button ng-click="$ctrl.back()">Zurück</button>
         </div>
     </div>
 </div>

@@ -1,25 +1,49 @@
 class FlashcardController {
     /*@ngInject*/
-    constructor() {
+    constructor($stateParams, $location, entriesService, flashcardService) {
+        this.$location = $location;
+        this.entriesService = entriesService;
+        this.flashcardService = flashcardService;
+
+        this.id = $stateParams.id;
+        this.type = $stateParams.type;
         this.initData();
     }
 
     initData() {
-        // TODO from localstorage
-        this.stacks = [
-                { name: 'Zu lernen', count:0 },
-                { name: 'Stufe 1', count:0, max: 3 },
-                { name: 'Stufe 1', count:0, max: 5 },
-                { name: 'Stufe 1', count:0, max: 5 },
-                { name: 'Stufe 1', count:0, max: 7 },
-                { name: 'Kiste 1', count:0, max: 30 },
-                { name: 'Kiste 2', count:0, max: 60 },
-                { name: 'Kiste 3', count:0, max: 150 },
-                { name: 'Kiste 4', count:0, max: 400 },
-                { name: 'Kiste 5', count:0, max: 1000 },
-                { name: 'Kiste 6', count:0, max: 2000 },
-                { name: 'Gelernt', count:0 }
-        ];
+        let entry = this.entriesService.getEntry(this.id);
+        let flashcardType = this.flashcardService.getFlashcardType(this.type);
+        this.fields = this.computeFields(entry, flashcardType);
+        this.showAnswer = false;
+    }
+
+    computeFields(entry, flashcardType) {
+        let fields = [];
+        for (let i = 0; i < flashcardType.fields.question.length; i++) {
+            let field = {};
+            field.name = flashcardType.fields.question[i];
+            field.value = entry[field.name];
+            field.list = Array.isArray(field.value);
+            field.question = true;
+            fields.push(field);
+        }
+        for (let i = 0; i < flashcardType.fields.answer.length; i++) {
+            let field = {};
+            field.name = flashcardType.fields.answer[i];
+            field.value = entry[field.name];
+            field.list = Array.isArray(field.value);
+            field.question = false;
+            fields.push(field);
+        }
+        return fields;
+    }
+
+    displayAnswer() {
+        this.showAnswer = true;
+    }
+
+    back() {
+        this.$location.url('/stack');
     }
 }
 
