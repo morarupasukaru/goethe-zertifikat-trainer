@@ -12,8 +12,14 @@
                        id="{{ row.name }}"
                        ng-model="row.value"
                        ng-if="!row.list && (!!row.question || !!$ctrl.showAnswer)" readonly>
-                <button ng-if="(!row.question && !$ctrl.showAnswer)" ng-click="$ctrl.displayAnswer()">Clicken hier um die Antwort anzuzeigen</button>
+                <input class="u-full-width"
+                       type="text"
+                       id="{{ row.name }}"
+                       value=""
+                       ng-if="(!row.question && !$ctrl.showAnswer)" readonly>
             </div>
+
+            <button ng-if="!$ctrl.showAnswer" ng-click="$ctrl.displayAnswer()">Antwort anzeigen</button>
 
             <div>
                 <label>Beweg die Lernkartei von '{{ $ctrl.currentStackName }}' im ...</label>
@@ -21,7 +27,7 @@
                     <button ng-click="$ctrl.display(entry)">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
                 </ng-repeat>
 
-                <label>Prüft nächste Lernkartei von ...</label>
+                <label>Prüf nächste Lernkartei von ...</label>
                 <ng-repeat ng-repeat="stack in $ctrl.stacksToLearn">
                     <button ng-click="$ctrl.display(entry)">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
                 </ng-repeat>
