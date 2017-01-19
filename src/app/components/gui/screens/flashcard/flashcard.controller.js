@@ -19,6 +19,8 @@ class FlashcardController {
         this.title = flashcardType.name;
         this.stacksDestination = this.stackService.getStacks();
         this.stacksToLearn = this.filterEmptyStacks(this.stackService.getStacks());
+        // TODO take value from localstorage
+        this.currentStackName = 'Stufe 1';
     }
 
     filterEmptyStacks(stacks) {

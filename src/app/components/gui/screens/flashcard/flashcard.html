@@ -16,12 +16,12 @@
             </div>
 
             <div>
-                <label>Beweg Flashcard im ...</label>
+                <label>Beweg die Lernkartei von '{{ $ctrl.currentStackName }}' im ...</label>
                 <ng-repeat ng-repeat="stack in $ctrl.stacksDestination">
                     <button ng-click="$ctrl.display(entry)">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
                 </ng-repeat>
 
-                <label>Prüft nächste Flashcard von ...</label>
+                <label>Prüft nächste Lernkartei von ...</label>
                 <ng-repeat ng-repeat="stack in $ctrl.stacksToLearn">
                     <button ng-click="$ctrl.display(entry)">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
                 </ng-repeat>
