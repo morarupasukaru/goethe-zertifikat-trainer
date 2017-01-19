@@ -3,7 +3,7 @@
         <div class="twelve column" style="margin-top: 25%">
             <h1>{{ $ctrl.title }}</h1>
             <div ng-repeat="row in $ctrl.fields">
-                <label for="{{ row.name }}">{{ row.name }}</label>
+                <label for="{{ row.name }}">{{ row.name + (!!row.question ? ' (Frage)' : ' (Antwort)') }} </label>
                 <ul ng-if="!!row.list && (!!row.question || !!$ctrl.showAnswer)">
                     <li ng-repeat="value in row.value">{{ value }}</li>
                 </ul>
@@ -12,16 +12,9 @@
                        id="{{ row.name }}"
                        ng-model="row.value"
                        ng-if="!row.list && (!!row.question || !!$ctrl.showAnswer)" readonly>
-                <input class="u-full-width"
-                       type="text"
-                       id="{{ row.name }}"
-                       ng-if="(!row.question && !$ctrl.showAnswer)"
-                       value="Bitte clicken 'Antwort'"
-                       readonly>
-
+                <button ng-if="(!row.question && !$ctrl.showAnswer)" ng-click="$ctrl.displayAnswer()">Clicken hier um die Antwort anzuzeigen</button>
             </div>
 
-            <button ng-click="$ctrl.displayAnswer()">Antwort</button>
             <button ng-click="$ctrl.back()">Zurück</button>
         </div>
     </div>
