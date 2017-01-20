@@ -1,10 +1,11 @@
 class FlashcardController {
     /*@ngInject*/
-    constructor($stateParams, $location, entriesService, flashcardService, stackService) {
+    constructor($stateParams, $location, entriesService, flashcardService, stackService, stackPersistenceService) {
         this.$location = $location;
         this.entriesService = entriesService;
         this.flashcardService = flashcardService;
         this.stackService = stackService;
+        this.stackPersistenceService = stackPersistenceService;
 
         this.id = $stateParams.id;
         this.type = $stateParams.type;
@@ -19,8 +20,11 @@ class FlashcardController {
         this.title = flashcardType.name;
         this.stacksDestination = this.stackService.getStacks();
         this.stacksToLearn = this.filterEmptyStacks(this.stackService.getStacks());
-        // TODO take value from localstorage
-        this.currentStackName = 'Stufe 1';
+        let currentStackId = this.stackPersistenceService.get(this.type, entry.id);
+        let currentStack = this.stackService.getStack(currentStackId);
+        if (!!currentStack) {
+            this.currentStackName = currentStack.name;
+        }
     }
 
     filterEmptyStacks(stacks) {

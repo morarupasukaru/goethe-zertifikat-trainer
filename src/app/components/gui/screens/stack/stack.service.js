@@ -6,6 +6,16 @@ class StackService {
         this.initialStack = initialStack;
     }
 
+    getStack(id) {
+        let stacks = this.getStacks();
+        for (let i = 0; i < stacks.length; i++) {
+            if (stacks[i].id === id) {
+                return stacks[i];
+            }
+        }
+        return null;
+    }
+
     getStacks() {
         let stacks = [
                 { id: this.initialStack, name: 'Zu lernen' },

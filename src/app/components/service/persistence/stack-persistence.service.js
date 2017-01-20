@@ -12,8 +12,7 @@ class StackPersistenceService {
         let addedEntries = 0;
         for (let i = 0; i < entries.length; i++) {
             let entry = entries[i];
-            let key = 'flashcard-' + entry.type + '-' + entry.entryId;
-            let oldStackId = this.persistenceService.get(key);
+            let oldStackId = this.get(entry.type, entry.entryId);
             if (!oldStackId) {
                 this.persistenceService.save(key, stackId);
                 addedEntries = addedEntries + 1;
@@ -26,13 +25,17 @@ class StackPersistenceService {
     }
 
     add(type, entryId, stackId) {
-        let key = 'flashcard-' + type + '-' + entryId;
-        let oldStackId = this.persistenceService.get(key);
+        let oldStackId = this.get(type, entryId);
         if (!!oldStackId) {
             this.decrement(oldStackId);
         }
         this.increment(stackId);
         this.persistenceService.save(key, stackId);
+    }
+
+    get(type, entryId) {
+        let key = 'flashcard-' + type + '-' + entryId;
+        return this.persistenceService.get(key);
     }
 
     increment(stackId) {
