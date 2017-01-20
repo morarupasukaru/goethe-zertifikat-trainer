@@ -1,24 +1,31 @@
 class StackService {
 
     /*@ngInject*/
-    constructor() {
+    constructor(stackPersistenceService, initialStack) {
+        this.stackPersistenceService = stackPersistenceService;
+        this.initialStack = initialStack;
     }
 
     getStacks() {
-        return [
-                { name: 'Zu lernen', count:0 },
-                { name: 'Stufe 1', count:1, max: 3 },
-                { name: 'Stufe 1', count:4, max: 5 },
-                { name: 'Stufe 1', count:2, max: 5 },
-                { name: 'Stufe 1', count:5, max: 7 },
-                { name: 'Kiste 1', count:31, max: 30 },
-                { name: 'Kiste 2', count:0, max: 60 },
-                { name: 'Kiste 3', count:103, max: 150 },
-                { name: 'Kiste 4', count:0, max: 400 },
-                { name: 'Kiste 5', count:456, max: 1000 },
-                { name: 'Kiste 6', count:0, max: 2000 },
-                { name: 'Gelernt', count:0 }
+        let stacks = [
+                { id: this.initialStack, name: 'Zu lernen' },
+                { id: 'stufe1', name: 'Stufe 1', max: 3 },
+                { id: 'stufe2', name: 'Stufe 2', max: 5 },
+                { id: 'stufe3', name: 'Stufe 3', max: 5 },
+                { id: 'stufe4', name: 'Stufe 4', max: 7 },
+                { id: 'kiste1', name: 'Kiste 1', max: 30 },
+                { id: 'kiste2', name: 'Kiste 2', max: 60 },
+                { id: 'kiste3', name: 'Kiste 3', max: 150 },
+                { id: 'kiste4', name: 'Kiste 4', max: 400 },
+                { id: 'kiste5', name: 'Kiste 5', max: 1000 },
+                { id: 'kiste6', name: 'Kiste 6', max: 2000 },
+                { id: 'gelernt', name: 'Gelernt' }
         ];
+        for (let i = 0; i < stacks.length; i++) {
+            let count = this.stackPersistenceService.getCount(stacks[i].id);
+            stacks[i].count = count;
+        }
+        return stacks;
     }
 }
 

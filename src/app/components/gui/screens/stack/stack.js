@@ -18,7 +18,8 @@ let stackModule = angular.module('app.components.gui.screen.stack', [
         template,
         controller
     })
-    .service('stackService', stackService);
+    .service('stackService', stackService)
+    .constant('initialStack', 'zu-lernen');
 
 
 export default stackModule;

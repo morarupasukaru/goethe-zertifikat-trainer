@@ -5,7 +5,7 @@ class FlashcardService {
         this.entriesService = entriesService;
     }
 
-    getFlashcards() {
+    getFlashcardIds() {
         let entries = this.entriesService.getEntries();
         let types = this.getFlashcardTypes();
         let flashcards = [];
@@ -14,14 +14,14 @@ class FlashcardService {
             for (let j = 0; j < entries.length; j++) {
                 let entry = entries[j];
                 if (type.isSupported(entry)) {
-                    // TODO create or get from localstorage
-                    flashcards.add({
-                        entry: entry,
-                        flashcardType : type
+                    flashcards.push({
+                        entryId: entry.id,
+                        type: type.id
                     });
                 }
             }
         }
+        return flashcards;
     }
 
     getFlashcardType(id) {
