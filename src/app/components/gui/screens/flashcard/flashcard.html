@@ -28,9 +28,7 @@
                 </ng-repeat>
 
                 <label>Prüf nächste Lernkartei von ...</label>
-                <ng-repeat ng-repeat="stack in $ctrl.stacksToLearn">
-                    <button ng-click="$ctrl.display(entry)">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
-                </ng-repeat>
+                <stacks></stacks>
             </div>
 
             <button ng-click="$ctrl.back()">Zurück</button>

@@ -1,4 +1,4 @@
-class StackController {
+class StacksController {
     /*@ngInject*/
     constructor(stackService) {
         this.stackService = stackService;
@@ -8,6 +8,10 @@ class StackController {
     initData() {
         this.stacks = this.stackService.getStacks();
     }
+
+    testNextFlashcard(stack) {
+
+    }
 }
 
-export default StackController;
+export default StacksController;

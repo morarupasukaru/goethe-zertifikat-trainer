@@ -2,11 +2,10 @@ import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 
 import template from './stack.html';
-import controller from './stack.controller';
 import stackService from './stack.service';
+import Stacks from './stacks';
 
-let stackModule = angular.module('app.components.gui.screen.stack', [
-])
+let stackModule = angular.module('app.components.gui.screen.stack', [ Stacks.name ])
     .config(/*@ngInject*/($stateProvider, $urlRouterProvider) => {
         $urlRouterProvider.otherwise('/');
 
@@ -15,8 +14,7 @@ let stackModule = angular.module('app.components.gui.screen.stack', [
         });
     })
     .component('stack', {
-        template,
-        controller
+        template
     })
     .service('stackService', stackService)
     .constant('initialStack', 'zu-lernen');
