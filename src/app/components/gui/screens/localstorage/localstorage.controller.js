@@ -16,6 +16,7 @@ class LocalstorageController {
 
     clear() {
         localStorage.clear();
+        this.initData();
     }
 }
 

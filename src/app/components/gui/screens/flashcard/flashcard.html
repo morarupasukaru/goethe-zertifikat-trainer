@@ -24,7 +24,7 @@
             <div>
                 <label>Beweg die Lernkartei von '{{ $ctrl.currentStackName }}' im ...</label>
                 <ng-repeat ng-repeat="stack in $ctrl.stacksDestination">
-                    <button ng-click="$ctrl.display(entry)">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
+                    <button ng-click="$ctrl.addToStack(stack.id)">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
                 </ng-repeat>
 
                 <label>Prüf nächste Lernkartei von ...</label>

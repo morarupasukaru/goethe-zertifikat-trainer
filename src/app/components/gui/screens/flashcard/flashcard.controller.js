@@ -10,6 +10,7 @@ class FlashcardController {
         this.id = $stateParams.id;
         this.type = $stateParams.type;
         this.initData();
+        this.computeStacks();
     }
 
     initData() {
@@ -18,23 +19,12 @@ class FlashcardController {
         this.fields = this.computeFields(entry, flashcardType);
         this.showAnswer = false;
         this.title = flashcardType.name;
-        this.stacksDestination = this.stackService.getStacks();
-        this.stacksToLearn = this.filterEmptyStacks(this.stackService.getStacks());
+
         let currentStackId = this.stackPersistenceService.get(this.type, entry.id);
         let currentStack = this.stackService.getStack(currentStackId);
         if (!!currentStack) {
             this.currentStackName = currentStack.name;
         }
-    }
-
-    filterEmptyStacks(stacks) {
-        let result = [];
-        for (let i = 0; i < stacks.length; i++) {
-            if (stacks[i].count > 0) {
-                result.push(stacks[i]);
-            }
-        }
-        return result;
     }
 
     computeFields(entry, flashcardType) {
@@ -62,6 +52,26 @@ class FlashcardController {
 
     displayAnswer() {
         this.showAnswer = true;
+    }
+
+    addToStack(stackId) {
+        this.stackPersistenceService.add(this.type, this.id, stackId);
+        this.computeStacks();
+    }
+
+    computeStacks() {
+        this.stacksDestination = this.stackService.getStacks();
+        this.stacksToLearn = this.filterEmptyStacks(this.stackService.getStacks());
+    }
+
+    filterEmptyStacks(stacks) {
+        let result = [];
+        for (let i = 0; i < stacks.length; i++) {
+            if (stacks[i].count > 0) {
+                result.push(stacks[i]);
+            }
+        }
+        return result;
     }
 
     back() {
