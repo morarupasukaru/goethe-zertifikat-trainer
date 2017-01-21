@@ -1,7 +1,7 @@
 class HomeController {
     /*@ngInject*/
     constructor($location) {
-        $location.url('localstorage');
+        $location.url('stack');
     }
 }
 
