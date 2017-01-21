@@ -1,16 +1,16 @@
 class FlashcardController {
     /*@ngInject*/
-    constructor($stateParams, $location, entriesService, flashcardService, stackService, stackPersistenceService) {
+    constructor($stateParams, $location, entriesService, flashcardService, stackService, stackPersistenceService, $window) {
         this.$location = $location;
         this.entriesService = entriesService;
         this.flashcardService = flashcardService;
         this.stackService = stackService;
         this.stackPersistenceService = stackPersistenceService;
+        this.$window = $window;
 
         this.id = $stateParams.id;
         this.type = $stateParams.type;
         this.initData();
-        this.computeStacks();
     }
 
     initData() {
@@ -25,6 +25,7 @@ class FlashcardController {
         if (!!currentStack) {
             this.currentStackName = currentStack.name;
         }
+        this.stacksDestination = this.stackService.getStacks();
     }
 
     computeFields(entry, flashcardType) {
@@ -56,22 +57,7 @@ class FlashcardController {
 
     addToStack(stackId) {
         this.stackPersistenceService.addToStack(this.type, this.id, stackId);
-        this.computeStacks();
-    }
-
-    computeStacks() {
-        this.stacksDestination = this.stackService.getStacks();
-        this.stacksToLearn = this.filterEmptyStacks(this.stackService.getStacks());
-    }
-
-    filterEmptyStacks(stacks) {
-        let result = [];
-        for (let i = 0; i < stacks.length; i++) {
-            if (stacks[i].count > 0) {
-                result.push(stacks[i]);
-            }
-        }
-        return result;
+        this.$window.location.reload();
     }
 
     back() {

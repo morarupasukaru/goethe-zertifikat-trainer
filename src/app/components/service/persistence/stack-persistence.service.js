@@ -20,7 +20,7 @@ class StackPersistenceService {
 
     addToStack(type, entryId, stackId) {
         let key = 'stack-' + stackId;
-        let value = type + '-' + entryId;
+        let value = type + '/' + entryId;
         let oldStackId = this.getStackKey(type, entryId);
         if (key !== oldStackId) {
             if (!!oldStackId) {
@@ -47,7 +47,7 @@ class StackPersistenceService {
     }
 
     getStackKey(type, entryId) {
-        let value = type + '-' + entryId;
+        let value = type + '/' + entryId;
         let keys = this.persistenceService.findKeysWithPrefix('stack-');
         for (let i = 0; i < keys.length; i++) {
             let entries = this.persistenceService.get(keys[i]);
@@ -57,19 +57,17 @@ class StackPersistenceService {
         }
     }
 
-    contains(stackId, value) {
-        let key = 'stack-' + stackId;
-        let entries = this.persistenceService.get(key);
-        return entries.indexOf(value) !== -1;
+    getCount(stackId) {
+        return this.getStackEntries(stackId).length;
     }
 
-    getCount(stackId) {
+    getStackEntries(stackId) {
         let key = 'stack-' + stackId;
         let entries = this.persistenceService.get(key);
         if (!entries) {
-            return 0;
+            return [];
         } else {
-            return entries.length;
+            return entries;
         }
     }
  }
