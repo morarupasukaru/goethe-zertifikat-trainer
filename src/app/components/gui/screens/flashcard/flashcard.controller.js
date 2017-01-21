@@ -1,12 +1,11 @@
 class FlashcardController {
     /*@ngInject*/
-    constructor($stateParams, $location, entriesService, flashcardService, stackService, stackPersistenceService, $window) {
+    constructor($stateParams, $location, entriesService, flashcardService, stackService, stackPersistenceService) {
         this.$location = $location;
         this.entriesService = entriesService;
         this.flashcardService = flashcardService;
         this.stackService = stackService;
         this.stackPersistenceService = stackPersistenceService;
-        this.$window = $window;
 
         this.id = $stateParams.id;
         this.type = $stateParams.type;
@@ -57,7 +56,8 @@ class FlashcardController {
 
     addToStack(stackId) {
         this.stackPersistenceService.addToStack(this.type, this.id, stackId);
-        this.$window.location.reload();
+        // force a refresh
+        this.$location.url('/flashcard/' + this.type + '/' + this.id + '?refresh=' + new Date().getTime());
     }
 
     back() {
