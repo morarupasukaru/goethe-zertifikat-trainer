@@ -20,7 +20,7 @@ class FlashcardController {
         this.showAnswer = false;
         this.title = flashcardType.name;
 
-        let currentStackId = this.stackPersistenceService.get(this.type, entry.id);
+        let currentStackId = this.stackPersistenceService.getStackFromFlashcard(this.type, entry.id);
         let currentStack = this.stackService.getStack(currentStackId);
         if (!!currentStack) {
             this.currentStackName = currentStack.name;
@@ -55,7 +55,7 @@ class FlashcardController {
     }
 
     addToStack(stackId) {
-        this.stackPersistenceService.add(this.type, this.id, stackId);
+        this.stackPersistenceService.addToStack(this.type, this.id, stackId);
         this.computeStacks();
     }
 
