@@ -16,7 +16,6 @@ class FlashcardController {
         let entry = this.entriesService.getEntry(this.id);
         let flashcardType = this.flashcardService.getFlashcardType(this.type);
         this.fields = this.computeFields(entry, flashcardType);
-        this.showAnswer = false;
         this.title = flashcardType.name;
 
         let currentStackId = this.stackPersistenceService.getStackFromFlashcard(this.type, entry.id);
@@ -29,6 +28,7 @@ class FlashcardController {
 
     computeFields(entry, flashcardType) {
         let fields = [];
+        this.showAnswer = true;
         for (let i = 0; i < flashcardType.fields.question.length; i++) {
             let field = {};
             field.id = flashcardType.fields.question[i].id;
@@ -46,6 +46,9 @@ class FlashcardController {
             field.list = Array.isArray(field.value);
             field.question = false;
             fields.push(field);
+            if (!!field.value) {
+                this.showAnswer = false;
+            }
         }
         return fields;
     }

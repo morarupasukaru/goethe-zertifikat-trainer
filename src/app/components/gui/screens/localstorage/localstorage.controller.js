@@ -1,22 +1,28 @@
 class LocalstorageController {
 
     /*@ngInject*/
-    constructor() {
+    constructor(persistenceService) {
+        this.persistenceService = persistenceService;
         this.initData();
     }
 
     initData() {
-        let keys = Object.keys(localStorage);
-        let result = [];
-        for (let i = 0; i < keys.length; i++) {
-            result.push({ key: keys[i], value: localStorage.getItem(keys[i]) });
+        this.localStorageAsText = this.persistenceService.export();
+    }
+
+    import() {
+        if (!!importData) {
+            this.persistenceService.import(this.importData);
         }
-        this.data = result;
     }
 
     clear() {
         localStorage.clear();
         this.initData();
+    }
+
+    displayAsList() {
+        this.listDisplayed = true;
     }
 }
 
