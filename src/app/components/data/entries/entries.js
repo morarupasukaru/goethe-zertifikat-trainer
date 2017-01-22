@@ -43,10 +43,16 @@ let entriesModule = angular.module('app.components.data.entries', [])
                 }
                 return this;
             };
+            Entry.prototype.translate = function(value) {
+                if (!!value) {
+                    this.result.translate = value;
+                }
+                return this;
+            };
             Entry.prototype.get = function() {
                 return this.result;
             };
-            this.result.visibleFields = [ 'entry', 'example', 'type', 'thema', 'source' ];
+            this.result.visibleFields = [ 'entry', 'example', 'type', 'thema', 'source', 'translate' ];
         }
         return Entry;
     })

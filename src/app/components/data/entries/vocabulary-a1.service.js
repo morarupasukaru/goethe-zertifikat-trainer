@@ -128,8 +128,8 @@ class VocabularyA1Service {
     createZeitmasseEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Zeitmaße, Zeitangaben'];
-        entries.push(new Builder().id('d8449482-2c2c-42fa-b957-7f4f6aee9263').thema(thema).entry('Zeitmaß').get());
-        entries.push(new Builder().id('a0a83979-7273-4eb0-8d8d-39ad6ff07a49').thema(thema).entry('Zeitangabe').get());
+        entries.push(new Builder().id('d8449482-2c2c-42fa-b957-7f4f6aee9263').thema(thema).entry('Zeitmaß').translate('mesure').get());
+        entries.push(new Builder().id('a0a83979-7273-4eb0-8d8d-39ad6ff07a49').thema(thema).entry('Zeitangabe').translate('horaire').get());
         entries.push(new Builder().id('855e7ffa-5f40-4272-8609-d44f3218fcfd').thema(thema).entry('die Sekunde, -n').get());
         entries.push(new Builder().id('a63988f4-e29e-406a-867d-26efe4c217e1').thema(thema).entry('die Minute, -n').get());
         entries.push(new Builder().id('c9440b2a-13a2-42fa-8b29-0371471b02ea').thema(thema).entry('die Stunde, -n').get());
@@ -160,7 +160,7 @@ class VocabularyA1Service {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Tag/Tageszeiten'];
         entries.push(new Builder().id('a97f2c69-93a9-4c73-82d8-95e389bb8c09').thema(thema).entry('Tag').get());
-		entries.push(new Builder().id('a0c4bfe6-3095-424c-a138-4316999e54c9').thema(thema).entry('Tageszeit').get());
+		entries.push(new Builder().id('a0c4bfe6-3095-424c-a138-4316999e54c9').thema(thema).entry('Tageszeit').translate('heure du jour').get());
 		entries.push(new Builder().id('0be7c9a7-4748-4a75-ae18-434c8736f80d').thema(thema).entry('der Tag').get());
 		entries.push(new Builder().id('9e1fd706-f1b5-40f6-bd75-58bb80f32f50').thema(thema).entry('der Morgen').get());
 		entries.push(new Builder().id('9c525326-4d41-4fb2-8b27-0c6f60d52072').thema(thema).entry('der Vormittag,-e').get());
@@ -195,7 +195,7 @@ class VocabularyA1Service {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Jahr/Jahreszeiten'];
 		entries.push(new Builder().id('3f3e04d3-abfc-4c1a-9f6d-9ac11330faed').thema(thema).entry('Jahr').get());
-		entries.push(new Builder().id('eea71e27-758d-4c51-8957-6ee8b508ca9e').thema(thema).entry('Jahreszeit').get());
+		entries.push(new Builder().id('eea71e27-758d-4c51-8957-6ee8b508ca9e').thema(thema).entry('Jahreszeit').translate('saison').get());
 		entries.push(new Builder().id('63f4f5c6-a371-45be-9314-e8e6e12b3939').thema(thema).entry('der Frühling/das Frühjahr').get());
 		entries.push(new Builder().id('1d11e0fa-ef02-4877-8cac-25afeb86d6d4').thema(thema).entry('der Sommer').get());
 		entries.push(new Builder().id('62ad9bcd-cc2e-4967-8e15-149ef1f40159').thema(thema).entry('der Herbst').get());
@@ -206,7 +206,7 @@ class VocabularyA1Service {
     createWaehrungenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Währungen'];
-		entries.push(new Builder().id('88caf01b-f1fe-48f5-85ed-78771baed0b3').thema(thema).entry('Währung').get());
+		entries.push(new Builder().id('88caf01b-f1fe-48f5-85ed-78771baed0b3').thema(thema).entry('Währung').translate('monnaie').get());
 		entries.push(new Builder().id('1f6c7efb-a092-447e-baa5-d6735c425d5e').thema(thema).entry('1 Euro').get());
 		entries.push(new Builder().id('0d433e60-cc56-417b-b138-f9d58c9fa107').thema(thema).entry('100 Cent').get());
         return entries;
@@ -215,8 +215,8 @@ class VocabularyA1Service {
     createMasseUndGewichteEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Maße und Gewichte'];
-		entries.push(new Builder().id('7c6187c3-78aa-4d0f-920a-129bb379f0c2').thema(thema).entry('Maße').get());
-		entries.push(new Builder().id('fe46c389-a6f0-439d-97a1-58b4e60eea66').thema(thema).entry('Gewicht').get());
+		entries.push(new Builder().id('7c6187c3-78aa-4d0f-920a-129bb379f0c2').thema(thema).entry('Maße').translate('dimension').get());
+		entries.push(new Builder().id('fe46c389-a6f0-439d-97a1-58b4e60eea66').thema(thema).entry('Gewicht').translate('poid').get());
 		entries.push(new Builder().id('71b67639-5e6d-4429-9210-7fe37a97a639').thema(thema).entry('ein Meter').alternative('1 m').get());
 		entries.push(new Builder().id('aa16a335-27df-471d-acb7-99422d776c8c').thema(thema).entry('ein Zentimeter').alternative('1 cm').get());
 		entries.push(new Builder().id('2a4e610e-f9ad-4570-8285-e67dcb0523b4').thema(thema).entry('ein Meter fünfzehn').alternative('1,15 m').get());
@@ -227,7 +227,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('996db08a-5eda-4299-802a-7e3884c2fd91').thema(thema).entry('ein Prozent').alternative('1 %').get());
 		entries.push(new Builder().id('f01801c6-8ba9-4046-8a81-f90023fd8ae9').thema(thema).entry('ein Liter').alternative('1 l').get());
 		entries.push(new Builder().id('47c47aa0-0d35-45c8-a7ed-062383510cdb').thema(thema).entry('ein Gramm').alternative('1 g').get());
-		entries.push(new Builder().id('0daa56e3-2c89-44e8-bb4c-f3752e452e25').thema(thema).entry('ein Pfund').alternative('500 g').get());
+		entries.push(new Builder().id('0daa56e3-2c89-44e8-bb4c-f3752e452e25').thema(thema).entry('ein Pfund').alternative('500 g').translate('demi-kilo').get());
 		entries.push(new Builder().id('e126211e-c4e5-43b1-a9ac-4ad48a3691f9').thema(thema).entry('ein Kilo(gramm)').alternative('1 kg').get());
         return entries;
     }
@@ -246,7 +246,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('4d222459-2faf-4083-a1e4-87963e9f62ef').thema(thema).entry('Europäer').get());
 		entries.push(new Builder().id('4b2ccfdc-1547-49e5-a94c-b64786332c7c').thema(thema).entry('europäisch').get());
 		entries.push(new Builder().id('e46bf7ca-28f0-42e9-b0c5-e3ac5dce4cf5').thema(thema).entry('Herkunft').get());
-		entries.push(new Builder().id('fd3f9268-08c9-4961-af0c-e9f0c0a890e3').thema(thema).entry('Bewohner').get());
+		entries.push(new Builder().id('fd3f9268-08c9-4961-af0c-e9f0c0a890e3').thema(thema).entry('Bewohner').translate('habitant').get());
 		entries.push(new Builder().id('1d41f25e-0388-415b-b4cb-025ca17de32b').thema(thema).entry('die Schweiz').get());
 		entries.push(new Builder().id('fc8d33f7-e886-4f9e-94fa-d84629a4c052').thema(thema).entry('der Schweizer, die Schweizerin').get());
         return entries;
@@ -270,24 +270,24 @@ class VocabularyA1Service {
     createHimmelsrichtungenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Himmelsrichtungen'];
-		entries.push(new Builder().id('d9e9ef1c-f303-4bb6-9af4-b39c42fc5cb1').thema(thema).entry('Himmelsrichtung').get());
+		entries.push(new Builder().id('d9e9ef1c-f303-4bb6-9af4-b39c42fc5cb1').thema(thema).entry('Himmelsrichtung').translate('point cardinal').get());
 		entries.push(new Builder().id('b6ca2565-9c0b-409c-bb4b-f97e00dd246a').thema(thema).entry('der Norden').get());
 		entries.push(new Builder().id('bec81413-7a05-4fa0-8292-7d628bc88be6').thema(thema).entry('der Süden').get());
-		entries.push(new Builder().id('a9866e59-5d1b-431b-a362-7df6549d7cfe').thema(thema).entry('der Westen').get());
-		entries.push(new Builder().id('2927d10e-92b9-4c9f-b3b3-37fc8334a3ec').thema(thema).entry('der Westen').get());
+		entries.push(new Builder().id('a9866e59-5d1b-431b-a362-7df6549d7cfe').thema(thema).entry('der Westen').translate('ouest').get());
+		entries.push(new Builder().id('2927d10e-92b9-4c9f-b3b3-37fc8334a3ec').thema(thema).entry('der Osten').translate('est').get());
         return entries;
     }
 
     createAEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'A'];
-		entries.push(new Builder().id('403865ed-1f23-463c-b79e-293a46a5065a').thema(thema).entry('ab').example('Ab morgen muss ich arbeiten.').get());
+		entries.push(new Builder().id('403865ed-1f23-463c-b79e-293a46a5065a').thema(thema).entry('ab').example('Ab morgen muss ich arbeiten.').translate('à partir de').get());
 		entries.push(new Builder().id('08a8dd64-3439-4678-a5e1-4a39933480f5').thema(thema).entry('aber').example('Ich bin oft im Büro, aber nur für wenige Stunden.').get());
-		entries.push(new Builder().id('e0b9a701-0170-45ce-9e91-b8089373060c').thema(thema).entry('abfahren').example('Wir fahren um zwölf Uhr ab.').get());
+		entries.push(new Builder().id('e0b9a701-0170-45ce-9e91-b8089373060c').thema(thema).entry('abfahren').example('Wir fahren um zwölf Uhr ab.').translate('partir (se mettre en route en véhicule)').get());
 		entries.push(new Builder().id('cee19d81-c514-49c2-bef8-a8c37a11cdfd').thema(thema).entry('die Abfahrt').example('Vor der Abfahrt rufe ich an.').get());
-		entries.push(new Builder().id('88fe2d8d-6249-47fc-8852-025f8396d222').thema(thema).entry('abgeben').example('Ich muss meine Schlüssel abgeben.').get());
-		entries.push(new Builder().id('b959bed2-b82c-4c7d-b8cb-76f7e13b668f').thema(thema).entry('abholen').example(['Wann kann ich den Schrank bei dir abholen?', 'Wir müssen noch meinen Bruder abholen.']).get());
-		entries.push(new Builder().id('0165db48-723e-4b99-93b2-4b5d17b2af32').thema(thema).entry('der Absender').example('Da ist ein Brief für dich ohne Absender.').get());
+		entries.push(new Builder().id('88fe2d8d-6249-47fc-8852-025f8396d222').thema(thema).entry('abgeben').example('Ich muss meine Schlüssel abgeben.').translate('transmettre').get());
+		entries.push(new Builder().id('b959bed2-b82c-4c7d-b8cb-76f7e13b668f').thema(thema).entry('abholen').example(['Wann kann ich den Schrank bei dir abholen?', 'Wir müssen noch meinen Bruder abholen.']).translate(['enlever qc.', 'passer prendre qn.']).get());
+		entries.push(new Builder().id('0165db48-723e-4b99-93b2-4b5d17b2af32').thema(thema).entry('der Absender').example('Da ist ein Brief für dich ohne Absender.').translate('expéditeur').get());
 		entries.push(new Builder().id('a3c3a22e-1f74-4197-b739-46ef78982992').thema(thema).entry('Achtung').example('Achtung! Das dürfen Sie nicht tun.').get());
 		entries.push(new Builder().id('b07c5972-af8c-42e2-b9d8-f04507db4f9f').thema(thema).entry('die Adresse,-en').example('Können Sie mir seine Adresse sagen?').get());
 		entries.push(new Builder().id('f2c51968-61a3-4307-a716-6ad366f8fa28').thema(thema).entry('all-').example(['Alles Gute!', 'Das ist alles.', 'Sind alle da?', 'Alle Freunde kommen.', 'Hast du alles?']).get());

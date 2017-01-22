@@ -1,38 +1,9 @@
-in progress
-    check unique uuid
-
-    list a1 vocabulary as service
-    display vocabulary list as div
-
-# oop model
-    factory to create entry (maybe after having created all entry of a1 to have stable fields pro typ)
-
-# entities:
-    - entry
-    - flashcard
-    - stack
-    - uuid pour id?
-
 # homepage
-    - display stacks as list [count/max]
     - add stacks by click on list
-    - expand stack (btn) > afficher les flashcard actuels sous la forme de btn (jmp detail si clic)
-
-# detail flashcard
-    - question / reponse
-    - reponse cache par defaut
-    - affiche les stacks ensuite
-    - possibilite de deplacer une carte dans une autre stack (drop-down)
-    - ?? navigation ?? (next? previous?)
-
-# ecran admin pour import, exporter localstorage
 
 # copyright
-    - phrase { text: ..., src: ... }
     - eviter de pusher des données avec copyright
 
-# stack gestion
-    - manuel le plus possible
-    - trier fifo
-
 # local font
+
+# footer menu

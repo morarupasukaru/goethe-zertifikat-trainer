@@ -38,10 +38,10 @@ class FlashcardService {
     getFlashcardTypes() {
         let vocabularyEntryExampleFlashcardType = {
             id: 'vocabulary-entry-example',
-            name: 'Verstehst du den Eintrag?',
+            name: 'Verstehen Sie den Eintrag?',
             fields: {
-                question: [ { id: 'entry', name: 'Eintrag' } ],
-                answer: [ { id:'example', name: 'Beispiel'} ]
+                question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true } ],
+                answer: [ { id:'alternative', name: 'Alternative' }, { id:'example', name: 'Beispiel' }, { id:'translate', name:'Übersetzung' } ]
             }
         }
         vocabularyEntryExampleFlashcardType.isSupported = function(entry) {

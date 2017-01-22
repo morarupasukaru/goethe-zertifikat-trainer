@@ -5,10 +5,10 @@
 
             <div>
                 <label for="importData">Import</label>
-                <input id="importData" type="text" ng-model="$ctrl.importData"/>
-                <button ng-click="$ctrl.import()">Import</button>
+                <textarea id="importData" ng-model="$ctrl.importData"></textarea>
             </div>
 
+            <button ng-click="$ctrl.import()">Import</button>
             <button ng-click="$ctrl.clear()">Clear</button>
             <label for="exportData">Localstorage's content</label>
             <div id="exportData">{{ $ctrl.localStorageAsText }}</div>

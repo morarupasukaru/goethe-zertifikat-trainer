@@ -35,6 +35,7 @@ class FlashcardController {
             field.name = flashcardType.fields.question[i].name;
             field.value = entry[field.id];
             field.list = Array.isArray(field.value);
+            field.leoEnabled = !!flashcardType.fields.question[i].leoEnabled;
             field.question = true;
             fields.push(field);
         }
@@ -44,6 +45,7 @@ class FlashcardController {
             field.name = flashcardType.fields.answer[i].name;
             field.value = entry[field.id];
             field.list = Array.isArray(field.value);
+            field.leoEnabled = !!flashcardType.fields.answer[i].leoEnabled;
             field.question = false;
             fields.push(field);
             if (!!field.value) {
