@@ -5,6 +5,7 @@ import speechActsA1Service from './speech-acts-a1.service';
 import strategiesA1Service from './strategies-a1.service.js';
 import themasA1Service from './themas-a1.service.js';
 import vocabularyA1Service from './vocabulary-a1.service';
+import vocabularyA2Service from './vocabulary-a2.service';
 import entriesService from './entries.service';
 
 let entriesModule = angular.module('app.components.data.entries', [])
@@ -14,6 +15,7 @@ let entriesModule = angular.module('app.components.data.entries', [])
     .service('strategiesA1Service', strategiesA1Service)
     .service('themasA1Service', themasA1Service)
     .service('vocabularyA1Service', vocabularyA1Service)
+    .service('vocabularyA2Service', vocabularyA2Service)
     .service('entriesService', entriesService)
     .factory("EntryBuilder", function() {
         function Entry() {
