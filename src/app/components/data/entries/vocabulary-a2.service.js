@@ -111,397 +111,394 @@ class VocabularyA2Service {
     createAnweisungsspracheZurPruefungEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Anweisungssprache zur Prüfung'];
-        /*
-        Anweisungssprache zur Prüfung
-r Antwortbogen, -
-e Anzeige,-n
-e Aufgabe, -n
-ankreuzen, s Kreuz, -e
-s Beispiel, -e
-e Beschreibung, -en
-falsch
-formulieren
-e Lösung, -en
-markieren
-r Partner, -, e Partnerin, -nen
-reagieren
-richtig
-r Teil, -e, r Prüfungsteil, -e,
-r Test, -s
-r Text, -e
-s Wörterbuch, ü, -er
-e Zeitschrift, -en
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Anweisungssprache').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Antwortbogen, -').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Anzeige,-n').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Aufgabe, -n').get());
+		entries.push(new Builder().id('').thema(thema).entry('ankreuzen').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Kreuz, -e').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Beispiel, -e').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Beschreibung, -en').get());
+		entries.push(new Builder().id('').thema(thema).entry('falsch').get());
+		entries.push(new Builder().id('').thema(thema).entry('formulieren').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Lösung, -en').get());
+		entries.push(new Builder().id('').thema(thema).entry('markieren').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Partner, -').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Partnerin, -nen').get());
+		entries.push(new Builder().id('').thema(thema).entry('reagieren').get());
+		entries.push(new Builder().id('').thema(thema).entry('richtig').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Teil, -e').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Prüfungsteil, -e').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Test, -s').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Text, -e').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Wörterbuch, ü, -er').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Zeitschrift, -en').get());
         return entries;
     }
 
     createBerufeEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Berufe'];
-        /*
-        Berufe
-r Architekt, - en (e Architektin, -nen)
-r Handwerker,- (die Handwerkerin, -nen)
-r Hausmann, - männer (e Hausfrau, -en)
-r Techniker, - (e Technikerin, -nen)
-r Angestellte, -n (e Angestellte, -n)
-r Lehrer, - (e Lehrerin, -nen)
-r Künstler, - (e Künstlerin, nen)
-r Ingenieur, -e (Ingenieurin, - nen)
-r Arzt, Ärzte (Ärztin, -nen)
-r Kaufmann, -männer (e Kauffrau, -en)
-r Arzt, Ärzte (e Ärztin, -nen)
-r Schauspieler, - (e Schauspielerin, -nen)
-r Sekretär, -e (e Sekretärin, -nen)
-r Schriftsteller, - (e Schriftstellerin, - nen)
-r Kaufmann, Kaufmänner (e Kauffrau, -en)
-r Beamte, n (e Beamtin, -nen)
-r Arbeiter, - (e Arbeiterin, -nen)
-r Bankkaufman, Bankkaufmänner (e Bankkauffrau, -en)
-r Bäcker, - (e Bäckerin, -en)
-r Friseur, -e (e Friseurin, -nen)
-r Rentner, - (e Rentnerin, -nen)
-r Journalist, -en (e Journalistin, -en)
-r Krankenpfleger, - (e Krankenschwester, -n)
-r Automechaniker, - (e Automechanikerin, -nen)
-r Verkäufer, - (e Verkäuferin, -nen)
-r Beruf der Eltern
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Beruf').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Architekt, - en (e Architektin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Handwerker,- (die Handwerkerin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Hausmann, - männer (e Hausfrau, -en)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Techniker, - (e Technikerin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Angestellte, -n (e Angestellte, -n)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Lehrer, - (e Lehrerin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Künstler, - (e Künstlerin, nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Ingenieur, -e (Ingenieurin, - nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Arzt, Ärzte (Ärztin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kaufmann, -männer (e Kauffrau, -en)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Arzt, Ärzte (e Ärztin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Schauspieler, - (e Schauspielerin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Sekretär, -e (e Sekretärin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Schriftsteller, - (e Schriftstellerin, - nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kaufmann, Kaufmänner (e Kauffrau, -en)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Beamte, n (e Beamtin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Arbeiter, - (e Arbeiterin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Bankkaufman, Bankkaufmänner (e Bankkauffrau, -en)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Bäcker, - (e Bäckerin, -en)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Friseur, -e (e Friseurin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Rentner, - (e Rentnerin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Journalist, -en (e Journalistin, -en)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Krankenpfleger, - (e Krankenschwester, -n)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Automechaniker, - (e Automechanikerin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Verkäufer, - (e Verkäuferin, -nen)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Beruf der Eltern').get());
         return entries;
     }
 
     createFamilienmitgliederEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Familienmitglieder'];
-        /*
-        Familienmitglieder
-Eltern (Pl.)
-r Vater, ä, -
-e Mutter, ü, -
-s Kind, -er
-r Sohn, ö, -e
-e Tochter, ö, -
-Geschwister (Pl.)
-r Bruder, ü, -
-e Schwester, -n
-r Onkel, -
-e Tante, -n
-r Enkel,-
-e Enkelin, -nen
-Großeltern (Pl.)
-r Großvater, ä, -
-e Großmutter, ü, -
-r Cousin, -s
-e Cousine, -n
-r/e Verwandte, -n
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Familienmitglieder').get());
+		entries.push(new Builder().id('').thema(thema).entry('Eltern (Pl.)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Vater, ä, -').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Mutter, ü, -').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Kind, -er').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Sohn, ö, -e').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Tochter, ö, -').get());
+		entries.push(new Builder().id('').thema(thema).entry('Geschwister (Pl.)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Bruder, ü, -').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Schwester, -n').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Onkel, -').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Tante, -n').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Enkel,-').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Enkelin, -nen').get());
+		entries.push(new Builder().id('').thema(thema).entry('Großeltern (Pl.)').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Großvater, ä, -').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Großmutter, ü, -').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Cousin, -s').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Cousine, -n').get());
+		entries.push(new Builder().id('').thema(thema).entry('r/e Verwandte, -n').get());
         return entries;
     }
 
     createFamilienstandEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Familienstand'];
-/*
-Familienstand
-ledig
-verheiratet
-getrennt/geschieden
-r Witwer / e Witwe, -n
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Familienstand').get());
+		entries.push(new Builder().id('').thema(thema).entry('ledig').get());
+		entries.push(new Builder().id('').thema(thema).entry('verheiratet').get());
+		entries.push(new Builder().id('').thema(thema).entry('getrennt/geschieden').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Witwer / e Witwe, -n').get());
         return entries;
     }
 
     createFarbenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Farben'];
-/*
-Farben
-schwarz
-weiß
-gelb
-grün
-braun
-blond
-grau
-rot
-blau
-orange
-lila
-
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Farben').get());
+		entries.push(new Builder().id('').thema(thema).entry('schwarz').get());
+		entries.push(new Builder().id('').thema(thema).entry('weiß').get());
+		entries.push(new Builder().id('').thema(thema).entry('gelb').get());
+		entries.push(new Builder().id('').thema(thema).entry('grün').get());
+		entries.push(new Builder().id('').thema(thema).entry('braun').get());
+		entries.push(new Builder().id('').thema(thema).entry('blond').get());
+		entries.push(new Builder().id('').thema(thema).entry('grau').get());
+		entries.push(new Builder().id('').thema(thema).entry('rot').get());
+		entries.push(new Builder().id('').thema(thema).entry('blau').get());
+		entries.push(new Builder().id('').thema(thema).entry('orange').get());
+		entries.push(new Builder().id('').thema(thema).entry('lila').get());
         return entries;
     }
 
     createHimmelsrichtungenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Himmelsrichtungen'];
-        /*
-        Himmelsrichtungen
-        r Norden
-        r Süden
-        r Westen
-        r Osten
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Himmelsrichtungen').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Norden').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Süden').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Westen').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Osten').get());
         return entries;
     }
 
     createLaenderUndNationalitaetenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Länder und Nationalitäten'];
-        /*
-        Länder und Nationalitäten
-Deutschland
-der/die Deutsche, -n
-deutsch
-auf Deutsch
-Europa
-der Europäer/die Europäer
-europäisch
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Nationalitäten').get());
+		entries.push(new Builder().id('').thema(thema).entry('Land').get());
+		entries.push(new Builder().id('').thema(thema).entry('Deutschland').get());
+		entries.push(new Builder().id('').thema(thema).entry('der/die Deutsche, -n').get());
+		entries.push(new Builder().id('').thema(thema).entry('deutsch').get());
+		entries.push(new Builder().id('').thema(thema).entry('auf Deutsch').get());
+		entries.push(new Builder().id('').thema(thema).entry('Europa').get());
+		entries.push(new Builder().id('').thema(thema).entry('der Europäer/die Europäer').get());
+		entries.push(new Builder().id('').thema(thema).entry('europäisch').get());
         return entries;
     }
 
     createZahlenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Zahlen'];
-/*
-Zahlen
-1 = eins
-2 = zwei
-3 = drei
-4 = vier
-5 = fünf
-6 = sechs
-7 = sieben
-8 = acht
-9 = neun
-10 = zehn
-11 = elf
-12 = zwölf
-13 = dreizehn
-14 = vierzehn
-15 = fünfzehn
-16 = sechzehn
-17 = siebzehn
-18 = achtzehn
-19 = neunzehn
-20 = zwanzig
-21 = einundzwanzig
-30 = dreißig
-40 = vierzig
-50 = fünfzig
-60 = sechzig
-70 = siebzig
-80 = achtzig
-90 = neunzig
-100 = (ein)hundert
-101 = hunderteins
-200 = zweihundert
-1000 = (ein)tausend
-2001 = zweitausendeins
-1 000 000 = eine Million
-1. erstens
-2. zweitens
-3. drittens
-4. viertens
-der/die erste
-der/die zweite
-der/die dritte
-der/die vierte
-einmal
-zweimal
-dreimal
-viermal
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Zahlen').get());
+		entries.push(new Builder().id('').thema(thema).entry('eins').alternative('1').get());
+		entries.push(new Builder().id('').thema(thema).entry('zwei').alternative('2').get());
+		entries.push(new Builder().id('').thema(thema).entry('drei').alternative('3').get());
+		entries.push(new Builder().id('').thema(thema).entry('vier').alternative('4').get());
+		entries.push(new Builder().id('').thema(thema).entry('fünf').alternative('5').get());
+		entries.push(new Builder().id('').thema(thema).entry('sechs').alternative('6').get());
+		entries.push(new Builder().id('').thema(thema).entry('sieben').alternative('7').get());
+		entries.push(new Builder().id('').thema(thema).entry('acht').alternative('8').get());
+		entries.push(new Builder().id('').thema(thema).entry('neun').alternative('9').get());
+		entries.push(new Builder().id('').thema(thema).entry('zehn').alternative('10').get());
+		entries.push(new Builder().id('').thema(thema).entry('elf').alternative('11').get());
+		entries.push(new Builder().id('').thema(thema).entry('zwölf').alternative('12').get());
+		entries.push(new Builder().id('').thema(thema).entry('dreizehn').alternative('13').get());
+		entries.push(new Builder().id('').thema(thema).entry('vierzehn').alternative('14').get());
+		entries.push(new Builder().id('').thema(thema).entry('fünfzehn').alternative('15').get());
+		entries.push(new Builder().id('').thema(thema).entry('sechzehn').alternative('16').get());
+		entries.push(new Builder().id('').thema(thema).entry('siebzehn').alternative('17').get());
+		entries.push(new Builder().id('').thema(thema).entry('achtzehn').alternative('18').get());
+		entries.push(new Builder().id('').thema(thema).entry('neunzehn').alternative('19').get());
+		entries.push(new Builder().id('').thema(thema).entry('zwanzig').alternative('20').get());
+		entries.push(new Builder().id('').thema(thema).entry('einundzwanzig').alternative('21').get());
+		entries.push(new Builder().id('').thema(thema).entry('dreißig').alternative('30').get());
+		entries.push(new Builder().id('').thema(thema).entry('vierzig').alternative('40').get());
+		entries.push(new Builder().id('').thema(thema).entry('fünfzig').alternative('50').get());
+		entries.push(new Builder().id('').thema(thema).entry('sechzig').alternative('60').get());
+		entries.push(new Builder().id('').thema(thema).entry('siebzig').alternative('70').get());
+		entries.push(new Builder().id('').thema(thema).entry('achtzig').alternative('80').get());
+		entries.push(new Builder().id('').thema(thema).entry('neunzig').alternative('90').get());
+		entries.push(new Builder().id('').thema(thema).entry('(ein)hundert').alternative('100').get());
+		entries.push(new Builder().id('').thema(thema).entry('hunderteins').alternative('101').get());
+		entries.push(new Builder().id('').thema(thema).entry('zweihundert').alternative('200').get());
+		entries.push(new Builder().id('').thema(thema).entry('(ein)tausend').alternative('1000').get());
+		entries.push(new Builder().id('').thema(thema).entry('zweitausendeins').alternative('2001').get());
+		entries.push(new Builder().id('').thema(thema).entry('eine Million').alternative('1 000 000').get());
+		entries.push(new Builder().id('').thema(thema).entry('erstens').alternative('1.').get());
+		entries.push(new Builder().id('').thema(thema).entry('zweitens').alternative('2.').get());
+		entries.push(new Builder().id('').thema(thema).entry('drittens').alternative('3,').get());
+		entries.push(new Builder().id('').thema(thema).entry('viertens').alternative('4.').get());
+		entries.push(new Builder().id('').thema(thema).entry('der/die erste').get());
+		entries.push(new Builder().id('').thema(thema).entry('der/die zweite').get());
+		entries.push(new Builder().id('').thema(thema).entry('der/die dritte').get());
+		entries.push(new Builder().id('').thema(thema).entry('der/die vierte').get());
+		entries.push(new Builder().id('').thema(thema).entry('einmal').get());
+		entries.push(new Builder().id('').thema(thema).entry('zweimal').get());
+		entries.push(new Builder().id('').thema(thema).entry('dreimal').get());
+		entries.push(new Builder().id('').thema(thema).entry('viermal').get());
         return entries;
     }
 
     createSchuleEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Schule / Schulfächer'];
-        /*
-Schule
-Schulfächer
-e Grundschule/Hauptschule/
-Realschule
-e Gesamtschule
-s Gymnasium
-e Sprachschule/ s Goethe-Institut
-r Lehrer, -, e Lehrerin, -nen
-r Schüler, -, e Schülerin, -nen
-e Prüfung, -en, r Prüfer, -
-e Prüferin, -nen
-Deutsch/Mathematik/Englisch/
-Geografie/ Kunst(erziehung)/
-Sozialkunde/Sport/
-Physik/Chemie/Biologie/
-Geschichte/Latein/
-Philosophie/Religion/Musik
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Schule').get());
+		entries.push(new Builder().id('').thema(thema).entry('Schulfächer').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Grundschule').get());
+		entries.push(new Builder().id('').thema(thema).entry('Hauptschule').get());
+		entries.push(new Builder().id('').thema(thema).entry('Realschule').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Gesamtschule').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Gymnasium').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Sprachschule').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Goethe-Institut').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Lehrer, -, e Lehrerin, -nen').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Schüler, -, e Schülerin, -nen').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Prüfung, -en, r Prüfer, -').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Prüferin, -nen').get());
+		entries.push(new Builder().id('').thema(thema).entry('Deutsch').get());
+		entries.push(new Builder().id('').thema(thema).entry('Mathematik').get());
+		entries.push(new Builder().id('').thema(thema).entry('Englisch').get());
+		entries.push(new Builder().id('').thema(thema).entry('Geografie').get());
+		entries.push(new Builder().id('').thema(thema).entry('Kunst(erziehung)').get());
+		entries.push(new Builder().id('').thema(thema).entry('Sozialkunde').get());
+		entries.push(new Builder().id('').thema(thema).entry('Sport').get());
+		entries.push(new Builder().id('').thema(thema).entry('Physik').get());
+		entries.push(new Builder().id('').thema(thema).entry('Chemie').get());
+		entries.push(new Builder().id('').thema(thema).entry('Biologie').get());
+		entries.push(new Builder().id('').thema(thema).entry('Geschichte').get());
+		entries.push(new Builder().id('').thema(thema).entry('Latein').get());
+		entries.push(new Builder().id('').thema(thema).entry('Philosophie').get());
+		entries.push(new Builder().id('').thema(thema).entry('Religion').get());
+		entries.push(new Builder().id('').thema(thema).entry('Musik').get());
         return entries;
     }
 
     createWaehrungenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Währungen und Maße'];
-/*
-Währungen und Maße
-1 Euro = 100 Cent
-1 Dollar = 100 Cent
-1 m = ein Meter
-1,50 m = ein Meter fünfzig
-1 km = ein Kilometer
-1 l = ein Liter
-1 g = ein Gramm /
-1 kg = ein Kilogramm
-1 % = ein Prozent
-*/
+		entries.push(new Builder().id('').thema(thema).entry('Währungen').get());
+		entries.push(new Builder().id('').thema(thema).entry('Maße').get());
+		entries.push(new Builder().id('').thema(thema).entry('1 Euro').alternative('100 Cent').get());
+		entries.push(new Builder().id('').thema(thema).entry('1 Dollar').alternative('100 Cent').get());
+		entries.push(new Builder().id('').thema(thema).entry('ein Meter').alternative('1 m').get());
+		entries.push(new Builder().id('').thema(thema).entry('ein Meter fünfzig').alternative('1,50 m').get());
+		entries.push(new Builder().id('').thema(thema).entry('ein Kilometer').alternative('1 km').get());
+		entries.push(new Builder().id('').thema(thema).entry('ein Liter').alternative('1 l').get());
+		entries.push(new Builder().id('').thema(thema).entry('ein Gramm').alternative('1 g').get());
+		entries.push(new Builder().id('').thema(thema).entry('ein Kilogramm').alternative('1 kg').get());
+		entries.push(new Builder().id('').thema(thema).entry('ein Prozent').alternative('1 %').get());
         return entries;
     }
 
     createDatumEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Zeit', 'Datum'];
-/*
-Datum
-Heute ist der 20.2.2012 'der zwanzigste zweite (Februar) zweitausendzwölf'
-1848    achtzehnhundertachtundvierzig
-Berlin, 14.3.2013   'vierzehnter dritter zweitausenddreizehn'
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Datum').get());
+		entries.push(new Builder().id('').thema(thema).entry('der zwanzigste zweite (Februar) zweitausendzwölf').alternative('Heute ist der 20.2.2012').get());
+		entries.push(new Builder().id('').thema(thema).entry('achtzehnhundertachtundvierzig').alternative('1848').get());
+		entries.push(new Builder().id('').thema(thema).entry('vierzehnter dritter zweitausenddreizehn').alternative('Berlin, 14.3.2013').get());
         return entries;
     }
 
     createFeiertageEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Zeit', 'Feiertage'];
-        /*
-        Feiertage
-        Karneval/Ostern
-        Weihnachten
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Feiertage').get());
+		entries.push(new Builder().id('').thema(thema).entry('Karneval').get());
+		entries.push(new Builder().id('').thema(thema).entry('Ostern').get());
+		entries.push(new Builder().id('').thema(thema).entry('Weihnachten').get());
         return entries;
     }
 
     createJahreszeitenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Zeit', 'Jahreszeiten'];
-        /*
-        Jahreszeiten
-        r Frühling/ s Frühjahr
-        r Sommer
-        r Herbst
-        r Winter
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Jahreszeiten').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Frühling').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Frühjahr').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Sommer').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Herbst').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Winter').get());
         return entries;
     }
 
     createMonatsnamenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Zeit', 'Monatsnamen'];
-        /*
-        Monatsnamen
-        r Januar
-        r Februar
-        r März
-        r April
-        r Mai
-        r Juni r Juli
-        r August
-        r September
-        r Oktober
-        r November
-        r Dezember
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Monatsnamen').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Januar').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Februar').get());
+		entries.push(new Builder().id('').thema(thema).entry('r März').get());
+		entries.push(new Builder().id('').thema(thema).entry('r April').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Mai').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Juni').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Juli').get());
+		entries.push(new Builder().id('').thema(thema).entry('r August').get());
+		entries.push(new Builder().id('').thema(thema).entry('r September').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Oktober').get());
+		entries.push(new Builder().id('').thema(thema).entry('r November').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Dezember').get());
         return entries;
     }
 
     createTageszeitenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Zeit', 'Tageszeiten'];
-        /*
-        Tageszeiten
-        r Tag, -e
-        r Morgen, -
-        r Vormittag, -e
-        r Mittag, -e
-        r Nachmittag, -e
-        r Abend, -e
-        e Nacht,“ –e
-        e Mitternacht
-        täglich, tagsüber
-        morgens, am Morgen
-        vormittags, am Vormittag
-        mittags, am Mittag
-        nachmittags, am Nachmittag
-        abends, am Abend
-        nachts, in der Nacht
-        um Mitternacht
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Tageszeiten').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Tag, -e').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Morgen, -').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Vormittag, -e').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Mittag, -e').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Nachmittag, -e').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Abend, -e').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Nacht,“ –e').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Mitternacht').get());
+		entries.push(new Builder().id('').thema(thema).entry('täglich').get());
+		entries.push(new Builder().id('').thema(thema).entry('tagsüber').get());
+		entries.push(new Builder().id('').thema(thema).entry('morgens').get());
+		entries.push(new Builder().id('').thema(thema).entry('am Morgen').get());
+		entries.push(new Builder().id('').thema(thema).entry('vormittags').get());
+		entries.push(new Builder().id('').thema(thema).entry('am Vormittag').get());
+		entries.push(new Builder().id('').thema(thema).entry('mittags').get());
+		entries.push(new Builder().id('').thema(thema).entry('am Mittag').get());
+		entries.push(new Builder().id('').thema(thema).entry('nachmittags').get());
+		entries.push(new Builder().id('').thema(thema).entry('am Nachmittag').get());
+		entries.push(new Builder().id('').thema(thema).entry('abends').get());
+		entries.push(new Builder().id('').thema(thema).entry('am Abend').get());
+		entries.push(new Builder().id('').thema(thema).entry('nachts').get());
+		entries.push(new Builder().id('').thema(thema).entry('in der Nacht').get());
+		entries.push(new Builder().id('').thema(thema).entry('um Mitternacht').get());
         return entries;
     }
 
     createUhrzeitEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Zeit', 'Uhrzeit'];
-        /*
-        Uhrzeit
-        07.03   sieben Uhr drei
-        3.15    drei Uhr fünfzehn
-        15.30   fünfzehn Uhr dreißig / halb vier
-        24.00   vierundzwanzig Uhr
-        13.00   dreizehn Uhr / ein Uhr
-        11.30   halb zwölf
-        14.05   vierzehn Uhr fünf / fünf nach zwei
-        14.55   vierzehn Uhr fünfundfünfzig / fünf vor drei
-        10.15   viertel nach zehn
-        6.45    viertel vor sieben
-        20.40   zwanzig Uhr vierzig / zwanzig vor neun
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Uhrzeit').get());
+		entries.push(new Builder().id('').thema(thema).entry('sieben Uhr drei').alternative('07.03').get());
+		entries.push(new Builder().id('').thema(thema).entry('drei Uhr fünfzehn').alternative('3.15').get());
+		entries.push(new Builder().id('').thema(thema).entry('fünfzehn Uhr dreißig / halb vier').alternative('15.30').get());
+		entries.push(new Builder().id('').thema(thema).entry('vierundzwanzig Uhr').alternative('24.00').get());
+		entries.push(new Builder().id('').thema(thema).entry('dreizehn Uhr / ein Uhr').alternative('13.00').get());
+		entries.push(new Builder().id('').thema(thema).entry('halb zwölf').alternative('11.30').get());
+		entries.push(new Builder().id('').thema(thema).entry('vierzehn Uhr fünf / fünf nach zwei').alternative('14.05').get());
+		entries.push(new Builder().id('').thema(thema).entry('vierzehn Uhr fünfundfünfzig / fünf vor drei').alternative('14.55').get());
+		entries.push(new Builder().id('').thema(thema).entry('viertel nach zehn').alternative('10.15').get());
+		entries.push(new Builder().id('').thema(thema).entry('viertel vor sieben').alternative('6.45').get());
+		entries.push(new Builder().id('').thema(thema).entry('zwanzig Uhr vierzig / zwanzig vor neun').alternative('20.40').get());
         return entries;
     }
 
     createWochentageEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Zeit', 'Wochentage'];
-        /*
-        Wochentage
-        r Montag
-        r Dienstag
-        r Mittwoch
-        r Donnerstag
-        r Freitag
-        r Samstag / Sonnabend
-        r Sonntag
-        s Wochenende
-        r Arbeitstag
-        r Feiertag
-        montags, am Montag
-        dienstags, am Dienstag
-        mittwochs, am Mittwoch
-        donnerstags, am Donnerstag
-        freitags, am Freitag
-        samstags, am Samstag
-        sonntags, am Sonntag
-        am Wochenende
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Wochentage').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Montag').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Dienstag').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Mittwoch').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Donnerstag').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Freitag').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Samstag').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Sonnabend').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Sonntag').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Wochenende').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Arbeitstag').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Feiertag').get());
+        entries.push(new Builder().id('').thema(thema).entry('montags').get());
+		entries.push(new Builder().id('').thema(thema).entry('am Montag').get());
+        entries.push(new Builder().id('').thema(thema).entry('dienstags').get());
+        entries.push(new Builder().id('').thema(thema).entry('am Dienstag').get());
+        entries.push(new Builder().id('').thema(thema).entry('mittwochs').get());
+        entries.push(new Builder().id('').thema(thema).entry('am Mittwoch').get());
+        entries.push(new Builder().id('').thema(thema).entry('donnerstags').get());
+        entries.push(new Builder().id('').thema(thema).entry('am Donnerstag').get());
+        entries.push(new Builder().id('').thema(thema).entry('freitags').get());
+        entries.push(new Builder().id('').thema(thema).entry('am Freitag').get());
+        entries.push(new Builder().id('').thema(thema).entry('samstags').get());
+        entries.push(new Builder().id('').thema(thema).entry('am Samstag').get());
+        entries.push(new Builder().id('').thema(thema).entry('sonntags').get());
+        entries.push(new Builder().id('').thema(thema).entry('am Sonntag').get());
+        entries.push(new Builder().id('').thema(thema).entry('am Wochenende').get());
         return entries;
     }
 
     createZeitangabenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Zeit', 'Zeitangaben'];
-        /*
-        Zeitangaben
-        e Sekunde, -n
-        e Minute,- n
-        e Stunde,- n
-        e halbe Stunde, -n
-        e Viertelstunde, -n
-        r Tag, -e
-        e Woche, -n
-        r Monat, -e
-        s Jahr, -e
-        */
+		entries.push(new Builder().id('').thema(thema).entry('Zeitangaben').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Sekunde, -n').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Minute,- n').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Stunde,- n').get());
+		entries.push(new Builder().id('').thema(thema).entry('e halbe Stunde, -n').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Viertelstunde, -n').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Tag, -e').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Woche, -n').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Monat, -e').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Jahr, -e').get());
         return entries;
     }
 

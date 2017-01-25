@@ -757,7 +757,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('db7697db-0492-4404-a222-0d2e034c1e77').thema(thema).entry('Lieblings-').example('Mein Lieblingsfilm ist „Schwarze Augen“.').translate('favori').get());
 		entries.push(new Builder().id('afff57cb-a648-467d-96fe-2d0f5f082aa0').thema(thema).entry('das Lied, -er').example('Welches ist dein Lieblingslied?').translate(['chanson', 'chant']).get());
 		entries.push(new Builder().id('07921aa4-47db-4a17-a97d-d668703d0550').thema(thema).entry('liegen').example(['Um neun Uhr liegt Judith noch im Bett.', 'Frankfurt liegt am Main.']).translate(['être allongé(e)', 'être couché', 'se situer (chose)']).get());
-		entries.push(new Builder().id('a7100224-a898-4189-bffe-0d5a9673c06e').thema(thema).entry('links').example('Gehen Sie die nächste Straße links.').get());
+		entries.push(new Builder().id('a7100224-a898-4189-bffe-0d5a9673c06e').thema(thema).entry('links').example('Gehen Sie die nächste Straße links.').translate('à gauche').get());
 		entries.push(new Builder().id('53ff607c-a9d7-4d62-b0b2-6d6ec744fb8c').thema(thema).entry('der Lkw, -s').example('Dieser Lastkraftwagen ist sehr groß.').translate(['camion', 'poids lourd']).get());
 		entries.push(new Builder().id('e2f2da03-719b-46f2-9258-b0570d707220').thema(thema).entry('das Lokal').example('In unserer Straße gibt es ein neues Lokal.').translate(['café (lieux)', 'restaurant', 'local']).get());
 		entries.push(new Builder().id('f1248f8b-c950-4c0a-8030-2781ef00492b').thema(thema).entry('die Lösung, -en').example('Die Lösung ist ganz einfach.').get());
@@ -868,22 +868,22 @@ class VocabularyA1Service {
         let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'R'];
 		entries.push(new Builder().id('eb5fe986-0f57-44fc-8dfd-0b9325ca76a5').thema(thema).entry('Rad fahren').example('Das Kind kann schon Rad fahren.').translate('aller à bicyclette').get());
 		entries.push(new Builder().id('25fd1513-9ec9-4c9b-a300-0b767dbcd088').thema(thema).entry('rauchen').example('Ich rauche nicht.').get());
-		entries.push(new Builder().id('2a66e317-f4be-41f5-868b-31126a73a1c2').thema(thema).entry('der Raum, -ä, e').example('Der Unterricht ist in Raum 332.').get());
-		entries.push(new Builder().id('35ccb02f-f25a-4c32-981d-9c1c3bec53be').thema(thema).entry('die Rechnung, -en').example('Die Rechnung, bitte.').get());
-		entries.push(new Builder().id('498fa870-3680-4da5-8413-ea20aa90a1f0').thema(thema).entry('rechts').example('Die Schillerstraße ist hier rechts.').get());
+		entries.push(new Builder().id('2a66e317-f4be-41f5-868b-31126a73a1c2').thema(thema).entry('der Raum, -ä, e').example('Der Unterricht ist in Raum 332.').translate(['salle', 'pièce', 'local']).get());
+		entries.push(new Builder().id('35ccb02f-f25a-4c32-981d-9c1c3bec53be').thema(thema).entry('die Rechnung, -en').example('Die Rechnung, bitte.').translate(['addition', 'note', 'facture', 'calcul']).get());
+		entries.push(new Builder().id('498fa870-3680-4da5-8413-ea20aa90a1f0').thema(thema).entry('rechts').example('Die Schillerstraße ist hier rechts.').translate('à droite').get());
 		entries.push(new Builder().id('b1b6948d-0829-4844-94c9-97e260c6a26c').thema(thema).entry('regnen').example('Heute regnet es.').get());
-		entries.push(new Builder().id('d62de59b-6345-4ae5-a003-672d6762cd07').thema(thema).entry('der Regen').example('Bei diesem Regen gehe ich nicht raus.').get());
+		entries.push(new Builder().id('d62de59b-6345-4ae5-a003-672d6762cd07').thema(thema).entry('der Regen').example('Bei diesem Regen gehe ich nicht raus.').translate('pluie').get());
 		entries.push(new Builder().id('e1614104-4a2a-41e2-90ce-5ff13b2568ec').thema(thema).entry('der Reis').example('Ich esse gern Reis.').get());
-		entries.push(new Builder().id('58b57806-439d-425f-ad6d-044dd05bd7e3').thema(thema).entry('reisen').example('Ich reise gern.').get());
-		entries.push(new Builder().id('49c0c08a-c1d9-40cd-b31a-b9946641b3f2').thema(thema).entry('die Reise').example('Wir machen eine Reise nach Österreich.').get());
-		entries.push(new Builder().id('f4d1ce1c-d272-4151-a07b-feaf7b661745').thema(thema).entry('das Reisebüro, -s').example('Mein Mann arbeitet im Reisebüro.').get());
-		entries.push(new Builder().id('ab91e9ad-77b5-4e54-bd63-49f207c55b8a').thema(thema).entry('der Reiseführer').example(['Ich kaufe mir einen Reiseführer von Berlin.', 'Unser Reiseführer heißt Peter.']).get());
+		entries.push(new Builder().id('58b57806-439d-425f-ad6d-044dd05bd7e3').thema(thema).entry('reisen').example('Ich reise gern.').translate(['voyager', 'se déplacer', 'aller']).get());
+		entries.push(new Builder().id('49c0c08a-c1d9-40cd-b31a-b9946641b3f2').thema(thema).entry('die Reise').example('Wir machen eine Reise nach Österreich.').translate(['déplacement', 'voyage']).get());
+		entries.push(new Builder().id('f4d1ce1c-d272-4151-a07b-feaf7b661745').thema(thema).entry('das Reisebüro, -s').example('Mein Mann arbeitet im Reisebüro.').translate(['agence de voyages', 'bureau de voyages']).get());
+		entries.push(new Builder().id('ab91e9ad-77b5-4e54-bd63-49f207c55b8a').thema(thema).entry('der Reiseführer').example(['Ich kaufe mir einen Reiseführer von Berlin.', 'Unser Reiseführer heißt Peter.']).translate('guide (livre ou personne)').get());
 		entries.push(new Builder().id('7b08aea6-b265-485b-8dfb-b4e63b14461e').thema(thema).entry('reparieren').example('Er hat das Fahrrad repariert.').get());
 		entries.push(new Builder().id('f740eeec-6b69-43e0-96cd-76ccf338786a').thema(thema).entry('die Reparatur').example('Die Reparatur ist sehr teuer.').get());
 		entries.push(new Builder().id('2972ddf4-2c25-4765-a48d-23a699b1ac50').thema(thema).entry('das Restaurant, -s').example('Wir essen heute in einem Restaurant.').get());
 		entries.push(new Builder().id('9c5e5cee-af33-4b69-b844-69f8a8d7a372').thema(thema).entry('die Rezeption').example('Fragen Sie bitte im Hotel an der Rezeption.').get());
 		entries.push(new Builder().id('f2b400da-73d8-4f95-a91c-7edb6bd1a2bc').thema(thema).entry('richtig').example(['Habe ich das richtig verstanden?', 'Das ist richtig.']).get());
-		entries.push(new Builder().id('dadf7799-ce02-4380-89ee-11b0c4762ad9').thema(thema).entry('riechen').example('Dieser Wein riecht gut.').get());
+		entries.push(new Builder().id('dadf7799-ce02-4380-89ee-11b0c4762ad9').thema(thema).entry('riechen').example('Dieser Wein riecht gut.').translate('sentir qc').get());
 		entries.push(new Builder().id('57ef66bf-9a2e-41c3-8366-8149f202b3b8').thema(thema).entry('ruhig').example('Ich möchte ein ruhiges Zimmer.').get());
         return entries;
     }
@@ -891,13 +891,13 @@ class VocabularyA1Service {
     createSEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'S'];
-		entries.push(new Builder().id('48d7fa4c-c097-47ee-9232-a84a7dda2fb8').thema(thema).entry('der Saft').example('Möchtest du einen Apfelsaft?').get());
-		entries.push(new Builder().id('635f4fe5-8143-49c2-ae3a-2bd9df09ea84').thema(thema).entry('sagen').example('Sag mal, wie geht es dir denn?').get());
+		entries.push(new Builder().id('48d7fa4c-c097-47ee-9232-a84a7dda2fb8').thema(thema).entry('der Saft').example('Möchtest du einen Apfelsaft?').translate(['jus', 'jus de fruit']).get());
+		entries.push(new Builder().id('635f4fe5-8143-49c2-ae3a-2bd9df09ea84').thema(thema).entry('sagen').example('Sag mal, wie geht es dir denn?').translate('dire qc.').get());
 		entries.push(new Builder().id('1c12ac5e-8e15-4d49-aab8-3dee37225f02').thema(thema).entry('der Salat').example('Wie schmeckt dir der Salat?').get());
 		entries.push(new Builder().id('581a4b07-ae71-46b0-8630-8558a6330b70').thema(thema).entry('das Salz').example('Herr Ober, kann ich bitte Salz haben?').get());
 		entries.push(new Builder().id('cd2bf9e1-c208-4965-a354-0e30d863f529').thema(thema).entry('Satz, -ä, e').example('Dieser Satz ist sehr einfach.').get());
-		entries.push(new Builder().id('bac80be2-3675-40d6-9277-4e270842cbba').thema(thema).entry('die S-Bahn').example('Ich nehme lieber die S-Bahn.').get());
-		entries.push(new Builder().id('0d46db8b-d108-47aa-b426-915018ac7449').thema(thema).entry('der Schalter').example('Gehen Sie bitte zum Schalter drei!').get());
+		entries.push(new Builder().id('bac80be2-3675-40d6-9277-4e270842cbba').thema(thema).entry('die S-Bahn').example('Ich nehme lieber die S-Bahn.').translate(['train de banlieue', 'RER (réseau express régional)']).get());
+		entries.push(new Builder().id('0d46db8b-d108-47aa-b426-915018ac7449').thema(thema).entry('der Schalter').example('Gehen Sie bitte zum Schalter drei!').translate(['guichet', 'interrupteur', 'bouton']).get());
 		entries.push(new Builder().id('afb3e80c-c177-4900-9a22-969d7d9aa51e').thema(thema).entry('scheinen').example('Die Sonne scheint.').get());
 		entries.push(new Builder().id('a71415fe-867f-4af4-97ff-197358e3c4c1').thema(thema).entry('schicken').example('Bitte schicken Sie mir eine E-Mail.').get());
 		entries.push(new Builder().id('7557eb88-49b2-443a-9467-637d84b15fd3').thema(thema).entry('das Schild, -er ').example('Haben Sie nicht das Schild gesehen?').get());
