@@ -505,211 +505,280 @@ class VocabularyA2Service {
     createAEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'A'];
-        /*
-		entries.push(new Builder().id(' ').thema(thema).entry('').example('').get());
-Ab
-aber
-abfahren
-r Abfall, ä, -e
-abgeben
-abholen
-s Abitur (Sg.)
-e Achtung (Sg.)
-e Adresse, -n
-e Ahnung, -en
-aktiv
-alle
-allein
-als
-also
-alt
-s Alter (Sg.)
-e Ampel, -n
-an
-anbieten
-ander-
-anders
-r Anfang, ä, -e
-anfangen
-e Angst, Ä, -e
-ankommen
-anmachen
-anmelden (sich)
-anrufen
-r Anruf
-e Ansage, -n
-e Anzeige, -n
-anziehen
-r Anzug, ü, -e
-
-
-Ab morgen muss ich wieder arbeiten.
-Der Film ist traurig, aber auch sehr schön./Heute geht es nicht, aber morgen.
-Der Zug fährt pünktlich ab.
-Bitte lasst keinen Abfall auf dem Parkplatz liegen!
-Wo kann ich das Buch hier abgeben?
-Ich hole dich am Bahnhof ab.
-['Nächstes Jahr mache ich Abitur.', 'Dann will ich studieren.']
-Achtung, da kommt ein Auto!
-Weißt du seine neue Adresse? Ja, er wohnt in...
-Weißt du, wo wir uns treffen wollen?/Nein, ich habe keine Ahnung.
-Er ist im Sport sehr aktiv.
-Sind alle Schüler da?/Hast du alles?
-Er arbeitet lieber allein./Ich gehe nicht gern allein ins Kino.
-Mein Bruder ist älter als ich./Sie arbeitet als Ärztin.
-Wir haben viel Platz, du kannst also bei uns schlafen./Also, die Sache ist so: ...
-Wie alt bist du?/Unser Haus ist sehr alt./Fährt das alte Auto immer noch?
-Alter: 15 Jahre.
-Fahren Sie an der Ampel links./Die Ampel ist rot, bleib stehen!
-Ich komme am Sonntag/am Morgen./Wir sind am Meer/am Fenster./Wir gehen an den Strand./Ich arbeite gern am Computer.
-Er hat mir einen Job angeboten./Kann ich dir etwas anbieten? Tee oder Kaffee?
-'Ich nehme lieber den anderen Pullover. Der gefällt mir besser.'
-In Deutschland ist das Leben anders./Ich würde das anders machen./Er ist anders als du.
-Am Anfang ist das Buch langweilig, am Ende lustig./Wir machen Anfang August Ferien.
-Bitte fang jetzt an!/Der Unterricht fängt gleich an.
-Ich habe keine Angst vor der Prüfung.
-Wann kommt ihr in Berlin an?
-Es ist dunkel. Mach bitte das Licht an!
-Du musst dich für die Prüfung anmelden.
-Ich rufe dich morgen an.
-Gut, ich warte dann auf deinen Anruf.
-Folgt den Ansagen am Telefon.
-Lies mal die Anzeige in der Zeitung.
-Was ziehe ich heute an? Eine Hose oder ein Kleid?
-Für die Geburtstagsfeier von Oma brauchst du einen Anzug.
-		*/
+		entries.push(new Builder().id('').thema(thema).entry('Ab').example('Ab morgen muss ich wieder arbeiten.').get());
+		entries.push(new Builder().id('').thema(thema).entry('aber').example(['Der Film ist traurig, aber auch sehr schön.', 'Heute geht es nicht, aber morgen.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('abfahren').example('Der Zug fährt pünktlich ab.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Abfall, ä, -e').example('Bitte lasst keinen Abfall auf dem Parkplatz liegen!').get());
+		entries.push(new Builder().id('').thema(thema).entry('abgeben').example('Wo kann ich das Buch hier abgeben?').get());
+		entries.push(new Builder().id('').thema(thema).entry('abholen').example('Ich hole dich am Bahnhof ab.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Abitur (Sg.)').example(['Nächstes Jahr mache ich Abitur.', 'Dann will ich studieren.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Achtung (Sg.)').example('Achtung, da kommt ein Auto!').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Adresse, -n').example('Weißt du seine neue Adresse? Ja, er wohnt in...').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Ahnung, -en').example(['Weißt du, wo wir uns treffen wollen? - Nein, ich habe keine Ahnung.').get());
+		entries.push(new Builder().id('').thema(thema).entry('aktiv').example('Er ist im Sport sehr aktiv.').get());
+		entries.push(new Builder().id('').thema(thema).entry('alle').example(['Sind alle Schüler da?', 'Hast du alles?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('allein').example(['Er arbeitet lieber allein.', 'Ich gehe nicht gern allein ins Kino.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('als').example(['Mein Bruder ist älter als ich.', 'Sie arbeitet als Ärztin.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('also').example(['Wir haben viel Platz, du kannst also bei uns schlafen.', 'Also, die Sache ist so: ...']).get());
+		entries.push(new Builder().id('').thema(thema).entry('alt').example(['Wie alt bist du?', 'Unser Haus ist sehr alt.', 'Fährt das alte Auto immer noch?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Alter (Sg.)').example('Alter: 15 Jahre.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Ampel, -n').example(['Fahren Sie an der Ampel links.', 'Die Ampel ist rot, bleib stehen!']).get());
+		entries.push(new Builder().id('').thema(thema).entry('an').example(['Ich komme am Sonntag', 'am Morgen.', 'Wir sind am Meer', 'am Fenster.', 'Wir gehen an den Strand.', 'Ich arbeite gern am Computer.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('anbieten').example(['Er hat mir einen Job angeboten.', 'Kann ich dir etwas anbieten? Tee oder Kaffee?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('ander-').example('Ich nehme lieber den anderen Pullover. Der gefällt mir besser.').get());
+		entries.push(new Builder().id('').thema(thema).entry('anders').example(['In Deutschland ist das Leben anders.', 'Ich würde das anders machen.', 'Er ist anders als du.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Anfang, ä, -e').example(['Am Anfang ist das Buch langweilig, am Ende lustig.', 'Wir machen Anfang August Ferien.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('anfangen').example(['Bitte fang jetzt an!', 'Der Unterricht fängt gleich an.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Angst, Ä, -e').example('Ich habe keine Angst vor der Prüfung.').get());
+		entries.push(new Builder().id('').thema(thema).entry('ankommen').example('Wann kommt ihr in Berlin an?').get());
+		entries.push(new Builder().id('').thema(thema).entry('anmachen').example('Es ist dunkel. Mach bitte das Licht an!').get());
+		entries.push(new Builder().id('').thema(thema).entry('anmelden (sich)').example('Du musst dich für die Prüfung anmelden.').get());
+		entries.push(new Builder().id('').thema(thema).entry('anrufen').example('Ich rufe dich morgen an.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Anruf').example('Gut, ich warte dann auf deinen Anruf.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Ansage, -n').example('Folgt den Ansagen am Telefon.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Anzeige, -n').example('Lies mal die Anzeige in der Zeitung.').get());
+		entries.push(new Builder().id('').thema(thema).entry('anziehen').example('Was ziehe ich heute an? Eine Hose oder ein Kleid?').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Anzug, ü, -e').example('Für die Geburtstagsfeier von Oma brauchst du einen Anzug.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Apfel, ä, -e').example('Die Äpfel aus Omas Garten schmecken sehr gut.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Apotheke, -n').example('Aspirin bekommen Sie nur in der Apotheke.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Appetit (Sg.)').example(['Guten Appetit!', 'Ich habe Appetit auf eine Banane.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Arbeit, -en').example(['Mein Bruder sucht Arbeit.', 'Ich gehe zu Fuß zur Arbeit.', 'War die Physikarbeit schwer?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('arbeiten').example('Meine Mutter arbeitet im Krankenhaus.').get());
+		entries.push(new Builder().id('').thema(thema).entry('arbeitslos').example('Mein Vater hat keine Arbeit. Er ist arbeitslos.').get());
+		entries.push(new Builder().id('').thema(thema).entry('ärgern (sich)').example(['Die Schüler ärgern den Lehrer.', 'Ich habe mich sehr über meinen Bruder geärgert.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('arm').example('Hans ist sehr arm. Er hat wenig Geld.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Arm, -e').example('Sie ist am Arm verletzt. Jetzt kann sie nicht mehr Basketball spielen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Artikel, -').example('Der Artikel in der Zeitung ist interessant.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Arzt, Ä, -e/e Ärztin, -nen').example('Er ist krank und muss heute zum Arzt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('auch').example(['Ich möchte auch mitspielen.', 'Sie kommen aus München? Ich auch.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('auf').example(['Die Zeitung ist auf dem Tisch.', 'Auf dem Foto bin ich mit meiner Schwester.', 'Wie heißt das auf Deutsch?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('aufhören').example(['Bitte, hör jetzt auf!', 'Hier hört die Bahnhofsstraße auf.', 'In einer Woche hört der Kurs auf.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('auf jeden/keinen Fall').example('Du kannst auf jeden/keinen Fall mit ihm sprechen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('aufmachen').example('Kannst du bitte das Fenster aufmachen?').get());
+		entries.push(new Builder().id('').thema(thema).entry('aufpassen').example(['Pass auf, ein Auto!', 'Er passt im Unterricht nicht richtig auf.', 'Kannst du auf deine Schwester aufpassen?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('aufräumen').example('Bitte räum dein Zimmer auf.').get());
+		entries.push(new Builder().id('').thema(thema).entry('aufregend').example(['Ich finde den Film aufregend.', 'Es ist aufregend bei diesem Wettbewerb zu sein.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Aufsatz, ä, -e').example('Ich muss noch einen Aufsatz über die Römer schreiben.').get());
+		entries.push(new Builder().id('').thema(thema).entry('aufstehen').example('Um acht Uhr stehen wir auf.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Auge, -n').example('Er hat grüne Augen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('aus').example(['Wann kommt ihr aus der Schule?', 'Der Tisch ist aus Holz.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Ausflug, ü, -e').example('Wir machen mit der Schule einen Ausflug nach Heidelberg.').get());
+		entries.push(new Builder().id('').thema(thema).entry('ausfüllen').example('Bitte füllen Sie das Formular aus.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Ausgang, ä, -e').example('Wo ist der Ausgang? Ich möchte hinaus.').get());
+		entries.push(new Builder().id('').thema(thema).entry('ausgehen').example('Am Wochenende gehe ich gern mit meinen Freunden aus.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Ausland (Sg.)').example('Ich wohne in Berlin, aber in den Ferien reise ich oft ins Ausland.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Ausländer, -').example('In unserem Haus wohnen viele Ausländer.').get());
+		entries.push(new Builder().id('').thema(thema).entry('ausmachen').example('Die Musik ist zu laut. Kannst du das Radio ausmachen?').get());
+		entries.push(new Builder().id('').thema(thema).entry('auspacken').example('Hast du schon deinen Koffer ausgepackt?').get());
+		entries.push(new Builder().id('').thema(thema).entry('aussehen').example(['Sie sieht aus wie ihre Mutter.', 'Wie sieht er aus? Er ist groß und blond.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('aus sein').example(['Plötzlich war das Licht aus.', 'Um ein Uhr ist die Schule aus.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('außer').example('Außer mir gehen alle Schüler zu der Party.').get());
+		entries.push(new Builder().id('').thema(thema).entry('außerdem').example('Möchten Sie außerdem noch etwas?').get());
+		entries.push(new Builder().id('').thema(thema).entry('aussprechen').example('Wie spricht man dieses Wort aus?').get());
+		entries.push(new Builder().id('').thema(thema).entry('aussteigen').example('Du musst an der Haltestelle am Marktplatz aussteigen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Ausweis, -e').example('Kannst du mir bitte deinen Ausweis zeigen?').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Auto, -s').example('Er kommt mit dem Auto. Das Auto fährt sehr schnell.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Autobahn, -en').example('Die Autobahn verbindet Köln und Bonn.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Automat, -en').example('Die Fahrkarte kannst du am Automaten kaufen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Autor, -en/e Autorin, -nen').example('Der Autor von diesem Buch heißt Stefan Zweig.').get());
         return entries;
     }
 
     createBEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'B'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createCEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'C'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createDEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'D'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createEEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'E'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createFEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'F'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createGEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'G'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createHEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'H'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createIEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'I'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createJEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'J'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createKEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'K'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createLEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'L'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createMEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'M'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createNEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'N'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createOEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'O'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createPEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'P'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createREntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'R'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createSEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'S'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createTEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'T'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createUEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'U'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createVEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'V'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createWEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'W'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
     createZEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'Z'];
+/*
+		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+        */
         return entries;
     }
 
