@@ -667,9 +667,14 @@ class VocabularyA2Service {
     createCEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'C'];
-/*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
-        */
+		entries.push(new Builder().id('').thema(thema).entry('s Café, -s').example('Ich möchte etwas trinken. -Gut, wir gehen ins Café.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e CD, -s').example('Er hört gern Musik, wir können ihm eine CD schenken.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Chaos (Sg.)').example('Das Chaos in deinem Zimmer ist furchtbar. Bitte räum auf!').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Chef, -s / e Chefin, -nen').example('Er/Sie ist hier der Chef/die Chefin!').get());
+		entries.push(new Builder().id('').thema(thema).entry('circa (ca.)').example('Es sind noch circa 50 km.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s/e Cola (Sg.)').example('Ich nehme einen Hamburger und eine Cola.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Comic, -s').example('Liest du gern Comics?').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Computer, -').example('Mein Computer ist schon alt.').get());
         return entries;
     }
 
@@ -677,7 +682,78 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'D'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('da').example('Die Zeitung liegt da drüben auf dem Tisch.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Dach, ä, -er').example(['Die Katze sitzt auf dem Dach.', 'Ich habe mein Zimmer unter dem Dach.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('dafür/dagegen sein').example('Sport? Ich bin dagegen. – Ich bin dafür.').get());
+		entries.push(new Builder().id('').thema(thema).entry('damals').example('Vor 20 Jahren? Wo habt ihr damals gewohnt?').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Dame, -n').example('Sehr geehrte Damen und Herren!').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Dank (Sg.)').example(['Vielen Dank für die Einladung.', 'Herzlichen Dank!']).get());
+		entries.push(new Builder().id('').thema(thema).entry('danke').example('Soll ich helfen? -Nein, danke.').get());
+		entries.push(new Builder().id('').thema(thema).entry('danken').example('Die CD ist toll, ich danke dir.').get());
+		entries.push(new Builder().id('').thema(thema).entry('dann').example('Ich spreche erst mit Jan, dann sage ich dir Bescheid.').get());
+		entries.push(new Builder().id('').thema(thema).entry('darum').example('Ich habe den Film schon gesehen, darum komme ich nicht mit.').get());
+		entries.push(new Builder().id('').thema(thema).entry('da sein').example('Sind alle Schüler da?').get());
+		entries.push(new Builder().id('').thema(thema).entry('dass').example('Er glaubt, dass er recht hat.').get());
+		entries.push(new Builder().id('').thema(thema).entry('dauern').example('Die Ferien dauern 6 Wochen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Decke, -n').example(['Auf dem Bett liegt eine rote Decke.', 'Das Licht an der Decke ist kaputt.']).get());
+
+		entries.push(new Builder().id('').thema(thema).entry('dein, e').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('denken').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('denn').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('der, die, das').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('deshalb').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('deutlich').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Dichter, -').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('dick').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('dieser, e, s').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Diktat, -e').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Ding, -e').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('direkt').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('doch').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Dorf, ö, -er').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('dort').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('draußen').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('dringend').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('drinnen').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('drüben').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('du').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('dumm').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('dunkel').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('dünn').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('durch').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('dürfen').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Durst (Sg.)').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('duschen').example('').get());
+
+['Hier ist dein Platz.', 'Ist das deine Tasche?']
+['Ich denke, dass die Hausaufgaben sehr einfach sind.', 'Ich denke oft an meine Eltern./Was denkst du?']
+['Warum kommst du denn nicht?', 'Ich möchte nicht in Deutschland leben, denn dort ist es so kalt.']
+Möchtest du das da?
+Ich muss lernen, deshalb bleibe ich zu Hause.
+Schreibt bitte deutlich, damit ich es lesen kann.
+Goethe war ein berühmter Dichter.
+['Ich bin leider sehr dick.', 'Die Wand ist zwei Meter dick.']
+Bitte, nicht wieder diese CD, die ist ja furchtbar.
+Wir schreiben heute in der Schule ein Diktat.
+Bitte, nimm nur wichtige Dinge mit!
+['Mit der U-Bahn kommen Sie direkt zum Rathaus.', 'Das Dorf liegt direkt an der Autobahn.']
+Magst du das nicht? – Doch, es schmeckt gut.
+Kellinghusen ist ein kleines Dorf in Schleswig-Holstein.
+Du gehst in die Stadt? Und was machst du dort?
+Die Kinder sind draußen im Garten.
+Ich muss dringend mit dir sprechen. Es ist sehr wichtig.
+Draußen ist es kalt, ich bleibe lieber drinnen.
+Das hier ist die Goethestraße und da drüben wohne ich.
+Wie heißt du? (vgl. Grammatik)
+Das finde ich dumm.
+['Um sechs wird es schon dunkel.', 'Sie hat dunkles Haar.']
+['Mein Sohn ist sehr dünn. Er isst so wenig.', 'Heute ist es warm. Ich ziehe eine dünne Jacke an.']
+Wir fahren durch Deutschland.
+Darf ich heute mitkommen?/
+Hier darf man nicht baden.
+Hast du Durst? Ich habe Mineralwasser, Tee, Saft ...
+Ich bade nicht so gern, ich dusche lieber.
+
         */
         return entries;
     }
