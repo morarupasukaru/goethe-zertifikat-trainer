@@ -295,7 +295,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('43418e6a-42d2-4892-80f0-b66e79c505a0').thema(thema).entry('also').example(['Also, es ist so: ...', 'Er hat Zeit, also muss er uns helfen.']).translate(['ainsi', 'par conséquent']).get());
 		entries.push(new Builder().id('4d7daae3-4855-4a58-9b1a-a4979d751de7').thema(thema).entry('alt').example(['Wie alt sind Sie?', 'Sie sehen aber nicht so alt aus.', 'Mein Auto ist schon sehr alt.', 'Wir wohnen in einem sehr alten Haus.', 'Köln ist eine alte Stadt.']).get());
 		entries.push(new Builder().id('1bd603b5-137c-4287-bc08-5edcb9de4fa1').thema(thema).entry('das Alter').example('Alter: 26 Jahre.').get());
-		entries.push(new Builder().id('3687c156-36c7-49cd-ba3a-caf130b41712').thema(thema).entry('an').example(['Fahren Sie an der nächsten Straße nach rechts.', 'Wir treffen uns am Bahnhof.', 'Am nächsten Montag geht es leider nicht.']).translate(['contre', 'à', 'au']).get());
+		entries.push(new Builder().id('3687c156-36c7-49cd-ba3a-caf130b41712').thema(thema).entry('an').example(['Fahren Sie an der nächsten Straße nach rechts.', 'Wir treffen uns am Bahnhof.', 'Am nächsten Montag geht es leider nicht.']).translate('à').get());
 		entries.push(new Builder().id('1896fe7a-0f8e-485b-8b69-5eabff2f6ce0').thema(thema).entry('anbieten').example('Was darf ich dir anbieten?').translate('offrir qc. à qn.').get());
 		entries.push(new Builder().id('b88be1b0-4a7f-419f-b8de-dc012480d9b5').thema(thema).entry('das Angebot, -e').example('Heute sind Sportschuhe im Angebot.').translate('offre').get());
 		entries.push(new Builder().id('85430ac6-372a-4852-b362-073fd0fc2ef0').thema(thema).entry('ander-').example(['WiIlst du diese Jacke?\n– Nein, ich möchte die andere.']).get());
@@ -329,10 +329,10 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('cfe6512f-8e4c-427b-aff4-322c449225a1').thema(thema).entry('der Arm, -e').example('Mein Arm tut weh.').get());
 		entries.push(new Builder().id('e32513bf-bbba-4343-8fd0-caad91ccbe32').thema(thema).entry('der Arzt, -Ä, e').example('Morgen habe ich einen Termin bei meiner Ärztin.').get());
 		entries.push(new Builder().id('898e6065-ec3d-4330-bb99-f256000dc97e').thema(thema).entry('auch').example('Ich bin auch Spanier.').get());
-		entries.push(new Builder().id('426ff939-6643-4bb9-a336-de2c849ec502').thema(thema).entry('auf').example(['Die Kinder spielen auf der Straße.', 'Auf Wiedersehen.', 'Wie heißt das auf Deutsch?']).translate(['sur qn./qc. (prép)', 'dans (prép)', 'en (prép. indication de langue / en allemand)']).get());
+		entries.push(new Builder().id('426ff939-6643-4bb9-a336-de2c849ec502').thema(thema).entry('auf').example(['Die Kinder spielen auf der Straße.', 'Auf Wiedersehen.', 'Wie heißt das auf Deutsch?']).translate(['sur qn./qc. (prép)', 'en (prép. indication de langue / en allemand)']).get());
 		entries.push(new Builder().id('008ae107-3475-4bf4-bc18-1e9b80139773').thema(thema).entry('die Aufgabe, -n').example('Das ist eine schwere Aufgabe.').get());
 		entries.push(new Builder().id('d3f921d7-f475-4663-a088-01c5b4378e41').thema(thema).entry('aufhören').example(['Der Kurs hört in einer Woche auf.', 'Hier hört die Bahnhofstraße auf.']).translate(['cesser', "s'arrêter"]).get());
-		entries.push(new Builder().id('1aac1dae-1c6c-40f1-b05d-d7ca07c70c96').thema(thema).entry('auf sein').example('Du brauchst den Schlüssel nicht. Die Wohnung ist auf.').translate('être ouvert').get());
+		entries.push(new Builder().id('1aac1dae-1c6c-40f1-b05d-d7ca07c70c96').thema(thema).entry('auf sein').example(['Du brauchst den Schlüssel nicht. Die Wohnung ist auf.', 'Das Fenster ist noch auf.']).translate('être ouvert').get());
 		entries.push(new Builder().id('12bebaf3-9e95-4a57-a969-531d260155aa').thema(thema).entry('aufstehen').example(['Ich muss immer um vier Uhr aufstehen.', 'Soll ich aufstehen?']).translate('se lever').get());
 		entries.push(new Builder().id('5f06d863-85c1-4f9a-a15c-c501ad51c4c6').thema(thema).entry('der Aufzug, -ü, e').example('In diesem Haus gibt es keinen Aufzug.').translate('ascenseur').get());
 		entries.push(new Builder().id('c3184dbf-0955-4a5f-8133-30b2605cbe70').thema(thema).entry('das Auge, -n').example('Er hat blaue Augen.').get());
@@ -378,7 +378,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('d5211377-dcdd-486d-a01e-9686512e0e1e').thema(thema).entry('der Beamte, -n').example('Fragen Sie die Beamtin an Schalter acht!').translate('fonctionnaire').get());
 		entries.push(new Builder().id('ebaedbb3-6f7d-4ebc-a9e5-b7cfaa0c6974').thema(thema).entry('bedeuten').example('Was bedeutet das Wort?').get());
 		entries.push(new Builder().id('50cafe0a-1b20-4a09-aea8-715b4acca618').thema(thema).entry('beginnen').example('Das Spiel beginnt um 15.30 Uhr.').get());
-		entries.push(new Builder().id('7884918a-fa8a-4c4d-b735-cc7f533dc59c').thema(thema).entry('bei').example(['Offenbach liegt bei Frankfurt.', 'Ich wohne bei meinen Eltern.', 'Bei uns regnet es heute.', 'Er arbeitet bei der Polizei.']).translate(['dans (prép)', 'pour (prép, finalité)', 'près de (prép, spatial)']).get());
+		entries.push(new Builder().id('7884918a-fa8a-4c4d-b735-cc7f533dc59c').thema(thema).entry('bei').example(['Offenbach liegt bei Frankfurt.', 'Ich wohne bei meinen Eltern.', 'Bei uns regnet es heute.', 'Er arbeitet bei der Polizei.']).translate(['près de (prép, spatial)', 'chez']).get());
 		entries.push(new Builder().id('50f4bd64-94fd-4e4f-a4ed-8ee7dd3af822').thema(thema).entry('beide').example(['Beide Eltern arbeiten.', 'Wir kommen beide.']).get());
 		entries.push(new Builder().id('ce78184d-8db2-46b0-9aeb-3c33d9739a9d').thema(thema).entry('das Bein, -e').example('Mein rechtes Bein tut weh.').translate('jambe').get());
 		entries.push(new Builder().id('bd64a316-54e8-4817-8039-50f376f6ad25').thema(thema).entry('das Beispiel, -e').example('Kannst du mir ein Beispiel sagen?').get());
@@ -927,7 +927,6 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('e32be5d1-6bd9-4010-8aeb-bc4b75bb1cb4').thema(thema).entry('sehr').example(['Danke sehr!', 'Das ist sehr schwer.']).translate(['beaucoup', 'très']).get());
 		entries.push(new Builder().id('209ca6a2-afdf-41da-b509-9dd455ae3160').thema(thema).entry('sein').example(['Herr Müller ist in seinem Zimmer.', 'Mir ist kalt.', 'Ich bin dreiundzwanzig.']).get());
 		entries.push(new Builder().id('0dc05a74-2c27-4a62-a4b3-9c1101a93d81').thema(thema).entry('an sein').example('Das Licht ist noch an.').translate('être allumé(e)').get());
-		entries.push(new Builder().id('1ed3eff7-1bf5-4a89-a4b7-bfa4666c6f73').thema(thema).entry('auf sein').example('Das Fenster ist noch auf.').translate('être ouvert').get());
 		entries.push(new Builder().id('9e036177-2e38-4b50-a813-7575381419a5').thema(thema).entry('weg sein').example('Herr Meier ist schon weg.').translate('être parti(e)').get());
 		entries.push(new Builder().id('f90bc5a5-aa80-4ff7-b0e6-2caeec186796').thema(thema).entry('zu sein').example('Die Tür ist zu.').translate('être fermé').get());
 		entries.push(new Builder().id('4a698023-f846-4f37-b41b-4423c9a91dc4').thema(thema).entry('seit').example('Ich wohne seit drei Jahren in Köln.').translate(['depuis', 'dès']).get());
@@ -1000,7 +999,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('ef2c525f-225a-4b9a-9ea6-ee3b2c7b0210').thema(thema).entry('übernachten').example('Du kannst bei mir übernachten.').translate('coucher').get());
 		entries.push(new Builder().id('c1f7de82-4c98-4d5a-a0ce-2aeb40381a4a').thema(thema).entry('überweisen').example('Sie können das Geld auch überweisen.').translate("virer qc. (faire un virement d'argent)").get());
 		entries.push(new Builder().id('944bc68e-1082-46ca-90d5-c34c4ff2f403').thema(thema).entry('die Uhr').example('Es ist vier Uhr.').translate(['heure', 'montre']).get());
-		entries.push(new Builder().id('f61dd0c6-3acf-4c96-92bc-492e24166de4').thema(thema).entry('um').example(['Er kommt um sieben Uhr.', 'Da kommt er gerade um die Ecke.']).translate(['à (indication horaire)', 'dans les ...']).get());
+		entries.push(new Builder().id('f61dd0c6-3acf-4c96-92bc-492e24166de4').thema(thema).entry('um').example(['Er kommt um sieben Uhr.', 'Da kommt er gerade um die Ecke.']).translate(['à (indication horaire)', 'autour']).get());
 		entries.push(new Builder().id('3f2024a8-df57-4c14-a72b-cb830561f518').thema(thema).entry('umziehen').example('Nächsten Monat ziehen wir um.').translate('déménager').get());
 		entries.push(new Builder().id('750856eb-4862-48af-8937-55e955b0bf46').thema(thema).entry('und').example('Peter und Helmut sind meine Söhne.').get());
 		entries.push(new Builder().id('3b0fc549-160e-42d3-a8e7-1922620d3d5e').thema(thema).entry('unser-').example('Das ist unsere Lehrerin.').get());
@@ -1091,7 +1090,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('166500e3-59ca-4499-bd3c-89a483111d66').thema(thema).entry('die Zigarette, -n').example('Wie teuer sind die Zigaretten?').get());
 		entries.push(new Builder().id('ef1a6359-acd7-411f-af89-a9a999280f8b').thema(thema).entry('das Zimmer, –').example(['Das Zimmer ist groß.', 'Öffne im Schlafzimmer das Fenster, bitte!', 'Die Wohnung hat drei Zimmer.', 'Ich habe ein Zimmer bestellt.']).translate(['pièce', 'chambre']).get());
 		entries.push(new Builder().id('63260dcb-56e7-4529-9007-71546c6131cf').thema(thema).entry('der Zoll').example('Wir müssen noch durch den Zoll.').translate('douane').get());
-		entries.push(new Builder().id('d38dd997-8499-4570-83dd-f981515e0f94').thema(thema).entry('zu').example(['Der Bus fährt zum Bahnhof.', 'Ich gehe zu Fuß.', 'Ich bin zu Hause.']).translate('chez (prép, exprimant un changement de lieu').get());
+		entries.push(new Builder().id('d38dd997-8499-4570-83dd-f981515e0f94').thema(thema).entry('zu').example(['Der Bus fährt zum Bahnhof.', 'Ich gehe zu Fuß.', 'Ich bin zu Hause.']).translate(['chez (destination)', 'à (lieu, destination, manière/moyen)']).get());
 		entries.push(new Builder().id('8a8085a4-cf23-4a57-be24-e14ac3c92dca').thema(thema).entry('zufrieden').example('Ich bin mit der Wohnung zufrieden.').translate(['content, contente', 'satisfait, satisfaite']).get());
 		entries.push(new Builder().id('044a9d2f-c31d-41b3-a3ad-852696a5d97e').thema(thema).entry('der Zug, -ü, e').example('Ich fahre gern mit dem Zug.').translate('train').get());
 		entries.push(new Builder().id('23cfb24d-0710-46c0-93b6-f780d60ed94e').thema(thema).entry('zurück').example(['Einmal Frankfurt und zurück.', 'Wann kommst du zurück?']).translate(['de retour', 'en arrière', 'en retour']).get());
