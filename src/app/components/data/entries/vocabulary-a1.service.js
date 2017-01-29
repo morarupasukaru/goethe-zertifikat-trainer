@@ -940,7 +940,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('d1e45c65-8242-4a86-b994-53ad27fe116a').thema(thema).entry('das Sofa').example('Das Sofa ist neu.').translate(['canapé', 'sofa']).get());
 		entries.push(new Builder().id('bf3df91b-4509-4364-a0f6-f7a5d5b2efd6').thema(thema).entry('sofort').example('Bitte antworten Sie sofort.').translate(['aussitôt', 'tout de suite']).get());
 		entries.push(new Builder().id('0bb50ab6-66b2-48ca-9ac7-81d6b6ad7a8f').thema(thema).entry('der Sohn, -ö, e').example('Das ist Hans, mein Sohn.').get());
-		entries.push(new Builder().id('8f904fb3-1f92-4177-bfaa-ade8170c8f51').thema(thema).entry('sollen').example(['Soll ich kommen?', 'Was soll ich mitbringen?']).translate(['devoir', 'falloir']).get());
+		entries.push(new Builder().id('8f904fb3-1f92-4177-bfaa-ade8170c8f51').thema(thema).entry('sollen').example(['Soll ich kommen?', 'Was soll ich mitbringen?']).translate(['devoir (moral envers qn., qc.)', 'falloir']).get());
 		entries.push(new Builder().id('750a5e32-58e0-4e24-adb2-a040174ab2aa').thema(thema).entry('die Sonne').example('Die Sonne scheint.').get());
 		entries.push(new Builder().id('8cd12ade-51e8-4c79-ab5c-628b54cdbe85').thema(thema).entry('spät').example('Es ist schon spät, ich muss gehen.').translate('tard').get());
 		entries.push(new Builder().id('9b310c9e-6ae5-4ca5-b224-db89e5657f53').thema(thema).entry('später').example('Das können wir später machen.').translate('plus tard').get());
