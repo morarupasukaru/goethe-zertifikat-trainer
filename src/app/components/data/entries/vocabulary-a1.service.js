@@ -393,7 +393,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('f733c081-d339-4978-a9c9-818f79830389').thema(thema).entry('besser').example('Es geht mir schon besser.').get());
 		entries.push(new Builder().id('1345efdc-7967-47b4-b1c4-9bf96b0299c7').thema(thema).entry('best-').example('Am besten treffen wir uns morgen.').get());
 		entries.push(new Builder().id('0b83fafa-7b19-44dd-929f-c2c4364436ed').thema(thema).entry('bestellen').example(['Wir möchten bestellen, bitte.', 'Dieses Buch haben wir nicht – sollen wir es für Sie bestellen?']).get());
-		entries.push(new Builder().id('c898f6a7-e8ec-431a-b8bd-789925e435f8').thema(thema).entry('besuchen').example('Darf ich dich besuchen?').translate('(aller) voir qn., rendre visite').get());
+		entries.push(new Builder().id('c898f6a7-e8ec-431a-b8bd-789925e435f8').thema(thema).entry('besuchen').example('Darf ich dich besuchen?').translate(['(aller) voir qn.', 'rendre visite']).get());
 		entries.push(new Builder().id('5ae8e428-5fbf-436b-a01c-c35c908e2b08').thema(thema).entry('das Bett, -en').example('Wir brauchen noch ein Kinderbett.').get());
 		entries.push(new Builder().id('b8011704-81f3-4322-93bf-bb69935c2207').thema(thema).entry('bezahlen').example('Wo muss ich bezahlen?').translate('payer (pour qc.)').get());
 		entries.push(new Builder().id('7f03b544-984f-4e21-a8da-790c3b6e69be').thema(thema).entry('das Bier').example('Noch ein Bier bitte.').get());
@@ -411,7 +411,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('b611a022-39b0-47fe-b320-adc293f76a44').thema(thema).entry('der Blick').example('Von diesem Hotel hat man einen guten Blick auf den Rhein.').translate(['perspective', 'vue', 'regard']).get());
 		entries.push(new Builder().id('ed54d09f-cc92-45bb-a7e9-37a965ad8ade').thema(thema).entry('die Blume, -n').example('Gefallen dir die Blumen?').translate(['fleur', 'bouquet']).get());
 		entries.push(new Builder().id('d13f588f-9222-4d26-ad02-ec7623da0be5').thema(thema).entry('der Bogen').example('Schreiben Sie Ihre Lösungen bitte auf den Antwortbogen.').translate('feuille').get());
-		entries.push(new Builder().id('471aafe6-f3dd-4512-acf0-979928f122f5').thema(thema).entry('böse').example('Sie ist böse auf mich.').translate(['méchant, méchante', 'énervé, énervée', 'fâché, fâchée', 'vilain, vilaine', 'malfaisant, malfaisante']).get());
+		entries.push(new Builder().id('471aafe6-f3dd-4512-acf0-979928f122f5').thema(thema).entry('böse').example('Sie ist böse auf mich.').translate(['énervé, énervée', 'fâché, fâchée', 'méchant, méchante', 'vilain, vilaine', 'malfaisant, malfaisante']).get());
 		entries.push(new Builder().id('714d0920-aa27-4ee8-87eb-d03b85f4989f').thema(thema).entry('brauchen').example('Brauchst du die Zeitung noch?').get());
 		entries.push(new Builder().id('13c1e545-7904-4c86-b320-8b70a68f707a').thema(thema).entry('breit').example('Wie breit ist der Schrank?').translate(['large', 'fort, forte (corpulent, taille, hanches)']).get());
 		entries.push(new Builder().id('0faf5ebb-858c-48a4-b639-1112e9c5270e').thema(thema).entry('der Brief, -e').example('Haben Sie einen Brief für mich?').get());
@@ -452,7 +452,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('ac35580e-c18c-4787-b39a-11a1976ec6b6').thema(thema).entry('das Datum').example('Bitte schreiben Sie noch das Datum auf das Formular.').get());
 		entries.push(new Builder().id('0a977ba5-1f5a-4811-9478-6caa5bede84d').thema(thema).entry('dauern').example('Wie lange dauert der Film?').get());
 		entries.push(new Builder().id('c68bff33-cea8-44c3-9356-61793fc69a55').thema(thema).entry('dein-').example(['Ist das dein Auto?', 'Ist das deins?']).get());
-		entries.push(new Builder().id('cd63f15d-f24f-46ff-804f-97804bd09a66').thema(thema).entry('denn').example('Ich kann nicht kommen, denn ich bin krank.').translate(["c'est que", 'en effet']).get());
+		entries.push(new Builder().id('cd63f15d-f24f-46ff-804f-97804bd09a66').thema(thema).entry('denn').example('Ich kann nicht kommen, denn ich bin krank.').translate('car').get());
 		entries.push(new Builder().id('99a24c6c-40f0-4594-954f-7ccf6cce7e19').thema(thema).entry('der, die, das').example(['Ich nehme das da.', 'Hier ist der Brief, den du suchst.', 'Die Fahrkarte bekommst du am Bahnhof.']).get());
 		entries.push(new Builder().id('10872b30-13de-4437-ba62-8c9bc0e58295').thema(thema).entry('dich').example('Die Blumen sind für dich.').get());
 		entries.push(new Builder().id('fcb783f2-d5bb-4743-9340-96329965bc6c').thema(thema).entry('dies-').example('Ich nehme lieber diesen Kuchen.').get());
@@ -496,7 +496,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('700fbe1d-538f-4fee-9b56-fda460dab28b').thema(thema).entry('die E-Mail, -s').example('Ich habe Ihre E-Mail nicht bekommen.').get());
 		entries.push(new Builder().id('6ec10241-fb15-41a1-9594-29232abf5c34').thema(thema).entry('der Empfänger, –').example('Auf dem Brief steht dein Name, also bist du der Empfänger.').translate(['bénéficiaire', 'destinataire']).get());
 		entries.push(new Builder().id('7486947f-344d-428d-97e9-e484939eae72').thema(thema).entry('empfehlen').example('Welchen Wein können Sie mir empfehlen?').translate(['préconiser qc.', 'conseiller qc. à qn.']).get());
-		entries.push(new Builder().id('e8dfae62-6d39-45fa-ba4b-bc0a71ffbb47').thema(thema).entry('enden').example('Die Straße endet hier.').get());
+		entries.push(new Builder().id('e8dfae62-6d39-45fa-ba4b-bc0a71ffbb47').thema(thema).entry('enden').example('Die Straße endet hier.').translate(['se terminer', 'finir']).get());
 		entries.push(new Builder().id('cd2c57ba-351d-4aaf-b475-307f112a9a11').thema(thema).entry('das Ende').example(['Sie wohnt am Ende der Straße.', 'Er bekommt sein Geld am Ende des Monats.']).get());
 		entries.push(new Builder().id('46c3864e-d88f-4a1f-8f03-225f63643877').thema(thema).entry('entschuldigen').example('Entschuldigen Sie bitte!').translate("s'excuser").get());
 		entries.push(new Builder().id('3e59344d-0432-4e1c-adbe-146958431d2d').thema(thema).entry('die Entschuldigung').example('Entschuldigung! – Bitte.').translate('excuse').get());
