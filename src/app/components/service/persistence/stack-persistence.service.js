@@ -24,9 +24,7 @@ class StackPersistenceService {
         let oldStackId = this.getStackKey(type, entryId);
         if (key !== oldStackId) {
             if (!!oldStackId) {
-                let oldEntries = this.persistenceService.get(oldStackId);
-                oldEntries.splice(oldEntries.indexOf(value), 1);
-                this.persistenceService.save(oldStackId, oldEntries);
+                this.removeEntryIdFromStack(oldStackId, value);
             }
             let newEntries = this.persistenceService.get(key);
             if (!newEntries) {
@@ -35,6 +33,15 @@ class StackPersistenceService {
             newEntries.push(value);
             this.persistenceService.save(key, newEntries);
         }
+    }
+
+    removeEntryIdFromStack(stackId, entryKey) {
+        if (stackId.indexOf('stack-') !== 0) {
+            stackId = 'stack-' + stackId;
+        }
+        let entries = this.persistenceService.get(stackId);
+        entries.splice(entries.indexOf(entryKey), 1);
+        this.persistenceService.save(stackId, entries);
     }
 
     getStackFromFlashcard(type, entryId) {

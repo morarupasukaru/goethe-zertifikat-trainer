@@ -34,6 +34,10 @@ class EntriesService {
     }
 
     getEntry(id) {
+        let indexOfSlash = id.indexOf('/');
+        if (indexOfSlash !== -1) {
+            id = id.substr(indexOfSlash + 1);
+        }
         for (let i = 0; i < this.entries.length; i++) {
             if (this.entries[i].id === id) {
                 return this.entries[i];
