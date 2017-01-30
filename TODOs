@@ -6,6 +6,9 @@
     verbe modal
     conjonction
 
+
+# flags pour categorie de mot (adverb = true, preposition = true, etc.)
+
 # homepage
     - add stacks by click on list
 

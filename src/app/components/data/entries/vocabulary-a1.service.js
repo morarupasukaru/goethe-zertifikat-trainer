@@ -466,9 +466,9 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('bb8296b0-9489-4636-a4ed-3abe70ece163').thema(thema).entry('drucken').example('Bitte drucke das Formular für mich.').translate('imprimer qc.').get());
 		entries.push(new Builder().id('0ca79264-2aa8-4ce6-8239-902f9046e711').thema(thema).entry('der Drucker, –').example('Mein Drucker ist kaputt.').get());
 		entries.push(new Builder().id('9648bcb4-1a6b-40e4-88f6-b2caf756bff0').thema(thema).entry('drücken').example('Drück hier, dann geht der Computer an.').translate('presser qc.').get());
-		entries.push(new Builder().id('e3fb53d1-3622-4e7f-94f0-89bfdea596e4').thema(thema).entry('durch').example('Am besten gehen Sie durch die Breite Straße.').translate('par (prép)').get());
+		entries.push(new Builder().id('e3fb53d1-3622-4e7f-94f0-89bfdea596e4').thema(thema).entry('durch').example('Am besten gehen Sie durch die Breite Straße.').translate('à travers').get());
 		entries.push(new Builder().id('b3c9d3d7-76cf-4428-8971-950460f7e3a5').thema(thema).entry('die Durchsage, -n').example('Ich habe die Durchsage nicht verstanden.').translate(['énoncé', 'message']).get());
-		entries.push(new Builder().id('8b4fe139-bada-49a3-9b78-491f526ea3a5').thema(thema).entry('dürfen').example(['Sie dürfen hier nicht rauchen.', 'Darf ich Sie zu einem Kaffee einladen?', 'Es darf nicht mehr als 15 Euro kosten.']).translate(['pouvoir', 'avoir le droit de', 'falloir (verbe impersonnel)']).get());
+		entries.push(new Builder().id('8b4fe139-bada-49a3-9b78-491f526ea3a5').thema(thema).entry('dürfen').example(['Sie dürfen hier nicht rauchen.', 'Darf ich Sie zu einem Kaffee einladen?', 'Es darf nicht mehr als 15 Euro kosten.']).translate(['exprime une permission (pouvoir, devoir, avoir le droit)', 'exprime une interdiction à la négation']).get());
 		entries.push(new Builder().id('7d070219-ce98-4bc7-a45b-0614a6b42e82').thema(thema).entry('der Durst').example('Hast du etwas zu trinken? Ich habe großen Durst.').get());
 		entries.push(new Builder().id('3221deaf-1074-45e9-b4c9-47b9825add0c').thema(thema).entry('(sich) duschen').example('Ich bade nicht so gern, ich dusche lieber.').get());
 		entries.push(new Builder().id('5caa35fa-bd84-4377-bb02-b74b226d6d75').thema(thema).entry('die Dusche').example('Unsere Wohnung hat nur eine Dusche.').get());
@@ -995,7 +995,7 @@ class VocabularyA1Service {
     createUEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'U'];
-		entries.push(new Builder().id('39db38b2-a6d5-4596-ac42-8b223ed818be').thema(thema).entry('über').example(['Gehen Sie hier über die Straße.', 'Er wohnt im zweiten Stock über Familie Meier.', 'Sind Sie über 18?']).translate(['à travers', 'au-dessus de qc.']).get());
+		entries.push(new Builder().id('39db38b2-a6d5-4596-ac42-8b223ed818be').thema(thema).entry('über').example(['Gehen Sie hier über die Straße.', 'Er wohnt im zweiten Stock über Familie Meier.', 'Sind Sie über 18?']).translate(['à travers', 'au-dessus de qc.', 'plus de (temps)']).get());
 		entries.push(new Builder().id('ef2c525f-225a-4b9a-9ea6-ee3b2c7b0210').thema(thema).entry('übernachten').example('Du kannst bei mir übernachten.').translate('coucher').get());
 		entries.push(new Builder().id('c1f7de82-4c98-4d5a-a0ce-2aeb40381a4a').thema(thema).entry('überweisen').example('Sie können das Geld auch überweisen.').translate("virer qc. (faire un virement d'argent)").get());
 		entries.push(new Builder().id('944bc68e-1082-46ca-90d5-c34c4ff2f403').thema(thema).entry('die Uhr').example('Es ist vier Uhr.').translate(['heure', 'montre']).get());
