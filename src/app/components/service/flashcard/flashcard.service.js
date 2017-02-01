@@ -47,6 +47,19 @@ class FlashcardService {
         vocabularyEntryExampleFlashcardType.isSupported = function(entry) {
             return "vocabulary" === entry.type;
         }
+
+        let speechActsEntryFlashcardType = {
+            id: 'speechActs-entry',
+            name: 'Verstehen Sie den Eintrag?',
+            fields: {
+                question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
+                answer: [ { id:'translate', name:'Übersetzung' } ]
+            }
+        }
+        vocabularyEntryExampleFlashcardType.isSupported = function(entry) {
+            return "speechAct" === entry.type;
+        }
+
         return [ vocabularyEntryExampleFlashcardType ];
     }
 }
