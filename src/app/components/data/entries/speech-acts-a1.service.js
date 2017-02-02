@@ -17,7 +17,7 @@ class SpeechActsA1Service {
 
     createThemaAsWordEntries(Builder) {
         let entries = [];
-        let thema = ['Sprachhandlungen'];
+        let thema = 'Sprachhandlungen';
         entries.push(new Builder().id('c2941274-8685-45b6-89db-9607fb844973').thema(thema).entry('Sprachhandlungen').get());
         entries.push(new Builder().id('bfe86459-9246-4663-b432-7a8562e9d0c5').thema(thema).entry('Informationsaustausch').get());
         entries.push(new Builder().id('15430452-fa42-41c7-8add-bce027209637').thema(thema).entry('benennen').get());
