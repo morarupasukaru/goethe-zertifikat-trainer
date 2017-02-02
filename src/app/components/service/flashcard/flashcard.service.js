@@ -56,11 +56,11 @@ class FlashcardService {
                 answer: [ { id:'translate', name:'Übersetzung' } ]
             }
         }
-        vocabularyEntryExampleFlashcardType.isSupported = function(entry) {
+        speechActsEntryFlashcardType.isSupported = function(entry) {
             return "speechAct" === entry.type;
         }
 
-        return [ vocabularyEntryExampleFlashcardType ];
+        return [ vocabularyEntryExampleFlashcardType, speechActsEntryFlashcardType ];
     }
 }
 

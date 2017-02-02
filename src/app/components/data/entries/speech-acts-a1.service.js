@@ -1,24 +1,101 @@
 class SpeechActsA1Service {
 
     /*@ngInject*/
-    constructor(SpeechActBuilder) {
+    constructor(SpeechActBuilder, VocabularyBuilder) {
+        this.entries = [];
         this.createEntries(SpeechActBuilder);
+        this.createThemaAsWordEntries(VocabularyBuilder);
     }
 
     createEntries(Builder) {
-        this.entries = [];
         this.addEntries(this.createInformationsaustauschEntries(Builder));
         this.addEntries(this.createBewertungKommentarEntries(Builder));
         this.addEntries(this.createGefuehlsausdruckEntries(Builder));
-
         this.addEntries(this.createHandlungsregulierungEntries(Builder));
         this.addEntries(this.createSozialeKonventionenEntries(Builder));
     }
 
-    addEntries(newEntries) {
-        for (let i = 0; i < newEntries.length; i++) {
-            this.entries.push(newEntries[i]);
-        }
+    createThemaAsWordEntries(Builder) {
+        let entries = [];
+        let thema = ['Sprachhandlungen'];
+        entries.push(new Builder().id('c2941274-8685-45b6-89db-9607fb844973').thema(thema).entry('Sprachhandlungen').get());
+        entries.push(new Builder().id('bfe86459-9246-4663-b432-7a8562e9d0c5').thema(thema).entry('Informationsaustausch').get());
+        entries.push(new Builder().id('15430452-fa42-41c7-8add-bce027209637').thema(thema).entry('benennen').get());
+        entries.push(new Builder().id('6602d946-7525-48ae-b11a-5e6ab8fdddb8').thema(thema).entry('definieren').get());
+        entries.push(new Builder().id('9b6220e9-f912-497f-a9e9-c2ddb016c0dc').thema(thema).entry('identifizieren').get());
+        entries.push(new Builder().id('1642258c-0779-409e-952b-7a953cc3a920').thema(thema).entry('beschreiben').get());
+        entries.push(new Builder().id('317d48aa-1ef1-4b86-94d9-8e444c816f24').thema(thema).entry('erklären').get());
+        entries.push(new Builder().id('4cfc2e8a-7dce-486a-9594-bcb6ef4dc030').thema(thema).entry('berichten').get());
+        entries.push(new Builder().id('63f8f7c9-6299-4013-ad3f-62eb4fef005c').thema(thema).entry('Mitteilung').get());
+        entries.push(new Builder().id('471c25f2-69e5-445c-8b18-d2733ed1f69f').thema(thema).entry('Ankündigung').get());
+        entries.push(new Builder().id('3ab4631b-34d5-4351-b017-1cfbf27dbd50').thema(thema).entry('Zweck angeben').get());
+        entries.push(new Builder().id('b3173eba-3f60-4653-ba42-4f52d19ea080').thema(thema).entry('Bestimmung angeben').get());
+        entries.push(new Builder().id('db117add-e12f-468c-87f4-2a96590c1d9c').thema(thema).entry('Wissen').get());
+        entries.push(new Builder().id('9de7c64a-ce80-4736-ba7d-7e0287513ff9').thema(thema).entry('Unwissen').get());
+        entries.push(new Builder().id('086d70aa-4765-4a82-af90-86a9a527a1b2').thema(thema).entry('Bewertung').get());
+        entries.push(new Builder().id('1d9922c2-1cb6-451f-aac4-5a5b0f332215').thema(thema).entry('Kommentar').get());
+        entries.push(new Builder().id('a1312880-6fc7-40d0-8034-b596889b90fd').thema(thema).entry('Zufriedenheit').get());
+        entries.push(new Builder().id('963ecd7d-ea13-4cbf-8c6e-5adf4f838770').thema(thema).entry('Unzufriedenheit').get());
+        entries.push(new Builder().id('95bf5e32-7b4e-450e-8bbf-7dd670f1d775').thema(thema).entry('Gefallen').get());
+        entries.push(new Builder().id('1a475117-fc9a-46ab-b509-bc548e2618d6').thema(thema).entry('Missfallen').get());
+        entries.push(new Builder().id('78b8ed3a-e370-442b-b2cf-9b22482f1d1d').thema(thema).entry('Interesse').get());
+        entries.push(new Builder().id('76fdcac7-54ac-4d91-8169-a6220bde8df5').thema(thema).entry('Desinteresse').get());
+        entries.push(new Builder().id('19fc33f8-8f10-4e38-930b-530909ef946e').thema(thema).entry('Billigung').get());
+        entries.push(new Builder().id('fbde8281-96b9-466b-98e6-1aaa741df5a9').thema(thema).entry('Missbilligung').get());
+        entries.push(new Builder().id('e46bc1e3-0890-492f-abeb-0baaaf7fe839').thema(thema).entry('Zustimmung').get());
+        entries.push(new Builder().id('9a4f1158-6950-43fa-81b4-4d3329dcd05b').thema(thema).entry('Ablehnung').get());
+        entries.push(new Builder().id('1d9b001e-974f-4b36-a33f-5feda37f925a').thema(thema).entry('Wunsch').get());
+        entries.push(new Builder().id('692009a1-e0ce-40d7-bdde-9fa9c3ab6dcc').thema(thema).entry('Vorlieben').get());
+        entries.push(new Builder().id('38ab04e5-38c0-4789-93e7-f0dacc75899c').thema(thema).entry('Wichtigkeit').get());
+        entries.push(new Builder().id('be21220c-436b-4a97-97c3-291c04134146').thema(thema).entry('verneinen').get());
+        entries.push(new Builder().id('7c862f5d-e9e0-440c-8f78-9e9ab097b291').thema(thema).entry('Widerspruch').get());
+        entries.push(new Builder().id('830a39d4-e062-4bc4-abc8-c2347b66c0b2').thema(thema).entry('Beschwerde').get());
+        entries.push(new Builder().id('2d9ff58f-cc83-4e6e-ba65-e93f73282166').thema(thema).entry('Rechtfertigung').get());
+        entries.push(new Builder().id('5f8fef39-026a-470e-98bb-a4e96ec59ef0').thema(thema).entry('Begründung').get());
+        entries.push(new Builder().id('cc9029a5-db09-432b-878e-19b5afa06bb1').thema(thema).entry('Freude').get());
+        entries.push(new Builder().id('87be95f2-9d44-4844-99be-c2c440077e9c').thema(thema).entry('Bedauern').get());
+        entries.push(new Builder().id('91b91a38-71dc-419d-89b0-1abbce29a592').thema(thema).entry('Gefühlsausdruck').get());
+        entries.push(new Builder().id('194b662a-b568-4cd9-90f3-fb384fb7be82').thema(thema).entry('Neigung').get());
+        entries.push(new Builder().id('6bb2634a-3b44-4338-ba49-5b3946f9ca46').thema(thema).entry('Abneigung').get());
+        entries.push(new Builder().id('02fbd261-2721-449f-aa1f-f60a3fe6091d').thema(thema).entry('Gelassenheit').get());
+        entries.push(new Builder().id('c28adfb2-4655-4788-8a72-63010ded1a47').thema(thema).entry('Gleichgültigkeit').get());
+        entries.push(new Builder().id('0c7924c9-1ebc-4d94-94c9-380ee83fb819').thema(thema).entry('Mitleid').get());
+        entries.push(new Builder().id('4d666b24-185d-4c78-ac0f-0dc9aac9a28a').thema(thema).entry('Erstaunen').get());
+        entries.push(new Builder().id('64965ceb-6c6f-40bb-810d-0e5362110076').thema(thema).entry('Überraschung').get());
+        entries.push(new Builder().id('8f6ee307-cb9d-4623-95ff-b9e3bdb141df').thema(thema).entry('Hoffnung').get());
+        entries.push(new Builder().id('ca7bebbb-170f-4b13-a7b3-d399a107b8e0').thema(thema).entry('Sorge').get());
+        entries.push(new Builder().id('1aa6bb06-faad-47f7-9aa3-973a28c6fb36').thema(thema).entry('Befürchtung').get());
+        entries.push(new Builder().id('c31c50ee-5481-49f0-b8d0-f1577c88d54c').thema(thema).entry('Enttäuschung').get());
+        entries.push(new Builder().id('eab0a9f4-10b2-4570-b645-d9f399674299').thema(thema).entry('Handlungsregulierung').get());
+        entries.push(new Builder().id('9b93430f-a8c3-4977-b9f8-803db85df02b').thema(thema).entry('Bitte').get());
+        entries.push(new Builder().id('9270d45b-9242-4a89-be4c-33cf5feff7fe').thema(thema).entry('Bestätigung').get());
+        entries.push(new Builder().id('cd33dbb5-5985-429f-acf6-f25dafa6f654').thema(thema).entry('Hilfe anbieten').get());
+        entries.push(new Builder().id('4e22e0bb-3ff7-4b9f-9d1b-f55b586f474c').thema(thema).entry('Hilfe annehmen').get());
+        entries.push(new Builder().id('0d672742-5031-46bb-977b-9b17fef051ab').thema(thema).entry('Hilfe ablehnen').get());
+        entries.push(new Builder().id('f259c5ef-b29b-4a73-ab41-5fd22a4d1793').thema(thema).entry('Bestellung').get());
+        entries.push(new Builder().id('333562f0-0c3d-4b55-9503-2b0a33d484ac').thema(thema).entry('Wunsch').get());
+        entries.push(new Builder().id('39079227-173a-476f-a508-13ef0e0d48a4').thema(thema).entry('Rat').get());
+        entries.push(new Builder().id('785dedfc-2daa-4b79-8fd9-b12751cb72bf').thema(thema).entry('Empfehlung').get());
+        entries.push(new Builder().id('f64584b6-4ddc-4d94-8c69-aad2edabc555').thema(thema).entry('Warnung').get());
+        entries.push(new Builder().id('9f0ba5d8-fed8-4ebd-bacb-ac2b2d09ff97').thema(thema).entry('Erlaubnis').get());
+        entries.push(new Builder().id('da9d7fa6-696d-4f70-9aee-44a02c1ef15b').thema(thema).entry('Genehmigung').get());
+        entries.push(new Builder().id('6f0ec975-900a-4f2f-a43f-acdb3dcda780').thema(thema).entry('Vorschlag').get());
+        entries.push(new Builder().id('aa072ce0-21df-48a3-8ffa-1bc7ae831913').thema(thema).entry('Versprechung').get());
+        entries.push(new Builder().id('509e6e8a-d755-4254-bef4-340dd7aa3e84').thema(thema).entry('Verabredung').get());
+        entries.push(new Builder().id('d2f1c952-b366-46db-8db6-fefd56edfab3').thema(thema).entry('Einladung').get());
+        entries.push(new Builder().id('b0be4b5d-55b9-4de8-aaed-1bee9b85011c').thema(thema).entry('Soziale Konventionen').get());
+        entries.push(new Builder().id('6103de06-19e1-48f7-9428-e86a6ab39dcb').thema(thema).entry('Kontaktaufnahme: jemanden ansprechen').get());
+        entries.push(new Builder().id('40def51a-eb2b-414e-8f54-2652e538086a').thema(thema).entry('grüßen').get());
+        entries.push(new Builder().id('07880339-3900-4b37-a72c-d1629073faf1').thema(thema).entry('sich/jemanden vorstellen').get());
+        entries.push(new Builder().id('7496da78-9006-4f81-818c-a17f3154eaa9').thema(thema).entry('über das Befinden sprechen').get());
+        entries.push(new Builder().id('48aa636d-f709-439c-a171-088e4c345c21').thema(thema).entry('gute Wünsche').get());
+        entries.push(new Builder().id('09de2344-69f1-4c51-90d8-127f7da7c094').thema(thema).entry('Gratulation').get());
+        entries.push(new Builder().id('9ddd9e58-2a23-4b34-91d9-c1c99c558bed').thema(thema).entry('eine Anerkennung aussprechen').get());
+        entries.push(new Builder().id('7ac5322b-044d-4385-95c7-4668341a477e').thema(thema).entry('ein Kompliment machen').get());
+        entries.push(new Builder().id('1f82a551-efbc-4017-8f13-0eed10296a66').thema(thema).entry('Dank').get());
+        entries.push(new Builder().id('4a1b534f-181f-476f-9151-974e82c7386a').thema(thema).entry('Entschuldigung').get());
+        entries.push(new Builder().id('fe9ba8b6-4f95-4304-929d-6738ad2daf9d').thema(thema).entry('Verabschiedung').get());
+        this.addEntries(entries);
     }
 
     createInformationsaustauschEntries(Builder) {
@@ -54,11 +131,11 @@ class SpeechActsA1Service {
 
     createBewertungKommentarEntries(Builder) {
         let entries = [];
-        let thema = ['Sprachhandlungen', ['Bewertung', 'Kommentar'], ['Zufriedenheit', 'Unzufriedenheit']];
+        let thema = ['Sprachhandlungen', 'Bewertung, Kommentar', ['Zufriedenheit', 'Unzufriedenheit']];
         entries.push(new Builder().id('').thema(thema).entry(['Wie waren eure Ferien?', '- (Sehr) Schön.', '- Prima.', '- (Ganz) Gut.', '- (Nicht) Schlecht.']).get());
         entries.push(new Builder().id('').thema(thema).entry('Der Film war sehr gut.').get());
 
-        thema = ['Sprachhandlungen', ['Bewertung', 'Kommentar'], ['Gefallen', 'Missfallen']];
+        thema = ['Sprachhandlungen', 'Bewertung, Kommentar', ['Gefallen', 'Missfallen']];
         entries.push(new Builder().id('').thema(thema).entry(['Was denkst du? Gefällt es dir hier?', '- Ja (sehr).', '- (Es ist) Super!', '- (Es ist) Toll!', '- (Es ist) Klasse!', '- Nein, leider nicht.']).get());
         entries.push(new Builder().id('').thema(thema).entry(['Gefällt es Ihnen?', '- Ich finde es toll', '- Ich finde es (sehr) schön', '- Ich finde es gut',
             '- Ich finde es prima.', '- Ich bin zufrieden.', '- Das finde ich nicht gut', '- Das finde ich hässlich', '- Das finde ich langweilig.']).get());
@@ -66,20 +143,20 @@ class SpeechActsA1Service {
         entries.push(new Builder().id('').thema(thema).entry(['Das Restaurant sieht gut', 'Das Restaurant sieht nett', 'Das Restaurant sieht schrecklich aus.']).get());
         entries.push(new Builder().id('').thema(thema).entry(['Ich liebe diese Stadt.', 'Ich mag diese Stadt nicht.']).get());
 
-        thema = ['Sprachhandlungen', ['Bewertung', 'Kommentar'], ['Interesse', 'Desinteresse']];
+        thema = ['Sprachhandlungen', 'Bewertung, Kommentar', ['Interesse', 'Desinteresse']];
         entries.push(new Builder().id('').thema(thema).entry(['Gefallen dir die Geschenke?', '- Ja klar.', '- Na ja, es geht.', '- Nicht so.']).get());
         entries.push(new Builder().id('').thema(thema).entry('Was sind deine Hobbys?').get());
 
-        thema = ['Sprachhandlungen', ['Bewertung', 'Kommentar'], ['Billigung', 'Missbilligung']];
+        thema = ['Sprachhandlungen', 'Bewertung, Kommentar', ['Billigung', 'Missbilligung']];
         entries.push(new Builder().id('').thema(thema).entry(['Wie findest du das?', '- Gut.', '- (Un-) Interessant.', '- Es geht.', '- Langweilig.', '- (Nicht) Schlecht.']).get());
         entries.push(new Builder().id('').thema(thema).entry(['Wie finden Sie das Lehrbuch?', '- Es ist (sehr) interessant', '- Es ist zu langweilig.']).get());
         entries.push(new Builder().id('').thema(thema).entry('So geht das nicht.').get());
 
-        thema = ['Sprachhandlungen', ['Bewertung', 'Kommentar'], ['Zustimmung', 'Ablehnung']];
+        thema = ['Sprachhandlungen', 'Bewertung, Kommentar', ['Zustimmung', 'Ablehnung']];
         entries.push(new Builder().id('').thema(thema).entry('Das stimmt (nicht).').get());
         entries.push(new Builder().id('').thema(thema).entry(['Das ist richtig', 'Das ist falsch.']).get());
 
-        thema = ['Sprachhandlungen', ['Bewertung', 'Kommentar'], ['Wunsch']];
+        thema = ['Sprachhandlungen', 'Bewertung, Kommentar', 'Wunsch'];
         entries.push(new Builder().id('').thema(thema).entry('Was wollen wir heute Abend machen?').get());
         entries.push(new Builder().id('').thema(thema).entry('Willst du auf das Fest gehen?').get());
         entries.push(new Builder().id('').thema(thema).entry('Möchten Sie noch etwas Milch?').get());
@@ -88,26 +165,26 @@ class SpeechActsA1Service {
         entries.push(new Builder().id('').thema(thema).entry('Ich möchte den Film sehen.').get());
         entries.push(new Builder().id('').thema(thema).entry('Ich brauche jetzt eine Pause.').get());
 
-        thema = ['Sprachhandlungen', ['Bewertung', 'Kommentar'], ['Vorlieben']];
+        thema = ['Sprachhandlungen', 'Bewertung, Kommentar', 'Vorlieben'];
         entries.push(new Builder().id('').thema(thema).entry(['Tee oder Kaffee?', '- Kaffee, bitte.']).get());
         entries.push(new Builder().id('').thema(thema).entry(['Magst du Tee oder Kaffee?', '- Ich trinke lieber Tee.', '- Nichts, danke.']).get());
 
-        thema = ['Sprachhandlungen', ['Bewertung', 'Kommentar'], ['Wichtigkeit']];
+        thema = ['Sprachhandlungen', 'Bewertung, Kommentar', ['Wichtigkeit']];
         entries.push(new Builder().id('').thema(thema).entry(['Ist das (wirklich) wichtig?', '- Das ist (schon/sehr) wichtig.', '- Nicht so wichtig.']).get());
 
-        thema = ['Sprachhandlungen', ['Bewertung', 'Kommentar'], ['verneinen', 'Widerspruch']];
+        thema = ['Sprachhandlungen', 'Bewertung, Kommentar', ['verneinen', 'Widerspruch']];
         entries.push(new Builder().id('').thema(thema).entry('Nein!').get());
         entries.push(new Builder().id('').thema(thema).entry('Doch!').get());
         entries.push(new Builder().id('').thema(thema).entry('Das stimmt nicht.').get());
         entries.push(new Builder().id('').thema(thema).entry('Das ist falsch.').get());
         entries.push(new Builder().id('').thema(thema).entry('Unsinn!').get());
 
-        thema = ['Sprachhandlungen', ['Bewertung', 'Kommentar'], ['Beschwerde']];
+        thema = ['Sprachhandlungen', 'Bewertung, Kommentar', 'Beschwerde'];
         entries.push(new Builder().id('').thema(thema).entry('Es ist zu warm hier!').get());
         entries.push(new Builder().id('').thema(thema).entry('Das ist zu teuer!').get());
         entries.push(new Builder().id('').thema(thema).entry('Entschuldigen Sie, die Heizung funktioniert nicht.').get());
 
-        thema = ['Sprachhandlungen', ['Bewertung', 'Kommentar'], ['Rechtfertigung', 'Begründung']];
+        thema = ['Sprachhandlungen', 'Bewertung, Kommentar', ['Rechtfertigung', 'Begründung']];
         entries.push(new Builder().id('').thema(thema).entry(['Warum kommst du nicht?', '- Ich habe keine Zeit.']).get());
         entries.push(new Builder().id('').thema(thema).entry('Seine Mutter ist krank. Deshalb kommt er heute nicht.').get());
         return entries;
@@ -219,13 +296,13 @@ class SpeechActsA1Service {
         entries.push(new Builder().id('da661874-1bdd-4105-a437-445afb6d01c1').thema(thema).entry('Wie bitte?').get());
         entries.push(new Builder().id('928c9831-7b36-4bf3-a940-b3004052c958').thema(thema).entry(['Sind Sie nicht Frau Yilmaz?', '- Ja (das stimmt).', '- Ja, warum?', '- Nein, ich bin ...', '- Nein, ich heiße ...', '- Nein, mein Name ist ...']).get());
 
-        thema = ['Sprachhandlungen', 'Soziale Konventionen', 'Kontaktaufnahme: jemanden ansprechen', 'Telefon'];
+        thema = ['Sprachhandlungen', 'Soziale Konventionen', ['Kontaktaufnahme: jemanden ansprechen', 'Telefon']];
         entries.push(new Builder().id('dfecd253-9e52-4444-96df-e0d9648abf58').thema(thema).entry(['(Hier) Heine.', 'Guten Tag, Frau Heine.']).get());
         entries.push(new Builder().id('9e0b184a-f246-4a03-a402-0afec98f61ef').thema(thema).entry('Hier ist Josefa Karosz.').get());
         entries.push(new Builder().id('e8101477-1613-4b84-a344-41e4fd3cdc65').thema(thema).entry('Hallo, ist Julia da?').get());
         entries.push(new Builder().id('9b8aae23-fc50-4989-a0c6-242109c8ce37').thema(thema).entry(['Guten Tag. Frau Heuer bitte!', '- Ja, Moment bitte.', '- Tut mir leid, sie ist nicht da.', '- Nein, hier ist ...']).get());
 
-        thema = ['Sprachhandlungen', 'Soziale Konventionen', 'Kontaktaufnahme: jemanden ansprechen', 'Brief'];
+        thema = ['Sprachhandlungen', 'Soziale Konventionen', ['Kontaktaufnahme: jemanden ansprechen', 'Brief']];
         entries.push(new Builder().id('388ee7a6-5ae1-4c22-8ae7-3a4f38f9c1af').thema(thema).entry('Liebe Renate/Frau Haushofer,').get());
         entries.push(new Builder().id('3141dede-8a04-480f-9995-e1c17f7b265d').thema(thema).entry('Sehr geehrter Herr Liebermann,').get());
         entries.push(new Builder().id('1e368098-9488-4795-ac93-4288bfe3c4fb').thema(thema).entry('Sehr geehrte Damen und Herren,').get());
@@ -278,13 +355,19 @@ class SpeechActsA1Service {
         entries.push(new Builder().id('1b48c2f7-d1e9-403d-99c6-8731d2bef6f7').thema(thema).entry('Bis später.').get());
         entries.push(new Builder().id('eed44aa0-a4e1-4f7c-aef7-192dd877dcc2').thema(thema).entry('Gute Nacht!').get());
 
-        thema = ['Sprachhandlungen', 'Soziale Konventionen', 'Verabschiedung', 'Telefon'];
+        thema = ['Sprachhandlungen', 'Soziale Konventionen', ['Verabschiedung', 'Telefon']];
         entries.push(new Builder().id('65313ed7-830a-4401-88a7-b3ba0d53c14e').thema(thema).entry('(Auf) Wiederhören!').get());
 
-        thema = ['Sprachhandlungen', 'Soziale Konventionen', 'Verabschiedung', 'Brief'];
+        thema = ['Sprachhandlungen', 'Soziale Konventionen', ['Verabschiedung', 'Brief']];
         entries.push(new Builder().id('28123bbc-a83b-497d-b3cc-7e46e25bb3ef').thema(thema).entry(['Liebe Grüße', 'Herzliche Grüße']).get());
         entries.push(new Builder().id('debc19da-c966-472f-857d-882fcbce3e35').thema(thema).entry('Mit freundlichen Grüßen').get());
         return entries;
+    }
+
+    addEntries(newEntries) {
+        for (let i = 0; i < newEntries.length; i++) {
+            this.entries.push(newEntries[i]);
+        }
     }
 
     getEntries() {
