@@ -14,33 +14,178 @@ class NotionsA1Service {
     createNotionsEntries(Builder) {
         let entries = [];
         let thema = ['Allgemeine Begriffe (Notionen)', 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken', '(nicht) sein'];
+        entries.push(new Builder().id('').thema(thema).entry(['Gibt es hier einen Kindergarten?', '- Nein, es gibt nur eine Grundschule.']).get());
+        entries.push(new Builder().id('').thema(thema).entry('Hier gibt es aber viele Kinos.').get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken', 'anwesend/abwesend sein'];
+        entries.push(new Builder().id('').thema(thema).entry(['Ist Elke da?', '- Ja./Nein, leider nicht.']).get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken', '(nicht) verfügbar sein'];
+        entries.push(new Builder().id('').thema(thema).entry(['Hast du ein Auto?', '- Nein, leider nicht.', '- Nein, ich habe kein Auto.']).get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken', '(nicht) vorkommen'];
+        entries.push(new Builder().id('').thema(thema).entry('Was ist passiert?').get());
+        entries.push(new Builder().id('').thema(thema).entry('Wann ist das passiert?').get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken', 'Inklusion/Exklusion'];
+        entries.push(new Builder().id('').thema(thema).entry('Ich komme mit meiner Freundin.').get());
+        entries.push(new Builder().id('').thema(thema).entry('Er kommt ohne Auto.').get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken', 'Besitz/Zugehörigkeit'];
-        thema = ['Allgemeine Begriffe (Notionen)', 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken', 'ausdrücken'];
+        entries.push(new Builder().id('').thema(thema).entry(['Wem gehört der Mercedes?', '- Das ist mein/dein/sein/ihr Auto.']).get());
+        entries.push(new Builder().id('').thema(thema).entry('Simon arbeitet jetzt bei Siemens.').get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Raum definieren', 'Ort'];
+        entries.push(new Builder().id('').thema(thema).entry(['Wo wohnst du?', '- In Köln.', '- Ich wohne jetzt bei Petra.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Wo ist denn meine Brille?', '- Hier.', '- Dort.', '- Da ist sie ja.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Wo sind die Kinder?', '- Zu Hause.', '- In der Schule.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Wo liegt ...?', '- Kiel liegt an der Ostsee.', '- Die Schlüssel liegen auf dem Tisch.']).get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Raum definieren', 'Herkunft'];
+        entries.push(new Builder().id('').thema(thema).entry(['Woher kommst du?', '- Aus der Ukraine.', '- Aus Prag.', '- Vom Arzt.']).get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Raum definieren', 'Richtung'];
+        entries.push(new Builder().id('').thema(thema).entry(['Wohin gehst du?', 'Wohin fährst du?', '- Nach Hause.', '- Zur Arbeit.', '- In die Schule.', '- Zu Susi.', '- Auf die Bank.', '- Ans Meer.', '- Nach Österreich.']).get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Raum definieren', 'Distanz'];
+        entries.push(new Builder().id('').thema(thema).entry(['Wie weit ist es bis Bonn?', '- Nur zehn Kilometer.']).get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Zeit angeben', 'Zeitpunkt'];
+        entries.push(new Builder().id('').thema(thema).entry(['Wann kommst du?', '- Um 3 (Uhr).', '- Am 20. September.', '- Im Juli.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Wie spät ist es bitte?', '- Es ist jetzt 7 Uhr .']).get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Zeit angeben', 'Zeitangaben'];
+        entries.push(new Builder().id('').thema(thema).entry(['Wann sind Sie geboren?', '- Am 12. Mai 1988.']).get());
+        entries.push(new Builder().id('').thema(thema).entry('Wir fahren im Mai in Urlaub.').get());
+
+        thema = ['Allgemeine Begriffe (Notionen)', 'Zeit angeben', 'Vorzeitigkeit'];
+        entries.push(new Builder().id('').thema(thema).entry('Komm bitte vor 10 Uhr.').get());
+        entries.push(new Builder().id('').thema(thema).entry('Wir sind (zu) früh .').get());
+
+        thema = ['Allgemeine Begriffe (Notionen)', 'Zeit angeben', 'Nachzeitigkeit'];
+        entries.push(new Builder().id('').thema(thema).entry('Bitte nach 23 Uhr nicht mehr anrufen.').get());
+        entries.push(new Builder().id('').thema(thema).entry('Wir sind leider zu spät .').get());
+
+        thema = ['Allgemeine Begriffe (Notionen)', 'Zeit angeben', 'Zukunftsbezug'];
+        entries.push(new Builder().id('').thema(thema).entry('Morgen muss ich arbeiten.').get());
+        entries.push(new Builder().id('').thema(thema).entry('Wir machen das bald/später .').get());
+        entries.push(new Builder().id('').thema(thema).entry('Heute Abend rufe ich dich an.').get());
+        entries.push(new Builder().id('').thema(thema).entry('Am Montag gehen wir ins Kino.').get());
+
+        thema = ['Allgemeine Begriffe (Notionen)', 'Zeit angeben', 'Gegenwartsbezug'];
+        entries.push(new Builder().id('').thema(thema).entry('Wir essen jetzt .').get());
+        entries.push(new Builder().id('').thema(thema).entry('Ich bin schon da.').get());
+        entries.push(new Builder().id('').thema(thema).entry('Er ist heute in Mainz.').get());
+
+        thema = ['Allgemeine Begriffe (Notionen)', 'Zeit angeben', 'Vergangenheitsbezug'];
+        entries.push(new Builder().id('').thema(thema).entry('Gestern/vor zwei Tagen habe ich die Prüfung gemacht.').get());
+
+        thema = ['Allgemeine Begriffe (Notionen)', 'Zeit angeben', 'Verspätung/Frühzeitigkeit'];
+        entries.push(new Builder().id('').thema(thema).entry('Es ist schon spät .').get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Zeit angeben', 'Dauer'];
+        entries.push(new Builder().id('').thema(thema).entry(['Wie lange bleibt ihr in Berlin?', '- Drei Wochen.', '- (Nicht) Lange.', '- Bis Montag.']).get());
+
+        thema = ['Allgemeine Begriffe (Notionen)', 'Zeit angeben', 'Beginn'];
+        entries.push(new Builder().id('').thema(thema).entry(['Wann beginnt der Film?', '- Um 20 Uhr fängt er an .']).get());
+
+        thema = ['Allgemeine Begriffe (Notionen)', 'Zeit angeben', 'Ende'];
+        entries.push(new Builder().id('').thema(thema).entry(['Bis wann arbeitest du?', '- Heute bis 18 Uhr.']).get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Zeit angeben', 'Häufigkeit'];
+        entries.push(new Builder().id('').thema(thema).entry(['Wie oft geht sie ins Kino?', '- Zweimal im Monat.', '- Nie!', '- Oft.']).get());
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Quantität angeben', 'Zahlen/Mengenangaben'];
+/*
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+Was/Wie viel kostet die Zeitung?
+- Vier Euro.
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+Was darf‘s denn sein?
+- Ein Pfund Tomaten, bitte.
+- Ein Glas Milch, bitte.
+- Eine Flasche Wein, bitte.
+- Eine Tasse Tee, bitte.
+- 1,5 Liter, bitte.
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+Wie viel möchten Sie?
+- (Nicht) Alles.
+- Viel.
+- Ein bisschen, bitte.
+*/
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Quantität angeben', 'Menge'];
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+/*
+
+*/
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Quantität angeben', 'Grad'];
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+/*
+
+*/
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Quantität angeben', 'Dimension/Maßangabe'];
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+/*
+
+*/
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Art und Weise angeben', 'physisch'];
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+/*
+
+*/
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Art und Weise angeben', 'Wertung'];
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+/*
+
+*/
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Art und Weise angeben', 'Vergleich'];
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+/*
+
+*/
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Logische Verknüpfung herstellen', 'Grund'];
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+/*
+
+*/
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Logische Verknüpfung herstellen', 'Bedingung'];
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+/*
+
+*/
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Logische Verknüpfung herstellen', 'Aufzählung/Alternative'];
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+/*
+
+*/
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Modales ausdrücken', 'Fähigkeit'];
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+/*
+
+*/
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Modales ausdrücken', 'Möglichkeit'];
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+/*
+
+*/
+
         thema = ['Allgemeine Begriffe (Notionen)', 'Modales ausdrücken', 'Notwendigkeit/Verpflichtung'];
+        entries.push(new Builder().id('').thema(thema).entry('').get());
+/*
+
+*/
+
         return entries;
     }
 
@@ -90,6 +235,18 @@ class NotionsA1Service {
         entries.push(new Builder().id('ef2ceb84-a949-460f-9f3d-5bef4f5ca6f8').thema(thema).entry('Möglichkeit').get());
         entries.push(new Builder().id('c5207c56-0c48-419b-b433-3923b15f24d7').thema(thema).entry('Notwendigkeit').get());
         entries.push(new Builder().id('6b5fa972-29d7-4677-b5e7-939ac75b2b27').thema(thema).entry('Verpflichtung').get());
+
+        // TODO uuid
+        entries.push(new Builder().id('').thema(thema).entry('Vorzeitigkeit').get());
+        entries.push(new Builder().id('').thema(thema).entry('Nachzeitigkeit').get());
+        entries.push(new Builder().id('').thema(thema).entry('Zukunftsbezug').get());
+        entries.push(new Builder().id('').thema(thema).entry('Gegenwartsbezug').get());
+        entries.push(new Builder().id('').thema(thema).entry('Vergangenheitsbezug').get());
+        entries.push(new Builder().id('').thema(thema).entry('Verspätung').get());
+        entries.push(new Builder().id('').thema(thema).entry('Frühzeitigkeit').get());
+        entries.push(new Builder().id('').thema(thema).entry('Beginn').get());
+        entries.push(new Builder().id('').thema(thema).entry('Ende').get());
+        thema = ['Allgemeine Begriffe (Notionen)', 'Zeit angeben', ''];
         this.addEntries(entries);
     }
 
