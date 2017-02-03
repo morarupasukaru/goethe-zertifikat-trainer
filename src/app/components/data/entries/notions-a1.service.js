@@ -153,7 +153,7 @@ class NotionsA1Service {
 
     createNotionsWordEntries(Builder) {
         let entries = [];
-        let thema = 'Allgemeine Begriffe (Notionen)';
+        let thema = ['Allgemeine Begriffe (Notionen)', 'Wortschatz'];
         entries.push(new Builder().id('417bb4a4-8549-4d50-ab03-3a2717bb4c58').thema(thema).entry('Existenz von Personen und Dingen, Besitz').get());
         entries.push(new Builder().id('097b0ee8-5f7c-411f-93d2-e76864d52276').thema(thema).entry('Zugehörigkeit ausdrücken').get());
         entries.push(new Builder().id('db83018f-e871-4cb1-a1b7-fda21dadb802').thema(thema).entry('(nicht) sein').get());
