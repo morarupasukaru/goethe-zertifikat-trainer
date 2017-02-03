@@ -36,7 +36,17 @@ class FlashcardService {
     }
 
     getFlashcardTypes() {
-        let vocabularyEntryExampleFlashcardType = {
+        return [
+            this.getVocabularyFlashcardType(),
+            this.getSpeechActsFlashcardType(),
+            this.getStrategiesFlashcardType(),
+            this.getNotionFlashcardType(),
+            this.getThemaFlashcardType()
+            ];
+    }
+
+    getVocabularyFlashcardType() {
+        let flashcardType = {
             id: 'vocabulary-entry-example',
             name: 'Verstehen Sie den Eintrag?',
             fields: {
@@ -44,11 +54,14 @@ class FlashcardService {
                 answer: [ { id:'alternative', name: 'Alternative' }, { id:'example', name: 'Beispiel' }, { id:'translate', name:'Übersetzung' } ]
             }
         }
-        vocabularyEntryExampleFlashcardType.isSupported = function(entry) {
+        flashcardType.isSupported = function(entry) {
             return "vocabulary" === entry.type;
         }
+        return flashcardType;
+    }
 
-        let speechActsEntryFlashcardType = {
+    getSpeechActsFlashcardType() {
+        let flashcardType = {
             id: 'speechActs-entry',
             name: 'Verstehen Sie den Eintrag?',
             fields: {
@@ -56,12 +69,58 @@ class FlashcardService {
                 answer: [ { id:'translate', name:'Übersetzung' } ]
             }
         }
-        speechActsEntryFlashcardType.isSupported = function(entry) {
+        flashcardType.isSupported = function(entry) {
             return "speechAct" === entry.type;
         }
-
-        return [ vocabularyEntryExampleFlashcardType, speechActsEntryFlashcardType ];
+        return flashcardType;
     }
+
+    getStrategiesFlashcardType() {
+        let flashcardType = {
+            id: 'strategies-entry',
+            name: 'Verstehen Sie den Eintrag?',
+            fields: {
+                question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
+                answer: [ { id:'translate', name:'Übersetzung' } ]
+            }
+        }
+        flashcardType.isSupported = function(entry) {
+            return "strategy" === entry.type;
+        }
+        return flashcardType;
+    }
+
+    getNotionFlashcardType() {
+        let flashcardType = {
+            id: 'notions-entry',
+            name: 'Verstehen Sie den Eintrag?',
+            fields: {
+                question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
+                answer: [ { id:'translate', name:'Übersetzung' } ]
+            }
+        }
+        flashcardType.isSupported = function(entry) {
+            return "notion" === entry.type;
+        }
+        return flashcardType;
+    }
+
+    getThemaFlashcardType() {
+        let flashcardType = {
+            id: 'themas-entry',
+            name: 'Verstehen Sie den Eintrag?',
+            fields: {
+                question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
+                answer: [ { id:'translate', name:'Übersetzung' } ]
+            }
+        }
+        flashcardType.isSupported = function(entry) {
+            return "thema" === entry.type;
+        }
+        return flashcardType;
+    }
+
+
 }
 
 export default FlashcardService;

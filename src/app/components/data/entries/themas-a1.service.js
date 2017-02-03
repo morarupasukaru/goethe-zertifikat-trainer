@@ -18,7 +18,10 @@ class ThemasA1Service {
 
     createThemasEntries(Builder) {
         let entries = [];
-        let thema = ['Themen', 'Personen'];
+        let thema = ['Themen', 'A1'];
+        entries.push(new Builder().id('').thema(thema).entry('Themen').get());
+
+        thema = ['Themen', 'A1', 'Personen'];
         entries.push(new Builder().id('').thema(thema).entry('Themen').get());
         entries.push(new Builder().id('').thema(thema).entry('Person').get());
         entries.push(new Builder().id('').thema(thema).entry('Name').get());
@@ -38,7 +41,7 @@ class ThemasA1Service {
         entries.push(new Builder().id('').thema(thema).entry('Gewohnheiten').get());
         entries.push(new Builder().id('').thema(thema).entry('Tagesablauf').get());
 
-        thema = ['Themen', 'Wohnen'];
+        thema = ['Themen', 'A1', 'Wohnen'];
         entries.push(new Builder().id('').thema(thema).entry('Wohnen').get());
         entries.push(new Builder().id('').thema(thema).entry('Wohnung').get());
         entries.push(new Builder().id('').thema(thema).entry('Räume').get());
@@ -50,20 +53,20 @@ class ThemasA1Service {
         entries.push(new Builder().id('').thema(thema).entry('Mietverhältnis').get());
         entries.push(new Builder().id('').thema(thema).entry('Wohnungswechsel').get());
 
-        thema = ['Themen', 'Umwelt'];
+        thema = ['Themen', 'A1', 'Umwelt'];
         entries.push(new Builder().id('').thema(thema).entry('Umwelt').get());
         entries.push(new Builder().id('').thema(thema).entry('Pflanzen').get());
         entries.push(new Builder().id('').thema(thema).entry('Tiere').get());
         entries.push(new Builder().id('').thema(thema).entry('Klima').get());
         entries.push(new Builder().id('').thema(thema).entry('Wetter').get());
 
-        thema = ['Themen', 'Reisen/Verkehr'];
+        thema = ['Themen', 'A1', 'Reisen/Verkehr'];
         entries.push(new Builder().id('').thema(thema).entry('Reisen').get());
         entries.push(new Builder().id('').thema(thema).entry('privater und öffentlicher Verkehr').get());
         entries.push(new Builder().id('').thema(thema).entry('Unterkunft').get());
         entries.push(new Builder().id('').thema(thema).entry('Gepäck').get());
 
-        thema = ['Themen', 'Essen/Trinken'];
+        thema = ['Themen', 'A1', 'Essen/Trinken'];
         entries.push(new Builder().id('').thema(thema).entry('Essen').get());
         entries.push(new Builder().id('').thema(thema).entry('Trinken').get());
         entries.push(new Builder().id('').thema(thema).entry('Nahrungsmittel').get());
@@ -72,7 +75,7 @@ class ThemasA1Service {
         entries.push(new Builder().id('').thema(thema).entry('Getränke').get());
         entries.push(new Builder().id('').thema(thema).entry(['Lokale', 'Restaurant', 'Café']).get());
 
-        thema = ['Themen', 'Einkaufen/Gebrauchsartikel'];
+        thema = ['Themen', 'A1', 'Einkaufen/Gebrauchsartikel'];
         entries.push(new Builder().id('').thema(thema).entry('Einkaufen').get());
         entries.push(new Builder().id('').thema(thema).entry('Gebrauchsartikel').get());
         entries.push(new Builder().id('').thema(thema).entry('Geschäfte').get());
@@ -81,14 +84,14 @@ class ThemasA1Service {
         entries.push(new Builder().id('').thema(thema).entry('Lebensmittel').get());
         entries.push(new Builder().id('').thema(thema).entry('Kleidung').get());
 
-        thema = ['Themen', 'Dienstleistungen'];
+        thema = ['Themen', 'A1', 'Dienstleistungen'];
         entries.push(new Builder().id('').thema(thema).entry('Dienstleistungen').get());
         entries.push(new Builder().id('').thema(thema).entry('Post').get());
         entries.push(new Builder().id('').thema(thema).entry('Telekommunikation').get());
         entries.push(new Builder().id('').thema(thema).entry('Banken').get());
         entries.push(new Builder().id('').thema(thema).entry('Polizei').get());
 
-        thema = ['Themen', 'Erziehung/Ausbildung/Lernen'];
+        thema = ['Themen', 'A1', 'Erziehung/Ausbildung/Lernen'];
         entries.push(new Builder().id('').thema(thema).entry('Erziehung').get());
         entries.push(new Builder().id('').thema(thema).entry('Ausbildung').get());
         entries.push(new Builder().id('').thema(thema).entry('Lernen').get());
@@ -96,13 +99,13 @@ class ThemasA1Service {
         entries.push(new Builder().id('').thema(thema).entry('Schule').get());
         entries.push(new Builder().id('').thema(thema).entry('Sprachen lernen').get());
 
-        thema = ['Themen', 'Arbeit/Beruf'];
+        thema = ['Themen', 'A1', 'Arbeit/Beruf'];
         entries.push(new Builder().id('').thema(thema).entry('Arbeit').get());
         entries.push(new Builder().id('').thema(thema).entry('Beruf').get());
         entries.push(new Builder().id('').thema(thema).entry('Arbeitsplatz').get());
         entries.push(new Builder().id('').thema(thema).entry('Urlaub').get());
 
-        thema = ['Themen', 'Freizeit/Unterhaltung'];
+        thema = ['Themen', 'A1', 'Freizeit/Unterhaltung'];
         entries.push(new Builder().id('').thema(thema).entry('Freizeit').get());
         entries.push(new Builder().id('').thema(thema).entry('Unterhaltung').get());
         entries.push(new Builder().id('').thema(thema).entry('Interessen').get());

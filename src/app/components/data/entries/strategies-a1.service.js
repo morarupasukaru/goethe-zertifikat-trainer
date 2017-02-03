@@ -9,13 +9,13 @@ class StrategiesA1Service {
 
     createStrategiesEntries(Builder) {
         let entries = [];
-        let thema = ['Strategien', 'Redeorganisation', 'eine Äußerung einleiten'];
+        let thema = ['Strategien', 'A1', 'Redeorganisation', 'eine Äußerung einleiten'];
         entries.push(new Builder().id('3b6b10c9-e3b6-465c-80aa-08b0d566218d').thema(thema).entry(['Entschuldigung ... ... Kann ich etwas fragen?', 'Entschuldigen Sie ... Kann ich etwas fragen?']).get());
         entries.push(new Builder().id('48c94b01-9c32-4498-8e05-6ee1e4babfe8').thema(thema).entry('Was kann ich für Sie tun?').get());
         entries.push(new Builder().id('e50d4f74-8a82-43ce-bf42-27bc6a564b79').thema(thema).entry('Brauchen Sie Hilfe?').get());
         entries.push(new Builder().id('0b834cf4-182b-423c-93ad-8b3dbd9e5842').thema(thema).entry('(Im Restaurant.) Hallo! Entschuldigung bitte!').get());
 
-        thema = ['Strategien', 'Redeorganisation', 'eine Äußerung abschließen'];
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'eine Äußerung abschließen'];
         entries.push(new Builder().id('61588273-f0b4-42e0-a43a-e109c960e160').thema(thema).entry('Danke. Ich muss jetzt leider gehen.').get());
         entries.push(new Builder().id('771f4e13-4038-43da-81cc-57db4fa4894d').thema(thema).entry('Okay, tschüss bis bald.').get());
         entries.push(new Builder().id('a6da9952-b050-4ec6-879e-e10fccfd3530').thema(thema).entry('Gut: ...').get());
@@ -23,11 +23,11 @@ class StrategiesA1Service {
         entries.push(new Builder().id('38b6aacd-2abe-4bab-b33e-9f8afeaba0c9').thema(thema).entry('Dann, herzlichen Dank').get());
         entries.push(new Builder().id('e72298c6-69d5-4ad3-8cf5-ee04187471bf').thema(thema).entry('auf Wiedersehen.').get());
 
-        thema = ['Strategien', 'Redeorganisation', 'um das Wort bitten'];
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'um das Wort bitten'];
         entries.push(new Builder().id('c6c76166-1fe3-4557-9c8c-522de23c931a').thema(thema).entry('Moment bitte.').get());
         entries.push(new Builder().id('a9354621-f964-4247-96d2-4d06ddf8cc61').thema(thema).entry('Bitte!').get());
 
-        thema = ['Strategien', 'Redeorganisation', 'Zuhören signalisieren'];
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'Zuhören signalisieren'];
         entries.push(new Builder().id('c4ed50b2-2bd8-429c-829a-e8b842f62d1d').thema(thema).entry('a?').get());
         entries.push(new Builder().id('16787f4d-14d2-4296-ac3f-b26a9301ffa6').thema(thema).entry('So?').get());
         entries.push(new Builder().id('e530000e-0915-451a-8ecd-5753303bf742').thema(thema).entry('Wirklich?').get());
@@ -38,7 +38,7 @@ class StrategiesA1Service {
         entries.push(new Builder().id('5876a418-27cb-4b4f-a92b-b310faff5f00').thema(thema).entry('Bitte?').get());
         entries.push(new Builder().id('c10b3be3-fac3-4818-bfba-932e33192ed2').thema(thema).entry('(Na) Klar.').get());
 
-        thema = ['Strategien', 'Redeorganisation', 'zum Sprechen auffordern'];
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'zum Sprechen auffordern'];
         entries.push(new Builder().id('a325c45a-62f4-4594-b0ee-6431fbd250fb').thema(thema).entry('Also?').get());
         entries.push(new Builder().id('ea4aab56-16df-493d-8623-4a62e15092ae').thema(thema).entry('Ja?').get());
         entries.push(new Builder().id('ab3eaf9e-b1df-4074-86d1-e88fd3f95201').thema(thema).entry('Und?').get());
@@ -46,74 +46,74 @@ class StrategiesA1Service {
         entries.push(new Builder().id('0e8a88f1-7aa8-459b-ba4d-6b9bd8289cc6').thema(thema).entry('Und dann?').get());
         entries.push(new Builder().id('d6e64ba4-c019-434d-a8b4-ec9902f610e4').thema(thema).entry('Und?').get());
 
-        thema = ['Strategien', 'Redeorganisation', 'Beispiele geben/etwas verdeutlichen'];
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'Beispiele geben/etwas verdeutlichen'];
         entries.push(new Builder().id('2c1cd5de-0dc0-43ae-9930-9c5d6e651c70').thema(thema).entry('Ich esse gern Obst, zum Beispiel Orangen, Bananen und Erdbeeren.').get());
 
-        thema = ['Strategien', 'Redeorganisation', 'Höflichkeit'];
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'Höflichkeit'];
         entries.push(new Builder().id('e6591ce5-4920-4692-968c-029331013c55').thema(thema).entry(['Kann ich Sie etwas fragen?', 'Darf ich Sie etwas fragen?']).get());
 
-        thema = ['Strategien', 'Redeorganisation', 'Abschwächung'];
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'Abschwächung'];
         entries.push(new Builder().id('747f5683-578d-4dc3-8516-cacddbe3d41c').thema(thema).entry(['Möchtest du noch etwas?', '- Ja, ein bisschen.']).get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'Verständnishilfen anbieten', 'einzelne Wörter oder Begriffe umschreiben'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Verständnishilfen anbieten', 'einzelne Wörter oder Begriffe umschreiben'];
         entries.push(new Builder().id('09c2738c-720a-4c42-bcdb-ddebc5f238b3').thema(thema).entry('Apotheke: Da kann man Medikamente kaufen.').get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'Verständnishilfen anbieten', 'Rückfragen zur Verständniskontrolle'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Verständnishilfen anbieten', 'Rückfragen zur Verständniskontrolle'];
         entries.push(new Builder().id('2c2dde3f-b400-4b99-888e-e50f9bebfa96').thema(thema).entry('Haben Sie das verstanden?').get());
         entries.push(new Builder().id('78c59d29-6098-4402-b14e-08a3bf9b8ab1').thema(thema).entry('Ist das klar?').get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'Verständnishilfen anbieten', 'schwierige Wörter buchstabieren'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Verständnishilfen anbieten', 'schwierige Wörter buchstabieren'];
         entries.push(new Builder().id('9d7275e7-a346-4685-9951-74a8b53ebcf6').thema(thema).entry('Mein Name ist „Kuntz“, ich buchstabiere: K-U-N-T-Z.').get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'um Verständnishilfen bitten', 'signalisieren, dass man etwas nicht verstanden hat'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'signalisieren, dass man etwas nicht verstanden hat'];
         entries.push(new Builder().id('64f86ce2-7115-4a6f-b81f-ad573e55dfa8').thema(thema).entry('Entschuldigung, wie bitte?').get());
         entries.push(new Builder().id('43d43da7-3e8c-45dd-86e5-2f48ea38795d').thema(thema).entry('Langsamer bitte.').get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'um Verständnishilfen bitten', 'um Wiederholung bitten'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'um Wiederholung bitten'];
         entries.push(new Builder().id('b3fd2aa6-b68b-43f4-84fc-55c92fb74762').thema(thema).entry('Noch einmal bitte.').get());
         entries.push(new Builder().id('27711963-6933-4238-8ddc-6f6617143132').thema(thema).entry('Kannst du das bitte noch einmal sagen?').get());
         entries.push(new Builder().id('8f5d8280-3b6a-49e0-8b36-ed69194d7ade').thema(thema).entry('Wie bitte?').get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'um Verständnishilfen bitten', 'um Erläuterung bitten'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'um Erläuterung bitten'];
         entries.push(new Builder().id('0ea6f7f9-8f13-4625-95f8-df20dddaed90').thema(thema).entry('Entschuldigung, was heißt das?').get());
         entries.push(new Builder().id('8f22183a-35bf-4651-9be2-281c02ab7522').thema(thema).entry('Was bedeutet ... ?').get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'um Verständnishilfen bitten', 'jemanden bitten, ein Wort zu buchstabieren'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'jemanden bitten, ein Wort zu buchstabieren'];
         entries.push(new Builder().id('0302fd4f-2df5-449c-9c5d-ef2e9f08a30d').thema(thema).entry('Bitte buchstabieren Sie mir den Namen.').get());
         entries.push(new Builder().id('8e8944ac-3077-42d0-b01e-bf2d1d0195c1').thema(thema).entry('Können Sie das Wort buchstabieren?').get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'um Verständnishilfen bitten', 'jemanden bitten, etwas aufzuschreiben'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'jemanden bitten, etwas aufzuschreiben'];
         entries.push(new Builder().id('4c12c4b4-a1dd-4efb-b55a-4b60581ae612').thema(thema).entry('Wie schreibt man ... ?').get());
         entries.push(new Builder().id('71debee3-36b4-4a75-88bd-4d31b089aaa8').thema(thema).entry('Bitte schreiben Sie das auf.').get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'um Verständnishilfen bitten', 'jemanden bitten, langsamer zu sprechen'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'jemanden bitten, langsamer zu sprechen'];
         entries.push(new Builder().id('26d07119-a7f0-4c75-9db1-9f4a7d3a3aff').thema(thema).entry('Bitte ein bisschen langsamer.').get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'um Verständnishilfen bitten', 'um Wiederholung bitten'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'um Wiederholung bitten'];
         entries.push(new Builder().id('b4091431-c9f1-4dbd-80fd-2990de24a8b7').thema(thema).entry('Wie bitte?').get());
         entries.push(new Builder().id('c6ba05ca-203d-4122-90a5-839d968239b6').thema(thema).entry('Entschuldigung, noch einmal bitte.').get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'um Verständnishilfen bitten', 'anzeigen, dass man etwas nicht verstanden hat'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'anzeigen, dass man etwas nicht verstanden hat'];
         entries.push(new Builder().id('40bc6506-c85d-449d-899b-be4d05695222').thema(thema).entry('Das habe ich nicht verstanden.').get());
         entries.push(new Builder().id('0c2e7610-482a-40b5-a1d9-5aabc7f90782').thema(thema).entry('Das (Wort) verstehe ich nicht.').get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'Kompensation', 'Synonyme oder ähnliche Begriffe verwenden'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'Synonyme oder ähnliche Begriffe verwenden'];
         entries.push(new Builder().id('3dc1e320-335f-4d4c-84f5-b20b16ac501a').thema(thema).entry(['Wo ist mein Buch ... nicht ein Buch ... ein Schreibbuch.', '- Ah, dein Heft?']).get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'Kompensation', 'Selbstkorrektur'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'Selbstkorrektur'];
         entries.push(new Builder().id('902b8e48-2fbb-48cb-9ee9-2af13d61b1c7').thema(thema).entry('Ich möchte sagen ... Ich fahre zu Paris ... nein, nach Paris.').get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'Kompensation', 'ausdrücken, dass man ein Wort nicht kennt oder es vergessen hat'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'ausdrücken, dass man ein Wort nicht kennt oder es vergessen hat'];
         entries.push(new Builder().id('e9d5d342-9a9f-4384-a773-cc2b765a48e7').thema(thema).entry(['Wie sagt man auf Deutsch?', 'Auf Englisch sagt man ...']).get());
 
-        thema = ['Strategien', 'Verständnissicherung', 'Kompensation', 'nachfragen, ob man (trotz fehlerhaftem Deutsch) verstanden wurde'];
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'nachfragen, ob man (trotz fehlerhaftem Deutsch) verstanden wurde'];
         entries.push(new Builder().id('a9ac2ac5-a1a6-4765-814b-71e82533b12a').thema(thema).entry('Ich spreche nicht gut Deutsch. Haben Sie verstanden?').get());
         this.addEntries(entries);
     }
 
     createStrategiesWordEntries(Builder) {
         let entries = [];
-        let thema = ['Strategien', 'Wortschatz'];
+        let thema = ['Strategien', 'A1', 'Wortschatz'];
         entries.push(new Builder().id('99332e42-bcae-4cfe-ad86-49b54d316da8').thema(thema).entry('Strategien').get());
         entries.push(new Builder().id('8827eb98-9020-4e3c-8f2e-4a77140d8311').thema(thema).entry('Redeorganisation').get());
         entries.push(new Builder().id('913cbd81-8fbb-4c17-a071-4d0ba62f53ec').thema(thema).entry('eine Äußerung einleiten').get());
