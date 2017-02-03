@@ -48,7 +48,7 @@ class FlashcardService {
     getVocabularyFlashcardType() {
         let flashcardType = {
             id: 'vocabulary-entry-example',
-            name: 'Verstehen Sie den Eintrag?',
+            name: 'Verstehen Sie diese Wortschatz Eintrag?',
             fields: {
                 question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true } ],
                 answer: [ { id:'alternative', name: 'Alternative' }, { id:'example', name: 'Beispiel' }, { id:'translate', name:'Übersetzung' } ]
@@ -63,7 +63,7 @@ class FlashcardService {
     getSpeechActsFlashcardType() {
         let flashcardType = {
             id: 'speechActs-entry',
-            name: 'Verstehen Sie den Eintrag?',
+            name: 'Verstehen Sie den Sprachhandlung Eintrag?',
             fields: {
                 question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
                 answer: [ { id:'translate', name:'Übersetzung' } ]
@@ -78,7 +78,7 @@ class FlashcardService {
     getStrategiesFlashcardType() {
         let flashcardType = {
             id: 'strategies-entry',
-            name: 'Verstehen Sie den Eintrag?',
+            name: 'Verstehen Sie den Strategie Eintrag?',
             fields: {
                 question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
                 answer: [ { id:'translate', name:'Übersetzung' } ]
@@ -93,7 +93,7 @@ class FlashcardService {
     getNotionFlashcardType() {
         let flashcardType = {
             id: 'notions-entry',
-            name: 'Verstehen Sie den Eintrag?',
+            name: 'Verstehen Sie den Notion Eintrag?',
             fields: {
                 question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
                 answer: [ { id:'translate', name:'Übersetzung' } ]
@@ -108,7 +108,7 @@ class FlashcardService {
     getThemaFlashcardType() {
         let flashcardType = {
             id: 'themas-entry',
-            name: 'Verstehen Sie den Eintrag?',
+            name: 'Verstehen Sie den Thema Eintrag?',
             fields: {
                 question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
                 answer: [ { id:'translate', name:'Übersetzung' } ]
