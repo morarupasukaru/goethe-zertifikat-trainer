@@ -96,96 +96,58 @@ class NotionsA1Service {
         entries.push(new Builder().id('').thema(thema).entry(['Wie oft geht sie ins Kino?', '- Zweimal im Monat.', '- Nie!', '- Oft.']).get());
 
         thema = ['Allgemeine Begriffe (Notionen)', 'Quantität angeben', 'Zahlen/Mengenangaben'];
-/*
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-Was/Wie viel kostet die Zeitung?
-- Vier Euro.
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-Was darf‘s denn sein?
-- Ein Pfund Tomaten, bitte.
-- Ein Glas Milch, bitte.
-- Eine Flasche Wein, bitte.
-- Eine Tasse Tee, bitte.
-- 1,5 Liter, bitte.
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-Wie viel möchten Sie?
-- (Nicht) Alles.
-- Viel.
-- Ein bisschen, bitte.
-*/
-
-        thema = ['Allgemeine Begriffe (Notionen)', 'Quantität angeben', 'Menge'];
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-/*
-
-*/
+        entries.push(new Builder().id('').thema(thema).entry(['Was/Wie viel kostet die Zeitung?', '- Vier Euro.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Was darf‘s denn sein?', '- Ein Pfund Tomaten, bitte.', '- Ein Glas Milch, bitte.', '- Eine Flasche Wein, bitte.', '- Eine Tasse Tee, bitte.', '- 1,5 Liter, bitte.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Wie viel möchten Sie?', '- (Nicht) Alles.', '- Viel.', '- Ein bisschen, bitte.']).get());
 
         thema = ['Allgemeine Begriffe (Notionen)', 'Quantität angeben', 'Grad'];
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-/*
-
-*/
+        entries.push(new Builder().id('').thema(thema).entry('Das ist sehr/zu gefährlich.').get());
 
         thema = ['Allgemeine Begriffe (Notionen)', 'Quantität angeben', 'Dimension/Maßangabe'];
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-/*
-
-*/
+        entries.push(new Builder().id('').thema(thema).entry(['Wie lang/groß ...?', '- 1,5 Meter.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Wie schwer ...?', '- 500 Gramm.', '- 2 Kilo(gramm.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Wie warm ...?', '- 20 Grad.', '- Sehr warm.', '- Nicht kalt.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Wie viel ...?', '- Einen Liter.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Wie schnell ...?', '- Nur maximal 60 km/h.']).get());
 
         thema = ['Allgemeine Begriffe (Notionen)', 'Art und Weise angeben', 'physisch'];
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-/*
-
-*/
+        entries.push(new Builder().id('').thema(thema).entry(['Wie schmeckt das Essen?', 'Wie riecht das Essen?', '- Wirklich gut.', '- Wirklich nicht gut.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Welche Farbe hat das Auto?', '- Es ist rot.', '- Es ist blau.', '- Es ist grün.', '- Es ist gelb.', '- Es ist schwarz.', '- Es ist weiß.', '- Es ist braun.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Die Tür ist offen.', 'Die Tür ist geschlossen.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Wie alt ist Dieter?', '- Nicht sehr alt.', '- Schon 60.', '- Erst 50.']).get());
 
         thema = ['Allgemeine Begriffe (Notionen)', 'Art und Weise angeben', 'Wertung'];
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-/*
-
-*/
+        entries.push(new Builder().id('').thema(thema).entry(['(Wert/Preis?)', 'nicht) teuer/billig']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['(Qualität?)', '(nicht) (sehr) gut']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['(akzeptabel?)', '(adäquat?)', '(nicht) in Ordnung', '(nicht) in Ordnung, genug']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['(richtig?)', '(nicht) richtig']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['(Fähigkeit?)', '(nicht) können']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['(Wichtigkeit?)', '(nicht) wichtig', 'wie wichtig?']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['(Normalität?)', '(nicht) normal']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['(Schwierigkeit?)', '(nicht) leicht']).get());
 
         thema = ['Allgemeine Begriffe (Notionen)', 'Art und Weise angeben', 'Vergleich'];
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-/*
-
-*/
+        entries.push(new Builder().id('').thema(thema).entry(['Spielst du Fußball?', '- Ja, wie meine Schwester.']).get());
+        entries.push(new Builder().id('').thema(thema).entry(['Sie ist so alt wie ich.', 'Wir sind gleich alt.']).get());
 
         thema = ['Allgemeine Begriffe (Notionen)', 'Logische Verknüpfung herstellen', 'Grund'];
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-/*
-
-*/
+        entries.push(new Builder().id('').thema(thema).entry(['Warum kommt er nicht mit zur Party?', '- Er kann nicht. Er arbeitet heute lange.']).get());
 
         thema = ['Allgemeine Begriffe (Notionen)', 'Logische Verknüpfung herstellen', 'Bedingung'];
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-/*
-
-*/
+        entries.push(new Builder().id('').thema(thema).entry(['Kann ich das Auto haben?', '- Ja, aber nur für eine Stunde.']).get());
 
         thema = ['Allgemeine Begriffe (Notionen)', 'Logische Verknüpfung herstellen', 'Aufzählung/Alternative'];
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-/*
-
-*/
+        entries.push(new Builder().id('').thema(thema).entry('Er isst und trinkt gern.').get());
+        entries.push(new Builder().id('').thema(thema).entry('Möchtest du Wasser oder Wein?').get());
 
         thema = ['Allgemeine Begriffe (Notionen)', 'Modales ausdrücken', 'Fähigkeit'];
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-/*
-
-*/
+        entries.push(new Builder().id('').thema(thema).entry(['Können Sie Russisch (sprechen)?', '- Ja klar.', '- Sicher.']).get());
 
         thema = ['Allgemeine Begriffe (Notionen)', 'Modales ausdrücken', 'Möglichkeit'];
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-/*
-
-*/
+        entries.push(new Builder().id('').thema(thema).entry('Können Sie morgen kommen?').get());
 
         thema = ['Allgemeine Begriffe (Notionen)', 'Modales ausdrücken', 'Notwendigkeit/Verpflichtung'];
-        entries.push(new Builder().id('').thema(thema).entry('').get());
-/*
-
-*/
-
+        entries.push(new Builder().id('').thema(thema).entry('Mein Sohn muss um 8 Uhr zu Hause sein.').get());
         return entries;
     }
 
