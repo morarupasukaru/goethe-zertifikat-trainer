@@ -1,7 +1,8 @@
 class LocalstorageController {
 
     /*@ngInject*/
-    constructor(persistenceService) {
+    constructor($location, persistenceService) {
+        this.$location = $location;
         this.persistenceService = persistenceService;
         this.initData();
     }
@@ -23,6 +24,10 @@ class LocalstorageController {
 
     displayAsList() {
         this.listDisplayed = true;
+    }
+
+    back() {
+        this.$location.url('/stack');
     }
 }
 

@@ -1,6 +1,7 @@
 class InventoryController {
     /*@ngInject*/
-    constructor(grammarA1Service, notionsA1Service, speechActsA1Service, strategiesA1Service, themasA1Service, vocabularyA1Service) {
+    constructor($location, grammarA1Service, notionsA1Service, speechActsA1Service, strategiesA1Service, themasA1Service, vocabularyA1Service) {
+        this.$location = $location;
 
         this.data = {
             thema: 'Goethe-Zertifikat A1',
@@ -87,6 +88,10 @@ class InventoryController {
             count = count + thema.entries.length;
         }
         return count;
+    }
+
+    back() {
+        this.$location.url('/stack');
     }
 }
 
