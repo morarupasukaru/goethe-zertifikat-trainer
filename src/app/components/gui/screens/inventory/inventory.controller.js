@@ -9,7 +9,7 @@ class InventoryController {
             level: 1
         };
         this.themas = {
-            thema: 'Inventorare',
+            thema: 'Inventare',
             children: [],
             level: 2
         };
