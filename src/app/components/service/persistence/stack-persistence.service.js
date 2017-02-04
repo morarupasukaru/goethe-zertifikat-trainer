@@ -22,17 +22,15 @@ class StackPersistenceService {
         let key = 'stack-' + stackId;
         let value = type + '/' + entryId;
         let oldStackId = this.getStackKey(type, entryId);
-        if (key !== oldStackId) {
-            if (!!oldStackId) {
-                this.removeEntryIdFromStack(oldStackId, value);
-            }
-            let newEntries = this.persistenceService.get(key);
-            if (!newEntries) {
-                newEntries = [];
-            }
-            newEntries.push(value);
-            this.persistenceService.save(key, newEntries);
+        if (!!oldStackId) {
+            this.removeEntryIdFromStack(oldStackId, value);
         }
+        let newEntries = this.persistenceService.get(key);
+        if (!newEntries) {
+            newEntries = [];
+        }
+        newEntries.push(value);
+        this.persistenceService.save(key, newEntries);
     }
 
     removeEntryIdFromStack(stackId, entryKey) {
