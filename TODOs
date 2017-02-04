@@ -1,3 +1,5 @@
+# button to move from stack
+
 # add A2 wortschartz with goethe inventar
 
 # browse grammar (e.g. préposition) and complete wortschatz & add new quiz
@@ -8,9 +10,6 @@
 
 
 # flags pour categorie de mot (adverb = true, preposition = true, etc.)
-
-# homepage
-    - add stacks by click on list
 
 # copyright
     - eviter de pusher des données avec copyright
@@ -34,3 +33,10 @@
 # find a way to test "Notionen"
 
 # find a way to test "Themen"
+
+
+
+suspended
+
+# homepage
+    - add stacks by click on list

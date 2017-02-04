@@ -22,9 +22,9 @@
             <button ng-if="!$ctrl.showAnswer" ng-click="$ctrl.displayAnswer()">Antwort anzeigen</button>
 
             <div>
-                <label>Beweg die Lernkartei von '{{ $ctrl.currentStackName }}' im ...</label>
+                <label>Kisten</label>
                 <ng-repeat ng-repeat="stack in $ctrl.stacksDestination">
-                    <button ng-click="$ctrl.addToStack(stack.id)">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
+                    <button ng-click="$ctrl.addToStack(stack.id)" ng-class="{'button-primary': $ctrl.currentStackName === stack.name }">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
                 </ng-repeat>
             </div>
 
