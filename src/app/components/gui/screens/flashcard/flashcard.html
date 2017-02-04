@@ -30,8 +30,6 @@
                     <button ng-click="$ctrl.onStackClick(stack.id)" ng-class="{'button-primary': $ctrl.currentStackName === stack.name }">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
                 </ng-repeat>
             </div>
-
-            <button ng-click="$ctrl.back()">Zurück</button>
         </div>
     </div>
 </div>

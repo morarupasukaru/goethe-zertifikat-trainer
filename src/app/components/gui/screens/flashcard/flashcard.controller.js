@@ -89,10 +89,6 @@ class FlashcardController {
             this.$location.url('flashcard/' + nextEntryKey);
         }
     }
-
-    back() {
-        this.$location.url('/stack');
-    }
 }
 
 export default FlashcardController;
