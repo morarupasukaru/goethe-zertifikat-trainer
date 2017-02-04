@@ -84,7 +84,7 @@ class SpeechActsA1Service {
         entries.push(new Builder().id('d2f1c952-b366-46db-8db6-fefd56edfab3').thema(thema).entry('Einladung').translate(['invitation', 'convocation']).get());
         entries.push(new Builder().id('b0be4b5d-55b9-4de8-aaed-1bee9b85011c').thema(thema).entry('Soziale Konventionen').translate('conventions sociales').get());
         entries.push(new Builder().id('6103de06-19e1-48f7-9428-e86a6ab39dcb').thema(thema).entry('Kontaktaufnahme').translate('prise de contact').get());
-        entries.push(new Builder().id('abf797d7-bb8b-41fe-84b3-273dd1ee30b7').thema(thema).entry('jemanden ansprechen').translate('').get());
+        entries.push(new Builder().id('abf797d7-bb8b-41fe-84b3-273dd1ee30b7').thema(thema).entry('jemanden ansprechen').translate('plaire à qn.').get());
         entries.push(new Builder().id('40def51a-eb2b-414e-8f54-2652e538086a').thema(thema).entry('grüßen').translate(['saluer qn.', 'dire bonjour à qn.']).get());
         entries.push(new Builder().id('07880339-3900-4b37-a72c-d1629073faf1').thema(thema).entry('sich/jemanden vorstellen').translate(['se présenter', 'présenter qn. à qn.']).get());
         entries.push(new Builder().id('7496da78-9006-4f81-818c-a17f3154eaa9').thema(thema).entry('über das Befinden sprechen').translate("discuter sur l'état de santé").get());
