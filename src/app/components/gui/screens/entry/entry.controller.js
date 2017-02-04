@@ -14,7 +14,9 @@ class EntryController {
             field.name = data.visibleFields[i];
             field.value = data[field.name];
             field.list = Array.isArray(field.value);
-            fields.push(field);
+            if (!!field.value) {
+                fields.push(field);
+            }
         }
         return fields;
     }
