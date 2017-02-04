@@ -50,7 +50,7 @@ class FlashcardService {
             id: 'vocabulary-entry-example',
             name: 'Verstehen Sie diese Wortschatz Eintrag?',
             fields: {
-                question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true } ],
+                question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
                 answer: [ { id:'alternative', name: 'Alternative' }, { id:'example', name: 'Beispiel' }, { id:'translate', name:'Übersetzung' } ]
             }
         }

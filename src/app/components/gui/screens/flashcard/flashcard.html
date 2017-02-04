@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="twelve column" style="margin-top: 25%">
+        <div class="twelve column" style="margin-top: 5%">
             <h1>{{ $ctrl.title }}</h1>
             <div ng-if="!!row.value" ng-repeat="row in $ctrl.fields">
                 <label for="{{ row.name }}">{{ row.name + (!!row.question ? ' (Frage)' : ' (Antwort)') }} </label>

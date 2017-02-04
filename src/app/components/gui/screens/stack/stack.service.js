@@ -29,7 +29,8 @@ class StackService {
                 { id: 'kiste4', name: 'Kiste 4', max: 400 },
                 { id: 'kiste5', name: 'Kiste 5', max: 1000 },
                 { id: 'kiste6', name: 'Kiste 6', max: 2000 },
-                { id: 'gelernt', name: 'Gelernt' }
+                { id: 'gelernt', name: 'Gelernt' },
+                { id: 'ausgegrenzte', name: 'Ausgegrenzte' }
         ];
         for (let i = 0; i < stacks.length; i++) {
             let count = this.stackPersistenceService.getCount(stacks[i].id);
