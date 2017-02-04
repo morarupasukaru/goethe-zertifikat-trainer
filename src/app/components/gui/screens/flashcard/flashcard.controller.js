@@ -24,6 +24,7 @@ class FlashcardController {
             this.currentStackName = currentStack.name;
         }
         this.stacksDestination = this.stackService.getStacks();
+        this.stackSelection = false;
     }
 
     computeFields(entry, flashcardType) {
@@ -59,6 +60,22 @@ class FlashcardController {
         this.showAnswer = true;
     }
 
+    startStackSelection() {
+        this.stackSelection = true;
+    }
+
+    stopStackSelection() {
+        this.stackSelection = false;
+    }
+
+    onStackClick(stackId) {
+        if (!!this.stackSelection) {
+            this.testNextFlashcard(stackId);
+        } else {
+            this.addToStack(stackId);
+        }
+    }
+
     addToStack(stackId) {
         this.stackPersistenceService.addToStack(this.type, this.id, stackId);
         // force a refresh
@@ -68,6 +85,7 @@ class FlashcardController {
     testNextFlashcard(stackId) {
         let nextEntryKey = this.stackPersistenceService.testNextFlashcard(stackId);
         if (!!nextEntryKey) {
+            this.stackSelection = false;
             this.$location.url('flashcard/' + nextEntryKey);
         }
     }

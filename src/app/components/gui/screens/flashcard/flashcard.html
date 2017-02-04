@@ -19,12 +19,15 @@
                        ng-if="(!row.question && !$ctrl.showAnswer)" readonly>
             </div>
 
-            <button ng-if="!$ctrl.showAnswer" ng-click="$ctrl.displayAnswer()">Antwort anzeigen</button>
+            <button ng-click="$ctrl.displayAnswer()">Antwort anzeigen</button>
+            <button ng-class="{'button-primary': !!$ctrl.stackSelection }" ng-click="$ctrl.startStackSelection()">Wähl nächste Lernkartei</button>
+            <button ng-class="{'button-primary': !$ctrl.stackSelection }" ng-click="$ctrl.stopStackSelection()">Beweg Lernkartei</button>
 
             <div>
-                <label>Kisten</label>
+                <label ng-if="!$ctrl.stackSelection">Beweg Lernkartei im ...</label>
+                <label ng-if="!!$ctrl.stackSelection">Prüf nächste Lernkartei von ...</label>
                 <ng-repeat ng-repeat="stack in $ctrl.stacksDestination">
-                    <button ng-click="$ctrl.addToStack(stack.id)" ng-class="{'button-primary': $ctrl.currentStackName === stack.name }">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
+                    <button ng-click="$ctrl.onStackClick(stack.id)" ng-class="{'button-primary': $ctrl.currentStackName === stack.name }">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
                 </ng-repeat>
             </div>
 

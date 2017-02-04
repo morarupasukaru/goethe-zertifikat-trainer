@@ -83,7 +83,7 @@ class StackPersistenceService {
         let nextEntryKey;
         do {
             entries = this.getStackEntries(stackId);
-            if (!!entries) {
+            if (!!entries && !!entries.length > 0) {
                 nextEntryKey = entries.shift();
                 if (!!nextEntryKey) {
                     let entry = this.entriesService.getEntry(nextEntryKey);
@@ -92,7 +92,7 @@ class StackPersistenceService {
                     }
                 }
             }
-        } while (!!entries && !nextEntryKey);
+        } while (!!entries && !!entries.length > 0 && !nextEntryKey);
         return nextEntryKey;
     }
  }
