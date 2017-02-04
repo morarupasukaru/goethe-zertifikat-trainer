@@ -26,9 +26,6 @@
                 <ng-repeat ng-repeat="stack in $ctrl.stacksDestination">
                     <button ng-click="$ctrl.addToStack(stack.id)">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
                 </ng-repeat>
-
-                <label>Prüf nächste Lernkartei von ...</label>
-                <stacks></stacks>
             </div>
 
             <button ng-click="$ctrl.back()">Zurück</button>

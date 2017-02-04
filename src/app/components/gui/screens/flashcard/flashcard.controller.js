@@ -61,8 +61,14 @@ class FlashcardController {
 
     addToStack(stackId) {
         this.stackPersistenceService.addToStack(this.type, this.id, stackId);
-        // force a refresh
-        this.$location.url('/flashcard/' + this.type + '/' + this.id + '?refresh=' + new Date().getTime());
+        this.testNextFlashcard(stackId);
+    }
+
+    testNextFlashcard(stackId) {
+        let nextEntryKey = this.stackPersistenceService.testNextFlashcard(stackId);
+        if (!!nextEntryKey) {
+            this.$location.url('flashcard/' + nextEntryKey);
+        }
     }
 
     back() {

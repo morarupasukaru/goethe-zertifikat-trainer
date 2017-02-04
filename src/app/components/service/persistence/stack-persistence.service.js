@@ -1,9 +1,10 @@
 class StackPersistenceService {
 
     /*@ngInject*/
-    constructor(persistenceService, flashcardService, initialStack) {
+    constructor(persistenceService, flashcardService, initialStack, entriesService) {
         this.persistenceService = persistenceService;
         this.flashcardService = flashcardService;
+        this.entriesService = entriesService;
         let flashcardIds = this.flashcardService.getFlashcardIds();
         this.initialAddAll(flashcardIds, initialStack);
     }
@@ -74,6 +75,25 @@ class StackPersistenceService {
         } else {
             return entries;
         }
+    }
+
+
+    testNextFlashcard(stackId) {
+        let entries;
+        let nextEntryKey;
+        do {
+            entries = this.getStackEntries(stackId);
+            if (!!entries) {
+                nextEntryKey = entries.shift();
+                if (!!nextEntryKey) {
+                    let entry = this.entriesService.getEntry(nextEntryKey);
+                    if (!entry) {
+                        this.removeEntryIdFromStack(stackId, nextEntryKey);
+                    }
+                }
+            }
+        } while (!!entries && !nextEntryKey);
+        return nextEntryKey;
     }
  }
 

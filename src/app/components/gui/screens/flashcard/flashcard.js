@@ -10,7 +10,7 @@ let flashcardModule = angular.module('app.components.gui.screen.flashcard', [
         $urlRouterProvider.otherwise('/');
 
         $stateProvider.state('flashcard', {
-            url: '/flashcard/{type}/{id}?refresh', template: '<flashcard></flashcard>'
+            url: '/flashcard/{type}/{id}', template: '<flashcard></flashcard>'
         });
     })
     .component('flashcard', {

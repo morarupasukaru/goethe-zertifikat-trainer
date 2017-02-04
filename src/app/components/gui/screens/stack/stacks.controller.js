@@ -1,9 +1,8 @@
 class StacksController {
     /*@ngInject*/
-    constructor(stackService, stackPersistenceService, $location, entriesService) {
+    constructor(stackService, stackPersistenceService, $location) {
         this.stackService = stackService;
         this.stackPersistenceService = stackPersistenceService;
-        this.entriesService = entriesService;
         this.$location = $location;
         this.initData();
     }
@@ -23,20 +22,7 @@ class StacksController {
     }
 
     testNextFlashcard(stack) {
-        let entries;
-        let nextEntryKey;
-        do {
-            entries = this.stackPersistenceService.getStackEntries(stack.id);
-            if (!!entries) {
-                nextEntryKey = entries.shift();
-                if (!!nextEntryKey) {
-                    let entry = this.entriesService.getEntry(nextEntryKey);
-                    if (!entry) {
-                        this.stackPersistenceService.removeEntryIdFromStack(stack.id, nextEntryKey);
-                    }
-                }
-            }
-        } while (!!entries && !nextEntryKey);
+        let nextEntryKey = this.stackPersistenceService.testNextFlashcard(stack.id);
         if (!!nextEntryKey) {
             this.$location.url('flashcard/' + nextEntryKey);
         }
