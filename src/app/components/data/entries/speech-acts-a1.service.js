@@ -174,7 +174,7 @@ class SpeechActsA1Service {
 
         thema = ['Sprachhandlungen', 'A1', 'Bewertung, Kommentar', ['verneinen', 'Widerspruch']];
         entries.push(new Builder().id('3e2d0a4d-d74c-49ea-94ee-1a1810a0a35e').thema(thema).entry('Nein!').get());
-        entries.push(new Builder().id('117122ba-8b56-4c74-9bf2-99e7a44819b6').thema(thema).entry('Doch!').get());
+        entries.push(new Builder().id('117122ba-8b56-4c74-9bf2-99e7a44819b6').thema(thema).entry('Doch!').translate('si').get());
         entries.push(new Builder().id('af2600a8-7d85-4677-84af-1b1d20d82df1').thema(thema).entry('Das stimmt nicht.').get());
         entries.push(new Builder().id('ea1c52cb-2568-42be-bf7d-5093566c1ce9').thema(thema).entry('Das ist falsch.').get());
         entries.push(new Builder().id('e9b882dd-4c54-4eaf-997a-98fab784234c').thema(thema).entry('Unsinn!').get());
@@ -240,10 +240,10 @@ class SpeechActsA1Service {
         entries.push(new Builder().id('7b6cac00-5bae-450c-9022-cf19e577c44e').thema(thema).entry('Stimmt das?').get());
         entries.push(new Builder().id('252779d4-076b-4f65-b5af-076be013fb99').thema(thema).entry('Richtig?').get());
         entries.push(new Builder().id('7968ee20-e627-406b-87d0-134bb8f54226').thema(thema).entry('Ja.').get());
-        entries.push(new Builder().id('d0482282-748c-4d00-8c0b-1ace87434e80').thema(thema).entry('Doch.').get());
+        entries.push(new Builder().id('d0482282-748c-4d00-8c0b-1ace87434e80').thema(thema).entry('Doch.').translate('si').get());
         entries.push(new Builder().id('9be964d0-2b8c-43e3-8058-d4874e5927f2').thema(thema).entry('Das ist richtig.').get());
-        entries.push(new Builder().id('8aef0da2-9d28-4ecc-8f80-55f9bb19accc').thema(thema).entry('Stimmt.').get());
-        entries.push(new Builder().id('7ee613da-21fa-43cd-805d-2ab1298958f9').thema(thema).entry('Genau (so).').get());
+        entries.push(new Builder().id('8aef0da2-9d28-4ecc-8f80-55f9bb19accc').thema(thema).entry('Stimmt.').translate('tout à fait !').get());
+        entries.push(new Builder().id('7ee613da-21fa-43cd-805d-2ab1298958f9').thema(thema).entry('Genau (so).').translate(['Absolument !', 'parfaitement !', 'tout à fait !']).get());
 
         thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', 'Hilfe anbieten/annehmen und ablehnen'];
         entries.push(new Builder().id('f814dff1-ee22-456f-a8e6-53a7555d6e0a').thema(thema).entry(['Kann ich Ihnen helfen?', '- Ja, danke.', '- Gerne.', '- Sehr nett, danke.', '- Nein, danke.']).get());
@@ -253,13 +253,13 @@ class SpeechActsA1Service {
         entries.push(new Builder().id('bfb936b8-4fbb-42b0-a20e-f7339e43186e').thema(thema).entry('Ich nehme die Tomatensuppe und den Salat.').get());
         entries.push(new Builder().id('497cf1c8-2e69-4412-ba77-ad87c39be0e4').thema(thema).entry('Einen Moment.').get());
         entries.push(new Builder().id('a0d6977a-b3ae-4504-a4bb-0aca2b529ac8').thema(thema).entry('Sofort.').get());
-        entries.push(new Builder().id('ab6b092c-8925-4916-9074-8cadc42534bd').thema(thema).entry('Gleich.').get());
+        entries.push(new Builder().id('ab6b092c-8925-4916-9074-8cadc42534bd').thema(thema).entry('Gleich.').translate('tout de suite').get());
 
         thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', ['Rat', 'Empfehlung', 'Warnung']];
         entries.push(new Builder().id('e68c7919-32cf-4beb-b4db-a78bcf92125c').thema(thema).entry('Das ist zu gefährlich/heiß/kalt/...').get());
-        entries.push(new Builder().id('8205b27a-fc7b-4811-ac19-412413af286e').thema(thema).entry('Vorsicht!').get());
-        entries.push(new Builder().id('fe4dada3-75c0-4b08-8cb9-3561207182e3').thema(thema).entry('Achtung!').get());
-        entries.push(new Builder().id('2be55d69-18f3-42ca-bc05-1e94f7a6d910').thema(thema).entry('Halt!').get());
+        entries.push(new Builder().id('8205b27a-fc7b-4811-ac19-412413af286e').thema(thema).entry('Vorsicht!').translate(['Attention !', 'Gare !']).get());
+        entries.push(new Builder().id('fe4dada3-75c0-4b08-8cb9-3561207182e3').thema(thema).entry('Achtung!').translate(['Attention !', 'Gare !', 'garde à vous!']).get());
+        entries.push(new Builder().id('2be55d69-18f3-42ca-bc05-1e94f7a6d910').thema(thema).entry('Halt!').translate('halte !').get());
         entries.push(new Builder().id('aa6582dc-b6b3-458f-b110-1521a63e7839').thema(thema).entry('Hilfe!').get());
         entries.push(new Builder().id('b9450720-a3e0-4fe1-a8f9-d093ea7ac1cb').thema(thema).entry('Stopp!').get());
 
@@ -270,7 +270,7 @@ class SpeechActsA1Service {
 
         thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', 'Vorschlag'];
         entries.push(new Builder().id('6eefbf43-45f0-4f91-af9a-3519c5bd6c0e').thema(thema).entry(['Gehen wir heute ins Kino?', '- Ja, gerne.']).get());
-        entries.push(new Builder().id('330ddfe8-ed76-4ec8-9494-a4064eec8746').thema(thema).entry(['Kommst du mit zu Claudia?', '- Gute Idee.', '- Ja, warum nicht.', '- Gut.', '- Nein, leider nicht.', '- Zeit.', '- Keine Lust']).get());
+        entries.push(new Builder().id('330ddfe8-ed76-4ec8-9494-a4064eec8746').thema(thema).entry(['Kommst du mit zu Claudia?', '- Gute Idee.', '- Ja, warum nicht.', '- Gut.', '- Nein, leider nicht.', '- Keine Zeit.', '- Keine Lust']).get());
 
         thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', 'Versprechung'];
         entries.push(new Builder().id('0955d546-d817-427d-adae-13fe86bb44df').thema(thema).entry(['Morgen bekommst du das Geld.', '- Gut.', '- Danke.', '- Hoffentlich!', '- Versprochen?', '- Wirklich?', '- Ich mache es morgen.', '- Das mache ich!']).get());
@@ -326,7 +326,7 @@ class SpeechActsA1Service {
         entries.push(new Builder().id('9d244000-5b0a-41b7-a6d9-7e731ac769f1').thema(thema).entry(['Geht es Ihnen gut?', '- Ja, super.', '- Na ja, es geht!', '- Ach, nicht so gut.']).get());
 
         thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'gute Wünsche'];
-        entries.push(new Builder().id('ec31bb30-3eca-4519-a58a-cda426f76f41').thema(thema).entry('Alles Gute.').get());
+        entries.push(new Builder().id('ec31bb30-3eca-4519-a58a-cda426f76f41').thema(thema).entry('Alles Gute.').translate(['Mes meilleurs vœux !', 'toutes sortes de bonnes choses']).get());
         entries.push(new Builder().id('665a376c-ffb0-45d7-8a5b-77a02bb26800').thema(thema).entry('Schöne Ferien!').get());
         entries.push(new Builder().id('d5fb4405-9280-4c90-92c8-539ffd3dfcd2').thema(thema).entry('Gut gemacht!').get());
         entries.push(new Builder().id('71fb9dd6-cd72-4ea5-ab28-969eb310270d').thema(thema).entry('Prost!').get());
@@ -337,7 +337,7 @@ class SpeechActsA1Service {
         thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', ['eine Anerkennung aussprechen', 'ein Kompliment machen']];
         entries.push(new Builder().id('4f09dba2-c0a5-4215-8565-4822235c68b7').thema(thema).entry('Sie sprechen (sehr) gut Deutsch.').get());
         entries.push(new Builder().id('cd8fb1d9-3a27-42b2-8bf0-dfcdf09d4a45').thema(thema).entry('Das ist toll/(sehr) schön/gut.').get());
-        entries.push(new Builder().id('7530c370-b3ce-489c-8002-022761df3894').thema(thema).entry('Das schmeckt gut.').get());
+        entries.push(new Builder().id('7530c370-b3ce-489c-8002-022761df3894').thema(thema).entry('Das schmeckt gut.').translate(["c'est bon", "celà a un bon goût"]).get());
 
         thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'Dank'];
         entries.push(new Builder().id('65f1cdbf-ffd7-435c-bae5-ad7bd1df4125').thema(thema).entry(['Danke (schön)!', 'Herzlichen', 'Vielen Dank.', '- Ihnen auch.', '- Danke, ebenfalls.', '- (Aber) Bitte.']).get());
