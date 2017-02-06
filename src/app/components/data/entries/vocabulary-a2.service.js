@@ -308,7 +308,7 @@ class VocabularyA2Service {
         let thema = ['Wortschatz', 'A2', 'Schule / Schulfächer'];
 		entries.push(new Builder().id('').thema(thema).entry('Schule').get());
 		entries.push(new Builder().id('').thema(thema).entry('Schulfächer').get());
-		entries.push(new Builder().id('').thema(thema).entry('e Grundschule').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Grundschule').translate('école primaire').get());
 		entries.push(new Builder().id('').thema(thema).entry('Hauptschule').get());
 		entries.push(new Builder().id('').thema(thema).entry('Realschule').get());
 		entries.push(new Builder().id('').thema(thema).entry('e Gesamtschule').get());

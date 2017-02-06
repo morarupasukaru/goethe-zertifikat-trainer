@@ -105,7 +105,7 @@ class NotionsA1Service {
 
         thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Quantität angeben', 'Dimension/Maßangabe'];
         entries.push(new Builder().id('ffd7295e-58e9-4c50-b77b-a6bb641b1306').thema(thema).entry(['Wie lang/groß ...?', '- 1,5 Meter.']).get());
-        entries.push(new Builder().id('a09246e3-248a-4fc9-aede-f101ea3c952a').thema(thema).entry(['Wie schwer ...?', '- 500 Gramm.', '- 2 Kilo(gramm.']).get());
+        entries.push(new Builder().id('a09246e3-248a-4fc9-aede-f101ea3c952a').thema(thema).entry(['Wie schwer ...?', '- 500 Gramm.', '- 2 Kilo(gramm).']).get());
         entries.push(new Builder().id('8e4fc4bb-909e-4393-91df-0450715ddf8e').thema(thema).entry(['Wie warm ...?', '- 20 Grad.', '- Sehr warm.', '- Nicht kalt.']).get());
         entries.push(new Builder().id('113c9843-822b-41bc-9988-7373e175a5cd').thema(thema).entry(['Wie viel ...?', '- Einen Liter.']).get());
         entries.push(new Builder().id('3dacbb00-d34c-4d9b-8b91-25937a123100').thema(thema).entry(['Wie schnell ...?', '- Nur maximal 60 km/h.']).get());
