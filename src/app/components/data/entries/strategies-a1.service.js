@@ -53,7 +53,7 @@ class StrategiesA1Service {
         entries.push(new Builder().id('e6591ce5-4920-4692-968c-029331013c55').thema(thema).entry(['Kann ich Sie etwas fragen?', 'Darf ich Sie etwas fragen?']).get());
 
         thema = ['Strategien', 'A1', 'Redeorganisation', 'Abschwächung'];
-        entries.push(new Builder().id('747f5683-578d-4dc3-8516-cacddbe3d41c').thema(thema).entry(['Möchtest du noch etwas?', '- Ja, ein bisschen.']).get());
+        entries.push(new Builder().id('747f5683-578d-4dc3-8516-cacddbe3d41c').thema(thema).entry(['Möchtest du noch etwas?', '– Ja, ein bisschen.']).get());
 
         thema = ['Strategien', 'A1', 'Verständnissicherung', 'Verständnishilfen anbieten', 'einzelne Wörter oder Begriffe umschreiben'];
         entries.push(new Builder().id('09c2738c-720a-4c42-bcdb-ddebc5f238b3').thema(thema).entry('Apotheke: Da kann man Medikamente kaufen.').get());
@@ -98,7 +98,7 @@ class StrategiesA1Service {
         entries.push(new Builder().id('0c2e7610-482a-40b5-a1d9-5aabc7f90782').thema(thema).entry('Das (Wort) verstehe ich nicht.').get());
 
         thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'Synonyme oder ähnliche Begriffe verwenden'];
-        entries.push(new Builder().id('3dc1e320-335f-4d4c-84f5-b20b16ac501a').thema(thema).entry(['Wo ist mein Buch ... nicht ein Buch ... ein Schreibbuch.', '- Ah, dein Heft?']).get());
+        entries.push(new Builder().id('3dc1e320-335f-4d4c-84f5-b20b16ac501a').thema(thema).entry(['Wo ist mein Buch ... nicht ein Buch ... ein Schreibbuch.', '– Ah, dein Heft?']).get());
 
         thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'Selbstkorrektur'];
         entries.push(new Builder().id('902b8e48-2fbb-48cb-9ee9-2af13d61b1c7').thema(thema).entry('Ich möchte sagen ... Ich fahre zu Paris ... nein, nach Paris.').get());
