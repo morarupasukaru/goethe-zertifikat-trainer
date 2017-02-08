@@ -848,9 +848,51 @@ class VocabularyA2Service {
     createGEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'G'];
-/*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
-        */
+		entries.push(new Builder().id('').thema(thema).entry('geboren').example('Wann bist du geboren? Am 15. Februar 1998.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Geburtstag, -e').example('Herzlichen Glückwunsch zum Geburtstag.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Gedicht, -e').example('Sie liest gern Gedichte./Goethe hat viele Gedichte geschrieben.').get());
+		entries.push(new Builder().id('').thema(thema).entry('gefährlich').example(['Das ist zu gefährlich.', 'Krebs ist eine gefährliche Krankheit.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('gefallen').example(['Gefällt dir meine neue Hose?', '– Ja, sie sieht toll aus.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('gegen').example(['Martin spielt gegen Sabine.', 'Ich brauche eine Tablette gegen Kopfschmerzen.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Gegenteil, -e').example(['Wie heißt das Gegenteil von „neu”?', '– Alt.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('gehen').example(['Wohin wollt ihr gehen?', 'Wie geht es dir?', 'Der Fernseher geht nicht mehr. Er ist kaputt.', 'Wie geht diese Aufgabe?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('gehören').example('Das Auto gehört mir nicht. Es gehört meinem Vater.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Geld (Sg.)').example('Ich brauche noch Geld für den Einkauf.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Gemüse (Sg.)').example('Ich esse sehr gern Gemüse. Am liebsten Karotten.').get());
+		entries.push(new Builder().id('').thema(thema).entry('gemütlich').example('Dein Zimmer ist sehr gemütlich.').get());
+		entries.push(new Builder().id('').thema(thema).entry('genau').example(['Das musst du mir genau erklären.', 'Hast du die genaue Zeit? Ja, wir treffen uns um 14.20 Uhr.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('genug').example(['Das ist genug.', 'Ich verdiene nicht genug. Ich brauche mehr Geld.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Gepäck (Sg.)').example('Das ist nicht mein Gepäck. Wo sind meine Koffer?').get());
+		entries.push(new Builder().id('').thema(thema).entry('gerade').example(['Was machst du gerade?', '– Ich mache gerade meine Hausaufgaben.', 'Ich bin gerade erst gekommen.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('geradeaus').example('Gehen Sie immer geradeaus, dann kommen Sie zum Museum.').get());
+		entries.push(new Builder().id('').thema(thema).entry('gern, lieber, am liebsten').example(['Wir sehen gern Krimis.', 'Ich gehe lieber ins Theater.', 'Ich möchte am liebsten tanzen gehen.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Geschäft, -e').example('Ich muss noch einkaufen. Wann schließen die Geschäfte?').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Geschenk, -e').example('Ich muss noch ein Geschenk für meine Freundin kaufen. Sie hat Geburtstag.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Geschichte, -n').example(['Mein Onkel erzählt immer Geschichten.', 'In Geschichte hat er eine Eins.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('geschlossen sein').example('Am Montag ist die Bücherei geschlossen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Gesicht, -er').example('Sein Gesicht war müde und traurig.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Gespräch, -e').example('Ich verstehe das Gespräch nicht.').get());
+		entries.push(new Builder().id('').thema(thema).entry('gestern').example('Gestern war Sonntag. Heute ist Montag.').get());
+		entries.push(new Builder().id('').thema(thema).entry('gesund').example('Ich war lang krank. Jetzt bin ich wieder gesund.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Getränk, -e').example(['Hier, die Getränke-Karte.', '– Ein Glas Wasser, bitte.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('gewinnen').example('Man kann bei dem Quiz eine Reise gewinnen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Gitarre, -n').example('Er spielt Gitarre in einer Band.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Glas, ä, -er').example('Kann ich ein Glas Saft haben?').get());
+		entries.push(new Builder().id('').thema(thema).entry('glauben').example(['Ich glaube, Karin spricht sehr gut Englisch.', 'Er glaubt an Gott.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('gleich').example(['Er kommt gleich.', 'Das ist mir gleich.', 'Die beiden Mädchen sind gleich groß.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('gleichfalls').example(['Guten Appetit!', '– Danke gleichfalls!']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Gleis, -e').example('Der Zug kommt auf Gleis vier an.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Glück (Sg.)').example(['Viel Glück!', '– Hoffentlich hast du Glück.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('glücklich').example(['Heute bin ich sehr glücklich.', 'Meine Eltern sind glücklich verheiratet.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Glückwunsch, ü, -e').example('Herzlichen Glückwunsch zum Geburtstag!').get());
+		entries.push(new Builder().id('').thema(thema).entry('gratulieren').example('Ich gratuliere dir herzlich zum Geburtstag.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Grenze, -n').example('Duderstadt lag früher an der Grenze zwischen West- und Ostdeutschland. Jetzt ist es mitten in Deutschland.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Grippe (Sg.)').example('Sie ist krank; sie hat Grippe.').get());
+		entries.push(new Builder().id('').thema(thema).entry('groß').example(['Unser Haus ist groß.', 'Er ist fast zwei Meter groß.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Größe, -n').example(['Ich möchte den Pullover in Größe 38.', 'Größe: 1,70 Meter.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Gruppe, -n').example(['Am Nachmittag besuche ich die Foto-Gruppe.', 'In jeder Gruppe sind fünf Schüler.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Gruß, ü, -e').example('Viele Grüße von Angelika.').get());
+		entries.push(new Builder().id('').thema(thema).entry('gut, besser, am besten').example(['Guten Tag!', 'Das Essen ist hier immer sehr gut.', 'Ich finde deine Idee nicht so gut.', 'Meine Mutter kann das besser.', 'Frau Müller kann das am besten erklären.']).get());
         return entries;
     }
 
@@ -858,7 +900,8 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'H'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
