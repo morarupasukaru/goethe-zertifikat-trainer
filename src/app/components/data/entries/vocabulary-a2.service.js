@@ -43,6 +43,7 @@ class VocabularyA2Service {
         this.addEntries(this.createNEntries(Builder));
         this.addEntries(this.createOEntries(Builder));
         this.addEntries(this.createPEntries(Builder));
+        this.addEntries(this.createQEntries(Builder));
         this.addEntries(this.createREntries(Builder));
         this.addEntries(this.createSEntries(Builder));
         this.addEntries(this.createTEntries(Builder));
@@ -901,6 +902,110 @@ class VocabularyA2Service {
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'H'];
 /*
 		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+
+s Haar, -e
+haben
+s Hähnchen
+e Halle, -n
+hallo
+r Hals, ä, -e
+halten
+e Haltestelle, -n
+r Hamburger, -
+e Hand, ä, -e
+s Handy, -s
+hängen
+hässlich
+e Hauptstadt, ä, -e
+s Haus, ä, -er
+e Hausaufgabe, -n
+s Heft, -e
+heiraten
+heiß
+heißen
+e Heizung, -en
+helfen
+s Hemd, -en
+r Herr, -en
+herrlich
+
+Sie hat lange, braune Haare.
+Wir haben einen Hund und zwei Katzen./
+Ich habe leider keine Zeit.
+Ich nehme Hähnchen mit Salat.
+Wir spielen lieber in der Halle Fußball.
+Hallo! Bist du Michael Schmidt?
+Ich bin krank. Mein Hals tut so weh!
+Alle Busse halten hier./Können wir hier halten?
+Da ist die Haltestelle für den Bus M 27.
+Ich nehme einen Hamburger und eine Cola.
+Er hatte ein paar Blumen in der Hand./
+Wasch dir die Hände.
+Dein Handy klingelt!
+An der Wand hängt eine Deutschlandkarte.
+Die Stadt gefällt mir nicht. Ich finde sie ziemlich
+hässlich.
+Berlin ist die deutsche Hauptstadt.
+Das ist unser Haus./Ich bin zu Hause./
+Ich gehe nach Hause.
+Wir machen unsere Hausaufgaben nach dem Essen.
+Schreibt die Übung in euer Heft.
+Nächste Woche heiratet meine Schwester.
+Im Sommer kann es sehr heiß sein.
+Wie heißt du?/Ich heiße Markus Müller.
+Die Heizung ist kaputt. Es ist kalt hier.
+Hilf mir bitte!/Kann ich dir helfen?
+Ich trage nicht gern Hemden, ich mag lieber T-Shirts.
+Sind Sie Herr Braunmüller?/Siehst du den Herrn dort?
+Im Park kann man herrlich spazieren gehen./
+Das Wetter ist heute herrlich.
+
+herzlich
+heute
+hier
+e Hilfe (Sg.)
+r Himmel (Sg.)
+hinten
+s Hobby, -s
+hoch
+e Hochzeit, -en
+hoffen
+hoffentlich
+höflich
+holen
+s Holz, ö, -er
+hören
+e Hose, -n
+s Hotel, -s
+hübsch
+r Hund, -e
+r Hunger (Sg.)
+
+Herzliche Grüße von Michael./
+Herzlichen Glückwunsch!
+Heute ist Montag. Gestern war Sonntag.
+Wir wohnen hier./Hier gibt es gutes Brot.
+Ich brauche deine Hilfe bei dieser Aufgabe.
+Die Sonne steht hoch am Himmel.
+Ich sitze vorne in der Klasse. Hinten ist es zu laut.
+Meine Hobbys sind Lesen und Tanzen.
+Der Berg ist fast 3000 Meter hoch.
+Die Hochzeit meiner Schwester war sehr langweilig.
+Ich hoffe, du antwortest bald./Ich hoffe, es geht
+dir gut.
+Hoffentlich kommt er morgen mit./
+Hoffentlich geht alles gut!
+Er hat mir einen Platz angeboten. Er war sehr höflich.
+Ich hole dir einen Tee./Holst du die Tassen aus
+der Küche?
+Der Tisch ist aus dickem Holz.
+Hörst du gern Musik?
+Sie trägt immer Hosen und Pullover.
+Wir haben im Urlaub im Hotel gewohnt.
+Toms neue Freundin ist sehr hübsch.
+Magst du Hunde lieber als Katzen?
+Wir haben Hunger. Wann ist das Essen fertig?
+
 		–
         */
         return entries;
@@ -910,7 +1015,48 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'I'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+ich
+e Idee, -n
+r Idiot, -en
+ihr, ihm,
+Ihr, -e
+immer
+in
+e Information, -en
+e Insel, -n
+s Instrument, -e
+intelligent
+interessant
+s Interesse (Sg.)
+interessieren
+s Internet (Sg.)
+
+Ich wohne in Berlin.
+Was machen wir heute? Hast du eine Idee?
+Du bist ein Idiot!
+Wo seid ihr?/Ich möchte ihr helfen./
+Kannst du ihm das erklären? Ist das Ihr Hund?
+Mathe ist immer so langweilig./Er kommt immer
+zu spät.
+Er lebt in Italien/in der Stadt./Wir gehen ins
+Schwimmbad./Der Bus kommt in fünf Minuten./
+In den Ferien/Im Sommer/In zwei Jahren mache
+ich Abitur.
+Sie haben eine Frage? Dann gehen Sie zur
+Information./Hier gibt es Informationen zu
+unserem Programm.
+Rügen ist eine Insel.
+Spielst du ein Instrument?/Ja, Klavier.
+Das ist eine sehr intelligente Frage./
+Er ist ein intelligenter Schüler.
+Das Buch über die Römer ist interessant.
+Die Leute haben viel Interesse an der Ausstellung
+gezeigt.
+Interessiert dich das Problem?/Ich interessiere mich
+für Biologie.
+Du kannst die Information im Internet finden.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -919,7 +1065,39 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'J'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+ja
+e Jacke, -n
+e Jeans (Pl.)
+jeder, -e, -s
+jemand
+jetzt
+r Job, -s
+joggen
+r Joghurt, -s
+e Jugendherberge, -n
+r/e Jugendliche, -n
+jung
+r Junge, -n
+junge Leute (Pl.)
+
+Kommst du mit?/Ja, gern.
+Du brauchst eine Jacke, es ist kalt.
+Er trägt heute Jeans und ein Hemd.
+Wir fahren jeden Sommer nach München.
+Kann das jemand lesen?
+Das ist jetzt nicht mehr wichtig.
+Ich suche einen Ferienjob. Ich will Geld verdienen.
+Mein Bruder ist er sportlich. Er joggt jeden Tag.
+Am Morgen esse ich Müsli und Joghurt.
+Wir schlafen in der Jugendherberge. Sie ist billiger
+als das Hotel.
+Viele Jugendliche finden diese Musik toll.
+Meine Eltern sind noch jung./Du bist noch zu jung,
+vielleicht in zwei Jahren.
+Der Junge ist neu in unserer Klasse.
+Viele junge Leute besuchen Sprachkurse im Ausland.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -928,7 +1106,141 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'K'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+r Kaffee, -s
+r Kakao (Sg.)
+kalt
+e Kamera, -s
+kaputt
+e Karte, -n
+e Kartoffel, -n
+r Käse (Sg.)
+e Kasse, -n
+e Katze, -n
+kaufen
+kein, e
+r Keller, -
+kennen
+kennenlernen
+s Kind, -er
+r Kindergarten, ä, -
+s Kino, -s
+r Kiosk , -e
+e Kirche, -n
+klappen
+klar
+
+Möchtest du eine Tasse Kaffee?
+Ich trinke lieber Kakao. (Siehe auch Schokolade.)
+Im Winter ist es hier sehr kalt./Mir ist kalt.
+Meine Kamera ist neu. Deshalb mache ich viele Fotos.
+Der Automat ist kaputt.
+Schreibst du mir eine Karte aus den Ferien?/
+Wollen wir Karten spielen?/Holst du die Karten für
+das Theater?/Ich brauche noch eine Fahrkarte für
+den Bus./Kann ich hier mit der Karte zahlen?/
+Hast du eine Straßenkarte von Bayern?
+Aus Kartoffeln macht man Pommes frites.
+Abends esse ich gern ein Brot mit Käse.
+Die Kasse ist neben dem Eingang. Dort kannst du
+bezahlen.
+Hast du ein Haustier?/Ja, eine Katze.
+Ich möchte einen Pullover kaufen.
+Ich habe keine Lust/Zeit.
+Räum die alten Sachen in den Keller.
+Kennst du Frau Braunmüller?/Nein, leider nicht.
+Möchtest du meine Freunde kennenlernen?/
+Im Urlaub lernt man viele neue Leute kennen
+Die Kinder sind in der Schule./Sie haben vier Kinder,
+zwei Jungs und zwei Mädchen.
+Meine kleine Schwester geht in den Kindergarten.
+Kommt ihr mit ins Kino? Es läuft ein interessanter
+Film.
+Das kannst du am Kiosk kaufen.
+Die Kirche ist am Marienplatz.
+Ich wollte Herrn Meyer treffen. Es hat aber nicht
+geklappt.
+Ist alles klar?/Machst du das?/Na, klar!/
+Das Wasser in diesem Fluss ist klar.
+
+e Klasse, -n
+s Klavier, -e
+s Kleid, -er
+e Kleidung (Sg.)
+klein
+s Klima
+klingeln
+r Klub, -s
+klug
+kochen
+r Koffer, -
+komisch
+kommen
+kompliziert
+können
+s Konzert, -e
+r Kopf, ö, -e
+korrigieren
+kosten
+kostenlos
+krank
+s Krankenhaus, ä, -er
+e Kreuzung, -en
+r Krimi, -s
+r Kriminalfilm, -e
+r Kuchen, -
+e Küche, -n
+r Kugelschreiber, -
+kühl
+r Kühlschrank, ä, -e
+r Kurs, -e
+kurz
+
+In unserer Klasse sind 25 Schüler.
+Spielst du ein Instrument?/Ja, Klavier.
+Das Kleid ziehe ich zur Hochzeit an.
+Ich interessiere mich für Kleidung und Mode.
+Mein Bruder ist noch klein./Mein Zimmer ist klein.
+Das Klima in Afrika ist heiß und trocken.
+Du kannst bei Hausnummer 5 klingeln./
+Das Telefon klingelt.
+Wollen wir in einen Klub zum Tanzen gehen?
+Eine kluge Antwort./Sie ist ein kluges Mädchen.
+Wer kocht bei euch?/Meistens kocht mein Vater
+das Abendessen.
+Ich muss meinen Koffer noch packen. Ich fliege
+morgen nach Istanbul.
+Er hat ganz komisch reagiert./Der Film ist sehr
+komisch. Ich habe viel gelacht.
+Ich komme aus München./Kommt Markus auch
+zur Feier?
+Die Übung ist ziemlich kompliziert. Kann mir
+jemand helfen?
+Er kann gut kochen./Kannst du Spanisch?/
+Wann kannst du das machen?
+Wir gehen heute Abend ins Konzert.
+Mein Kopf tut weh. Ich brauche eine Tablette.
+Die Lehrerin hat den Aufsatz korrigiert.
+Das Buch kostet 20 Euro.
+Das Programm kannst du kostenlos bekommen.
+Du musst es nicht bezahlen.
+Ich bin krank. Ich muss zum Arzt.
+Meine Freundin ist im Krankenhaus.
+Sie ist sehr krank.
+An der Kreuzung musst du rechts fahren.
+Ich lese gerne Krimis.
+Im Fernsehen gibt es oft Kriminalfilme.
+Zum Geburtstag backe ich dir einen Kuchen.
+Die Tassen sind in der Küche.
+Schreibe in der Prüfung mit dem Kugelschreiber?
+Es ist heute ziemlich kühl. Nimm eine Jacke mit.
+Die Milch ist im Kühlschrank.
+In den Ferien mache ich einen Deutschkurs.
+Sie hat kurze Haare./Die Hose ist zu kurz.
+
+
+
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -937,7 +1249,103 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'L'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+
+lachen
+e Lampe, -n
+s Land, ä, -er
+e Landkarte, -n
+e Landschaft, -en
+lang
+
+Onkel Fritz lacht viel. Er ist lustig./
+Sie hat über mich gelacht.
+Es ist so dunkel. Ich brauche eine Lampe.
+Deutschland ist ein schönes Land.
+Das ist eine Landkarte von Europa.
+Mir gefällt die Landschaft am Rhein.
+Der Weg ist zu lang. Du kannst nicht zu Fuß gehen./
+Das Auto ist drei Meter lang.
+
+lange
+langsam
+langweilig
+lassen
+laufen
+laut
+leben
+e Lebensmittel (Pl.)
+leer
+legen
+leicht
+leid
+leider
+leihen
+leise
+e Leistung, -en
+lernen
+lesen
+r, e, s letzte
+e Leute (Pl.)
+s Licht, -er
+lieb
+lieben
+lieber
+lieb haben
+Lieblings-
+s Lied, -er
+liegen
+links
+lockig
+r Löffel, -
+e Lust (Sg.)
+lustig
+
+Wartest du schon lange?/Ich bin schon lange hier.
+Sprich bitte langsamer, ich verstehe dich nicht.
+Physik ist langweilig. Es interessiert mich nicht./
+Der Film war langweilig.
+Ihr könnt die Bücher zu Hause lassen./
+Lass mich in Ruhe!
+Wir laufen nach Hause. Ich will nicht mit dem
+Auto fahren.
+Die Musik ist zu laut. Ich verstehe kein Wort.
+Er lebt in Berlin./Sie lebt bei ihren Eltern./
+Meine Großmutter lebt nicht mehr.
+Lebensmittel bekommst du im Supermarkt.
+Mein Glas ist leer. Kann ich noch ein Mineralwasser
+haben?
+Leg bitte das Buch auf den Tisch.
+Die Hausaufgaben sind leicht./
+Mein Rucksack ist leicht.
+Es tut mir leid.
+Ich kann leider nicht kommen. Ich muss noch
+arbeiten.
+Kannst du mir dein Buch leihen? Ich bringe es
+morgen zurück.
+Mach die Musik bitte leiser!
+Deine Leistungen in Mathematik sind nicht gut genug.
+Karin lernt Tennis spielen./Ich muss noch für die
+Schule lernen.
+In meiner Freizeit lese ich gern Krimis.
+Im letzten Jahr hat sie Abitur gemacht. Jetzt ist
+sie Studentin.
+In unserem Haus wohnen viele Leute.
+Mach bitte das Licht an. Ich sehe nichts.
+Lieber Franz!/Meine Katze ist sehr lieb.
+Sie liebt ihren Beruf./Er liebt sie.
+Tee oder Kaffee? Ich möchte lieber Tee.
+Hast du mich lieb?/Ich habe meine Eltern lieb.
+Meine Lieblingsfarbe ist Blau.
+Wir singen gern Lieder.
+Da liegt ja meine Zeitung./Bonn liegt am Rhein.
+Das Rathaus ist links neben dem Museum.
+Sie hat kurze, lockige Haare.
+Ich brauche einen Löffel für die Suppe.
+Ich habe jetzt keine Lust.
+Erzähl eine lustige Geschichte!
+
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -946,7 +1354,162 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'M'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+
+machen
+s Mädchen, -
+s Mal, -e
+
+Am Samstag machen wir einen Ausflug./
+Das macht nichts!/Das macht € 5,70.
+Die Mädchen spielen auch Fußball./
+In der Klasse sind 15 Mädchen und 12 Jungs.
+Ich war zwei Mal in England./Bis zum nächsten Mal!
+
+mal
+man
+manchmal
+r Mann, ä, -er
+r Mantel, ä, -
+r Markt, ä, -e
+r Marktplatz, ä, -e
+e Marmelade, -n
+e Maschine, -n
+e Maus, ä, -e
+s Meer, -e
+mehr
+mein, -e
+meinen
+e Meinung, -en
+e meisten
+r Mensch, -en
+s Messer, -
+e Milch (Sg.)
+mindestens
+s Mineralwasser, ä
+minus
+mit
+mitbringen
+mitgehen
+mitkommen
+mitmachen
+mitnehmen
+r Mitschüler, -
+e Mitschülerin, -nen
+mitspielen
+s Mittagessen, -
+
+Kannst du bitte mal aufpassen?/Komm mal her!/
+Sag mal, wie findest du meine neue Hose?
+Hier darf man nicht laut sprechen.
+Ich bin manchmal sehr traurig, aber nicht immer.
+Ein Mann geht mit seinem Hund spazieren./
+Mein Mann ist Arzt.
+Es ist kalt. Zieh einen Mantel an.
+Heute ist hier Markt./Auf dem Markt gibt es Obst
+und Gemüse.
+Der Bus fährt bis zum Marktplatz.
+Was möchtest du zum Frühstück?/
+Brot mit Marmelade.
+Ist die Maschine kaputt?/Er fliegt morgen mit der
+ersten Maschine nach Paris./Die Harley Davidson ist
+eine tolle Maschine.
+Ich glaube, im Keller ist eine Maus./
+An meinem Computer ist die Maus kaputt.
+In den Ferien fahren wir ans Meer.
+Ich habe kein Geld mehr./Ich brauche
+mehr Taschengeld./Du musst mir noch mehr von
+deiner Reise erzählen.
+Meine Freundin heißt Gaby.
+Ich meine, das ist zu teuer.
+Sag mir bitte deine Meinung zu diesem Thema./
+Meiner Meinung nach ist das eine gute Idee,
+Die meisten Touristen wollen den Kölner Dom
+besichtigen.
+Wie viele Menschen leben in Berlin?/
+Ich glaube, die Stadt hat 3 Millionen Menschen.
+Ich habe nur eine Gabel. Kann ich noch ein Messer
+haben?
+Ich trinke den Kaffee immer mit Milch./
+Holst du die Milch aus dem Kühlschrank?
+Ich habe mindestens 30 Minuten gewartet./
+Du brauchst mindestens 40 Punkte./
+Schreibe mindestens 50 Wörter.
+Was möchtest du trinken?/Ein Mineralwasser.
+Sechs minus zwei ist vier.
+Ich spiele mit Andrea./Er fährt mit dem Bus.
+Was bringst du zur Party mit?
+Wir gehen alle mit ins Kino.
+Ich gehe ins Kino. Kommst du mit?
+Komm, mach mit! Das Spiel ist lustig.
+Könnt ihr mich im Auto mitnehmen? Ich will nicht zu
+Fuß nach Hause gehen.
+Meine Mitschüler ärgern mich immer.
+Ich möchte auch mitspielen!/Das geht nicht, wir sind
+schon vier Mitspieler.
+Zum Mittagessen sind immer alle zu Hause./
+Zum Mittagessen gibt es Nudeln.
+
+e Mitte, -n
+e Mitteilung, -en
+e Mode (Sg.)
+e Modenschau, -en
+modern
+e Möbel (Pl.)
+mögen
+möglich
+r Moment, -e
+r Mond, -e
+s Moped, -s
+morgen
+r Motor, -en
+s Motorrad, ä, -er
+r Motorroller, -
+müde
+r Müll (Sg.)
+s Müsli, -s
+müssen
+s Museum, Museen
+e Musik, -en
+r Musiker, -
+e Musikerin, -nen
+
+In der Mitte steht ein Tisch./Mitte August fahre ich in
+den Urlaub.
+Du hörst drei Mitteilungen für Jugendliche im Radio.
+Meine Freundin interessiert sich für Mode./Das ist
+die neue Mode: blaue T-Shirts und grüne Hosen.
+Die Modenschau war toll. Es gab so viele schöne
+Kleider.
+Gelbe Pullover sind nicht mehr modern./Diese Möbel
+sind jetzt modern.
+Sie kaufen neue Möbel: einen Tisch, zwei Stühle und
+ein Bett.
+Ich mag gern Spaghetti./Ich mag keine Milch.
+Ich kann nicht kommen, es ist leider nicht möglich.
+Warte bitte einen Moment!/In diesem Moment fängt
+das Spiel an.
+Der Mond war ganz hell.
+Er hat ein Moped bekommen. Damit fährt er nun in
+die Schule.
+Heute ist Montag. Morgen ist Dienstag.
+Der Motor ist kaputt. Mein Auto fährt nicht.
+Ich fahre mit dem Motorrad zur Arbeit.
+Ich möchte an meinem 16. Geburtstag einen
+Motorroller kaufen.
+Ich bin müde. Ich gehe heute früh ins Bett.
+Bringst du bitte den Müll weg/raus?/
+Lassen Sie keinen Müll im Park liegen!
+Ich esse jeden Morgen ein Müsli mit Joghurt.
+Mein Zimmer muss ich allein aufräumen./
+Meine Mutter muss von acht bis fünf arbeiten.
+Wir gehen am Sonntag ins Museum und sehen uns
+die Bilder von Picasso an.
+Ich höre gern Musik./Ich mache gern Musik mit
+meiner Band.
+Ich lerne Klavier spielen. Ich möchte Musiker werden.
+
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -955,7 +1518,90 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'N'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+
+nach
+r Nachbar, -n,
+e Nachbarin, -nen
+e Nachricht
+e Nähe (Sg.)
+r, e, s nächste
+r Name, -n
+nämlich
+e Nase, -n
+
+Wohin fährst du?/Nach Berlin./Nach der Schule
+mache ich meine Hausaufgaben./Es ist schon fünf
+nach eins.
+Die Nachbarn hier im Haus sind sehr nett.
+Das ist eine gute Nachricht./Jetzt kommen im Radio
+die Nachrichten für Schüler./Du hörst die Nachricht
+noch einmal.
+Elmshorn liegt in der Nähe von Hamburg.
+Wann kommst du wieder?/In der nächsten Woche.
+Mein Name ist Peter Niemöller.
+Ich habe es nicht gekauft, es war nämlich sehr teuer.
+Er hat blaue Augen und eine große Nase.
+
+nass
+e Natur, -en
+natürlich
+neben
+negativ
+nehmen
+nein
+nennen
+nervös
+nett
+neu
+nicht
+nichts
+nie
+niemand
+noch
+normal
+e Note, -n
+notieren
+nötig
+e Nudel, n
+e Nummer, n
+nur
+nützlich
+
+Die Straßen sind vom Regen ganz nass.
+Er ist am liebsten draußen in der freien Natur.
+Kann ich hier schlafen?/Ja, natürlich.
+Petra sitzt neben mir./Die Bäckerei ist direkt neben
+dem Supermarkt.
+Sieh das nicht so negativ!
+Nehmen Sie den Bus zum Marktplatz!/Nimm noch
+ein Stück Kuchen.
+Kommst du mit?/Nein, leider nicht.
+Ich heiße Elisabeth, aber alle nennen mich Betty.
+In Prüfungen bin ich immer so nervös.
+Wie findest du Maria?/Sie ist sehr nett.
+Ist der Computer neu?/Mein Auto ist noch neu.
+Ist das gut?/Nein, es gefällt mir nicht.
+Ich möchte nichts essen.
+Ich war noch nie in Frankreich.
+Kann mir niemand helfen?
+Jetzt muss ich noch Hausaufgaben machen./
+Vielleicht kommt er noch.
+Ich fühle mich schlecht./Das ist normal. Du bist krank.
+Hast du gute Noten in der Schule?/Die Noten liegen
+auf dem Klavier.
+Habt ihr alles notiert?/Notiert euch den Termin.
+Das brauchen wir nicht, das ist nicht nötig.
+Heute gibt es Nudeln.
+Bitte, sag mir deine Telefonnummer./Können Sie mir
+Ihre Nummer geben?/Sie haben Zimmer Nummer 14.
+Ich möchte nur ein Glas Wasser./Er ist nur heute in
+der Stadt.
+Du musst Sprachen lernen, das ist immer nützlich.
+
+
+
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -964,7 +1610,48 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'O'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+oben
+s Obst (Sg.)
+oder
+offen
+öffnen
+oft
+ohne
+s Ohr, -en
+r Ohrring, -e
+e Oper, -n
+e Operation, -en
+e Orange, -n
+e Ordnung, -en
+
+Oben auf dem Berg ist ein Restaurant.
+Wir essen immer viel Obst: Äpfel, Bananen ...
+Trinkst du Tee oder Kaffee?
+Das Fenster ist offen, kannst du es bitte schließen?/
+Die Geschäfte sind bis 20.00 Uhr offen.
+Kannst du bitte die Tür öffnen? Die Geschäfte sind am
+Sonntag geöffnet.
+Wir gehen im Sommer oft im Park spazieren.
+Ein Sonntag ohne meine Freunde ist langweilig./
+Ich trinke meinen Kaffee ohne Zucker.
+Er hat große Ohren und eine kleine Nase.
+Sie trägt einen kleinen Ohrring.
+Heute Abend gehen wir in die Oper./Dies ist eine
+Oper von Mozart.
+Ich muss ins Krankenhaus: Die Operation ist nötig.
+Ich kaufe drei Kilo Orangen.
+Das ist in Ordnung, kein Problem./Kannst du hier
+nicht Ordnung machen?
+
+organisieren
+r Ort, -e
+
+Ich organisiere das Fest. Ich habe also viel zu tun.
+Dieser Ort hat 3000 Einwohner./
+Dieser Ort liegt in den Bergen.
+
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -973,7 +1660,131 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'P'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+
+s Paar, -e
+ein paar
+s Päckchen, -
+packen
+s Paket, -e
+s Papier, -e
+r Park, -s
+e Party, -s
+passen
+passieren
+e Pause, -n
+s Pech (Sg.)
+e Person, -en
+s Pferd, -e
+e Pflanze, -n
+e Pizza, -en
+s Plakat, -e
+r Plan, ä, -e
+planen
+r Platz, ä, -e
+plötzlich
+plus
+e Pommes frites (Pl.)
+positiv
+e Post (Sg.)
+s Poster, -
+e Postkarte, -n
+praktisch
+r Preis, -e
+prima
+pro
+probieren
+
+Karla und Uwe sind ein Liebespaar./Ich brauche ein
+Paar Schuhe.
+Wir waren ein paar Tage am Meer.
+Ist das Päckchen von Tante Claudia endlich
+angekommen?
+Hast du den Koffer schon gepackt?
+Ich muss das Paket zur Post bringen.
+Kann ich ein Blatt Papier haben. Ich will einen Brief
+schreiben.
+Wir gehen gern im Park spazieren.
+Die Party war toll.
+Das Kleid passt mir nicht mehr. Es ist zu klein.
+Was passiert in der Geschichte?/
+Ist dir etwas passiert?
+Du arbeitest zu viel. Mach doch eine Pause./
+Von 12.00 bis 12.30 Uhr machen wir Mittagspause.
+Das war wirklich Pech!/Ich habe Pech gehabt.
+Es kostet drei Euro pro Person.
+Ich möchte so gern ein Pferd haben! Ich reite
+sehr gern.
+In unserem Garten sind viele Pflanzen.
+Heute gibt es bei uns Pizza mit Tomaten und Käse.
+Was steht auf dem Plakat?
+Wie findest du meinen Plan?/Hast du einen Stadtplan
+von Berlin?/Ich brauche noch einen Fahrplan für
+den Bus.
+Wir planen gerade unsere Ferien.
+Das ist mein Platz./In meiner Wohnung ist
+wenig Platz./Ist der Platz noch frei?
+Plötzlich war das Licht aus.
+Sieben plus drei ist zehn.
+Wie willst du die Pommes frites?/Mit Ketchup.
+Alles wird gut. Denk positiv!/Das ist ein sehr
+positives Ergebnis.
+Ich bringe die Briefe zur Post.
+Was sind das für Poster?/Ich bin Fan vom FC Bayern.
+Ich schreibe dir aus dem Urlaub eine Postkarte.
+Diese Maschine ist sehr praktisch.
+Die Preise für Autos sind ziemlich hoch./
+Der erste Preis im Quiz ist eine Reise nach Paris.
+Ich finde deine Idee prima!/Was können wir tun?
+Hast du eine Idee?
+Das macht 20 Euro pro Person.
+Kann ich das Kleid probieren?/
+Möchtest du den Kuchen probieren?
+
+s Problem, -e
+s Programm, -e
+s Projekt, -e
+r Prospekt, -e
+r Pullover, -
+pünktlich
+putzen
+s Puzzle, -s
+
+Hast du Probleme mit deinen Eltern?/
+Ich habe ein Problem mit der Grammatik.
+Wir machen gerade ein Programm für die Klassen-
+reise./Das Programm im Radio ist schlecht.
+Wir arbeiten in der Schule an einem Projekt über die
+Umwelt.
+Schicken Sie mir bitte einen Prospekt von Ihrem
+Hotel ...
+Du brauchst keinen Pullover, es ist warm.
+Kommt bitte pünktlich um 18.00 Uhr nach Hause!
+Ich muss noch das Bad putzen.
+Das ist ein Puzzle mit 5000 Teilen.
+
+
+
+
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
+        */
+        return entries;
+    }
+
+    createQEntries(Builder) {
+        let entries = [];
+        let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'Q'];
+/*
+r Quatsch (Sg.)
+quer
+s Quiz (Sg.)
+
+Ich finde, das ist nur Quatsch!
+Im Sommer reisen wir quer durch Deutschland.
+Das ist ein Quiz für Kinder.
+
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -982,7 +1793,9 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'R'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+TODO
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -991,7 +1804,9 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'S'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+TODO
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -1000,7 +1815,117 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'T'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+tanzen
+e Tasche, -n
+s Taschengeld (Sg.)
+r Taschenrechner, -
+e Tasse, -n
+tatsächlich
+s Taxi, -s
+r Tee, -s
+teilen
+teilnehmen
+s Telefon, -e
+telefonieren
+r Teller, -
+Tennis spielen
+r Teppich, -e
+r Termin, -e
+teuer
+s Theater, -
+s Thema, -en
+s Tier, -e
+
+Ich tanze gern in der Disco.
+Die Tasche ist sehr schwer.
+Wie viel Taschengeld bekommt ihr im Monat?/
+15 Euro.
+Ich rechne das mit dem Taschenrechner.
+Ich möchte eine Tasse Tee.
+Willst du das tatsächlich machen?
+Wie kommst du zum Flughafen?/Ich nehme ein Taxi.
+Im Winter trinken wir viel Tee.
+Wir teilen den Kuchen in 10 Stücke.
+Willst du auch am Wettbewerb teilnehmen?
+Das Telefon klingelt.
+Ich telefoniere oft mit meinen Großeltern in
+Frankfurt.
+Ich möchte bitte einen Teller Suppe.
+Mein Hobby ist Tennis spielen.
+In meinem Zimmer ist ein roter Teppich.
+Mach bitte einen Termin mit der Zahnärztin.
+Willst du den Computer kaufen?/Nein, er ist zu teuer.
+Gestern waren wir im Theater, es gab ein Stück von
+Shakespeare.
+Welches Thema hast du gewählt?/
+Ich schreibe über „meine beste Freundin“.
+Ich möchte ein Tier haben: eine Katze oder
+einen Hund.
+
+r Tisch, -e
+r Titel, -
+e Toilette, -n
+toll
+e Tomate, -n
+e Torte, -n
+tot
+total
+r Tourist, -en
+e Touristin, -nen
+tragen
+trainieren
+s Training (Sg.)
+r Traum, ä, -e
+traurig
+treffen (sich)
+e Treppe, -n
+trinken
+trocken
+trotzdem
+trösten
+s T-Shirt, -s
+tschüss!
+tun
+e Tür, -en
+typisch
+
+Das Buch liegt auf dem Tisch./Ich kaufe noch einen
+Tisch und vier Stühle.
+Finde einen Titel für den Text.
+Wo ist die Toilette?
+In den Ferien war es toll.
+Die Tomate ist noch grün. Ich mag nur rote Tomaten.
+Zum Geburtstag gibt es immer eine große Torte.
+Meine Katze ist tot. Deshalb bin ich traurig.
+Ist das Buch spannend?/Nein, es ist total langweilig.
+Viele ausländische Touristen kommen nach Bayern.
+Viele ausländische Touristinnen und Touristen
+kommen nach Bayern.
+Er trägt kurze Hosen./Soll ich deinen Koffer tragen?
+Machst du viel Sport? /Ja, ich muss jeden Tag
+trainieren.
+Wir gehen zum Fußball-Training.
+Heute Nacht hatte ich einen schönen Traum.
+Ich bin sehr traurig. Meine Katze ist weg.
+Am Nachmittag treffe ich meine Freunde./
+Wir treffen uns vor dem Café.
+Hier ist die Treppe zum Keller.
+Wir trinken gern Saft./Kann ich etwas zu trinken
+haben?
+Ich habe mein Kleid gewaschen. Ist es jetzt schon
+trocken?
+Der Film ist traurig, aber ich finde ihn trotzdem
+schön.
+Ich war traurig, aber meine Mutter hat mich getröstet.
+Wie findest du mein T-Shirt? Es ist neu und passt gut
+zu meiner Hose.
+Also bis bald, tschüss!
+Was soll ich denn tun?
+Mach bitte die Tür zu./Es klingelt an der Tür.
+Ich glaube, das ist typisch deutsch!
+
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -1009,7 +1934,65 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'U'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+e U-Bahn, -en
+üben
+über
+überall
+übermorgen
+e Überschrift, -en
+e Uhr, -en
+um
+e Umwelt (Sg.)
+r Umweltschutz (Sg.)
+unbedingt
+und
+
+Wie komme ich zum Bahnhof?/Du kannst die
+U-Bahn nehmen.
+Ich muss jeden Tag Klavier üben.
+Jetzt gehen wir über die Straße./Das Bild hängt über
+dem Bett.
+Hast du das Buch gefunden?/Nein, ich habe schon
+überall gesucht.
+Heute ist Montag, übermorgen ist Mittwoch.
+Finden Sie eine Überschrift für den Text.
+Hast du keine Uhr?/Es ist sechs Uhr.
+Um 7.30 Uhr kommt der Zug.
+Diese Fabrik ist schädlich für die Umwelt.
+Ich finde Umweltschutz sehr wichtig.
+Das musst du unbedingt lesen.
+Karl und Susanne kommen auch.
+
+und so weiter
+unerträglich
+r Unfall, ä, -e
+e Universität, -en
+unser, -e
+r Unsinn (Sg.)
+unten
+unter
+r Unterricht (Sg.)
+unterschreiben
+e Unterschrift, -en
+
+u.s.w.
+Wie war die Party?/Sehr laut, die Musik war
+unerträglich.
+Heute war ein schlimmer Unfall in der Gartenstraße.
+Drei Autos sind kaputt./Ich hatte einen Unfall mit
+dem Motorrad.
+Mein Bruder studiert an der Universität Mathematik.
+Das ist unser neues Auto.
+Wir machen immer viel Unsinn und ärgern unsere
+Mutter..
+Wir wohnen ganz unten im Haus.
+Der Hund liegt unter dem Tisch.
+Der Unterricht dauert bis 13 Uhr.
+Bitte unterschreiben Sie hier auf dem Formular.
+Auf dem Formular fehlt noch die Unterschrift.
+
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -1018,7 +2001,103 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'V'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+verabredet sein
+verbieten
+verboten sein
+verdienen
+vergessen
+vergleichen
+verkaufen
+verkleiden (sich)
+verletzen (sich)
+verletzt sein
+verliebt sein
+verlieren
+verreisen
+verrückt
+verschieden
+e Verspätung, -en
+versprechen
+verstehen
+versuchen
+viel, -e
+vielleicht
+r Vogel, ö, -
+r Volleyball, ä, -e
+
+Ich bin um 15 Uhr mit meiner Freundin verabredet.
+Wir treffen uns im Park.
+Kommst du heute Abend mit?/Nein, mein Vater hat es
+mir verboten.
+Hier ist das Rauchen verboten.
+In den Ferien will ich arbeiten und Geld verdienen.
+Ich vergesse oft die Vokabeln.
+Wir haben die Ergebnisse verglichen./
+Vergleichen Sie die Preise.
+Er will seine alten Sachen auf dem Flohmarkt
+verkaufen.
+Im Karneval verkleidet sie sich gern.
+Hast du dich bei dem Unfall schwer verletzt?
+Bist du verletzt?
+Ich bin total in ihn/sie verliebt.
+Ich habe mein Geld verloren./Mein Vater hat seine
+Arbeit verloren.
+Herr Müller ist verreist. Er kommt am 15. August
+wieder.
+Ich finde die Idee verrückt./
+Sie trägt so verrückte Kleider.
+Meine Schwester und ich, wir sind verschieden./
+Ich habe verschiedene Hobbys.
+Hat der Zug aus Dresden Verspätung? Ja, 10 Minuten.
+Ich komme sicher, das verspreche ich.
+Ich verstehe dich nicht. Kannst du bitte langsamer
+sprechen?
+Du kannst es noch einmal versuchen.
+Hast du viele Freunde?/Es regnet viel.
+Kannst du mir vielleicht helfen?/Vielleicht kommt er.
+Morgens singen die Vögel im Garten.
+Wir haben Volleyball gespielt.
+
+
+von
+vor
+vor allem
+vorbei
+vorbereiten
+vorgestern
+vorher
+vorn
+r Vorname, -n
+r Vorschlag, ä, -e
+vorschlagen
+vorsichtig
+vorstellen (sich)
+
+Der Computer ist ein Geschenk von meinem Onkel./
+Sie arbeitet von sieben bis neun./Er kommt von
+der Arbeit.
+Ich treffe Peter vor dem Kino./Vor dem Frühstück
+dusche ich.
+Ich möchte vor allem das Museum sehen.
+Fahr geradeaus, dann kommst du an der Kirche
+vorbei./Leider sind die Ferien jetzt vorbei.
+Hast du alles für die Party vorbereitet?/
+Ich muss mich noch auf die Prüfung vorbereiten.
+Wo warst du vorgestern?
+Um sieben Uhr fahren wir weg, aber vorher muss ich
+telefonieren.
+Das Auto ist vorn ein bisschen kaputt.
+Wie ist dein Vorname?
+Mach doch einen Vorschlag fürs Wochenende!
+Darf ich etwas vorschlagen?/Ich schlage vor,
+wir machen eine Pause.
+Seid vorsichtig auf der Straße! Es liegt viel Schnee!
+Stell dich bitte mit vier Sätzen vor: Name, Alter,
+Wohnort, Schule.
+
+
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -1027,7 +2106,162 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'W'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+wach
+wählen
+wahr
+wahrscheinlich
+r Wald, ä, -er
+wandern
+wann
+warm
+warten
+warum
+was
+waschen
+was für ein, e
+s Wasser (Sg.)
+wechseln
+wecken
+r Weg, -e
+wegbringen
+wegfahren
+weggehen
+
+Ich war schon um sechs Uhr wach.
+Wählen Sie eine Nummer./Haben Sie schon ein
+Getränk gewählt?
+Die Geschichte ist sicher nicht wahr./Das schmeckt
+gut, nicht wahr?
+Wo ist Konrad?/Er ist wahrscheinlich noch im Büro.
+Gehst du gern im Wald spazieren?/Ja, die Bäume
+gefallen mir.
+Am Wochenende wandern wir in den Bergen.
+Wann hast du Geburtstag?
+Im Sommer ist es hier sehr warm.
+Ich warte auf meine Eltern./Kannst du kurz warten?
+Ich bin gleich fertig.
+Warum antwortest du nicht?
+Was ist das?
+Ich will meine Haare waschen./
+Ich muss meine Kleider noch waschen.
+Was für eine Bluse möchten Sie?
+Das Wasser im See ist so kalt./Gib mir bitte ein Glas
+Mineralwasser.
+Ich möchte Dollar in Euro wechseln./Können wir das
+Thema wechseln?
+Meine Mutter weckt mich um 7.30 Uhr.
+Können Sie mir den Weg zum Bahnhof zeigen?
+Kannst du bitte die Post wegbringen?
+Leider muss ich jetzt wegfahren.
+Am Abend möchte ich noch mit meinen Freunden
+weggehen.
+
+wehtun
+weil
+r Wein, -e
+weinen
+weit
+weiter
+weitermachen
+weiterspielen
+welcher, e, s
+e Welt, -en
+wenig, -e
+wenigstens
+wenn
+wer (wen, wem)
+werden
+r Wettbewerb, -e
+s Wetter (Sg.)
+wichtig
+wie
+(vgl. Grammatik)
+wieder
+wiederholen
+s Wiedersehen, -
+e Wiese, -n
+wie viel, -e
+willkommen
+r Wind, -e
+wir
+wirklich
+wissen
+r Witz, -e
+witzig
+wo
+woher
+wohin
+wohnen
+e Wohnung, -en
+s Wohnzimmer, -
+wollen
+e Wolke, -n
+s Wort, -e, ö, -er
+
+Mein Kopf tut so weh.
+Er kommt heute nicht, weil er lernen muss.
+Möchtest du ein Glas Wein?
+Ich habe geweint, weil ich sehr traurig bin.
+Wir fahren zum See, das ist nicht weit von hier.
+Lies bitte weiter!
+Können wir jetzt weitermachen?
+Spielt doch weiter!
+Welche CD möchtest du?
+Er ist in der ganzen Welt bekannt./
+Es gibt viele Probleme auf der Welt.
+Ich habe heute wenig Zeit.
+Du musst aber wenigstens anrufen.
+Ich rufe dich an, wenn ich Zeit habe.
+Wer kommt mit?/Wen möchtest du einladen?/
+Wem gehört die Tasche?
+Ich möchte Arzt werden.
+Das ist ein Wettbewerb: Man muss eine Frage richtig
+beantworten, dann kann man eine Reise gewinnen.
+Das Wetter war schlecht. Es hat nur geregnet.
+Ich glaube, die Frage ist wichtig./Das ist wichtig
+für mich.
+Wie heißt das auf Deutsch?/Er schreibt wie ein Kind.
+Ich möchte wieder nach Deutschland fahren./
+Sie ist jetzt wieder gesund.
+Ich verstehe es nicht. Können Sie das bitte
+wiederholen?
+Auf Wiedersehen.
+Keinen Müll auf der Wiese lassen!/
+Wir spielen auf der Wiese Fußball.
+Wie viel kostet das?
+Willkommen bei uns!
+Hier gibt es immer viel Wind, meistens kommt er
+von Westen.
+Wir haben eine neue Lehrerin.
+Willst du das wirklich kaufen?/Es ist wirklich so.
+Weißt du die Antwort? Ich weiß sie nicht.
+Er erzählt gern Witze. Wir müssen immer lachen.
+Das Buch ist so witzig! Ich musste oft lachen.
+Wo wohnt ihr?/In Berlin.
+Woher kommst du?/Aus Frankreich.
+Wohin fährt der Bus?/Nach Leipzig.
+Wo wohnst du? Ich wohne in der Gartenstraße.
+Unsere Wohnung hat drei Zimmer.
+Ich sehe im Wohnzimmer fern.
+Willst du meine Freunde kennenlernen?
+Am Himmel sind viele Wolken. Es regnet bald.
+Ich kenne das Wort nicht./Wie viele Wörter hat
+dein Brief?
+
+wunderbar
+wünschen
+e Wurst, ü, -e
+s Würstchen, -
+
+Das Essen ist wunderbar.
+Ich wünsche dir schöne Ferien./Ich wünsche dir
+viel Glück!
+Morgens esse ich keine Wurst./
+Kann ich ein Wurstbrot haben?
+Ich möchte zwei Würstchen mit Brot.
+
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
@@ -1036,7 +2270,71 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'Z'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example('').get());
+
+r Zahn, ä, -e
+e Zahnspange, -n
+zeichnen
+zeigen
+e Zeit, -en
+e Zeitung, -en
+s Zelt, -e
+s Zentrum, -en
+r Zettel, -
+s Zeugnis, -se
+s Ziel, -e
+s Zimmer, -
+r Zirkus, -se
+r Zoo (Sg.)
+zu
+r Zucker (Sg.)
+zuerst
+zufrieden
+r Zug, ü, -e
+zuhören
+zuletzt
+zumachen
+zum Beispiel
+zurück
+zurückkommen
+zusammen
+zu sein
+zwischen
+
+Mein Zahn tut weh.
+Sie trägt eine Zahnspange.
+Wir haben ein Bild gezeichnet.
+Können Sie mir den Weg zeigen?
+Wann hast du Zeit für mich?/Ich kann nicht kommen.
+Ich habe keine Zeit.
+Meine Mutter liest am Morgen die Zeitung.
+Früher haben wir im Zelt Ferien gemacht.
+Im Zentrum ist heute eine Fußgängerzone.
+Wer hat diesen Zettel geschrieben?
+Mein Zeugnis war ziemlich gut.
+Ich war als Erster am Ziel.
+Wie groß ist die Wohnung? Es sind drei Zimmer.
+Der Zirkus ist heute in der Stadt.
+Ich liebe Tiere, ich gehe gern in den Zoo.
+zu groß/zum Frühstück/zum Zahnarzt/zur Post/
+zum Geburtstag/zu Hause
+Ich trinke meinen Kaffee mit Zucker.
+Sagen Sie bitte zuerst den Vornamen.
+Ich bin mit meiner Note zufrieden.
+Wir fahren mit dem Zug zu meiner Tante.
+Hör jetzt zu! Das ist wichtig!
+Wann hast du ihn zuletzt gesehen?
+Im letzten Sommer.
+Mach die Tür bitte zu!
+z. B.
+Wir fahren mit dem Zug, zurück nehmen wir den Bus.
+Ich bin gestern aus dem Urlaub zurückgekommen.
+Wir machen zusammen Hausaufgaben.
+Die Bücherei ist in den Ferien zu.
+Der Supermarkt ist zwischen dem Rathaus und
+der Post./Zwischen zwölf und zwei Uhr bin ich
+nicht da.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		–
         */
         return entries;
     }
