@@ -901,34 +901,33 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'H'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Haar, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('haben').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Hähnchen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Halle, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('hallo').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Hals, ä, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('halten').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Haltestelle, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Hamburger, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Hand, ä, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Handy, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('hängen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('hässlich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Hauptstadt, ä, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Haus, ä, -er').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Hausaufgabe, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Heft, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('heiraten').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('heiß').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('heißen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Heizung, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('helfen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Hemd, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Herr, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('herrlich').example().get());
 
-s Haar, -e
-haben
-s Hähnchen
-e Halle, -n
-hallo
-r Hals, ä, -e
-halten
-e Haltestelle, -n
-r Hamburger, -
-e Hand, ä, -e
-s Handy, -s
-hängen
-hässlich
-e Hauptstadt, ä, -e
-s Haus, ä, -er
-e Hausaufgabe, -n
-s Heft, -e
-heiraten
-heiß
-heißen
-e Heizung, -en
-helfen
-s Hemd, -en
-r Herr, -en
-herrlich
-
+		–
 Sie hat lange, braune Haare.
 Wir haben einen Hund und zwei Katzen./
 Ich habe leider keine Zeit.
@@ -960,27 +959,28 @@ Sind Sie Herr Braunmüller?/Siehst du den Herrn dort?
 Im Park kann man herrlich spazieren gehen./
 Das Wetter ist heute herrlich.
 
-herzlich
-heute
-hier
-e Hilfe (Sg.)
-r Himmel (Sg.)
-hinten
-s Hobby, -s
-hoch
-e Hochzeit, -en
-hoffen
-hoffentlich
-höflich
-holen
-s Holz, ö, -er
-hören
-e Hose, -n
-s Hotel, -s
-hübsch
-r Hund, -e
-r Hunger (Sg.)
+		entries.push(new Builder().id('').thema(thema).entry('herzlich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('heute').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('hier').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Hilfe (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Himmel (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('hinten').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Hobby, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('hoch').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Hochzeit, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('hoffen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('hoffentlich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('höflich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('holen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Holz, ö, -er').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('hören').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Hose, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Hotel, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('hübsch').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Hund, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Hunger (Sg.)').example().get());
 
+		–
 Herzliche Grüße von Michael./
 Herzlichen Glückwunsch!
 Heute ist Montag. Gestern war Sonntag.
@@ -1006,7 +1006,6 @@ Toms neue Freundin ist sehr hübsch.
 Magst du Hunde lieber als Katzen?
 Wir haben Hunger. Wann ist das Essen fertig?
 
-		–
         */
         return entries;
     }
@@ -1015,21 +1014,21 @@ Wir haben Hunger. Wann ist das Essen fertig?
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'I'];
 /*
-ich
-e Idee, -n
-r Idiot, -en
-ihr, ihm,
-Ihr, -e
-immer
-in
-e Information, -en
-e Insel, -n
-s Instrument, -e
-intelligent
-interessant
-s Interesse (Sg.)
-interessieren
-s Internet (Sg.)
+		entries.push(new Builder().id('').thema(thema).entry('ich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Idee, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Idiot, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('ihr, ihm,').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('Ihr, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('immer').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('in').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Information, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Insel, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Instrument, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('intelligent').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('interessant').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Interesse (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('interessieren').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Internet (Sg.)').example().get());
 
 Ich wohne in Berlin.
 Was machen wir heute? Hast du eine Idee?
@@ -1055,7 +1054,6 @@ gezeigt.
 Interessiert dich das Problem?/Ich interessiere mich
 für Biologie.
 Du kannst die Information im Internet finden.
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 		–
         */
         return entries;
@@ -1065,20 +1063,20 @@ Du kannst die Information im Internet finden.
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'J'];
 /*
-ja
-e Jacke, -n
-e Jeans (Pl.)
-jeder, -e, -s
-jemand
-jetzt
-r Job, -s
-joggen
-r Joghurt, -s
-e Jugendherberge, -n
-r/e Jugendliche, -n
-jung
-r Junge, -n
-junge Leute (Pl.)
+		entries.push(new Builder().id('').thema(thema).entry('ja').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Jacke, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Jeans (Pl.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('jeder, -e, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('jemand').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('jetzt').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Job, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('joggen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Joghurt, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Jugendherberge, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r/e Jugendliche, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('jung').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Junge, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('junge Leute (Pl.)').example().get());
 
 Kommst du mit?/Ja, gern.
 Du brauchst eine Jacke, es ist kalt.
@@ -1096,7 +1094,6 @@ Meine Eltern sind noch jung./Du bist noch zu jung,
 vielleicht in zwei Jahren.
 Der Junge ist neu in unserer Klasse.
 Viele junge Leute besuchen Sprachkurse im Ausland.
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 		–
         */
         return entries;
@@ -1106,28 +1103,28 @@ Viele junge Leute besuchen Sprachkurse im Ausland.
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'K'];
 /*
-r Kaffee, -s
-r Kakao (Sg.)
-kalt
-e Kamera, -s
-kaputt
-e Karte, -n
-e Kartoffel, -n
-r Käse (Sg.)
-e Kasse, -n
-e Katze, -n
-kaufen
-kein, e
-r Keller, -
-kennen
-kennenlernen
-s Kind, -er
-r Kindergarten, ä, -
-s Kino, -s
-r Kiosk , -e
-e Kirche, -n
-klappen
-klar
+		entries.push(new Builder().id('').thema(thema).entry('r Kaffee, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kakao (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('kalt').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Kamera, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('kaputt').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Karte, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Kartoffel, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Käse (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Kasse, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Katze, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('kaufen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('kein, e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Keller, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('kennen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('kennenlernen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Kind, -er').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kindergarten, ä, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Kino, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kiosk , -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Kirche, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('klappen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('klar').example().get());
 
 Möchtest du eine Tasse Kaffee?
 Ich trinke lieber Kakao. (Siehe auch Schokolade.)
@@ -1162,38 +1159,38 @@ geklappt.
 Ist alles klar?/Machst du das?/Na, klar!/
 Das Wasser in diesem Fluss ist klar.
 
-e Klasse, -n
-s Klavier, -e
-s Kleid, -er
-e Kleidung (Sg.)
-klein
-s Klima
-klingeln
-r Klub, -s
-klug
-kochen
-r Koffer, -
-komisch
-kommen
-kompliziert
-können
-s Konzert, -e
-r Kopf, ö, -e
-korrigieren
-kosten
-kostenlos
-krank
-s Krankenhaus, ä, -er
-e Kreuzung, -en
-r Krimi, -s
-r Kriminalfilm, -e
-r Kuchen, -
-e Küche, -n
-r Kugelschreiber, -
-kühl
-r Kühlschrank, ä, -e
-r Kurs, -e
-kurz
+		entries.push(new Builder().id('').thema(thema).entry('e Klasse, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Klavier, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Kleid, -er').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Kleidung (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('klein').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Klima').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('klingeln').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Klub, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('klug').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('kochen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Koffer, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('komisch').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('kommen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('kompliziert').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('können').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Konzert, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kopf, ö, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('korrigieren').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('kosten').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('kostenlos').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('krank').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Krankenhaus, ä, -er').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Kreuzung, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Krimi, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kriminalfilm, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kuchen, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Küche, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kugelschreiber, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('kühl').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kühlschrank, ä, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kurs, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('kurz').example().get());
 
 In unserer Klasse sind 25 Schüler.
 Spielst du ein Instrument?/Ja, Klavier.
@@ -1237,9 +1234,6 @@ Die Milch ist im Kühlschrank.
 In den Ferien mache ich einen Deutschkurs.
 Sie hat kurze Haare./Die Hose ist zu kurz.
 
-
-
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 		–
         */
         return entries;
@@ -1250,11 +1244,17 @@ Sie hat kurze Haare./Die Hose ist zu kurz.
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'L'];
 /*
 
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 lachen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Lampe, -n
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Land, ä, -er
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Landkarte, -n
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Landschaft, -en
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 lang
 
 Onkel Fritz lacht viel. Er ist lustig./
@@ -1266,38 +1266,71 @@ Mir gefällt die Landschaft am Rhein.
 Der Weg ist zu lang. Du kannst nicht zu Fuß gehen./
 Das Auto ist drei Meter lang.
 
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 lange
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 langsam
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 langweilig
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 lassen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 laufen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 laut
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 leben
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Lebensmittel (Pl.)
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 leer
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 legen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 leicht
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 leid
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 leider
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 leihen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 leise
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Leistung, -en
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 lernen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 lesen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r, e, s letzte
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Leute (Pl.)
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Licht, -er
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 lieb
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 lieben
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 lieber
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 lieb haben
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 Lieblings-
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Lied, -er
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 liegen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 links
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 lockig
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Löffel, -
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Lust (Sg.)
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 lustig
 
 Wartest du schon lange?/Ich bin schon lange hier.
@@ -1344,7 +1377,6 @@ Ich brauche einen Löffel für die Suppe.
 Ich habe jetzt keine Lust.
 Erzähl eine lustige Geschichte!
 
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 		–
         */
         return entries;
@@ -1355,8 +1387,11 @@ Erzähl eine lustige Geschichte!
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'M'];
 /*
 
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 machen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Mädchen, -
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Mal, -e
 
 Am Samstag machen wir einen Ausflug./
@@ -1365,37 +1400,69 @@ Die Mädchen spielen auch Fußball./
 In der Klasse sind 15 Mädchen und 12 Jungs.
 Ich war zwei Mal in England./Bis zum nächsten Mal!
 
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 mal
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 man
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 manchmal
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Mann, ä, -er
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Mantel, ä, -
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Markt, ä, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Marktplatz, ä, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Marmelade, -n
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Maschine, -n
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Maus, ä, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Meer, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 mehr
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 mein, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 meinen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Meinung, -en
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e meisten
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Mensch, -en
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Messer, -
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Milch (Sg.)
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 mindestens
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Mineralwasser, ä
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 minus
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 mit
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 mitbringen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 mitgehen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 mitkommen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 mitmachen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 mitnehmen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Mitschüler, -
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Mitschülerin, -nen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 mitspielen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Mittagessen, -
 
 Kannst du bitte mal aufpassen?/Komm mal her!/
@@ -1449,29 +1516,51 @@ schon vier Mitspieler.
 Zum Mittagessen sind immer alle zu Hause./
 Zum Mittagessen gibt es Nudeln.
 
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Mitte, -n
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Mitteilung, -en
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Mode (Sg.)
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Modenschau, -en
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 modern
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Möbel (Pl.)
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 mögen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 möglich
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Moment, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Mond, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Moped, -s
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 morgen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Motor, -en
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Motorrad, ä, -er
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Motorroller, -
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 müde
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Müll (Sg.)
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Müsli, -s
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 müssen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Museum, Museen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Musik, -en
-r Musiker, -
-e Musikerin, -nen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+r Musiker, -, e Musikerin, -nen
+
 
 In der Mitte steht ein Tisch./Mitte August fahre ich in
 den Urlaub.
@@ -1518,16 +1607,14 @@ Ich lerne Klavier spielen. Ich möchte Musiker werden.
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'N'];
 /*
-
-nach
-r Nachbar, -n,
-e Nachbarin, -nen
-e Nachricht
-e Nähe (Sg.)
-r, e, s nächste
-r Name, -n
-nämlich
-e Nase, -n
+		entries.push(new Builder().id('').thema(thema).entry('nach').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Nachbar, -n, e Nachbarin, -nen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Nachricht').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Nähe (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('nächste').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Name, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('nämlich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Nase, -n').example().get());
 
 Wohin fährst du?/Nach Berlin./Nach der Schule
 mache ich meine Hausaufgaben./Es ist schon fünf
@@ -1542,30 +1629,30 @@ Mein Name ist Peter Niemöller.
 Ich habe es nicht gekauft, es war nämlich sehr teuer.
 Er hat blaue Augen und eine große Nase.
 
-nass
-e Natur, -en
-natürlich
-neben
-negativ
-nehmen
-nein
-nennen
-nervös
-nett
-neu
-nicht
-nichts
-nie
-niemand
-noch
-normal
-e Note, -n
-notieren
-nötig
-e Nudel, n
-e Nummer, n
-nur
-nützlich
+		entries.push(new Builder().id('').thema(thema).entry('nass').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Natur, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('natürlich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('neben').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('negativ').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('nehmen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('nein').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('nennen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('nervös').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('nett').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('neu').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('nicht').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('nichts').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('nie').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('niemand').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('noch').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('normal').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Note, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('notieren').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('nötig').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Nudel, n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Nummer, n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('nur').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('nützlich').example().get());
 
 Die Straßen sind vom Regen ganz nass.
 Er ist am liebsten draußen in der freien Natur.
@@ -1598,9 +1685,6 @@ Ich möchte nur ein Glas Wasser./Er ist nur heute in
 der Stadt.
 Du musst Sprachen lernen, das ist immer nützlich.
 
-
-
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 		–
         */
         return entries;
@@ -1610,19 +1694,19 @@ Du musst Sprachen lernen, das ist immer nützlich.
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'O'];
 /*
-oben
-s Obst (Sg.)
-oder
-offen
-öffnen
-oft
-ohne
-s Ohr, -en
-r Ohrring, -e
-e Oper, -n
-e Operation, -en
-e Orange, -n
-e Ordnung, -en
+		entries.push(new Builder().id('').thema(thema).entry('oben').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Obst (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('oder').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('offen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('öffnen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('oft').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('ohne').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Ohr, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Ohrring, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Oper, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Operation, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Orange, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Ordnung, -en').example().get());
 
 Oben auf dem Berg ist ein Restaurant.
 Wir essen immer viel Obst: Äpfel, Bananen ...
@@ -1643,14 +1727,13 @@ Ich kaufe drei Kilo Orangen.
 Das ist in Ordnung, kein Problem./Kannst du hier
 nicht Ordnung machen?
 
-organisieren
-r Ort, -e
+		entries.push(new Builder().id('').thema(thema).entry('organisieren').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Ort, -e').example().get());
 
 Ich organisiere das Fest. Ich habe also viel zu tun.
 Dieser Ort hat 3000 Einwohner./
 Dieser Ort liegt in den Bergen.
 
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 		–
         */
         return entries;
@@ -1660,39 +1743,38 @@ Dieser Ort liegt in den Bergen.
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'P'];
 /*
-
-s Paar, -e
-ein paar
-s Päckchen, -
-packen
-s Paket, -e
-s Papier, -e
-r Park, -s
-e Party, -s
-passen
-passieren
-e Pause, -n
-s Pech (Sg.)
-e Person, -en
-s Pferd, -e
-e Pflanze, -n
-e Pizza, -en
-s Plakat, -e
-r Plan, ä, -e
-planen
-r Platz, ä, -e
-plötzlich
-plus
-e Pommes frites (Pl.)
-positiv
-e Post (Sg.)
-s Poster, -
-e Postkarte, -n
-praktisch
-r Preis, -e
-prima
-pro
-probieren
+		entries.push(new Builder().id('').thema(thema).entry('s Paar, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('ein paar').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Päckchen, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('packen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Paket, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Papier, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Park, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Party, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('passen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('passieren').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Pause, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Pech (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Person, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Pferd, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Pflanze, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Pizza, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Plakat, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Plan, ä, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('planen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Platz, ä, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('plötzlich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('plus').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Pommes frites (Pl.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('positiv').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Post (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Poster, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Postkarte, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('praktisch').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Preis, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('prima').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('pro').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('probieren').example().get());
 
 Karla und Uwe sind ein Liebespaar./Ich brauche ein
 Paar Schuhe.
@@ -1740,14 +1822,14 @@ Das macht 20 Euro pro Person.
 Kann ich das Kleid probieren?/
 Möchtest du den Kuchen probieren?
 
-s Problem, -e
-s Programm, -e
-s Projekt, -e
-r Prospekt, -e
-r Pullover, -
-pünktlich
-putzen
-s Puzzle, -s
+		entries.push(new Builder().id('').thema(thema).entry('s Problem, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Programm, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Projekt, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Prospekt, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Pullover, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('pünktlich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('putzen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Puzzle, -s').example().get());
 
 Hast du Probleme mit deinen Eltern?/
 Ich habe ein Problem mit der Grammatik.
@@ -1762,10 +1844,6 @@ Kommt bitte pünktlich um 18.00 Uhr nach Hause!
 Ich muss noch das Bad putzen.
 Das ist ein Puzzle mit 5000 Teilen.
 
-
-
-
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 		–
         */
         return entries;
@@ -1775,9 +1853,9 @@ Das ist ein Puzzle mit 5000 Teilen.
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'Q'];
 /*
-r Quatsch (Sg.)
-quer
-s Quiz (Sg.)
+		entries.push(new Builder().id('').thema(thema).entry('r Quatsch (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('quer').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Quiz (Sg.)').example().get());
 
 Ich finde, das ist nur Quatsch!
 Im Sommer reisen wir quer durch Deutschland.
@@ -1815,26 +1893,26 @@ TODO
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'T'];
 /*
-tanzen
-e Tasche, -n
-s Taschengeld (Sg.)
-r Taschenrechner, -
-e Tasse, -n
-tatsächlich
-s Taxi, -s
-r Tee, -s
-teilen
-teilnehmen
-s Telefon, -e
-telefonieren
-r Teller, -
-Tennis spielen
-r Teppich, -e
-r Termin, -e
-teuer
-s Theater, -
-s Thema, -en
-s Tier, -e
+		entries.push(new Builder().id('').thema(thema).entry('tanzen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Tasche, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Taschengeld (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Taschenrechner, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Tasse, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('tatsächlich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Taxi, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Tee, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('teilen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('teilnehmen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Telefon, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('telefonieren').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Teller, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('Tennis spielen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Teppich, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Termin, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('teuer').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Theater, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Thema, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Tier, -e').example().get());
 
 Ich tanze gern in der Disco.
 Die Tasche ist sehr schwer.
@@ -1862,32 +1940,32 @@ Ich schreibe über „meine beste Freundin“.
 Ich möchte ein Tier haben: eine Katze oder
 einen Hund.
 
-r Tisch, -e
-r Titel, -
-e Toilette, -n
-toll
-e Tomate, -n
-e Torte, -n
-tot
-total
-r Tourist, -en
-e Touristin, -nen
-tragen
-trainieren
-s Training (Sg.)
-r Traum, ä, -e
-traurig
-treffen (sich)
-e Treppe, -n
-trinken
-trocken
-trotzdem
-trösten
-s T-Shirt, -s
-tschüss!
-tun
-e Tür, -en
-typisch
+		entries.push(new Builder().id('').thema(thema).entry('r Tisch, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Titel, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Toilette, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('toll').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Tomate, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Torte, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('tot').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('total').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Tourist, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Touristin, -nen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('tragen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('trainieren').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Training (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Traum, ä, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('traurig').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('treffen (sich)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Treppe, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('trinken').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('trocken').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('trotzdem').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('trösten').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s T-Shirt, -s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('tschüss!').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('tun').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Tür, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('typisch').example().get());
 
 Das Buch liegt auf dem Tisch./Ich kaufe noch einen
 Tisch und vier Stühle.
@@ -1924,7 +2002,6 @@ Was soll ich denn tun?
 Mach bitte die Tür zu./Es klingelt an der Tür.
 Ich glaube, das ist typisch deutsch!
 
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 		–
         */
         return entries;
@@ -1934,18 +2011,18 @@ Ich glaube, das ist typisch deutsch!
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'U'];
 /*
-e U-Bahn, -en
-üben
-über
-überall
-übermorgen
-e Überschrift, -en
-e Uhr, -en
-um
-e Umwelt (Sg.)
-r Umweltschutz (Sg.)
-unbedingt
-und
+		entries.push(new Builder().id('').thema(thema).entry('e U-Bahn, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('üben').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('über').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('überall').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('übermorgen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Überschrift, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Uhr, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('um').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Umwelt (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Umweltschutz (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('unbedingt').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('und').example().get());
 
 Wie komme ich zum Bahnhof?/Du kannst die
 U-Bahn nehmen.
@@ -1963,17 +2040,17 @@ Ich finde Umweltschutz sehr wichtig.
 Das musst du unbedingt lesen.
 Karl und Susanne kommen auch.
 
-und so weiter
-unerträglich
-r Unfall, ä, -e
-e Universität, -en
-unser, -e
-r Unsinn (Sg.)
-unten
-unter
-r Unterricht (Sg.)
-unterschreiben
-e Unterschrift, -en
+		entries.push(new Builder().id('').thema(thema).entry('und so weiter').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('unerträglich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Unfall, ä, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Universität, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('unser, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Unsinn (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('unten').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('unter').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Unterricht (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('unterschreiben').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Unterschrift, -en').example().get());
 
 u.s.w.
 Wie war die Party?/Sehr laut, die Musik war
@@ -1991,7 +2068,6 @@ Der Unterricht dauert bis 13 Uhr.
 Bitte unterschreiben Sie hier auf dem Formular.
 Auf dem Formular fehlt noch die Unterschrift.
 
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 		–
         */
         return entries;
@@ -2001,29 +2077,29 @@ Auf dem Formular fehlt noch die Unterschrift.
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'V'];
 /*
-verabredet sein
-verbieten
-verboten sein
-verdienen
-vergessen
-vergleichen
-verkaufen
-verkleiden (sich)
-verletzen (sich)
-verletzt sein
-verliebt sein
-verlieren
-verreisen
-verrückt
-verschieden
-e Verspätung, -en
-versprechen
-verstehen
-versuchen
-viel, -e
-vielleicht
-r Vogel, ö, -
-r Volleyball, ä, -e
+		entries.push(new Builder().id('').thema(thema).entry('verabredet sein').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verbieten').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verboten sein').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verdienen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('vergessen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('vergleichen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verkaufen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verkleiden (sich)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verletzen (sich)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verletzt sein').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verliebt sein').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verlieren').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verreisen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verrückt').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verschieden').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Verspätung, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('versprechen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verstehen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('versuchen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('viel, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('vielleicht').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Vogel, ö, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Volleyball, ä, -e').example().get());
 
 Ich bin um 15 Uhr mit meiner Freundin verabredet.
 Wir treffen uns im Park.
@@ -2058,20 +2134,19 @@ Kannst du mir vielleicht helfen?/Vielleicht kommt er.
 Morgens singen die Vögel im Garten.
 Wir haben Volleyball gespielt.
 
-
-von
-vor
-vor allem
-vorbei
-vorbereiten
-vorgestern
-vorher
-vorn
-r Vorname, -n
-r Vorschlag, ä, -e
-vorschlagen
-vorsichtig
-vorstellen (sich)
+		entries.push(new Builder().id('').thema(thema).entry('von').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('vor').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('vor allem').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('vorbei').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('vorbereiten').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('vorgestern').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('vorher').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('vorn').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Vorname, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Vorschlag, ä, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('vorschlagen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('vorsichtig').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('vorstellen (sich)').example().get());
 
 Der Computer ist ein Geschenk von meinem Onkel./
 Sie arbeitet von sieben bis neun./Er kommt von
@@ -2095,8 +2170,6 @@ Seid vorsichtig auf der Straße! Es liegt viel Schnee!
 Stell dich bitte mit vier Sätzen vor: Name, Alter,
 Wohnort, Schule.
 
-
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 		–
         */
         return entries;
@@ -2106,26 +2179,26 @@ Wohnort, Schule.
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'W'];
 /*
-wach
-wählen
-wahr
-wahrscheinlich
-r Wald, ä, -er
-wandern
-wann
-warm
-warten
-warum
-was
-waschen
-was für ein, e
-s Wasser (Sg.)
-wechseln
-wecken
-r Weg, -e
-wegbringen
-wegfahren
-weggehen
+		entries.push(new Builder().id('').thema(thema).entry('wach').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wählen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wahr').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wahrscheinlich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Wald, ä, -er').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wandern').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wann').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('warm').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('warten').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('warum').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('was').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('waschen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('was für ein, e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Wasser (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wechseln').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wecken').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Weg, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wegbringen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wegfahren').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('weggehen').example().get());
 
 Ich war schon um sechs Uhr wach.
 Wählen Sie eine Nummer./Haben Sie schon ein
@@ -2156,47 +2229,46 @@ Leider muss ich jetzt wegfahren.
 Am Abend möchte ich noch mit meinen Freunden
 weggehen.
 
-wehtun
-weil
-r Wein, -e
-weinen
-weit
-weiter
-weitermachen
-weiterspielen
-welcher, e, s
-e Welt, -en
-wenig, -e
-wenigstens
-wenn
-wer (wen, wem)
-werden
-r Wettbewerb, -e
-s Wetter (Sg.)
-wichtig
-wie
-(vgl. Grammatik)
-wieder
-wiederholen
-s Wiedersehen, -
-e Wiese, -n
-wie viel, -e
-willkommen
-r Wind, -e
-wir
-wirklich
-wissen
-r Witz, -e
-witzig
-wo
-woher
-wohin
-wohnen
-e Wohnung, -en
-s Wohnzimmer, -
-wollen
-e Wolke, -n
-s Wort, -e, ö, -er
+		entries.push(new Builder().id('').thema(thema).entry('wehtun').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('weil').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Wein, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('weinen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('weit').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('weiter').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('weitermachen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('weiterspielen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('welcher, e, s').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Welt, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wenig, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wenigstens').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wenn').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wer (wen, wem)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('werden').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Wettbewerb, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Wetter (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wichtig').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wie (vgl. Grammatik)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wieder').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wiederholen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Wiedersehen, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Wiese, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wie viel, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('willkommen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Wind, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wir').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wirklich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wissen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Witz, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('witzig').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wo').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('woher').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wohin').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wohnen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Wohnung, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Wohnzimmer, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wollen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Wolke, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Wort, -e, ö, -er').example().get());
 
 Mein Kopf tut so weh.
 Er kommt heute nicht, weil er lernen muss.
@@ -2248,10 +2320,10 @@ Am Himmel sind viele Wolken. Es regnet bald.
 Ich kenne das Wort nicht./Wie viele Wörter hat
 dein Brief?
 
-wunderbar
-wünschen
-e Wurst, ü, -e
-s Würstchen, -
+		entries.push(new Builder().id('').thema(thema).entry('wunderbar').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('wünschen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Wurst, ü, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Würstchen, -').example().get());
 
 Das Essen ist wunderbar.
 Ich wünsche dir schöne Ferien./Ich wünsche dir
@@ -2260,7 +2332,6 @@ Morgens esse ich keine Wurst./
 Kann ich ein Wurstbrot haben?
 Ich möchte zwei Würstchen mit Brot.
 
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 		–
         */
         return entries;
@@ -2270,35 +2341,34 @@ Ich möchte zwei Würstchen mit Brot.
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'Z'];
 /*
-
-r Zahn, ä, -e
-e Zahnspange, -n
-zeichnen
-zeigen
-e Zeit, -en
-e Zeitung, -en
-s Zelt, -e
-s Zentrum, -en
-r Zettel, -
-s Zeugnis, -se
-s Ziel, -e
-s Zimmer, -
-r Zirkus, -se
-r Zoo (Sg.)
-zu
-r Zucker (Sg.)
-zuerst
-zufrieden
-r Zug, ü, -e
-zuhören
-zuletzt
-zumachen
-zum Beispiel
-zurück
-zurückkommen
-zusammen
-zu sein
-zwischen
+		entries.push(new Builder().id('').thema(thema).entry('r Zahn, ä, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Zahnspange, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zeichnen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zeigen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Zeit, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Zeitung, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Zelt, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Zentrum, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Zettel, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Zeugnis, -se').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Ziel, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Zimmer, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Zirkus, -se').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Zoo (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zu').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Zucker (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zuerst').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zufrieden').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Zug, ü, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zuhören').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zuletzt').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zumachen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zum Beispiel').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zurück').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zurückkommen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zusammen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zu sein').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('zwischen').example().get());
 
 Mein Zahn tut weh.
 Sie trägt eine Zahnspange.
@@ -2333,7 +2403,6 @@ Die Bücherei ist in den Ferien zu.
 Der Supermarkt ist zwischen dem Rathaus und
 der Post./Zwischen zwölf und zwei Uhr bin ich
 nicht da.
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 		–
         */
         return entries;
