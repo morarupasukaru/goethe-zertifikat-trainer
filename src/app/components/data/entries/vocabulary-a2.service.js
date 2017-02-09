@@ -951,89 +951,40 @@ class VocabularyA2Service {
     createIEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'I'];
-/*
-		entries.push(new Builder().id('').thema(thema).entry('ich').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Idee, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Idiot, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('ihr, ihm,').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('Ihr, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('immer').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('in').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Information, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Insel, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Instrument, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('intelligent').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('interessant').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Interesse (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('interessieren').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Internet (Sg.)').example().get());
-
-Ich wohne in Berlin.
-Was machen wir heute? Hast du eine Idee?
-Du bist ein Idiot!
-Wo seid ihr?/Ich möchte ihr helfen./
-Kannst du ihm das erklären? Ist das Ihr Hund?
-Mathe ist immer so langweilig./Er kommt immer
-zu spät.
-Er lebt in Italien/in der Stadt./Wir gehen ins
-Schwimmbad./Der Bus kommt in fünf Minuten./
-In den Ferien/Im Sommer/In zwei Jahren mache
-ich Abitur.
-Sie haben eine Frage? Dann gehen Sie zur
-Information./Hier gibt es Informationen zu
-unserem Programm.
-Rügen ist eine Insel.
-Spielst du ein Instrument?/Ja, Klavier.
-Das ist eine sehr intelligente Frage./
-Er ist ein intelligenter Schüler.
-Das Buch über die Römer ist interessant.
-Die Leute haben viel Interesse an der Ausstellung
-gezeigt.
-Interessiert dich das Problem?/Ich interessiere mich
-für Biologie.
-Du kannst die Information im Internet finden.
-		–
-        */
+		entries.push(new Builder().id('').thema(thema).entry('ich').example('Ich wohne in Berlin.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Idee, -n').example('Was machen wir heute? Hast du eine Idee?').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Idiot, -en').example('Du bist ein Idiot!').get());
+		entries.push(new Builder().id('').thema(thema).entry('ihr, ihm, Ihr, -e').example(['Wo seid ihr?', 'Ich möchte ihr helfen.', 'Kannst du ihm das erklären? Ist das Ihr Hund?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('immer').example(['Mathe ist immer so langweilig.', 'Er kommt immer zu spät.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('in').example(['Er lebt in Italien', 'Er lebt in der Stadt.', 'Wir gehen ins Schwimmbad.', 'Der Bus kommt in fünf Minuten.', 'In den Ferien', 'Im Sommer', 'In zwei Jahren mache ich Abitur.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Information, -en').example(['Sie haben eine Frage? Dann gehen Sie zur Information.', 'Hier gibt es Informationen zu unserem Programm.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Insel, -n').example('Rügen ist eine Insel.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Instrument, -e').example(['Spielst du ein Instrument?', '– Ja, Klavier.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('intelligent').example(['Das ist eine sehr intelligente Frage.', 'Er ist ein intelligenter Schüler.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('interessant').example('Das Buch über die Römer ist interessant.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Interesse (Sg.)').example('Die Leute haben viel Interesse an der Ausstellung gezeigt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('interessieren').example(['Interessiert dich das Problem?', 'Ich interessiere mich für Biologie.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Internet (Sg.)').example('Du kannst die Information im Internet finden.').get());
         return entries;
     }
 
     createJEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'J'];
-/*
-		entries.push(new Builder().id('').thema(thema).entry('ja').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Jacke, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Jeans (Pl.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('jeder, -e, -s').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('jemand').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('jetzt').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Job, -s').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('joggen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Joghurt, -s').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Jugendherberge, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r/e Jugendliche, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('jung').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Junge, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('junge Leute (Pl.)').example().get());
-
-Kommst du mit?/Ja, gern.
-Du brauchst eine Jacke, es ist kalt.
-Er trägt heute Jeans und ein Hemd.
-Wir fahren jeden Sommer nach München.
-Kann das jemand lesen?
-Das ist jetzt nicht mehr wichtig.
-Ich suche einen Ferienjob. Ich will Geld verdienen.
-Mein Bruder ist er sportlich. Er joggt jeden Tag.
-Am Morgen esse ich Müsli und Joghurt.
-Wir schlafen in der Jugendherberge. Sie ist billiger
-als das Hotel.
-Viele Jugendliche finden diese Musik toll.
-Meine Eltern sind noch jung./Du bist noch zu jung,
-vielleicht in zwei Jahren.
-Der Junge ist neu in unserer Klasse.
-Viele junge Leute besuchen Sprachkurse im Ausland.
-		–
-        */
+		entries.push(new Builder().id('').thema(thema).entry('ja').example(['Kommst du mit?', '– Ja, gern.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Jacke, -n').example('Du brauchst eine Jacke, es ist kalt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Jeans (Pl.)').example('Er trägt heute Jeans und ein Hemd.').get());
+		entries.push(new Builder().id('').thema(thema).entry('jeder, -e, -s').example('Wir fahren jeden Sommer nach München.').get());
+		entries.push(new Builder().id('').thema(thema).entry('jemand').example('Kann das jemand lesen?').get());
+		entries.push(new Builder().id('').thema(thema).entry('jetzt').example('Das ist jetzt nicht mehr wichtig.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Job, -s').example('Ich suche einen Ferienjob. Ich will Geld verdienen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('joggen').example('Mein Bruder ist er sportlich. Er joggt jeden Tag.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Joghurt, -s').example('Am Morgen esse ich Müsli und Joghurt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Jugendherberge, -n').example('Wir schlafen in der Jugendherberge. Sie ist billiger als das Hotel.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r/e Jugendliche, -n').example('Viele Jugendliche finden diese Musik toll.').get());
+		entries.push(new Builder().id('').thema(thema).entry('jung').example(['Meine Eltern sind noch jung.', 'Du bist noch zu jung, vielleicht in zwei Jahren.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Junge, -n').example('Der Junge ist neu in unserer Klasse.').get());
+		entries.push(new Builder().id('').thema(thema).entry('junge Leute (Pl.)').example('Viele junge Leute besuchen Sprachkurse im Ausland.').get());
         return entries;
     }
 
