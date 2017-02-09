@@ -992,61 +992,28 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'K'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('r Kaffee, -s').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Kakao (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('kalt').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Kamera, -s').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('kaputt').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Karte, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Kartoffel, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Käse (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Kasse, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Katze, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('kaufen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('kein, e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Keller, -').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('kennen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('kennenlernen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Kind, -er').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Kindergarten, ä, -').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Kino, -s').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Kiosk , -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Kirche, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('klappen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('klar').example().get());
-
-Möchtest du eine Tasse Kaffee?
-Ich trinke lieber Kakao. (Siehe auch Schokolade.)
-Im Winter ist es hier sehr kalt./Mir ist kalt.
-Meine Kamera ist neu. Deshalb mache ich viele Fotos.
-Der Automat ist kaputt.
-Schreibst du mir eine Karte aus den Ferien?/
-Wollen wir Karten spielen?/Holst du die Karten für
-das Theater?/Ich brauche noch eine Fahrkarte für
-den Bus./Kann ich hier mit der Karte zahlen?/
-Hast du eine Straßenkarte von Bayern?
-Aus Kartoffeln macht man Pommes frites.
-Abends esse ich gern ein Brot mit Käse.
-Die Kasse ist neben dem Eingang. Dort kannst du
-bezahlen.
-Hast du ein Haustier?/Ja, eine Katze.
-Ich möchte einen Pullover kaufen.
-Ich habe keine Lust/Zeit.
-Räum die alten Sachen in den Keller.
-Kennst du Frau Braunmüller?/Nein, leider nicht.
-Möchtest du meine Freunde kennenlernen?/
-Im Urlaub lernt man viele neue Leute kennen
-Die Kinder sind in der Schule./Sie haben vier Kinder,
-zwei Jungs und zwei Mädchen.
-Meine kleine Schwester geht in den Kindergarten.
-Kommt ihr mit ins Kino? Es läuft ein interessanter
-Film.
-Das kannst du am Kiosk kaufen.
-Die Kirche ist am Marienplatz.
-Ich wollte Herrn Meyer treffen. Es hat aber nicht
-geklappt.
-Ist alles klar?/Machst du das?/Na, klar!/
-Das Wasser in diesem Fluss ist klar.
+		entries.push(new Builder().id('').thema(thema).entry('r Kaffee, -s').example('Möchtest du eine Tasse Kaffee?').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kakao (Sg.)').example('Ich trinke lieber Kakao. (Siehe auch Schokolade.)').get());
+		entries.push(new Builder().id('').thema(thema).entry('kalt').example(['Im Winter ist es hier sehr kalt.', 'Mir ist kalt.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Kamera, -s').example('Meine Kamera ist neu. Deshalb mache ich viele Fotos.').get());
+		entries.push(new Builder().id('').thema(thema).entry('kaputt').example('Der Automat ist kaputt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Karte, -n').example(['Schreibst du mir eine Karte aus den Ferien?', 'Wollen wir Karten spielen?', 'Holst du die Karten für das Theater?', 'Ich brauche noch eine Fahrkarte für den Bus.', 'Kann ich hier mit der Karte zahlen?', 'Hast du eine Straßenkarte von Bayern?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Kartoffel, -n').example('Aus Kartoffeln macht man Pommes frites.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Käse (Sg.)').example('Abends esse ich gern ein Brot mit Käse.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Kasse, -n').example('Die Kasse ist neben dem Eingang. Dort kannst du bezahlen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Katze, -n').example(['Hast du ein Haustier?', '– Ja, eine Katze.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('kaufen').example('Ich möchte einen Pullover kaufen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('kein, e').example(['Ich habe keine Lust.', 'Ich habe keine Zeit.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Keller, -').example('Räum die alten Sachen in den Keller.').get());
+		entries.push(new Builder().id('').thema(thema).entry('kennen').example(['Kennst du Frau Braunmüller?', '– Nein, leider nicht.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('kennenlernen').example(['Möchtest du meine Freunde kennenlernen?', 'Im Urlaub lernt man viele neue Leute kennen']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Kind, -er').example(['Die Kinder sind in der Schule.', 'Sie haben vier Kinder, zwei Jungs und zwei Mädchen.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kindergarten, ä, -').example('Meine kleine Schwester geht in den Kindergarten.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Kino, -s').example('Kommt ihr mit ins Kino? Es läuft ein interessanter Film.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Kiosk , -e').example('Das kannst du am Kiosk kaufen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Kirche, -n').example('Die Kirche ist am Marienplatz.').get());
+		entries.push(new Builder().id('').thema(thema).entry('klappen').example('Ich wollte Herrn Meyer treffen. Es hat aber nicht geklappt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('klar').example(['Ist alles klar?', 'Machst du das?', '– Na, klar!', 'Das Wasser in diesem Fluss ist klar.']).get());
 
 		entries.push(new Builder().id('').thema(thema).entry('e Klasse, -n').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('s Klavier, -e').example().get());
@@ -1123,7 +1090,7 @@ Die Milch ist im Kühlschrank.
 In den Ferien mache ich einen Deutschkurs.
 Sie hat kurze Haare./Die Hose ist zu kurz.
 
-		–
+
         */
         return entries;
     }
