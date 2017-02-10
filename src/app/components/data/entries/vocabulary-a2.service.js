@@ -1098,15 +1098,9 @@ class VocabularyA2Service {
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'M'];
 /*
 
-		entries.push(new Builder().id('').thema(thema).entry('machen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Mädchen, -').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Mal, -e').example().get());
-
-Am Samstag machen wir einen Ausflug./
-Das macht nichts!/Das macht € 5,70.
-Die Mädchen spielen auch Fußball./
-In der Klasse sind 15 Mädchen und 12 Jungs.
-Ich war zwei Mal in England./Bis zum nächsten Mal!
+		entries.push(new Builder().id('').thema(thema).entry('machen').example(['Am Samstag machen wir einen Ausflug.', 'Das macht nichts!', 'Das macht € 5,70.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Mädchen, -').example(['Die Mädchen spielen auch Fußball.', 'In der Klasse sind 15 Mädchen und 12 Jungs.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Mal, -e').example(['Ich war zwei Mal in England.', 'Bis zum nächsten Mal!']).get());
 
 		entries.push(new Builder().id('').thema(thema).entry('mal').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('man').example().get());
@@ -1141,42 +1135,26 @@ Ich war zwei Mal in England./Bis zum nächsten Mal!
 		entries.push(new Builder().id('').thema(thema).entry('mitspielen').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('s Mittagessen, -').example().get());
 
-Kannst du bitte mal aufpassen?/Komm mal her!/
-Sag mal, wie findest du meine neue Hose?
+Kannst du bitte mal aufpassen?/Komm mal her!/Sag mal, wie findest du meine neue Hose?
 Hier darf man nicht laut sprechen.
 Ich bin manchmal sehr traurig, aber nicht immer.
-Ein Mann geht mit seinem Hund spazieren./
-Mein Mann ist Arzt.
+Ein Mann geht mit seinem Hund spazieren./Mein Mann ist Arzt.
 Es ist kalt. Zieh einen Mantel an.
-Heute ist hier Markt./Auf dem Markt gibt es Obst
-und Gemüse.
+Heute ist hier Markt./Auf dem Markt gibt es Obst und Gemüse.
 Der Bus fährt bis zum Marktplatz.
-Was möchtest du zum Frühstück?/
-Brot mit Marmelade.
-Ist die Maschine kaputt?/Er fliegt morgen mit der
-ersten Maschine nach Paris./Die Harley Davidson ist
-eine tolle Maschine.
-Ich glaube, im Keller ist eine Maus./
-An meinem Computer ist die Maus kaputt.
+Was möchtest du zum Frühstück?/Brot mit Marmelade.
+Ist die Maschine kaputt?/Er fliegt morgen mit der ersten Maschine nach Paris./Die Harley Davidson ist eine tolle Maschine.
+Ich glaube, im Keller ist eine Maus./An meinem Computer ist die Maus kaputt.
 In den Ferien fahren wir ans Meer.
-Ich habe kein Geld mehr./Ich brauche
-mehr Taschengeld./Du musst mir noch mehr von
-deiner Reise erzählen.
+Ich habe kein Geld mehr./Ich brauche mehr Taschengeld./Du musst mir noch mehr von deiner Reise erzählen.
 Meine Freundin heißt Gaby.
 Ich meine, das ist zu teuer.
-Sag mir bitte deine Meinung zu diesem Thema./
-Meiner Meinung nach ist das eine gute Idee,
-Die meisten Touristen wollen den Kölner Dom
-besichtigen.
-Wie viele Menschen leben in Berlin?/
-Ich glaube, die Stadt hat 3 Millionen Menschen.
-Ich habe nur eine Gabel. Kann ich noch ein Messer
-haben?
-Ich trinke den Kaffee immer mit Milch./
-Holst du die Milch aus dem Kühlschrank?
-Ich habe mindestens 30 Minuten gewartet./
-Du brauchst mindestens 40 Punkte./
-Schreibe mindestens 50 Wörter.
+Sag mir bitte deine Meinung zu diesem Thema./Meiner Meinung nach ist das eine gute Idee,
+Die meisten Touristen wollen den Kölner Dom besichtigen.
+Wie viele Menschen leben in Berlin?/Ich glaube, die Stadt hat 3 Millionen Menschen.
+Ich habe nur eine Gabel. Kann ich noch ein Messer haben?
+Ich trinke den Kaffee immer mit Milch./Holst du die Milch aus dem Kühlschrank?
+Ich habe mindestens 30 Minuten gewartet./ Du brauchst mindestens 40 Punkte./Schreibe mindestens 50 Wörter.
 Was möchtest du trinken?/Ein Mineralwasser.
 Sechs minus zwei ist vier.
 Ich spiele mit Andrea./Er fährt mit dem Bus.
@@ -1184,13 +1162,10 @@ Was bringst du zur Party mit?
 Wir gehen alle mit ins Kino.
 Ich gehe ins Kino. Kommst du mit?
 Komm, mach mit! Das Spiel ist lustig.
-Könnt ihr mich im Auto mitnehmen? Ich will nicht zu
-Fuß nach Hause gehen.
+Könnt ihr mich im Auto mitnehmen? Ich will nicht zu Fuß nach Hause gehen.
 Meine Mitschüler ärgern mich immer.
-Ich möchte auch mitspielen!/Das geht nicht, wir sind
-schon vier Mitspieler.
-Zum Mittagessen sind immer alle zu Hause./
-Zum Mittagessen gibt es Nudeln.
+Ich möchte auch mitspielen!/Das geht nicht, wir sind schon vier Mitspieler.
+Zum Mittagessen sind immer alle zu Hause./Zum Mittagessen gibt es Nudeln.
 
 		entries.push(new Builder().id('').thema(thema).entry('e Mitte, -n').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('e Mitteilung, -en').example().get());
@@ -1215,39 +1190,27 @@ Zum Mittagessen gibt es Nudeln.
 		entries.push(new Builder().id('').thema(thema).entry('e Musik, -en').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('r Musiker, -, e Musikerin, -nen').example().get());
 
-In der Mitte steht ein Tisch./Mitte August fahre ich in
-den Urlaub.
+In der Mitte steht ein Tisch./Mitte August fahre ich in den Urlaub.
 Du hörst drei Mitteilungen für Jugendliche im Radio.
-Meine Freundin interessiert sich für Mode./Das ist
-die neue Mode: blaue T-Shirts und grüne Hosen.
-Die Modenschau war toll. Es gab so viele schöne
-Kleider.
-Gelbe Pullover sind nicht mehr modern./Diese Möbel
-sind jetzt modern.
-Sie kaufen neue Möbel: einen Tisch, zwei Stühle und
-ein Bett.
+Meine Freundin interessiert sich für Mode./Das ist die neue Mode: blaue T-Shirts und grüne Hosen.
+Die Modenschau war toll. Es gab so viele schöne Kleider.
+Gelbe Pullover sind nicht mehr modern./Diese Möbel sind jetzt modern.
+Sie kaufen neue Möbel: einen Tisch, zwei Stühle und ein Bett.
 Ich mag gern Spaghetti./Ich mag keine Milch.
 Ich kann nicht kommen, es ist leider nicht möglich.
-Warte bitte einen Moment!/In diesem Moment fängt
-das Spiel an.
+Warte bitte einen Moment!/In diesem Moment fängt das Spiel an.
 Der Mond war ganz hell.
-Er hat ein Moped bekommen. Damit fährt er nun in
-die Schule.
+Er hat ein Moped bekommen. Damit fährt er nun in die Schule.
 Heute ist Montag. Morgen ist Dienstag.
 Der Motor ist kaputt. Mein Auto fährt nicht.
 Ich fahre mit dem Motorrad zur Arbeit.
-Ich möchte an meinem 16. Geburtstag einen
-Motorroller kaufen.
+Ich möchte an meinem 16. Geburtstag einen Motorroller kaufen.
 Ich bin müde. Ich gehe heute früh ins Bett.
-Bringst du bitte den Müll weg/raus?/
-Lassen Sie keinen Müll im Park liegen!
+Bringst du bitte den Müll weg/raus?/Lassen Sie keinen Müll im Park liegen!
 Ich esse jeden Morgen ein Müsli mit Joghurt.
-Mein Zimmer muss ich allein aufräumen./
-Meine Mutter muss von acht bis fünf arbeiten.
-Wir gehen am Sonntag ins Museum und sehen uns
-die Bilder von Picasso an.
-Ich höre gern Musik./Ich mache gern Musik mit
-meiner Band.
+Mein Zimmer muss ich allein aufräumen./Meine Mutter muss von acht bis fünf arbeiten.
+Wir gehen am Sonntag ins Museum und sehen uns die Bilder von Picasso an.
+Ich höre gern Musik./Ich mache gern Musik mit meiner Band.
 Ich lerne Klavier spielen. Ich möchte Musiker werden.
 
 		entries.push(new Builder().id('').thema(thema).entry('').example().get());
@@ -1269,13 +1232,9 @@ Ich lerne Klavier spielen. Ich möchte Musiker werden.
 		entries.push(new Builder().id('').thema(thema).entry('nämlich').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('e Nase, -n').example().get());
 
-Wohin fährst du?/Nach Berlin./Nach der Schule
-mache ich meine Hausaufgaben./Es ist schon fünf
-nach eins.
+Wohin fährst du?/Nach Berlin./Nach der Schule mache ich meine Hausaufgaben./Es ist schon fünf nach eins.
 Die Nachbarn hier im Haus sind sehr nett.
-Das ist eine gute Nachricht./Jetzt kommen im Radio
-die Nachrichten für Schüler./Du hörst die Nachricht
-noch einmal.
+Das ist eine gute Nachricht./Jetzt kommen im Radio die Nachrichten für Schüler./Du hörst die Nachricht noch einmal.
 Elmshorn liegt in der Nähe von Hamburg.
 Wann kommst du wieder?/In der nächsten Woche.
 Mein Name ist Peter Niemöller.
@@ -1310,11 +1269,9 @@ Er hat blaue Augen und eine große Nase.
 Die Straßen sind vom Regen ganz nass.
 Er ist am liebsten draußen in der freien Natur.
 Kann ich hier schlafen?/Ja, natürlich.
-Petra sitzt neben mir./Die Bäckerei ist direkt neben
-dem Supermarkt.
+Petra sitzt neben mir./Die Bäckerei ist direkt neben dem Supermarkt.
 Sieh das nicht so negativ!
-Nehmen Sie den Bus zum Marktplatz!/Nimm noch
-ein Stück Kuchen.
+Nehmen Sie den Bus zum Marktplatz!/Nimm noch ein Stück Kuchen.
 Kommst du mit?/Nein, leider nicht.
 Ich heiße Elisabeth, aber alle nennen mich Betty.
 In Prüfungen bin ich immer so nervös.
@@ -1324,18 +1281,14 @@ Ist das gut?/Nein, es gefällt mir nicht.
 Ich möchte nichts essen.
 Ich war noch nie in Frankreich.
 Kann mir niemand helfen?
-Jetzt muss ich noch Hausaufgaben machen./
-Vielleicht kommt er noch.
+Jetzt muss ich noch Hausaufgaben machen./Vielleicht kommt er noch.
 Ich fühle mich schlecht./Das ist normal. Du bist krank.
-Hast du gute Noten in der Schule?/Die Noten liegen
-auf dem Klavier.
+Hast du gute Noten in der Schule?/Die Noten liegen auf dem Klavier.
 Habt ihr alles notiert?/Notiert euch den Termin.
 Das brauchen wir nicht, das ist nicht nötig.
 Heute gibt es Nudeln.
-Bitte, sag mir deine Telefonnummer./Können Sie mir
-Ihre Nummer geben?/Sie haben Zimmer Nummer 14.
-Ich möchte nur ein Glas Wasser./Er ist nur heute in
-der Stadt.
+Bitte, sag mir deine Telefonnummer./Können Sie mir Ihre Nummer geben?/Sie haben Zimmer Nummer 14.
+Ich möchte nur ein Glas Wasser./Er ist nur heute in der Stadt.
 Du musst Sprachen lernen, das ist immer nützlich.
 
 		–
@@ -1364,28 +1317,22 @@ Du musst Sprachen lernen, das ist immer nützlich.
 Oben auf dem Berg ist ein Restaurant.
 Wir essen immer viel Obst: Äpfel, Bananen ...
 Trinkst du Tee oder Kaffee?
-Das Fenster ist offen, kannst du es bitte schließen?/
-Die Geschäfte sind bis 20.00 Uhr offen.
-Kannst du bitte die Tür öffnen? Die Geschäfte sind am
-Sonntag geöffnet.
+Das Fenster ist offen, kannst du es bitte schließen?/Die Geschäfte sind bis 20.00 Uhr offen.
+Kannst du bitte die Tür öffnen? Die Geschäfte sind am Sonntag geöffnet.
 Wir gehen im Sommer oft im Park spazieren.
-Ein Sonntag ohne meine Freunde ist langweilig./
-Ich trinke meinen Kaffee ohne Zucker.
+Ein Sonntag ohne meine Freunde ist langweilig./Ich trinke meinen Kaffee ohne Zucker.
 Er hat große Ohren und eine kleine Nase.
 Sie trägt einen kleinen Ohrring.
-Heute Abend gehen wir in die Oper./Dies ist eine
-Oper von Mozart.
+Heute Abend gehen wir in die Oper./Dies ist eine Oper von Mozart.
 Ich muss ins Krankenhaus: Die Operation ist nötig.
 Ich kaufe drei Kilo Orangen.
-Das ist in Ordnung, kein Problem./Kannst du hier
-nicht Ordnung machen?
+Das ist in Ordnung, kein Problem./Kannst du hier nicht Ordnung machen?
 
 		entries.push(new Builder().id('').thema(thema).entry('organisieren').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('r Ort, -e').example().get());
 
 Ich organisiere das Fest. Ich habe also viel zu tun.
-Dieser Ort hat 3000 Einwohner./
-Dieser Ort liegt in den Bergen.
+Dieser Ort hat 3000 Einwohner./Dieser Ort liegt in den Bergen.
 
 		–
         */
@@ -1429,51 +1376,38 @@ Dieser Ort liegt in den Bergen.
 		entries.push(new Builder().id('').thema(thema).entry('pro').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('probieren').example().get());
 
-Karla und Uwe sind ein Liebespaar./Ich brauche ein
-Paar Schuhe.
+Karla und Uwe sind ein Liebespaar./Ich brauche ein Paar Schuhe.
 Wir waren ein paar Tage am Meer.
-Ist das Päckchen von Tante Claudia endlich
-angekommen?
+Ist das Päckchen von Tante Claudia endlich angekommen?
 Hast du den Koffer schon gepackt?
 Ich muss das Paket zur Post bringen.
-Kann ich ein Blatt Papier haben. Ich will einen Brief
-schreiben.
+Kann ich ein Blatt Papier haben. Ich will einen Brief schreiben.
 Wir gehen gern im Park spazieren.
 Die Party war toll.
 Das Kleid passt mir nicht mehr. Es ist zu klein.
-Was passiert in der Geschichte?/
-Ist dir etwas passiert?
-Du arbeitest zu viel. Mach doch eine Pause./
-Von 12.00 bis 12.30 Uhr machen wir Mittagspause.
+Was passiert in der Geschichte?/Ist dir etwas passiert?
+Du arbeitest zu viel. Mach doch eine Pause./Von 12.00 bis 12.30 Uhr machen wir Mittagspause.
 Das war wirklich Pech!/Ich habe Pech gehabt.
 Es kostet drei Euro pro Person.
-Ich möchte so gern ein Pferd haben! Ich reite
-sehr gern.
+Ich möchte so gern ein Pferd haben! Ich reite sehr gern.
 In unserem Garten sind viele Pflanzen.
 Heute gibt es bei uns Pizza mit Tomaten und Käse.
 Was steht auf dem Plakat?
-Wie findest du meinen Plan?/Hast du einen Stadtplan
-von Berlin?/Ich brauche noch einen Fahrplan für
-den Bus.
+Wie findest du meinen Plan?/Hast du einen Stadtplan von Berlin?/Ich brauche noch einen Fahrplan für den Bus.
 Wir planen gerade unsere Ferien.
-Das ist mein Platz./In meiner Wohnung ist
-wenig Platz./Ist der Platz noch frei?
+Das ist mein Platz./In meiner Wohnung ist wenig Platz./Ist der Platz noch frei?
 Plötzlich war das Licht aus.
 Sieben plus drei ist zehn.
 Wie willst du die Pommes frites?/Mit Ketchup.
-Alles wird gut. Denk positiv!/Das ist ein sehr
-positives Ergebnis.
+Alles wird gut. Denk positiv!/Das ist ein sehr positives Ergebnis.
 Ich bringe die Briefe zur Post.
 Was sind das für Poster?/Ich bin Fan vom FC Bayern.
 Ich schreibe dir aus dem Urlaub eine Postkarte.
 Diese Maschine ist sehr praktisch.
-Die Preise für Autos sind ziemlich hoch./
-Der erste Preis im Quiz ist eine Reise nach Paris.
-Ich finde deine Idee prima!/Was können wir tun?
-Hast du eine Idee?
+Die Preise für Autos sind ziemlich hoch./Der erste Preis im Quiz ist eine Reise nach Paris.
+Ich finde deine Idee prima!/Was können wir tun? Hast du eine Idee?
 Das macht 20 Euro pro Person.
-Kann ich das Kleid probieren?/
-Möchtest du den Kuchen probieren?
+Kann ich das Kleid probieren?/Möchtest du den Kuchen probieren?
 
 		entries.push(new Builder().id('').thema(thema).entry('s Problem, -e').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('s Programm, -e').example().get());
@@ -1484,14 +1418,10 @@ Möchtest du den Kuchen probieren?
 		entries.push(new Builder().id('').thema(thema).entry('putzen').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('s Puzzle, -s').example().get());
 
-Hast du Probleme mit deinen Eltern?/
-Ich habe ein Problem mit der Grammatik.
-Wir machen gerade ein Programm für die Klassen-
-reise./Das Programm im Radio ist schlecht.
-Wir arbeiten in der Schule an einem Projekt über die
-Umwelt.
-Schicken Sie mir bitte einen Prospekt von Ihrem
-Hotel ...
+Hast du Probleme mit deinen Eltern?/Ich habe ein Problem mit der Grammatik.
+Wir machen gerade ein Programm für die Klassen-reise./Das Programm im Radio ist schlecht.
+Wir arbeiten in der Schule an einem Projekt über die Umwelt.
+Schicken Sie mir bitte einen Prospekt von Ihrem Hotel ...
 Du brauchst keinen Pullover, es ist warm.
 Kommt bitte pünktlich um 18.00 Uhr nach Hause!
 Ich muss noch das Bad putzen.
@@ -1569,8 +1499,7 @@ TODO
 
 Ich tanze gern in der Disco.
 Die Tasche ist sehr schwer.
-Wie viel Taschengeld bekommt ihr im Monat?/
-15 Euro.
+Wie viel Taschengeld bekommt ihr im Monat?/15 Euro.
 Ich rechne das mit dem Taschenrechner.
 Ich möchte eine Tasse Tee.
 Willst du das tatsächlich machen?
@@ -1579,19 +1508,15 @@ Im Winter trinken wir viel Tee.
 Wir teilen den Kuchen in 10 Stücke.
 Willst du auch am Wettbewerb teilnehmen?
 Das Telefon klingelt.
-Ich telefoniere oft mit meinen Großeltern in
-Frankfurt.
+Ich telefoniere oft mit meinen Großeltern in Frankfurt.
 Ich möchte bitte einen Teller Suppe.
 Mein Hobby ist Tennis spielen.
 In meinem Zimmer ist ein roter Teppich.
 Mach bitte einen Termin mit der Zahnärztin.
 Willst du den Computer kaufen?/Nein, er ist zu teuer.
-Gestern waren wir im Theater, es gab ein Stück von
-Shakespeare.
-Welches Thema hast du gewählt?/
-Ich schreibe über „meine beste Freundin“.
-Ich möchte ein Tier haben: eine Katze oder
-einen Hund.
+Gestern waren wir im Theater, es gab ein Stück von Shakespeare.
+Welches Thema hast du gewählt?/Ich schreibe über „meine beste Freundin“.
+Ich möchte ein Tier haben: eine Katze oder einen Hund.
 
 		entries.push(new Builder().id('').thema(thema).entry('r Tisch, -e').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('r Titel, -').example().get());
@@ -1620,8 +1545,7 @@ einen Hund.
 		entries.push(new Builder().id('').thema(thema).entry('e Tür, -en').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('typisch').example().get());
 
-Das Buch liegt auf dem Tisch./Ich kaufe noch einen
-Tisch und vier Stühle.
+Das Buch liegt auf dem Tisch./Ich kaufe noch einen Tisch und vier Stühle.
 Finde einen Titel für den Text.
 Wo ist die Toilette?
 In den Ferien war es toll.
@@ -1630,26 +1554,19 @@ Zum Geburtstag gibt es immer eine große Torte.
 Meine Katze ist tot. Deshalb bin ich traurig.
 Ist das Buch spannend?/Nein, es ist total langweilig.
 Viele ausländische Touristen kommen nach Bayern.
-Viele ausländische Touristinnen und Touristen
-kommen nach Bayern.
+Viele ausländische Touristinnen und Touristen kommen nach Bayern.
 Er trägt kurze Hosen./Soll ich deinen Koffer tragen?
-Machst du viel Sport? /Ja, ich muss jeden Tag
-trainieren.
+Machst du viel Sport? /Ja, ich muss jeden Tag trainieren.
 Wir gehen zum Fußball-Training.
 Heute Nacht hatte ich einen schönen Traum.
 Ich bin sehr traurig. Meine Katze ist weg.
-Am Nachmittag treffe ich meine Freunde./
-Wir treffen uns vor dem Café.
+Am Nachmittag treffe ich meine Freunde./Wir treffen uns vor dem Café.
 Hier ist die Treppe zum Keller.
-Wir trinken gern Saft./Kann ich etwas zu trinken
-haben?
-Ich habe mein Kleid gewaschen. Ist es jetzt schon
-trocken?
-Der Film ist traurig, aber ich finde ihn trotzdem
-schön.
+Wir trinken gern Saft./Kann ich etwas zu trinken haben?
+Ich habe mein Kleid gewaschen. Ist es jetzt schon trocken?
+Der Film ist traurig, aber ich finde ihn trotzdem schön.
 Ich war traurig, aber meine Mutter hat mich getröstet.
-Wie findest du mein T-Shirt? Es ist neu und passt gut
-zu meiner Hose.
+Wie findest du mein T-Shirt? Es ist neu und passt gut zu meiner Hose.
 Also bis bald, tschüss!
 Was soll ich denn tun?
 Mach bitte die Tür zu./Es klingelt an der Tür.
@@ -1677,13 +1594,10 @@ Ich glaube, das ist typisch deutsch!
 		entries.push(new Builder().id('').thema(thema).entry('unbedingt').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('und').example().get());
 
-Wie komme ich zum Bahnhof?/Du kannst die
-U-Bahn nehmen.
+Wie komme ich zum Bahnhof?/Du kannst die U-Bahn nehmen.
 Ich muss jeden Tag Klavier üben.
-Jetzt gehen wir über die Straße./Das Bild hängt über
-dem Bett.
-Hast du das Buch gefunden?/Nein, ich habe schon
-überall gesucht.
+Jetzt gehen wir über die Straße./Das Bild hängt über dem Bett.
+Hast du das Buch gefunden?/Nein, ich habe schon überall gesucht.
 Heute ist Montag, übermorgen ist Mittwoch.
 Finden Sie eine Überschrift für den Text.
 Hast du keine Uhr?/Es ist sechs Uhr.
@@ -1706,15 +1620,11 @@ Karl und Susanne kommen auch.
 		entries.push(new Builder().id('').thema(thema).entry('e Unterschrift, -en').example().get());
 
 u.s.w.
-Wie war die Party?/Sehr laut, die Musik war
-unerträglich.
-Heute war ein schlimmer Unfall in der Gartenstraße.
-Drei Autos sind kaputt./Ich hatte einen Unfall mit
-dem Motorrad.
+Wie war die Party?/Sehr laut, die Musik war unerträglich.
+Heute war ein schlimmer Unfall in der Gartenstraße. Drei Autos sind kaputt./Ich hatte einen Unfall mit dem Motorrad.
 Mein Bruder studiert an der Universität Mathematik.
 Das ist unser neues Auto.
-Wir machen immer viel Unsinn und ärgern unsere
-Mutter..
+Wir machen immer viel Unsinn und ärgern unsere Mutter..
 Wir wohnen ganz unten im Haus.
 Der Hund liegt unter dem Tisch.
 Der Unterricht dauert bis 13 Uhr.
@@ -1754,33 +1664,25 @@ Auf dem Formular fehlt noch die Unterschrift.
 		entries.push(new Builder().id('').thema(thema).entry('r Vogel, ö, -').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('r Volleyball, ä, -e').example().get());
 
-Ich bin um 15 Uhr mit meiner Freundin verabredet.
-Wir treffen uns im Park.
-Kommst du heute Abend mit?/Nein, mein Vater hat es
-mir verboten.
+Ich bin um 15 Uhr mit meiner Freundin verabredet. Wir treffen uns im Park.
+Kommst du heute Abend mit?/Nein, mein Vater hat es mir verboten.
 Hier ist das Rauchen verboten.
 In den Ferien will ich arbeiten und Geld verdienen.
 Ich vergesse oft die Vokabeln.
-Wir haben die Ergebnisse verglichen./
-Vergleichen Sie die Preise.
-Er will seine alten Sachen auf dem Flohmarkt
-verkaufen.
+Wir haben die Ergebnisse verglichen./ Vergleichen Sie die Preise.
+Er will seine alten Sachen auf dem Flohmarkt verkaufen.
 Im Karneval verkleidet sie sich gern.
 Hast du dich bei dem Unfall schwer verletzt?
 Bist du verletzt?
 Ich bin total in ihn/sie verliebt.
-Ich habe mein Geld verloren./Mein Vater hat seine
-Arbeit verloren.
-Herr Müller ist verreist. Er kommt am 15. August
-wieder.
-Ich finde die Idee verrückt./
-Sie trägt so verrückte Kleider.
+Ich habe mein Geld verloren./Mein Vater hat seine Arbeit verloren.
+Herr Müller ist verreist. Er kommt am 15. August wieder.
+Ich finde die Idee verrückt./Sie trägt so verrückte Kleider.
 Meine Schwester und ich, wir sind verschieden./
 Ich habe verschiedene Hobbys.
 Hat der Zug aus Dresden Verspätung? Ja, 10 Minuten.
 Ich komme sicher, das verspreche ich.
-Ich verstehe dich nicht. Kannst du bitte langsamer
-sprechen?
+Ich verstehe dich nicht. Kannst du bitte langsamer sprechen?
 Du kannst es noch einmal versuchen.
 Hast du viele Freunde?/Es regnet viel.
 Kannst du mir vielleicht helfen?/Vielleicht kommt er.
@@ -1801,27 +1703,19 @@ Wir haben Volleyball gespielt.
 		entries.push(new Builder().id('').thema(thema).entry('vorsichtig').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('vorstellen (sich)').example().get());
 
-Der Computer ist ein Geschenk von meinem Onkel./
-Sie arbeitet von sieben bis neun./Er kommt von
-der Arbeit.
-Ich treffe Peter vor dem Kino./Vor dem Frühstück
-dusche ich.
+Der Computer ist ein Geschenk von meinem Onkel./Sie arbeitet von sieben bis neun./Er kommt von der Arbeit.
+Ich treffe Peter vor dem Kino./Vor dem Frühstück dusche ich.
 Ich möchte vor allem das Museum sehen.
-Fahr geradeaus, dann kommst du an der Kirche
-vorbei./Leider sind die Ferien jetzt vorbei.
-Hast du alles für die Party vorbereitet?/
-Ich muss mich noch auf die Prüfung vorbereiten.
+Fahr geradeaus, dann kommst du an der Kirche vorbei./Leider sind die Ferien jetzt vorbei.
+Hast du alles für die Party vorbereitet?/ Ich muss mich noch auf die Prüfung vorbereiten.
 Wo warst du vorgestern?
-Um sieben Uhr fahren wir weg, aber vorher muss ich
-telefonieren.
+Um sieben Uhr fahren wir weg, aber vorher muss ich telefonieren.
 Das Auto ist vorn ein bisschen kaputt.
 Wie ist dein Vorname?
 Mach doch einen Vorschlag fürs Wochenende!
-Darf ich etwas vorschlagen?/Ich schlage vor,
-wir machen eine Pause.
+Darf ich etwas vorschlagen?/Ich schlage vor, wir machen eine Pause.
 Seid vorsichtig auf der Straße! Es liegt viel Schnee!
-Stell dich bitte mit vier Sätzen vor: Name, Alter,
-Wohnort, Schule.
+Stell dich bitte mit vier Sätzen vor: Name, Alter, Wohnort, Schule.
 
 		–
         */
@@ -1854,33 +1748,25 @@ Wohnort, Schule.
 		entries.push(new Builder().id('').thema(thema).entry('weggehen').example().get());
 
 Ich war schon um sechs Uhr wach.
-Wählen Sie eine Nummer./Haben Sie schon ein
-Getränk gewählt?
-Die Geschichte ist sicher nicht wahr./Das schmeckt
-gut, nicht wahr?
+Wählen Sie eine Nummer./Haben Sie schon ein Getränk gewählt?
+Die Geschichte ist sicher nicht wahr./Das schmeckt gut, nicht wahr?
 Wo ist Konrad?/Er ist wahrscheinlich noch im Büro.
-Gehst du gern im Wald spazieren?/Ja, die Bäume
-gefallen mir.
+Gehst du gern im Wald spazieren?/Ja, die Bäume gefallen mir.
 Am Wochenende wandern wir in den Bergen.
 Wann hast du Geburtstag?
 Im Sommer ist es hier sehr warm.
-Ich warte auf meine Eltern./Kannst du kurz warten?
-Ich bin gleich fertig.
+Ich warte auf meine Eltern./Kannst du kurz warten? Ich bin gleich fertig.
 Warum antwortest du nicht?
 Was ist das?
-Ich will meine Haare waschen./
-Ich muss meine Kleider noch waschen.
+Ich will meine Haare waschen./Ich muss meine Kleider noch waschen.
 Was für eine Bluse möchten Sie?
-Das Wasser im See ist so kalt./Gib mir bitte ein Glas
-Mineralwasser.
-Ich möchte Dollar in Euro wechseln./Können wir das
-Thema wechseln?
+Das Wasser im See ist so kalt./Gib mir bitte ein Glas Mineralwasser.
+Ich möchte Dollar in Euro wechseln./Können wir das Thema wechseln?
 Meine Mutter weckt mich um 7.30 Uhr.
 Können Sie mir den Weg zum Bahnhof zeigen?
 Kannst du bitte die Post wegbringen?
 Leider muss ich jetzt wegfahren.
-Am Abend möchte ich noch mit meinen Freunden
-weggehen.
+Am Abend möchte ich noch mit meinen Freunden weggehen.
 
 		entries.push(new Builder().id('').thema(thema).entry('wehtun').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('weil').example().get());
@@ -1932,31 +1818,23 @@ Lies bitte weiter!
 Können wir jetzt weitermachen?
 Spielt doch weiter!
 Welche CD möchtest du?
-Er ist in der ganzen Welt bekannt./
-Es gibt viele Probleme auf der Welt.
+Er ist in der ganzen Welt bekannt./Es gibt viele Probleme auf der Welt.
 Ich habe heute wenig Zeit.
 Du musst aber wenigstens anrufen.
 Ich rufe dich an, wenn ich Zeit habe.
-Wer kommt mit?/Wen möchtest du einladen?/
-Wem gehört die Tasche?
+Wer kommt mit?/Wen möchtest du einladen?/Wem gehört die Tasche?
 Ich möchte Arzt werden.
-Das ist ein Wettbewerb: Man muss eine Frage richtig
-beantworten, dann kann man eine Reise gewinnen.
+Das ist ein Wettbewerb: Man muss eine Frage richtig beantworten, dann kann man eine Reise gewinnen.
 Das Wetter war schlecht. Es hat nur geregnet.
-Ich glaube, die Frage ist wichtig./Das ist wichtig
-für mich.
+Ich glaube, die Frage ist wichtig./Das ist wichtig für mich.
 Wie heißt das auf Deutsch?/Er schreibt wie ein Kind.
-Ich möchte wieder nach Deutschland fahren./
-Sie ist jetzt wieder gesund.
-Ich verstehe es nicht. Können Sie das bitte
-wiederholen?
+Ich möchte wieder nach Deutschland fahren./ Sie ist jetzt wieder gesund.
+Ich verstehe es nicht. Können Sie das bitte wiederholen?
 Auf Wiedersehen.
-Keinen Müll auf der Wiese lassen!/
-Wir spielen auf der Wiese Fußball.
+Keinen Müll auf der Wiese lassen!/Wir spielen auf der Wiese Fußball.
 Wie viel kostet das?
 Willkommen bei uns!
-Hier gibt es immer viel Wind, meistens kommt er
-von Westen.
+Hier gibt es immer viel Wind, meistens kommt er von Westen.
 Wir haben eine neue Lehrerin.
 Willst du das wirklich kaufen?/Es ist wirklich so.
 Weißt du die Antwort? Ich weiß sie nicht.
@@ -1970,8 +1848,7 @@ Unsere Wohnung hat drei Zimmer.
 Ich sehe im Wohnzimmer fern.
 Willst du meine Freunde kennenlernen?
 Am Himmel sind viele Wolken. Es regnet bald.
-Ich kenne das Wort nicht./Wie viele Wörter hat
-dein Brief?
+Ich kenne das Wort nicht./Wie viele Wörter hat dein Brief?
 
 		entries.push(new Builder().id('').thema(thema).entry('wunderbar').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('wünschen').example().get());
@@ -1979,10 +1856,8 @@ dein Brief?
 		entries.push(new Builder().id('').thema(thema).entry('s Würstchen, -').example().get());
 
 Das Essen ist wunderbar.
-Ich wünsche dir schöne Ferien./Ich wünsche dir
-viel Glück!
-Morgens esse ich keine Wurst./
-Kann ich ein Wurstbrot haben?
+Ich wünsche dir schöne Ferien./Ich wünsche dir viel Glück!
+Morgens esse ich keine Wurst./Kann ich ein Wurstbrot haben?
 Ich möchte zwei Würstchen mit Brot.
 
 		–
@@ -2027,8 +1902,7 @@ Mein Zahn tut weh.
 Sie trägt eine Zahnspange.
 Wir haben ein Bild gezeichnet.
 Können Sie mir den Weg zeigen?
-Wann hast du Zeit für mich?/Ich kann nicht kommen.
-Ich habe keine Zeit.
+Wann hast du Zeit für mich?/Ich kann nicht kommen. Ich habe keine Zeit.
 Meine Mutter liest am Morgen die Zeitung.
 Früher haben wir im Zelt Ferien gemacht.
 Im Zentrum ist heute eine Fußgängerzone.
@@ -2038,24 +1912,20 @@ Ich war als Erster am Ziel.
 Wie groß ist die Wohnung? Es sind drei Zimmer.
 Der Zirkus ist heute in der Stadt.
 Ich liebe Tiere, ich gehe gern in den Zoo.
-zu groß/zum Frühstück/zum Zahnarzt/zur Post/
-zum Geburtstag/zu Hause
+zu groß/zum Frühstück/zum Zahnarzt/zur Post/zum Geburtstag/zu Hause
 Ich trinke meinen Kaffee mit Zucker.
 Sagen Sie bitte zuerst den Vornamen.
 Ich bin mit meiner Note zufrieden.
 Wir fahren mit dem Zug zu meiner Tante.
 Hör jetzt zu! Das ist wichtig!
-Wann hast du ihn zuletzt gesehen?
-Im letzten Sommer.
+Wann hast du ihn zuletzt gesehen? Im letzten Sommer.
 Mach die Tür bitte zu!
 z. B.
 Wir fahren mit dem Zug, zurück nehmen wir den Bus.
 Ich bin gestern aus dem Urlaub zurückgekommen.
 Wir machen zusammen Hausaufgaben.
 Die Bücherei ist in den Ferien zu.
-Der Supermarkt ist zwischen dem Rathaus und
-der Post./Zwischen zwölf und zwei Uhr bin ich
-nicht da.
+Der Supermarkt ist zwischen dem Rathaus und der Post./Zwischen zwölf und zwei Uhr bin ich nicht da.
 		–
         */
         return entries;
