@@ -1375,55 +1375,47 @@ TODO
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'V'];
 /*
-		entries.push(new Builder().id('').thema(thema).entry('verabredet sein').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('verbieten').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('verboten sein').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('verdienen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('vergessen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('vergleichen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('verkaufen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('verkleiden (sich)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('verletzen (sich)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('verletzt sein').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('verliebt sein').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('verlieren').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('verreisen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('verrückt').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('verschieden').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Verspätung, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('versprechen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('verstehen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('versuchen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('viel, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('vielleicht').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Vogel, ö, -').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Volleyball, ä, -e').example().get());
-'Ich bin um 15 Uhr mit meiner Freundin verabredet. Wir treffen uns im Park.'
-['Kommst du heute Abend mit?', '– Nein, mein Vater hat es mir verboten.']
-'Hier ist das Rauchen verboten.'
-'In den Ferien will ich arbeiten und Geld verdienen.'
-'Ich vergesse oft die Vokabeln.'
-['Wir haben die Ergebnisse verglichen.', 'Vergleichen Sie die Preise.']
-'Er will seine alten Sachen auf dem Flohmarkt verkaufen.'
-'Im Karneval verkleidet sie sich gern.'
-'Hast du dich bei dem Unfall schwer verletzt?'
-'Bist du verletzt?'
-'Ich bin total in ihn/sie verliebt.'
-['Ich habe mein Geld verloren.', 'Mein Vater hat seine Arbeit verloren.']
-'Herr Müller ist verreist. Er kommt am 15. August wieder.'
-['Ich finde die Idee verrückt.', 'Sie trägt so verrückte Kleider.']
-['Meine Schwester und ich, wir sind verschieden.', 'Ich habe verschiedene Hobbys.']
-'Hat der Zug aus Dresden Verspätung? Ja, 10 Minuten.'
-'Ich komme sicher, das verspreche ich.'
-'Ich verstehe dich nicht. Kannst du bitte langsamer sprechen?'
-'Du kannst es noch einmal versuchen.'
-['Hast du viele Freunde?', 'Es regnet viel.']
-['Kannst du mir vielleicht helfen?', 'Vielleicht kommt er.']
-'Morgens singen die Vögel im Garten.'
-'Wir haben Volleyball gespielt.'
-		entries.push(new Builder().id('').thema(thema).entry('von').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('vor').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('vor allem').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('verabredet sein').example('Ich bin um 15 Uhr mit meiner Freundin verabredet. Wir treffen uns im Park.').get());
+		entries.push(new Builder().id('').thema(thema).entry('verbieten').example(['Kommst du heute Abend mit?', '– Nein, mein Vater hat es mir verboten.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('verboten sein').example('Hier ist das Rauchen verboten.').get());
+		entries.push(new Builder().id('').thema(thema).entry('verdienen').example('In den Ferien will ich arbeiten und Geld verdienen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('vergessen').example('Ich vergesse oft die Vokabeln.').get());
+		entries.push(new Builder().id('').thema(thema).entry('vergleichen').example(['Wir haben die Ergebnisse verglichen.', 'Vergleichen Sie die Preise.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('verkaufen').example('Er will seine alten Sachen auf dem Flohmarkt verkaufen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('verkleiden (sich)').example('Im Karneval verkleidet sie sich gern.').get());
+		entries.push(new Builder().id('').thema(thema).entry('verletzen (sich)').example('Hast du dich bei dem Unfall schwer verletzt?').get());
+		entries.push(new Builder().id('').thema(thema).entry('verletzt sein').example('Bist du verletzt?').get());
+		entries.push(new Builder().id('').thema(thema).entry('verliebt sein').example('Ich bin total in ihn/sie verliebt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('verlieren').example(['Ich habe mein Geld verloren.', 'Mein Vater hat seine Arbeit verloren.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('verreisen').example('Herr Müller ist verreist. Er kommt am 15. August wieder.').get());
+		entries.push(new Builder().id('').thema(thema).entry('verrückt').example(['Ich finde die Idee verrückt.', 'Sie trägt so verrückte Kleider.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('verschieden').example(['Meine Schwester und ich, wir sind verschieden.', 'Ich habe verschiedene Hobbys.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Verspätung, -en').example('Hat der Zug aus Dresden Verspätung? Ja, 10 Minuten.').get());
+		entries.push(new Builder().id('').thema(thema).entry('versprechen').example('Ich komme sicher, das verspreche ich.').get());
+		entries.push(new Builder().id('').thema(thema).entry('verstehen').example('Ich verstehe dich nicht. Kannst du bitte langsamer sprechen?').get());
+		entries.push(new Builder().id('').thema(thema).entry('versuchen').example('Du kannst es noch einmal versuchen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('viel, -e').example(['Hast du viele Freunde?', 'Es regnet viel.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('vielleicht').example(['Kannst du mir vielleicht helfen?', 'Vielleicht kommt er.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Vogel, ö, -').example('Morgens singen die Vögel im Garten.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Volleyball, ä, -e').example('Wir haben Volleyball gespielt.').get());
+
+
+
+
+
+
+
+
+
+
+['Fahr geradeaus, dann kommst du an der Kirche vorbei.', 'Leider sind die Ferien jetzt vorbei.']
+['Hast du alles für die Party vorbereitet?', 'Ich muss mich noch auf die Prüfung vorbereiten.']
+'Wo warst du vorgestern?'
+'Um sieben Uhr fahren wir weg, aber vorher muss ich telefonieren.'
+
+		entries.push(new Builder().id('').thema(thema).entry('von').example(['Der Computer ist ein Geschenk von meinem Onkel.', 'Sie arbeitet von sieben bis neun.', 'Er kommt von der Arbeit.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('vor').example(['Ich treffe Peter vor dem Kino.', 'Vor dem Frühstück dusche ich.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('vor allem').example('Ich möchte vor allem das Museum sehen.').get());
 		entries.push(new Builder().id('').thema(thema).entry('vorbei').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('vorbereiten').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('vorgestern').example().get());
@@ -1434,13 +1426,6 @@ TODO
 		entries.push(new Builder().id('').thema(thema).entry('vorschlagen').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('vorsichtig').example().get());
 		entries.push(new Builder().id('').thema(thema).entry('vorstellen (sich)').example().get());
-['Der Computer ist ein Geschenk von meinem Onkel.', 'Sie arbeitet von sieben bis neun.', 'Er kommt von der Arbeit.']
-['Ich treffe Peter vor dem Kino.', 'Vor dem Frühstück dusche ich.']
-'Ich möchte vor allem das Museum sehen.'
-['Fahr geradeaus, dann kommst du an der Kirche vorbei.', 'Leider sind die Ferien jetzt vorbei.']
-['Hast du alles für die Party vorbereitet?', 'Ich muss mich noch auf die Prüfung vorbereiten.']
-'Wo warst du vorgestern?'
-'Um sieben Uhr fahren wir weg, aber vorher muss ich telefonieren.'
 'Das Auto ist vorn ein bisschen kaputt.'
 'Wie ist dein Vorname?'
 'Mach doch einen Vorschlag fürs Wochenende!'
