@@ -595,7 +595,7 @@ class VocabularyA2Service {
 		entries.push(new Builder().id('').thema(thema).entry('baden').example(['Ich will morgens nicht baden. Ich dusche lieber.', 'Komm, baden im See!']).get());
 		entries.push(new Builder().id('').thema(thema).entry('r Bahnhof, ö, -e').example('Wir gehen jetzt zum Bahnhof. Der Zug fährt in 10 Minuten.').get());
 		entries.push(new Builder().id('').thema(thema).entry('r Bahnsteig, -e').example('Der Zug kommt auf Bahnsteig 7 an.').get());
-		entries.push(new Builder().id('').thema(thema).entry('bald').example('Bis bald!/Er kommt bald wieder.').get());
+		entries.push(new Builder().id('').thema(thema).entry('bald').example(['Bis bald!', 'Er kommt bald wieder.']).get());
 		entries.push(new Builder().id('').thema(thema).entry('r Balkon, -e').example(['Wir können auf dem Balkon frühstücken.', 'Die Wohnung hat keinen Garten, aber einen Balkon.']).get());
 		entries.push(new Builder().id('').thema(thema).entry('r Ball, ä, -e').example('Wir wollen Fußball spielen. Bringst du deinen Ball mit?').get());
 		entries.push(new Builder().id('').thema(thema).entry('e Banane, -n').example('Sie isst gern Bananen.').get());
@@ -851,7 +851,7 @@ class VocabularyA2Service {
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'G'];
 		entries.push(new Builder().id('').thema(thema).entry('geboren').example('Wann bist du geboren? Am 15. Februar 1998.').get());
 		entries.push(new Builder().id('').thema(thema).entry('r Geburtstag, -e').example('Herzlichen Glückwunsch zum Geburtstag.').get());
-		entries.push(new Builder().id('').thema(thema).entry('s Gedicht, -e').example('Sie liest gern Gedichte./Goethe hat viele Gedichte geschrieben.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Gedicht, -e').example('Sie liest gern Gedichte.', 'Goethe hat viele Gedichte geschrieben.').get());
 		entries.push(new Builder().id('').thema(thema).entry('gefährlich').example(['Das ist zu gefährlich.', 'Krebs ist eine gefährliche Krankheit.']).get());
 		entries.push(new Builder().id('').thema(thema).entry('gefallen').example(['Gefällt dir meine neue Hose?', '– Ja, sie sieht toll aus.']).get());
 		entries.push(new Builder().id('').thema(thema).entry('gegen').example(['Martin spielt gegen Sabine.', 'Ich brauche eine Tablette gegen Kopfschmerzen.']).get());
@@ -1158,213 +1158,114 @@ class VocabularyA2Service {
     createNEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'N'];
-/*
-		entries.push(new Builder().id('').thema(thema).entry('nach').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Nachbar, -n, e Nachbarin, -nen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Nachricht').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Nähe (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('nächste').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Name, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('nämlich').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Nase, -n').example().get());
-['Wohin fährst du?', '– Nach Berlin.', 'Nach der Schule mache ich meine Hausaufgaben.', 'Es ist schon fünf nach eins.']
-'Die Nachbarn hier im Haus sind sehr nett.'
-['Das ist eine gute Nachricht.', 'Jetzt kommen im Radio die Nachrichten für Schüler.', 'Du hörst die Nachricht noch einmal.']
-'Elmshorn liegt in der Nähe von Hamburg.'
-['Wann kommst du wieder?', '– In der nächsten Woche.']
-'Mein Name ist Peter Niemöller.'
-'Ich habe es nicht gekauft, es war nämlich sehr teuer.'
-'Er hat blaue Augen und eine große Nase.'
-		entries.push(new Builder().id('').thema(thema).entry('nass').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Natur, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('natürlich').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('neben').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('negativ').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('nehmen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('nein').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('nennen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('nervös').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('nett').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('neu').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('nicht').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('nichts').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('nie').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('niemand').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('noch').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('normal').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Note, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('notieren').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('nötig').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Nudel, n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Nummer, n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('nur').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('nützlich').example().get());
-'Die Straßen sind vom Regen ganz nass.'
-'Er ist am liebsten draußen in der freien Natur.'
-['Kann ich hier schlafen?', '– Ja, natürlich.']
-['Petra sitzt neben mir.', 'Die Bäckerei ist direkt neben dem Supermarkt.']
-'Sieh das nicht so negativ!'
-['Nehmen Sie den Bus zum Marktplatz!', 'Nimm noch ein Stück Kuchen.']
-['Kommst du mit?', '– Nein, leider nicht.']
-'Ich heiße Elisabeth, aber alle nennen mich Betty.'
-'In Prüfungen bin ich immer so nervös.'
-['Wie findest du Maria?', '– Sie ist sehr nett.']
-['Ist der Computer neu?', 'Mein Auto ist noch neu.']
-['Ist das gut?', '– Nein, es gefällt mir nicht.']
-'Ich möchte nichts essen.'
-'Ich war noch nie in Frankreich.'
-'Kann mir niemand helfen?'
-['Jetzt muss ich noch Hausaufgaben machen.', 'Vielleicht kommt er noch.']
-['Ich fühle mich schlecht.', '– Das ist normal. Du bist krank.']
-['Hast du gute Noten in der Schule?', 'Die Noten liegen auf dem Klavier.']
-['Habt ihr alles notiert?', 'Notiert euch den Termin.']
-'Das brauchen wir nicht, das ist nicht nötig.'
-'Heute gibt es Nudeln.'
-['Bitte, sag mir deine Telefonnummer.', 'Können Sie mir Ihre Nummer geben?', 'Sie haben Zimmer Nummer 14.']
-['Ich möchte nur ein Glas Wasser.', 'Er ist nur heute in der Stadt.']
-'Du musst Sprachen lernen, das ist immer nützlich.'
-        */
+		entries.push(new Builder().id('').thema(thema).entry('nach').example(['Wohin fährst du?', '– Nach Berlin.', 'Nach der Schule mache ich meine Hausaufgaben.', 'Es ist schon fünf nach eins.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Nachbar, -n, e Nachbarin, -nen').example('Die Nachbarn hier im Haus sind sehr nett.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Nachricht').example(['Das ist eine gute Nachricht.', 'Jetzt kommen im Radio die Nachrichten für Schüler.', 'Du hörst die Nachricht noch einmal.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Nähe (Sg.)').example('Elmshorn liegt in der Nähe von Hamburg.').get());
+		entries.push(new Builder().id('').thema(thema).entry('nächste').example(['Wann kommst du wieder?', '– In der nächsten Woche.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Name, -n').example('Mein Name ist Peter Niemöller.').get());
+		entries.push(new Builder().id('').thema(thema).entry('nämlich').example('Ich habe es nicht gekauft, es war nämlich sehr teuer.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Nase, -n').example('Er hat blaue Augen und eine große Nase.').get());
+		entries.push(new Builder().id('').thema(thema).entry('nass').example('Die Straßen sind vom Regen ganz nass.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Natur, -en').example('Er ist am liebsten draußen in der freien Natur.').get());
+		entries.push(new Builder().id('').thema(thema).entry('natürlich').example(['Kann ich hier schlafen?', '– Ja, natürlich.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('neben').example(['Petra sitzt neben mir.', 'Die Bäckerei ist direkt neben dem Supermarkt.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('negativ').example('Sieh das nicht so negativ!').get());
+		entries.push(new Builder().id('').thema(thema).entry('nehmen').example(['Nehmen Sie den Bus zum Marktplatz!', 'Nimm noch ein Stück Kuchen.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('nein').example(['Kommst du mit?', '– Nein, leider nicht.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('nennen').example('Ich heiße Elisabeth, aber alle nennen mich Betty.').get());
+		entries.push(new Builder().id('').thema(thema).entry('nervös').example('In Prüfungen bin ich immer so nervös.').get());
+		entries.push(new Builder().id('').thema(thema).entry('nett').example(['Wie findest du Maria?', '– Sie ist sehr nett.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('neu').example(['Ist der Computer neu?', 'Mein Auto ist noch neu.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('nicht').example(['Ist das gut?', '– Nein, es gefällt mir nicht.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('nichts').example('Ich möchte nichts essen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('nie').example('Ich war noch nie in Frankreich.').get());
+		entries.push(new Builder().id('').thema(thema).entry('niemand').example('Kann mir niemand helfen?').get());
+		entries.push(new Builder().id('').thema(thema).entry('noch').example(['Jetzt muss ich noch Hausaufgaben machen.', 'Vielleicht kommt er noch.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('normal').example(['Ich fühle mich schlecht.', '– Das ist normal. Du bist krank.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Note, -n').example(['Hast du gute Noten in der Schule?', 'Die Noten liegen auf dem Klavier.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('notieren').example(['Habt ihr alles notiert?', 'Notiert euch den Termin.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('nötig').example('Das brauchen wir nicht, das ist nicht nötig.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Nudel, n').example('Heute gibt es Nudeln.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Nummer, n').example(['Bitte, sag mir deine Telefonnummer.', 'Können Sie mir Ihre Nummer geben?', 'Sie haben Zimmer Nummer 14.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('nur').example(['Ich möchte nur ein Glas Wasser.', 'Er ist nur heute in der Stadt.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('nützlich').example('Du musst Sprachen lernen, das ist immer nützlich.').get());
         return entries;
     }
 
     createOEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'O'];
-/*
-		entries.push(new Builder().id('').thema(thema).entry('oben').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Obst (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('oder').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('offen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('öffnen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('oft').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('ohne').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Ohr, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Ohrring, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Oper, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Operation, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Orange, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Ordnung, -en').example().get());
-'Oben auf dem Berg ist ein Restaurant.'
-'Wir essen immer viel Obst: Äpfel, Bananen ...'
-'Trinkst du Tee oder Kaffee?'
-['Das Fenster ist offen, kannst du es bitte schließen?', 'Die Geschäfte sind bis 20.00 Uhr offen.']
-'Kannst du bitte die Tür öffnen? Die Geschäfte sind am Sonntag geöffnet.'
-'Wir gehen im Sommer oft im Park spazieren.'
-['Ein Sonntag ohne meine Freunde ist langweilig.', 'Ich trinke meinen Kaffee ohne Zucker.']
-'Er hat große Ohren und eine kleine Nase.'
-'Sie trägt einen kleinen Ohrring.'
-['Heute Abend gehen wir in die Oper.', 'Dies ist eine Oper von Mozart.']
-'Ich muss ins Krankenhaus: Die Operation ist nötig.'
-'Ich kaufe drei Kilo Orangen.'
-['Das ist in Ordnung, kein Problem.', 'Kannst du hier nicht Ordnung machen?']
-		entries.push(new Builder().id('').thema(thema).entry('organisieren').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Ort, -e').example().get());
-'Ich organisiere das Fest. Ich habe also viel zu tun.'
-['Dieser Ort hat 3000 Einwohner.', 'Dieser Ort liegt in den Bergen.']
-        */
+		entries.push(new Builder().id('').thema(thema).entry('oben').example('Oben auf dem Berg ist ein Restaurant.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Obst (Sg.)').example('Wir essen immer viel Obst: Äpfel, Bananen ...').get());
+		entries.push(new Builder().id('').thema(thema).entry('oder').example('Trinkst du Tee oder Kaffee?').get());
+		entries.push(new Builder().id('').thema(thema).entry('offen').example(['Das Fenster ist offen, kannst du es bitte schließen?', 'Die Geschäfte sind bis 20.00 Uhr offen.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('öffnen').example('Kannst du bitte die Tür öffnen? Die Geschäfte sind am Sonntag geöffnet.').get());
+		entries.push(new Builder().id('').thema(thema).entry('oft').example('Wir gehen im Sommer oft im Park spazieren.').get());
+		entries.push(new Builder().id('').thema(thema).entry('ohne').example(['Ein Sonntag ohne meine Freunde ist langweilig.', 'Ich trinke meinen Kaffee ohne Zucker.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Ohr, -en').example('Er hat große Ohren und eine kleine Nase.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Ohrring, -e').example('Sie trägt einen kleinen Ohrring.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Oper, -n').example(['Heute Abend gehen wir in die Oper.', 'Dies ist eine Oper von Mozart.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Operation, -en').example('Ich muss ins Krankenhaus: Die Operation ist nötig.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Orange, -n').example('Ich kaufe drei Kilo Orangen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Ordnung, -en').example(['Das ist in Ordnung, kein Problem.', 'Kannst du hier nicht Ordnung machen?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('organisieren').example('Ich organisiere das Fest. Ich habe also viel zu tun.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Ort, -e').example(['Dieser Ort hat 3000 Einwohner.', 'Dieser Ort liegt in den Bergen.']).get());
         return entries;
     }
 
     createPEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'P'];
-/*
-		entries.push(new Builder().id('').thema(thema).entry('s Paar, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('ein paar').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Päckchen, -').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('packen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Paket, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Papier, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Park, -s').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Party, -s').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('passen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('passieren').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Pause, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Pech (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Person, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Pferd, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Pflanze, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Pizza, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Plakat, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Plan, ä, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('planen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Platz, ä, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('plötzlich').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('plus').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Pommes frites (Pl.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('positiv').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Post (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Poster, -').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Postkarte, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('praktisch').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Preis, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('prima').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('pro').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('probieren').example().get());
-['Karla und Uwe sind ein Liebespaar.', 'Ich brauche ein Paar Schuhe.']
-'Wir waren ein paar Tage am Meer.'
-'Ist das Päckchen von Tante Claudia endlich angekommen?'
-'Hast du den Koffer schon gepackt?'
-'Ich muss das Paket zur Post bringen.'
-'Kann ich ein Blatt Papier haben. Ich will einen Brief schreiben.'
-'Wir gehen gern im Park spazieren.'
-'Die Party war toll.'
-'Das Kleid passt mir nicht mehr. Es ist zu klein.'
-['Was passiert in der Geschichte?', 'Ist dir etwas passiert?']
-['Du arbeitest zu viel. Mach doch eine Pause.', 'Von 12.00 bis 12.30 Uhr machen wir Mittagspause.']
-['Das war wirklich Pech!', 'Ich habe Pech gehabt.']
-'Es kostet drei Euro pro Person.'
-'Ich möchte so gern ein Pferd haben! Ich reite sehr gern.'
-'In unserem Garten sind viele Pflanzen.'
-'Heute gibt es bei uns Pizza mit Tomaten und Käse.'
-'Was steht auf dem Plakat?'
-['Wie findest du meinen Plan?', 'Hast du einen Stadtplan von Berlin?', 'Ich brauche noch einen Fahrplan für den Bus.']
-'Wir planen gerade unsere Ferien.'
-['Das ist mein Platz.', 'In meiner Wohnung ist wenig Platz.', 'Ist der Platz noch frei?']
-'Plötzlich war das Licht aus.'
-'Sieben plus drei ist zehn.'
-['Wie willst du die Pommes frites?', '– Mit Ketchup.']
-['Alles wird gut. Denk positiv!', 'Das ist ein sehr positives Ergebnis.']
-'Ich bringe die Briefe zur Post.'
-['Was sind das für Poster?', 'Ich bin Fan vom FC Bayern.']
-'Ich schreibe dir aus dem Urlaub eine Postkarte.'
-'Diese Maschine ist sehr praktisch.'
-['Die Preise für Autos sind ziemlich hoch.', 'Der erste Preis im Quiz ist eine Reise nach Paris.']
-['Ich finde deine Idee prima!', 'Was können wir tun? Hast du eine Idee?']
-'Das macht 20 Euro pro Person.'
-['Kann ich das Kleid probieren?', 'Möchtest du den Kuchen probieren?']
-		entries.push(new Builder().id('').thema(thema).entry('s Problem, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Programm, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Projekt, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Prospekt, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Pullover, -').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('pünktlich').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('putzen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Puzzle, -s').example().get());
-['Hast du Probleme mit deinen Eltern?', 'Ich habe ein Problem mit der Grammatik.']
-['Wir machen gerade ein Programm für die Klassen-reise.', 'Das Programm im Radio ist schlecht.']
-'Wir arbeiten in der Schule an einem Projekt über die Umwelt.'
-'Schicken Sie mir bitte einen Prospekt von Ihrem Hotel ...'
-'Du brauchst keinen Pullover, es ist warm.'
-'Kommt bitte pünktlich um 18.00 Uhr nach Hause!'
-'Ich muss noch das Bad putzen.'
-'Das ist ein Puzzle mit 5000 Teilen.'
-        */
+		entries.push(new Builder().id('').thema(thema).entry('s Paar, -e').example(['Karla und Uwe sind ein Liebespaar.', 'Ich brauche ein Paar Schuhe.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('ein paar').example('Wir waren ein paar Tage am Meer.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Päckchen, -').example('Ist das Päckchen von Tante Claudia endlich angekommen?').get());
+		entries.push(new Builder().id('').thema(thema).entry('packen').example('Hast du den Koffer schon gepackt?').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Paket, -e').example('Ich muss das Paket zur Post bringen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Papier, -e').example('Kann ich ein Blatt Papier haben. Ich will einen Brief schreiben.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Park, -s').example('Wir gehen gern im Park spazieren.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Party, -s').example('Die Party war toll.').get());
+		entries.push(new Builder().id('').thema(thema).entry('passen').example('Das Kleid passt mir nicht mehr. Es ist zu klein.').get());
+		entries.push(new Builder().id('').thema(thema).entry('passieren').example(['Was passiert in der Geschichte?', 'Ist dir etwas passiert?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Pause, -n').example(['Du arbeitest zu viel. Mach doch eine Pause.', 'Von 12.00 bis 12.30 Uhr machen wir Mittagspause.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Pech (Sg.)').example(['Das war wirklich Pech!', 'Ich habe Pech gehabt.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Person, -en').example('Es kostet drei Euro pro Person.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Pferd, -e').example('Ich möchte so gern ein Pferd haben! Ich reite sehr gern.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Pflanze, -n').example('In unserem Garten sind viele Pflanzen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Pizza, -en').example('Heute gibt es bei uns Pizza mit Tomaten und Käse.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Plakat, -e').example('Was steht auf dem Plakat?').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Plan, ä, -e').example(['Wie findest du meinen Plan?', 'Hast du einen Stadtplan von Berlin?', 'Ich brauche noch einen Fahrplan für den Bus.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('planen').example('Wir planen gerade unsere Ferien.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Platz, ä, -e').example(['Das ist mein Platz.', 'In meiner Wohnung ist wenig Platz.', 'Ist der Platz noch frei?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('plötzlich').example('Plötzlich war das Licht aus.').get());
+		entries.push(new Builder().id('').thema(thema).entry('plus').example('Sieben plus drei ist zehn.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Pommes frites (Pl.)').example(['Wie willst du die Pommes frites?', '– Mit Ketchup.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('positiv').example(['Alles wird gut. Denk positiv!', 'Das ist ein sehr positives Ergebnis.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Post (Sg.)').example('Ich bringe die Briefe zur Post.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Poster, -').example(['Was sind das für Poster?', '– Ich bin Fan vom FC Bayern.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Postkarte, -n').example('Ich schreibe dir aus dem Urlaub eine Postkarte.').get());
+		entries.push(new Builder().id('').thema(thema).entry('praktisch').example('Diese Maschine ist sehr praktisch.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Preis, -e').example(['Die Preise für Autos sind ziemlich hoch.', 'Der erste Preis im Quiz ist eine Reise nach Paris.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('prima').example(['Ich finde deine Idee prima!', 'Was können wir tun? Hast du eine Idee?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('pro').example('Das macht 20 Euro pro Person.').get());
+		entries.push(new Builder().id('').thema(thema).entry('probieren').example(['Kann ich das Kleid probieren?', 'Möchtest du den Kuchen probieren?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Problem, -e').example(['Hast du Probleme mit deinen Eltern?', 'Ich habe ein Problem mit der Grammatik.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Programm, -e').example(['Wir machen gerade ein Programm für die Klassen-reise.', 'Das Programm im Radio ist schlecht.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Projekt, -e').example('Wir arbeiten in der Schule an einem Projekt über die Umwelt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Prospekt, -e').example('Schicken Sie mir bitte einen Prospekt von Ihrem Hotel ...').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Pullover, -').example('Du brauchst keinen Pullover, es ist warm.').get());
+		entries.push(new Builder().id('').thema(thema).entry('pünktlich').example('Kommt bitte pünktlich um 18.00 Uhr nach Hause!').get());
+		entries.push(new Builder().id('').thema(thema).entry('putzen').example('Ich muss noch das Bad putzen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Puzzle, -s').example('Das ist ein Puzzle mit 5000 Teilen.').get());
         return entries;
     }
 
     createQEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'Q'];
-/*
-		entries.push(new Builder().id('').thema(thema).entry('r Quatsch (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('quer').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Quiz (Sg.)').example().get());
-'Ich finde, das ist nur Quatsch!'
-'Im Sommer reisen wir quer durch Deutschland.'
-'Das ist ein Quiz für Kinder.'
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
-        */
+		entries.push(new Builder().id('').thema(thema).entry('r Quatsch (Sg.)').example('Ich finde, das ist nur Quatsch!').get());
+		entries.push(new Builder().id('').thema(thema).entry('quer').example('Im Sommer reisen wir quer durch Deutschland.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Quiz (Sg.)').example('Das ist ein Quiz für Kinder.').get());
         return entries;
     }
 
@@ -1393,154 +1294,80 @@ TODO
     createTEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'T'];
-/*
-		entries.push(new Builder().id('').thema(thema).entry('tanzen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Tasche, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Taschengeld (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Taschenrechner, -').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Tasse, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('tatsächlich').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Taxi, -s').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Tee, -s').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('teilen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('teilnehmen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Telefon, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('telefonieren').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Teller, -').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('Tennis spielen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Teppich, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Termin, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('teuer').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Theater, -').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Thema, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Tier, -e').example().get());
-'Ich tanze gern in der Disco.'
-'Die Tasche ist sehr schwer.'
-['Wie viel Taschengeld bekommt ihr im Monat?', '– 15 Euro.']
-'Ich rechne das mit dem Taschenrechner.'
-'Ich möchte eine Tasse Tee.'
-'Willst du das tatsächlich machen?'
-['Wie kommst du zum Flughafen?', '– Ich nehme ein Taxi.']
-'Im Winter trinken wir viel Tee.'
-'Wir teilen den Kuchen in 10 Stücke.'
-'Willst du auch am Wettbewerb teilnehmen?'
-'Das Telefon klingelt.'
-'Ich telefoniere oft mit meinen Großeltern in Frankfurt.'
-'Ich möchte bitte einen Teller Suppe.'
-'Mein Hobby ist Tennis spielen.'
-'In meinem Zimmer ist ein roter Teppich.'
-'Mach bitte einen Termin mit der Zahnärztin.'
-['Willst du den Computer kaufen?', '– Nein, er ist zu teuer.']
-'Gestern waren wir im Theater, es gab ein Stück von Shakespeare.'
-['Welches Thema hast du gewählt?', '– Ich schreibe über „meine beste Freundin“.']
-'Ich möchte ein Tier haben: eine Katze oder einen Hund.'
-		entries.push(new Builder().id('').thema(thema).entry('r Tisch, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Titel, -').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Toilette, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('toll').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Tomate, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Torte, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('tot').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('total').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Tourist, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Touristin, -nen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('tragen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('trainieren').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Training (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Traum, ä, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('traurig').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('treffen (sich)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Treppe, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('trinken').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('trocken').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('trotzdem').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('trösten').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s T-Shirt, -s').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('tschüss!').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('tun').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Tür, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('typisch').example().get());
-['Das Buch liegt auf dem Tisch.', 'Ich kaufe noch einen Tisch und vier Stühle.']
-'Finde einen Titel für den Text.'
-'Wo ist die Toilette?'
-'In den Ferien war es toll.'
-'Die Tomate ist noch grün. Ich mag nur rote Tomaten.'
-'Zum Geburtstag gibt es immer eine große Torte.'
-'Meine Katze ist tot. Deshalb bin ich traurig.'
-['Ist das Buch spannend?', '– Nein, es ist total langweilig.']
-'Viele ausländische Touristen kommen nach Bayern.'
-'Viele ausländische Touristinnen und Touristen kommen nach Bayern.'
-['Er trägt kurze Hosen.', 'Soll ich deinen Koffer tragen?']
-['Machst du viel Sport?', '– Ja, ich muss jeden Tag trainieren.']
-'Wir gehen zum Fußball-Training.'
-'Heute Nacht hatte ich einen schönen Traum.'
-'Ich bin sehr traurig. Meine Katze ist weg.'
-['Am Nachmittag treffe ich meine Freunde.', 'Wir treffen uns vor dem Café.']
-'Hier ist die Treppe zum Keller.'
-['Wir trinken gern Saft.', 'Kann ich etwas zu trinken haben?']
-'Ich habe mein Kleid gewaschen. Ist es jetzt schon trocken?'
-'Der Film ist traurig, aber ich finde ihn trotzdem schön.'
-'Ich war traurig, aber meine Mutter hat mich getröstet.'
-'Wie findest du mein T-Shirt? Es ist neu und passt gut zu meiner Hose.'
-'Also bis bald, tschüss!'
-'Was soll ich denn tun?'
-['Mach bitte die Tür zu.', 'Es klingelt an der Tür.']
-'Ich glaube, das ist typisch deutsch!'
-        */
+		entries.push(new Builder().id('').thema(thema).entry('tanzen').example('Ich tanze gern in der Disco.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Tasche, -n').example('Die Tasche ist sehr schwer.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Taschengeld (Sg.)').example(['Wie viel Taschengeld bekommt ihr im Monat?', '– 15 Euro.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Taschenrechner, -').example('Ich rechne das mit dem Taschenrechner.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Tasse, -n').example('Ich möchte eine Tasse Tee.').get());
+		entries.push(new Builder().id('').thema(thema).entry('tatsächlich').example('Willst du das tatsächlich machen?').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Taxi, -s').example(['Wie kommst du zum Flughafen?', '– Ich nehme ein Taxi.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Tee, -s').example('Im Winter trinken wir viel Tee.').get());
+		entries.push(new Builder().id('').thema(thema).entry('teilen').example('Wir teilen den Kuchen in 10 Stücke.').get());
+		entries.push(new Builder().id('').thema(thema).entry('teilnehmen').example('Willst du auch am Wettbewerb teilnehmen?').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Telefon, -e').example('Das Telefon klingelt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('telefonieren').example('Ich telefoniere oft mit meinen Großeltern in Frankfurt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Teller, -').example('Ich möchte bitte einen Teller Suppe.').get());
+		entries.push(new Builder().id('').thema(thema).entry('Tennis spielen').example('Mein Hobby ist Tennis spielen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Teppich, -e').example('In meinem Zimmer ist ein roter Teppich.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Termin, -e').example('Mach bitte einen Termin mit der Zahnärztin.').get());
+		entries.push(new Builder().id('').thema(thema).entry('teuer').example(['Willst du den Computer kaufen?', '– Nein, er ist zu teuer.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Theater, -').example('Gestern waren wir im Theater, es gab ein Stück von Shakespeare.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Thema, -en').example(['Welches Thema hast du gewählt?', '– Ich schreibe über „meine beste Freundin“.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Tier, -e').example('Ich möchte ein Tier haben: eine Katze oder einen Hund.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Tisch, -e').example(['Das Buch liegt auf dem Tisch.', 'Ich kaufe noch einen Tisch und vier Stühle.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Titel, -').example('Finde einen Titel für den Text.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Toilette, -n').example('Wo ist die Toilette?').get());
+		entries.push(new Builder().id('').thema(thema).entry('toll').example('In den Ferien war es toll.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Tomate, -n').example('Die Tomate ist noch grün. Ich mag nur rote Tomaten.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Torte, -n').example('Zum Geburtstag gibt es immer eine große Torte.').get());
+		entries.push(new Builder().id('').thema(thema).entry('tot').example('Meine Katze ist tot. Deshalb bin ich traurig.').get());
+		entries.push(new Builder().id('').thema(thema).entry('total').example(['Ist das Buch spannend?', '– Nein, es ist total langweilig.']).get());
+		entries.push(new Builder().id('').thema(thema).entry(['r Tourist, -en', 'e Touristin, -nen']).example('Viele ausländische Touristen kommen nach Bayern.').get());
+		entries.push(new Builder().id('').thema(thema).entry('tragen').example(['Er trägt kurze Hosen.', 'Soll ich deinen Koffer tragen?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('trainieren').example(['Machst du viel Sport?', '– Ja, ich muss jeden Tag trainieren.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Training (Sg.)').example('Wir gehen zum Fußball-Training.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Traum, ä, -e').example('Heute Nacht hatte ich einen schönen Traum.').get());
+		entries.push(new Builder().id('').thema(thema).entry('traurig').example('Ich bin sehr traurig. Meine Katze ist weg.').get());
+		entries.push(new Builder().id('').thema(thema).entry('treffen (sich)').example(['Am Nachmittag treffe ich meine Freunde.', 'Wir treffen uns vor dem Café.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Treppe, -n').example('Hier ist die Treppe zum Keller.').get());
+		entries.push(new Builder().id('').thema(thema).entry('trinken').example(['Wir trinken gern Saft.', 'Kann ich etwas zu trinken haben?']).get());
+		entries.push(new Builder().id('').thema(thema).entry('trocken').example('Ich habe mein Kleid gewaschen. Ist es jetzt schon trocken?').get());
+		entries.push(new Builder().id('').thema(thema).entry('trotzdem').example('Der Film ist traurig, aber ich finde ihn trotzdem schön.').get());
+		entries.push(new Builder().id('').thema(thema).entry('trösten').example('Ich war traurig, aber meine Mutter hat mich getröstet.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s T-Shirt, -s').example('Wie findest du mein T-Shirt? Es ist neu und passt gut zu meiner Hose.').get());
+		entries.push(new Builder().id('').thema(thema).entry('tschüss!').example('Also bis bald, tschüss!').get());
+		entries.push(new Builder().id('').thema(thema).entry('tun').example('Was soll ich denn tun?').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Tür, -en').example(['Mach bitte die Tür zu.', 'Es klingelt an der Tür.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('typisch').example('Ich glaube, das ist typisch deutsch!').get());
         return entries;
     }
 
     createUEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'U'];
-/*
-		entries.push(new Builder().id('').thema(thema).entry('e U-Bahn, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('üben').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('über').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('überall').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('übermorgen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Überschrift, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Uhr, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('um').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Umwelt (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Umweltschutz (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('unbedingt').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('und').example().get());
-['Wie komme ich zum Bahnhof?', 'Du kannst die U-Bahn nehmen.']
-'Ich muss jeden Tag Klavier üben.'
-['Jetzt gehen wir über die Straße.', 'Das Bild hängt über dem Bett.']
-['Hast du das Buch gefunden?', '– Nein, ich habe schon überall gesucht.']
-'Heute ist Montag, übermorgen ist Mittwoch.'
-'Finden Sie eine Überschrift für den Text.'
-['Hast du keine Uhr?', '– Es ist sechs Uhr.']
-'Um 7.30 Uhr kommt der Zug.'
-'Diese Fabrik ist schädlich für die Umwelt.'
-'Ich finde Umweltschutz sehr wichtig.'
-'Das musst du unbedingt lesen.'
-'Karl und Susanne kommen auch.'
-		entries.push(new Builder().id('').thema(thema).entry('und so weiter').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('unerträglich').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Unfall, ä, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Universität, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('unser, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Unsinn (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('unten').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('unter').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Unterricht (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('unterschreiben').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Unterschrift, -en').example().get());
-'u.s.w.'
-['Wie war die Party?', '– Sehr laut, die Musik war unerträglich.']
-['Heute war ein schlimmer Unfall in der Gartenstraße. Drei Autos sind kaputt.', 'Ich hatte einen Unfall mit dem Motorrad.']
-'Mein Bruder studiert an der Universität Mathematik.'
-'Das ist unser neues Auto.'
-'Wir machen immer viel Unsinn und ärgern unsere Mutter.'
-'Wir wohnen ganz unten im Haus.'
-'Der Hund liegt unter dem Tisch.'
-'Der Unterricht dauert bis 13 Uhr.'
-'Bitte unterschreiben Sie hier auf dem Formular.'
-'Auf dem Formular fehlt noch die Unterschrift.'
-        */
+		entries.push(new Builder().id('').thema(thema).entry('e U-Bahn, -en').example(['Wie komme ich zum Bahnhof?', 'Du kannst die U-Bahn nehmen.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('üben').example('Ich muss jeden Tag Klavier üben.').get());
+		entries.push(new Builder().id('').thema(thema).entry('über').example(['Jetzt gehen wir über die Straße.', 'Das Bild hängt über dem Bett.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('überall').example(['Hast du das Buch gefunden?', '– Nein, ich habe schon überall gesucht.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('übermorgen').example('Heute ist Montag, übermorgen ist Mittwoch.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Überschrift, -en').example('Finden Sie eine Überschrift für den Text.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Uhr, -en').example(['Hast du keine Uhr?', '– Es ist sechs Uhr.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('um').example('Um 7.30 Uhr kommt der Zug.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Umwelt (Sg.)').example('Diese Fabrik ist schädlich für die Umwelt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Umweltschutz (Sg.)').example('Ich finde Umweltschutz sehr wichtig.').get());
+		entries.push(new Builder().id('').thema(thema).entry('unbedingt').example('Das musst du unbedingt lesen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('und').example('Karl und Susanne kommen auch.').get());
+		entries.push(new Builder().id('').thema(thema).entry('und so weiter').example('u.s.w.').get());
+		entries.push(new Builder().id('').thema(thema).entry('unerträglich').example(['Wie war die Party?', '– Sehr laut, die Musik war unerträglich.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Unfall, ä, -e').example(['Heute war ein schlimmer Unfall in der Gartenstraße. Drei Autos sind kaputt.', 'Ich hatte einen Unfall mit dem Motorrad.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Universität, -en').example('Mein Bruder studiert an der Universität Mathematik.').get());
+		entries.push(new Builder().id('').thema(thema).entry('unser, -e').example('Das ist unser neues Auto.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Unsinn (Sg.)').example('Wir machen immer viel Unsinn und ärgern unsere Mutter.').get());
+		entries.push(new Builder().id('').thema(thema).entry('unten').example('Wir wohnen ganz unten im Haus.').get());
+		entries.push(new Builder().id('').thema(thema).entry('unter').example('Der Hund liegt unter dem Tisch.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Unterricht (Sg.)').example('Der Unterricht dauert bis 13 Uhr.').get());
+		entries.push(new Builder().id('').thema(thema).entry('unterschreiben').example('Bitte unterschreiben Sie hier auf dem Formular.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Unterschrift, -en').example('Auf dem Formular fehlt noch die Unterschrift.').get());
         return entries;
     }
 
@@ -1739,7 +1566,7 @@ TODO
 'Weißt du die Antwort? Ich weiß sie nicht.'
 'Er erzählt gern Witze. Wir müssen immer lachen.'
 'Das Buch ist so witzig! Ich musste oft lachen.'
-'Wo wohnt ihr?/In Berlin.'
+['Wo wohnt ihr?', '– In Berlin.']
 ['Woher kommst du?', '– Aus Frankreich.']
 ['Wohin fährt der Bus?', '– Nach Leipzig.']
 'Wo wohnst du? Ich wohne in der Gartenstraße.'
@@ -1763,64 +1590,34 @@ TODO
     createZEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'Z'];
-/*
-		entries.push(new Builder().id('').thema(thema).entry('r Zahn, ä, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Zahnspange, -n').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zeichnen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zeigen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Zeit, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('e Zeitung, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Zelt, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Zentrum, -en').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Zettel, -').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Zeugnis, -se').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Ziel, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('s Zimmer, -').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Zirkus, -se').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Zoo (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zu').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Zucker (Sg.)').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zuerst').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zufrieden').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('r Zug, ü, -e').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zuhören').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zuletzt').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zumachen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zum Beispiel').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zurück').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zurückkommen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zusammen').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zu sein').example().get());
-		entries.push(new Builder().id('').thema(thema).entry('zwischen').example().get());
-'Mein Zahn tut weh.'
-'Sie trägt eine Zahnspange.'
-'Wir haben ein Bild gezeichnet.'
-'Können Sie mir den Weg zeigen?'
-['Wann hast du Zeit für mich?', 'Ich kann nicht kommen. Ich habe keine Zeit.']
-'Meine Mutter liest am Morgen die Zeitung.'
-'Früher haben wir im Zelt Ferien gemacht.'
-'Im Zentrum ist heute eine Fußgängerzone.'
-'Wer hat diesen Zettel geschrieben?'
-'Mein Zeugnis war ziemlich gut.'
-'Ich war als Erster am Ziel.'
-'Wie groß ist die Wohnung? Es sind drei Zimmer.'
-'Der Zirkus ist heute in der Stadt.'
-'Ich liebe Tiere, ich gehe gern in den Zoo.'
-['zu groß', 'zum Frühstück', 'zum Zahnarzt', 'zur Post', 'zum Geburtstag', 'zu Hause']
-'Ich trinke meinen Kaffee mit Zucker.'
-'Sagen Sie bitte zuerst den Vornamen.'
-'Ich bin mit meiner Note zufrieden.'
-'Wir fahren mit dem Zug zu meiner Tante.'
-'Hör jetzt zu! Das ist wichtig!'
-'Wann hast du ihn zuletzt gesehen? Im letzten Sommer.'
-'Mach die Tür bitte zu!'
-'z. B.'
-'Wir fahren mit dem Zug, zurück nehmen wir den Bus.'
-'Ich bin gestern aus dem Urlaub zurückgekommen.'
-'Wir machen zusammen Hausaufgaben.'
-'Die Bücherei ist in den Ferien zu.'
-['Der Supermarkt ist zwischen dem Rathaus und der Post.', 'Zwischen zwölf und zwei Uhr bin ich nicht da.']
-        */
+		entries.push(new Builder().id('').thema(thema).entry('r Zahn, ä, -e').example('Mein Zahn tut weh.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Zahnspange, -n').example('Sie trägt eine Zahnspange.').get());
+		entries.push(new Builder().id('').thema(thema).entry('zeichnen').example('Wir haben ein Bild gezeichnet.').get());
+		entries.push(new Builder().id('').thema(thema).entry('zeigen').example('Können Sie mir den Weg zeigen?').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Zeit, -en').example(['Wann hast du Zeit für mich?', 'Ich kann nicht kommen. Ich habe keine Zeit.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Zeitung, -en').example('Meine Mutter liest am Morgen die Zeitung.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Zelt, -e').example('Früher haben wir im Zelt Ferien gemacht.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Zentrum, -en').example('Im Zentrum ist heute eine Fußgängerzone.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Zettel, -').example('Wer hat diesen Zettel geschrieben?').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Zeugnis, -se').example('Mein Zeugnis war ziemlich gut.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Ziel, -e').example('Ich war als Erster am Ziel.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Zimmer, -').example('Wie groß ist die Wohnung? Es sind drei Zimmer.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Zirkus, -se').example('Der Zirkus ist heute in der Stadt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Zoo (Sg.)').example('Ich liebe Tiere, ich gehe gern in den Zoo.').get());
+		entries.push(new Builder().id('').thema(thema).entry('zu').example(['zu groß', 'zum Frühstück', 'zum Zahnarzt', 'zur Post', 'zum Geburtstag', 'zu Hause']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Zucker (Sg.)').example('Ich trinke meinen Kaffee mit Zucker.').get());
+		entries.push(new Builder().id('').thema(thema).entry('zuerst').example('Sagen Sie bitte zuerst den Vornamen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('zufrieden').example('Ich bin mit meiner Note zufrieden.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Zug, ü, -e').example('Wir fahren mit dem Zug zu meiner Tante.').get());
+		entries.push(new Builder().id('').thema(thema).entry('zuhören').example('Hör jetzt zu! Das ist wichtig!').get());
+		entries.push(new Builder().id('').thema(thema).entry('zuletzt').example('Wann hast du ihn zuletzt gesehen? Im letzten Sommer.').get());
+		entries.push(new Builder().id('').thema(thema).entry('zumachen').example('Mach die Tür bitte zu!').get());
+		entries.push(new Builder().id('').thema(thema).entry('zum Beispiel').example('z. B.').get());
+		entries.push(new Builder().id('').thema(thema).entry('zurück').example('Wir fahren mit dem Zug, zurück nehmen wir den Bus.').get());
+		entries.push(new Builder().id('').thema(thema).entry('zurückkommen').example('Ich bin gestern aus dem Urlaub zurückgekommen.').get());
+		entries.push(new Builder().id('').thema(thema).entry('zusammen').example('Wir machen zusammen Hausaufgaben.').get());
+		entries.push(new Builder().id('').thema(thema).entry('zu sein').example('Die Bücherei ist in den Ferien zu.').get());
+		entries.push(new Builder().id('').thema(thema).entry('zwischen').example(['Der Supermarkt ist zwischen dem Rathaus und der Post.', 'Zwischen zwölf und zwei Uhr bin ich nicht da.']).get());
         return entries;
     }
 
