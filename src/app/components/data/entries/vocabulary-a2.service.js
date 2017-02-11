@@ -1313,34 +1313,31 @@ class VocabularyA2Service {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'S'];
 /*
-TODO
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
-
-e Sache, -n
-r Saft, ä, -e
-sagen
-r Salat, -e
-s Salz, -e
-sauber
-sauer
-schade
-schädlich
-schaffen
-r Schalter, -
-scheinen
-schenken
-e Schere, -n
-scheußlich
-schicken
-s Schiff, -e
-schimpfen
-schlafen
-s Schlafzimmer, -
-schlecht
-schließen
-s Schloss, ö, -er
-r Schluss, ü, -sse
-r Schlüssel, -
+		entries.push(new Builder().id('').thema(thema).entry('e Sache, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Saft, ä, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('sagen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Salat, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Salz, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('sauber').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('sauer').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('schade').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('schädlich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('schaffen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Schalter, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('scheinen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('schenken').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Schere, -n').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('scheußlich').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('schicken').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Schiff, -e').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('schimpfen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('schlafen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Schlafzimmer, -').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('schlecht').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('schließen').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('s Schloss, ö, -er').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Schluss, ü, -sse').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Schlüssel, -').example().get());
 
 Wo sind meine Schulsachen?/
 Das ist eine tolle Sache./Pack deine Sachen und
@@ -1381,115 +1378,198 @@ jetzt ins Haus?
 ------
 
 TODO
+		entries.push(new Builder().id('').thema(thema).entry('schmecken').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Schmerz, -en').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('schmutzig').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('r Schnee (Sg.)').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('schnell').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('schneiden').example().get());
+		entries.push(new Builder().id('').thema(thema).entry('e Schokolade (Sg.)').example().get());
 
+Wie schmeckt dir das Essen?
+Ich habe Schmerzen. Ich muss zum Arzt.
+Die Küche ist schmutzig. Wer macht sie sauber?
+Im Winter gibt es hier viel Schnee.
+Antworte schnell!/Das Auto fährt schnell.
+Sie schneidet den Apfel mit dem Messer.
+Schokolade macht glücklich./
+Ich esse gern Schokolade./Ich trinke im Winter gern
+eine heiße Schokolade.
+-----
+
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 schon
 Ich habe schon sechs Computerspiele./
 Ist das Essen schon fertig?
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 schön
 Dein Zimmer ist sehr schön und gemütlich./
 Das Bild ist schön. Es gefällt mir sehr gut.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Schrank, ä, -e
 Die Kleider sind im Schrank
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 schrecklich
 Ich bin schrecklich nervös.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Schreibblock, ö, -e
 Ich brauche einen neuen Schreibblock für die Schule.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 schreiben
 Erika schreibt mir jeden Tag einen Brief.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Schuh, -e
 Ich habe neue Schuhe gekauft./Zieh die Schuhe aus,
 wenn du ins Haus gehst.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 schwach
 Deine Leistungen sind sehr schwach./
 Für diese Arbeit bin ich zu schwach.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 schwer
 Meine Tasche ist so schwer.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 schwierig
 Ich finde die Hausaufgaben sehr schwierig.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Schwimmbad, ä, -er Im Sommer gehen wir oft ins Schwimmbad.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 schwimmen
 Ich kann gut schwimmen./Ich schwimme gern im See.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Schwimmsachen (Pl.) Wir fahren an den See. – Vergesst nicht die
 Schwimmsachen mitzunehmen.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r See, -n
 Der See ist sehr groß./Wir wohnen am See./
 Wir fahren zum Ammersee.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sehen
 Siehst du das große Haus?/Ja, wohnst du da?
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sehr
 Ich liebe ihn sehr./Das ist sehr wichtig.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sein
 Ich bin 13 Jahre alt./Das ist mein Bruder./
 Er ist Student./Die Kinder sind im Garten.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sein, -e
 Er liebt nur seinen Computer.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Seite, -n
 Das steht auf Seite 23.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 selbst
 Den Kuchen habe ich selbst gebacken.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Sendung, -en
 Um 18 Uhr kommt meine Lieblingssendung
 im Fernsehen.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 setzen (sich)
 Setz dich!/Du kannst dich neben Carola setzen.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sicher
 Du bist sicher gut in der Schule./
 Ich bin sicher, es ist richtig.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sie
 Ich glaube, sie findet dich interessant.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 Sie
 Sind Sie der neue Lehrer?/Wie geht es Ihnen?
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 singen
 Wir singen in einer Band.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Sinn (Sg.)
 Die Geschichte hat keinen Sinn./Das hat keinen Sinn.
 e Situation
 In dieser Situation kann man nichts machen.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sitzen
 Er sitzt neben mir.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Ski, auch -er
 Ich habe neue Ski bekommen./
 Im Winter fahre ich oft Ski.
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 so
 Ich mache das nicht so./Das schmeckt so scheußlich./
 Sie ist so alt wie ich.
 
 ----
 
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sofort
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sogar
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sollen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Sonne, -n
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sonst
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Sorge, -n
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Soße, -n
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 spannend
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sparen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Spaß (Sg.)
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 spät
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 später
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 spazieren gehen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Spaziergang, ä, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Spiel, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Spielplatz, ä, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Spielzeug, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Sport (Sg.)
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sportlich
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Sprache, -n
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sprechen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Stadt, ä, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Stadtplan, ä, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 stark
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 stattfinden
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 stehen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 steigen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 stellen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 stimmen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 stören
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Strand, ä, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Straße, -n
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Straßenbahn, -en
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 streiten (sich)
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 Streit haben
 
 
@@ -1547,21 +1627,37 @@ meiner Schwester.
 
 ------
 
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 streng
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Stress (Sg.)
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 stressig
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 s Stück, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Student, -en
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Studentin, -nen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 studieren
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Stuhl, ü, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Stundenplan, ä, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 suchen
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 super
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 r Supermarkt, ä, -e
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Suppe, -n
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 süß
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 e Süßigkeiten (Pl.)
+		entries.push(new Builder().id('').thema(thema).entry('').example().get());
 sympathisch
 
 Der Lehrer ist streng./Meine Eltern sind sehr streng.
