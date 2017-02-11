@@ -1275,6 +1275,87 @@ class VocabularyA2Service {
 /*
 TODO
 		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+
+s Rad (s Fahrrad), ä, -er
+    Ich fahre mit dem Rad in die Schule.
+Rad fahren
+    Kannst du Rad fahren?/Ja, aber ich habe kein Fahrrad.
+r Radiergummi, -s
+    Gibst du mir deinen Radiergummi? Ich muss meine Antwort korrigieren.
+s Radio, -s
+    Im Radio spielen sie gute Musik.
+e Radtour, -en
+    Im Sommer machen wir eine Radtour nach Potsdam.
+raten
+    Das ist ein Quiz, man muss die Städte raten./ Ich weiß die Antwort nicht. Ich muss raten.
+s Rathaus, ä, -er
+    Im Rathaus bekommst du Prospekte über die Stadt.
+s Rätsel, -
+    Ich finde das Rätsel zu schwierig.
+rauchen
+    Stört es Sie, wenn ich rauche?
+s Rathaus,ä,-er
+    Der Raum hat zwei Fenster.
+rechnen
+    Ich rechne das mit dem Taschenrechner.
+recht haben
+    Du hast recht. Meine Antwort ist falsch.
+rechts
+    Hier rechts ist unsere Schule, links der Supermarkt.
+reden
+    Sie reden immer so viel./ Er redet immer nur von Autos.
+r Regen (Sg.)
+    Morgen soll es Regen geben.
+regnen
+    Wenn es regnet, bleibe ich zu Hause.
+reich
+    Die Menschen sind hier nicht reich. Sie sind arm.
+e Reihe, en
+    Ich sitze in der ersten Reihe./Dies ist Reihe fünf./ Jetzt bin ich an der Reihe.
+reinkommen
+    Darf ich reinkommen?/Ja bitte, kommen Sie rein.
+r Reis (Sg.)
+    Wir essen heute Hühnchen mit Reis.
+e Reise, -n
+    Wir machen eine Reise nach Australien.
+reiten
+    Ich habe ein Pferd. Reiten ist mein Hobby.
+e Reparatur, -en
+    Der Motor ist kaputt. Die Reparatur ist sehr teuer.
+reparieren
+    Mein Rad ist kaputt, aber mein Vater kann es reparieren.
+r Rest, -e
+    Es ist noch ein Rest von dem Kuchen da./ Den Rest der Arbeit kannst du morgen machen.
+
+
+s Restaurant, -s
+r Ring, -e
+romantisch
+r Rücken, -
+r Rucksack, ä, -e
+rufen
+e Ruhe (Sg.)
+ruhig
+e Rundfahrt, -en
+
+
+Wir essen heute im Restaurant
+Sie trägt viele Ringe.
+Der Liebesfilm ist sehr romantisch.
+Was tut dir weh?/Ich habe Schmerzen im Rücken.
+Hast du deinen Koffer gepackt?/Nein, ich brauche nur
+einen Rucksack.
+Meine Mutter hat mich gerufen, darum bin ich nach
+Hause gegangen./Ein Unfall! Wir müssen einen
+Arzt rufen!
+Er ist krank, er braucht viel Ruhe./Ich brauche Ruhe.
+Ich muss lernen.
+Seid mal bitte ruhig! Ich muss telefonieren./
+Ich suche eine ruhige Wohnung.
+Wir machen eine Rundfahrt durch die Stadt.
+
+
+
 		–
         */
         return entries;
@@ -1286,6 +1367,279 @@ TODO
 /*
 TODO
 		entries.push(new Builder().id('').thema(thema).entry('').example().get());
+
+e Sache, -n
+r Saft, ä, -e
+sagen
+r Salat, -e
+s Salz, -e
+sauber
+sauer
+schade
+schädlich
+schaffen
+r Schalter, -
+scheinen
+schenken
+e Schere, -n
+scheußlich
+schicken
+s Schiff, -e
+schimpfen
+schlafen
+s Schlafzimmer, -
+schlecht
+schließen
+s Schloss, ö, -er
+r Schluss, ü, -sse
+r Schlüssel, -
+
+Wo sind meine Schulsachen?/
+Das ist eine tolle Sache./Pack deine Sachen und
+komm mit!
+Möchtest du Wasser oder Saft?/Einen Apfelsaft, bitte.
+Eva sagt, sie kommt heute nicht./Sag mal, wie geht es
+dir denn?
+Ich esse abends gern Salat.
+In der Suppe fehlt Salz.
+Dein Zimmer ist sehr sauber und ordentlich.
+Die Milch ist sauer./Der Apfel ist mir zu sauer.
+Tut mir leid, ich kann nicht kommen./Das ist schade!
+Zigaretten sind sehr schädlich.
+Du kannst es bestimmt schaffen!/Soll ich dir helfen?/
+Nein, ich schaffe es allein.
+Briefmarken bekommen Sie am Schalter./
+Wo ist der Lichtschalter?
+Die Sonne scheint.
+Was kann ich Anna zum Geburtstag schenken?
+Hast du eine Schere? Ich muss dieses Bild
+ausschneiden.
+Das Essen hier ist scheußlich!/
+Das Wetter ist scheußlich!
+Ich schicke dir aus dem Urlaub eine Karte.
+Sie können mit dem Schiff nach Capri fahren.
+Der Lehrer hat mit mir geschimpft.
+Ich bin sehr müde. Heute schlafe ich sicher gut.
+In seinem Schlafzimmer steht ein neues Bett.
+Mir ist so schlecht./Das Essen hier ist nicht schlecht.
+Schließ bitte das Fenster./
+Das Geschäft ist schon geschlossen.
+Wir haben das Schloss Neuschwanstein besichtigt.
+Der Schluss der Geschichte ist sehr traurig./
+Zum Schluss gibt es noch ein Eis.
+Ich habe meinen Schlüssel verloren. Wie komme ich
+jetzt ins Haus?
+
+------
+
+TODO
+
+schon
+Ich habe schon sechs Computerspiele./
+Ist das Essen schon fertig?
+schön
+Dein Zimmer ist sehr schön und gemütlich./
+Das Bild ist schön. Es gefällt mir sehr gut.
+r Schrank, ä, -e
+Die Kleider sind im Schrank
+schrecklich
+Ich bin schrecklich nervös.
+r Schreibblock, ö, -e
+Ich brauche einen neuen Schreibblock für die Schule.
+schreiben
+Erika schreibt mir jeden Tag einen Brief.
+r Schuh, -e
+Ich habe neue Schuhe gekauft./Zieh die Schuhe aus,
+wenn du ins Haus gehst.
+schwach
+Deine Leistungen sind sehr schwach./
+Für diese Arbeit bin ich zu schwach.
+schwer
+Meine Tasche ist so schwer.
+schwierig
+Ich finde die Hausaufgaben sehr schwierig.
+s Schwimmbad, ä, -er Im Sommer gehen wir oft ins Schwimmbad.
+schwimmen
+Ich kann gut schwimmen./Ich schwimme gern im See.
+e Schwimmsachen (Pl.) Wir fahren an den See. – Vergesst nicht die
+Schwimmsachen mitzunehmen.
+r See, -n
+Der See ist sehr groß./Wir wohnen am See./
+Wir fahren zum Ammersee.
+sehen
+Siehst du das große Haus?/Ja, wohnst du da?
+sehr
+Ich liebe ihn sehr./Das ist sehr wichtig.
+sein
+Ich bin 13 Jahre alt./Das ist mein Bruder./
+Er ist Student./Die Kinder sind im Garten.
+sein, -e
+Er liebt nur seinen Computer.
+e Seite, -n
+Das steht auf Seite 23.
+selbst
+Den Kuchen habe ich selbst gebacken.
+e Sendung, -en
+Um 18 Uhr kommt meine Lieblingssendung
+im Fernsehen.
+setzen (sich)
+Setz dich!/Du kannst dich neben Carola setzen.
+sicher
+Du bist sicher gut in der Schule./
+Ich bin sicher, es ist richtig.
+sie
+Ich glaube, sie findet dich interessant.
+Sie
+Sind Sie der neue Lehrer?/Wie geht es Ihnen?
+singen
+Wir singen in einer Band.
+r Sinn (Sg.)
+Die Geschichte hat keinen Sinn./Das hat keinen Sinn.
+e Situation
+In dieser Situation kann man nichts machen.
+sitzen
+Er sitzt neben mir.
+r Ski, auch -er
+Ich habe neue Ski bekommen./
+Im Winter fahre ich oft Ski.
+so
+Ich mache das nicht so./Das schmeckt so scheußlich./
+Sie ist so alt wie ich.
+
+----
+
+sofort
+sogar
+sollen
+e Sonne, -n
+sonst
+e Sorge, -n
+e Soße, -n
+spannend
+sparen
+r Spaß (Sg.)
+spät
+später
+spazieren gehen
+r Spaziergang, ä, -e
+s Spiel, -e
+r Spielplatz, ä, -e
+s Spielzeug, -e
+r Sport (Sg.)
+sportlich
+e Sprache, -n
+sprechen
+e Stadt, ä, -e
+r Stadtplan, ä, -e
+stark
+stattfinden
+stehen
+steigen
+stellen
+stimmen
+stören
+r Strand, ä, -e
+e Straße, -n
+e Straßenbahn, -en
+streiten (sich)
+Streit haben
+
+
+Antworte bitte sofort!/Komm nach der Schule sofort
+nach Hause.
+Er hat mir sogar einen Brief geschrieben.
+Was soll ich machen?/Wie kann ich dir helfen?
+Die Sonne scheint.
+Brauchen Sie sonst noch etwas?
+Ich mache mir Sorgen. Er ruft nicht an.
+Zum Braten gibt es Kartoffeln und Soße.
+Der Krimi ist sehr spannend.
+Sie hat viel Geld gespart. Jetzt kann sie ein Auto
+kaufen.
+Wir haben immer viel Spaß zusammen./Viel Spaß!
+Mach schnell, es ist spät!/Ich komme zu spät./
+Wie spät ist es?
+Ich mache die Hausaufgaben später. Jetzt habe ich
+keine Lust.
+Wollen wir mit dem Hund spazieren gehen?
+Wir machen einen Spaziergang im Park.
+spielen
+Ich kenne ein neues Spiel. Ich möchte Karten spielen./
+Ball spielen./Klavier spielen./Tennis spielen./
+Wir brauchen mehr Spielplätze für Kinder.
+Die Kinder haben zu viel Spielzeug.
+Ich mache viel Sport: Fußball, Basketball und
+Volleyball.
+Sie trägt sportliche Kleidung./Sie ist sehr sportlich.
+Er spricht vier Sprachen: Deutsch, Englisch,
+Französisch und Italienisch.
+Sie spricht mit dem Lehrer./Kann ich mit Frau Müller
+sprechen?
+Unsere Stadt ist nicht so groß. Sie hat nur 40000
+Einwohner.
+Ich möchte einen Stadtplan von München kaufen.
+Ich hatte starke Schmerzen.
+Das Konzert findet auf dem Marktplatz statt.
+Was steht in der Zeitung?/
+Die Suppe steht auf dem Tisch.
+Das kleine Haus hat immer hier gestanden.
+Wir steigen auf den Berg./Bitte steigen Sie jetzt
+in das Auto.
+Stell bitte die Tassen auf den Tisch.
+Das stimmt nicht. Das ist falsch.
+Mein kleiner Bruder stört uns immer./
+Störe ich dich bei der Arbeit?
+Im Urlaub war ich nur am Strand.
+Wir wohnen in der Goethe-Straße.
+Ich fahre mit der Straßenbahn in die Schule.
+Wir streiten leider sehr oft./Ich streite mich oft mit
+meinem Bruder.
+Habt ihr schon wieder Streit?/Ich habe Streit mit
+meiner Schwester.
+
+------
+
+streng
+r Stress (Sg.)
+stressig
+s Stück, -e
+r Student, -en
+e Studentin, -nen
+studieren
+r Stuhl, ü, -e
+r Stundenplan, ä, -e
+suchen
+super
+r Supermarkt, ä, -e
+e Suppe, -n
+süß
+e Süßigkeiten (Pl.)
+sympathisch
+
+Der Lehrer ist streng./Meine Eltern sind sehr streng.
+Sie erlauben uns einfach nichts.
+Der Stress in der Schule ist groß.
+Ich finde diese Situation stressig. Ich habe zu viel
+zu tun.
+Willst du noch ein Stück Kuchen?/Ich nehme zwei
+Stück Zucker in den Kaffee.
+Mein Nachbar ist Student.
+Ich bin Studentin. Ich studiere Fremdsprachen an der
+Universität in Berlin.
+Er studiert Chemie an der Universität in Leipzig.
+Der Stuhl ist sehr unbequem./Da ist noch ein Stuhl
+frei. Setz dich!
+Für dieses Jahr haben wir noch keinen Stundenplan.
+Ich suche meinen Kugelschreiber. Weißt du, wo er ist?
+Ich finde Thomas wirklich super!/Die Idee ist super!
+Wir kaufen immer im Supermarkt ein.
+Suppe isst man mit dem Löffel.
+Der Kuchen ist zu süß./Der neue Mathelehrer ist
+wirklich süß!
+Ich esse so gern Süßigkeiten, leider sind sie
+nicht gesund.
+Ich finde Maria nett. Sie ist sehr sympathisch.
+
 		–
         */
         return entries;
