@@ -1272,92 +1272,40 @@ class VocabularyA2Service {
     createREntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'R'];
-/*
-TODO
-		entries.push(new Builder().id('').thema(thema).entry('').example().get());
-
-s Rad (s Fahrrad), ä, -er
-    Ich fahre mit dem Rad in die Schule.
-Rad fahren
-    Kannst du Rad fahren?/Ja, aber ich habe kein Fahrrad.
-r Radiergummi, -s
-    Gibst du mir deinen Radiergummi? Ich muss meine Antwort korrigieren.
-s Radio, -s
-    Im Radio spielen sie gute Musik.
-e Radtour, -en
-    Im Sommer machen wir eine Radtour nach Potsdam.
-raten
-    Das ist ein Quiz, man muss die Städte raten./ Ich weiß die Antwort nicht. Ich muss raten.
-s Rathaus, ä, -er
-    Im Rathaus bekommst du Prospekte über die Stadt.
-s Rätsel, -
-    Ich finde das Rätsel zu schwierig.
-rauchen
-    Stört es Sie, wenn ich rauche?
-s Rathaus,ä,-er
-    Der Raum hat zwei Fenster.
-rechnen
-    Ich rechne das mit dem Taschenrechner.
-recht haben
-    Du hast recht. Meine Antwort ist falsch.
-rechts
-    Hier rechts ist unsere Schule, links der Supermarkt.
-reden
-    Sie reden immer so viel./ Er redet immer nur von Autos.
-r Regen (Sg.)
-    Morgen soll es Regen geben.
-regnen
-    Wenn es regnet, bleibe ich zu Hause.
-reich
-    Die Menschen sind hier nicht reich. Sie sind arm.
-e Reihe, en
-    Ich sitze in der ersten Reihe./Dies ist Reihe fünf./ Jetzt bin ich an der Reihe.
-reinkommen
-    Darf ich reinkommen?/Ja bitte, kommen Sie rein.
-r Reis (Sg.)
-    Wir essen heute Hühnchen mit Reis.
-e Reise, -n
-    Wir machen eine Reise nach Australien.
-reiten
-    Ich habe ein Pferd. Reiten ist mein Hobby.
-e Reparatur, -en
-    Der Motor ist kaputt. Die Reparatur ist sehr teuer.
-reparieren
-    Mein Rad ist kaputt, aber mein Vater kann es reparieren.
-r Rest, -e
-    Es ist noch ein Rest von dem Kuchen da./ Den Rest der Arbeit kannst du morgen machen.
-
-
-s Restaurant, -s
-r Ring, -e
-romantisch
-r Rücken, -
-r Rucksack, ä, -e
-rufen
-e Ruhe (Sg.)
-ruhig
-e Rundfahrt, -en
-
-
-Wir essen heute im Restaurant
-Sie trägt viele Ringe.
-Der Liebesfilm ist sehr romantisch.
-Was tut dir weh?/Ich habe Schmerzen im Rücken.
-Hast du deinen Koffer gepackt?/Nein, ich brauche nur
-einen Rucksack.
-Meine Mutter hat mich gerufen, darum bin ich nach
-Hause gegangen./Ein Unfall! Wir müssen einen
-Arzt rufen!
-Er ist krank, er braucht viel Ruhe./Ich brauche Ruhe.
-Ich muss lernen.
-Seid mal bitte ruhig! Ich muss telefonieren./
-Ich suche eine ruhige Wohnung.
-Wir machen eine Rundfahrt durch die Stadt.
-
-
-
-		–
-        */
+		entries.push(new Builder().id('').thema(thema).entry('s Rad (s Fahrrad), ä, -er').example('Ich fahre mit dem Rad in die Schule.').get());
+		entries.push(new Builder().id('').thema(thema).entry('Rad fahren').example(['Kannst du Rad fahren?', '– Ja, aber ich habe kein Fahrrad.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Radiergummi, -s').example('Gibst du mir deinen Radiergummi? Ich muss meine Antwort korrigieren.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Radio, -s').example('Im Radio spielen sie gute Musik.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Radtour, -en').example('Im Sommer machen wir eine Radtour nach Potsdam.').get());
+		entries.push(new Builder().id('').thema(thema).entry('raten').example(['Das ist ein Quiz, man muss die Städte raten.', 'Ich weiß die Antwort nicht. Ich muss raten.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Rathaus, ä, -er').example('Im Rathaus bekommst du Prospekte über die Stadt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Rätsel, -').example('Ich finde das Rätsel zu schwierig.').get());
+		entries.push(new Builder().id('').thema(thema).entry('rauchen').example('Stört es Sie, wenn ich rauche?').get());
+		entries.push(new Builder().id('').thema(thema).entry('s Rathaus,ä,-er').example('Der Raum hat zwei Fenster.').get());
+		entries.push(new Builder().id('').thema(thema).entry('rechnen').example('Ich rechne das mit dem Taschenrechner.').get());
+		entries.push(new Builder().id('').thema(thema).entry('recht haben').example('Du hast recht. Meine Antwort ist falsch.').get());
+		entries.push(new Builder().id('').thema(thema).entry('rechts').example('Hier rechts ist unsere Schule, links der Supermarkt.').get());
+		entries.push(new Builder().id('').thema(thema).entry('reden').example('Sie reden immer so viel./ Er redet immer nur von Autos.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Regen (Sg.)').example('Morgen soll es Regen geben.').get());
+		entries.push(new Builder().id('').thema(thema).entry('regnen').example('Wenn es regnet, bleibe ich zu Hause.').get());
+		entries.push(new Builder().id('').thema(thema).entry('reich').example('Die Menschen sind hier nicht reich. Sie sind arm.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Reihe, en').example(['Ich sitze in der ersten Reihe.', 'Dies ist Reihe fünf.', 'Jetzt bin ich an der Reihe.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('reinkommen').example(['Darf ich reinkommen?', '– Ja bitte, kommen Sie rein.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Reis (Sg.)').example('Wir essen heute Hühnchen mit Reis.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Reise, -n').example('Wir machen eine Reise nach Australien.').get());
+		entries.push(new Builder().id('').thema(thema).entry('reiten').example('Ich habe ein Pferd. Reiten ist mein Hobby.').get());
+		entries.push(new Builder().id('').thema(thema).entry('e Reparatur, -en').example('Der Motor ist kaputt. Die Reparatur ist sehr teuer.').get());
+		entries.push(new Builder().id('').thema(thema).entry('reparieren').example('Mein Rad ist kaputt, aber mein Vater kann es reparieren.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Rest, -e').example(['Es ist noch ein Rest von dem Kuchen da.', 'Den Rest der Arbeit kannst du morgen machen.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('s Restaurant, -s').example('Wir essen heute im Restaurant').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Ring, -e').example('Sie trägt viele Ringe.').get());
+		entries.push(new Builder().id('').thema(thema).entry('romantisch').example('Der Liebesfilm ist sehr romantisch.').get());
+		entries.push(new Builder().id('').thema(thema).entry('r Rücken, -').example(['Was tut dir weh?', '– Ich habe Schmerzen im Rücken.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('r Rucksack, ä, -e').example(['Hast du deinen Koffer gepackt?', '– Nein, ich brauche nur einen Rucksack.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('rufen').example(['Meine Mutter hat mich gerufen, darum bin ich nach Hause gegangen.', 'Ein Unfall! Wir müssen einen Arzt rufen!']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Ruhe (Sg.)').example(['Er ist krank, er braucht viel Ruhe.', 'Ich brauche Ruhe. Ich muss lernen.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('ruhig').example(['Seid mal bitte ruhig! Ich muss telefonieren.', 'Ich suche eine ruhige Wohnung.']).get());
+		entries.push(new Builder().id('').thema(thema).entry('e Rundfahrt, -en').example('Wir machen eine Rundfahrt durch die Stadt.').get());
         return entries;
     }
 
