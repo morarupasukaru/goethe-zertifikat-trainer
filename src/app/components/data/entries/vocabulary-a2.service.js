@@ -62,42 +62,44 @@ class VocabularyA2Service {
     createAbkuerzungenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Abkürzungen'];
-        entries.push(new Builder().id('9ada7b7d-a17e-4df6-aa0e-7dbe9bda4ac5').thema(thema).entry('Abkürzungen').get());
-        entries.push(new Builder().id('0553103f-f450-4843-8e3d-5b41e570d280').thema(thema).entry('ca.').alternative('circa/zirka').get());
-        entries.push(new Builder().id('8cd66aa3-4a0b-4a7a-adb2-1f561e443c7e').thema(thema).entry('d. h.').alternative('das heißt').get());
-        entries.push(new Builder().id('a73706e4-3cef-457d-a9cc-7a2f8bfff7f7').thema(thema).entry('der ICE').alternative('der Inter City Express').get());
-        entries.push(new Builder().id('06d02f48-14bb-48bc-91e8-8b9fa4370384').thema(thema).entry('der PC, -s').alternative('der Personal Computer').get());
-        entries.push(new Builder().id('cfddcfaf-c331-4dd5-8328-67d5c49e1338').thema(thema).entry('die SMS').alternative('die Textnachricht').get());
-        entries.push(new Builder().id('0d2eeabf-2781-474c-9bd4-71574b6ca441').thema(thema).entry('usw.').alternative('und so weiter').get());
-        entries.push(new Builder().id('3b345347-1b6c-446c-b9ab-51e04c8acc2d').thema(thema).entry('das WC, -s').alternative('die Toilette (water closet)').get());
-        entries.push(new Builder().id('47acee10-1eea-418e-8de0-de5f715b835b').thema(thema).entry('z. B.').alternative('zum Beispiel').get());
+        entries.push(new Builder().id('9ada7b7d-a17e-4df6-aa0e-7dbe9bda4ac5').thema(thema).entry('die Abkürzung, -en').translate('abréviation').get());
+        entries.push(new Builder().id('0553103f-f450-4843-8e3d-5b41e570d280').thema(thema).entry('ca.').alternative('circa/zirka').translate('environ').get());
+        entries.push(new Builder().id('8cd66aa3-4a0b-4a7a-adb2-1f561e443c7e').thema(thema).entry('d. h.').alternative('das heißt').translate(['soit', 'à savoir']).get());
+        entries.push(new Builder().id('a73706e4-3cef-457d-a9cc-7a2f8bfff7f7').thema(thema).entry('der ICE').alternative('der Inter City Express').translate('train à grande vitesse allemand').get());
+        entries.push(new Builder().id('06d02f48-14bb-48bc-91e8-8b9fa4370384').thema(thema).entry('der PC, -s').alternative('der Personal Computer').translate('ordinateur individuel').get());
+        entries.push(new Builder().id('cfddcfaf-c331-4dd5-8328-67d5c49e1338').thema(thema).entry('die SMS').alternative('die Textnachricht').translate('SMS').get());
+        entries.push(new Builder().id('0d2eeabf-2781-474c-9bd4-71574b6ca441').thema(thema).entry('usw.').alternative('und so weiter').translate(['etc.', 'et cætera', 'et cetera']).get());
+        entries.push(new Builder().id('3b345347-1b6c-446c-b9ab-51e04c8acc2d').thema(thema).entry('das WC, -s').alternative('die Toilette (water closet)').translate('WC').get());
+        entries.push(new Builder().id('47acee10-1eea-418e-8de0-de5f715b835b').thema(thema).entry('z. B.').alternative('zum Beispiel').translate(['p. ex.', 'par exemple']).get());
         return entries;
     }
 
     createAnglizismenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Anglizismen'];
-        entries.push(new Builder().id('71dd9cb6-8650-417e-9777-bbb8f4419bfa').thema(thema).entry('Anglizismen').get());
+        entries.push(new Builder().id('71dd9cb6-8650-417e-9777-bbb8f4419bfa').thema(thema).entry('Anglizismen').translate('anglicisme').get());
         entries.push(new Builder().id('1e35e229-dded-4879-8d90-2ee24619a99b').thema(thema).entry('r Babysitter, -').get());
-        entries.push(new Builder().id('030ace74-996d-4228-ba17-d4c8c62508d9').thema(thema).entry('e Band, -s').get());
+        entries.push(new Builder().id('030ace74-996d-4228-ba17-d4c8c62508d9').thema(thema).entry('e Band, -s').translate('orchestre (musique)').get());
         entries.push(new Builder().id('4cd8b773-9598-4514-adde-ad0bf31f2ab1').thema(thema).entry('r Blog, -s').get());
         entries.push(new Builder().id('d2d55e36-3923-4302-bd49-6456e26f140e').thema(thema).entry('bloggen').get());
         entries.push(new Builder().id('84de3792-790a-440f-87d2-5ed185049915').thema(thema).entry('e CD, -s').get());
         entries.push(new Builder().id('e776e331-0b81-40ca-930d-93311595e712').thema(thema).entry('r CD-Player, -').get());
-        entries.push(new Builder().id('f7cf3786-77c2-4aee-bede-466140850ea8').thema(thema).entry('chatten, r Chat(room), -s').get());
+        entries.push(new Builder().id('f7cf3786-77c2-4aee-bede-466140850ea8').thema(thema).entry('chatten').get());
+        entries.push(new Builder().id('5ea26d7d-c74c-498a-84cc-a3d70bcdefb3').thema(thema).entry('r Chat(room), -s').get());
         entries.push(new Builder().id('0672b7d7-3704-4844-9f07-93779c39ee9b').thema(thema).entry('e Cola, -s').get());
-        entries.push(new Builder().id('82d2375b-f640-40ee-932f-f61b9e1c7917').thema(thema).entry('r Comic, -s').get());
+        entries.push(new Builder().id('82d2375b-f640-40ee-932f-f61b9e1c7917').thema(thema).entry('r Comic, -s').translate('bande dessinée').get());
         entries.push(new Builder().id('8de015c9-3ebc-49f1-ba7c-c598fc5d7ea8').thema(thema).entry('r Computer, -').get());
         entries.push(new Builder().id('0cf92997-c63c-4bc9-89d2-3f61c78a9994').thema(thema).entry('cool').get());
         entries.push(new Builder().id('faa200af-6859-4a51-add4-b178b0488b16').thema(thema).entry('e DVD, -s').get());
-        entries.push(new Builder().id('e979c586-9950-48aa-8e5c-2bdecf607268').thema(thema).entry('faxen, s Fax, -e').get());
+        entries.push(new Builder().id('e979c586-9950-48aa-8e5c-2bdecf607268').thema(thema).entry('faxen').get());
+        entries.push(new Builder().id('411f1a36-0cd7-4945-9cf3-c146c4a6acf9').thema(thema).entry('s Fax, -e').get());
         entries.push(new Builder().id('f2aee822-0101-492c-84c4-a316e85e5f18').thema(thema).entry('s Festival, -s').get());
-        entries.push(new Builder().id('021e0e2a-af5a-49ea-a607-c6ac8b391c93').thema(thema).entry('global').get());
-        entries.push(new Builder().id('81877a0b-eb4c-45e8-92d3-4d94f37ac0e6').thema(thema).entry('googeln').get());
+        entries.push(new Builder().id('021e0e2a-af5a-49ea-a607-c6ac8b391c93').thema(thema).entry('global').translate(['global', 'planétaire']).get());
+        entries.push(new Builder().id('81877a0b-eb4c-45e8-92d3-4d94f37ac0e6').thema(thema).entry('googeln').translate('googler (qc.)').get());
         entries.push(new Builder().id('a1613194-1d66-4758-9669-f4f2064df572').thema(thema).entry('e Homepage, -s').get());
         entries.push(new Builder().id('1010843b-a85e-44f8-83d1-744a76bf709c').thema(thema).entry('s Internet').get());
         entries.push(new Builder().id('aa90f3fe-b54d-43a7-8c95-379ef87e481e').thema(thema).entry('r Laptop, -s').get());
-        entries.push(new Builder().id('47277cbe-caa8-4349-a077-e7bb1244518e').thema(thema).entry('r Link, -s').get());
+        entries.push(new Builder().id('47277cbe-caa8-4349-a077-e7bb1244518e').thema(thema).entry('r Link, -s').translate('lien (hypertexte)').get());
         entries.push(new Builder().id('6094be1b-063b-49da-b739-a909c342a7e2').thema(thema).entry('mailen').get());
         entries.push(new Builder().id('d917db13-3994-4c8f-a2d0-8e8b6e914e01').thema(thema).entry('e Mail, -s').get());
         entries.push(new Builder().id('441b29fc-7f9a-4ca0-8c93-86fc874f18bb').thema(thema).entry('e Mailbox, -en').get());
@@ -112,7 +114,7 @@ class VocabularyA2Service {
     createAnweisungsspracheZurPruefungEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Anweisungssprache zur Prüfung'];
-        entries.push(new Builder().id('917d768b-9ecb-44bb-ad50-ba27d1ad048c').thema(thema).entry('Anweisungssprache').get());
+        entries.push(new Builder().id('917d768b-9ecb-44bb-ad50-ba27d1ad048c').thema(thema).entry('Anweisungssprache').translate("language d'instruction (de l'examen)").get());
         entries.push(new Builder().id('e4797636-ff1c-4259-851f-4885bd550350').thema(thema).entry('r Antwortbogen, -').get());
         entries.push(new Builder().id('6348549a-4f6b-4ce4-b4a1-f564934496d0').thema(thema).entry('e Anzeige,-n').get());
         entries.push(new Builder().id('a963ad1c-2ad3-4d01-8f94-a3f18113102c').thema(thema).entry('e Aufgabe, -n').get());
