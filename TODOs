@@ -1,3 +1,74 @@
+Vision de l'application
+
+Menu: Lernkarten, Wortschatz, Hilfe, Grammar
+
+Lernkarten:
+    ~ version actuelle
+    ajout la possibilité de configurer les stacks
+    le contenu "a apprendre" est configurable dans un écran de config ayant un tableau avec niveau (a1, a2, ...) et genre (voc, grammaire, ...)
+
+Wortschatz:
+    ecran de list avec recherche global (full text ou que sur l'entrée) et possibilité de spécifier niveau cochable (a1, ...), & liste officiel goethe
+    print-friendly
+
+Hilfe
+    Redelmittel
+        ecran de list avec recherche global full text
+        tri par thème
+        sélection par niveau
+        sélection privé, travail
+        print-friendly
+
+    Buchstrabieren
+        Tableau avec alphabet, phonétique
+        possibilité d'écouter les sons (version 1+?)
+
+    Anfang / Ende Briefs, E-Mails, SMS
+        (niveau cochable)
+        formel, informel
+        print-friendly
+
+Grammar
+    Sélection par niveau
+    Ecran spécifique par thème
+    Liens sur site web d'apprentissage
+
+Admin - Gestion des donnnées
+    - les phrases d'exemples et "catégories" sont sous copyright, pas les mots eux-même
+
+    Export
+        sélection full export, delta with initial data, [ ] open source, [ ] private
+        export en json
+
+    Import
+        fichier json
+        overwrite existing entry (uuid in json)
+            => si overwrite => question clear flashcard stack? question si ok overwrite?
+            => écran d'appercu des actions
+        permet d'ajouter des phrases exemples, les traductions aux entrées (données base: que mot en allemand), correctif
+
+    Données sous copyrigth sont flaggé tel quel
+
+Edit
+    Wortschatz
+    Redelmittel (comment généraliser?)
+    Anfang, Ende Brief
+    Grammar
+
+Versions
+    1: Que allemand-français?
+        Config stack
+        Sélection du niveau à tester & quoi tester
+    2: Ajout son (localforage?, liens basic html)
+    3: Généralisation structure données pour permettre d'étendre les données, ajout copyright/license (différence?) on/off
+        => Rendre l'application multi-usage
+            => page Accueil sélection thème (allemand, musique, etc.)
+        => Titre, Skinnable en focntion du thème traitée
+    4: Edition (online ou via une gui à part, p.ex. swing), import, export
+
+# copyright resource Goethe?
+
+
 # add A2 wortschartz with goethe inventar
 
 # browse grammar (e.g. préposition) and complete wortschatz & add new quiz
@@ -11,6 +82,7 @@
 
 # copyright
     - eviter de pusher des données avec copyright
+    -
 
 # local font
 
@@ -32,6 +104,30 @@
 
 # find a way to test "Themen"
 
+
+
+fit furs goethe zertifikat a2
+* p.40, p.70 compléter voc a2 (copyright)
+
+* p.92, 122 redelmittelliste
+
+* facon d'utiliser les redemittel, sprachhandlung
+    => shadowing
+    => petit pdf a prendre avec soi et tenter de pratiquer au travail
+
+
+prufungstraining a1
+* p.42 Anfang/Ende Briefe, Email, SVS
+
+* p.44 Vorstellung:
+    => série de question a repondre une fois, une fois privé, une fois travail
+
+* buchstabieren: tableau des lettre avec bouton pour activer le son
+
+* p.18 brochure de réponse, voc à compléter
+
+prufungstraining a2
+* p.58 Anfang/Ende Briefe, Email, SVS
 
 
 suspended
