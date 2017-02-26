@@ -42,6 +42,7 @@ let paths = {
  * Gulp-Task: Kopiert alle statischen Dateien nach /dist
  */
 gulp.task('copyHtml', () => {
+    gulp.src(path.join(root, 'audio/alphabet/*.ogg')).pipe(gulp.dest(path.join(paths.output, 'audio/alphabet')));
     return gulp.src(path.join(root, '*.*')).pipe(gulp.dest(paths.output));
 });
 
