@@ -1,11 +1,11 @@
-class SalutationsClosingsController {
+class MathematicsController {
     /*@ngInject*/
     constructor($location) {
         this.$location = $location;
     }
 
-    show(data) {
-        this[data] = true;
+    show() {
+        this.showAll = true;
     }
 
     back() {
@@ -13,4 +13,4 @@ class SalutationsClosingsController {
     }
 }
 
-export default SalutationsClosingsController;
+export default MathematicsController;

@@ -4,7 +4,10 @@
             <h1>Die Anrede in Brief und E-Mail</h1>
 
             <h2>Unter Freunden</h2>
-            <ul>
+            <button ng-click="$ctrl.show('anrede-freunden')" ng-show="!$ctrl['anrede-freunden'] && !$ctrl['all']">
+                Anzeigen
+            </button>
+            <ul ng-show="!!$ctrl['anrede-freunden'] || !!$ctrl['all']">
                 <li>Liebe Florence / Lieber Pascal,</li>
                 <li>Hallo ...</li>
                 <li>Hi ...</li>
@@ -12,12 +15,18 @@
             </ul>
 
             <h2>Unter Kollegen, Bekannten, Geschäftspartnern</h2>
-            <ul>
+            <button ng-click="$ctrl.show('anrede-bekannten')" ng-show="!$ctrl['anrede-bekannten'] && !$ctrl['all']">
+                Anzeigen
+            </button>
+            <ul ng-show="!!$ctrl['anrede-bekannten'] || !!$ctrl['all']">
                 <li>Liebe Frau Dupertuis / Lieber Herr Morard,</li>
             </ul>
 
             <h2>Formell, unter Fremden</h2>
-            <ul>
+            <button ng-click="$ctrl.show('anrede-fremden')" ng-show="!$ctrl['anrede-fremden'] && !$ctrl['all']">
+                Anzeigen
+            </button>
+            <ul ng-show="!!$ctrl['anrede-fremden'] || !!$ctrl['all']">
                 <li>Sehr geehrte Frau Dupertuis / Sehr geehrter Herr Morard,</li>
                 <li>Sehr geehrte Damen und Herren,</li>
                 <li>Sehr geehrte Herr Direktor / Dr. / Professor Morard</li>
@@ -25,9 +34,11 @@
 
 
             <h1>Die Schlussformeln in Brief und E-Mail</h1>
-
             <h2>Unter Freunden</h2>
-            <ul>
+            <button ng-click="$ctrl.show('schlussformeln-freunden')" ng-show="!$ctrl['schlussformeln-freunden'] && !$ctrl['all']">
+                Anzeigen
+            </button>
+            <ul ng-show="!!$ctrl['schlussformeln-freunden'] || !!$ctrl['all']">
                 <li>Viele Grüße [Florence], ...</li>
                 <li>Liebe Grüße [Florence], ...</li>
                 <li>Herzliche Grüße [Florence], ...</li>
@@ -41,7 +52,10 @@
             </ul>
 
             <h2>Formell, unter Fremden</h2>
-            <ul>
+            <button ng-click="$ctrl.show('schlussformeln-fremden')" ng-show="!$ctrl['schlussformeln-fremden'] && !$ctrl['all']">
+                Anzeigen
+            </button>
+            <ul ng-show="!!$ctrl['schlussformeln-fremden'] || !!$ctrl['all']">
                 <li>Mit freundlichen Grüßen, ...</li>
                 <li>Ich verbleibe mit den besten Grüßen ...</li>
                 <li>In Erwartung Ihrer Antwort verbleibe ich mit herzlichen Grüßen ...</li>
@@ -49,6 +63,9 @@
                 <li>Mit den besten Grüßen</li>
             </ul>
 
+            <button ng-click="$ctrl.show('all')">
+                Alles anzeigen
+            </button>
             <button ng-click="$ctrl.back()">Zurück</button>
         </div>
     </div>
