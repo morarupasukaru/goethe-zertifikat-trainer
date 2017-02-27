@@ -1,6 +1,7 @@
 // Vendor-Imports
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
+import './app.css';
 
 // Interne Modul-Imports
 import Components from './components/components';

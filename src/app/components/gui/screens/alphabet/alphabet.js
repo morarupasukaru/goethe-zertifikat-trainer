@@ -3,7 +3,6 @@ import uiRouter from 'angular-ui-router';
 
 import template from './alphabet.html';
 import controller from './alphabet.controller';
-import './alphabet.css';
 
 let alphabetModule = angular.module('app.components.gui.screen.alphabet', [
 ])

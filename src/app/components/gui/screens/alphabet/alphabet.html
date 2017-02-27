@@ -4,7 +4,7 @@
             <h1>Alphabet</h1>
             <div>
                 <ng-repeat ng-repeat="letter in $ctrl.letters">
-                    <button class="alphabet" ng-class="{'button-primary': !!letter.selected }" ng-click="$ctrl.onClick(letter)">
+                    <button class="notext-transform" ng-class="{'button-primary': !!letter.selected }" ng-click="$ctrl.onClick(letter)">
                         {{ !!letter.selected ? letter.value + ' : ' + letter.pronunciation : letter.value }}
                     </button>
                     <audio ng-if="!!letter.selected && !!letter.audio" autoplay>
