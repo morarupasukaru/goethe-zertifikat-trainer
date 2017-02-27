@@ -4,8 +4,8 @@ class MathematicsController {
         this.$location = $location;
     }
 
-    show() {
-        this.showAll = true;
+    show(data) {
+        this[data] = true;
     }
 
     back() {
