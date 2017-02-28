@@ -1,3 +1,5 @@
+Merge voc a1, a2 (attention, y a des fois plus d'info dans a2 ou a1)
+
 Vision de l'application
 
 Menu: Lernkarten, Wortschatz, Hilfe, Grammar
@@ -12,23 +14,13 @@ Wortschatz:
     print-friendly
 
 Hilfe
-
-    Satzzeichen punctuation
+    (niveau cochable)
 
     Redelmittel
         ecran de list avec recherche global full text
         tri par thème
         sélection par niveau
         sélection privé, travail
-        print-friendly
-
-    Buchstrabieren
-        Tableau avec alphabet, phonétique
-        possibilité d'écouter les sons (version 1+?)
-
-    Anfang / Ende Briefs, E-Mails, SMS
-        (niveau cochable)
-        formel, informel
         print-friendly
 
 Grammar
@@ -71,9 +63,6 @@ Versions
 
 # copyright resource Goethe?
 
-
-# add A2 wortschartz with goethe inventar
-
 # browse grammar (e.g. préposition) and complete wortschatz & add new quiz
 
     preposition
@@ -106,36 +95,6 @@ Versions
 # find a way to test "Notionen"
 
 # find a way to test "Themen"
-
-
-
-fit furs goethe zertifikat a2
-* p.40, p.70 compléter voc a2 (copyright)
-
-* p.92, 122 redelmittelliste
-
-* facon d'utiliser les redemittel, sprachhandlung
-    => shadowing
-    => petit pdf a prendre avec soi et tenter de pratiquer au travail
-
-
-prufungstraining a1
-* p.42 Anfang/Ende Briefe, Email, SVS
-
-* p.44 Vorstellung:
-    => série de question a repondre une fois, une fois privé, une fois travail
-
-* buchstabieren: tableau des lettre avec bouton pour activer le son
-
-* p.18 brochure de réponse, voc à compléter
-
-prufungstraining a2
-* p.58 Anfang/Ende Briefe, Email, SVS
-
-* p.71, 72, 112, 107 redellmittel
-* p.68 vorstellung
-* p.58 anfang ende email
-
 
 suspended
 
