@@ -153,7 +153,6 @@ class VocabularyA2Service {
         entries.push(new Builder().id('ffdc97e8-ca2d-4203-a1bb-dfd9e6ef516d').thema(thema).entry('r Ingenieur, -e (Ingenieurin, - nen)').get());
         entries.push(new Builder().id('6a9736ca-aa01-4f33-878e-6aea49baacd7').thema(thema).entry('r Arzt, Ärzte (Ärztin, -nen)').get());
         entries.push(new Builder().id('3326a49f-61fc-445e-99c2-e94c0936875c').thema(thema).entry('r Kaufmann, -männer (e Kauffrau, -en)').get());
-        entries.push(new Builder().id('a256997d-59b5-4aae-b808-8d37fe67e860').thema(thema).entry('r Arzt, Ärzte (e Ärztin, -nen)').get());
         entries.push(new Builder().id('3a2ec47b-e2d6-4f76-a739-3fe3438c7c31').thema(thema).entry('r Schauspieler, - (e Schauspielerin, -nen)').get());
         entries.push(new Builder().id('702a79de-5246-424a-a897-6bf03ce92bd6').thema(thema).entry('r Sekretär, -e (e Sekretärin, -nen)').get());
         entries.push(new Builder().id('e1fa773a-7d7a-4dea-aa2b-614ee66e23c1').thema(thema).entry('r Schriftsteller, - (e Schriftstellerin, - nen)').get());
