@@ -120,14 +120,6 @@ class PresentationsController {
                     }
                 ]
             }
-            /*
-            TODO business presentation
-            ,{
-                groupId: 'Geschäft',
-                groups: [
-                ]
-            }
-            */
         ];
     }
 
