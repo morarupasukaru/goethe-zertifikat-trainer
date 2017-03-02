@@ -14,13 +14,13 @@ class EntriesService {
 
     initData() {
         this.entries = [];
-        this.addAll(this.speechActsA1Service.getEntries());
-        this.addAll(this.strategiesA1Service.getEntries());
-        this.addAll(this.notionsA1Service.getEntries());
-        this.addAll(this.themasA1Service.getEntries());
+//        this.addAll(this.speechActsA1Service.getEntries());
+//        this.addAll(this.strategiesA1Service.getEntries());
+//        this.addAll(this.notionsA1Service.getEntries());
+//        this.addAll(this.themasA1Service.getEntries());
         this.addAll(this.vocabularyA1Service.getEntries());
         this.addAll(this.vocabularyA2Service.getEntries());
-        this.addAll(this.grammarA1Service.getEntries());
+//        this.addAll(this.grammarA1Service.getEntries());
     }
 
     addAll(list) {

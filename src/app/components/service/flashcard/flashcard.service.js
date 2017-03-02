@@ -37,11 +37,11 @@ class FlashcardService {
 
     getFlashcardTypes() {
         return [
-            this.getVocabularyFlashcardType(),
-            this.getSpeechActsFlashcardType(),
-            this.getStrategiesFlashcardType(),
-            this.getNotionFlashcardType(),
-            this.getThemaFlashcardType()
+            this.getVocabularyFlashcardType()
+//            this.getSpeechActsFlashcardType(),
+//            this.getStrategiesFlashcardType(),
+//            this.getNotionFlashcardType(),
+//            this.getThemaFlashcardType()
             ];
     }
 
