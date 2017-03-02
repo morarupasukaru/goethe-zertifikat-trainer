@@ -14,17 +14,6 @@
                         <li ng-repeat="entry in group.entries">{{ entry }}</li>
                     </ul>
                 </ng-repeat>
-
-                <h2>Beruf</h2>
-                <ng-repeat ng-repeat="group in $ctrl.business">
-                    <h3>{{ group.groupId }}</h3>
-                    <button ng-click="$ctrl.show(group)" ng-show="$ctrl.isButtonVisible(group)">
-                        Anzeigen
-                    </button>
-                    <ul ng-show="$ctrl.isGroupVisible(group)">
-                        <li ng-repeat="entry in group.entries">{{ entry }}</li>
-                    </ul>
-                </ng-repeat>
             </ng-repeat>
 
 

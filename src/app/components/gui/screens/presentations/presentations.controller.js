@@ -14,56 +14,99 @@ class PresentationsController {
                         groupId: 'Name',
                         entries: [
                             'Wie heißen Sie?',
-                            'Was ist Ihr Vorname und Ihr Nachname?'
+                            '– Ich heiße <Vorname> <Nachname>.',
+                            '– Ich bin <Vorname> <Nachname>.',
+                            '– Mein Name ist <Vorname> <Nachname>.',
+                            'Was ist Ihr Vorname und Ihr Nachname?',
+                            '– Mein Vorname ist <Vorname> und mein Familienname ist <Nachname>.',
+                            'Können Sie das bitte buchstabieren?',
+                            '– Ja: ... und dann ...',
+                            'Ich buchstabiere meinen Familiennamen: ...'
                         ]
                     },
                     {
                         groupId: 'Alter',
                         entries: [
-                            'Wie alt sind Sie?'
+                            'Wie alt sind Sie?',
+                            '– Ich bin xx Jahre alt.'
+                        ]
+                    },
+                    {
+                        groupId: 'Geburtstag',
+                        entries: [
+                            'Wann haben Sie Geburtstag?',
+                            '– Ich habe am 9. Oktober Geburstag.'
                         ]
                     },
                     {
                         groupId: 'Land',
                         entries: [
-                            'Woher kommen Sie?'
+                            'Woher kommen Sie?',
+                            '– Ich komme aus der Schweiz.'
                         ]
                     },
                     {
                         groupId: 'Wohnort',
                         entries: [
                             'Wo wohnen Sie?',
-                            'Wie heißt die Strasse?',
+                            '– Ich wohne in Neuenburg, in der ... Strasse xx. Die Postleizahl ist 2001.',
+                            'Wie heißt die Straße?',
+                            '– Das ist die ... Straße.',
                             'Wie ist Ihre Hausnummer?',
-                            'Wie ist die Postleitzahl?'
+                            '– Die Hausnummer ist xx.',
+                            'Wie ist die Postleitzahl?',
+                            '– Die Postleitzahl ist 2001.'
                         ]
                     },
                     {
                         groupId: 'Telefon',
                         entries: [
                             'Haben Sie Telefon?',
+                            '– Nein, ich habe kein Telefon.',
                             'Haben Sie ein Handy?',
-                            'Wie ist Ihre Nummer?'
+                            '– Ja, ich habe ein Handy.',
+                            '– Ja. Meine Handynummer ist ...',
+                            'Wie ist Ihre Nummer?',
+                            '– Meine Nummer ist xx-xxx xx xx'
                         ]
                     },
                     {
                         groupId: 'Sprachen',
                         entries: [
                             'Welche Sprachen sprechen Sie?',
-                            'Was ist Ihre Muttersprache?'
+                            '– Ich spreche Französisch und ein bisschen Deutsch, Englisch und Japanisch',
+                            'Was ist Ihre Muttersprache?',
+                            '– Meine Muttersprache ist Französisch.'
+                        ]
+                    },
+                    {
+                        groupId: 'Deutsch',
+                        entries: [
+                            'Warum lernen Sie Deutsch?',
+                            '– Ich lerne Deutsch, weil ich in Bern arbeite.',
+                            'Wie lange lernen Sie Deutsch?',
+                            '– Ich lerne wieder seit 3 Monate.',
+                            'Wo lernen Sie Deutsch?',
+                            '– Ich lerne allein.',
+                            '– Ich baue mich eine Anwendung um Deutsch Wortschaẗz zu studieren.',
                         ]
                     },
                     {
                         groupId: 'Beruf',
                         entries: [
                             'Was sind Sie von Beruf?',
-                            'Was ist Ihr Beruf?'
+                            '– Ich bin Software Ingenieur von Beruf.',
+                            'Was ist Ihr Beruf?',
+                            '– Ich arbeite in einem Firma als Entwickler.'
                         ]
                     },
                     {
                         groupId: 'Familie',
                         entries: [
-                            'Haben Sie Kinder?'
+                            'Haben Sie Kinder?',
+                            '– Ich habe keine Kinder.',
+                            '– Ich habe eine Schwester.',
+                            '– Ich wohne, zusammen mit meiner Freundin.'
                         ]
                     },
                     {
@@ -74,12 +117,15 @@ class PresentationsController {
                         ]
                     }
                 ]
-            },
-            {
+            }
+            /*
+            TODO business presentation
+            ,{
                 groupId: 'Geschäft',
                 groups: [
                 ]
             }
+            */
         ];
     }
 
