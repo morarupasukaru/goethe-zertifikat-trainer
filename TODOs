@@ -1,23 +1,14 @@
 ToDo - tri tâches
 
+----------------------------------------------------------------------------------
 
-important
-    'Ich komme aus der Schweiz' > check presentations.controller.js
-    – Ich bin Software Ingenieur von Beruf.
-    '– Meine Muttersprache ist Französisch.'
-    – Ich wandere gern.
-    Ich spiele Musik,
-    – Ich lerne wieder seit 3 Monate.
-    – Ich baue mich eine Anwendung um Deutsch Wortschaẗz zu studieren
-
-later
-    business presentation (presentations.controller.js)
-    generic component as in /presentations
+Later
+* business presentation (presentations.controller.js)
+* generic component as in /presentations
+* ecrans avec redelmittel
 
 Plan - Goethe Exam:
 	test oral avec florence
-	( parcourir les redelmittel )
-	lire grammaire allemande dans le train
 	grammaire a1, a2 => liens sur livre dispo
 	grammaire a1, a2 => exo sur http://www.allemandfacile.com/ ?
 

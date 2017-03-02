@@ -88,16 +88,16 @@ class PresentationsController {
                             '– Ich lerne wieder seit 3 Monate.',
                             'Wo lernen Sie Deutsch?',
                             '– Ich lerne allein.',
-                            '– Ich baue mich eine Anwendung um Deutsch Wortschaẗz zu studieren.',
+                            '– Ich studiere Deutsch mit einer selbst entwickelten Anwendung.',
                         ]
                     },
                     {
                         groupId: 'Beruf',
                         entries: [
                             'Was sind Sie von Beruf?',
-                            '– Ich bin Software Ingenieur von Beruf.',
+                            '– Ich bin Softwareingenieur von Beruf.',
                             'Was ist Ihr Beruf?',
-                            '– Ich arbeite in einem Firma als Entwickler.'
+                            '– Ich arbeite in einem Firma als Softwareentwickler.'
                         ]
                     },
                     {
@@ -113,7 +113,9 @@ class PresentationsController {
                         groupId: 'Hobby',
                         entries: [
                             'Was ist Ihr Hobby?',
-                            'Was machen Sie gern?'
+                            '– Ich spiele Musik mit einem Freund. Ich kann Klarinette und Saxophon spielen.',
+                            'Was machen Sie gern?',
+                            '– Ich wandere gern mit meiner Freudin.'
                         ]
                     }
                 ]
