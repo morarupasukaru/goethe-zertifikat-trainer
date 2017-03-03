@@ -74,7 +74,7 @@ class SpeechHelpersController {
                             'Ich finde, wir sollten ...',
                             'Ich bin dagegen.',
                             'Nein, dazu habe ich keine Lust.',
-                            'Neinm ich habe keine Lust.',
+                            'Nein, ich habe keine Lust.',
                             'Das ist doch Unsinn.',
                             'Ich bin anderer Meinung.',
                             'Das finde ich langweilig.',
@@ -138,7 +138,7 @@ class SpeechHelpersController {
     }
 
     showAll() {
-        for (let i = 0; i< this.data.length; i++) {
+        for (let i = 0; i < this.data.length; i++) {
             if (!!this.data[i].groups && !!this.data[i].groups.length > 0) {
                 for (let j = 0; i < this.data[i].groups.length; j++) {
                     this.show(this.data[i].groups[j]);
