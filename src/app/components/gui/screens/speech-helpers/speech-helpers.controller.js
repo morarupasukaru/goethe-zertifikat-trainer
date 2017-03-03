@@ -12,7 +12,7 @@ class SpeechHelpersController {
                 groupId: 'Vorschlag',
                 groups: [
                     {
-                        groupId: 'Sie machen einen Vorschlag',
+                        groupId: 'Sie machen einen Vorschlag (etwas vorschlagen)',
                         entries: [
                             'Ich habe eine Idee ...',
                             'Ich schlage vor, dass ...',
@@ -27,7 +27,7 @@ class SpeechHelpersController {
                         ]
                     },
                     {
-                        groupId: 'Sie finden einen Vorschlag gut',
+                        groupId: 'Sie finden einen Vorschlag gut (zustimmen)',
                         entries: [
                             'Okay. Das machen wir.',
                             'Das ist eine gute Idee.',
@@ -39,9 +39,14 @@ class SpeechHelpersController {
                             'Einverstanden!',
                             'In Ordnung!',
                             'Ja, gut. Machen wir das so.',
+                            'Ja, gut. Das können wir machen.',
                             'Ich bin dafür.',
                             'Super!',
-                            'Prima!'
+                            'Prima!',
+                            'Toll.',
+                            'Das finde ich spannend.',
+                            'Du hast recht.',
+                            'Ja, ich habe Lust.'
                         ]
                     },
                     {
@@ -52,11 +57,12 @@ class SpeechHelpersController {
                             'Das ist eine gute Idee, aber ...',
                             'Ich finde es besser, wenn ...',
                             'Vielleicht ist es besser, wenn ...',
+                            'Besser ist es, wenn ...',
                             'Wir könnten aber auch ...'
                         ]
                     },
                     {
-                        groupId: 'Sie finden einen Vorschlag nicht gut',
+                        groupId: 'Sie finden einen Vorschlag nicht gut (ablehnen)',
                         entries: [
                             'Das finde ich nicht gut. Ich habe eine andere Idee: ...',
                             'Das kann man doch nicht machen.',
@@ -68,8 +74,12 @@ class SpeechHelpersController {
                             'Ich finde, wir sollten ...',
                             'Ich bin dagegen.',
                             'Nein, dazu habe ich keine Lust.',
+                            'Neinm ich habe keine Lust.',
                             'Das ist doch Unsinn.',
-                            'Ich bin anderer Meinung.'
+                            'Ich bin anderer Meinung.',
+                            'Das finde ich langweilig.',
+                            'Das geht nicht!',
+                            'Besser nicht, wir sollten lieber ...'
                         ]
                     }
                 ]
