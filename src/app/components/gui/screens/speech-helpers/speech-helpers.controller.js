@@ -347,6 +347,42 @@ class SpeechHelpersController {
                         ]
                     },
                     {
+                        groupId: 'jemanden einladen',
+                        entries: [
+                            'todo'
+                        ]
+                    },
+                    {
+                        groupId: 'auf eine Einladung reagieren',
+                        entries: [
+                            'todo'
+                        ]
+                    },
+                    {
+                        groupId: 'einen Termin vereinbaren',
+                        entries: [
+                            'todo'
+                        ]
+                    },
+                    {
+                        groupId: 'einen Termin verschieben',
+                        entries: [
+                            'todo'
+                        ]
+                    },
+                    {
+                        groupId: 'etwas vorschlagen',
+                        entries: [
+                            'todo'
+                        ]
+                    },
+                    {
+                        groupId: 'ein Vorschlag: einverstanden sein / nicht einverstanden sein',
+                        entries: [
+                            'todo'
+                        ]
+                    },
+                    {
                         groupId: 'Termin ausmachen',
                         entries: [
                             'Was hast du / haben Sie am Freitag vor?',
@@ -374,7 +410,7 @@ class SpeechHelpersController {
                 ]
             },
             {
-                groupId: 'Nicht verstehen etwas',
+                groupId: 'Sonstiges',
                 groups: [
                     {
                         groupId: 'Sie verstehen Ihren Partner / Ihre Partnerin nicht',
@@ -390,9 +426,103 @@ class SpeechHelpersController {
                             'Entschuldigung. Wie heißt das Wort ... auf Deutsch?',
                             'Ich weiß das Wort nicht auf Deutsch. Ich meine ...'
                         ]
+                    },
+                    {
+                        groupId: 'Freunde ausdrücken',
+                        entries: [
+                            'Schön, dass du/Sie an mich gedacht hast/haben.',
+                            'Ich habe mich sehr gefreut.',
+                            'Ich mag ... besonders gern.',
+                            'Das ist super.',
+                            'Ich bin sehr froh, dass ...',
+                            'Ich freue mich (sehr) auf ...'
+                        ]
+                    },
+                    {
+                        groupId: 'sich bedanken',
+                        entries: [
+                            'Ich danke dir/Ihnen für ...',
+                            'Ich bedanke mich für ...',
+                            'Vielen Dank für die Einladung.'
+                        ]
+                    },
+                    {
+                        groupId: 'etwas begründen',
+                        entries: [
+                            'Ich kann leider nicht kommen, weil ich noch einige Stunden arbeiten muss.',
+                            'Sport mache ich montags, deshalb ist das mein Lieblingstag.',
+                            'Ich habe erst um 14:00 Uhr Mittagspause.'
+                        ]
+                    },
+                    {
+                        groupId: 'etwas beschreiben',
+                        entries: [
+                            'Das Haus ist groß/klein und hat sehr große/kleine Fenster.',
+                            'Im Erdgeschoss sind zwei kleine Geschäfte',
+                            'Neben/Hinter dem Haus ist eine Garage',
+                            'Vor/Hinter dem Haus ist ein Garten.',
+                            'Das Geschäft ist in der Marktstraße',
+                            'Die Kirche hat zwei Türme',
+                            'Das Rathaus / Museum / Einkaufszentrum ... ist ganz alt / neu'
+                        ]
+                    },
+                    {
+                        groupId: 'etwas bewerten',
+                        entries: [
+                            'Ich finde es traurig / schrecklich, dass ...',
+                            'Ich finde es schön, dass ...',
+                            'Ich bin froh, dass ...',
+                            'Ich denke, das ist eine gute Idee.',
+                            'Meiner Meinung nach ist es sehr gut, dass ...',
+                            'Am besten / Besonders gut gefällt mir, dass ...',
+                            'Ich finde ihn ziemlich / sehr / total nett / sympatisch',
+                            'Ich finde das gut / leicht / schwer / interessant / blöd',
+                            'Ich finde das sehr interessant / ... aber auch ziemlich schwer.',
+                            'Das finde ich ziemlich leicht und total cool.',
+                            'Ich mag Sport total gern.',
+                            'Ich finde das Buch ziemlich lustig',
+                            'Die Party / Das Fest / Der Film ... hat mir (auch / sehr gut) gefallen.',
+                            'Mir gefällt das Angebot / die Idee auch sehr gut.',
+                            'Mir gefällt die Idee / das Angebot / der Film ... nicht besonders / überhaupt nicht.'
+                        ]
+                    },
+                    {
+                        groupId: 'sich entschuldigen',
+                        entries: [
+                            ''
+                        ]
+                    },
+                    {
+                        groupId: 'nach dem Weg fragen',
+                        entries: [
+                            ''
+                        ]
+                    },
+                    {
+                        groupId: '',
+                        entries: [
+                            ''
+                        ]
+                    },
+                    {
+                        groupId: '',
+                        entries: [
+                            ''
+                        ]
                     }
                 ]
-            }
+            },
+            {
+                groupId: '',
+                groups: [
+                    {
+                        groupId: '',
+                        entries: [
+                            ''
+                        ]
+                    }
+                ]
+            },
         ];
     }
 
