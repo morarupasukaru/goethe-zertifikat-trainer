@@ -6,14 +6,273 @@ class SpeechHelpersController {
     }
 
     initData() {
+        // Copyright Hueber, Fit fürs Goethe-Zertifikat A2
+        // Copyright Cornelsen, Prüfungstraining DaF: A1, A2
+
         this.data = [
             {
-                // TODO copyright
-                groupId: 'Vorschlag',
+                groupId: 'Fragen zur Person',
                 groups: [
                     {
-                        groupId: 'Sie machen einen Vorschlag (etwas vorschlagen)',
+                        groupId: 'Einkaufen',
                         entries: [
+                            'sich für Mode interessieren',
+                            '... gern anziehen',
+                            'Kleidung selbst kaufen',
+                            'mit der Freundin / dem Freund einkaufen gehen',
+                            'sportliche / formelle Kleidung mögen',
+                            'Was denkst du / denken Sie über Marken-Kleidung?'
+                        ]
+                    },
+                    {
+                        groupId: 'Essen / Trinken',
+                        entries: [
+                            '... zum Frühstück essen / trinken',
+                            '... besonders gern essen',
+                            'Was ist dein / Ihr Lieblingsessen?',
+                            'selbst kochen',
+                            'Rezepte lesen',
+                            'kein Fleisch / ... essen',
+                            'Bio-Produkte kaufen',
+                            'gesund essen'
+                        ]
+                    },
+                    {
+                        groupId: 'Familie / Freunde',
+                        entries: [
+                            'einen Bruder / Geschwister / zwei Schwestern / ... haben',
+                            'etwas mit der Familie / zusammen machen die Hausarbeit machen',
+                            'für die Familie einkaufen / kochen / waschen',
+                            'Geburtstag haben / feiern',
+                            'etwas mit den Freundinnen / Freunden zusammen machen',
+                            'mit Freundinnen / Freunden zusammen einkaufen gehen / ...',
+                            'die beste Freundin / den besten Freund beschreiben',
+                            'Taschengeld bekommen',
+                            'vom Taschengeld bezahlen',
+                            'Mit wem bist du / sind Sie gern zusammen?'
+                        ]
+                    },
+                    {
+                        groupId: 'Freizeit',
+                        entries: [
+                            'ein Hobby haben',
+                            'etwas am liebsten machen',
+                            'Pläne für den Urlaub / für den Abend haben',
+                            'etwas am Wochenende / am Abend / im Urlaub / ... machen',
+                            'Wohin möchtest du / möchten Sie am liebsten reisen?',
+                            'von einer Reise erzählen',
+                            'Was hast du / haben Sie am letzten Wochenende / im Urlaub gemacht?'
+                        ]
+                    },
+                    {
+                        groupId: 'Medien',
+                        entries: [
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            ''
+                        ]
+                    },
+                    {
+                        groupId: 'Ausbildung / Arbeit',
+                        entries: [
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            ''
+                        ]
+                    },
+                    {
+                        groupId: 'Wohnen',
+                        entries: [
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            ''
+                        ]
+                    }
+                ]
+            },
+            {
+                groupId: 'Von sich erzählen',
+                groups: [
+                    {
+                        groupId: 'Einkaufen / Mode',
+                        entries: [
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            ''
+                        ]
+                    },
+                    {
+                        groupId: 'Familie / Arbeiten im Haus',
+                        entries: [
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            ''
+                        ]
+                    },
+                    {
+                        groupId: 'Ferien / Reisen',
+                        entries: [
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            ''
+                        ]
+                    },
+                    {
+                        groupId: 'Freizeit / Unterhaltung',
+                        entries: [
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            ''
+                        ]
+                    },
+                    {
+                        groupId: 'Natur / Umwelt',
+                        entries: [
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            ''
+                        ]
+                    },
+                    {
+                        groupId: 'Sport / Gesundheit',
+                        entries: [
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            ''
+                        ]
+                    },
+                    {
+                        groupId: 'Tagesablauf',
+                        entries: [
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            ''
+                        ]
+                    }
+                ]
+            },
+            {
+                groupId: 'Zusammen etwas planen',
+                groups: [
+                    {
+                        groupId: 'Etwas vorschlagen',
+                        entries: [
+                            'TODO',
                             'Ich habe eine Idee ...',
                             'Ich schlage vor, dass ...',
                             'Ich möchte etwas vorschlagen: ...',
@@ -27,7 +286,28 @@ class SpeechHelpersController {
                         ]
                     },
                     {
-                        groupId: 'Sie finden einen Vorschlag gut (zustimmen)',
+                        groupId: 'nach der Meinung fragen',
+                        entries: [
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            '',
+                            ''
+                        ]
+                    },
+                    {
+                        groupId: 'einen Vorschlag gut finden (zustimmen)',
                         entries: [
                             'Okay. Das machen wir.',
                             'Das ist eine gute Idee.',
@@ -62,7 +342,7 @@ class SpeechHelpersController {
                         ]
                     },
                     {
-                        groupId: 'Sie finden einen Vorschlag nicht gut (ablehnen)',
+                        groupId: 'einen Vorschlag nicht gut finden (ablehnen)',
                         entries: [
                             'Das finde ich nicht gut. Ich habe eine andere Idee: ...',
                             'Das kann man doch nicht machen.',
@@ -81,14 +361,15 @@ class SpeechHelpersController {
                             'Das geht nicht!',
                             'Besser nicht, wir sollten lieber ...'
                         ]
-                    }
-                ]
-            },
-            {
-                groupId: 'Termin ausmachen',
-                groups: [
+                    },
                     {
-                        groupId: 'Sie wollen einen Termin ausmachen',
+                        groupId: 'das Bresprochene zusammenfassen',
+                        entries: [
+                            ''
+                        ]
+                    },
+                    {
+                        groupId: 'Termin ausmachen',
                         entries: [
                             'Was hast du / haben Sie am Freitag vor?',
                             'Hast du / Haben Sie am Freitag Zeit?',
@@ -140,7 +421,7 @@ class SpeechHelpersController {
     showAll() {
         for (let i = 0; i < this.data.length; i++) {
             if (!!this.data[i].groups && !!this.data[i].groups.length > 0) {
-                for (let j = 0; i < this.data[i].groups.length; j++) {
+                for (let j = 0; j < this.data[i].groups.length; j++) {
                     this.show(this.data[i].groups[j]);
                 }
             }
