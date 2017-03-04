@@ -40,12 +40,12 @@ class SpeechHelpersController {
                     {
                         groupId: 'Familie / Freunde',
                         entries: [
-                            'einen Bruder / Geschwister / zwei Schwestern / ... haben',
+                            'einen Bruder / Geschwister / zwei Schwestern ... haben',
                             'etwas mit der Familie / zusammen machen die Hausarbeit machen',
                             'für die Familie einkaufen / kochen / waschen',
                             'Geburtstag haben / feiern',
                             'etwas mit den Freundinnen / Freunden zusammen machen',
-                            'mit Freundinnen / Freunden zusammen einkaufen gehen / ...',
+                            'mit Freundinnen / Freunden zusammen einkaufen gehen',
                             'die beste Freundin / den besten Freund beschreiben',
                             'Taschengeld bekommen',
                             'vom Taschengeld bezahlen',
@@ -58,7 +58,7 @@ class SpeechHelpersController {
                             'ein Hobby haben',
                             'etwas am liebsten machen',
                             'Pläne für den Urlaub / für den Abend haben',
-                            'etwas am Wochenende / am Abend / im Urlaub / ... machen',
+                            'etwas am Wochenende / am Abend / im Urlaub ... machen',
                             'Wohin möchtest du / möchten Sie am liebsten reisen?',
                             'von einer Reise erzählen',
                             'Was hast du / haben Sie am letzten Wochenende / im Urlaub gemacht?'
@@ -89,10 +89,10 @@ class SpeechHelpersController {
                             'einen Kursleiter / ein Thema / ... besonders gern mögen',
                             'etwas im Kurs / im Studium / in der Ausbildung / in der Arbeit gut finden',
                             'Fremdsprachen lernen',
-                            'morgens zur Arbeit / in die Universität / in den Kurs / ... kommen',
+                            'morgens zur Arbeit / in die Universität / in den Kurs ... kommen',
                             'Was gefällt Ihnen an Ihrem Arbeitsplatz / an Ihrer Arbeit gut / gar nicht?',
-                            'Was gefällt dir an deinem Arbeitsplatz / an deiner Arbeit gut / ... ?',
-                            'Was wollen Sie machen, wenn Sie mit der Schule / mit dem Studium / mit der Ausbildung / ... fertig sind?',
+                            'Was gefällt dir an deinem Arbeitsplatz / an deiner Arbeit gut?',
+                            'Was wollen Sie machen, wenn Sie mit der Schule / mit dem Studium / mit der Ausbildung ... fertig sind?',
                             'Was willst du machen, wenn du mit der Schule / ... fertig bist?',
                             'Wie viele Teilnehmer sind im Kurs / Mitarbeiter hat deine / Ihre Firma?',
                             'gut finden / Spaß haben / mögen',
@@ -102,8 +102,8 @@ class SpeechHelpersController {
                             'Gruppenarbeit machen',
                             'sich auf eine Prüfung vorbereiten',
                             'eine Ausbildung zum/r ... -Fachmann/-frau machen',
-                            'Ich will Chemie / Physik / Fremdsprachen / ... studieren',
-                            'Arzt / Lehrerin / Bankkaufmann / ... werden',
+                            'Ich will Chemie / Physik / Fremdsprachen ... studieren',
+                            'Arzt / Lehrerin / Bankkaufmann ... werden',
                             'gern mit Kindern / Tieren / Menschen arbeiten',
                             'gern / nicht gern am Computer / im Freien arbeiten'
                         ]
@@ -111,20 +111,14 @@ class SpeechHelpersController {
                     {
                         groupId: 'Wohnen',
                         entries: [
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            ''
+                            'eine / keine eigene Wohnung haben',
+                            'Wie sieht deine / Ihre Wohnung ... aus?',
+                            'Meine / Unsere Wohnung hat ... Zimmer / einen Balkon / einen Keller / ... und ...',
+                            'In meinem Zimmer / in unserem Wohnzimmer / ... steht ein Stuhl / liegt ein Teppich / steht eine Lampe / gibt es viele Bilder / ...',
+                            'Tiere gern haben',
+                            'einen Garten / ein Haustier haben',
+                            'Wie ist deine / Ihre Telefonnummer?',
+                            'Wo / Wie möchtest du / möchten Sie gern wohnen?'
                         ]
                     }
                 ]
@@ -135,141 +129,101 @@ class SpeechHelpersController {
                     {
                         groupId: 'Einkaufen / Mode',
                         entries: [
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            ''
+                            'die Kleidung selbst kaufen / machen / wählen',
+                            'gern moderne / sportliche Sachen anziehen',
+                            'mit Freudinnen shoppen / einkaufen gehen',
+                            'Markenkleidung toll / zu teuer finden',
+                            'Mode interessant / langweilig finden',
+                            'viel / sehr wenig Geld für Kleidung ausgeben',
+                            'sich elegante / teure Kleidung wünschen',
+                            'Wo / Wann soll man sich besonders gut anziehen?'
                         ]
                     },
                     {
                         groupId: 'Familie / Arbeiten im Haus',
                         entries: [
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            ''
+                            'sehr gut kochen / backen',
+                            'gern / am liebsten essen',
+                            'die Wohnung putzen',
+                            'die Küche / das Zimmer ... aufräumen',
+                            'im Garten arbeiten',
+                            'eine Party vorbereiten / feiern',
+                            'mit der Familie / Freunden zusammen essen',
+                            'Freunde mit nach Hause bringen',
+                            'sich mit jemandem manchmal / oft / nie streiten',
+                            'über den Urlaub diskutieren'
                         ]
                     },
                     {
                         groupId: 'Ferien / Reisen',
                         entries: [
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            ''
+                            'einen Campingurlaub machen',
+                            'einen Ferienkurs / Sprachkurs machen',
+                            'eine Fremdsprache lernen',
+                            'mit Freunden eine Fahrradtour machen',
+                            'reiten / segeln / Tennis spielen lernen',
+                            'eine Schiffsreise machen',
+                            'Urlaub auf einem Campingplatz in den Bergen / am Strand / am Meer / in ... machen',
+                            'mit Freunden verreisen',
+                            'etwas Neues sehen',
+                            'neue Freunde kennenlernen',
+                            'zu Hause bleiben',
+                            'für das Studium lernen'
                         ]
                     },
                     {
                         groupId: 'Freizeit / Unterhaltung',
                         entries: [
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            ''
+                            'Freunde treffen / besuchen',
+                            'ein Computerspiel spielen',
+                            'Lieblingsserien / Filme sehen',
+                            'im Internet chatten',
+                            'in die Stadt gehen',
+                            'in den Klub / Verein gehen',
+                            'Sport machen',
+                            'Tennis / Fußball / Volleyball spielen',
+                            'Musik hören / machen',
+                            'einen Blog / E-Mails schreiben',
+                            'Bücher / Zeitschriften lesen'
                         ]
                     },
                     {
                         groupId: 'Natur / Umwelt',
                         entries: [
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            ''
+                            'die Natur lieben',
+                            'den Müll trennen',
+                            'Tiere gern haben',
+                            'sich einen Hund / eine Katze wünschen',
+                            'gern im Wald wandern',
+                            'sich für Pflanzen und Blumen interessieren',
+                            'lieber in der Stadt / auf dem Land wohnen',
+                            'Kann ein Hund / eine Katze in der Wohnung leben?'
                         ]
                     },
                     {
                         groupId: 'Sport / Gesundheit',
                         entries: [
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            ''
+                            'laufen / joggen / wandern / trainieren',
+                            'Sport / Gymnastik / Yoga machen',
+                            'in den Fitness-Klub / in die Sporthalle / zum Training gehen',
+                            'einen Termin beim Arzt / Zahnarzt haben',
+                            'Kopf-/Hals-/Bauchschmerzen haben',
+                            'krank / gesund sein/werden',
+                            'gesund / ungesund / falsch essen',
+                            'verletzt sein',
+                            'im Krankenhaus sein'
                         ]
                     },
                     {
                         groupId: 'Tagesablauf',
                         entries: [
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            ''
+                            'jeden Tag / an den Schultagen / am Wochenende',
+                            'morgens / mittags / abends',
+                            'am Vormittag / am Nachmittag',
+                            'wenn ich an der Universität / in der Arbeit bin / wenn ich nach Hause komme',
+                            'in der Mittagspause',
+                            'nach dem Mittagsessen / vor dem Frühstück',
+                            'immer / meistens / oft / manchmal / nie'
                         ]
                     }
                 ]
@@ -280,7 +234,10 @@ class SpeechHelpersController {
                     {
                         groupId: 'Etwas vorschlagen',
                         entries: [
-                            'TODO',
+                            'Am besten machen wir das so: ...',
+                            'Ich möchte einen Vorschlag machen.',
+                            'Ich möchte lieber ...',
+                            'Ich finde es besser, wenn wir ...',
                             'Ich habe eine Idee ...',
                             'Ich schlage vor, dass ...',
                             'Ich möchte etwas vorschlagen: ...',
@@ -296,22 +253,13 @@ class SpeechHelpersController {
                     {
                         groupId: 'nach der Meinung fragen',
                         entries: [
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            '',
-                            ''
+                            'Bist du / Sind Sie damit einverstanden?',
+                            'Bist du / Sind Sie damit einverstanden, dass ...',
+                            'Wie denkst du / denken Sie darüber?',
+                            'Was meinst du? / meinen Sie?',
+                            'Findest du / Finden Sie das gut?',
+                            'Gefällt dir / Ihnen der Vorschlag?',
+                            'Sollen wir das so machen?'
                         ]
                     },
                     {
@@ -321,12 +269,20 @@ class SpeechHelpersController {
                             'Das ist eine gute Idee.',
                             'Wir können auch noch ...',
                             'Das gefällt mir.',
+                            'Die Idee gefällt mir',
                             'Das finde ich gut / super / prima / toll.',
+                            'Ich finde das gut / richtig',
+                            'Ich glaube, das ist eine gute Idee.',
+                            'Ich bin auch deiner / Ihrer Meinung.',
+                            'Das denke ich auch.',
+                            'Ich finde deinen / Ihren Vorschlag gut.',
                             'Du hast / Sie haben Recht, so machen wir es.',
                             'Genau!',
                             'Einverstanden!',
+                            'Ich bin einverstanden.',
                             'In Ordnung!',
                             'Ja, gut. Machen wir das so.',
+                            'Wunderbar, so machen wir das.',
                             'Ja, gut. Das können wir machen.',
                             'Ich bin dafür.',
                             'Super!',
@@ -357,6 +313,7 @@ class SpeechHelpersController {
                             'Das ist keine gute Idee.',
                             'Das gefällt mir nicht (so) gut.',
                             'Das finde ich nicht gut.',
+                            'Ich finde das nicht so gut / falsch.',
                             'Besser ist es, wenn ...',
                             'Wir sollten ...',
                             'Ich finde, wir sollten ...',
@@ -367,13 +324,26 @@ class SpeechHelpersController {
                             'Ich bin anderer Meinung.',
                             'Das finde ich langweilig.',
                             'Das geht nicht!',
-                            'Besser nicht, wir sollten lieber ...'
+                            'Besser nicht, wir sollten lieber ...',
+                            'Ich glaube, das ist keine gute Idee.',
+                            'Das möchte ich lieber nicht.',
+                            'Ich meine, wir können auch ...',
+                            'Das ist eine gute Idee, aber ...',
+                            'Nein, das geht nicht.',
+                            'Ich finde den Vorschlag nicht gut.',
+                            'Ich bin nicht einverstanden.',
+                            'Die Idee gefällt mir nicht.'
                         ]
                     },
                     {
                         groupId: 'das Bresprochene zusammenfassen',
                         entries: [
-                            ''
+                            'Also, dann treffen wir uns am Montag / am Abend um 19:00 Uhr / in der Stadt / im Café / vor dem Rathaus / ...',
+                            'Also, dann kommst du / kommen Sie am Sonntag / ... um 19:00 Uhr zu mir ...',
+                            'Gut, dann komme ich am Samstag / ... um ... Uhr zu dir / Ihnen ...',
+                            '... und wir kaufen zusammen das Geschenk für ...',
+                            '... und wir lernen zusammen für die Prüfung',
+                            '... und wir machen / kochen zusammen die Vorspeise'
                         ]
                     },
                     {
