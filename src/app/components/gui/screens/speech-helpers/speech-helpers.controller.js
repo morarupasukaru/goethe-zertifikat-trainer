@@ -10,6 +10,10 @@ class SpeechHelpersController {
         this.$anchorScroll(this.$location.hash(id));
    }
 
+   toogleVisible(topGroup) {
+        topGroup.visible = !topGroup.visible;
+   }
+
     initData() {
         // Copyright Hueber, Fit fürs Goethe-Zertifikat A2
         // Copyright Cornelsen, Prüfungstraining DaF: A1, A2

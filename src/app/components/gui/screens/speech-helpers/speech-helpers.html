@@ -4,9 +4,9 @@
             <h1>Redemittel</h1>
 
             <ng-repeat ng-repeat="top in $ctrl.data">
-                <a class="button button-primary" ng-click="$ctrl.scrollTo(top.groupId)">{{ top.groupId }}</a>
+                <button class="button-primary" ng-click="$ctrl.toogleVisible(top)">{{ top.groupId }}</button>
                 <ng-repeat ng-repeat="group in top.groups">
-                    <a class="button" ng-click="$ctrl.scrollTo(group.groupId)">{{ group.groupId }}</a>
+                    <a class="button" ng-show="!!top.visible" ng-click="$ctrl.scrollTo(group.groupId)">{{ group.groupId }}</a>
                 </ng-repeat>
             </ng-repeat>
 
