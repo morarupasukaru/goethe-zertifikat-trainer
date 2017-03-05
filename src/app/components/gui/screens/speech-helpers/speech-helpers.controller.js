@@ -349,19 +349,45 @@ class SpeechHelpersController {
                     {
                         groupId: 'einen Termin verschieben',
                         entries: [
-                            'todo'
+                            'Ich habe am Dienstag / am Abend leider keine Zeit. Geht es am Mittwoch / am Nachmittag?',
+                            'Ich kann heute / morgen nicht ins Kino gehen. Gehen wir am Samstag?',
+                            'Ich kann um 15:00 Uhr nicht kommen. Hast du / Haben Sie um 17:00 Uhr Zeit?',
+                            'Hast du / Haben Sie am Samstag Zeit? Heute passt es mir nicht.',
+                            'Können wir den Termin auf nächste Woche / nächsten Dienstag verschieben?'
                         ]
                     },
                     {
                         groupId: 'etwas vorschlagen',
                         entries: [
-                            'todo'
+                            'Spielen wir zusammen Volleyball / Tennis?',
+                            'Spielst du / Spielen Sie mit mir Tennis?',
+                            'Wir können ein Computerspiel machen / einen Kaffee trinken / einen Film anschauen / Musik hören.',
+                            'Komm / Kommen Sie, wir gehen zusammen in die Stadt / einkaufen / ins Kino.',
+                            'Möchtest du / Möchten Sie vielleicht mitkommen?',
+                            'Lass / Lassen Sie uns doch einen Spaziergang machen.',
+                            'Darf ich etwas vorschlagen? Komm / Kommen Sie zu mir.',
+                            'Willst du zu Heinz / Wollen Sie zu Herrn Becker / zum Fußball / zur Party mitkommen?',
+                            'Vielleicht interessiert dich / Sie das.',
+                            'Was meinst du / meinen Sie, wollen wir eine Radtour / eine Wanderung machen?',
+                            'Hast du / Haben Sie am Sonntag Zeit?',
+                            'Geht es bei dir / Ihnen um 10:00 Uhr am Sonntag?',
+                            'Gut, dann treffen wir uns dort.'
                         ]
                     },
                     {
                         groupId: 'ein Vorschlag: einverstanden sein / nicht einverstanden sein',
                         entries: [
-                            'todo'
+                            'Aber gern.',
+                            'Klar, ich komme gern.',
+                            'Gern/Okay, das machen wir.',
+                            'Das ist eine tolle/super/gute Idee.',
+                            'Ja, das finde ich gut/super/toll.',
+                            'Ich kann morgen nicht kommen, ich bin bei meinen Großeltern / noch in Bonn.',
+                            'Tut mir leid, ich habe keine Zeit.',
+                            'Heute? Schade, das geht nicht.',
+                            'Sehr nett / lieb von dir / Ihnen, aber da kann ich leider nicht.',
+                            'Das ist keine so gute Idee. Gehen wir doch lieber ins Theater.',
+                            'Also ich weiß nicht. Das finde ich nicht so interessant / gut.'
                         ]
                     },
                     {
@@ -373,11 +399,16 @@ class SpeechHelpersController {
                             'Hast du / Haben Sie am Freitag Zeit?',
                             'Wollen wir uns am Freitag treffen?',
                             'Treffen wir uns am Freitag um acht?',
+                            'Treffen wir uns heute Abend vor dem italienischen Restaurant?',
                             'Wie wäre es mit Freitag?',
                             'Geht es am Freitag um acht?',
+                            'Geht es am Nachmittag um 17:00 Uhr ?',
                             'Passt es dir / Ihnen am Freitag um acht?',
+                            'Passt es dir / Ihnen am Mittwoch um 19:00 Uhr?',
                             'Wann / Um wie viel Uhr treffen wir uns?',
-                            'Wann / Um wie viel Uhr hast du / haben Sie Zeit?'
+                            'Wann / Um wie viel Uhr hast du / haben Sie Zeit?',
+                            'Hast du / Haben Sie am Montag Lust?',
+                            'Kannst du / Können Sie nächste Woche kommen ?'
                         ]
                     },
                     {
@@ -506,13 +537,23 @@ class SpeechHelpersController {
                         groupId: 'den Weg beschreiben',
                         entries: [
                             'Du fährst / Sie fahren zuerst geradeaus und dann nach rechts.',
-                            ''
+                            'Du gehst / Sie gehen hier geradeaus, dann die erste Straße links.',
+                            'Du fährst / Sie fahren 2km geradeaus.',
+                            'Du gehst / Sie gehen die nächste Straße links / rechts.',
+                            'Das ist in der Nähe von der Schule',
+                            'Du gehst / Sie gehen hier gleich zurück.',
+                            'Und dann siehst du / sehen Sie schön ...'
                         ]
                     },
                     {
                         groupId: 'sich verabreden',
                         entries: [
-                            ''
+                            'Hast du / Haben Sie am Wochenende Zeit?',
+                            'Wir wollen eine Radtour / eine Wanderung machen. Hast du Lust? / Haben Sie Lust?',
+                            'Gehst du / Gehen Sie morgen mit ins Schwimmbad?',
+                            'Wollen wir am Abend zusammen eine Pizza essen (gehen) ?',
+                            'Geht es bei dir / Ihnen um 20:00 Uhr ?',
+                            'Lass uns doch am Sonntag ins Theater gehen.'
                         ]
                     }
                 ]
