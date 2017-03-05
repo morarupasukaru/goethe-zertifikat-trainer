@@ -1,9 +1,14 @@
 class SpeechHelpersController {
     /*@ngInject*/
-    constructor($location) {
+    constructor($location, $anchorScroll) {
         this.$location = $location;
+        this.$anchorScroll = $anchorScroll;
         this.initData();
     }
+
+    scrollTo(id) {
+        this.$anchorScroll(this.$location.hash(id));
+   }
 
     initData() {
         // Copyright Hueber, Fit fürs Goethe-Zertifikat A2

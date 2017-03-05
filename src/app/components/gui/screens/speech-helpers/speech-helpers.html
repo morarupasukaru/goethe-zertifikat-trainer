@@ -1,12 +1,19 @@
 <div class="container">
     <div class="row">
-        <div class="twelve column" style="margin-top: 25%">
+        <div class="twelve column" style="margin-top: 5%">
             <h1>Redemittel</h1>
 
             <ng-repeat ng-repeat="top in $ctrl.data">
-                <h2>{{ top.groupId }}</h2>
+                <a class="button button-primary" ng-click="$ctrl.scrollTo(top.groupId)">{{ top.groupId }}</a>
                 <ng-repeat ng-repeat="group in top.groups">
-                    <h3>{{ group.groupId }}</h3>
+                    <a class="button" ng-click="$ctrl.scrollTo(group.groupId)">{{ group.groupId }}</a>
+                </ng-repeat>
+            </ng-repeat>
+
+            <ng-repeat ng-repeat="top in $ctrl.data">
+                <h2 id="{{ top.groupId }}">{{ top.groupId }}</h2>
+                <ng-repeat ng-repeat="group in top.groups">
+                    <h3 id="{{ group.groupId }}">{{ group.groupId }}</h3>
                     <button ng-click="$ctrl.show(group)" ng-show="$ctrl.isButtonVisible(group)">
                         Anzeigen
                     </button>
@@ -16,12 +23,12 @@
                 </ng-repeat>
             </ng-repeat>
 
-
             <button ng-click="$ctrl.showAll()">
                 Alles anzeigen
             </button>
             <button ng-click="$ctrl.back()">Zurück</button>
         </div>
+
     </div>
 </div>
 <footnote></footnote>
