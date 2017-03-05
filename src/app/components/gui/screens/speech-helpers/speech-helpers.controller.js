@@ -347,24 +347,6 @@ class SpeechHelpersController {
                         ]
                     },
                     {
-                        groupId: 'jemanden einladen',
-                        entries: [
-                            'todo'
-                        ]
-                    },
-                    {
-                        groupId: 'auf eine Einladung reagieren',
-                        entries: [
-                            'todo'
-                        ]
-                    },
-                    {
-                        groupId: 'einen Termin vereinbaren',
-                        entries: [
-                            'todo'
-                        ]
-                    },
-                    {
                         groupId: 'einen Termin verschieben',
                         entries: [
                             'todo'
@@ -383,8 +365,10 @@ class SpeechHelpersController {
                         ]
                     },
                     {
-                        groupId: 'Termin ausmachen',
+                        groupId: 'jemanden einladen / einen Termin vereinbaren',
                         entries: [
+                            'Ich lade dich/Sie herzlich zu meiner Party / am Samstag / ... ein',
+                            'Ich mache eine Party und möchte dich/Sie einladen.',
                             'Was hast du / haben Sie am Freitag vor?',
                             'Hast du / Haben Sie am Freitag Zeit?',
                             'Wollen wir uns am Freitag treffen?',
@@ -397,14 +381,24 @@ class SpeechHelpersController {
                         ]
                     },
                     {
-                        groupId: 'Sie reagieren auf einen Terminvorschlag',
+                        groupId: 'auf eine Einladung reagieren',
                         entries: [
                             'Ja, das geht.',
                             'Ja, das passt mir gut.',
                             'Kein Problem.',
                             'Nein, am Freitag kann ich leider nicht.',
                             'Nein, am Freitag geht es leider nicht.',
-                            '(Tut mir leid, ) ich habe keine Zeit, weil ich arbeiten muss.'
+                            '(Tut mir leid, ) ich habe keine Zeit, weil ich arbeiten muss.',
+                            'Vielen Dank für die Einladung, ich komme gern.',
+                            'Vielen Dank, dass du/Sie an mich gedacht hast/haben.',
+                            'Ich danke dir/Ihnen für die Einladung und komme bestimmt.',
+                            'Tolle Idee, vielen Dank, bis Sonntag.',
+                            'Sehr lieb von dir/Ihnen, ich komme gern.',
+                            'Vielen Dank, aber ich kann leider nicht kommen.',
+                            '..., aber das geht leider nicht.',
+                            '..., aber leider kann ich nicht kommen.',
+                            '..., aber leider bin ich am Wochenende in Köln.',
+                            '..., aber mein Vater feiert seinen Geburtstag auch am Samstag.'
                         ]
                     }
                 ]
@@ -489,40 +483,40 @@ class SpeechHelpersController {
                     {
                         groupId: 'sich entschuldigen',
                         entries: [
-                            ''
+                            'Entschuldigung.',
+                            'Entschuldigungen Sie bitte, dass ...',
+                            'Das tut mir leid.',
+                            'Ich entschuldige mich für ...',
+                            'Leider konnte ich nicht kommen',
+                            'Leider musste ich im Bett bleiben'
                         ]
                     },
                     {
                         groupId: 'nach dem Weg fragen',
                         entries: [
-                            ''
+                            'Ich möchte gern wissen, wo die Blumenstraße / der Bahnhof / ... ist.',
+                            'Ich suche die Franzstraße / den Bahnhof / ..., kannst du/können Sie mir helfen?',
+                            'Können Sie / Kannst du mir bitte sagen, wie ich zum Dom komme / wo der Dom ist?',
+                            'Wie komme ich zu Peter / zum Flughafen / zur Haltestelle?',
+                            'Wo wohnst du? / Wo wohnen Sie?',
+                            'Wo finde ich das neue Rathaus?'
                         ]
                     },
                     {
-                        groupId: '',
+                        groupId: 'den Weg beschreiben',
                         entries: [
+                            'Du fährst / Sie fahren zuerst geradeaus und dann nach rechts.',
                             ''
                         ]
                     },
                     {
-                        groupId: '',
+                        groupId: 'sich verabreden',
                         entries: [
                             ''
                         ]
                     }
                 ]
-            },
-            {
-                groupId: '',
-                groups: [
-                    {
-                        groupId: '',
-                        entries: [
-                            ''
-                        ]
-                    }
-                ]
-            },
+            }
         ];
     }
 
