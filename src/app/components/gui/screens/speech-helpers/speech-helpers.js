@@ -3,6 +3,7 @@ import uiRouter from 'angular-ui-router';
 
 import template from './speech-helpers.html';
 import controller from './speech-helpers.controller';
+import data from './speech-helpers-data.js';
 
 let speechHelpersModule = angular.module('app.components.gui.screen.speech-helpers', [
 ])
@@ -16,7 +17,8 @@ let speechHelpersModule = angular.module('app.components.gui.screen.speech-helpe
     .component('speechHelpers', {
         template,
         controller
-    }
-);
+    })
+    .constant('data', data);
+
 
 export default speechHelpersModule;
