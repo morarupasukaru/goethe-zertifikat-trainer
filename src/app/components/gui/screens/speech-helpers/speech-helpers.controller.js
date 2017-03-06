@@ -20,6 +20,16 @@ class SpeechHelpersController {
    }
 
     initData() {
+
+        this.levels = [
+            { value: 'a1', selected: true },
+            { value: 'a2', selected: true },
+            { value: 'b1', selected: true },
+            { value: 'b2', selected: true },
+            { value: 'c1', selected: true },
+            { value: 'c2', selected: true }
+        ];
+
         // Copyright Hueber, Fit fürs Goethe-Zertifikat A2
         // Copyright Cornelsen, Prüfungstraining DaF: A1, A2
 

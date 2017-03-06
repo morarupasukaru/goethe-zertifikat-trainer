@@ -3,12 +3,20 @@
         <div class="twelve column" style="margin-top: 5%">
             <h1>Redemittel</h1>
 
-            <ng-repeat ng-hide="!!$ctrl.print" ng-repeat="top in $ctrl.data">
-                <button class="button-primary" ng-click="$ctrl.toogleSelection(top)">{{ top.groupId }}</button>
-                <ng-repeat ng-repeat="group in top.groups">
-                    <a class="button" ng-show="!!top.selected" ng-click="$ctrl.scrollTo(group.groupId)">{{ group.groupId }}</a>
+            <div>
+                <ng-repeat ng-hide="!!$ctrl.print" ng-repeat="level in $ctrl.levels">
+                    <button  ng-class="{'button-primary': !!level.selected }" ng-click="$ctrl.toogleSelection(level)">{{ level.value }}</button>
                 </ng-repeat>
-            </ng-repeat>
+            </div>
+
+            <div>
+                <ng-repeat ng-hide="!!$ctrl.print" ng-repeat="top in $ctrl.data">
+                    <button class="button-primary" ng-click="$ctrl.toogleSelection(top)">{{ top.groupId }}</button>
+                    <ng-repeat ng-repeat="group in top.groups">
+                        <a class="button" ng-show="!!top.selected" ng-click="$ctrl.scrollTo(group.groupId)">{{ group.groupId }}</a>
+                    </ng-repeat>
+                </ng-repeat>
+            </div>
 
             <ng-repeat ng-repeat="top in $ctrl.data">
                 <h2 id="{{ top.groupId }}">{{ top.groupId }}</h2>
@@ -20,7 +28,7 @@
                 </ng-repeat>
             </ng-repeat>
 
-            <a ng-hide="!!$ctrl.print" class="button" target="_blank" href="./#/speech-helpers?print=true">Drucken</a>
+            <a ng-hide="!!$ctrl.print" class="button" target="_blank" href="./#/speech-helpers?print=true">Drucken alle</a>
             <button ng-hide="!!$ctrl.print" ng-click="$ctrl.back()">Zurück</button>
         </div>
 
