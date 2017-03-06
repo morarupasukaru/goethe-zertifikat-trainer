@@ -23,7 +23,7 @@
                 <ng-repeat ng-repeat="group in top.groups">
                     <h3 id="{{ group.groupId }}">{{ group.groupId }}</h3>
                     <ul>
-                        <li ng-repeat="entry in group.entries">{{ entry }}</li>
+                        <li ng-repeat="entry in group.entries">{{ entry.value }}</li>
                     </ul>
                 </ng-repeat>
             </ng-repeat>
