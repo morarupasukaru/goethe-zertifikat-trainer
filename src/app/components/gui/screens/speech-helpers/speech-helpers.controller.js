@@ -1,9 +1,10 @@
 class SpeechHelpersController {
     /*@ngInject*/
-    constructor($location, $anchorScroll, $stateParams) {
+    constructor($location, $anchorScroll, $stateParams, levels) {
         this.$location = $location;
         this.$anchorScroll = $anchorScroll;
         this.print = !!$stateParams.print;
+        this.levelsConstants = levels;
         this.initData();
 
         if (!!this.print) {
@@ -20,22 +21,17 @@ class SpeechHelpersController {
    }
 
     initData() {
-
-        this.levels = [
-            { value: 'a1', selected: true },
-            { value: 'a2', selected: true },
-            { value: 'b1', selected: true },
-            { value: 'b2', selected: true },
-            { value: 'c1', selected: true },
-            { value: 'c2', selected: true }
-        ];
+        this.levels = [];
+        for (let i = 0; i < this.levelsConstants.length; i++) {
+            this.levels.push({ value: this.levelsConstants[i], selected: true });
+        }
 
         let c1 = ['Hueber, Fit fürs Goethe-Zertifikat A2', 'Cornelsen, Prüfungstraining DaF: A1, A2'];
 
         this.data = [
             {
                 groupId: 'Fragen zur Person',
-                groups: [
+                entries: [
                     {
                         groupId: 'Einkaufen',
                         entries: [
@@ -148,7 +144,7 @@ class SpeechHelpersController {
             },
             {
                 groupId: 'Von sich erzählen',
-                groups: [
+                entries: [
                     {
                         groupId: 'Einkaufen / Mode',
                         entries: [
@@ -253,7 +249,7 @@ class SpeechHelpersController {
             },
             {
                 groupId: 'Zusammen etwas planen',
-                groups: [
+                entries: [
                     {
                         groupId: 'Etwas vorschlagen',
                         entries: [
@@ -459,7 +455,7 @@ class SpeechHelpersController {
             },
             {
                 groupId: 'Sonstiges',
-                groups: [
+                entries: [
                     {
                         groupId: 'Sie verstehen Ihren Partner / Ihre Partnerin nicht',
                         entries: [
@@ -582,6 +578,54 @@ class SpeechHelpersController {
                 ]
             }
         ];
+
+        for (let i = 0; i < this.data.length; i++) {
+            this.countLevelEntriesInGroup(this.levelsConstants, this.data[i]);
+        }
+    }
+
+    countLevelEntriesInGroup(levels, group) {
+        let groupLevels = [];
+        for (let i = 0; i < levels.length; i++) {
+            groupLevels[levels[i]] = 0;
+        }
+        group.levels = groupLevels;
+
+        if (!!group && !!group.entries && group.entries.length > 0) {
+            for (let i = 0; i < group.entries.length; i++) {
+                let entry = group.entries[i];
+                if (!!entry.groupId) {
+                    let entryLevels = this.countLevelEntriesInGroup(levels, entry);
+                    let keys = Object.keys(entryLevels);
+                    for (let j = 0; j < keys.length; j++) {
+                        let key = keys[j];
+                        groupLevels[key] = groupLevels[key] + entryLevels[key];
+                    }
+                } else {
+                    let entryLevel = entry.level;
+                    groupLevels[entryLevel] = groupLevels[entryLevel] + 1;
+                }
+            }
+        }
+        return groupLevels;
+    }
+
+    isEntryVisible(entry) {
+        for (let i = 0; i < this.levels.length; i++) {
+            if (this.levels[i].value === entry.level) {
+                return this.levels[i].selected;
+            }
+        }
+        return false;
+    }
+
+    isGroupVisible(group) {
+        for (let i = 0; i < this.levels.length; i++) {
+            if (!!this.levels[i].selected && group.levels[this.levels[i].value] > 0) {
+                return true;
+            }
+        }
+        return false;
     }
 
     back() {

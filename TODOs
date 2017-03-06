@@ -1,111 +1,37 @@
-ToDo - tri tâches
+next tasks
+    integrate redelmittel of goethe a1
+    integrate redelmittel of goethe a2
+    translate a2 vocabulary
 
-----------------------------------------------------------------------------------
+general tasks
+    language texts customizable par "set"
+    create "set" learn deutsch
+    screen to import, delete data
+    json importable par type (voc, speech-helpers, ...)
+    ecran d'import (par defaut si pas donnees)
+    merge of data (e.g. examples of word)
+    level customizable
+    print: dedicated css for print (component with mode preatyprint?, override css?)
+    vocabulary with fulltext searched (similar to redelmittel), link to external website (leo)
+    configurable stacks
+    selection of flaschcards (level, type, ...)
+    grammar screen (similar to redelmittel, jump on specific screen? all in one?) link to external website?
+    sound < how to import them? link them?
+    data editable?
+    copyright (show in screen to manage data)
+    font in offline
 
-Redelmittel
-    Print: dedicated css for print (component with mode preatyprint?, override css?)
-    generic component
-    external data as json
-
-Later
+tasks to learn german
     business presentation (presentations.controller.js)
-
-Plan - Goethe Exam:
-	test oral avec florence
-	grammaire a1, a2 => liens sur livre dispo
-	grammaire a1, a2 => exo sur http://www.allemandfacile.com/ ?
-
-Merge voc a1, a2 (attention, y a des fois plus d'info dans a2 ou a1)
-
-Vision de l'application
-
-Menu: Lernkarten, Wortschatz, Hilfe, Grammar
-
-Lernkarten:
-    ~ version actuelle
-    ajout la possibilité de configurer les stacks
-    le contenu "a apprendre" est configurable dans un écran de config ayant un tableau avec niveau (a1, a2, ...) et genre (voc, grammaire, ...)
-
-Wortschatz:
-    ecran de list avec recherche global (full text ou que sur l'entrée) et possibilité de spécifier niveau cochable (a1, ...), & liste officiel goethe
-    print-friendly
-
-Hilfe
-
-Grammar
-    Sélection par niveau
-    Ecran spécifique par thème
-    Liens sur site web d'apprentissage
-
-Admin - Gestion des donnnées
-    - les phrases d'exemples et "catégories" sont sous copyright, pas les mots eux-même
-
-    Export
-        sélection full export, delta with initial data, [ ] open source, [ ] private
-        export en json
-
-    Import
-        fichier json
-        overwrite existing entry (uuid in json)
-            => si overwrite => question clear flashcard stack? question si ok overwrite?
-            => écran d'appercu des actions
-        permet d'ajouter des phrases exemples, les traductions aux entrées (données base: que mot en allemand), correctif
-
-    Données sous copyrigth sont flaggé tel quel
-
-Edit
-    Wortschatz
-    Redelmittel (comment généraliser?)
-    Anfang, Ende Brief
-    Grammar
-
-Versions
-    1: Que allemand-français?
-        Config stack
-        Sélection du niveau à tester & quoi tester
-    2: Ajout son (localforage?, liens basic html)
-    3: Généralisation structure données pour permettre d'étendre les données, ajout copyright/license (différence?) on/off
-        => Rendre l'application multi-usage
-            => page Accueil sélection thème (allemand, musique, etc.)
-        => Titre, Skinnable en focntion du thème traitée
-    4: Edition (online ou via une gui à part, p.ex. swing), import, export
-
-# copyright resource Goethe?
-
-# browse grammar (e.g. préposition) and complete wortschatz & add new quiz
-
+    Merge voc a1, a2 (attention, y a des fois plus d'info dans a2 ou a1)
     preposition
     verbe modal
     conjonction
-
-
-# flags pour categorie de mot (adverb = true, preposition = true, etc.)
-
-# copyright
-    - eviter de pusher des données avec copyright
-    -
-
-# local font
-
-# footer menu
-
-# extends A1, A2, ... with langenscheidt entries
-
-# extends A1, A2, ... with power wörterbuch entries
-
-# extends A1, A2, ... by recording examples
-
-# add B1, B2, ... wortschartz with goethe inventar
-
-# find a way to test "Sprachhandlungen"
-
-# find a way to test "Strategien"
-
-# find a way to test "Notionen"
-
-# find a way to test "Themen"
-
-suspended
-
-# homepage
-    - add stacks by click on list
+    extends A1, A2, ... with langenscheidt entries
+    extends A1, A2, ... with power wörterbuch entries
+    extends A1, A2, ... by recording examples
+    add B1, B2, ... wortschartz with goethe inventar
+    find a way to test "Sprachhandlungen"
+    find a way to test "Strategien"
+    find a way to test "Notionen"
+    find a way to test "Themen"

@@ -3,30 +3,30 @@
         <div class="twelve column" style="margin-top: 5%">
             <h1>Redemittel</h1>
 
-            <div>
-                <ng-repeat ng-hide="!!$ctrl.print" ng-repeat="level in $ctrl.levels">
+            <div ng-hide="!!$ctrl.print">
+                <ng-repeat ng-repeat="level in $ctrl.levels">
                     <button  ng-class="{'button-primary': !!level.selected }" ng-click="$ctrl.toogleSelection(level)">{{ level.value }}</button>
                 </ng-repeat>
             </div>
 
             <div>
-                <ng-repeat ng-hide="!!$ctrl.print" ng-repeat="top in $ctrl.data">
+                <span ng-show="$ctrl.isGroupVisible(top) && !$ctrl.print" ng-repeat="top in $ctrl.data">
                     <button class="button-primary" ng-click="$ctrl.toogleSelection(top)">{{ top.groupId }}</button>
-                    <ng-repeat ng-repeat="group in top.groups">
+                    <span ng-show="$ctrl.isGroupVisible(group)" ng-repeat="group in top.entries">
                         <a class="button" ng-show="!!top.selected" ng-click="$ctrl.scrollTo(group.groupId)">{{ group.groupId }}</a>
-                    </ng-repeat>
-                </ng-repeat>
+                    </span>
+                </span>
             </div>
 
-            <ng-repeat ng-repeat="top in $ctrl.data">
+            <div ng-show="$ctrl.isGroupVisible(top)" ng-repeat="top in $ctrl.data">
                 <h2 id="{{ top.groupId }}">{{ top.groupId }}</h2>
-                <ng-repeat ng-repeat="group in top.groups">
+                <div ng-show="$ctrl.isGroupVisible(group)" ng-repeat="group in top.entries">
                     <h3 id="{{ group.groupId }}">{{ group.groupId }}</h3>
                     <ul>
-                        <li ng-repeat="entry in group.entries">{{ entry.value }}</li>
+                        <li ng-repeat="entry in group.entries" ng-show="$ctrl.isEntryVisible(entry)">{{ entry.value }}</li>
                     </ul>
-                </ng-repeat>
-            </ng-repeat>
+                </div>
+            </div>
 
             <a ng-hide="!!$ctrl.print" class="button" target="_blank" href="./#/speech-helpers?print=true">Drucken alle</a>
             <button ng-hide="!!$ctrl.print" ng-click="$ctrl.back()">Zurück</button>
