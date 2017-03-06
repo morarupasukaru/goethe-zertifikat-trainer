@@ -1166,89 +1166,67 @@ const data = [
                     {
                         groupId: 'benennen/definieren/identifizieren',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Wer ist das?', level: 'a1', copyright: c2 },
+                            { value: '– Das ist Wolfgang', level: 'a1', copyright: c2 },
+                            { value: '– Das ist Frau Schuster', level: 'a1', copyright: c2 },
+                            { value: '– Das ist meine Kollegin.', level: 'a1', copyright: c2 },
+                            { value: 'Was ist das?', level: 'a1', copyright: c2 },
+                            { value: '– Das ist eine Blume.', level: 'a1', copyright: c2 },
+                            { value: 'Ist das eine Orange?', level: 'a1', copyright: c2 },
+                            { value: '– Nein, eine Zitrone.', level: 'a1', copyright: c2 },
+                            { value: 'Wie heißt das auf Deutsch? Erklären Sie mal.', level: 'a1', copyright: c2 },
+                            { value: 'Der Film heißt „Abgeschminkt“.', level: 'a1', copyright: c2 },
+                            { value: 'Diese CD gehört mir', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'beschreiben',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Wie sieht die Tasche aus?', level: 'a1', copyright: c2 },
+                            { value: '– Sie ist braun.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'erklären',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Wie geht das?', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'berichten',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Was ist passiert?', level: 'a1', copyright: c2 },
+                            { value: '– Ich hatte einen Unfall.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Mitteilung/Ankündigung',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Was machst du heute Abend?', level: 'a1', copyright: c2 },
+                            { value: '– Ich besuche Freunde.', level: 'a1', copyright: c2 },
+                            { value: 'Wann fährst du (wieder)?', level: 'a1', copyright: c2 },
+                            { value: '– Nächstes Jahr fahren wir nach Griechenland.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Zweck und Bestimmung angeben',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Was ist das?', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Wissen/Unwissen',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Weiß sie das?', level: 'a1', copyright: c2 },
+                            { value: '– Ja.', level: 'a1', copyright: c2 },
+                            { value: '– Nein.', level: 'a1', copyright: c2 },
+                            { value: '– Vielleicht.', level: 'a1', copyright: c2 }
                         ]
                     }
                 ]
             }
         ]
     },
-
-    /*
-    createInformationsaustauschEntries(Builder) {
-        let entries = [];
-        let thema = ['Sprachhandlungen', 'A1', 'Informationsaustausch', ['benennen', 'definieren', 'identifizieren']];
-        entries.push(new Builder().id('8fb96813-36bc-4932-adfb-412ccfd88548').thema(thema).entry(['Wer ist das?', '– Das ist Wolfgang', '– Das ist Frau Schuster', '– Das ist meine Kollegin.']).get());
-        entries.push(new Builder().id('12534c9b-9623-47dc-9a92-33d6d323d403').thema(thema).entry(['Was ist das?', '– Das ist eine Blume.']).get());
-        entries.push(new Builder().id('f99c0778-671e-4e60-82e1-7a0cdb1c4cb9').thema(thema).entry(['Ist das eine Orange?', '– Nein, eine Zitrone.']).get());
-        entries.push(new Builder().id('3602d2d6-a8b3-4aeb-a0b2-cf0027b5d7ae').thema(thema).entry('Wie heißt das auf Deutsch? Erklären Sie mal.').get());
-        entries.push(new Builder().id('40a62372-423d-4961-bf42-659e499dff14').thema(thema).entry('Der Film heißt „Abgeschminkt“.').get());
-        entries.push(new Builder().id('769d5291-eb19-4d75-ae7c-96737422d823').thema(thema).entry('Diese CD gehört mir').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Informationsaustausch', 'beschreiben'];
-        entries.push(new Builder().id('54f73540-308c-4deb-9cab-9b213ad36bff').thema(thema).entry(['Wie sieht die Tasche aus?', '– Sie ist braun.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Informationsaustausch', 'erklären'];
-        entries.push(new Builder().id('9fbad381-98f2-46a5-a55f-52c5f3a205c4').thema(thema).entry('Wie geht das?').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Informationsaustausch', 'berichten'];
-        entries.push(new Builder().id('3dcabd5e-1405-4a5a-8171-af964e244ab2').thema(thema).entry(['Was ist passiert?', '– Ich hatte einen Unfall.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Informationsaustausch', ['Mitteilung', 'Ankündigung']];
-        entries.push(new Builder().id('4be53443-cd19-42c5-b49f-4ec3c2fcb61d').thema(thema).entry(['Was machst du heute Abend?', '– Ich besuche Freunde.']).get());
-        entries.push(new Builder().id('e4041bed-3bc2-4f91-87a6-d968dff576e0').thema(thema).entry(['Wann fährst du (wieder)?', '– Nächstes Jahr fahren wir nach Griechenland.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Informationsaustausch', 'Zweck und Bestimmung angeben'];
-        entries.push(new Builder().id('f3bfa2cc-cc39-433c-b0f1-4d51c753c3c3').thema(thema).entry('Was ist das?').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Informationsaustausch', ['Wissen', 'Unwissen']];
-        entries.push(new Builder().id('6cdc8995-ead3-49ee-bee6-e9f3197885f8').thema(thema).entry(['Weiß sie das?', '– Ja.', '– Nein.', '– Vielleicht.']).get());
-        return entries;
-    }
-*/
     {
         groupId: 'Sprachhandlungen',
         entries: [
