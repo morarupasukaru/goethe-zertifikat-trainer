@@ -914,110 +914,211 @@ const data = [
                 ]
             }
         ]
+    },
+    {
+        groupId: 'Strategien',
+        entries: [
+            {
+                groupId: 'Redeorganisation',
+                entries: [
+                    {
+                        groupId: 'eine Äußerung einleiten',
+                        entries: [
+                            { value: 'Entschuldigung... Kann ich etwas fragen?', level: 'a1', copyright: c2 },
+                            { value: 'Entschuldigen Sie... Kann ich etwas fragen?', level: 'a1', copyright: c2 },
+                            { value: 'Was kann ich für Sie tun?', level: 'a1', copyright: c2 },
+                            { value: 'Brauchen Sie Hilfe?', level: 'a1', copyright: c2 },
+                            { value: '(Im Restaurant.) Hallo! Entschuldigung bitte!', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'eine Äußerung abschließen',
+                        entries: [
+                            { value: 'Danke. Ich muss jetzt leider gehen.', level: 'a1', copyright: c2 },
+                            { value: 'Okay, tschüss bis bald.', level: 'a1', copyright: c2 },
+                            { value: 'Gut: ...', level: 'a1', copyright: c2 },
+                            { value: 'Na gut.', translate: 'mouais', level: 'a1', copyright: c2 },
+                            { value: 'Dann, herzlichen Dank', level: 'a1', copyright: c2 },
+                            { value: 'auf Wiedersehen.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'um das Wort bitten',
+                        entries: [
+                            { value: 'Moment bitte.', level: 'a1', copyright: c2 },
+                            { value: 'Bitte!', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Zuhören signalisieren',
+                        entries: [
+                            { value: 'a?', level: 'a1', copyright: c2 },
+                            { value: 'So?', level: 'a1', copyright: c2 },
+                            { value: 'Wirklich?', level: 'a1', copyright: c2 },
+                            { value: 'Ach.', translate: ['Hélas !', 'Ah !'], level: 'a1', copyright: c2 },
+                            { value: 'Sicher.', translate: 'assurément', level: 'a1', copyright: c2 },
+                            { value: 'Aha.', translate: 'Ah! (ironie, étonnement)', level: 'a1', copyright: c2 },
+                            { value: 'Naja.', translate: 'bof', level: 'a1', copyright: c2 },
+                            { value: 'Bitte?', level: 'a1', copyright: c2 },
+                            { value: '(Na) Klar.', translate: ['Forcément !', 'Bien sûr !'], level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'zum Sprechen auffordern',
+                        entries: [
+                            { value: 'Also?', translate: 'Alors !', level: 'a1', copyright: c2 },
+                            { value: 'Ja?', level: 'a1', copyright: c2 },
+                            { value: 'Und?', level: 'a1', copyright: c2 },
+                            { value: 'Ja bitte !', level: 'a1', copyright: c2 },
+                            { value: 'Und dann?', level: 'a1', copyright: c2 },
+                            { value: 'Und?', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Beispiele geben/etwas verdeutlichen',
+                        entries: [
+                            { value: 'Ich esse gern Obst, zum Beispiel Orangen, Bananen und Erdbeeren.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Höflichkeit',
+                        entries: [
+                            { value: 'Kann ich Sie etwas fragen?', level: 'a1', copyright: c2 },
+                            { value: 'Darf ich Sie etwas fragen?', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Abschwächung',
+                        entries: [
+                            { value: 'Möchtest du noch etwas?', level: 'a1', copyright: c2 },
+                            { value: '– Ja, ein bisschen.', level: 'a1', copyright: c2 }
+                        ]
+                    }
+                ]
+            },
+            {
+                groupId: 'Verständnissicherung',
+                entries: [
+                    {
+                        groupId: 'Verständnishilfen anbieten',
+                        entries: [
+                            {
+                                groupId: 'einzelne Wörter oder Begriffe umschreiben',
+                                entries: [
+                                    { value: 'Apotheke: Da kann man Medikamente kaufen.', level: 'a1', copyright: c2 }
+                                ]
+                            },
+                            {
+                                groupId: 'Rückfragen zur Verständniskontrolle',
+                                entries: [
+                                    { value: 'Haben Sie das verstanden?', level: 'a1', copyright: c2 },
+                                    { value: 'Ist das klar?', level: 'a1', copyright: c2 }
+                                ]
+                            },
+                            {
+                                groupId: 'schwierige Wörter buchstabieren',
+                                entries: [
+                                    { value: 'Mein Name ist „Kuntz“, ich buchstabiere: K-U-N-T-Z.', level: 'a1', copyright: c2 }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        groupId: 'um Verständnishilfen bitten',
+                        entries: [
+                            {
+                                groupId: 'signalisieren, dass man etwas nicht verstanden hat',
+                                entries: [
+                                    { value: 'Entschuldigung, wie bitte?', level: 'a1', copyright: c2 },
+                                    { value: 'Langsamer bitte.', level: 'a1', copyright: c2 }
+                                ]
+                            },
+                            {
+                                groupId: 'um Wiederholung bitten',
+                                entries: [
+                                    { value: 'Noch einmal bitte.', level: 'a1', copyright: c2 },
+                                    { value: 'Kannst du das bitte noch einmal sagen?', level: 'a1', copyright: c2 },
+                                    { value: 'Wie bitte?', level: 'a1', copyright: c2 }
+                                ]
+                            },
+                            {
+                                groupId: 'um Erläuterung bitten',
+                                entries: [
+                                    { value: 'Entschuldigung, was heißt das?', level: 'a1', copyright: c2 },
+                                    { value: 'Was bedeutet ... ?', level: 'a1', copyright: c2 }
+                                ]
+                            },
+                            {
+                                groupId: 'jemanden bitten, ein Wort zu buchstabieren',
+                                entries: [
+                                    { value: 'Bitte buchstabieren Sie mir den Namen.', level: 'a1', copyright: c2 },
+                                    { value: 'Können Sie das Wort buchstabieren?', level: 'a1', copyright: c2 }
+                                ]
+                            },
+                            {
+                                groupId: 'jemanden bitten, etwas aufzuschreiben',
+                                entries: [
+                                    { value: 'Wie schreibt man ... ?', level: 'a1', copyright: c2 },
+                                    { value: 'Bitte schreiben Sie das auf.', level: 'a1', copyright: c2 }
+                                ]
+                            },
+                            {
+                                groupId: 'jemanden bitten, langsamer zu sprechen',
+                                entries: [
+                                    { value: 'Bitte ein bisschen langsamer.', level: 'a1', copyright: c2 }
+                                ]
+                            },
+                            {
+                                groupId: 'um Wiederholung bitten',
+                                entries: [
+                                    { value: 'Wie bitte?', level: 'a1', copyright: c2 },
+                                    { value: 'Entschuldigung, noch einmal bitte.', level: 'a1', copyright: c2 }
+                                ]
+                            },
+                            {
+                                groupId: 'anzeigen, dass man etwas nicht verstanden hat',
+                                entries: [
+                                    { value: 'Das habe ich nicht verstanden.', level: 'a1', copyright: c2 },
+                                    { value: 'Das (Wort) verstehe ich nicht.', level: 'a1', copyright: c2 }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        groupId: 'Kompensation',
+                        entries: [
+                            {
+                                groupId: 'Synonyme oder ähnliche Begriffe verwenden',
+                                entries: [
+                                    { value: 'Wo ist mein Buch... nicht ein Buch... ein Schreibbuch.', level: 'a1', copyright: c2 },
+                                    { value: '– Ah, dein Heft?', level: 'a1', copyright: c2 }
+                                ]
+                            },
+                            {
+                                groupId: 'Selbstkorrektur',
+                                entries: [
+                                    { value: 'Ich möchte sagen... Ich fahre zu Paris... nein, nach Paris.', level: 'a1', copyright: c2 }
+                                ]
+                            },
+                            {
+                                groupId: 'ausdrücken, dass man ein Wort nicht kennt oder es vergessen hat',
+                                entries: [
+                                    { value: 'Wie sagt man auf Deutsch?', level: 'a1', copyright: c2 },
+                                    { value: 'Auf Englisch sagt man ...', level: 'a1', copyright: c2 }
+                                ]
+                            },
+                            {
+                                groupId: 'nachfragen, ob man (trotz fehlerhaftem Deutsch) verstanden wurde',
+                                entries: [
+                                    { value: 'Ich spreche nicht gut Deutsch. Haben Sie verstanden?', level: 'a1', copyright: c2 }
+                                ]
+                            },
+                        ]
+                    }
+                ]
+            }
+        ]
     }
-
-    /*
-        let thema = ['Strategien', 'A1', 'Redeorganisation', 'eine Äußerung einleiten'];
-        entries.push(new Builder().id('3b6b10c9-e3b6-465c-80aa-08b0d566218d').thema(thema).entry(['Entschuldigung ... ... Kann ich etwas fragen?', 'Entschuldigen Sie ... Kann ich etwas fragen?']).get());
-        entries.push(new Builder().id('48c94b01-9c32-4498-8e05-6ee1e4babfe8').thema(thema).entry('Was kann ich für Sie tun?').get());
-        entries.push(new Builder().id('e50d4f74-8a82-43ce-bf42-27bc6a564b79').thema(thema).entry('Brauchen Sie Hilfe?').get());
-        entries.push(new Builder().id('0b834cf4-182b-423c-93ad-8b3dbd9e5842').thema(thema).entry('(Im Restaurant.) Hallo! Entschuldigung bitte!').get());
-
-        thema = ['Strategien', 'A1', 'Redeorganisation', 'eine Äußerung abschließen'];
-        entries.push(new Builder().id('61588273-f0b4-42e0-a43a-e109c960e160').thema(thema).entry('Danke. Ich muss jetzt leider gehen.').get());
-        entries.push(new Builder().id('771f4e13-4038-43da-81cc-57db4fa4894d').thema(thema).entry('Okay, tschüss bis bald.').get());
-        entries.push(new Builder().id('a6da9952-b050-4ec6-879e-e10fccfd3530').thema(thema).entry('Gut: ...').get());
-        entries.push(new Builder().id('0c92d9c4-c565-4ffc-94b0-9594014aabb3').thema(thema).entry('Na gut.').translate('mouais').get());
-        entries.push(new Builder().id('38b6aacd-2abe-4bab-b33e-9f8afeaba0c9').thema(thema).entry('Dann, herzlichen Dank').translate('Merci beaucoup !').get());
-        entries.push(new Builder().id('e72298c6-69d5-4ad3-8cf5-ee04187471bf').thema(thema).entry('auf Wiedersehen.').get());
-
-        thema = ['Strategien', 'A1', 'Redeorganisation', 'um das Wort bitten'];
-        entries.push(new Builder().id('c6c76166-1fe3-4557-9c8c-522de23c931a').thema(thema).entry('Moment bitte.').get());
-        entries.push(new Builder().id('a9354621-f964-4247-96d2-4d06ddf8cc61').thema(thema).entry('Bitte!').get());
-
-        thema = ['Strategien', 'A1', 'Redeorganisation', 'Zuhören signalisieren'];
-        entries.push(new Builder().id('c4ed50b2-2bd8-429c-829a-e8b842f62d1d').thema(thema).entry('a?').get());
-        entries.push(new Builder().id('16787f4d-14d2-4296-ac3f-b26a9301ffa6').thema(thema).entry('So?').get());
-        entries.push(new Builder().id('e530000e-0915-451a-8ecd-5753303bf742').thema(thema).entry('Wirklich?').get());
-        entries.push(new Builder().id('d32a005a-3ffa-4518-a12e-a501e8fe1a65').thema(thema).entry('Ach.').translate(['Hélas !', 'Ah !']).get());
-        entries.push(new Builder().id('52e1b278-d620-4ce4-918a-66e794876267').thema(thema).entry('Sicher.').translate('assurément').get());
-        entries.push(new Builder().id('9db2a9bd-7c99-471c-9940-7813a8b61a2e').thema(thema).entry('Aha.').translate('Ah! (ironie, étonnement)').get());
-        entries.push(new Builder().id('22698b2a-c9a4-4359-a371-5a0f9115bd86').thema(thema).entry('Naja.').translate('bof').get());
-        entries.push(new Builder().id('5876a418-27cb-4b4f-a92b-b310faff5f00').thema(thema).entry('Bitte?').get());
-        entries.push(new Builder().id('c10b3be3-fac3-4818-bfba-932e33192ed2').thema(thema).entry('(Na) Klar.').translate(['Forcément !', 'Bien sûr !']).get());
-
-        thema = ['Strategien', 'A1', 'Redeorganisation', 'zum Sprechen auffordern'];
-        entries.push(new Builder().id('a325c45a-62f4-4594-b0ee-6431fbd250fb').thema(thema).entry('Also?').translate('Alors !').get());
-        entries.push(new Builder().id('ea4aab56-16df-493d-8623-4a62e15092ae').thema(thema).entry('Ja?').get());
-        entries.push(new Builder().id('ab3eaf9e-b1df-4074-86d1-e88fd3f95201').thema(thema).entry('Und?').get());
-        entries.push(new Builder().id('2d163510-42df-4a67-9818-2a7c1368cd14').thema(thema).entry('Ja bitte !').get());
-        entries.push(new Builder().id('0e8a88f1-7aa8-459b-ba4d-6b9bd8289cc6').thema(thema).entry('Und dann?').get());
-        entries.push(new Builder().id('d6e64ba4-c019-434d-a8b4-ec9902f610e4').thema(thema).entry('Und?').get());
-
-        thema = ['Strategien', 'A1', 'Redeorganisation', 'Beispiele geben/etwas verdeutlichen'];
-        entries.push(new Builder().id('2c1cd5de-0dc0-43ae-9930-9c5d6e651c70').thema(thema).entry('Ich esse gern Obst, zum Beispiel Orangen, Bananen und Erdbeeren.').get());
-
-        thema = ['Strategien', 'A1', 'Redeorganisation', 'Höflichkeit'];
-        entries.push(new Builder().id('e6591ce5-4920-4692-968c-029331013c55').thema(thema).entry(['Kann ich Sie etwas fragen?', 'Darf ich Sie etwas fragen?']).get());
-
-        thema = ['Strategien', 'A1', 'Redeorganisation', 'Abschwächung'];
-        entries.push(new Builder().id('747f5683-578d-4dc3-8516-cacddbe3d41c').thema(thema).entry(['Möchtest du noch etwas?', '– Ja, ein bisschen.']).get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Verständnishilfen anbieten', 'einzelne Wörter oder Begriffe umschreiben'];
-        entries.push(new Builder().id('09c2738c-720a-4c42-bcdb-ddebc5f238b3').thema(thema).entry('Apotheke: Da kann man Medikamente kaufen.').get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Verständnishilfen anbieten', 'Rückfragen zur Verständniskontrolle'];
-        entries.push(new Builder().id('2c2dde3f-b400-4b99-888e-e50f9bebfa96').thema(thema).entry('Haben Sie das verstanden?').get());
-        entries.push(new Builder().id('78c59d29-6098-4402-b14e-08a3bf9b8ab1').thema(thema).entry('Ist das klar?').get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Verständnishilfen anbieten', 'schwierige Wörter buchstabieren'];
-        entries.push(new Builder().id('9d7275e7-a346-4685-9951-74a8b53ebcf6').thema(thema).entry('Mein Name ist „Kuntz“, ich buchstabiere: K-U-N-T-Z.').get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'signalisieren, dass man etwas nicht verstanden hat'];
-        entries.push(new Builder().id('64f86ce2-7115-4a6f-b81f-ad573e55dfa8').thema(thema).entry('Entschuldigung, wie bitte?').get());
-        entries.push(new Builder().id('43d43da7-3e8c-45dd-86e5-2f48ea38795d').thema(thema).entry('Langsamer bitte.').get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'um Wiederholung bitten'];
-        entries.push(new Builder().id('b3fd2aa6-b68b-43f4-84fc-55c92fb74762').thema(thema).entry('Noch einmal bitte.').get());
-        entries.push(new Builder().id('27711963-6933-4238-8ddc-6f6617143132').thema(thema).entry('Kannst du das bitte noch einmal sagen?').get());
-        entries.push(new Builder().id('8f5d8280-3b6a-49e0-8b36-ed69194d7ade').thema(thema).entry('Wie bitte?').get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'um Erläuterung bitten'];
-        entries.push(new Builder().id('0ea6f7f9-8f13-4625-95f8-df20dddaed90').thema(thema).entry('Entschuldigung, was heißt das?').get());
-        entries.push(new Builder().id('8f22183a-35bf-4651-9be2-281c02ab7522').thema(thema).entry('Was bedeutet ... ?').get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'jemanden bitten, ein Wort zu buchstabieren'];
-        entries.push(new Builder().id('0302fd4f-2df5-449c-9c5d-ef2e9f08a30d').thema(thema).entry('Bitte buchstabieren Sie mir den Namen.').get());
-        entries.push(new Builder().id('8e8944ac-3077-42d0-b01e-bf2d1d0195c1').thema(thema).entry('Können Sie das Wort buchstabieren?').get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'jemanden bitten, etwas aufzuschreiben'];
-        entries.push(new Builder().id('4c12c4b4-a1dd-4efb-b55a-4b60581ae612').thema(thema).entry('Wie schreibt man ... ?').get());
-        entries.push(new Builder().id('71debee3-36b4-4a75-88bd-4d31b089aaa8').thema(thema).entry('Bitte schreiben Sie das auf.').get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'jemanden bitten, langsamer zu sprechen'];
-        entries.push(new Builder().id('26d07119-a7f0-4c75-9db1-9f4a7d3a3aff').thema(thema).entry('Bitte ein bisschen langsamer.').get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'um Wiederholung bitten'];
-        entries.push(new Builder().id('b4091431-c9f1-4dbd-80fd-2990de24a8b7').thema(thema).entry('Wie bitte?').get());
-        entries.push(new Builder().id('c6ba05ca-203d-4122-90a5-839d968239b6').thema(thema).entry('Entschuldigung, noch einmal bitte.').get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'anzeigen, dass man etwas nicht verstanden hat'];
-        entries.push(new Builder().id('40bc6506-c85d-449d-899b-be4d05695222').thema(thema).entry('Das habe ich nicht verstanden.').get());
-        entries.push(new Builder().id('0c2e7610-482a-40b5-a1d9-5aabc7f90782').thema(thema).entry('Das (Wort) verstehe ich nicht.').get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'Synonyme oder ähnliche Begriffe verwenden'];
-        entries.push(new Builder().id('3dc1e320-335f-4d4c-84f5-b20b16ac501a').thema(thema).entry(['Wo ist mein Buch ... nicht ein Buch ... ein Schreibbuch.', '– Ah, dein Heft?']).get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'Selbstkorrektur'];
-        entries.push(new Builder().id('902b8e48-2fbb-48cb-9ee9-2af13d61b1c7').thema(thema).entry('Ich möchte sagen ... Ich fahre zu Paris ... nein, nach Paris.').get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'ausdrücken, dass man ein Wort nicht kennt oder es vergessen hat'];
-        entries.push(new Builder().id('e9d5d342-9a9f-4384-a773-cc2b765a48e7').thema(thema).entry(['Wie sagt man auf Deutsch?', 'Auf Englisch sagt man ...']).get());
-
-        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'nachfragen, ob man (trotz fehlerhaftem Deutsch) verstanden wurde'];
-        entries.push(new Builder().id('a9ac2ac5-a1a6-4765-814b-71e82533b12a').thema(thema).entry('Ich spreche nicht gut Deutsch. Haben Sie verstanden?').get());
-*/
-
     /*
     ,
     {
@@ -1057,7 +1158,9 @@ const data = [
                 ]
             }
         ]
-    }*/
+    }
+
+    */
 ];
 
 
