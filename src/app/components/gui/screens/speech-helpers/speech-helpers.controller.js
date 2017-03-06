@@ -97,6 +97,14 @@ class SpeechHelpersController {
         return false;
     }
 
+    title(entry) {
+        if (!!entry.translate && Array.isArray(entry.translate)) {
+            return entry.translate.join();
+        } else {
+            return entry.translate;
+        }
+    }
+
     back() {
         this.$location.url('/stack');
     }

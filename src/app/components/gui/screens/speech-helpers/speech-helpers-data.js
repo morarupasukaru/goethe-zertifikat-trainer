@@ -558,6 +558,7 @@ const data = [
                 entries: [
                     {
                         groupId: '(nicht) sein',
+                        translate: "Zugehörigkeit ausdrücken: exprimer l'appartenance; ausdrücken: exprimer qc.",
                         entries: [
                             { value: 'Gibt es hier einen Kindergarten?', level: 'a1', copyright: c2 },
                             { value: '– Nein, es gibt nur eine Grundschule.', level: 'a1', copyright: c2 },
@@ -566,6 +567,7 @@ const data = [
                     },
                     {
                         groupId: 'anwesend/abwesend sein',
+                        translate: 'être présent/absent',
                         entries: [
                             { value: 'Ist Elke da?', level: 'a1', copyright: c2 },
                             { value: '– Ja./Nein, leider nicht.', level: 'a1', copyright: c2 }
@@ -573,6 +575,7 @@ const data = [
                     },
                     {
                         groupId: '(nicht) verfügbar sein',
+                        translate: '(ne pas) être disponible',
                         entries: [
                             { value: 'Hast du ein Auto?', level: 'a1', copyright: c2 },
                             { value: '– Nein, leider nicht.', level: 'a1', copyright: c2 },
@@ -581,6 +584,7 @@ const data = [
                     },
                     {
                         groupId: '(nicht) vorkommen',
+                        translate: '(ne pas) se passer',
                         entries: [
                             { value: 'Was ist passiert?', level: 'a1', copyright: c2 },
                             { value: 'Wann ist das passiert?', level: 'a1', copyright: c2 }
@@ -595,6 +599,7 @@ const data = [
                     },
                     {
                         groupId: 'Besitz/Zugehörigkeit',
+                        translate: ['Besitz: possession', 'Zugehörigkeit: appartenance'],
                         entries: [
                             { value: 'Wem gehört der Mercedes?', level: 'a1', copyright: c2 },
                             { value: '– Das ist mein/dein/sein/ihr Auto.', level: 'a1', copyright: c2 },
@@ -605,6 +610,7 @@ const data = [
             },
             {
                 groupId: 'Raum definieren',
+                translate: ['lieu', 'endroit', 'place'],
                 entries: [
                     {
                         groupId: 'Ort',
@@ -658,9 +664,11 @@ const data = [
             },
             {
                 groupId: 'Zeit angeben',
+                translate: "citer l'heure",
                 entries: [
                     {
                         groupId: 'Zeitpunkt',
+                        translate: ['temps', 'moment', 'instant'],
                         entries: [
                             { value: 'Wann kommst du?', level: 'a1', copyright: c2 },
                             { value: '– Um 3 (Uhr).', level: 'a1', copyright: c2 },
@@ -672,6 +680,7 @@ const data = [
                     },
                     {
                         groupId: 'Zeitangaben',
+                        translate: 'horaire',
                         entries: [
                             { value: 'Wann sind Sie geboren?', level: 'a1', copyright: c2 },
                             { value: '– Am 12. Mai 1988.', level: 'a1', copyright: c2 },
@@ -680,6 +689,7 @@ const data = [
                     },
                     {
                         groupId: 'Vorzeitigkeit',
+                        translate: 'antériorité',
                         entries: [
                             { value: 'Komm bitte vor 10 Uhr.', level: 'a1', copyright: c2 },
                             { value: 'Wir sind (zu) früh.', level: 'a1', copyright: c2 }
@@ -687,6 +697,7 @@ const data = [
                     },
                     {
                         groupId: 'Nachzeitigkeit',
+                        translate: 'postériorité',
                         entries: [
                             { value: 'Bitte nach 23 Uhr nicht mehr anrufen.', level: 'a1', copyright: c2 },
                             { value: 'Wir sind leider zu spät.', level: 'a1', copyright: c2 }
@@ -694,6 +705,7 @@ const data = [
                     },
                     {
                         groupId: 'Zukunftsbezug',
+                        translate: 'référence future',
                         entries: [
                             { value: 'Morgen muss ich arbeiten.', level: 'a1', copyright: c2 },
                             { value: 'Wir machen das bald/später .', level: 'a1', copyright: c2 },
@@ -703,6 +715,7 @@ const data = [
                     },
                     {
                         groupId: 'Gegenwartsbezug',
+                        translate: 'référence présent',
                         entries: [
                             { value: 'Wir essen jetzt.', level: 'a1', copyright: c2 },
                             { value: 'Ich bin schon da.', level: 'a1', copyright: c2 },
@@ -711,18 +724,21 @@ const data = [
                     },
                     {
                         groupId: 'Vergangenheitsbezug',
+                        translate: 'référence passé',
                         entries: [
                             { value: 'Gestern/vor zwei Tagen habe ich die Prüfung gemacht.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Verspätung/Frühzeitigkeit',
+                        translate: ['Verspätung: retard', 'Frühzeitigkeit: précocité'],
                         entries: [
                             { value: 'Es ist schon spät.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Dauer',
+                        translate: 'durée',
                         entries: [
                             { value: 'Wie lange bleibt ihr in Berlin?', level: 'a1', copyright: c2 },
                             { value: '– Drei Wochen.', level: 'a1', copyright: c2 },
@@ -732,6 +748,7 @@ const data = [
                     },
                     {
                         groupId: 'Beginn',
+                        translate: ['début', 'commencement'],
                         entries: [
                             { value: 'Wann beginnt der Film?', level: 'a1', copyright: c2 },
                             { value: '– Um 20 Uhr fängt er an.', level: 'a1', copyright: c2 }
@@ -746,6 +763,7 @@ const data = [
                     },
                     {
                         groupId: 'Häufigkeit',
+                        translate: 'fréquence',
                         entries: [
                             { value: 'Wie oft geht sie ins Kino?', level: 'a1', copyright: c2 },
                             { value: '– Zweimal im Monat.', level: 'a1', copyright: c2 },
@@ -760,6 +778,7 @@ const data = [
                 entries: [
                     {
                         groupId: 'Zahlen/Mengenangaben',
+                        translate: 'Mengenangaben: donnée de quantité',
                         entries: [
                             { value: 'Was/Wie viel kostet die Zeitung?', level: 'a1', copyright: c2 },
                             { value: '– Vier Euro.', level: 'a1', copyright: c2 },
@@ -777,6 +796,7 @@ const data = [
                     },
                     {
                         groupId: 'Grad',
+                        translate: ['degré', 'grade'],
                         entries: [
                             { value: 'Das ist sehr/zu gefährlich.', level: 'a1', copyright: c2 }
                         ]
@@ -829,6 +849,7 @@ const data = [
                     },
                     {
                         groupId: 'Wertung',
+                        translate: 'évaluation',
                         entries: [
                             { value: '(Wert/Preis?)', level: 'a1', copyright: c2 },
                             { value: '– (nicht) teuer/billig', level: 'a1', copyright: c2 },
@@ -853,6 +874,7 @@ const data = [
                     },
                     {
                         groupId: 'Vergleich',
+                        translate: 'comparaison',
                         entries: [
                             { value: 'Spielst du Fußball?', level: 'a1', copyright: c2 },
                             { value: '– Ja, wie meine Schwester.', level: 'a1', copyright: c2 },
@@ -864,9 +886,11 @@ const data = [
             },
             {
                 groupId: 'Logische Verknüpfung herstellen',
+                translate: 'établir un lien logique',
                 entries: [
                     {
                         groupId: 'Grund',
+                        translate: ['cause', 'raison'],
                         entries: [
                             { value: 'Warum kommt er nicht mit zur Party?', level: 'a1', copyright: c2 },
                             { value: '– Er kann nicht. Er arbeitet heute lange.', level: 'a1', copyright: c2 }
@@ -874,6 +898,7 @@ const data = [
                     },
                     {
                         groupId: 'Bedingung',
+                        translate: 'condition',
                         entries: [
                             { value: 'Kann ich das Auto haben?', level: 'a1', copyright: c2 },
                             { value: '– Ja, aber nur für eine Stunde.', level: 'a1', copyright: c2 }
@@ -881,6 +906,7 @@ const data = [
                     },
                     {
                         groupId: 'Aufzählung/Alternative',
+                        translate: 'Aufzählung: dénombrement, énumération',
                         entries: [
                             { value: 'Er isst und trinkt gern.', level: 'a1', copyright: c2 },
                             { value: 'Möchtest du Wasser oder Wein?', level: 'a1', copyright: c2 }
@@ -893,6 +919,7 @@ const data = [
                 entries: [
                     {
                         groupId: 'Fähigkeit',
+                        translate: ['aptitude', 'capacité'],
                         entries: [
                             { value: 'Können Sie Russisch (sprechen)?', level: 'a1', copyright: c2 },
                             { value: '– Ja klar.', level: 'a1', copyright: c2 },
@@ -901,12 +928,14 @@ const data = [
                     },
                     {
                         groupId: 'Möglichkeit',
+                        translate: ['occasion', 'possibilité'],
                         entries: [
                             { value: 'Können Sie morgen kommen?', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Notwendigkeit/Verpflichtung',
+                        translate: ['Notwendigkeit: besoin/nécessité', 'Verpflichtung: obligation/engagement'],
                         entries: [
                             { value: 'Mein Sohn muss um 8 Uhr zu Hause sein.', level: 'a1', copyright: c2 }
                         ]
