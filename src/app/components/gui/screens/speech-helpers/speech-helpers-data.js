@@ -967,12 +967,13 @@ const data = [
                             { value: 'Okay, tschüss bis bald.', level: 'a1', copyright: c2 },
                             { value: 'Gut: ...', level: 'a1', copyright: c2 },
                             { value: 'Na gut.', translate: 'mouais', level: 'a1', copyright: c2 },
-                            { value: 'Dann, herzlichen Dank', level: 'a1', copyright: c2 },
+                            { value: 'Dann, herzlichen Dank', translate: 'Merci beaucoup !', level: 'a1', copyright: c2 },
                             { value: 'auf Wiedersehen.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'um das Wort bitten',
+                        translate: 'prendre la parole',
                         entries: [
                             { value: 'Moment bitte.', level: 'a1', copyright: c2 },
                             { value: 'Bitte!', level: 'a1', copyright: c2 }
@@ -980,6 +981,7 @@ const data = [
                     },
                     {
                         groupId: 'Zuhören signalisieren',
+                        translate: 'signaler son écoute',
                         entries: [
                             { value: 'a?', level: 'a1', copyright: c2 },
                             { value: 'So?', level: 'a1', copyright: c2 },
@@ -994,6 +996,7 @@ const data = [
                     },
                     {
                         groupId: 'zum Sprechen auffordern',
+                        translate: 'engager le dialogue',
                         entries: [
                             { value: 'Also?', translate: 'Alors !', level: 'a1', copyright: c2 },
                             { value: 'Ja?', level: 'a1', copyright: c2 },
@@ -1005,12 +1008,14 @@ const data = [
                     },
                     {
                         groupId: 'Beispiele geben/etwas verdeutlichen',
+                        translate: ['Beispiele geben: donner des exemples', 'etwas verdeutlichen: expliquer qc.']
                         entries: [
                             { value: 'Ich esse gern Obst, zum Beispiel Orangen, Bananen und Erdbeeren.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Höflichkeit',
+                        translate: ['civilité', 'politesse', 'courtoisie'],
                         entries: [
                             { value: 'Kann ich Sie etwas fragen?', level: 'a1', copyright: c2 },
                             { value: 'Darf ich Sie etwas fragen?', level: 'a1', copyright: c2 }
@@ -1018,6 +1023,7 @@ const data = [
                     },
                     {
                         groupId: 'Abschwächung',
+                        translate: 'modération',
                         entries: [
                             { value: 'Möchtest du noch etwas?', level: 'a1', copyright: c2 },
                             { value: '– Ja, ein bisschen.', level: 'a1', copyright: c2 }
@@ -1033,12 +1039,14 @@ const data = [
                         entries: [
                             {
                                 groupId: 'einzelne Wörter oder Begriffe umschreiben',
+                                translate: 'Begriff: idée, notion, concept, terme,
                                 entries: [
                                     { value: 'Apotheke: Da kann man Medikamente kaufen.', level: 'a1', copyright: c2 }
                                 ]
                             },
                             {
                                 groupId: 'Rückfragen zur Verständniskontrolle',
+                                translate: 'rückfragen: demander des précisions',
                                 entries: [
                                     { value: 'Haben Sie das verstanden?', level: 'a1', copyright: c2 },
                                     { value: 'Ist das klar?', level: 'a1', copyright: c2 }
@@ -1072,6 +1080,7 @@ const data = [
                             },
                             {
                                 groupId: 'um Erläuterung bitten',
+                                translate: 'Erläuterung: explication',
                                 entries: [
                                     { value: 'Entschuldigung, was heißt das?', level: 'a1', copyright: c2 },
                                     { value: 'Was bedeutet ... ?', level: 'a1', copyright: c2 }
