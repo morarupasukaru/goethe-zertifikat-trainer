@@ -15,11 +15,11 @@ class SpeechHelpersController {
 
     scrollTo(id) {
         this.$anchorScroll(this.$location.hash(id));
-   }
+    }
 
-   toogleSelection(topGroup) {
+    toogleSelection(topGroup) {
         topGroup.selected = !topGroup.selected;
-   }
+    }
 
     initData() {
         this.levels = [];
@@ -30,6 +30,27 @@ class SpeechHelpersController {
         for (let i = 0; i < this.data.length; i++) {
             this.countLevelEntriesInGroup(this.levelsConstants, this.data[i]);
         }
+
+
+        for (let i = 0; i < this.data.length; i++) {
+            let topGroup = this.data[i];
+            let newEntries = [];
+            this.flatinizeSubGroups(topGroup.entries, newEntries);
+            topGroup.entries = newEntries;
+        }
+    }
+
+    flatinizeSubGroups(entries, newEntries) {
+        if (!!entries && entries.length > 0) {
+            for (let i = 0; i < entries.length; i++) {
+                let entry = entries[i];
+                if (!!entry.groupId) {
+                    newEntries.push(entry);
+                    this.flatinizeSubGroups(entry.entries, newEntries);
+                }
+            }
+        }
+        return newEntries;
     }
 
     countLevelEntriesInGroup(levels, group) {
