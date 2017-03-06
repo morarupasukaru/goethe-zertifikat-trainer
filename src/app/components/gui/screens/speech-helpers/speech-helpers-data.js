@@ -551,7 +551,7 @@ const data = [
         ]
     },
     {
-        groupId: 'Allgemeine Begriffe',
+        groupId: 'Allgemeine Begriffe (Notionen)',
         entries: [
             {
                 groupId: 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken',
@@ -563,148 +563,501 @@ const data = [
                             { value: '– Nein, es gibt nur eine Grundschule.', level: 'a1', copyright: c2 },
                             { value: 'Hier gibt es aber viele Kinos.', level: 'a1', copyright: c2 }
                         ]
+                    },
+                    {
+                        groupId: 'anwesend/abwesend sein',
+                        entries: [
+                            { value: 'Ist Elke da?', level: 'a1', copyright: c2 },
+                            { value: '– Ja./Nein, leider nicht.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: '(nicht) verfügbar sein',
+                        entries: [
+                            { value: 'Hast du ein Auto?', level: 'a1', copyright: c2 },
+                            { value: '– Nein, leider nicht.', level: 'a1', copyright: c2 },
+                            { value: '– Nein, ich habe kein Auto.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: '(nicht) vorkommen',
+                        entries: [
+                            { value: 'Was ist passiert?', level: 'a1', copyright: c2 },
+                            { value: 'Wann ist das passiert?', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Inklusion/Exklusion',
+                        entries: [
+                            { value: 'Ich komme mit meiner Freundin.', level: 'a1', copyright: c2 },
+                            { value: 'Er kommt ohne Auto.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Besitz/Zugehörigkeit',
+                        entries: [
+                            { value: 'Wem gehört der Mercedes?', level: 'a1', copyright: c2 },
+                            { value: '– Das ist mein/dein/sein/ihr Auto.', level: 'a1', copyright: c2 },
+                            { value: 'Simon arbeitet jetzt bei Siemens.', level: 'a1', copyright: c2 }
+                        ]
+                    }
+                ]
+            },
+            {
+                groupId: 'Raum definieren',
+                entries: [
+                    {
+                        groupId: 'Ort',
+                        entries: [
+                            { value: 'Wo wohnst du?', level: 'a1', copyright: c2 },
+                            { value: '– In Köln.', level: 'a1', copyright: c2 },
+                            { value: '– Ich wohne jetzt bei Petra.', level: 'a1', copyright: c2 },
+                            { value: 'Wo ist denn meine Brille?', level: 'a1', copyright: c2 },
+                            { value: '– Hier.', level: 'a1', copyright: c2 },
+                            { value: '– Dort.', level: 'a1', copyright: c2 },
+                            { value: '– Da ist sie ja.', level: 'a1', copyright: c2 },
+                            { value: 'Wo sind die Kinder?', level: 'a1', copyright: c2 },
+                            { value: '– Zu Hause.', level: 'a1', copyright: c2 },
+                            { value: '– In der Schule.', level: 'a1', copyright: c2 },
+                            { value: 'Wo liegt ...?', level: 'a1', copyright: c2 },
+                            { value: '– Kiel liegt an der Ostsee.', level: 'a1', copyright: c2 },
+                            { value: '– Die Schlüssel liegen auf dem Tisch.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Herkunft',
+                        entries: [
+                            { value: 'Woher kommst du?', level: 'a1', copyright: c2 },
+                            { value: '– Aus der Ukraine.', level: 'a1', copyright: c2 },
+                            { value: '– Aus Prag.', level: 'a1', copyright: c2 },
+                            { value: '– Vom Arzt.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Richtung',
+                        entries: [
+                            { value: 'Wohin gehst du?', level: 'a1', copyright: c2 },
+                            { value: 'Wohin fährst du?', level: 'a1', copyright: c2 },
+                            { value: '– Nach Hause.', level: 'a1', copyright: c2 },
+                            { value: '– Zur Arbeit.', level: 'a1', copyright: c2 },
+                            { value: '– In die Schule.', level: 'a1', copyright: c2 },
+                            { value: '– Zu Susi.', level: 'a1', copyright: c2 },
+                            { value: '– Auf die Bank.', level: 'a1', copyright: c2 },
+                            { value: '– Ans Meer.', level: 'a1', copyright: c2 },
+                            { value: '– Nach Österreich.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Distanz',
+                        entries: [
+                            { value: 'Wie weit ist es bis Bonn?', level: 'a1', copyright: c2 },
+                            { value: '– Nur zehn Kilometer.', level: 'a1', copyright: c2 }
+                        ]
+                    }
+                ]
+            },
+            {
+                groupId: 'Zeit angeben',
+                entries: [
+                    {
+                        groupId: 'Zeitpunkt',
+                        entries: [
+                            { value: 'Wann kommst du?', level: 'a1', copyright: c2 },
+                            { value: '– Um 3 (Uhr).', level: 'a1', copyright: c2 },
+                            { value: '– Am 20. September.', level: 'a1', copyright: c2 },
+                            { value: '– Im Juli.', level: 'a1', copyright: c2 },
+                            { value: 'Wie spät ist es bitte?', level: 'a1', copyright: c2 },
+                            { value: '– Es ist jetzt 7 Uhr.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Zeitangaben',
+                        entries: [
+                            { value: 'Wann sind Sie geboren?', level: 'a1', copyright: c2 },
+                            { value: '– Am 12. Mai 1988.', level: 'a1', copyright: c2 },
+                            { value: 'Wir fahren im Mai in Urlaub.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Vorzeitigkeit',
+                        entries: [
+                            { value: 'Komm bitte vor 10 Uhr.', level: 'a1', copyright: c2 },
+                            { value: 'Wir sind (zu) früh.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Nachzeitigkeit',
+                        entries: [
+                            { value: 'Bitte nach 23 Uhr nicht mehr anrufen.', level: 'a1', copyright: c2 },
+                            { value: 'Wir sind leider zu spät.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Zukunftsbezug',
+                        entries: [
+                            { value: 'Morgen muss ich arbeiten.', level: 'a1', copyright: c2 },
+                            { value: 'Wir machen das bald/später .', level: 'a1', copyright: c2 },
+                            { value: 'Heute Abend rufe ich dich an.', level: 'a1', copyright: c2 },
+                            { value: 'Am Montag gehen wir ins Kino.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Gegenwartsbezug',
+                        entries: [
+                            { value: 'Wir essen jetzt.', level: 'a1', copyright: c2 },
+                            { value: 'Ich bin schon da.', level: 'a1', copyright: c2 },
+                            { value: 'Er ist heute in Mainz.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Vergangenheitsbezug',
+                        entries: [
+                            { value: 'Gestern/vor zwei Tagen habe ich die Prüfung gemacht.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Verspätung/Frühzeitigkeit',
+                        entries: [
+                            { value: 'Es ist schon spät.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Dauer',
+                        entries: [
+                            { value: 'Wie lange bleibt ihr in Berlin?', level: 'a1', copyright: c2 },
+                            { value: '– Drei Wochen.', level: 'a1', copyright: c2 },
+                            { value: '– (Nicht) Lange.', level: 'a1', copyright: c2 },
+                            { value: '– Bis Montag.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Beginn',
+                        entries: [
+                            { value: 'Wann beginnt der Film?', level: 'a1', copyright: c2 },
+                            { value: '– Um 20 Uhr fängt er an.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Ende',
+                        entries: [
+                            { value: 'Bis wann arbeitest du?', level: 'a1', copyright: c2 },
+                            { value: '– Heute bis 18 Uhr.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Häufigkeit',
+                        entries: [
+                            { value: 'Wie oft geht sie ins Kino?', level: 'a1', copyright: c2 },
+                            { value: '– Zweimal im Monat.', level: 'a1', copyright: c2 },
+                            { value: '– Nie!', level: 'a1', copyright: c2 },
+                            { value: '– Oft.', level: 'a1', copyright: c2 }
+                        ]
+                    }
+                ]
+            },
+            {
+                groupId: 'Quantität angeben',
+                entries: [
+                    {
+                        groupId: 'Zahlen/Mengenangaben',
+                        entries: [
+                            { value: 'Was/Wie viel kostet die Zeitung?', level: 'a1', copyright: c2 },
+                            { value: '– Vier Euro.', level: 'a1', copyright: c2 },
+                            { value: 'Was darf‘s denn sein?', level: 'a1', copyright: c2 },
+                            { value: '– Ein Pfund Tomaten, bitte.', level: 'a1', copyright: c2 },
+                            { value: '– Ein Glas Milch, bitte.', level: 'a1', copyright: c2 },
+                            { value: '– Eine Flasche Wein, bitte.', level: 'a1', copyright: c2 },
+                            { value: '– Eine Tasse Tee, bitte.', level: 'a1', copyright: c2 },
+                            { value: '– 1,5 Liter, bitte.', level: 'a1', copyright: c2 },
+                            { value: 'Wie viel möchten Sie?', level: 'a1', copyright: c2 },
+                            { value: '– (Nicht) Alles.', level: 'a1', copyright: c2 },
+                            { value: '– Viel.', level: 'a1', copyright: c2 },
+                            { value: '– Ein bisschen, bitte.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Grad',
+                        entries: [
+                            { value: 'Das ist sehr/zu gefährlich.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Dimension/Maßangabe',
+                        entries: [
+                            { value: 'Wie lang/groß ...?', level: 'a1', copyright: c2 },
+                            { value: '– 1,5 Meter.', level: 'a1', copyright: c2 },
+                            { value: 'Wie schwer ...?', level: 'a1', copyright: c2 },
+                            { value: '– 500 Gramm.', level: 'a1', copyright: c2 },
+                            { value: '– 2 Kilo(gramm).', level: 'a1', copyright: c2 },
+                            { value: 'Wie warm ...?', level: 'a1', copyright: c2 },
+                            { value: '– 20 Grad.', level: 'a1', copyright: c2 },
+                            { value: '– Sehr warm.', level: 'a1', copyright: c2 },
+                            { value: '– Nicht kalt.', level: 'a1', copyright: c2 },
+                            { value: 'Wie viel ...?', level: 'a1', copyright: c2 },
+                            { value: '– Einen Liter.', level: 'a1', copyright: c2 },
+                            { value: 'Wie schnell ...?', level: 'a1', copyright: c2 },
+                            { value: '– Nur maximal 60 km/h.', level: 'a1', copyright: c2 }
+                        ]
+                    }
+                ]
+            },
+            {
+                groupId: 'Art und Weise angeben',
+                entries: [
+                    {
+                        groupId: 'physisch',
+                        entries: [
+                            { value: 'Wie schmeckt das Essen?', level: 'a1', copyright: c2 },
+                            { value: 'Wie riecht das Essen?', level: 'a1', copyright: c2 },
+                            { value: '– Wirklich gut.', level: 'a1', copyright: c2 },
+                            { value: '– Wirklich nicht gut.', level: 'a1', copyright: c2 },
+                            { value: 'Welche Farbe hat das Auto?', level: 'a1', copyright: c2 },
+                            { value: '– Es ist rot.', level: 'a1', copyright: c2 },
+                            { value: '– Es ist blau.', level: 'a1', copyright: c2 },
+                            { value: '– Es ist grün.', level: 'a1', copyright: c2 },
+                            { value: '– Es ist gelb.', level: 'a1', copyright: c2 },
+                            { value: '– Es ist schwarz.', level: 'a1', copyright: c2 },
+                            { value: '– Es ist weiß.', level: 'a1', copyright: c2 },
+                            { value: '– Es ist braun.', level: 'a1', copyright: c2 },
+                            { value: 'Die Tür ist offen.', level: 'a1', copyright: c2 },
+                            { value: 'Die Tür ist geschlossen.', level: 'a1', copyright: c2 },
+                            { value: 'Wie alt ist Dieter?', level: 'a1', copyright: c2 },
+                            { value: '– Nicht sehr alt.', level: 'a1', copyright: c2 },
+                            { value: '– Schon 60.', level: 'a1', copyright: c2 },
+                            { value: '– Erst 50.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Wertung',
+                        entries: [
+                            { value: '(Wert/Preis?)', level: 'a1', copyright: c2 },
+                            { value: '– (nicht) teuer/billig', level: 'a1', copyright: c2 },
+                            { value: '(Qualität?)', level: 'a1', copyright: c2 },
+                            { value: '– (nicht) (sehr) gut', level: 'a1', copyright: c2 },
+                            { value: '(akzeptabel?)', level: 'a1', copyright: c2 },
+                            { value: '(adäquat?)', level: 'a1', copyright: c2 },
+                            { value: '– (nicht) in Ordnung', level: 'a1', copyright: c2 },
+                            { value: '– (nicht) in Ordnung, genug', level: 'a1', copyright: c2 },
+                            { value: '(richtig?)', level: 'a1', copyright: c2 },
+                            { value: '– (nicht) richtig', level: 'a1', copyright: c2 },
+                            { value: '(Fähigkeit?)', level: 'a1', copyright: c2 },
+                            { value: '– (nicht) können', level: 'a1', copyright: c2 },
+                            { value: '(Wichtigkeit?)', level: 'a1', copyright: c2 },
+                            { value: '– (nicht) wichtig', level: 'a1', copyright: c2 },
+                            { value: 'wie wichtig?', level: 'a1', copyright: c2 },
+                            { value: '(Normalität?)', level: 'a1', copyright: c2 },
+                            { value: '– (nicht) normal', level: 'a1', copyright: c2 },
+                            { value: '(Schwierigkeit?)', level: 'a1', copyright: c2 },
+                            { value: '– (nicht) leicht', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Vergleich',
+                        entries: [
+                            { value: 'Spielst du Fußball?', level: 'a1', copyright: c2 },
+                            { value: '– Ja, wie meine Schwester.', level: 'a1', copyright: c2 },
+                            { value: 'Sie ist so alt wie ich.', level: 'a1', copyright: c2 },
+                            { value: 'Wir sind gleich alt.', level: 'a1', copyright: c2 }
+                        ]
+                    }
+                ]
+            },
+            {
+                groupId: 'Logische Verknüpfung herstellen',
+                entries: [
+                    {
+                        groupId: 'Grund',
+                        entries: [
+                            { value: 'Warum kommt er nicht mit zur Party?', level: 'a1', copyright: c2 },
+                            { value: '– Er kann nicht. Er arbeitet heute lange.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Bedingung',
+                        entries: [
+                            { value: 'Kann ich das Auto haben?', level: 'a1', copyright: c2 },
+                            { value: '– Ja, aber nur für eine Stunde.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Aufzählung/Alternative',
+                        entries: [
+                            { value: 'Er isst und trinkt gern.', level: 'a1', copyright: c2 },
+                            { value: 'Möchtest du Wasser oder Wein?', level: 'a1', copyright: c2 }
+                        ]
+                    }
+                ]
+            },
+            {
+                groupId: 'Modales ausdrücken',
+                entries: [
+                    {
+                        groupId: 'Fähigkeit',
+                        entries: [
+                            { value: 'Können Sie Russisch (sprechen)?', level: 'a1', copyright: c2 },
+                            { value: '– Ja klar.', level: 'a1', copyright: c2 },
+                            { value: '– Sicher.', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Möglichkeit',
+                        entries: [
+                            { value: 'Können Sie morgen kommen?', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: 'Notwendigkeit/Verpflichtung',
+                        entries: [
+                            { value: 'Mein Sohn muss um 8 Uhr zu Hause sein.', level: 'a1', copyright: c2 }
+                        ]
                     }
                 ]
             }
         ]
     }
+
     /*
-            let thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken', '(nicht) sein'];
-            entries.push(new Builder().id('d61ab341-bd1e-43e9-a236-1f4e7f02b278').thema(thema).entry(['Gibt es hier einen Kindergarten?', '– Nein, es gibt nur eine Grundschule.']).get());
-            entries.push(new Builder().id('38b0eee2-4d43-4140-82ba-ba364c5b4968').thema(thema).entry('Hier gibt es aber viele Kinos.').get());
+        let thema = ['Strategien', 'A1', 'Redeorganisation', 'eine Äußerung einleiten'];
+        entries.push(new Builder().id('3b6b10c9-e3b6-465c-80aa-08b0d566218d').thema(thema).entry(['Entschuldigung ... ... Kann ich etwas fragen?', 'Entschuldigen Sie ... Kann ich etwas fragen?']).get());
+        entries.push(new Builder().id('48c94b01-9c32-4498-8e05-6ee1e4babfe8').thema(thema).entry('Was kann ich für Sie tun?').get());
+        entries.push(new Builder().id('e50d4f74-8a82-43ce-bf42-27bc6a564b79').thema(thema).entry('Brauchen Sie Hilfe?').get());
+        entries.push(new Builder().id('0b834cf4-182b-423c-93ad-8b3dbd9e5842').thema(thema).entry('(Im Restaurant.) Hallo! Entschuldigung bitte!').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken', 'anwesend/abwesend sein'];
-            entries.push(new Builder().id('f534fe27-b0bd-4ded-abd9-de139673ade2').thema(thema).entry(['Ist Elke da?', '– Ja./Nein, leider nicht.']).get());
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'eine Äußerung abschließen'];
+        entries.push(new Builder().id('61588273-f0b4-42e0-a43a-e109c960e160').thema(thema).entry('Danke. Ich muss jetzt leider gehen.').get());
+        entries.push(new Builder().id('771f4e13-4038-43da-81cc-57db4fa4894d').thema(thema).entry('Okay, tschüss bis bald.').get());
+        entries.push(new Builder().id('a6da9952-b050-4ec6-879e-e10fccfd3530').thema(thema).entry('Gut: ...').get());
+        entries.push(new Builder().id('0c92d9c4-c565-4ffc-94b0-9594014aabb3').thema(thema).entry('Na gut.').translate('mouais').get());
+        entries.push(new Builder().id('38b6aacd-2abe-4bab-b33e-9f8afeaba0c9').thema(thema).entry('Dann, herzlichen Dank').translate('Merci beaucoup !').get());
+        entries.push(new Builder().id('e72298c6-69d5-4ad3-8cf5-ee04187471bf').thema(thema).entry('auf Wiedersehen.').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken', '(nicht) verfügbar sein'];
-            entries.push(new Builder().id('98cf6007-169c-4959-888f-5d9cafd40a46').thema(thema).entry(['Hast du ein Auto?', '– Nein, leider nicht.', '– Nein, ich habe kein Auto.']).get());
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'um das Wort bitten'];
+        entries.push(new Builder().id('c6c76166-1fe3-4557-9c8c-522de23c931a').thema(thema).entry('Moment bitte.').get());
+        entries.push(new Builder().id('a9354621-f964-4247-96d2-4d06ddf8cc61').thema(thema).entry('Bitte!').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken', '(nicht) vorkommen'];
-            entries.push(new Builder().id('c4c0413a-6927-4a08-9a76-348d7b27e6e4').thema(thema).entry('Was ist passiert?').get());
-            entries.push(new Builder().id('a9f010f7-ab7e-479d-b2d4-bdaf8dcbd5ba').thema(thema).entry('Wann ist das passiert?').get());
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'Zuhören signalisieren'];
+        entries.push(new Builder().id('c4ed50b2-2bd8-429c-829a-e8b842f62d1d').thema(thema).entry('a?').get());
+        entries.push(new Builder().id('16787f4d-14d2-4296-ac3f-b26a9301ffa6').thema(thema).entry('So?').get());
+        entries.push(new Builder().id('e530000e-0915-451a-8ecd-5753303bf742').thema(thema).entry('Wirklich?').get());
+        entries.push(new Builder().id('d32a005a-3ffa-4518-a12e-a501e8fe1a65').thema(thema).entry('Ach.').translate(['Hélas !', 'Ah !']).get());
+        entries.push(new Builder().id('52e1b278-d620-4ce4-918a-66e794876267').thema(thema).entry('Sicher.').translate('assurément').get());
+        entries.push(new Builder().id('9db2a9bd-7c99-471c-9940-7813a8b61a2e').thema(thema).entry('Aha.').translate('Ah! (ironie, étonnement)').get());
+        entries.push(new Builder().id('22698b2a-c9a4-4359-a371-5a0f9115bd86').thema(thema).entry('Naja.').translate('bof').get());
+        entries.push(new Builder().id('5876a418-27cb-4b4f-a92b-b310faff5f00').thema(thema).entry('Bitte?').get());
+        entries.push(new Builder().id('c10b3be3-fac3-4818-bfba-932e33192ed2').thema(thema).entry('(Na) Klar.').translate(['Forcément !', 'Bien sûr !']).get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken', 'Inklusion/Exklusion'];
-            entries.push(new Builder().id('07efa5e1-3206-493d-a5b9-e9e1171140a2').thema(thema).entry('Ich komme mit meiner Freundin.').get());
-            entries.push(new Builder().id('6fbe2d67-5bd7-46b1-9518-41211336d9fd').thema(thema).entry('Er kommt ohne Auto.').get());
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'zum Sprechen auffordern'];
+        entries.push(new Builder().id('a325c45a-62f4-4594-b0ee-6431fbd250fb').thema(thema).entry('Also?').translate('Alors !').get());
+        entries.push(new Builder().id('ea4aab56-16df-493d-8623-4a62e15092ae').thema(thema).entry('Ja?').get());
+        entries.push(new Builder().id('ab3eaf9e-b1df-4074-86d1-e88fd3f95201').thema(thema).entry('Und?').get());
+        entries.push(new Builder().id('2d163510-42df-4a67-9818-2a7c1368cd14').thema(thema).entry('Ja bitte !').get());
+        entries.push(new Builder().id('0e8a88f1-7aa8-459b-ba4d-6b9bd8289cc6').thema(thema).entry('Und dann?').get());
+        entries.push(new Builder().id('d6e64ba4-c019-434d-a8b4-ec9902f610e4').thema(thema).entry('Und?').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Existenz von Personen und Dingen, Besitz/Zugehörigkeit ausdrücken', 'Besitz/Zugehörigkeit'];
-            entries.push(new Builder().id('10aa9ef7-37cd-4c0d-80be-8d02e7c9cb6a').thema(thema).entry(['Wem gehört der Mercedes?', '– Das ist mein/dein/sein/ihr Auto.']).get());
-            entries.push(new Builder().id('8d200679-9584-4c05-94e2-c2cc9d5f450a').thema(thema).entry('Simon arbeitet jetzt bei Siemens.').get());
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'Beispiele geben/etwas verdeutlichen'];
+        entries.push(new Builder().id('2c1cd5de-0dc0-43ae-9930-9c5d6e651c70').thema(thema).entry('Ich esse gern Obst, zum Beispiel Orangen, Bananen und Erdbeeren.').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Raum definieren', 'Ort'];
-            entries.push(new Builder().id('d73e9bca-16b6-449f-9200-6db680faa87e').thema(thema).entry(['Wo wohnst du?', '– In Köln.', '– Ich wohne jetzt bei Petra.']).get());
-            entries.push(new Builder().id('2be6c907-9e93-4bc1-bd64-f571e459150e').thema(thema).entry(['Wo ist denn meine Brille?', '– Hier.', '– Dort.', '– Da ist sie ja.']).get());
-            entries.push(new Builder().id('e16b7a41-fe7b-499f-a0ca-1b86fdf4dfc5').thema(thema).entry(['Wo sind die Kinder?', '– Zu Hause.', '– In der Schule.']).get());
-            entries.push(new Builder().id('632c42f9-10ae-4dc0-877d-8468b00d47fd').thema(thema).entry(['Wo liegt ...?', '– Kiel liegt an der Ostsee.', '– Die Schlüssel liegen auf dem Tisch.']).get());
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'Höflichkeit'];
+        entries.push(new Builder().id('e6591ce5-4920-4692-968c-029331013c55').thema(thema).entry(['Kann ich Sie etwas fragen?', 'Darf ich Sie etwas fragen?']).get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Raum definieren', 'Herkunft'];
-            entries.push(new Builder().id('b217eae2-48af-4255-9a73-a38073f04eae').thema(thema).entry(['Woher kommst du?', '– Aus der Ukraine.', '– Aus Prag.', '– Vom Arzt.']).get());
+        thema = ['Strategien', 'A1', 'Redeorganisation', 'Abschwächung'];
+        entries.push(new Builder().id('747f5683-578d-4dc3-8516-cacddbe3d41c').thema(thema).entry(['Möchtest du noch etwas?', '– Ja, ein bisschen.']).get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Raum definieren', 'Richtung'];
-            entries.push(new Builder().id('5ef39bb5-0c83-4258-b8c1-796b277b9032').thema(thema).entry(['Wohin gehst du?', 'Wohin fährst du?', '– Nach Hause.', '– Zur Arbeit.', '– In die Schule.', '– Zu Susi.', '– Auf die Bank.', '– Ans Meer.', '– Nach Österreich.']).get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Verständnishilfen anbieten', 'einzelne Wörter oder Begriffe umschreiben'];
+        entries.push(new Builder().id('09c2738c-720a-4c42-bcdb-ddebc5f238b3').thema(thema).entry('Apotheke: Da kann man Medikamente kaufen.').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Raum definieren', 'Distanz'];
-            entries.push(new Builder().id('f415487e-eefc-4e5f-af47-b324d1f4ca5e').thema(thema).entry(['Wie weit ist es bis Bonn?', '– Nur zehn Kilometer.']).get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Verständnishilfen anbieten', 'Rückfragen zur Verständniskontrolle'];
+        entries.push(new Builder().id('2c2dde3f-b400-4b99-888e-e50f9bebfa96').thema(thema).entry('Haben Sie das verstanden?').get());
+        entries.push(new Builder().id('78c59d29-6098-4402-b14e-08a3bf9b8ab1').thema(thema).entry('Ist das klar?').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Zeit angeben', 'Zeitpunkt'];
-            entries.push(new Builder().id('d0149e0e-fd9d-407a-963e-02984e3f20d8').thema(thema).entry(['Wann kommst du?', '– Um 3 (Uhr).', '– Am 20. September.', '– Im Juli.']).get());
-            entries.push(new Builder().id('c51c2744-299d-4041-9840-80b3acc2b3c2').thema(thema).entry(['Wie spät ist es bitte?', '– Es ist jetzt 7 Uhr .']).get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Verständnishilfen anbieten', 'schwierige Wörter buchstabieren'];
+        entries.push(new Builder().id('9d7275e7-a346-4685-9951-74a8b53ebcf6').thema(thema).entry('Mein Name ist „Kuntz“, ich buchstabiere: K-U-N-T-Z.').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Zeit angeben', 'Zeitangaben'];
-            entries.push(new Builder().id('0591f36d-55e1-434e-9f96-8ad20ad3bb97').thema(thema).entry(['Wann sind Sie geboren?', '– Am 12. Mai 1988.']).get());
-            entries.push(new Builder().id('5f992da2-af53-4c41-a302-462942f62943').thema(thema).entry('Wir fahren im Mai in Urlaub.').get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'signalisieren, dass man etwas nicht verstanden hat'];
+        entries.push(new Builder().id('64f86ce2-7115-4a6f-b81f-ad573e55dfa8').thema(thema).entry('Entschuldigung, wie bitte?').get());
+        entries.push(new Builder().id('43d43da7-3e8c-45dd-86e5-2f48ea38795d').thema(thema).entry('Langsamer bitte.').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Zeit angeben', 'Vorzeitigkeit'];
-            entries.push(new Builder().id('4cff3a4d-0a32-4a51-811d-f6ee419cf10a').thema(thema).entry('Komm bitte vor 10 Uhr.').get());
-            entries.push(new Builder().id('b5d754c1-5745-4643-bdd0-3b47f388b6b9').thema(thema).entry('Wir sind (zu) früh .').get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'um Wiederholung bitten'];
+        entries.push(new Builder().id('b3fd2aa6-b68b-43f4-84fc-55c92fb74762').thema(thema).entry('Noch einmal bitte.').get());
+        entries.push(new Builder().id('27711963-6933-4238-8ddc-6f6617143132').thema(thema).entry('Kannst du das bitte noch einmal sagen?').get());
+        entries.push(new Builder().id('8f5d8280-3b6a-49e0-8b36-ed69194d7ade').thema(thema).entry('Wie bitte?').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Zeit angeben', 'Nachzeitigkeit'];
-            entries.push(new Builder().id('9ea3f416-f092-4c86-b415-c2de3bf5cd58').thema(thema).entry('Bitte nach 23 Uhr nicht mehr anrufen.').get());
-            entries.push(new Builder().id('52122611-1e51-4a8a-98b9-7a7a9a2aa7d3').thema(thema).entry('Wir sind leider zu spät .').get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'um Erläuterung bitten'];
+        entries.push(new Builder().id('0ea6f7f9-8f13-4625-95f8-df20dddaed90').thema(thema).entry('Entschuldigung, was heißt das?').get());
+        entries.push(new Builder().id('8f22183a-35bf-4651-9be2-281c02ab7522').thema(thema).entry('Was bedeutet ... ?').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Zeit angeben', 'Zukunftsbezug'];
-            entries.push(new Builder().id('209b9c06-388b-4462-a6ad-49a3ba82d4e2').thema(thema).entry('Morgen muss ich arbeiten.').get());
-            entries.push(new Builder().id('57bd0bae-e4aa-4966-8285-cf56a750c62b').thema(thema).entry('Wir machen das bald/später .').get());
-            entries.push(new Builder().id('a5f33626-3cf0-4359-899b-a51d0af16c36').thema(thema).entry('Heute Abend rufe ich dich an.').get());
-            entries.push(new Builder().id('064c6fa6-5128-411e-810b-c6dfa0ff4ec1').thema(thema).entry('Am Montag gehen wir ins Kino.').get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'jemanden bitten, ein Wort zu buchstabieren'];
+        entries.push(new Builder().id('0302fd4f-2df5-449c-9c5d-ef2e9f08a30d').thema(thema).entry('Bitte buchstabieren Sie mir den Namen.').get());
+        entries.push(new Builder().id('8e8944ac-3077-42d0-b01e-bf2d1d0195c1').thema(thema).entry('Können Sie das Wort buchstabieren?').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Zeit angeben', 'Gegenwartsbezug'];
-            entries.push(new Builder().id('d7a874ee-db25-4398-bb00-28fd0d42e862').thema(thema).entry('Wir essen jetzt .').get());
-            entries.push(new Builder().id('548d4368-137e-4359-8505-8fb7c06309df').thema(thema).entry('Ich bin schon da.').get());
-            entries.push(new Builder().id('694e99d5-4b65-41d7-9330-e2cb1c5d03cb').thema(thema).entry('Er ist heute in Mainz.').get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'jemanden bitten, etwas aufzuschreiben'];
+        entries.push(new Builder().id('4c12c4b4-a1dd-4efb-b55a-4b60581ae612').thema(thema).entry('Wie schreibt man ... ?').get());
+        entries.push(new Builder().id('71debee3-36b4-4a75-88bd-4d31b089aaa8').thema(thema).entry('Bitte schreiben Sie das auf.').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Zeit angeben', 'Vergangenheitsbezug'];
-            entries.push(new Builder().id('52e865ef-83b4-4fa8-9d84-ccc9f52ab966').thema(thema).entry('Gestern/vor zwei Tagen habe ich die Prüfung gemacht.').get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'jemanden bitten, langsamer zu sprechen'];
+        entries.push(new Builder().id('26d07119-a7f0-4c75-9db1-9f4a7d3a3aff').thema(thema).entry('Bitte ein bisschen langsamer.').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Zeit angeben', 'Verspätung/Frühzeitigkeit'];
-            entries.push(new Builder().id('ae5533b4-2a30-4a8a-88cd-1faa94ed4751').thema(thema).entry('Es ist schon spät .').get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'um Wiederholung bitten'];
+        entries.push(new Builder().id('b4091431-c9f1-4dbd-80fd-2990de24a8b7').thema(thema).entry('Wie bitte?').get());
+        entries.push(new Builder().id('c6ba05ca-203d-4122-90a5-839d968239b6').thema(thema).entry('Entschuldigung, noch einmal bitte.').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Zeit angeben', 'Dauer'];
-            entries.push(new Builder().id('84424875-add6-4661-9f3e-9d22581b49a4').thema(thema).entry(['Wie lange bleibt ihr in Berlin?', '– Drei Wochen.', '– (Nicht) Lange.', '– Bis Montag.']).get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'um Verständnishilfen bitten', 'anzeigen, dass man etwas nicht verstanden hat'];
+        entries.push(new Builder().id('40bc6506-c85d-449d-899b-be4d05695222').thema(thema).entry('Das habe ich nicht verstanden.').get());
+        entries.push(new Builder().id('0c2e7610-482a-40b5-a1d9-5aabc7f90782').thema(thema).entry('Das (Wort) verstehe ich nicht.').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Zeit angeben', 'Beginn'];
-            entries.push(new Builder().id('f9de84c5-bbc7-43aa-93e3-cd9133cee725').thema(thema).entry(['Wann beginnt der Film?', '– Um 20 Uhr fängt er an .']).get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'Synonyme oder ähnliche Begriffe verwenden'];
+        entries.push(new Builder().id('3dc1e320-335f-4d4c-84f5-b20b16ac501a').thema(thema).entry(['Wo ist mein Buch ... nicht ein Buch ... ein Schreibbuch.', '– Ah, dein Heft?']).get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Zeit angeben', 'Ende'];
-            entries.push(new Builder().id('f265545e-3683-46cf-bcdc-07460e123eda').thema(thema).entry(['Bis wann arbeitest du?', '– Heute bis 18 Uhr.']).get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'Selbstkorrektur'];
+        entries.push(new Builder().id('902b8e48-2fbb-48cb-9ee9-2af13d61b1c7').thema(thema).entry('Ich möchte sagen ... Ich fahre zu Paris ... nein, nach Paris.').get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Zeit angeben', 'Häufigkeit'];
-            entries.push(new Builder().id('da5a5eb5-23b3-4f87-a083-ed99a1fa07b6').thema(thema).entry(['Wie oft geht sie ins Kino?', '– Zweimal im Monat.', '– Nie!', '– Oft.']).get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'ausdrücken, dass man ein Wort nicht kennt oder es vergessen hat'];
+        entries.push(new Builder().id('e9d5d342-9a9f-4384-a773-cc2b765a48e7').thema(thema).entry(['Wie sagt man auf Deutsch?', 'Auf Englisch sagt man ...']).get());
 
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Quantität angeben', 'Zahlen/Mengenangaben'];
-            entries.push(new Builder().id('41941a44-bb2d-4330-b5a9-f4c6e83ffc2b').thema(thema).entry(['Was/Wie viel kostet die Zeitung?', '– Vier Euro.']).get());
-            entries.push(new Builder().id('cb4d2aaf-98a3-4a7f-b4f2-32a03ce21bed').thema(thema).entry(['Was darf‘s denn sein?', '– Ein Pfund Tomaten, bitte.', '– Ein Glas Milch, bitte.', '– Eine Flasche Wein, bitte.', '– Eine Tasse Tee, bitte.', '– 1,5 Liter, bitte.']).get());
-            entries.push(new Builder().id('7bf02814-ffd8-4313-a3ad-93b68a5bae18').thema(thema).entry(['Wie viel möchten Sie?', '– (Nicht) Alles.', '– Viel.', '– Ein bisschen, bitte.']).get());
-
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Quantität angeben', 'Grad'];
-            entries.push(new Builder().id('352ebb06-cdf2-4691-9da6-02c45cfee1b3').thema(thema).entry('Das ist sehr/zu gefährlich.').get());
-
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Quantität angeben', 'Dimension/Maßangabe'];
-            entries.push(new Builder().id('ffd7295e-58e9-4c50-b77b-a6bb641b1306').thema(thema).entry(['Wie lang/groß ...?', '– 1,5 Meter.']).get());
-            entries.push(new Builder().id('a09246e3-248a-4fc9-aede-f101ea3c952a').thema(thema).entry(['Wie schwer ...?', '– 500 Gramm.', '– 2 Kilo(gramm).']).get());
-            entries.push(new Builder().id('8e4fc4bb-909e-4393-91df-0450715ddf8e').thema(thema).entry(['Wie warm ...?', '– 20 Grad.', '– Sehr warm.', '– Nicht kalt.']).get());
-            entries.push(new Builder().id('113c9843-822b-41bc-9988-7373e175a5cd').thema(thema).entry(['Wie viel ...?', '– Einen Liter.']).get());
-            entries.push(new Builder().id('3dacbb00-d34c-4d9b-8b91-25937a123100').thema(thema).entry(['Wie schnell ...?', '– Nur maximal 60 km/h.']).get());
-
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Art und Weise angeben', 'physisch'];
-            entries.push(new Builder().id('e7e3e9c3-5062-48ee-a556-ec1d89a6cf30').thema(thema).entry(['Wie schmeckt das Essen?', 'Wie riecht das Essen?', '– Wirklich gut.', '– Wirklich nicht gut.']).get());
-            entries.push(new Builder().id('2c4e672b-59a9-4a39-b7c8-2867c3a1aa42').thema(thema).entry(['Welche Farbe hat das Auto?', '– Es ist rot.', '– Es ist blau.', '– Es ist grün.', '– Es ist gelb.', '– Es ist schwarz.', '– Es ist weiß.', '– Es ist braun.']).get());
-            entries.push(new Builder().id('e9a35f28-c8d0-4838-bb44-ec743cd5b74f').thema(thema).entry(['Die Tür ist offen.', 'Die Tür ist geschlossen.']).get());
-            entries.push(new Builder().id('f3b8f37d-a025-4503-ad72-77316f5bbc64').thema(thema).entry(['Wie alt ist Dieter?', '– Nicht sehr alt.', '– Schon 60.', '– Erst 50.']).get());
-
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Art und Weise angeben', 'Wertung'];
-            entries.push(new Builder().id('920f206b-434d-4a5d-99e6-8d6dc0ddc97f').thema(thema).entry(['(Wert/Preis?)', '– (nicht) teuer/billig']).get());
-            entries.push(new Builder().id('46c7369b-46e7-4457-8b06-fe607c940574').thema(thema).entry(['(Qualität?)', '– (nicht) (sehr) gut']).get());
-            entries.push(new Builder().id('f796ea02-0777-467c-be1a-52eec68d642d').thema(thema).entry(['(akzeptabel?)', '(adäquat?)', '– (nicht) in Ordnung', '– (nicht) in Ordnung, genug']).get());
-            entries.push(new Builder().id('6b200c3e-5922-4195-b113-bfde26f3cc64').thema(thema).entry(['(richtig?)', '– (nicht) richtig']).get());
-            entries.push(new Builder().id('55e3b19e-dbbd-4c52-b30b-da9228d62880').thema(thema).entry(['(Fähigkeit?)', '– (nicht) können']).get());
-            entries.push(new Builder().id('cab900a1-4c65-49c5-91ef-f81e0ab531c2').thema(thema).entry(['(Wichtigkeit?)', '– (nicht) wichtig', 'wie wichtig?']).get());
-            entries.push(new Builder().id('69ddcb61-63b2-47c8-8e4b-46c795a2426e').thema(thema).entry(['(Normalität?)', '– (nicht) normal']).get());
-            entries.push(new Builder().id('02db56c6-0026-4f51-83be-e6491c50d9f9').thema(thema).entry(['(Schwierigkeit?)', '– (nicht) leicht']).get());
-
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Art und Weise angeben', 'Vergleich'];
-            entries.push(new Builder().id('a93bf30f-ee1c-44c0-9252-541e1b9d7595').thema(thema).entry(['Spielst du Fußball?', '– Ja, wie meine Schwester.']).get());
-            entries.push(new Builder().id('977bb41c-27f5-4158-8afb-bee0e9749b1d').thema(thema).entry(['Sie ist so alt wie ich.', 'Wir sind gleich alt.']).get());
-
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Logische Verknüpfung herstellen', 'Grund'];
-            entries.push(new Builder().id('f493c962-a899-4e4d-8838-a76f131bb374').thema(thema).entry(['Warum kommt er nicht mit zur Party?', '– Er kann nicht. Er arbeitet heute lange.']).get());
-
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Logische Verknüpfung herstellen', 'Bedingung'];
-            entries.push(new Builder().id('87e78823-7d20-4311-acc0-6bda2ce1aa49').thema(thema).entry(['Kann ich das Auto haben?', '– Ja, aber nur für eine Stunde.']).get());
-
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Logische Verknüpfung herstellen', 'Aufzählung/Alternative'];
-            entries.push(new Builder().id('0625d50e-be98-418a-8cee-a6d6f68abb2c').thema(thema).entry('Er isst und trinkt gern.').get());
-            entries.push(new Builder().id('ab49a78b-a21c-46bf-b046-710f30d47099').thema(thema).entry('Möchtest du Wasser oder Wein?').get());
-
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Modales ausdrücken', 'Fähigkeit'];
-            entries.push(new Builder().id('ef8760ae-3e1c-4006-9ec7-3e9d06ce1c27').thema(thema).entry(['Können Sie Russisch (sprechen)?', '– Ja klar.', '– Sicher.']).get());
-
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Modales ausdrücken', 'Möglichkeit'];
-            entries.push(new Builder().id('2b35b4e9-2d15-44f4-ad78-5375dfef5406').thema(thema).entry('Können Sie morgen kommen?').get());
-
-            thema = ['Allgemeine Begriffe (Notionen)', 'A1', 'Modales ausdrücken', 'Notwendigkeit/Verpflichtung'];
-            entries.push(new Builder().id('a2d07e96-9fcb-40e4-83e7-6ae146b1bdc0').thema(thema).entry('Mein Sohn muss um 8 Uhr zu Hause sein.').get());
+        thema = ['Strategien', 'A1', 'Verständnissicherung', 'Kompensation', 'nachfragen, ob man (trotz fehlerhaftem Deutsch) verstanden wurde'];
+        entries.push(new Builder().id('a9ac2ac5-a1a6-4765-814b-71e82533b12a').thema(thema).entry('Ich spreche nicht gut Deutsch. Haben Sie verstanden?').get());
 */
+
+    /*
+    ,
+    {
+        groupId: 'xyz',
+        [
+            {
+                groupId: '',
+                entries: [
+                    {
+                        groupId: '',
+                        entries: [
+                            { value: '', level: 'a1', copyright: c2 },
+                            { value: '', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: '',
+                        entries: [
+                            { value: '', level: 'a1', copyright: c2 },
+                            { value: '', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: '',
+                        entries: [
+                            { value: '', level: 'a1', copyright: c2 },
+                            { value: '', level: 'a1', copyright: c2 }
+                        ]
+                    },
+                    {
+                        groupId: '',
+                        entries: [
+                            { value: '', level: 'a1', copyright: c2 },
+                            { value: '', level: 'a1', copyright: c2 }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }*/
 ];
 
 

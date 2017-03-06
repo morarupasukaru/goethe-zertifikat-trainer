@@ -1,19 +1,9 @@
 import angular from 'angular';
-import grammarA1Service from './grammar-a1.service.js';
-import notionsA1Service from './notions-a1.service.js';
-import speechActsA1Service from './speech-acts-a1.service';
-import strategiesA1Service from './strategies-a1.service.js';
-import themasA1Service from './themas-a1.service.js';
 import vocabularyA1Service from './vocabulary-a1.service';
 import vocabularyA2Service from './vocabulary-a2.service';
 import entriesService from './entries.service';
 
 let entriesModule = angular.module('app.components.data.entries', [])
-    .service('grammarA1Service', grammarA1Service)
-    .service('notionsA1Service', notionsA1Service)
-    .service('speechActsA1Service', speechActsA1Service)
-    .service('strategiesA1Service', strategiesA1Service)
-    .service('themasA1Service', themasA1Service)
     .service('vocabularyA1Service', vocabularyA1Service)
     .service('vocabularyA2Service', vocabularyA2Service)
     .service('entriesService', entriesService)
@@ -74,66 +64,6 @@ let entriesModule = angular.module('app.components.data.entries', [])
             };
             Vocabulary.prototype.constructor = Vocabulary;
             return Vocabulary;
-        }
-    )
-    .factory("SpeechActBuilder",
-        /*@ngInject*/
-        function(EntryBuilder) {
-            function LanguageCapacity() {
-                EntryBuilder.call(this);
-                this.result.type = 'speechAct';
-            }
-            LanguageCapacity.prototype = Object.create(EntryBuilder.prototype);
-            LanguageCapacity.prototype.constructor = LanguageCapacity;
-            return LanguageCapacity;
-        }
-    )
-    .factory("StrategyBuilder",
-        /*@ngInject*/
-        function(EntryBuilder) {
-            function Strategy() {
-                EntryBuilder.call(this);
-                this.result.type = 'strategy';
-            }
-            Strategy.prototype = Object.create(EntryBuilder.prototype);
-            Strategy.prototype.constructor = Strategy;
-            return Strategy;
-        }
-    )
-    .factory("NotionBuilder",
-        /*@ngInject*/
-        function(EntryBuilder) {
-            function Notion() {
-                EntryBuilder.call(this);
-                this.result.type = 'notion';
-            }
-            Notion.prototype = Object.create(EntryBuilder.prototype);
-            Notion.prototype.constructor = Notion;
-            return Notion;
-        }
-    )
-    .factory("ThemaBuilder",
-        /*@ngInject*/
-        function(EntryBuilder) {
-            function Notion() {
-                EntryBuilder.call(this);
-                this.result.type = 'thema';
-            }
-            Notion.prototype = Object.create(EntryBuilder.prototype);
-            Notion.prototype.constructor = Notion;
-            return Notion;
-        }
-    )
-    .factory("GrammarBuilder",
-        /*@ngInject*/
-        function(EntryBuilder) {
-            function Grammar() {
-                EntryBuilder.call(this);
-                this.result.type = 'grammar';
-            }
-            Grammar.prototype = Object.create(EntryBuilder.prototype);
-            Grammar.prototype.constructor = Grammar;
-            return Grammar;
         }
     );
 
