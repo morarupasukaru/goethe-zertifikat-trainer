@@ -2,13 +2,13 @@ ToDo - tri tâches
 
 ----------------------------------------------------------------------------------
 
-Print: dedicated css for print
+Redelmittel
+    Print: dedicated css for print (component with mode preatyprint?, override css?)
+    generic component
+    external data as json
 
 Later
-* business presentation (presentations.controller.js)
-* generic component as in /presentations
-* ecrans avec redelmittel
-    * sommaire avec liens
+    business presentation (presentations.controller.js)
 
 Plan - Goethe Exam:
 	test oral avec florence
@@ -35,10 +35,7 @@ Hilfe
 
     Redelmittel
         ecran de list avec recherche global full text
-        tri par thème
-        sélection par niveau
         sélection privé, travail
-        print-friendly
 
 Grammar
     Sélection par niveau
