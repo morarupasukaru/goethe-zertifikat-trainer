@@ -3,10 +3,10 @@
         <div class="twelve column" style="margin-top: 5%">
             <h1>Redemittel</h1>
 
-            <ng-repeat ng-repeat="top in $ctrl.data">
-                <button class="button-primary" ng-click="$ctrl.toogleVisible(top)">{{ top.groupId }}</button>
+            <ng-repeat ng-hide="!!$ctrl.print" ng-repeat="top in $ctrl.data">
+                <button class="button-primary" ng-click="$ctrl.toogleSelection(top)">{{ top.groupId }}</button>
                 <ng-repeat ng-repeat="group in top.groups">
-                    <a class="button" ng-show="!!top.visible" ng-click="$ctrl.scrollTo(group.groupId)">{{ group.groupId }}</a>
+                    <a class="button" ng-show="!!top.selected" ng-click="$ctrl.scrollTo(group.groupId)">{{ group.groupId }}</a>
                 </ng-repeat>
             </ng-repeat>
 
@@ -14,21 +14,16 @@
                 <h2 id="{{ top.groupId }}">{{ top.groupId }}</h2>
                 <ng-repeat ng-repeat="group in top.groups">
                     <h3 id="{{ group.groupId }}">{{ group.groupId }}</h3>
-                    <button ng-click="$ctrl.show(group)" ng-show="$ctrl.isButtonVisible(group)">
-                        Anzeigen
-                    </button>
-                    <ul ng-show="$ctrl.isGroupVisible(group)">
+                    <ul>
                         <li ng-repeat="entry in group.entries">{{ entry }}</li>
                     </ul>
                 </ng-repeat>
             </ng-repeat>
 
-            <button ng-click="$ctrl.showAll()">
-                Alles anzeigen
-            </button>
-            <button ng-click="$ctrl.back()">Zurück</button>
+            <a ng-hide="!!$ctrl.print" class="button" target="_blank" href="./#/speech-helpers?print=true">Drucken</a>
+            <button ng-hide="!!$ctrl.print" ng-click="$ctrl.back()">Zurück</button>
         </div>
 
     </div>
 </div>
-<footnote></footnote>
+<footnote ng-hide="!!$ctrl.print"></footnote>

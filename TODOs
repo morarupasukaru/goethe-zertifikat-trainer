@@ -2,6 +2,8 @@ ToDo - tri tâches
 
 ----------------------------------------------------------------------------------
 
+Print: dedicated css for print
+
 Later
 * business presentation (presentations.controller.js)
 * generic component as in /presentations

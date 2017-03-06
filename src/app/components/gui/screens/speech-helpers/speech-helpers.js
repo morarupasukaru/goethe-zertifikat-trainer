@@ -10,7 +10,7 @@ let speechHelpersModule = angular.module('app.components.gui.screen.speech-helpe
         $urlRouterProvider.otherwise('/');
 
         $stateProvider.state('speechHelpers', {
-            url: '/speech-helpers', template: '<speech-helpers></speech-helpers>'
+            url: '/speech-helpers?print', template: '<speech-helpers></speech-helpers>'
         });
     })
     .component('speechHelpers', {

@@ -1,17 +1,22 @@
 class SpeechHelpersController {
     /*@ngInject*/
-    constructor($location, $anchorScroll) {
+    constructor($location, $anchorScroll, $stateParams) {
         this.$location = $location;
         this.$anchorScroll = $anchorScroll;
+        this.print = !!$stateParams.print;
         this.initData();
+
+        if (!!this.print) {
+            window.print();
+        }
     }
 
     scrollTo(id) {
         this.$anchorScroll(this.$location.hash(id));
    }
 
-   toogleVisible(topGroup) {
-        topGroup.visible = !topGroup.visible;
+   toogleSelection(topGroup) {
+        topGroup.selected = !topGroup.selected;
    }
 
     initData() {
@@ -568,28 +573,6 @@ class SpeechHelpersController {
                 ]
             }
         ];
-    }
-
-    showAll() {
-        for (let i = 0; i < this.data.length; i++) {
-            if (!!this.data[i].groups && !!this.data[i].groups.length > 0) {
-                for (let j = 0; j < this.data[i].groups.length; j++) {
-                    this.show(this.data[i].groups[j]);
-                }
-            }
-        }
-    }
-
-    show(group) {
-        group.visible = true;
-    }
-
-    isButtonVisible(group) {
-        return !group.visible;
-    }
-
-    isGroupVisible(group) {
-        return !!group.visible;
     }
 
     back() {
