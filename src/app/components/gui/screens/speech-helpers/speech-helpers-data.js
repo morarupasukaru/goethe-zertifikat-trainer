@@ -1224,12 +1224,7 @@ const data = [
                         ]
                     }
                 ]
-            }
-        ]
-    },
-    {
-        groupId: 'Sprachhandlungen',
-        entries: [
+            },
             {
                 groupId: 'Bewertung, Kommentar',
                 entries: [
@@ -1361,12 +1356,7 @@ const data = [
                         ]
                     }
                 ]
-            }
-        ]
-    },
-    {
-        groupId: 'Sprachhandlungen',
-        entries: [
+            },
             {
                 groupId: 'Gefühlsausdruck',
                 entries: [
@@ -1442,12 +1432,7 @@ const data = [
                         ]
                     }
                 ]
-            }
-        ]
-    },
-    {
-        groupId: 'Sprachhandlungen',
-        entries: [
+            },
             {
                 groupId: 'Handlungsregulierung',
                 entries: [
@@ -1576,12 +1561,7 @@ const data = [
                         ]
                     }
                 ]
-            }
-        ]
-    },
-    {
-        groupId: 'Sprachhandlungen',
-        entries: [
+            },
             {
                 groupId: 'Soziale Konventionen',
                 entries: [
