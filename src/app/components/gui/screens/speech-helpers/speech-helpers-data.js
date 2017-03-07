@@ -1502,7 +1502,7 @@ const data = [
                         groupId: 'Rat/Empfehlung/Warnung',
                         entries: [
                             { value: 'Das ist zu gefährlich/heiß/kalt/...', level: 'a1', copyright: c2 },
-                            { value: 'Vorsicht!', translate: ['Attention !', 'Gare !', level: 'a1', copyright: c2 },
+                            { value: 'Vorsicht!', translate: ['Attention !', 'Gare !'], level: 'a1', copyright: c2 },
                             { value: 'Achtung!', translate: ['Attention !', 'Gare !', 'garde à vous!'], level: 'a1', copyright: c2 },
                             { value: 'Halt!', translate: 'halte !', level: 'a1', copyright: c2 },
                             { value: 'Hilfe!', level: 'a1', copyright: c2 },
@@ -1546,7 +1546,7 @@ const data = [
                             { value: '– Danke.', level: 'a1', copyright: c2 },
                             { value: '– Hoffentlich!', level: 'a1', copyright: c2 },
                             { value: '– Versprochen?', level: 'a1', copyright: c2 },
-                            { value: '– Wirklich?'', level: 'a1', copyright: c2 },
+                            { value: '– Wirklich?', level: 'a1', copyright: c2 },
                             { value: '– Ich mache es morgen.', level: 'a1', copyright: c2 },
                             { value: '– Das mache ich!', level: 'a1', copyright: c2 },
                         ]
@@ -1608,9 +1608,9 @@ const data = [
                                     { value: 'Guten Tag, Frau Heine.', level: 'a1', copyright: c2 },
                                     { value: 'Hier ist Josefa Karosz.', level: 'a1', copyright: c2 },
                                     { value: 'Hallo, ist Julia da?', level: 'a1', copyright: c2 },
-                                    { value: 'Guten Tag. Frau Heuer bitte!', level: 'a1', copyright: c2 }
-                                    { value: '– Ja, Moment bitte.', level: 'a1', copyright: c2 }
-                                    { value: '– Tut mir leid, sie ist nicht da.', level: 'a1', copyright: c2 }
+                                    { value: 'Guten Tag. Frau Heuer bitte!', level: 'a1', copyright: c2 },
+                                    { value: '– Ja, Moment bitte.', level: 'a1', copyright: c2 },
+                                    { value: '– Tut mir leid, sie ist nicht da.', level: 'a1', copyright: c2 },
                                     { value: '– Nein, hier ist ...', level: 'a1', copyright: c2 }
                                 ]
                             },
@@ -1639,7 +1639,7 @@ const data = [
                             { value: '– Gute Nacht, Bea.', level: 'a1', copyright: c2 },
                             { value: 'Hallo, wie geht’s?/wie geht es dir?', level: 'a1', copyright: c2 },
                             { value: '– Danke, gut.', level: 'a1', copyright: c2 },
-                            { value: 'Grüß Gott! (süddeutsch)', level: 'a1', copyright: c2 }
+                            { value: 'Grüß Gott! (süddeutsch)', level: 'a1', copyright: c2 },
                             { value: '– Grüß Gott!', level: 'a1', copyright: c2 }
                         ]
                     },
@@ -1650,8 +1650,8 @@ const data = [
                             { value: '– Hallo, Vera. Ich heiße Mario.', level: 'a1', copyright: c2 },
                             { value: '(Guten Tag) Ich bin Petra Holl.', level: 'a1', copyright: c2 },
                             { value: '– Guten Tag. Ich bin Ulrike Meyer.', level: 'a1', copyright: c2 },
-                            { value: 'Das ist Ulrich Pfeiffer.', level: 'a1', copyright: c2 }
-                            { value: '– Ah ja. Ich heiße Johanna Hauser.', level: 'a1', copyright: c2 }
+                            { value: 'Das ist Ulrich Pfeiffer.', level: 'a1', copyright: c2 },
+                            { value: '– Ah ja. Ich heiße Johanna Hauser.', level: 'a1', copyright: c2 },
                             { value: '– Ah ja. Ich bin Johanna Hauser.', level: 'a1', copyright: c2 }
                         ]
                     },
