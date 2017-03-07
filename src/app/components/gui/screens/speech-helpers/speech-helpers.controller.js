@@ -1,12 +1,11 @@
 class SpeechHelpersController {
     /*@ngInject*/
-    constructor($location, $anchorScroll, $stateParams, levels, data) {
+    constructor($location, $anchorScroll, $stateParams, levels, speechHelpersData) {
         this.$location = $location;
         this.$anchorScroll = $anchorScroll;
         this.print = !!$stateParams.print;
         this.levelsConstants = levels;
-        this.data = data;
-        this.initData();
+        this.initData(JSON.parse(JSON.stringify(speechHelpersData)));
 
         if (!!this.print) {
             window.print();
@@ -21,22 +20,24 @@ class SpeechHelpersController {
         topGroup.selected = !topGroup.selected;
     }
 
-    initData() {
+    initData(speechHelpersData) {
         this.levels = [];
         for (let i = 0; i < this.levelsConstants.length; i++) {
             this.levels.push({ value: this.levelsConstants[i], selected: true });
         }
 
-        for (let i = 0; i < this.data.length; i++) {
-            this.countLevelEntriesInGroup(this.levelsConstants, this.data[i]);
+        for (let i = 0; i < speechHelpersData.length; i++) {
+            this.countLevelEntriesInGroup(this.levelsConstants, speechHelpersData[i]);
         }
 
 
-        for (let i = 0; i < this.data.length; i++) {
-            let topGroup = this.data[i];
+        this.data = [];
+        for (let i = 0; i < speechHelpersData.length; i++) {
+            let topGroup = speechHelpersData[i];
             let newEntries = [];
             this.flatinizeSubGroups(topGroup.entries, newEntries);
             topGroup.entries = newEntries;
+            this.data.push(topGroup);
         }
     }
 
