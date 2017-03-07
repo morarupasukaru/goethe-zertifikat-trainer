@@ -1159,12 +1159,15 @@ const data = [
     },
     {
         groupId: 'Sprachhandlungen',
+        translate: 'acte de parole',
         entries: [
             {
                 groupId: 'Informationsaustausch',
+                translate: "échange d'information",
                 entries: [
                     {
                         groupId: 'benennen/definieren/identifizieren',
+                        translate: ['benennen: qualifier qc.', 'definieren: définir qc.', 'identifizieren: identifier qn./qc.'],
                         entries: [
                             { value: 'Wer ist das?', level: 'a1', copyright: c2 },
                             { value: '– Das ist Wolfgang', level: 'a1', copyright: c2 },
@@ -1181,6 +1184,7 @@ const data = [
                     },
                     {
                         groupId: 'beschreiben',
+                        translate: 'décrire qn./qc.',
                         entries: [
                             { value: 'Wie sieht die Tasche aus?', level: 'a1', copyright: c2 },
                             { value: '– Sie ist braun.', level: 'a1', copyright: c2 }
@@ -1188,12 +1192,14 @@ const data = [
                     },
                     {
                         groupId: 'erklären',
+                        translate: 'expliquer qc.',
                         entries: [
                             { value: 'Wie geht das?', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'berichten',
+                        translate: ['communiquer qc.', 'faire un rapport (sur qc.)'],
                         entries: [
                             { value: 'Was ist passiert?', level: 'a1', copyright: c2 },
                             { value: '– Ich hatte einen Unfall.', level: 'a1', copyright: c2 }
@@ -1201,6 +1207,7 @@ const data = [
                     },
                     {
                         groupId: 'Mitteilung/Ankündigung',
+                        translate: ['Mitteilung: avis, communication, message', 'Ankündigung: annonce'],
                         entries: [
                             { value: 'Was machst du heute Abend?', level: 'a1', copyright: c2 },
                             { value: '– Ich besuche Freunde.', level: 'a1', copyright: c2 },
@@ -1210,12 +1217,14 @@ const data = [
                     },
                     {
                         groupId: 'Zweck und Bestimmung angeben',
+                        translate: ['Zweck  angeben: citer but', 'Bestimmung angeben: citer détermination'],
                         entries: [
                             { value: 'Was ist das?', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Wissen/Unwissen',
+                        translate: ['Wissen: savoir, connaissance(s), science', 'Unwissen: ignorance'],
                         entries: [
                             { value: 'Weiß sie das?', level: 'a1', copyright: c2 },
                             { value: '– Ja.', level: 'a1', copyright: c2 },
@@ -1227,9 +1236,11 @@ const data = [
             },
             {
                 groupId: 'Bewertung, Kommentar',
+                translate: ['Bewertung: évaluation (de la valeur), estimation (de la valeur), cote', 'Kommentar: commentaire'],
                 entries: [
                     {
                         groupId: 'Zufriedenheit/Unzufriedenheit',
+                        translate: ['Zufriedenheit: satisfaction, contentement', 'Unzufriedenheit: insatisfaction, mécontentement'],
                         entries: [
                             { value: 'Wie waren eure Ferien?', level: 'a1', copyright: c2 },
                             { value: '– (Sehr) Schön.', level: 'a1', copyright: c2 },
@@ -1241,6 +1252,7 @@ const data = [
                     },
                     {
                         groupId: 'Gefallen/Missfallen',
+                        translate: ['Gefallen: plaisir', 'Missfallen: déplaisir, réprobation'],
                         entries: [
                             { value: 'Was denkst du? Gefällt es dir hier?', level: 'a1', copyright: c2 },
                             { value: '– Ja (sehr).', level: 'a1', copyright: c2 },
@@ -1268,6 +1280,7 @@ const data = [
                     },
                     {
                         groupId: 'Interesse/Desinteresse',
+                        translate: ['Interesse: intérêt', 'Desinteresse: désintérêt'],
                         entries: [
                             { value: 'Gefallen dir die Geschenke?', level: 'a1', copyright: c2 },
                             { value: '– Ja klar.', level: 'a1', copyright: c2 },
@@ -1278,6 +1291,7 @@ const data = [
                     },
                     {
                         groupId: 'Billigung/Missbilligung',
+                        translate: ['Billigung: approbation, consentement', 'Missbilligung: désapprobation, réprobation, désaveu'],
                         entries: [
                             { value: 'Wie findest du das?', level: 'a1', copyright: c2 },
                             { value: '– Gut.', level: 'a1', copyright: c2 },
@@ -1293,6 +1307,7 @@ const data = [
                     },
                     {
                         groupId: 'Zustimmung/Ablehnung',
+                        translate: ['Zustimmung: approbation, consentement', 'Ablehnung: refus, rejet, récusation'],
                         entries: [
                             { value: 'Das stimmt (nicht).', level: 'a1', copyright: c2 },
                             { value: 'Das ist richtig.', level: 'a1', copyright: c2 },
@@ -1301,6 +1316,7 @@ const data = [
                     },
                     {
                         groupId: 'Wunsch',
+                        translate: ['désir', 'souhait', 'vœu'],
                         entries: [
                             { value: 'Was wollen wir heute Abend machen?', level: 'a1', copyright: c2 },
                             { value: 'Willst du auf das Fest gehen?', level: 'a1', copyright: c2 },
@@ -1313,6 +1329,7 @@ const data = [
                     },
                     {
                         groupId: 'Vorlieben',
+                        translate: ['goût', 'prédilection', 'préférence'],
                         entries: [
                             { value: 'Tee oder Kaffee?', level: 'a1', copyright: c2 },
                             { value: '– Kaffee, bitte.', level: 'a1', copyright: c2 },
@@ -1323,6 +1340,7 @@ const data = [
                     },
                     {
                         groupId: 'Wichtigkeit',
+                        translate: 'importance',
                         entries: [
                             { value: 'Ist das (wirklich) wichtig?', level: 'a1', copyright: c2 },
                             { value: '– Das ist (schon/sehr) wichtig.', level: 'a1', copyright: c2 },
@@ -1331,6 +1349,7 @@ const data = [
                     },
                     {
                         groupId: 'verneinen/Widerspruch',
+                        translate: ['verneinen: répondre négativement à qc.', 'Widerspruch: opposition, contradiction'],
                         entries: [
                             { value: 'Nein!', level: 'a1', copyright: c2 },
                             { value: 'Doch!', translate: 'si', level: 'a1', copyright: c2 },
@@ -1341,6 +1360,7 @@ const data = [
                     },
                     {
                         groupId: 'Beschwerde',
+                        translate: ['réclamation', 'plainte', 'doléance'],
                         entries: [
                             { value: 'Es ist zu warm hier!', level: 'a1', copyright: c2 },
                             { value: 'Das ist zu teuer!', level: 'a1', copyright: c2 },
@@ -1349,6 +1369,7 @@ const data = [
                     },
                     {
                         groupId: 'Rechtfertigung/Begründung',
+                        translate: ['Rechtfertigung: justification, légimitation', 'Begründung: motivation, justification'],
                         entries: [
                             { value: 'Warum kommst du nicht?', level: 'a1', copyright: c2 },
                             { value: '– Ich habe keine Zeit.', level: 'a1', copyright: c2 },
@@ -1359,9 +1380,11 @@ const data = [
             },
             {
                 groupId: 'Gefühlsausdruck',
+                translate: 'expression émotionnelle',
                 entries: [
                     {
                         groupId: 'Freude/Bedauern',
+                        translate: ['Freude: joie, plaisir, allégresse', 'Bedauern: regret'],
                         entries: [
                             { value: 'Ist das nicht toll!', level: 'a1', copyright: c2 },
                             { value: '– Ja, super!', level: 'a1', copyright: c2 },
@@ -1377,6 +1400,7 @@ const data = [
                     },
                     {
                         groupId: 'Neigung/Abneigung',
+                        translate: ['Neigung: attirance, inclinaison, penchant', 'Abneigung: aversion, répulsion'],
                         entries: [
                             { value: 'Schmeckt‘s dir nicht?', level: 'a1', copyright: c2 },
                             { value: '– Doch, sehr gut.', level: 'a1', copyright: c2 },
@@ -1388,6 +1412,7 @@ const data = [
                     },
                     {
                         groupId: 'Gelassenheit/Gleichgültigkeit',
+                        translate: ['Gelassenheit: impassibilité, sang-froid (maîtrise de soi), contenance, calme, flegme', 'Gleichgültigkeit: indifférence, détachement'],
                         entries: [
                             { value: 'Ich kann leider nicht kommen.', level: 'a1', copyright: c2 },
                             { value: '– Egal.', level: 'a1', copyright: c2 },
@@ -1397,6 +1422,7 @@ const data = [
                     },
                     {
                         groupId: 'Mitleid',
+                        translate: ['compassion', 'pitié', 'apitoiement'],
                         entries: [
                             { value: '(Es) Tut mir (wirklich) (sehr) leid.', level: 'a1', copyright: c2 },
                             { value: 'Das finde ich aber traurig.', level: 'a1', copyright: c2 }
@@ -1404,6 +1430,7 @@ const data = [
                     },
                     {
                         groupId: 'Erstaunen/Überraschung',
+                        translate: ['Erstaunen: étonnement', 'Überraschung: surprise, mauvaise surprise'],
                         entries: [
                             { value: 'Komisch!', level: 'a1', copyright: c2 },
                             { value: 'Das ist ja komisch!', level: 'a1', copyright: c2 },
@@ -1413,13 +1440,15 @@ const data = [
                     },
                     {
                         groupId: 'Hoffnung',
+                        translate: ['espoir', 'espérance'],
                         entries: [
                             { value: 'Hoffentlich regnet es nicht.', level: 'a1', copyright: c2 },
                             { value: 'Hoffentlich kommt bald der Bus.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
-                        groupId: 'Sorge/Befürchtung',
+                      groupId: 'Sorge/Befürchtung',
+                        translate: ['Sorge: souci, préocupation, inquiétude', 'Befürchtung: appréhension (de qc.)'],
                         entries: [
                             { value: 'Ich habe Angst.', level: 'a1', copyright: c2 },
                             { value: 'Schon 10 Uhr, und er ist immer noch nicht da.', level: 'a1', copyright: c2 }
@@ -1427,6 +1456,7 @@ const data = [
                     },
                     {
                         groupId: 'Enttäuschung',
+                        translate: ['désenchantement', 'déception', 'désillusion'],
                         entries: [
                             { value: 'Was? Du bleibst zu Hause? Schade!', level: 'a1', copyright: c2 }
                         ]
@@ -1435,9 +1465,11 @@ const data = [
             },
             {
                 groupId: 'Handlungsregulierung',
+                translate: "régulation de l'action",
                 entries: [
                     {
                         groupId: 'Bitte/Aufforderung',
+                        translate: 'Bitte: demande, sollication, prière',
                         entries: [
                             { value: 'Kaufst du bitte Brot?', level: 'a1', copyright: c2 },
                             { value: 'Kannst du Milch kaufen?', level: 'a1', copyright: c2 },
@@ -1453,6 +1485,7 @@ const data = [
                     },
                     {
                         groupId: 'Bestätigung',
+                        translate: ['validation', 'confirmation'],
                         entries: [
                             { value: 'Stimmt das?', level: 'a1', copyright: c2 },
                             { value: 'Richtig?', level: 'a1', copyright: c2 },
@@ -1465,6 +1498,7 @@ const data = [
                     },
                     {
                         groupId: 'Hilfe anbieten/annehmen und ablehnen',
+                        translate: ["Hilfe anbieten: proposer de l'aide", "Hilfe annehmen: accepter de l'aide", "Hilfe ablehnen: refuser de l'aide"],
                         entries: [
                             { value: 'Kann ich Ihnen helfen?', level: 'a1', copyright: c2 },
                             { value: '– Ja, danke.', level: 'a1', copyright: c2 },
@@ -1475,6 +1509,7 @@ const data = [
                     },
                     {
                         groupId: 'Bestellung/Wunsch',
+                        translate: 'Bestellung: commande',
                         entries: [
                             { value: 'Ich möchte ein Zimmer reservieren.', level: 'a1', copyright: c2 },
                             { value: 'Ich nehme die Tomatensuppe und den Salat.', level: 'a1', copyright: c2 },
@@ -1485,6 +1520,7 @@ const data = [
                     },
                     {
                         groupId: 'Rat/Empfehlung/Warnung',
+                        translate: ['Rat: conseil', 'Empfehlung: suggestion, recommandation', 'Warnung: avertissement, mise en garde, semonce'],
                         entries: [
                             { value: 'Das ist zu gefährlich/heiß/kalt/...', level: 'a1', copyright: c2 },
                             { value: 'Vorsicht!', translate: ['Attention !', 'Gare !'], level: 'a1', copyright: c2 },
@@ -1496,6 +1532,7 @@ const data = [
                     },
                     {
                         groupId: 'Erlaubnis/Genehmigung',
+                        translate: ['Erlaubnis: permission, autorisation, permis', 'Genehmigung: consontement, autorisation, octroi'],
                         entries: [
                             { value: 'Kann man hier rauchen?', level: 'a1', copyright: c2 },
                             { value: '– Gerne.', level: 'a1', copyright: c2 },
@@ -1511,6 +1548,7 @@ const data = [
                     },
                     {
                         groupId: 'Vorschlag',
+                        translate: ['suggestion', 'proposition'],
                         entries: [
                             { value: 'Gehen wir heute ins Kino?', level: 'a1', copyright: c2 },
                             { value: '– Ja, gerne.', level: 'a1', copyright: c2 },
@@ -1525,6 +1563,7 @@ const data = [
                     },
                     {
                         groupId: 'Versprechung',
+                        translate: 'promesse',
                         entries: [
                             { value: 'Morgen bekommst du das Geld.', level: 'a1', copyright: c2 },
                             { value: '– Gut.', level: 'a1', copyright: c2 },
@@ -1538,6 +1577,7 @@ const data = [
                     },
                     {
                         groupId: 'Verabredung',
+                        translate: 'rendez-vous',
                         entries: [
                             { value: 'Kannst du morgen Abend?', level: 'a1', copyright: c2 },
                             { value: 'Hast du am Mittwoch Zeit?', level: 'a1', copyright: c2 },
@@ -1550,6 +1590,7 @@ const data = [
                     },
                     {
                         groupId: 'Einladung',
+                        translate: ['invitation', 'convocation'],
                         entries: [
                             { value: 'Möchten Sie (noch) etwas trinken?', level: 'a1', copyright: c2 },
                             { value: 'Orangensaft?', level: 'a1', copyright: c2 },
@@ -1564,9 +1605,11 @@ const data = [
             },
             {
                 groupId: 'Soziale Konventionen',
+                translate: 'conventions sociales',
                 entries: [
                     {
                         groupId: 'Kontaktaufnahme: jemanden ansprechen',
+                        translate: ['Kontaktaufnahme: prise de contact', 'jemanden ansprechen: plaire à qn.'],
                         entries: [
                             { value: 'Hallo!', level: 'a1', copyright: c2 },
                             { value: 'Roman Jaremkow.', level: 'a1', copyright: c2 },
@@ -1606,6 +1649,7 @@ const data = [
                     },
                     {
                         groupId: 'grüßen',
+                        translate: ['saluer qn.', 'dire bonjour à qn.'],
                         entries: [
                             { value: '(Guten) Tag/Hallo, Ulrike!', level: 'a1', copyright: c2 },
                             { value: '– (Guten) Tag/Hallo, Karina.', level: 'a1', copyright: c2 },
@@ -1625,6 +1669,7 @@ const data = [
                     },
                     {
                         groupId: 'sich/jemanden vorstellen',
+                        translate: ['se présenter', 'présenter qn. à qn.'],
                         entries: [
                             { value: '(Hallo) Mein Name ist/Ich heiße Vera.', level: 'a1', copyright: c2 },
                             { value: '– Hallo, Vera. Ich heiße Mario.', level: 'a1', copyright: c2 },
@@ -1637,6 +1682,7 @@ const data = [
                     },
                     {
                         groupId: 'über das Befinden sprechen',
+                        translate: "discuter sur l'état de santé",
                         entries: [
                             { value: "Wie geht’s/geht es dir (heute)?", level: 'a1', copyright: c2 },
                             { value: '– Danke, gut. Und dir?', level: 'a1', copyright: c2 },
@@ -1650,6 +1696,7 @@ const data = [
                     },
                     {
                         groupId: 'gute Wünsche',
+                        translate: 'bons voeux',
                         entries: [
                             { value: 'Alles Gute.', translate: ['Mes meilleurs vœux !', 'toutes sortes de bonnes choses'], level: 'a1', copyright: c2 },
                             { value: 'Schöne Ferien!', level: 'a1', copyright: c2 },
@@ -1659,6 +1706,7 @@ const data = [
                     },
                     {
                         groupId: 'Gratulation',
+                        translate: 'félicitation',
                         entries: [
                             { value: 'Herzlichen Glückwunsch', level: 'a1', copyright: c2 },
                             { value: '– Danke (schön)!', level: 'a1', copyright: c2 },
@@ -1670,6 +1718,7 @@ const data = [
                     },
                     {
                         groupId: 'eine Anerkennung aussprechen/ein Kompliment machen',
+                        translate: ['eine Anerkennung aussprechen: féliciter qn.', 'ein Kompliment machen: complimenter qn.'],
                         entries: [
                             { value: 'Sie sprechen (sehr) gut Deutsch.', level: 'a1', copyright: c2 },
                             { value: 'Das ist toll/(sehr) schön/gut.', level: 'a1', copyright: c2 },
@@ -1678,6 +1727,7 @@ const data = [
                     },
                     {
                         groupId: 'Dank',
+                        translate: ['merci', 'remerciement'],
                         entries: [
                             { value: 'Danke (schön)!', level: 'a1', copyright: c2 },
                             { value: 'Herzlichen', level: 'a1', copyright: c2 },
@@ -1695,6 +1745,7 @@ const data = [
                     },
                     {
                         groupId: 'Entschuldigung',
+                        translate: 'excuse',
                         entries: [
                             { value: 'Entschuldigung', level: 'a1', copyright: c2 },
                             { value: 'Entschuldigen Sie bitte!', level: 'a1', copyright: c2 },
@@ -1705,6 +1756,7 @@ const data = [
                     },
                     {
                         groupId: 'Verabschiedung',
+                        translate: 'formule de politesse en fin de lettre, email',
                         entries: [
                             { value: '(Auf) Wiedersehen!', level: 'a1', copyright: c2 },
                             { value: 'Tschüss!', level: 'a1', copyright: c2 },
