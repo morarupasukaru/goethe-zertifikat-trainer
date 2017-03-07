@@ -1236,146 +1236,134 @@ const data = [
                     {
                         groupId: 'Zufriedenheit/Unzufriedenheit',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Wie waren eure Ferien?', level: 'a1', copyright: c2 },
+                            { value: '– (Sehr) Schön.', level: 'a1', copyright: c2 },
+                            { value: '– Prima.', level: 'a1', copyright: c2 },
+                            { value: '– (Ganz) Gut.', level: 'a1', copyright: c2 },
+                            { value: '– (Nicht) Schlecht.', level: 'a1', copyright: c2 },
+                            { value: 'Der Film war sehr gut.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Gefallen/Missfallen',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Was denkst du? Gefällt es dir hier?', level: 'a1', copyright: c2 },
+                            { value: '– Ja (sehr).', level: 'a1', copyright: c2 },
+                            { value: '– (Es ist) Super!', level: 'a1', copyright: c2 },
+                            { value: '– (Es ist) Toll!', level: 'a1', copyright: c2 },
+                            { value: '– (Es ist) Klasse!', level: 'a1', copyright: c2 },
+                            { value: '– Nein, leider nicht.', level: 'a1', copyright: c2 },
+                            { value: 'Gefällt es Ihnen?', level: 'a1', copyright: c2 },
+                            { value: '– Ich finde es toll', level: 'a1', copyright: c2 },
+                            { value: '– Ich finde es (sehr) schön', level: 'a1', copyright: c2 },
+                            { value: '– Ich finde es gut', level: 'a1', copyright: c2 },
+                            { value: '– Ich finde es prima.', level: 'a1', copyright: c2 },
+                            { value: '– Ich bin zufrieden.', level: 'a1', copyright: c2 },
+                            { value: '– Das finde ich nicht gut', level: 'a1', copyright: c2 },
+                            { value: '– Das finde ich hässlich', level: 'a1', copyright: c2 },
+                            { value: '– Das finde ich langweilig.', level: 'a1', copyright: c2 },
+                            { value: 'Das Hotel gefällt mir nicht.', level: 'a1', copyright: c2 },
+                            { value: 'Ich finde es hier langweilig.', level: 'a1', copyright: c2 },
+                            { value: 'Das Restaurant sieht gut', level: 'a1', copyright: c2 },
+                            { value: 'Das Restaurant sieht nett', level: 'a1', copyright: c2 },
+                            { value: 'Das Restaurant sieht schrecklich aus.', level: 'a1', copyright: c2 },
+                            { value: 'Ich liebe diese Stadt.', level: 'a1', copyright: c2 },
+                            { value: 'Ich mag diese Stadt nicht.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Interesse/Desinteresse',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Gefallen dir die Geschenke?', level: 'a1', copyright: c2 },
+                            { value: '– Ja klar.', level: 'a1', copyright: c2 },
+                            { value: '– Na ja, es geht.', level: 'a1', copyright: c2 },
+                            { value: '– Nicht so.', level: 'a1', copyright: c2 },
+                            { value: 'Was sind deine Hobbys?', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Billigung/Missbilligung',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Wie findest du das?', level: 'a1', copyright: c2 },
+                            { value: '– Gut.', level: 'a1', copyright: c2 },
+                            { value: '– (Un-) Interessant.', level: 'a1', copyright: c2 },
+                            { value: '– Es geht.', level: 'a1', copyright: c2 },
+                            { value: '– Langweilig.', level: 'a1', copyright: c2 },
+                            { value: '– (Nicht) Schlecht.', level: 'a1', copyright: c2 },
+                            { value: 'Wie finden Sie das Lehrbuch?', level: 'a1', copyright: c2 },
+                            { value: '– Es ist (sehr) interessant', level: 'a1', copyright: c2 },
+                            { value: '– Es ist zu langweilig.', level: 'a1', copyright: c2 },
+                            { value: 'So geht das nicht.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Zustimmung/Ablehnung',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Das stimmt (nicht).', level: 'a1', copyright: c2 },
+                            { value: 'Das ist richtig.', level: 'a1', copyright: c2 },
+                            { value: 'Das ist falsch.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Wunsch',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Was wollen wir heute Abend machen?', level: 'a1', copyright: c2 },
+                            { value: 'Willst du auf das Fest gehen?', level: 'a1', copyright: c2 },
+                            { value: 'Möchten Sie noch etwas Milch?', level: 'a1', copyright: c2 },
+                            { value: 'Ich möchte einen Kaffee.', level: 'a1', copyright: c2 },
+                            { value: 'Peter will ein Eis.', level: 'a1', copyright: c2 },
+                            { value: 'Ich möchte den Film sehen.', level: 'a1', copyright: c2 },
+                            { value: 'Ich brauche jetzt eine Pause.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Vorlieben',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Tee oder Kaffee?', level: 'a1', copyright: c2 },
+                            { value: '– Kaffee, bitte.', level: 'a1', copyright: c2 },
+                            { value: 'Magst du Tee oder Kaffee?', level: 'a1', copyright: c2 },
+                            { value: '– Ich trinke lieber Tee.', level: 'a1', copyright: c2 },
+                            { value: '– Nichts, danke.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Wichtigkeit',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Ist das (wirklich) wichtig?', level: 'a1', copyright: c2 },
+                            { value: '– Das ist (schon/sehr) wichtig.', level: 'a1', copyright: c2 },
+                            { value: '– Nicht so wichtig.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'verneinen/Widerspruch',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
-                        ]
+                            { value: 'Nein!', level: 'a1', copyright: c2 },
+                            { value: 'Doch!', translate: 'si', level: 'a1', copyright: c2 },
+                            { value: 'Das stimmt nicht.', level: 'a1', copyright: c2 },
+                            { value: 'Das ist falsch.', level: 'a1', copyright: c2 },
+                            { value: 'Unsinn!', level: 'a1', copyright: c2 }
+                       ]
                     },
                     {
                         groupId: 'Beschwerde',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Es ist zu warm hier!', level: 'a1', copyright: c2 },
+                            { value: 'Das ist zu teuer!', level: 'a1', copyright: c2 },
+                            { value: 'Entschuldigen Sie, die Heizung funktioniert nicht.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Rechtfertigung/Begründung',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Warum kommst du nicht?', level: 'a1', copyright: c2 },
+                            { value: '– Ich habe keine Zeit.', level: 'a1', copyright: c2 },
+                            { value: 'Seine Mutter ist krank. Deshalb kommt er heute nicht.', level: 'a1', copyright: c2 }
                         ]
                     }
                 ]
             }
         ]
     },
-/*
-    createBewertungKommentarEntries(Builder) {
-        let entries = [];
-        let thema = ['Sprachhandlungen', 'A1', 'Bewertung, Kommentar', ['Zufriedenheit', 'Unzufriedenheit']];
-        entries.push(new Builder().id('877efa95-ff44-4a22-9679-06aa5c362914').thema(thema).entry(['Wie waren eure Ferien?', '– (Sehr) Schön.', '– Prima.', '– (Ganz) Gut.', '– (Nicht) Schlecht.']).get());
-        entries.push(new Builder().id('61464d60-720f-486b-8979-f31e70918b05').thema(thema).entry('Der Film war sehr gut.').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Bewertung, Kommentar', ['Gefallen', 'Missfallen']];
-        entries.push(new Builder().id('b484e5c3-f5a2-4695-ab9a-f66c3dec4ccc').thema(thema).entry(['Was denkst du? Gefällt es dir hier?', '– Ja (sehr).', '– (Es ist) Super!', '– (Es ist) Toll!', '– (Es ist) Klasse!', '– Nein, leider nicht.']).get());
-        entries.push(new Builder().id('97ca45e1-fe98-4d70-801c-6133930d37ea').thema(thema).entry(['Gefällt es Ihnen?', '– Ich finde es toll', '– Ich finde es (sehr) schön', '– Ich finde es gut',
-            '– Ich finde es prima.', '– Ich bin zufrieden.', '– Das finde ich nicht gut', '– Das finde ich hässlich', '– Das finde ich langweilig.']).get());
-        entries.push(new Builder().id('a9461264-cd4d-4ee4-b98e-93d5bd703eb0').thema(thema).entry(['Das Hotel gefällt mir nicht.', 'Ich finde es hier langweilig.']).get());
-        entries.push(new Builder().id('402fc4a9-30e5-4669-85f7-fa1ec18544db').thema(thema).entry(['Das Restaurant sieht gut', 'Das Restaurant sieht nett', 'Das Restaurant sieht schrecklich aus.']).get());
-        entries.push(new Builder().id('8127b1cf-5df3-47e5-8e14-70d1346ffb82').thema(thema).entry(['Ich liebe diese Stadt.', 'Ich mag diese Stadt nicht.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Bewertung, Kommentar', ['Interesse', 'Desinteresse']];
-        entries.push(new Builder().id('4178168a-750e-4648-8004-0cb864fa68ec').thema(thema).entry(['Gefallen dir die Geschenke?', '– Ja klar.', '– Na ja, es geht.', '– Nicht so.']).get());
-        entries.push(new Builder().id('a866f65b-244d-40c5-b63e-c48a68f7a5de').thema(thema).entry('Was sind deine Hobbys?').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Bewertung, Kommentar', ['Billigung', 'Missbilligung']];
-        entries.push(new Builder().id('29bb231b-b03d-4f30-a040-deb9a7826bb9').thema(thema).entry(['Wie findest du das?', '– Gut.', '– (Un-) Interessant.', '– Es geht.', '– Langweilig.', '– (Nicht) Schlecht.']).get());
-        entries.push(new Builder().id('cd13d37d-5675-4b04-a920-bb90da974416').thema(thema).entry(['Wie finden Sie das Lehrbuch?', '– Es ist (sehr) interessant', '– Es ist zu langweilig.']).get());
-        entries.push(new Builder().id('5c940fb1-404a-49a8-87f1-b00a382ce192').thema(thema).entry('So geht das nicht.').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Bewertung, Kommentar', ['Zustimmung', 'Ablehnung']];
-        entries.push(new Builder().id('3d8a5923-ac70-4ff2-8e66-3c7fa57f6fca').thema(thema).entry('Das stimmt (nicht).').get());
-        entries.push(new Builder().id('0c404da4-cd4c-47ad-a8b6-ce7eb39505d7').thema(thema).entry(['Das ist richtig', 'Das ist falsch.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Bewertung, Kommentar', 'Wunsch'];
-        entries.push(new Builder().id('95ef81a0-11f4-4123-992d-cf7f6549ad0e').thema(thema).entry('Was wollen wir heute Abend machen?').get());
-        entries.push(new Builder().id('2fc9dad7-9a63-410a-b0a0-4719d32630a4').thema(thema).entry('Willst du auf das Fest gehen?').get());
-        entries.push(new Builder().id('8d00450d-88ea-4030-88ac-c4dc23d7856d').thema(thema).entry('Möchten Sie noch etwas Milch?').get());
-        entries.push(new Builder().id('765963d9-8417-4b3b-a95f-b41afe08de96').thema(thema).entry('Ich möchte einen Kaffee.').get());
-        entries.push(new Builder().id('361b73c1-6074-4183-9424-351f9a7ab112').thema(thema).entry('Peter will ein Eis.').get());
-        entries.push(new Builder().id('59b951a4-d99d-45b9-9f12-d2a7f875bdc3').thema(thema).entry('Ich möchte den Film sehen.').get());
-        entries.push(new Builder().id('bcb64ebd-6bd2-4042-9658-7ae654ecd8a1').thema(thema).entry('Ich brauche jetzt eine Pause.').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Bewertung, Kommentar', 'Vorlieben'];
-        entries.push(new Builder().id('fdb21873-476e-477d-ad96-f52abc5173ba').thema(thema).entry(['Tee oder Kaffee?', '– Kaffee, bitte.']).get());
-        entries.push(new Builder().id('f8838e25-7db5-4d51-98dc-a139dafd40e6').thema(thema).entry(['Magst du Tee oder Kaffee?', '– Ich trinke lieber Tee.', '– Nichts, danke.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Bewertung, Kommentar', ['Wichtigkeit']];
-        entries.push(new Builder().id('6e5d32de-89bd-4ea7-8aa7-028501dde7bb').thema(thema).entry(['Ist das (wirklich) wichtig?', '– Das ist (schon/sehr) wichtig.', '– Nicht so wichtig.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Bewertung, Kommentar', ['verneinen', 'Widerspruch']];
-        entries.push(new Builder().id('3e2d0a4d-d74c-49ea-94ee-1a1810a0a35e').thema(thema).entry('Nein!').get());
-        entries.push(new Builder().id('117122ba-8b56-4c74-9bf2-99e7a44819b6').thema(thema).entry('Doch!').translate('si').get());
-        entries.push(new Builder().id('af2600a8-7d85-4677-84af-1b1d20d82df1').thema(thema).entry('Das stimmt nicht.').get());
-        entries.push(new Builder().id('ea1c52cb-2568-42be-bf7d-5093566c1ce9').thema(thema).entry('Das ist falsch.').get());
-        entries.push(new Builder().id('e9b882dd-4c54-4eaf-997a-98fab784234c').thema(thema).entry('Unsinn!').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Bewertung, Kommentar', 'Beschwerde'];
-        entries.push(new Builder().id('9a8aa6d4-90a8-4066-bbdb-0339f230c0b2').thema(thema).entry('Es ist zu warm hier!').get());
-        entries.push(new Builder().id('804efbf1-017b-437f-a603-e8ca6fc86b00').thema(thema).entry('Das ist zu teuer!').get());
-        entries.push(new Builder().id('40470bce-1a8d-4881-b2fc-59a1022bdee3').thema(thema).entry('Entschuldigen Sie, die Heizung funktioniert nicht.').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Bewertung, Kommentar', ['Rechtfertigung', 'Begründung']];
-        entries.push(new Builder().id('9cdf7979-5cb1-4f56-9f3a-25ba447616ca').thema(thema).entry(['Warum kommst du nicht?', '– Ich habe keine Zeit.']).get());
-        entries.push(new Builder().id('0563adbd-6ac0-447f-bb6d-4b36866d1ef6').thema(thema).entry('Seine Mutter ist krank. Deshalb kommt er heute nicht.').get());
-        return entries;
-    }
-*/
     {
         groupId: 'Sprachhandlungen',
         entries: [
@@ -1385,101 +1373,78 @@ const data = [
                     {
                         groupId: 'Freude/Bedauern',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Ist das nicht toll!', level: 'a1', copyright: c2 },
+                            { value: '– Ja, super!', level: 'a1', copyright: c2 },
+                            { value: '– Finde ich auch.', level: 'a1', copyright: c2 },
+                            { value: 'Ich bin glücklich. Und du?', level: 'a1', copyright: c2 },
+                            { value: '– Sehr.', level: 'a1', copyright: c2 },
+                            { value: 'Glückwunsch!', level: 'a1', copyright: c2 },
+                            { value: '– Danke!', level: 'a1', copyright: c2 },
+                            { value: 'Leider.', level: 'a1', copyright: c2 },
+                            { value: 'Das ist schade!', level: 'a1', copyright: c2 },
+                            { value: 'Das tut mir leid.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Neigung/Abneigung',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Schmeckt‘s dir nicht?', level: 'a1', copyright: c2 },
+                            { value: '– Doch, sehr gut.', level: 'a1', copyright: c2 },
+                            { value: '– Nein, ich mag eigentlich keinen Fisch.', level: 'a1', copyright: c2 },
+                            { value: 'Isst du gern Chinesisch?', level: 'a1', copyright: c2 },
+                            { value: '– Ja, gern(e).', level: 'a1', copyright: c2 },
+                            { value: '– Nein, nie.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Gelassenheit/Gleichgültigkeit',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Ich kann leider nicht kommen.', level: 'a1', copyright: c2 },
+                            { value: '– Egal.', level: 'a1', copyright: c2 },
+                            { value: '– Na und?', level: 'a1', copyright: c2 },
+                            { value: '– Das ist mir egal', level: 'a1', copyright: c2 },
                         ]
                     },
                     {
                         groupId: 'Mitleid',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: '(Es) Tut mir (wirklich) (sehr) leid.', level: 'a1', copyright: c2 },
+                            { value: 'Das finde ich aber traurig.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Erstaunen/Überraschung',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Komisch!', level: 'a1', copyright: c2 },
+                            { value: 'Das ist ja komisch!', level: 'a1', copyright: c2 },
+                            { value: 'Wie komisch!', level: 'a1', copyright: c2 },
+                            { value: '– Ja, sehr komisch.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Hoffnung',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Hoffentlich regnet es nicht.', level: 'a1', copyright: c2 },
+                            { value: 'Hoffentlich kommt bald der Bus.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Sorge/Befürchtung',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Ich habe Angst.', level: 'a1', copyright: c2 },
+                            { value: 'Schon 10 Uhr, und er ist immer noch nicht da.', level: 'a1', copyright: c2 }
                         ]
                     },
                     {
                         groupId: 'Enttäuschung',
                         entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
+                            { value: 'Was? Du bleibst zu Hause? Schade!', level: 'a1', copyright: c2 }
                         ]
                     }
                 ]
             }
         ]
     },
-    /*
-    createGefuehlsausdruckEntries(Builder) {
-        let entries = [];
-        let thema = ['Sprachhandlungen', 'A1', 'Gefühlsausdruck', ['Freude', 'Bedauern']];
-        entries.push(new Builder().id('2f4102ff-b5da-4782-a49f-cb80de107533').thema(thema).entry(['Ist das nicht toll!', '– Ja, super!', '– Finde ich auch.']).get());
-        entries.push(new Builder().id('1e10b851-3037-4b36-9554-8432b9d6cbe7').thema(thema).entry(['Ich bin glücklich. Und du?', '– Sehr.']).get());
-        entries.push(new Builder().id('11c9ae13-f2bf-47c8-862a-a45a7e7f3c81').thema(thema).entry(['Glückwunsch!', '– Danke!']).get());
-        entries.push(new Builder().id('30a1159a-6975-479f-9055-b4ef8a98fd1e').thema(thema).entry('Leider.').get());
-        entries.push(new Builder().id('8b064ed1-5780-4342-a809-fa6f904b6cc2').thema(thema).entry('Das ist schade!').get());
-        entries.push(new Builder().id('c472f698-3408-4f99-93dd-67a8ae222297').thema(thema).entry('Das tut mir leid.').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Gefühlsausdruck', ['Neigung', 'Abneigung']];
-        entries.push(new Builder().id('1114d72e-6582-4f76-ba2c-f978b439a76e').thema(thema).entry(['Schmeckt‘s dir nicht?', '– Doch, sehr gut.', '– Nein, ich mag eigentlich keinen Fisch.']).get());
-        entries.push(new Builder().id('df3efe9e-6bb8-42b3-9e3a-6baaa9db4065').thema(thema).entry(['Isst du gern Chinesisch?', '– Ja, gern(e).', '– Nein, nie.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Gefühlsausdruck', ['Gelassenheit', 'Gleichgültigkeit']];
-        entries.push(new Builder().id('55272517-9e33-4bc9-826f-0453cf627516').thema(thema).entry(['Ich kann leider nicht kommen.', '– Egal.', '– Na und?', '– Das ist mir egal']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Gefühlsausdruck', 'Mitleid'];
-        entries.push(new Builder().id('2613ea92-3820-415a-8b7e-0e5def457c3a').thema(thema).entry('(Es) Tut mir (wirklich) (sehr) leid.').get());
-        entries.push(new Builder().id('7f252b2e-f251-4efd-bc45-cfed3225aa09').thema(thema).entry('Das finde ich aber traurig.').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Gefühlsausdruck', ['Erstaunen', 'Überraschung']];
-        entries.push(new Builder().id('d4f1bc3d-27db-482d-bf47-5370c5db7c3e').thema(thema).entry(['Komisch!', 'Das ist ja komisch!', 'Wie komisch!', '– Ja, sehr komisch.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Gefühlsausdruck', 'Hoffnung'];
-        entries.push(new Builder().id('98cc5bf9-ec45-4c6f-8703-be480a7a2930').thema(thema).entry('Hoffentlich regnet es nicht.').get());
-        entries.push(new Builder().id('13fe5fb8-a58a-45c6-abc7-1ba71fdf4842').thema(thema).entry('Hoffentlich kommt bald der Bus.').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Gefühlsausdruck', ['Sorge', 'Befürchtung']];
-        entries.push(new Builder().id('15dcbdcf-e5f0-4aa9-bce8-11eeba6035eb').thema(thema).entry(['Ich habe Angst.', 'Schon 10 Uhr, und er ist immer noch nicht da.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Gefühlsausdruck', 'Enttäuschung'];
-        entries.push(new Builder().id('a5de5948-2513-459f-a075-80c75b096007').thema(thema).entry('Was? Du bleibst zu Hause? Schade!').get());
-        return entries;
-    }
-*/
-
     {
         groupId: 'Sprachhandlungen',
         entries: [
@@ -1491,75 +1456,6 @@ const data = [
                         entries: [
                             { value: '', level: 'a1', copyright: c2 },
                             { value: '', level: 'a1', copyright: c2 }
-                        ]
-                    },
-                    {
-                        groupId: 'Bestätigung',
-                        entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
-                        ]
-                    },
-                    {
-                        groupId: 'Hilfe anbieten/annehmen und ablehnen',
-                        entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
-                        ]
-                    },
-                    {
-                        groupId: 'Bestellung/Wunsch',
-                        entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
-                        ]
-                    },
-                    {
-                        groupId: 'Rat/Empfehlung/Warnung',
-                        entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
-                        ]
-                    },
-                    {
-                        groupId: 'Erlaubnis/Genehmigung',
-                        entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
-                        ]
-                    },
-                    {
-                        groupId: 'Vorschlag',
-                        entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
-                        ]
-                    },
-                    {
-                        groupId: 'Versprechung',
-                        entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
-                        ]
-                    },
-                    {
-                        groupId: 'Verabredung',
-                        entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
-                        ]
-                    },
-                    {
-                        groupId: 'Einladung',
-                        entries: [
-                            { value: '', level: 'a1', copyright: c2 },
-                            { value: '', level: 'a1', copyright: c2 }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
     /*
     createHandlungsregulierungEntries(Builder) {
         let entries = [];
@@ -1571,6 +1467,17 @@ const data = [
         entries.push(new Builder().id('b02635ba-19c1-401b-b533-df8d1dbbb0cc').thema(thema).entry(['Gehen wir zusammen essen?', '– Gerne.']).get());
         entries.push(new Builder().id('f9dd9874-ac20-4210-8968-3a7f6fa7e500').thema(thema).entry(['Eine Frage bitte: Wie spät ist es?', '– Es ist halb acht (Uhr).']).get());
 
+    }
+*/
+                        ]
+                    },
+                    {
+                        groupId: 'Bestätigung',
+                        entries: [
+                            { value: '', level: 'a1', copyright: c2 },
+                            { value: '', level: 'a1', copyright: c2 }
+                            /*
+
         thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', 'Bestätigung'];
         entries.push(new Builder().id('7b6cac00-5bae-450c-9022-cf19e577c44e').thema(thema).entry('Stimmt das?').get());
         entries.push(new Builder().id('252779d4-076b-4f65-b5af-076be013fb99').thema(thema).entry('Richtig?').get());
@@ -1579,53 +1486,149 @@ const data = [
         entries.push(new Builder().id('9be964d0-2b8c-43e3-8058-d4874e5927f2').thema(thema).entry('Das ist richtig.').get());
         entries.push(new Builder().id('8aef0da2-9d28-4ecc-8f80-55f9bb19accc').thema(thema).entry('Stimmt.').translate('tout à fait !').get());
         entries.push(new Builder().id('7ee613da-21fa-43cd-805d-2ab1298958f9').thema(thema).entry('Genau (so).').translate(['Absolument !', 'parfaitement !', 'tout à fait !']).get());
+*/
+                        ]
+                    },
+                    {
+                        groupId: 'Hilfe anbieten/annehmen und ablehnen',
+                        entries: [
+                            { value: '', level: 'a1', copyright: c2 },
+                            { value: '', level: 'a1', copyright: c2 }
 
-        thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', 'Hilfe anbieten/annehmen und ablehnen'];
-        entries.push(new Builder().id('f814dff1-ee22-456f-a8e6-53a7555d6e0a').thema(thema).entry(['Kann ich Ihnen helfen?', '– Ja, danke.', '– Gerne.', '– Sehr nett, danke.', '– Nein, danke.']).get());
-
+                            /*
+                                  thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', 'Hilfe anbieten/annehmen und ablehnen'];
+                                    entries.push(new Builder().id('f814dff1-ee22-456f-a8e6-53a7555d6e0a').thema(thema).entry(['Kann ich Ihnen helfen?', '– Ja, danke.', '– Gerne.', '– Sehr nett, danke.', '– Nein, danke.']).get());
+*/
+                        ]
+                    },
+                    {
+                        groupId: 'Bestellung/Wunsch',
+                        entries: [
+                            { value: '', level: 'a1', copyright: c2 },
+                            { value: '', level: 'a1', copyright: c2 }
+/*
         thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', ['Bestellung', 'Wunsch']];
         entries.push(new Builder().id('4e0d36af-557e-4f95-bb7b-2cbb228cf979').thema(thema).entry('Ich möchte ein Zimmer reservieren.').get());
         entries.push(new Builder().id('bfb936b8-4fbb-42b0-a20e-f7339e43186e').thema(thema).entry('Ich nehme die Tomatensuppe und den Salat.').get());
         entries.push(new Builder().id('497cf1c8-2e69-4412-ba77-ad87c39be0e4').thema(thema).entry('Einen Moment.').get());
         entries.push(new Builder().id('a0d6977a-b3ae-4504-a4bb-0aca2b529ac8').thema(thema).entry('Sofort.').get());
         entries.push(new Builder().id('ab6b092c-8925-4916-9074-8cadc42534bd').thema(thema).entry('Gleich.').translate('tout de suite').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', ['Rat', 'Empfehlung', 'Warnung']];
+*/
+                        ]
+                    },
+                    {
+                        groupId: 'Rat/Empfehlung/Warnung',
+                        entries: [
+                            { value: '', level: 'a1', copyright: c2 },
+                            { value: '', level: 'a1', copyright: c2 }
+                        ]
+                        /*
+      thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', ['Rat', 'Empfehlung', 'Warnung']];
         entries.push(new Builder().id('e68c7919-32cf-4beb-b4db-a78bcf92125c').thema(thema).entry('Das ist zu gefährlich/heiß/kalt/...').get());
         entries.push(new Builder().id('8205b27a-fc7b-4811-ac19-412413af286e').thema(thema).entry('Vorsicht!').translate(['Attention !', 'Gare !']).get());
         entries.push(new Builder().id('fe4dada3-75c0-4b08-8cb9-3561207182e3').thema(thema).entry('Achtung!').translate(['Attention !', 'Gare !', 'garde à vous!']).get());
         entries.push(new Builder().id('2be55d69-18f3-42ca-bc05-1e94f7a6d910').thema(thema).entry('Halt!').translate('halte !').get());
         entries.push(new Builder().id('aa6582dc-b6b3-458f-b110-1521a63e7839').thema(thema).entry('Hilfe!').get());
         entries.push(new Builder().id('b9450720-a3e0-4fe1-a8f9-d093ea7ac1cb').thema(thema).entry('Stopp!').get());
+*/
+                    },
+                    {
+                        groupId: 'Erlaubnis/Genehmigung',
+                        entries: [
+                            { value: '', level: 'a1', copyright: c2 },
+                            { value: '', level: 'a1', copyright: c2 }
+                        ]
+/*
 
         thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', ['Erlaubnis', 'Genehmigung']];
         entries.push(new Builder().id('ff0bbdf6-0a17-4342-9708-4a9c47ff9351').thema(thema).entry(['Kann man hier rauchen?', '– Gerne.', '– Natürlich.', '– Ja natürlich.', '– Bitte nicht.', '– Nein, tut mir leid.', '– Das ist hier verboten.']).get());
         entries.push(new Builder().id('13f404c3-f125-4f9c-b430-dac34867c025').thema(thema).entry('Kann ich mal telefonieren?').get());
         entries.push(new Builder().id('88e781a6-6fe8-4c85-9cc4-e3ee81a2e592').thema(thema).entry(['Kann man hier parken?', '– Nein, hier ist Parken verboten.']).get());
+*/
+                    },
+                    {
+                        groupId: 'Vorschlag',
+                        entries: [
+                            { value: '', level: 'a1', copyright: c2 },
+                            { value: '', level: 'a1', copyright: c2 }
+/*
 
         thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', 'Vorschlag'];
         entries.push(new Builder().id('6eefbf43-45f0-4f91-af9a-3519c5bd6c0e').thema(thema).entry(['Gehen wir heute ins Kino?', '– Ja, gerne.']).get());
         entries.push(new Builder().id('330ddfe8-ed76-4ec8-9494-a4064eec8746').thema(thema).entry(['Kommst du mit zu Claudia?', '– Gute Idee.', '– Ja, warum nicht.', '– Gut.', '– Nein, leider nicht.', '– Keine Zeit.', '– Keine Lust']).get());
+        */
+                        ]
+                    },
+                    {
+                        groupId: 'Versprechung',
+                        entries: [
+                            { value: '', level: 'a1', copyright: c2 },
+                            { value: '', level: 'a1', copyright: c2 }
+                        ]
+/*
 
         thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', 'Versprechung'];
         entries.push(new Builder().id('0955d546-d817-427d-adae-13fe86bb44df').thema(thema).entry(['Morgen bekommst du das Geld.', '– Gut.', '– Danke.', '– Hoffentlich!', '– Versprochen?', '– Wirklich?', '– Ich mache es morgen.', '– Das mache ich!']).get());
 
+                        */
+                    },
+                    {
+                        groupId: 'Verabredung',
+                        entries: [
+                            { value: '', level: 'a1', copyright: c2 },
+                            { value: '', level: 'a1', copyright: c2 }
+                        ]
+                        /*
+
         thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', 'Verabredung'];
         entries.push(new Builder().id('ef11140b-e3bb-45f7-ba88-ad2fa9cdf638').thema(thema).entry(['Kannst du morgen Abend?', 'Hast du am Mittwoch Zeit?', '– Ja, wann?', '– Ja, das ist gut.', '– Vielleicht.', '– Nein, (morgen kann ich/geht es) leider nicht.']).get());
         entries.push(new Builder().id('e1f70027-0fbf-480c-918d-1f94e36689c7').thema(thema).entry('Wann hast du (mal/denn) Zeit?').get());
+*/
+                    },
+                    {
+                        groupId: 'Einladung',
+                        entries: [
+                            { value: '', level: 'a1', copyright: c2 },
+                            { value: '', level: 'a1', copyright: c2 }
+                            /*
 
         thema = ['Sprachhandlungen', 'A1', 'Handlungsregulierung', 'Einladung'];
         entries.push(new Builder().id('89c12867-492e-41c2-a8b1-8c4f7ea9edcd').thema(thema).entry(['Möchten Sie (noch) etwas trinken?', 'Orangensaft?', '– Nein, danke.']).get());
         entries.push(new Builder().id('04704e75-c44e-433e-a65a-acf9513a0438').thema(thema).entry(['Was möchten Sie bitte?', '– Nichts, danke.']).get());
         entries.push(new Builder().id('d816e242-fce1-4833-a309-c37d8869771a').thema(thema).entry('Setz dich!').get());
         entries.push(new Builder().id('f52f5db5-74a8-41de-b6d6-e02eb787eccb').thema(thema).entry('Setzen Sie sich doch!').get());
-        return entries;
-    }
 */
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
     {
         groupId: 'Sprachhandlungen',
         entries: [
             {
+  /*
+    createSozialeKonventionenEntries(Builder) {
+        let entries = [];
+        let thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'Kontaktaufnahme: jemanden ansprechen'];
+        entries.push(new Builder().id('284cce58-597b-4d65-889b-6be9de4ecbbe').thema(thema).entry('Hallo!').get());
+        entries.push(new Builder().id('50e4afc6-fef0-45df-a74d-a7494ebc92eb').thema(thema).entry(['Roman Jaremkow.', 'Marija Kosik.', 'Helmut!', 'Frau Klein!']).get());
+        entries.push(new Builder().id('d85395d9-a4a1-446d-a098-234b0daf4475').thema(thema).entry('Ja, bitte?').get());
+        entries.push(new Builder().id('da661874-1bdd-4105-a437-445afb6d01c1').thema(thema).entry('Wie bitte?').get());
+        entries.push(new Builder().id('928c9831-7b36-4bf3-a940-b3004052c958').thema(thema).entry(['Sind Sie nicht Frau Yilmaz?', '– Ja (das stimmt).', '– Ja, warum?', '– Nein, ich bin ...', '– Nein, ich heiße ...', '– Nein, mein Name ist ...']).get());
+
+        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', ['Kontaktaufnahme: jemanden ansprechen', 'Telefon']];
+        entries.push(new Builder().id('dfecd253-9e52-4444-96df-e0d9648abf58').thema(thema).entry(['(Hier) Heine.', 'Guten Tag, Frau Heine.']).get());
+        entries.push(new Builder().id('9e0b184a-f246-4a03-a402-0afec98f61ef').thema(thema).entry('Hier ist Josefa Karosz.').get());
+        entries.push(new Builder().id('e8101477-1613-4b84-a344-41e4fd3cdc65').thema(thema).entry('Hallo, ist Julia da?').get());
+        entries.push(new Builder().id('9b8aae23-fc50-4989-a0c6-242109c8ce37').thema(thema).entry(['Guten Tag. Frau Heuer bitte!', '– Ja, Moment bitte.', '– Tut mir leid, sie ist nicht da.', '– Nein, hier ist ...']).get());
+
+        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', ['Kontaktaufnahme: jemanden ansprechen', 'Brief']];
+        entries.push(new Builder().id('388ee7a6-5ae1-4c22-8ae7-3a4f38f9c1af').thema(thema).entry('Liebe Renate/Frau Haushofer,').get());
+        entries.push(new Builder().id('3141dede-8a04-480f-9995-e1c17f7b265d').thema(thema).entry('Sehr geehrter Herr Liebermann,').get());
+        entries.push(new Builder().id('1e368098-9488-4795-ac93-4288bfe3c4fb').thema(thema).entry('Sehr geehrte Damen und Herren,').get());
+*/
                 groupId: 'Soziale Konventionen',
                 entries: [
                     {
@@ -1660,6 +1663,16 @@ const data = [
                             { value: '', level: 'a1', copyright: c2 },
                             { value: '', level: 'a1', copyright: c2 }
                         ]
+                        /*
+        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'grüßen'];
+        entries.push(new Builder().id('9641e5ef-fa1b-4e36-834d-78e2b236905c').thema(thema).entry(['(Guten) Tag/Hallo, Ulrike!', '– (Guten) Tag/Hallo, Karina.']).get());
+        entries.push(new Builder().id('9c85f5a8-3536-4d39-a747-5705f18fe429').thema(thema).entry(['Guten Morgen, Frau Schneider.', '– Guten Morgen, Frau Kowalski.']).get());
+        entries.push(new Builder().id('3dc74883-3b33-4381-83bb-b759880e9ea5').thema(thema).entry(['Guten Tag, Frau Schneider.', '– Guten Tag, Frau Kowalski.']).get());
+        entries.push(new Builder().id('47bbc845-c4ab-4614-b392-31f36820e20a').thema(thema).entry(['Guten Abend, Frau Schneider.', '– Guten Abend, Frau Kowalski.']).get());
+        entries.push(new Builder().id('585b9506-92a5-4a13-a5dd-02cf2d7b88ec').thema(thema).entry(['Gute Nacht, Christian.', '– Gute Nacht, Bea.']).get());
+        entries.push(new Builder().id('f396c6f3-f261-44aa-9a21-ab500fe421a4').thema(thema).entry(['Hallo, wie geht’s?/wie geht es dir?', '– Danke, gut.']).get());
+        entries.push(new Builder().id('5ff10e14-c789-4ccb-89b2-044b0e313316').thema(thema).entry(['Grüß Gott! (süddeutsch)', '– Grüß Gott!']).get());
+*/
                     },
                     {
                         groupId: 'sich/jemanden vorstellen',
@@ -1667,6 +1680,12 @@ const data = [
                             { value: '', level: 'a1', copyright: c2 },
                             { value: '', level: 'a1', copyright: c2 }
                         ]
+                        /*
+        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'sich/jemanden vorstellen'];
+        entries.push(new Builder().id('bf43ae14-ce70-4ce6-b9ac-47775f84550d').thema(thema).entry(['(Hallo) Mein Name ist/Ich heiße Vera.', '– Hallo, Vera. Ich heiße Mario.']).get());
+        entries.push(new Builder().id('4a8ac2ee-23c0-419e-96dd-f5f6f07d2226').thema(thema).entry(['(Guten Tag) Ich bin Petra Holl.', '– Guten Tag. Ich bin Ulrike Meyer.']).get());
+        entries.push(new Builder().id('ee96a88b-461e-4929-bf73-00f1313b1ac3').thema(thema).entry(['Das ist Ulrich Pfeiffer.', '– Ah ja. Ich heiße Johanna Hauser.', '– Ah ja. Ich bin Johanna Hauser.']).get());
+*/
                     },
                     {
                         groupId: 'über das Befinden sprechen',
@@ -1674,6 +1693,11 @@ const data = [
                             { value: '', level: 'a1', copyright: c2 },
                             { value: '', level: 'a1', copyright: c2 }
                         ]
+                        /*
+        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'über das Befinden sprechen'];
+        entries.push(new Builder().id('9bcf21c4-e109-4ee1-87e8-6e5be05d4f45').thema(thema).entry(["Wie geht’s/geht es dir (heute)?", '– Danke, gut. Und dir?', '– Danke, es geht gut. Und dir?', '– Danke, es geht nicht gut. Und dir?']).get());
+        entries.push(new Builder().id('9d244000-5b0a-41b7-a6d9-7e731ac769f1').thema(thema).entry(['Geht es Ihnen gut?', '– Ja, super.', '– Na ja, es geht!', '– Ach, nicht so gut.']).get());
+*/
                     },
                     {
                         groupId: 'gute Wünsche',
@@ -1681,12 +1705,23 @@ const data = [
                             { value: '', level: 'a1', copyright: c2 },
                             { value: '', level: 'a1', copyright: c2 }
                         ]
+                        /*
+        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'gute Wünsche'];
+        entries.push(new Builder().id('ec31bb30-3eca-4519-a58a-cda426f76f41').thema(thema).entry('Alles Gute.').translate(['Mes meilleurs vœux !', 'toutes sortes de bonnes choses']).get());
+        entries.push(new Builder().id('665a376c-ffb0-45d7-8a5b-77a02bb26800').thema(thema).entry('Schöne Ferien!').get());
+        entries.push(new Builder().id('d5fb4405-9280-4c90-92c8-539ffd3dfcd2').thema(thema).entry('Gut gemacht!').get());
+        entries.push(new Builder().id('71fb9dd6-cd72-4ea5-ab28-969eb310270d').thema(thema).entry('Prost!').get());
+*/
                     },
                     {
                         groupId: 'Gratulation',
                         entries: [
                             { value: '', level: 'a1', copyright: c2 },
                             { value: '', level: 'a1', copyright: c2 }
+                            /*
+        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'Gratulation'];
+        entries.push(new Builder().id('6bf39333-5e0b-442a-b041-07c2590a9c4f').thema(thema).entry(['Herzlichen Glückwunsch', '– Danke (schön)!', '– Herzlichen', '– Vielen Dank.', '– Ihnen auch.', '– Danke, ebenfalls.']).get());
+        */
                         ]
                     },
                     {
@@ -1695,18 +1730,32 @@ const data = [
                             { value: '', level: 'a1', copyright: c2 },
                             { value: '', level: 'a1', copyright: c2 }
                         ]
+                        /*
+      thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', ['eine Anerkennung aussprechen', 'ein Kompliment machen']];
+        entries.push(new Builder().id('4f09dba2-c0a5-4215-8565-4822235c68b7').thema(thema).entry('Sie sprechen (sehr) gut Deutsch.').get());
+        entries.push(new Builder().id('cd8fb1d9-3a27-42b2-8bf0-dfcdf09d4a45').thema(thema).entry('Das ist toll/(sehr) schön/gut.').get());
+        entries.push(new Builder().id('7530c370-b3ce-489c-8002-022761df3894').thema(thema).entry('Das schmeckt gut.').translate(["c'est bon", "celà a un bon goût"]).get());
+        */
                     },
                     {
                         groupId: 'Dank',
                         entries: [
                             { value: '', level: 'a1', copyright: c2 },
                             { value: '', level: 'a1', copyright: c2 },
+                            /*
+        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'Dank'];
+        entries.push(new Builder().id('65f1cdbf-ffd7-435c-bae5-ad7bd1df4125').thema(thema).entry(['Danke (schön)!', 'Herzlichen', 'Vielen Dank.', '– Ihnen auch.', '– Danke, ebenfalls.', '– (Aber) Bitte.']).get());
+*/
                             {
                                 groupId: 'Brief',
                                 entries: [
                                     { value: '', level: 'a1', copyright: c2 },
                                     { value: '', level: 'a1', copyright: c2 }
                                 ]
+                                /*
+      thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'Dank', 'Brief'];
+        entries.push(new Builder().id('80fbe548-bab1-4492-ad9c-aaff7150acc8').thema(thema).entry('Vielen Dank.').get());
+        */
                             }
                         ]
                     },
@@ -1716,18 +1765,35 @@ const data = [
                             { value: '', level: 'a1', copyright: c2 },
                             { value: '', level: 'a1', copyright: c2 }
                         ]
+                        /*
+        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'Entschuldigung'];
+        entries.push(new Builder().id('9079ef28-7a23-4b61-a979-8583db94f4ab').thema(thema).entry(['Entschuldigung', 'Entschuldigen Sie bitte!', '– Bitte!', '– Schon gut.', '– Kein Problem.']).get());
+*/
                     },
                     {
                         groupId: 'Verabschiedung',
                         entries: [
                             { value: '', level: 'a1', copyright: c2 },
                             { value: '', level: 'a1', copyright: c2 },
+                            /*
+        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'Verabschiedung'];
+        entries.push(new Builder().id('f0a6f68a-a533-4b53-b896-e6d3b0488a91').thema(thema).entry('(Auf) Wiedersehen!').get());
+        entries.push(new Builder().id('de30ade5-f01d-4b43-a4cf-c86aa544cc48').thema(thema).entry('Tschüss!').get());
+        entries.push(new Builder().id('c0ad5a09-26c3-4263-976e-66d7061b1a06').thema(thema).entry('Bis bald.').get());
+        entries.push(new Builder().id('1b48c2f7-d1e9-403d-99c6-8731d2bef6f7').thema(thema).entry('Bis später.').get());
+        entries.push(new Builder().id('eed44aa0-a4e1-4f7c-aef7-192dd877dcc2').thema(thema).entry('Gute Nacht!').get());
+*/
                             {
                                 groupId: 'Telefon',
                                 entries: [
                                     { value: '', level: 'a1', copyright: c2 },
                                     { value: '', level: 'a1', copyright: c2 }
                                 ]
+                                /*
+
+        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', ['Verabschiedung', 'Telefon']];
+        entries.push(new Builder().id('65313ed7-830a-4401-88a7-b3ba0d53c14e').thema(thema).entry('(Auf) Wiederhören!').get());
+*/
                             },
                             {
                                 groupId: 'Brief',
@@ -1735,91 +1801,18 @@ const data = [
                                     { value: '', level: 'a1', copyright: c2 },
                                     { value: '', level: 'a1', copyright: c2 }
                                 ]
-                            }
+                                /*
+
+        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', ['Verabschiedung', 'Brief']];
+        entries.push(new Builder().id('28123bbc-a83b-497d-b3cc-7e46e25bb3ef').thema(thema).entry(['Liebe Grüße', 'Herzliche Grüße']).get());
+        entries.push(new Builder().id('debc19da-c966-472f-857d-882fcbce3e35').thema(thema).entry('Mit freundlichen Grüßen').get());
+*/                            }
                         ]
                     }
                 ]
             }
         ]
-    },
-    /*
-    createSozialeKonventionenEntries(Builder) {
-        let entries = [];
-        let thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'Kontaktaufnahme: jemanden ansprechen'];
-        entries.push(new Builder().id('284cce58-597b-4d65-889b-6be9de4ecbbe').thema(thema).entry('Hallo!').get());
-        entries.push(new Builder().id('50e4afc6-fef0-45df-a74d-a7494ebc92eb').thema(thema).entry(['Roman Jaremkow.', 'Marija Kosik.', 'Helmut!', 'Frau Klein!']).get());
-        entries.push(new Builder().id('d85395d9-a4a1-446d-a098-234b0daf4475').thema(thema).entry('Ja, bitte?').get());
-        entries.push(new Builder().id('da661874-1bdd-4105-a437-445afb6d01c1').thema(thema).entry('Wie bitte?').get());
-        entries.push(new Builder().id('928c9831-7b36-4bf3-a940-b3004052c958').thema(thema).entry(['Sind Sie nicht Frau Yilmaz?', '– Ja (das stimmt).', '– Ja, warum?', '– Nein, ich bin ...', '– Nein, ich heiße ...', '– Nein, mein Name ist ...']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', ['Kontaktaufnahme: jemanden ansprechen', 'Telefon']];
-        entries.push(new Builder().id('dfecd253-9e52-4444-96df-e0d9648abf58').thema(thema).entry(['(Hier) Heine.', 'Guten Tag, Frau Heine.']).get());
-        entries.push(new Builder().id('9e0b184a-f246-4a03-a402-0afec98f61ef').thema(thema).entry('Hier ist Josefa Karosz.').get());
-        entries.push(new Builder().id('e8101477-1613-4b84-a344-41e4fd3cdc65').thema(thema).entry('Hallo, ist Julia da?').get());
-        entries.push(new Builder().id('9b8aae23-fc50-4989-a0c6-242109c8ce37').thema(thema).entry(['Guten Tag. Frau Heuer bitte!', '– Ja, Moment bitte.', '– Tut mir leid, sie ist nicht da.', '– Nein, hier ist ...']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', ['Kontaktaufnahme: jemanden ansprechen', 'Brief']];
-        entries.push(new Builder().id('388ee7a6-5ae1-4c22-8ae7-3a4f38f9c1af').thema(thema).entry('Liebe Renate/Frau Haushofer,').get());
-        entries.push(new Builder().id('3141dede-8a04-480f-9995-e1c17f7b265d').thema(thema).entry('Sehr geehrter Herr Liebermann,').get());
-        entries.push(new Builder().id('1e368098-9488-4795-ac93-4288bfe3c4fb').thema(thema).entry('Sehr geehrte Damen und Herren,').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'grüßen'];
-        entries.push(new Builder().id('9641e5ef-fa1b-4e36-834d-78e2b236905c').thema(thema).entry(['(Guten) Tag/Hallo, Ulrike!', '– (Guten) Tag/Hallo, Karina.']).get());
-        entries.push(new Builder().id('9c85f5a8-3536-4d39-a747-5705f18fe429').thema(thema).entry(['Guten Morgen, Frau Schneider.', '– Guten Morgen, Frau Kowalski.']).get());
-        entries.push(new Builder().id('3dc74883-3b33-4381-83bb-b759880e9ea5').thema(thema).entry(['Guten Tag, Frau Schneider.', '– Guten Tag, Frau Kowalski.']).get());
-        entries.push(new Builder().id('47bbc845-c4ab-4614-b392-31f36820e20a').thema(thema).entry(['Guten Abend, Frau Schneider.', '– Guten Abend, Frau Kowalski.']).get());
-        entries.push(new Builder().id('585b9506-92a5-4a13-a5dd-02cf2d7b88ec').thema(thema).entry(['Gute Nacht, Christian.', '– Gute Nacht, Bea.']).get());
-        entries.push(new Builder().id('f396c6f3-f261-44aa-9a21-ab500fe421a4').thema(thema).entry(['Hallo, wie geht’s?/wie geht es dir?', '– Danke, gut.']).get());
-        entries.push(new Builder().id('5ff10e14-c789-4ccb-89b2-044b0e313316').thema(thema).entry(['Grüß Gott! (süddeutsch)', '– Grüß Gott!']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'sich/jemanden vorstellen'];
-        entries.push(new Builder().id('bf43ae14-ce70-4ce6-b9ac-47775f84550d').thema(thema).entry(['(Hallo) Mein Name ist/Ich heiße Vera.', '– Hallo, Vera. Ich heiße Mario.']).get());
-        entries.push(new Builder().id('4a8ac2ee-23c0-419e-96dd-f5f6f07d2226').thema(thema).entry(['(Guten Tag) Ich bin Petra Holl.', '– Guten Tag. Ich bin Ulrike Meyer.']).get());
-        entries.push(new Builder().id('ee96a88b-461e-4929-bf73-00f1313b1ac3').thema(thema).entry(['Das ist Ulrich Pfeiffer.', '– Ah ja. Ich heiße Johanna Hauser.', '– Ah ja. Ich bin Johanna Hauser.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'über das Befinden sprechen'];
-        entries.push(new Builder().id('9bcf21c4-e109-4ee1-87e8-6e5be05d4f45').thema(thema).entry(["Wie geht’s/geht es dir (heute)?", '– Danke, gut. Und dir?', '– Danke, es geht gut. Und dir?', '– Danke, es geht nicht gut. Und dir?']).get());
-        entries.push(new Builder().id('9d244000-5b0a-41b7-a6d9-7e731ac769f1').thema(thema).entry(['Geht es Ihnen gut?', '– Ja, super.', '– Na ja, es geht!', '– Ach, nicht so gut.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'gute Wünsche'];
-        entries.push(new Builder().id('ec31bb30-3eca-4519-a58a-cda426f76f41').thema(thema).entry('Alles Gute.').translate(['Mes meilleurs vœux !', 'toutes sortes de bonnes choses']).get());
-        entries.push(new Builder().id('665a376c-ffb0-45d7-8a5b-77a02bb26800').thema(thema).entry('Schöne Ferien!').get());
-        entries.push(new Builder().id('d5fb4405-9280-4c90-92c8-539ffd3dfcd2').thema(thema).entry('Gut gemacht!').get());
-        entries.push(new Builder().id('71fb9dd6-cd72-4ea5-ab28-969eb310270d').thema(thema).entry('Prost!').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'Gratulation'];
-        entries.push(new Builder().id('6bf39333-5e0b-442a-b041-07c2590a9c4f').thema(thema).entry(['Herzlichen Glückwunsch', '– Danke (schön)!', '– Herzlichen', '– Vielen Dank.', '– Ihnen auch.', '– Danke, ebenfalls.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', ['eine Anerkennung aussprechen', 'ein Kompliment machen']];
-        entries.push(new Builder().id('4f09dba2-c0a5-4215-8565-4822235c68b7').thema(thema).entry('Sie sprechen (sehr) gut Deutsch.').get());
-        entries.push(new Builder().id('cd8fb1d9-3a27-42b2-8bf0-dfcdf09d4a45').thema(thema).entry('Das ist toll/(sehr) schön/gut.').get());
-        entries.push(new Builder().id('7530c370-b3ce-489c-8002-022761df3894').thema(thema).entry('Das schmeckt gut.').translate(["c'est bon", "celà a un bon goût"]).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'Dank'];
-        entries.push(new Builder().id('65f1cdbf-ffd7-435c-bae5-ad7bd1df4125').thema(thema).entry(['Danke (schön)!', 'Herzlichen', 'Vielen Dank.', '– Ihnen auch.', '– Danke, ebenfalls.', '– (Aber) Bitte.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'Dank', 'Brief'];
-        entries.push(new Builder().id('80fbe548-bab1-4492-ad9c-aaff7150acc8').thema(thema).entry('Vielen Dank.').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'Entschuldigung'];
-        entries.push(new Builder().id('9079ef28-7a23-4b61-a979-8583db94f4ab').thema(thema).entry(['Entschuldigung', 'Entschuldigen Sie bitte!', '– Bitte!', '– Schon gut.', '– Kein Problem.']).get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', 'Verabschiedung'];
-        entries.push(new Builder().id('f0a6f68a-a533-4b53-b896-e6d3b0488a91').thema(thema).entry('(Auf) Wiedersehen!').get());
-        entries.push(new Builder().id('de30ade5-f01d-4b43-a4cf-c86aa544cc48').thema(thema).entry('Tschüss!').get());
-        entries.push(new Builder().id('c0ad5a09-26c3-4263-976e-66d7061b1a06').thema(thema).entry('Bis bald.').get());
-        entries.push(new Builder().id('1b48c2f7-d1e9-403d-99c6-8731d2bef6f7').thema(thema).entry('Bis später.').get());
-        entries.push(new Builder().id('eed44aa0-a4e1-4f7c-aef7-192dd877dcc2').thema(thema).entry('Gute Nacht!').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', ['Verabschiedung', 'Telefon']];
-        entries.push(new Builder().id('65313ed7-830a-4401-88a7-b3ba0d53c14e').thema(thema).entry('(Auf) Wiederhören!').get());
-
-        thema = ['Sprachhandlungen', 'A1', 'Soziale Konventionen', ['Verabschiedung', 'Brief']];
-        entries.push(new Builder().id('28123bbc-a83b-497d-b3cc-7e46e25bb3ef').thema(thema).entry(['Liebe Grüße', 'Herzliche Grüße']).get());
-        entries.push(new Builder().id('debc19da-c966-472f-857d-882fcbce3e35').thema(thema).entry('Mit freundlichen Grüßen').get());
-        return entries;
     }
-*/
 ];
 
 
