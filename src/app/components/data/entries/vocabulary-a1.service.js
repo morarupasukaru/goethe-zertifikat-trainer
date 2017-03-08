@@ -54,6 +54,7 @@ class VocabularyA1Service {
     createZahlenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Zahlen'];
+        /*
         entries.push(new Builder().id('8fb96813-36bc-4932-adfb-412ccfd88548').thema(thema).entry('Zahl').get());
         entries.push(new Builder().id('5bf6a357-242b-46b7-8a0e-7c66c0669dda').thema(thema).entry('eins').alternative('1').get());
         entries.push(new Builder().id('e90d5dc4-c6a4-4a4c-b8ce-2e9bee153829').thema(thema).entry('zwei').alternative('2').get());
@@ -94,12 +95,14 @@ class VocabularyA1Service {
         entries.push(new Builder().id('ea424c12-d3a7-40bd-8708-e0145d650d69').thema(thema).entry('dritte').get());
         entries.push(new Builder().id('3e3e5149-95f3-4eae-bfb2-6d4b0059eb3f').thema(thema).entry('vierte').get());
         entries.push(new Builder().id('2639629e-b3d6-4f22-b5b8-9fa23a8173ef').thema(thema).entry('usw.').get());
+        */
         return entries;
     }
 
     createDatumEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Datum'];
+        /*
         entries.push(new Builder().id('4b49807e-625b-4339-bf4d-ab4fda27cbbf').thema(thema).entry('Datum').get());
         entries.push(new Builder().id('155e7251-c663-4699-ad9c-d7d59b25989f').thema(thema).entry('ein halb; halb').alternative('1/2').get());
         entries.push(new Builder().id('102e14fe-89eb-423e-99b5-5791bb967747').thema(thema).entry('ein Vertiel; Viertel ...').alternative('1/4').get());
@@ -107,12 +110,14 @@ class VocabularyA1Service {
         entries.push(new Builder().id('261bec94-db27-4c3f-a59b-1b4ee8e3cbc4').thema(thema).entry('zweitausendvierzehn').alternative('2014').get());
         entries.push(new Builder().id('258fb3cd-9b3e-49d0-a1aa-dc34c1efbec1').thema(thema).entry('heute ist der erste März/der erste Dritte').alternative('heute ist der 1. März').get());
         entries.push(new Builder().id('dde3aee0-42d0-4191-91c8-54ec097f605f').thema(thema).entry('Berlin, zwölfter Vierter zweitausendzwei').alternative('Berlin, 12. April 2002').get());
+        */
         return entries;
     }
 
     createUhrzeitEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Uhrzeit'];
+        /*
         entries.push(new Builder().id('bc1db69f-13b1-4040-b02b-fca5bc8804af').thema(thema).entry('Uhrzeit').get());
         entries.push(new Builder().id('b866a346-0417-4145-9d9b-3824bbc34fc2').thema(thema).entry('0.03 Uhr').alternative('null Uhr drei').get());
         entries.push(new Builder().id('8cf09d42-daa8-4b66-b43a-7b3ce538a722').thema(thema).entry('7.15 Uhr').alternative('sieben Uhr fünfzehn').get());
@@ -122,6 +127,7 @@ class VocabularyA1Service {
         entries.push(new Builder().id('56f22419-b826-4870-b872-2d1b000bb80a').thema(thema).entry('fünf Minuten vor/nach eins (ein Uhr)').get());
         entries.push(new Builder().id('c67fbbe2-2cc3-4a27-847d-fa3c9ac26011').thema(thema).entry('Viertel vor/nach zwei (zwei Uhr)').get());
         entries.push(new Builder().id('2d22157f-bffa-4bfb-9415-ebbb957e71ec').thema(thema).entry('halb drei').get());
+        */
         return entries;
     }
 
@@ -130,18 +136,21 @@ class VocabularyA1Service {
         let thema = ['Wortschatz', 'A1', 'Zeitmaße, Zeitangaben'];
         entries.push(new Builder().id('d8449482-2c2c-42fa-b957-7f4f6aee9263').thema(thema).entry('Zeitmaß').translate('mesure').get());
         entries.push(new Builder().id('a0a83979-7273-4eb0-8d8d-39ad6ff07a49').thema(thema).entry('Zeitangabe').translate('horaire').get());
+        /*
         entries.push(new Builder().id('855e7ffa-5f40-4272-8609-d44f3218fcfd').thema(thema).entry('die Sekunde, -n').get());
         entries.push(new Builder().id('a63988f4-e29e-406a-867d-26efe4c217e1').thema(thema).entry('die Minute, -n').get());
         entries.push(new Builder().id('c9440b2a-13a2-42fa-8b29-0371471b02ea').thema(thema).entry('die Stunde, -n').get());
         entries.push(new Builder().id('b79b883c-c7bf-483f-8f92-cf24857f90e3').thema(thema).entry('der Tag, -e').get());
         entries.push(new Builder().id('48637174-4333-4af0-a257-e6e3cdad927f').thema(thema).entry('die Woche, -e').get());
         entries.push(new Builder().id('f033e13e-6578-453e-bc95-f20e466a4aa4').thema(thema).entry('das Jahr, -e').get());
+        */
         return entries;
     }
 
     createWocheEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Woche/Wochentage'];
+        /*
         entries.push(new Builder().id('fc2397a9-3948-466f-adb2-778dd826a81d').thema(thema).entry('Woche').get());
         entries.push(new Builder().id('df9c948b-b7a7-4a90-91ca-3028ade747f2').thema(thema).entry('der Wochentag, -e').get());
         entries.push(new Builder().id('c68e70cb-28a1-4fb2-92ba-326ab62bd053').thema(thema).entry('der Sonntag').get());
@@ -153,14 +162,16 @@ class VocabularyA1Service {
         entries.push(new Builder().id('9e430777-cf83-464f-87d7-59226d55946f').thema(thema).entry('der Samstag/Sonnabend').get());
         entries.push(new Builder().id('5f66e223-4c46-4dfb-96cd-ed8f979a7657').thema(thema).entry('das Wochenende').get());
         entries.push(new Builder().id('9e9417eb-2d07-45b3-a4b1-d837ac7d2f82').thema(thema).entry('am Wochenende').get());
+        */
         return entries;
     }
 
     createTagEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Tag/Tageszeiten'];
-        entries.push(new Builder().id('a97f2c69-93a9-4c73-82d8-95e389bb8c09').thema(thema).entry('Tag').get());
 		entries.push(new Builder().id('a0c4bfe6-3095-424c-a138-4316999e54c9').thema(thema).entry('Tageszeit').translate('heure du jour').get());
+		/*
+        entries.push(new Builder().id('a97f2c69-93a9-4c73-82d8-95e389bb8c09').thema(thema).entry('Tag').get());
 		entries.push(new Builder().id('0be7c9a7-4748-4a75-ae18-434c8736f80d').thema(thema).entry('der Tag').get());
 		entries.push(new Builder().id('9e1fd706-f1b5-40f6-bd75-58bb80f32f50').thema(thema).entry('der Morgen').get());
 		entries.push(new Builder().id('9c525326-4d41-4fb2-8b27-0c6f60d52072').thema(thema).entry('der Vormittag,-e').get());
@@ -168,12 +179,14 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('b4783936-0e7f-4aab-baa4-ea5613e78f25').thema(thema).entry('der Nachmittag,-e').get());
 		entries.push(new Builder().id('09de5061-4ff0-46b7-a73f-ecfaf734e6dc').thema(thema).entry('der Abend,-e').get());
 		entries.push(new Builder().id('c1d329bb-163d-456a-89a6-13e4b4d97f9c').thema(thema).entry('die Nacht, ̈-e').get());
+		*/
         return entries;
     }
 
     createMonatEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Monat/Monatsnamen'];
+        /*
 		entries.push(new Builder().id('cdf4d716-25ed-45e3-b9ea-5ce5dd3c1c52').thema(thema).entry('Monat').get());
 		entries.push(new Builder().id('8da335aa-02b5-4bab-b83a-91accb6560b9').thema(thema).entry('Monatsname').get());
 		entries.push(new Builder().id('645fb930-c485-4e0d-ab54-b56b55e07d4f').thema(thema).entry('der Januar').get());
@@ -188,18 +201,21 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('a1d28685-81cb-4c6c-b93c-1bdbf5353c22').thema(thema).entry('der Oktober').get());
 		entries.push(new Builder().id('e56a31cb-ff1c-4653-a853-974022eb57f9').thema(thema).entry('der November').get());
 		entries.push(new Builder().id('d6d4b747-a23f-4f03-b153-cef6f057841c').thema(thema).entry('der Dezember').get());
+		*/
         return entries;
     }
 
     createJahrEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Jahr/Jahreszeiten'];
-		entries.push(new Builder().id('3f3e04d3-abfc-4c1a-9f6d-9ac11330faed').thema(thema).entry('Jahr').get());
 		entries.push(new Builder().id('eea71e27-758d-4c51-8957-6ee8b508ca9e').thema(thema).entry('Jahreszeit').translate('saison').get());
 		entries.push(new Builder().id('63f4f5c6-a371-45be-9314-e8e6e12b3939').thema(thema).entry('der Frühling/das Frühjahr').get());
+		/*
+		entries.push(new Builder().id('3f3e04d3-abfc-4c1a-9f6d-9ac11330faed').thema(thema).entry('Jahr').get());
 		entries.push(new Builder().id('1d11e0fa-ef02-4877-8cac-25afeb86d6d4').thema(thema).entry('der Sommer').get());
 		entries.push(new Builder().id('62ad9bcd-cc2e-4967-8e15-149ef1f40159').thema(thema).entry('der Herbst').get());
 		entries.push(new Builder().id('5c8eadea-9bbf-44fd-ba5c-4b95cf531d39').thema(thema).entry('der Winter').get());
+		*/
         return entries;
     }
 
@@ -207,8 +223,10 @@ class VocabularyA1Service {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Währungen'];
 		entries.push(new Builder().id('88caf01b-f1fe-48f5-85ed-78771baed0b3').thema(thema).entry('Währung').translate('monnaie').get());
+		/*
 		entries.push(new Builder().id('1f6c7efb-a092-447e-baa5-d6735c425d5e').thema(thema).entry('1 Euro').get());
 		entries.push(new Builder().id('0d433e60-cc56-417b-b138-f9d58c9fa107').thema(thema).entry('100 Cent').get());
+		*/
         return entries;
     }
 
@@ -217,6 +235,8 @@ class VocabularyA1Service {
         let thema = ['Wortschatz', 'A1', 'Maße und Gewichte'];
 		entries.push(new Builder().id('7c6187c3-78aa-4d0f-920a-129bb379f0c2').thema(thema).entry('Maße').translate('dimension').get());
 		entries.push(new Builder().id('fe46c389-a6f0-439d-97a1-58b4e60eea66').thema(thema).entry('Gewicht').translate('poid').get());
+		entries.push(new Builder().id('0daa56e3-2c89-44e8-bb4c-f3752e452e25').thema(thema).entry('ein Pfund').alternative('500 g').translate('demi-kilo').get());
+		/*
 		entries.push(new Builder().id('71b67639-5e6d-4429-9210-7fe37a97a639').thema(thema).entry('ein Meter').alternative('1 m').get());
 		entries.push(new Builder().id('aa16a335-27df-471d-acb7-99422d776c8c').thema(thema).entry('ein Zentimeter').alternative('1 cm').get());
 		entries.push(new Builder().id('2a4e610e-f9ad-4570-8285-e67dcb0523b4').thema(thema).entry('ein Meter fünfzehn').alternative('1,15 m').get());
@@ -227,8 +247,8 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('996db08a-5eda-4299-802a-7e3884c2fd91').thema(thema).entry('ein Prozent').alternative('1 %').get());
 		entries.push(new Builder().id('f01801c6-8ba9-4046-8a81-f90023fd8ae9').thema(thema).entry('ein Liter').alternative('1 l').get());
 		entries.push(new Builder().id('47c47aa0-0d35-45c8-a7ed-062383510cdb').thema(thema).entry('ein Gramm').alternative('1 g').get());
-		entries.push(new Builder().id('0daa56e3-2c89-44e8-bb4c-f3752e452e25').thema(thema).entry('ein Pfund').alternative('500 g').translate('demi-kilo').get());
 		entries.push(new Builder().id('e126211e-c4e5-43b1-a9ac-4ad48a3691f9').thema(thema).entry('ein Kilo(gramm)').alternative('1 kg').get());
+		*/
         return entries;
     }
 
@@ -255,6 +275,7 @@ class VocabularyA1Service {
     createFarbenEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Farben'];
+        /*
 		entries.push(new Builder().id('b33914b5-bb0d-4c0c-b615-151e2f3566b8').thema(thema).entry('Farbe').get());
 		entries.push(new Builder().id('6aa63676-8144-4ab3-91b5-13fb69a50f7d').thema(thema).entry('schwarz').get());
 		entries.push(new Builder().id('feaacc28-385f-4609-a2b9-1a8baaee80af').thema(thema).entry('grau').get());
@@ -264,6 +285,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('3eb17299-eb77-49db-a7f1-f512dfa7167c').thema(thema).entry('rot').get());
 		entries.push(new Builder().id('8971cafd-74fe-441a-9620-88b56efcedc1').thema(thema).entry('gelb').get());
 		entries.push(new Builder().id('1c004088-6e9b-4136-9711-f30823b50e5d').thema(thema).entry('braun').get());
+		*/
         return entries;
     }
 
