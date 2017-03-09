@@ -9,7 +9,8 @@ class EntriesService {
 
     initData() {
         this.entries = [];
-        this.addAll(this.vocabularyA1Service.getEntries());
+        // TODO uncomment when voc a2 is translate
+        // this.addAll(this.vocabularyA1Service.getEntries());
         this.addAll(this.vocabularyA2Service.getEntries());
     }
 
