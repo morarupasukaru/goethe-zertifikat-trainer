@@ -1179,7 +1179,22 @@ const data = [
                             { value: '– Nein, eine Zitrone.', level: 'a1', copyright: c2 },
                             { value: 'Wie heißt das auf Deutsch? Erklären Sie mal.', level: 'a1', copyright: c2 },
                             { value: 'Der Film heißt „Abgeschminkt“.', level: 'a1', copyright: c2 },
-                            { value: 'Diese CD gehört mir', level: 'a1', copyright: c2 }
+                           { value: 'Diese CD gehört mir', level: 'a1', copyright: c2 }
+                           /*
+– Alle Schüler kommen aus Russland.
+– Das ist Wolfgang/Frau Brandt/mein Bruder.
+– Das ist ein Musikinstrument.
+– Was ist das deutsche Wort für ...
+– Auf Deutsch sagt man „Obst“.
+Wer kann das Wort erklären?
+– Was braucht man zum Schreiben?
+– Welche Unterrichtsfächer findest du
+interessant/langweilig?
+– Er ist ein typischer Norweger.
+– Von Beruf ist meine Mutter Ärztin.
+– Der Computer gehört mir.
+– Was für einen Pulli hast du gekauft?
+                           */
                         ]
                     },
                     {
@@ -1189,6 +1204,12 @@ const data = [
                             { value: 'Wie sieht die Tasche aus?', level: 'a1', copyright: c2 },
                             { value: '– Sie ist braun.', level: 'a1', copyright: c2 }
                         ]
+/*
+– Kannst du sie beschreiben? Sie ist blond,
+nicht sehr groß und hat grüne Augen.
+– Palermo ist eine große Stadt in Süditalien
+und liegt am Meer.
+                        */
                     },
                     {
                         groupId: 'erklären',
@@ -1196,6 +1217,11 @@ const data = [
                         entries: [
                             { value: 'Wie geht das?', level: 'a1', copyright: c2 }
                         ]
+/*
+                        – Wie macht man das? Wie geht das?
+                        – Du musst zuerst den Computer anmachen
+                        und dann siehst du alles.
+                        */
                     },
                     {
                         groupId: 'berichten',
@@ -1203,6 +1229,14 @@ const data = [
                         entries: [
                             { value: 'Was ist passiert?', level: 'a1', copyright: c2 },
                             { value: '– Ich hatte einen Unfall.', level: 'a1', copyright: c2 }
+                            /*
+– Ich war im Sommer in Berlin.
+– Ich habe in den Ferien einen Deutschkurs
+gemacht.
+– Was ist passiert? Michael hatte einen Unfall
+und liegt jetzt im Krankenhaus. Er ist aber
+nur leicht verletzt.
+                            */
                         ]
                     },
                     {
@@ -1213,6 +1247,15 @@ const data = [
                             { value: '– Ich besuche Freunde.', level: 'a1', copyright: c2 },
                             { value: 'Wann fährst du (wieder)?', level: 'a1', copyright: c2 },
                             { value: '– Nächstes Jahr fahren wir nach Griechenland.', level: 'a1', copyright: c2 }
+                            /*
+– Die Party ist am Samstag um halb acht.
+– Wir treffen uns am Samstag vor der Schule.
+– In den Ferien fahre ich zu meiner Tante
+nach Paris.
+– Wann schreiben wir den Englischtest?
+Am nächsten Donnerstag in der ersten
+Stunde.
+                            */
                         ]
                     },
                     {
@@ -1220,6 +1263,15 @@ const data = [
                         translate: ['Zweck  angeben: citer but', 'Bestimmung angeben: citer détermination'],
                         entries: [
                             { value: 'Was ist das?', level: 'a1', copyright: c2 }
+                            /*
+– Das Geschenk ist für Peter.
+– Was ist das? Das brauche ich für meinen
+Motorroller.
+– Wie geht das? Das geht so: Du musst ...
+– Was kann man mit dem Computer machen?
+Mit dem Computer kann man alle neuen
+Spiele machen.
+                            */
                         ]
                     },
                     {
@@ -1230,8 +1282,21 @@ const data = [
                             { value: '– Ja.', level: 'a1', copyright: c2 },
                             { value: '– Nein.', level: 'a1', copyright: c2 },
                             { value: '– Vielleicht.', level: 'a1', copyright: c2 }
+/*
+– Weißt du das? – Ja./Nein./Noch nicht.
+– Bist du sicher? Weißt du das genau?
+– Ich bin (nicht) sicher.
+– Sie kommt bestimmt/wahrscheinlich.
+– Vielleicht hat sie es vergessen.
+                            */
                         ]
                     }
+/*
+groupId: Nachfrage
+– Wir treffen uns am Mittag vor der Schule.
+Wann genau?
+– Um halb eins.
+                    */
                 ]
             },
             {
@@ -1239,6 +1304,12 @@ const data = [
                 translate: ['Bewertung: évaluation (de la valeur), estimation (de la valeur), cote', 'Kommentar: commentaire'],
                 entries: [
                     {
+                    /*
+groupId: Meinung/Ansicht
+– Was denkst/meinst du?
+– Ich glaube/denke, ...
+                    */
+
                         groupId: 'Zufriedenheit/Unzufriedenheit',
                         translate: ['Zufriedenheit: satisfaction, contentement', 'Unzufriedenheit: insatisfaction, mécontentement'],
                         entries: [
@@ -1249,6 +1320,19 @@ const data = [
                             { value: '– (Nicht) Schlecht.', level: 'a1', copyright: c2 },
                             { value: 'Der Film war sehr gut.', level: 'a1', copyright: c2 }
                         ]
+/*
+– Wie waren die Ferien? Toll./Gut./
+Nicht (so) gut./Schlecht.
+– Ich freue mich, dass du kommst.
+– Der Film ist sehr gut.
+– Bis du mit dem neuen Lehrer zufrieden?
+Ja, es geht. Nein, gar nicht.
+– Ich bin sehr zufrieden mit meinem neuen
+Motorrad.
+– Ich habe keine Lust mehr.
+– Ich habe mich sehr geärgert, weil er mich
+nicht eingeladen hat.
+*/
                     },
                     {
                         groupId: 'Gefallen/Missfallen',
@@ -1277,6 +1361,21 @@ const data = [
                             { value: 'Ich liebe diese Stadt.', level: 'a1', copyright: c2 },
                             { value: 'Ich mag diese Stadt nicht.', level: 'a1', copyright: c2 }
                         ]
+/*
+– Gefällt dir mein Pullover? Ja, der ist toll/
+Nein, ich finde den Pullover nicht schön.
+– Ich finde den Film langweilig/lustig.
+– Ja, die CD ist toll/fantastisch/wunderbar./
+Nein, ich finde sie nicht gut.
+– Ich finde den Roman spannend/langweilig.
+– Ich bin zufrieden.
+– Ich finde die Stadt hübsch/hässlich.
+– Ist das nicht toll?
+– Das mag ich sehr gerne/gar nicht.
+– Das ist doch Unsinn.
+– Das kann man doch nicht machen.
+– Physik ist mein Lieblingsfach.
+                        */
                     },
                     {
                         groupId: 'Interesse/Desinteresse',
@@ -1288,6 +1387,17 @@ const data = [
                             { value: '– Nicht so.', level: 'a1', copyright: c2 },
                             { value: 'Was sind deine Hobbys?', level: 'a1', copyright: c2 }
                         ]
+                        /*
+– Was sind deine Hobbys?
+– Spielst du gern Fußball? Ja, sehr gern./
+Nein.
+– Was machst du in deiner Freizeit?
+Am liebsten treffe ich meine Freunde.
+– Gehst du gern ins Kino? Ja gern./
+Nein, ich sehe lieber fern.
+– Fußball interessiert mich nicht.
+Ich finde Tennis interessant.
+                        */
                     },
                     {
                         groupId: 'Billigung/Missbilligung',
@@ -1303,6 +1413,11 @@ const data = [
                             { value: '– Es ist (sehr) interessant', level: 'a1', copyright: c2 },
                             { value: '– Es ist zu langweilig.', level: 'a1', copyright: c2 },
                             { value: 'So geht das nicht.', level: 'a1', copyright: c2 }
+/*
+                            – Wie findest du das?
+                            – Ich finde das (nicht) gut.
+                            – So geht das nicht!
+                            */
                         ]
                     },
                     {
@@ -1313,6 +1428,16 @@ const data = [
                             { value: 'Das ist richtig.', level: 'a1', copyright: c2 },
                             { value: 'Das ist falsch.', level: 'a1', copyright: c2 }
                         ]
+/*
+– Ich bin einverstanden/nicht einverstanden.
+– Das finde ich toll/langweilig.
+– Das ist in Ordnung. Genau.
+– Das ist eine tolle Idee.
+– Stimmt das? Klar./Sicher./Natürlich./
+Nein, das stimmt so nicht.
+– Ich denke, das ist richtig/falsch.
+Das finde ich auch/nicht.
+                        */
                     },
                     {
                         groupId: 'Wunsch',
@@ -1325,6 +1450,14 @@ const data = [
                             { value: 'Peter will ein Eis.', level: 'a1', copyright: c2 },
                             { value: 'Ich möchte den Film sehen.', level: 'a1', copyright: c2 },
                             { value: 'Ich brauche jetzt eine Pause.', level: 'a1', copyright: c2 }
+/*
+– Was wollen wir heute machen?
+– Willst du in die Disco?
+– Was wünschst du dir zum Geburtstag?
+Ich wünsche mir/Ich hätte gern ein Handy.
+– Ich wünsche dir viel Spaß.
+– Ich möchte ein neues Fahrrad.
+                            */
                         ]
                     },
                     {
@@ -1336,6 +1469,14 @@ const data = [
                             { value: 'Magst du Tee oder Kaffee?', level: 'a1', copyright: c2 },
                             { value: '– Ich trinke lieber Tee.', level: 'a1', copyright: c2 },
                             { value: '– Nichts, danke.', level: 'a1', copyright: c2 }
+/*
+– Hörst du lieber Rap oder Hip Hop?
+Ich höre lieber Rap.
+– Wohin fährst du am liebsten in den Ferien?
+Am liebsten fahre ich ans Meer.
+– Welcher Sport gefällt dir am besten?
+Fußball gefällt mir am besten.
+                            */
                         ]
                     },
                     {
@@ -1345,6 +1486,13 @@ const data = [
                             { value: 'Ist das (wirklich) wichtig?', level: 'a1', copyright: c2 },
                             { value: '– Das ist (schon/sehr) wichtig.', level: 'a1', copyright: c2 },
                             { value: '– Nicht so wichtig.', level: 'a1', copyright: c2 }
+/*
+– Ist das wichtig? Das ist (sehr) wichtig./
+Das ist nicht so wichtig.
+– Dieses Wort ist wichtig.
+– Muss das sein? Ja, sofort.
+– Vergiss ja die CD nicht.
+                            */
                         ]
                     },
                     {
@@ -1356,6 +1504,14 @@ const data = [
                             { value: 'Das stimmt nicht.', level: 'a1', copyright: c2 },
                             { value: 'Das ist falsch.', level: 'a1', copyright: c2 },
                             { value: 'Unsinn!', level: 'a1', copyright: c2 }
+/*
+– Nein!/Das mache ich nie!
+– Die Antwort ist falsch.
+– Ich glaube das nicht.
+– Also, ich weiß nicht.
+– Du hast nicht recht.
+– Auf keinen Fall.
+                            */
                        ]
                     },
                     {
@@ -1365,6 +1521,12 @@ const data = [
                             { value: 'Es ist zu warm hier!', level: 'a1', copyright: c2 },
                             { value: 'Das ist zu teuer!', level: 'a1', copyright: c2 },
                             { value: 'Entschuldigen Sie, die Heizung funktioniert nicht.', level: 'a1', copyright: c2 }
+/*
+– Das ist zu teuer.
+– Es ist zu kalt.
+– Der Automat geht nicht.
+– Das Moped ist kaputt.
+                            */
                         ]
                     },
                     {
@@ -1374,6 +1536,13 @@ const data = [
                             { value: 'Warum kommst du nicht?', level: 'a1', copyright: c2 },
                             { value: '– Ich habe keine Zeit.', level: 'a1', copyright: c2 },
                             { value: 'Seine Mutter ist krank. Deshalb kommt er heute nicht.', level: 'a1', copyright: c2 }
+/*
+– Warum kommst du nicht?
+Ich habe keine Lust.
+– Sie ist krank. Deshalb bleibt sie zu Hause.
+– Warum ...? Weil ich noch Hausaufgaben
+machen muss.
+                            */
                         ]
                     }
                 ]
@@ -1396,6 +1565,17 @@ const data = [
                             { value: 'Leider.', level: 'a1', copyright: c2 },
                             { value: 'Das ist schade!', level: 'a1', copyright: c2 },
                             { value: 'Das tut mir leid.', level: 'a1', copyright: c2 }
+/*
+– Das ist toll!
+– Ja, das finde ich auch.
+– Ich bin froh.
+– Leider kann ich nicht kommen.
+– Das tut mir leid.
+– Der Sprachkurs macht mir viel Spaß.
+– Ich freue mich, dass du kommst.
+– Schön, dass du mitkommst.
+– Schade, dass es morgen nicht klappt.
+                            */
                         ]
                     },
                     {
@@ -1408,6 +1588,11 @@ const data = [
                             { value: 'Isst du gern Chinesisch?', level: 'a1', copyright: c2 },
                             { value: '– Ja, gern(e).', level: 'a1', copyright: c2 },
                             { value: '– Nein, nie.', level: 'a1', copyright: c2 }
+/*
+– Magst du Pizza? Ja, gern./
+Nein, das schmeckt mir nicht.
+– Isst du gern Fisch?
+                            */
                         ]
                     },
                     {
@@ -1418,6 +1603,14 @@ const data = [
                             { value: '– Egal.', level: 'a1', copyright: c2 },
                             { value: '– Na und?', level: 'a1', copyright: c2 },
                             { value: '– Das ist mir egal', level: 'a1', copyright: c2 },
+/*
+– Ärgerst du dich über das Zeugnis?
+Das ist mir ganz egal.
+– Das interessiert mich nicht.
+– Das ist mir doch gleich.
+– Stört dich das nicht?
+Da kann man nichts machen.
+                            */
                         ]
                     },
                     {
@@ -1426,8 +1619,20 @@ const data = [
                         entries: [
                             { value: '(Es) Tut mir (wirklich) (sehr) leid.', level: 'a1', copyright: c2 },
                             { value: 'Das finde ich aber traurig.', level: 'a1', copyright: c2 }
+/*
+– Das tut mir leid.
+– Das finde ich traurig.
+– Es tut mir so leid, dass du Zahnschmerzen
+hast.
+                            */
                         ]
                     },
+/*
+groupId: Schmerz
+– Mein Kopf tut so weh.
+– Ich habe Halsschmerzen.
+– Ich habe starke Schmerzen.
+                    */
                     {
                         groupId: 'Erstaunen/Überraschung',
                         translate: ['Erstaunen: étonnement', 'Überraschung: surprise, mauvaise surprise'],
@@ -1436,6 +1641,15 @@ const data = [
                             { value: 'Das ist ja komisch!', level: 'a1', copyright: c2 },
                             { value: 'Wie komisch!', level: 'a1', copyright: c2 },
                             { value: '– Ja, sehr komisch.', level: 'a1', copyright: c2 }
+/*
+– Willst du das wirklich machen?
+– Das ist ja toll!
+– Das ist doch verrückt.
+– Das ist aber komisch.
+– Ja, wirklich komisch.
+– Das kann ich nicht glauben.
+– Das ist doch nicht möglich.
+                            */
                         ]
                     },
                     {
@@ -1444,6 +1658,11 @@ const data = [
                         entries: [
                             { value: 'Hoffentlich regnet es nicht.', level: 'a1', copyright: c2 },
                             { value: 'Hoffentlich kommt bald der Bus.', level: 'a1', copyright: c2 }
+/*
+– Ich hoffe, du kommst heute.
+– Hoffentlich finde ich das Heft.
+– Ich hoffe, dass er heute pünktlich ist ...
+                            */
                         ]
                     },
                     {
@@ -1452,6 +1671,15 @@ const data = [
                         entries: [
                             { value: 'Ich habe Angst.', level: 'a1', copyright: c2 },
                             { value: 'Schon 10 Uhr, und er ist immer noch nicht da.', level: 'a1', copyright: c2 }
+/*
+– Hast du Angst?
+– Ich kann die Hausaufgaben nicht machen.
+– Mach schnell. Es ist schon sehr spät.
+– Was ist los?
+– Wann antwortet er denn endlich?
+– Warum ruft sie nicht an?
+Hoffentlich ist nichts passiert.
+                            */
                         ]
                     },
                     {
@@ -1459,8 +1687,20 @@ const data = [
                         translate: ['désenchantement', 'déception', 'désillusion'],
                         entries: [
                             { value: 'Was? Du bleibst zu Hause? Schade!', level: 'a1', copyright: c2 }
+/*
+– Warum kommst du nicht mit?
+– Das ist aber schade!
+– Schade, dass es nicht klappt.
+– Da kann man (leider) nichts machen.
+*/
                         ]
                     }
+/*
+groupId: Sympathie/Antipathie
+– Ich mag Sabine (sehr) gern.
+– Ich finde Frau Berger nicht sympathisch.
+– Ich bin total in sie/ihn verliebt.
+*/
                 ]
             },
             {
@@ -1481,6 +1721,20 @@ const data = [
                             { value: '– Gerne.', level: 'a1', copyright: c2 },
                             { value: 'Eine Frage bitte: Wie spät ist es?', level: 'a1', copyright: c2 },
                             { value: '– Es ist halb acht (Uhr).', level: 'a1', copyright: c2 }
+/*
+– Zeigst du mir deinen Computer?
+Ja gern./Nein.
+– Kann ich das Buch haben? Ja./
+Nein, das ist nicht mein Buch.
+– Wie spät ist es? Es ist halb acht.
+– Mach bitte die Tür auf! Ja, sofort./
+Nein, ich kann nicht.
+– Gib mir bitte das Heft! Ja, gleich./
+Nein, ich finde das Heft nicht.
+– Könntest du mir helfen? Ja./ Sofort./
+Vielleicht./ Jetzt nicht./ Nein, tut mir leid.
+– Ich hätte gern eine CD von ...
+                            */
                         ]
                     },
                     {
@@ -1494,6 +1748,12 @@ const data = [
                             { value: 'Das ist richtig.', level: 'a1', copyright: c2 },
                             { value: 'Stimmt.', translate: 'tout à fait!', level: 'a1', copyright: c2 },
                             { value: 'Genau (so).', translate: ['Absolument !', 'parfaitement !', 'tout à fait !'], level: 'a1', copyright: c2 }
+/*
+– Die Antwort ist richtig.
+– Richtig? Ja!/Nein!/Doch!
+– Ist das so richtig? Aber natürlich./
+Klar./Sicher.
+                            */
                         ]
                     },
                     {
@@ -1505,6 +1765,13 @@ const data = [
                             { value: '– Gerne.', level: 'a1', copyright: c2 },
                             { value: '– Sehr nett, danke.', level: 'a1', copyright: c2 },
                             { value: '– Nein, danke.', level: 'a1', copyright: c2 }
+/*
+– Kann ich helfen?
+– Ja, gern./Klar./Sicher./Danke./Nein danke.
+– Wollen wir das zusammen machen?
+Ja, du kannst mir helfen./Das ist lieb/nett./
+Nein danke, ich kann es alleine.
+                            */
                         ]
                     },
                     {
@@ -1516,6 +1783,12 @@ const data = [
                             { value: 'Einen Moment.', level: 'a1', copyright: c2 },
                             { value: 'Sofort.', level: 'a1', copyright: c2 },
                             { value: 'Gleich.', translate: 'tout de suite', level: 'a1', copyright: c2 }
+/*
+– Ich möchte nach Deutschland fliegen.
+– Ich will morgen ins Schwimmbad.
+– Ich hätte gern eine Fahrkarte.
+– Kannst du mir bitte den Bleistift geben?
+                            */
                         ]
                     },
                     {
@@ -1528,6 +1801,15 @@ const data = [
                             { value: 'Halt!', translate: 'halte !', level: 'a1', copyright: c2 },
                             { value: 'Hilfe!', level: 'a1', copyright: c2 },
                             { value: 'Stopp!', level: 'a1', copyright: c2 }
+/*
+– Der Film ist wunderbar.
+– Das Wasser ist zu kalt.
+– Du musst gut aufpassen.
+– Was soll ich machen?
+– Schreib es auf! Mach es gleich! Pass auf!
+– Das ist zu gefährlich.
+– Sei vorsichtig! Achtung!
+                            */
                         ]
                     },
                     {
@@ -1544,6 +1826,16 @@ const data = [
                             { value: 'Kann ich mal telefonieren?', level: 'a1', copyright: c2 },
                             { value: 'Kann man hier parken?', level: 'a1', copyright: c2 },
                             { value: '– Nein, hier ist Parken verboten.', level: 'a1', copyright: c2 }
+/*
+– Kann ich zu dir kommen? Ja./
+Nein, heute nicht.
+– Kann ich die CD haben? Ja./Nein.
+– Darf man hier fahren? Ja, klar./
+Nein, das ist verboten.
+– Darfst du heute Abend weggehen?
+Ja, meine Eltern erlauben das./
+Nein, meine Mutter hat es verboten.
+                            */
                         ]
                     },
                     {
@@ -1559,6 +1851,15 @@ const data = [
                             { value: '– Nein, leider nicht.', level: 'a1', copyright: c2 },
                             { value: '– Keine Zeit.', level: 'a1', copyright: c2 },
                             { value: '– Keine Lust', level: 'a1', copyright: c2 }
+/*
+– Gehen wir heute in die Disco? Ja, gern.
+– Kommst du mit ins Schwimmbad?
+Das ist eine tolle Idee./Nein, keine Lust.
+– Darf ich etwas vorschlagen?
+– Wollen wir die Hausaufgaben zusammen
+machen? Einverstanden./
+Ich bin dafür/dagegen.
+                            */
                         ]
                     },
                     {
@@ -1573,6 +1874,12 @@ const data = [
                             { value: '– Wirklich?', level: 'a1', copyright: c2 },
                             { value: '– Ich mache es morgen.', level: 'a1', copyright: c2 },
                             { value: '– Das mache ich!', level: 'a1', copyright: c2 },
+/*
+– Ich komme nach der Schule.
+– Morgen gehen wir zusammen zu Bodo.
+– Wirklich? Versprochen?/Ganz sicher.
+Bestimmt.
+                            */
                         ]
                     },
                     {
@@ -1586,6 +1893,12 @@ const data = [
                             { value: '– Vielleicht.', level: 'a1', copyright: c2 },
                             { value: '– Nein, (morgen kann ich/geht es) leider nicht.', level: 'a1', copyright: c2 },
                             { value: 'Wann hast du (mal/denn) Zeit?', level: 'a1', copyright: c2 }
+/*
+– Hast du am Mittwoch Zeit? Ja, wann?/
+Vielleicht./Ich weiß es nicht.
+– Treffen wir uns um acht vor dem Kino?
+Ja, das passt mir.
+                            */
                         ]
                     },
                     {
@@ -1599,6 +1912,16 @@ const data = [
                             { value: '– Nichts, danke.', level: 'a1', copyright: c2 },
                             { value: 'Setz dich!', level: 'a1', copyright: c2 },
                             { value: 'Setzen Sie sich doch!', level: 'a1', copyright: c2 }
+/*
+– Kommst du heute zu mir? Ja, toll./
+Nein, ich kann nicht./Es tut mir leid, aber
+ich habe keine Zeit.
+– Komm doch heute Nachmittag zu mir.
+– Bleib doch noch ein bisschen.
+– Komm rein./Setz dich!
+– Ich lade dich zu meinem Geburtstag ein.
+– Willst du mit mir essen?
+                            */
                         ]
                     }
                 ]
@@ -1624,6 +1947,16 @@ const data = [
                             { value: '– Nein, ich bin ...', level: 'a1', copyright: c2 },
                             { value: '– Nein, ich heiße ...', level: 'a1', copyright: c2 },
                             { value: '– Nein, mein Name ist ...', level: 'a1', copyright: c2 },
+/*
+– Hallo!
+– Michael!
+– Heißt du Miriam? Nein, ich bin Michaela.
+– Telefon: Hallo, ich bin es, Meike./
+Guten Tag, kann ich mit Britta sprechen?
+– Mail: Hallo ...
+– Brief: Liebe/-r Meike/ Micha, ...
+Liebe Frau/Lieber Herr Maier, ...
+                            */
                             {
                                 groupId: 'Telefon',
                                 entries: [
@@ -1665,6 +1998,17 @@ const data = [
                             { value: '– Danke, gut.', level: 'a1', copyright: c2 },
                             { value: 'Grüß Gott! (süddeutsch)', level: 'a1', copyright: c2 },
                             { value: '– Grüß Gott!', level: 'a1', copyright: c2 }
+/*
+– Guten Tag/Hallo, Bodo.
+– Hi, Marika.
+– Guten Morgen/Tag/Abend.
+– Gute Nacht, Silke.
+– Hallo, wie geht es dir? Danke, (sehr) gut/
+es geht.
+– Und dir?
+– Herzlich willkommen!
+– Viele Grüße von Angelika.
+                            */
                         ]
                     },
                     {
@@ -1678,6 +2022,17 @@ const data = [
                             { value: 'Das ist Ulrich Pfeiffer.', level: 'a1', copyright: c2 },
                             { value: '– Ah ja. Ich heiße Johanna Hauser.', level: 'a1', copyright: c2 },
                             { value: '– Ah ja. Ich bin Johanna Hauser.', level: 'a1', copyright: c2 }
+/*
+– Ich heiße Nina.
+– (Hallo) Ich bin Marko.
+– Ich bin Marco Gellner.
+– Mein Name ist Erkan.
+– Mein Name ist Erkan Özlem.
+– Das ist Anna.
+– Sie heißt Pia.
+– Kennst du Micha? Ja klar/natürlich./
+Nein, noch nicht.
+                            */
                         ]
                     },
                     {
@@ -1692,6 +2047,13 @@ const data = [
                             { value: '– Ja, super.', level: 'a1', copyright: c2 },
                             { value: '– Na ja, es geht!', level: 'a1', copyright: c2 },
                             { value: '– Ach, nicht so gut.', level: 'a1', copyright: c2 },
+/*
+– Wie geht es dir? Gut./Nicht so gut./Schlecht.
+– Geht es dir gut? Ja, super./
+Nein, nicht so gut.
+– Ich bin heute (nicht) fit. Prima!/
+Was ist los?/Was ist passiert?/Was hast du?
+                            */
                         ]
                     },
                     {
@@ -1702,6 +2064,16 @@ const data = [
                             { value: 'Schöne Ferien!', level: 'a1', copyright: c2 },
                             { value: 'Gut gemacht!', level: 'a1', copyright: c2 },
                             { value: 'Prost!', level: 'a1', copyright: c2 }
+/*
+– Frohe Weihnachten!
+– (Ich wünsche dir) schöne Ferien!
+– Gute Reise!
+– Guten Appetit!
+– Viel Glück! *Viel Spaß!
+– (Herzlichen) Glückwunsch!
+– Frohe Weihnachten!
+– Ich gratuliere dir zum Geburtstag!
+                            */
                         ]
                     },
                     {
@@ -1725,6 +2097,14 @@ const data = [
                             { value: 'Das schmeckt gut.', translate: ["c'est bon", "celà a un bon goût"], level: 'a1', copyright: c2 }
                         ]
                     },
+/*
+grouoId: ein Kompliment machen
+– Du bist toll.
+– Tolle Frisur/Fantastisches Kleid!
+– Du siehst gut/wunderbar aus.
+– Das ist sehr nett/lieb/freundlich.
+– Das ist wunderbar.
+                    */
                     {
                         groupId: 'Dank',
                         translate: ['merci', 'remerciement'],
@@ -1735,6 +2115,11 @@ const data = [
                             { value: '– Ihnen auch.', level: 'a1', copyright: c2 },
                             { value: '– Danke, ebenfalls.', level: 'a1', copyright: c2 },
                             { value: '– (Aber) Bitte.', level: 'a1', copyright: c2 },
+/*
+– Danke, Dankeschön.
+– Vielen Dank für dein Geschenk.
+– Herzlichen Dank.
+*/
                             {
                                 groupId: 'Brief',
                                 entries: [
@@ -1752,6 +2137,12 @@ const data = [
                             { value: '– Bitte!', level: 'a1', copyright: c2 },
                             { value: '– Schon gut.', level: 'a1', copyright: c2 },
                             { value: '– Kein Problem.', level: 'a1', copyright: c2 },
+/*
+– Entschuldigung.
+– Kein Problem.
+– Das tut mir sehr/schrecklich/furchtbar leid.
+– Das macht nichts.
+                            */
                         ]
                     },
                     {
@@ -1763,6 +2154,12 @@ const data = [
                             { value: 'Bis bald.', level: 'a1', copyright: c2 },
                             { value: 'Bis später.', level: 'a1', copyright: c2 },
                             { value: 'Gute Nacht!', level: 'a1', copyright: c2 },
+/*
+– Tschüss!
+– Bis bald/später!
+– Auf Wiedersehen.
+– Brief: Viele/herzliche/liebe Grüße.
+                            */
                             {
                                 groupId: 'Telefon',
                                 entries: [
