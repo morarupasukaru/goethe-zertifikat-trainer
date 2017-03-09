@@ -958,6 +958,15 @@ const data = [
                             { value: 'Was kann ich für Sie tun?', level: 'a1', copyright: c2 },
                             { value: 'Brauchen Sie Hilfe?', level: 'a1', copyright: c2 },
                             { value: '(Im Restaurant.) Hallo! Entschuldigung bitte!', level: 'a1', copyright: c2 }
+/*
+– Entschuldigung ...
+– Entschuldige, hast du einen Moment Zeit?
+– Kann ich etwas fragen?
+– Kannst du mir helfen?
+– Hallo!
+– Hallo, Chris! Wie waren deine Ferien?
+– Sag mal: wo ist denn ...
+*/
                         ]
                     },
                     {
@@ -969,6 +978,16 @@ const data = [
                             { value: 'Na gut.', translate: 'mouais', level: 'a1', copyright: c2 },
                             { value: 'Dann, herzlichen Dank', translate: 'Merci beaucoup !', level: 'a1', copyright: c2 },
                             { value: 'auf Wiedersehen.', level: 'a1', copyright: c2 }
+/*
+– Danke. Ich muss jetzt leider gehen.
+– Okay, tschüss, bis bald.
+– Gut: ...
+– Na gut.
+– Dann herzlichen Dank/auf Wiedersehen.
+– Entschuldigung, ich muss jetzt weg.
+– Also, bis heute Mittag.
+– Danke für deine Hilfe.
+*/
                         ]
                     },
                     {
@@ -977,6 +996,10 @@ const data = [
                         entries: [
                             { value: 'Moment bitte.', level: 'a1', copyright: c2 },
                             { value: 'Bitte!', level: 'a1', copyright: c2 }
+/*
+– Bitte.
+– Ich möchte (noch) etwas sagen.
+*/
                         ]
                     },
                     {
@@ -992,6 +1015,12 @@ const data = [
                             { value: 'Naja.', translate: 'bof', level: 'a1', copyright: c2 },
                             { value: 'Bitte?', level: 'a1', copyright: c2 },
                             { value: '(Na) Klar.', translate: ['Forcément !', 'Bien sûr !'], level: 'a1', copyright: c2 }
+/*
+– Ja?/So?/Wirklich?
+– Bitte?
+– (Na) klar.
+– Und (dann)?
+*/
                         ]
                     },
                     {
@@ -1004,21 +1033,57 @@ const data = [
                             { value: 'Ja bitte !', level: 'a1', copyright: c2 },
                             { value: 'Und dann?', level: 'a1', copyright: c2 },
                             { value: 'Und?', level: 'a1', copyright: c2 }
+/*
+– Also?
+– Ja?
+– Und?
+– Ja, bitte!
+– Sag!
+– Erzähl!
+– Fängst du bitte an?
+*/
                         ]
                     },
+/*
+groupId: gemeinsames Wissen andeuten
+– Nein, heute geht es nicht. Da spielen wir
+doch Fußball.
+– Du weißt ja, dass Micha krank ist.
+                    */
                     {
                         groupId: 'Beispiele geben/etwas verdeutlichen',
                         translate: ['Beispiele geben: donner des exemples', 'etwas verdeutlichen: expliquer qc.'],
                         entries: [
                             { value: 'Ich esse gern Obst, zum Beispiel Orangen, Bananen und Erdbeeren.', level: 'a1', copyright: c2 }
+/*
+– Ich habe viele Hobbys, zum Beispiel
+Fußball spielen und Musik hören.
+– Meine Familie, also das ist: mein Vater
+Bruno, meine Mutter Anna und mein
+Bruder Fabio.
+*/
                         ]
                     },
+/*
+groupId: Vermeidung
+– Potsdam liegt ... ja, das liegt nahe
+bei Berlin.
+– Wie viele waren gestern beim Fussball?
+Hm; vielleicht zehn oder so.
+– Kommst du mit? Ach nein, ich muss meiner
+Mutter helfen.
+*/
                     {
                         groupId: 'Höflichkeit',
                         translate: ['civilité', 'politesse', 'courtoisie'],
                         entries: [
                             { value: 'Kann ich Sie etwas fragen?', level: 'a1', copyright: c2 },
                             { value: 'Darf ich Sie etwas fragen?', level: 'a1', copyright: c2 }
+/*
+– Kann ich dir helfen?
+– Entschuldigung!
+– Darf ich noch ein Stück Torte haben?
+*/
                         ]
                     },
                     {
@@ -1027,6 +1092,10 @@ const data = [
                         entries: [
                             { value: 'Möchtest du noch etwas?', level: 'a1', copyright: c2 },
                             { value: '– Ja, ein bisschen.', level: 'a1', copyright: c2 }
+/*
+– Möchtest du noch etwas? Ja, ein bisschen.
+– Eigentlich hast du ja recht.
+*/
                         ]
                     }
                 ]
@@ -1042,6 +1111,13 @@ const data = [
                                 translate: 'Begriff: idée, notion, concept, terme',
                                 entries: [
                                     { value: 'Apotheke: Da kann man Medikamente kaufen.', level: 'a1', copyright: c2 }
+/*
+– Küche: Da kann man das Essen machen.
+– Gabel und Messer: Das braucht man beim
+Essen.
+– Eine Insel ist zum Beispiel Zypern
+oder Rügen.
+*/
                                 ]
                             },
                             {
@@ -1050,12 +1126,18 @@ const data = [
                                 entries: [
                                     { value: 'Haben Sie das verstanden?', level: 'a1', copyright: c2 },
                                     { value: 'Ist das klar?', level: 'a1', copyright: c2 }
+/*
+
+*/
                                 ]
                             },
                             {
                                 groupId: 'schwierige Wörter buchstabieren',
                                 entries: [
                                     { value: 'Mein Name ist „Kuntz“, ich buchstabiere: K-U-N-T-Z.', level: 'a1', copyright: c2 }
+/*
+
+*/
                                 ]
                             }
                         ]
@@ -1068,22 +1150,47 @@ const data = [
                                 entries: [
                                     { value: 'Entschuldigung, wie bitte?', level: 'a1', copyright: c2 },
                                     { value: 'Langsamer bitte.', level: 'a1', copyright: c2 }
+/*
+– Entschuldigung, wie bitte?
+– Kannst du bitte langsamer sprechen,
+ich habe das nicht verstanden.
+– Das (Wort) verstehe ich nicht.
+– Tut mir leid, ich verstehe dich nicht.
+*/
                                 ]
                             },
                             {
                                 groupId: 'um Wiederholung bitten',
                                 entries: [
+                                    { value: 'Entschuldigung, noch einmal bitte.', level: 'a1', copyright: c2 }
                                     { value: 'Noch einmal bitte.', level: 'a1', copyright: c2 },
                                     { value: 'Kannst du das bitte noch einmal sagen?', level: 'a1', copyright: c2 },
                                     { value: 'Wie bitte?', level: 'a1', copyright: c2 }
+/*
+– Noch einmal bitte.
+– Kannst du das noch einmal sagen?
+– Wie bitte?
+*/
                                 ]
                             },
+/*
+groupId: sich bestätigen lassen, ob man richtig gehört bzw. den Kontext richtig verstanden hat
+– Entschuldigung, habe ich das richtig
+verstanden?
+– Hast du „dreizehn“ oder „dreißig“ gesagt?
+– Wie meinst du das?
+*/
                             {
                                 groupId: 'um Erläuterung bitten',
                                 translate: 'Erläuterung: explication',
                                 entries: [
                                     { value: 'Entschuldigung, was heißt das?', level: 'a1', copyright: c2 },
                                     { value: 'Was bedeutet ... ?', level: 'a1', copyright: c2 }
+/*
+– Entschuldigung, wie heißt das?
+– Ich kenne das Wort nicht.
+Kannst du es erklären?
+*/
                                 ]
                             },
                             {
@@ -1098,31 +1205,53 @@ const data = [
                                 entries: [
                                     { value: 'Wie schreibt man ... ?', level: 'a1', copyright: c2 },
                                     { value: 'Bitte schreiben Sie das auf.', level: 'a1', copyright: c2 }
+/*
+– Wie schreibt man ...?
+– Kannst du das bitte schreiben?
+*/
                                 ]
                             },
                             {
                                 groupId: 'jemanden bitten, langsamer zu sprechen',
                                 entries: [
                                     { value: 'Bitte ein bisschen langsamer.', level: 'a1', copyright: c2 }
+/*
+– Kannst du bitte langsamer sprechen?
+*/
                                 ]
                             },
-                            {
-                                groupId: 'um Wiederholung bitten',
-                                entries: [
-                                    { value: 'Wie bitte?', level: 'a1', copyright: c2 },
-                                    { value: 'Entschuldigung, noch einmal bitte.', level: 'a1', copyright: c2 }
-                                ]
-                            },
+/*
+groupId: Hilfestellung beim Formulieren
+– Meinst du vielleicht ...?
+*/
+/*
+groupId: Rückfragen zur Verständnissicherung
+– Hab’ ich richtig verstanden?
+Wir treffen uns bei Eva.
+– Tut mir leid, ich kann dich nicht verstehen.
+*/
                             {
                                 groupId: 'anzeigen, dass man etwas nicht verstanden hat',
                                 entries: [
                                     { value: 'Das habe ich nicht verstanden.', level: 'a1', copyright: c2 },
                                     { value: 'Das (Wort) verstehe ich nicht.', level: 'a1', copyright: c2 }
+/*
+– Ich glaube, das habe ich nicht (richtig)
+verstanden.
+– Tut mir leid, ich kann dich nicht verstehen.
+*/
                                 ]
                             }
                         ]
                     },
                     {
+/*
+groupId: Wörter und Begriffe umschreiben
+– Ich muss noch die ... ich weiß nicht, wie
+man das sagt – Übung für die Schule –
+machen. Wie sagt man?
+Ja, die Hausaufgaben.
+*/
                         groupId: 'Kompensation',
                         entries: [
                             {
@@ -1130,12 +1259,20 @@ const data = [
                                 entries: [
                                     { value: 'Wo ist mein Buch... nicht ein Buch... ein Schreibbuch.', level: 'a1', copyright: c2 },
                                     { value: '– Ah, dein Heft?', level: 'a1', copyright: c2 }
+/*
+– Ich habe zwei ...
+– einen Bruder und eine Schwester.
+*/
                                 ]
                             },
                             {
                                 groupId: 'Selbstkorrektur',
                                 entries: [
                                     { value: 'Ich möchte sagen... Ich fahre zu Paris... nein, nach Paris.', level: 'a1', copyright: c2 }
+/*
+– Ich gehe nach Schule ... nein, in die Schule.
+– Entschuldigung, ich sage es noch einmal: ...
+*/
                                 ]
                             },
                             {
@@ -1143,12 +1280,23 @@ const data = [
                                 entries: [
                                     { value: 'Wie sagt man auf Deutsch?', level: 'a1', copyright: c2 },
                                     { value: 'Auf Englisch sagt man ...', level: 'a1', copyright: c2 }
+/*
+– Wie sagt man das auf Deutsch? Auf ............
+heißt es /sagt man ...
+– Jetzt weiß ich das Wort nicht mehr.
+– Ich habe das Wort vergessen.
+*/
                                 ]
                             },
                             {
                                 groupId: 'nachfragen, ob man (trotz fehlerhaftem Deutsch) verstanden wurde',
                                 entries: [
                                     { value: 'Ich spreche nicht gut Deutsch. Haben Sie verstanden?', level: 'a1', copyright: c2 }
+/*
+– Hast du das verstanden?
+– Ich spreche nicht gut Deutsch.
+Hast du mich verstanden?
+*/
                                 ]
                             },
                         ]
