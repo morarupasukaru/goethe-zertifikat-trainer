@@ -563,6 +563,10 @@ const data = [
                             { value: 'Gibt es hier einen Kindergarten?', level: 'a1', copyright: c2 },
                             { value: '– Nein, es gibt nur eine Grundschule.', level: 'a1', copyright: c2 },
                             { value: 'Hier gibt es aber viele Kinos.', level: 'a1', copyright: c2 }
+/*
+– Es gibt hier keinen Bahnhof.
+– Gibt es hier ein Schwimmbad?
+*/
                         ]
                     },
                     {
@@ -571,6 +575,13 @@ const data = [
                         entries: [
                             { value: 'Ist Elke da?', level: 'a1', copyright: c2 },
                             { value: '– Ja./Nein, leider nicht.', level: 'a1', copyright: c2 }
+/*
+– Peter ist heute nicht da.
+– Ist Herr Neumann da?
+– Ich glaube, heute ist niemand da.
+– Meine Freundin kommt gleich.
+– Tut mir leid, Herr Brandt ist schon weg.
+*/
                         ]
                     },
                     {
@@ -580,14 +591,23 @@ const data = [
                             { value: 'Hast du ein Auto?', level: 'a1', copyright: c2 },
                             { value: '– Nein, leider nicht.', level: 'a1', copyright: c2 },
                             { value: '– Nein, ich habe kein Auto.', level: 'a1', copyright: c2 }
+/*
+– Ich habe ein Fahrrad.
+– Leider habe ich kein Geld mehr.
+– Wir haben nichts gefunden.
+*/
                         ]
                     },
                     {
-                        groupId: '(nicht) vorkommen',
-                        translate: '(ne pas) se passer',
+                        groupId: '(nicht) vorkommen/geschehen',
+                        translate: ['(nicht) vorkommen: (ne pas) se passer', '(nicht) geschehen: TODO'], // TODO
                         entries: [
                             { value: 'Was ist passiert?', level: 'a1', copyright: c2 },
                             { value: 'Wann ist das passiert?', level: 'a1', copyright: c2 }
+/*
+– Was ist hier los?
+– Das ist gestern passiert.
+*/
                         ]
                     },
                     {
@@ -595,6 +615,10 @@ const data = [
                         entries: [
                             { value: 'Ich komme mit meiner Freundin.', level: 'a1', copyright: c2 },
                             { value: 'Er kommt ohne Auto.', level: 'a1', copyright: c2 }
+/*
+– Ich fahre mit meinen Eltern in Ferien.
+– Er kommt ohne Auto.
+*/
                         ]
                     },
                     {
@@ -604,6 +628,11 @@ const data = [
                             { value: 'Wem gehört der Mercedes?', level: 'a1', copyright: c2 },
                             { value: '– Das ist mein/dein/sein/ihr Auto.', level: 'a1', copyright: c2 },
                             { value: 'Simon arbeitet jetzt bei Siemens.', level: 'a1', copyright: c2 }
+/*
+– Das ist (nicht) mein, dein, sein, ihr
+Wörterbuch.
+– Natürlich gehört das mir!
+*/
                         ]
                     }
                 ]
@@ -628,6 +657,19 @@ const data = [
                             { value: 'Wo liegt ...?', level: 'a1', copyright: c2 },
                             { value: '– Kiel liegt an der Ostsee.', level: 'a1', copyright: c2 },
                             { value: '– Die Schlüssel liegen auf dem Tisch.', level: 'a1', copyright: c2 }
+/*
+– Miriam wohnt in Hamburg bei ihren Eltern.
+– Hier/dort/da steht mein neues Fahrrad.
+– Meine Schwester ist zu Hause/
+in der Schule.
+– Hamburg ist in Norddeutschland.
+– Ich wohne in Soest, das ist in der Nähe
+von Köln.
+– Die Breite Straße ist im Zentrum.
+– Im Süden/Norden/Westen/Osten.
+– Das ist hier/dort/in der Mitte/
+am Ende der Straße.
+*/
                         ]
                     },
                     {
@@ -637,6 +679,12 @@ const data = [
                             { value: '– Aus der Ukraine.', level: 'a1', copyright: c2 },
                             { value: '– Aus Prag.', level: 'a1', copyright: c2 },
                             { value: '– Vom Arzt.', level: 'a1', copyright: c2 }
+/*
+– Woher kommst du?
+– Ich komme aus Polen.
+– Um acht gehe ich aus dem Haus.
+– Kommst du jetzt vom Arzt?
+*/
                         ]
                     },
                     {
@@ -651,6 +699,14 @@ const data = [
                             { value: '– Auf die Bank.', level: 'a1', copyright: c2 },
                             { value: '– Ans Meer.', level: 'a1', copyright: c2 },
                             { value: '– Nach Österreich.', level: 'a1', copyright: c2 }
+/*
+– Wir gehen (fahren) nach Hause,
+in die Schule, ans Meer, nach Deutschland,
+zu meiner Freundin.
+– Gehen Sie hier rechts in die Bahnhofs-
+straße, dann immer geradeaus und bei der
+Ampel links in die Poststraße.
+*/
                         ]
                     },
                     {
@@ -658,6 +714,12 @@ const data = [
                         entries: [
                             { value: 'Wie weit ist es bis Bonn?', level: 'a1', copyright: c2 },
                             { value: '– Nur zehn Kilometer.', level: 'a1', copyright: c2 }
+/*
+– Bis zur Schule ist es nicht weit,
+nur zehn Minuten.
+– Wie weit ist es von hier bis zum
+Hauptbahnhof?
+*/
                         ]
                     }
                 ]
@@ -676,6 +738,13 @@ const data = [
                             { value: '– Im Juli.', level: 'a1', copyright: c2 },
                             { value: 'Wie spät ist es bitte?', level: 'a1', copyright: c2 },
                             { value: '– Es ist jetzt 7 Uhr.', level: 'a1', copyright: c2 }
+/*
+– Wann kommst du?
+– Um drei./Heute Nachmittag.
+– Wie spät ist es?
+– Es ist jetzt 6 Uhr.
+– Die Schule geht bis halb zwei.
+*/
                         ]
                     },
                     {
@@ -685,6 +754,14 @@ const data = [
                             { value: 'Wann sind Sie geboren?', level: 'a1', copyright: c2 },
                             { value: '– Am 12. Mai 1988.', level: 'a1', copyright: c2 },
                             { value: 'Wir fahren im Mai in Urlaub.', level: 'a1', copyright: c2 }
+/*
+– Wir fahren im Juli ans Meer.
+– Die Ferien beginnen nächste Woche.
+– Am Morgen/Morgens bin ich immer müde.
+– Am Abend/Abends etc. treffe ich meine
+Freunde.
+– Wann bist du geboren?
+*/
                         ]
                     },
                     {
@@ -693,6 +770,10 @@ const data = [
                         entries: [
                             { value: 'Komm bitte vor 10 Uhr.', level: 'a1', copyright: c2 },
                             { value: 'Wir sind (zu) früh.', level: 'a1', copyright: c2 }
+/*
+– Ich rufe dich vor dem Unterricht an.
+– Du kommst zu früh.
+*/
                         ]
                     },
                     {
@@ -701,6 +782,12 @@ const data = [
                         entries: [
                             { value: 'Bitte nach 23 Uhr nicht mehr anrufen.', level: 'a1', copyright: c2 },
                             { value: 'Wir sind leider zu spät.', level: 'a1', copyright: c2 }
+/*
+Die Hausaufgaben mache ich nach
+dem Essen.
+– Du kommst zu spät.
+
+*/
                         ]
                     },
                     {
@@ -711,6 +798,18 @@ const data = [
                             { value: 'Wir machen das bald/später .', level: 'a1', copyright: c2 },
                             { value: 'Heute Abend rufe ich dich an.', level: 'a1', copyright: c2 },
                             { value: 'Am Montag gehen wir ins Kino.', level: 'a1', copyright: c2 }
+/*
+– Morgen/Bald/Später kommt mein Vater
+nach Hause.
+– Morgen Nachmittag/ Abend/ Mittag treffen
+wir uns wieder.
+– Ich rufe dich gleich/später/morgen/
+nächste Woche an.
+– Nächste Woche/Nächsten Monat/
+Nächstes Jahr kommt er.
+– Am Dienstag/ Morgen früh/
+In zwei Tagen bin ich zu Hause.
+*/
                         ]
                     },
                     {
@@ -720,6 +819,9 @@ const data = [
                             { value: 'Wir essen jetzt.', level: 'a1', copyright: c2 },
                             { value: 'Ich bin schon da.', level: 'a1', copyright: c2 },
                             { value: 'Er ist heute in Mainz.', level: 'a1', copyright: c2 }
+/*
+– Was machst du heute/jetzt?
+*/
                         ]
                     },
                     {
@@ -727,6 +829,12 @@ const data = [
                         translate: 'référence passé',
                         entries: [
                             { value: 'Gestern/vor zwei Tagen habe ich die Prüfung gemacht.', level: 'a1', copyright: c2 }
+/*
+– Gestern/Vor einer Woche war ich in Berlin.
+– Er war gerade noch hier.
+– Ich habe Angelika letzte Woche gesehen.
+
+*/
                         ]
                     },
                     {
@@ -734,6 +842,9 @@ const data = [
                         translate: ['Verspätung: retard', 'Frühzeitigkeit: précocité'],
                         entries: [
                             { value: 'Es ist schon spät.', level: 'a1', copyright: c2 }
+/*
+
+*/
                         ]
                     },
                     {
@@ -744,6 +855,13 @@ const data = [
                             { value: '– Drei Wochen.', level: 'a1', copyright: c2 },
                             { value: '– (Nicht) Lange.', level: 'a1', copyright: c2 },
                             { value: '– Bis Montag.', level: 'a1', copyright: c2 }
+/*
+– Wir bleiben drei Tage in Rom.
+– Wir wohnen schon lange in Livorno.
+– Wir bleiben bis Montag hier.
+– Von acht bis eins haben wir Schule.
+– Der Film dauert zwei Stunden.
+*/
                         ]
                     },
                     {
@@ -752,6 +870,9 @@ const data = [
                         entries: [
                             { value: 'Wann beginnt der Film?', level: 'a1', copyright: c2 },
                             { value: '– Um 20 Uhr fängt er an.', level: 'a1', copyright: c2 }
+/*
+
+*/
                         ]
                     },
                     {
@@ -759,6 +880,9 @@ const data = [
                         entries: [
                             { value: 'Bis wann arbeitest du?', level: 'a1', copyright: c2 },
                             { value: '– Heute bis 18 Uhr.', level: 'a1', copyright: c2 }
+/*
+
+*/
                         ]
                     },
                     {
@@ -769,6 +893,12 @@ const data = [
                             { value: '– Zweimal im Monat.', level: 'a1', copyright: c2 },
                             { value: '– Nie!', level: 'a1', copyright: c2 },
                             { value: '– Oft.', level: 'a1', copyright: c2 }
+/*
+– Gehst du oft in die Disco?
+– Manchmal./Oft./Nie./Zweimal im Monat.
+– Fährst du jedes Wochenende nach Hause?
+– Abends bin ich immer zu Hause.
+*/
                         ]
                     }
                 ]
@@ -792,13 +922,35 @@ const data = [
                             { value: '– (Nicht) Alles.', level: 'a1', copyright: c2 },
                             { value: '– Viel.', level: 'a1', copyright: c2 },
                             { value: '– Ein bisschen, bitte.', level: 'a1', copyright: c2 }
+/*
+– Was/Wie viel kostet das? Ein Euro fünfzig.
+– Ein Kilo Kartoffeln, ein Glas Wasser,
+ein Teller Suppe, eine Flasche Apfelsaft,
+eine Tasse Tee/1 Liter/500 Gramm.
+– Ein halbes Hähnchen.
+– Ein paar Äpfel, ein bisschen Gemüse,
+viele Kartoffeln.
+– Ich habe alles/nur noch wenig/nichts mehr.
+*/
                         ]
                     },
+/*
+groupId: Menge
+– Wie viel möchtest du? (Nicht) Alles/Viel/
+Ein bisschen, bitte.
+– Ich habe nichts mehr/nur noch wenig.
+– Du hast fast alles/nichts gegessen.
+*/
                     {
                         groupId: 'Grad',
                         translate: ['degré', 'grade'],
                         entries: [
                             { value: 'Das ist sehr/zu gefährlich.', level: 'a1', copyright: c2 }
+/*
+– Das ist ziemlich/sehr/viel zu/
+nicht so schwierig.
+– Er hat nur wenig Interesse für uns.
+*/
                         ]
                     },
                     {
@@ -817,6 +969,13 @@ const data = [
                             { value: '– Einen Liter.', level: 'a1', copyright: c2 },
                             { value: 'Wie schnell ...?', level: 'a1', copyright: c2 },
                             { value: '– Nur maximal 60 km/h.', level: 'a1', copyright: c2 }
+/*
+– Das ist sehr lang/ groß/klein/schwer/
+warm/kalt/schnell/langsam.
+– Das ist ganz einfach.
+– Wie lang ist das? 1,50 Meter./
+Das ist zu kurz.
+*/
                         ]
                     }
                 ]
@@ -845,6 +1004,14 @@ const data = [
                             { value: '– Nicht sehr alt.', level: 'a1', copyright: c2 },
                             { value: '– Schon 60.', level: 'a1', copyright: c2 },
                             { value: '– Erst 50.', level: 'a1', copyright: c2 }
+/*
+– Das Essen schmeckt wunderbar.
+– Mein neuer Pullover ist rot, grün, blau ...
+– Angelika ist 15 Jahre alt.
+– Das Museum ist heute geschlossen/offen.
+– Er ist krank/gesund./Es geht ihm gut.
+– Das ist aus Plastik/Holz/Glas.
+*/
                         ]
                     },
                     {
@@ -870,6 +1037,15 @@ const data = [
                             { value: '– (nicht) normal', level: 'a1', copyright: c2 },
                             { value: '(Schwierigkeit?)', level: 'a1', copyright: c2 },
                             { value: '– (nicht) leicht', level: 'a1', copyright: c2 }
+/*
+– Diese Sache ist teuer/billig/
+(nicht) in Ordnung/(nicht) wichtig/
+(nicht) richtig/(nicht) leicht.
+– Die Übung ist nicht schwierig.
+– Diesen Film finde ich besser.
+– Das hast du falsch gemacht, am besten
+versuchst du es noch einmal.
+*/
                         ]
                     },
                     {
@@ -880,6 +1056,13 @@ const data = [
                             { value: '– Ja, wie meine Schwester.', level: 'a1', copyright: c2 },
                             { value: 'Sie ist so alt wie ich.', level: 'a1', copyright: c2 },
                             { value: 'Wir sind gleich alt.', level: 'a1', copyright: c2 }
+/*
+– Ich bin so groß wie meine Freundin.
+– Wir sind gleich groß/alt.
+– Ich bin älter als du.
+– Der rote Pullover ist viel teurer als
+der weiße.
+*/
                         ]
                     }
                 ]
@@ -894,6 +1077,11 @@ const data = [
                         entries: [
                             { value: 'Warum kommt er nicht mit zur Party?', level: 'a1', copyright: c2 },
                             { value: '– Er kann nicht. Er arbeitet heute lange.', level: 'a1', copyright: c2 }
+/*
+– Warum ist Miriam heute nicht in der
+Schule? Sie ist krank./Weil sie krank ist.
+– Miriam ist krank, deshalb kommt sie nicht.
+*/
                         ]
                     },
                     {
@@ -902,6 +1090,11 @@ const data = [
                         entries: [
                             { value: 'Kann ich das Auto haben?', level: 'a1', copyright: c2 },
                             { value: '– Ja, aber nur für eine Stunde.', level: 'a1', copyright: c2 }
+/*
+– Kann ich das Buch haben? Ja, aber du
+musst es mir morgen zurückgeben.
+– Wenn es regnet, bleiben wir zu Hause.
+*/
                         ]
                     },
                     {
@@ -910,6 +1103,13 @@ const data = [
                         entries: [
                             { value: 'Er isst und trinkt gern.', level: 'a1', copyright: c2 },
                             { value: 'Möchtest du Wasser oder Wein?', level: 'a1', copyright: c2 }
+/*
+– Ich esse gern Brot und Kartoffeln
+und Fleisch.
+– Möchtest du Wasser oder Cola?
+– Wir gehen erst einkaufen und dann
+ins Café.
+*/
                         ]
                     }
                 ]
@@ -924,6 +1124,12 @@ const data = [
                             { value: 'Können Sie Russisch (sprechen)?', level: 'a1', copyright: c2 },
                             { value: '– Ja klar.', level: 'a1', copyright: c2 },
                             { value: '– Sicher.', level: 'a1', copyright: c2 }
+/*
+– Kannst du Tennis spielen?
+Ja, ein bisschen/gut./Natürlich./
+Leider nicht.
+– Ich weiß nicht, wie man das macht.
+*/
                         ]
                     },
                     {
@@ -931,6 +1137,10 @@ const data = [
                         translate: ['occasion', 'possibilité'],
                         entries: [
                             { value: 'Können Sie morgen kommen?', level: 'a1', copyright: c2 }
+/*
+– Ich kann morgen um acht Uhr bei dir sein.
+– Vielleicht sehen wir uns morgen.
+*/
                         ]
                     },
                     {
@@ -938,6 +1148,10 @@ const data = [
                         translate: ['Notwendigkeit: besoin/nécessité', 'Verpflichtung: obligation/engagement'],
                         entries: [
                             { value: 'Mein Sohn muss um 8 Uhr zu Hause sein.', level: 'a1', copyright: c2 }
+/*
+– Du musst mir helfen!
+– Kannst du sofort kommen? Es ist wichtig.
+*/
                         ]
                     }
                 ]
@@ -1162,7 +1376,7 @@ ich habe das nicht verstanden.
                             {
                                 groupId: 'um Wiederholung bitten',
                                 entries: [
-                                    { value: 'Entschuldigung, noch einmal bitte.', level: 'a1', copyright: c2 }
+                                    { value: 'Entschuldigung, noch einmal bitte.', level: 'a1', copyright: c2 },
                                     { value: 'Noch einmal bitte.', level: 'a1', copyright: c2 },
                                     { value: 'Kannst du das bitte noch einmal sagen?', level: 'a1', copyright: c2 },
                                     { value: 'Wie bitte?', level: 'a1', copyright: c2 }
