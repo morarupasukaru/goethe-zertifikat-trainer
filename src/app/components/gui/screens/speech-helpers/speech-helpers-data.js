@@ -1,5 +1,6 @@
 let c1 = ['Hueber, Fit fürs Goethe-Zertifikat A2', 'Cornelsen, Prüfungstraining DaF: A1, A2'];
 let c2 = 'Goethe Institut, GOETHE-ZERTIFIKAT A1 START DEUTSCH 1, PRÜFUNGSZIELE TESTBESCHREIBUNG';
+let c3 = 'Goethe Institut, GOETHE-ZERTIFIKAT A2 FIT IN DEUTSCH 2, PRÜFUNGSZIELE TESTBESCHREIBUNG';
 
 const data = [
     {
@@ -564,6 +565,7 @@ const data = [
                             { value: '– Nein, es gibt nur eine Grundschule.', level: 'a1', copyright: c2 },
                             { value: 'Hier gibt es aber viele Kinos.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Es gibt hier keinen Bahnhof.
 – Gibt es hier ein Schwimmbad?
 */
@@ -576,6 +578,7 @@ const data = [
                             { value: 'Ist Elke da?', level: 'a1', copyright: c2 },
                             { value: '– Ja./Nein, leider nicht.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Peter ist heute nicht da.
 – Ist Herr Neumann da?
 – Ich glaube, heute ist niemand da.
@@ -592,6 +595,7 @@ const data = [
                             { value: '– Nein, leider nicht.', level: 'a1', copyright: c2 },
                             { value: '– Nein, ich habe kein Auto.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich habe ein Fahrrad.
 – Leider habe ich kein Geld mehr.
 – Wir haben nichts gefunden.
@@ -605,6 +609,7 @@ const data = [
                             { value: 'Was ist passiert?', level: 'a1', copyright: c2 },
                             { value: 'Wann ist das passiert?', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Was ist hier los?
 – Das ist gestern passiert.
 */
@@ -616,6 +621,7 @@ const data = [
                             { value: 'Ich komme mit meiner Freundin.', level: 'a1', copyright: c2 },
                             { value: 'Er kommt ohne Auto.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich fahre mit meinen Eltern in Ferien.
 – Er kommt ohne Auto.
 */
@@ -629,6 +635,7 @@ const data = [
                             { value: '– Das ist mein/dein/sein/ihr Auto.', level: 'a1', copyright: c2 },
                             { value: 'Simon arbeitet jetzt bei Siemens.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Das ist (nicht) mein, dein, sein, ihr
 Wörterbuch.
 – Natürlich gehört das mir!
@@ -658,6 +665,7 @@ Wörterbuch.
                             { value: '– Kiel liegt an der Ostsee.', level: 'a1', copyright: c2 },
                             { value: '– Die Schlüssel liegen auf dem Tisch.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Miriam wohnt in Hamburg bei ihren Eltern.
 – Hier/dort/da steht mein neues Fahrrad.
 – Meine Schwester ist zu Hause/
@@ -680,6 +688,7 @@ am Ende der Straße.
                             { value: '– Aus Prag.', level: 'a1', copyright: c2 },
                             { value: '– Vom Arzt.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Woher kommst du?
 – Ich komme aus Polen.
 – Um acht gehe ich aus dem Haus.
@@ -700,6 +709,7 @@ am Ende der Straße.
                             { value: '– Ans Meer.', level: 'a1', copyright: c2 },
                             { value: '– Nach Österreich.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Wir gehen (fahren) nach Hause,
 in die Schule, ans Meer, nach Deutschland,
 zu meiner Freundin.
@@ -715,6 +725,7 @@ Ampel links in die Poststraße.
                             { value: 'Wie weit ist es bis Bonn?', level: 'a1', copyright: c2 },
                             { value: '– Nur zehn Kilometer.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Bis zur Schule ist es nicht weit,
 nur zehn Minuten.
 – Wie weit ist es von hier bis zum
@@ -739,6 +750,7 @@ Hauptbahnhof?
                             { value: 'Wie spät ist es bitte?', level: 'a1', copyright: c2 },
                             { value: '– Es ist jetzt 7 Uhr.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Wann kommst du?
 – Um drei./Heute Nachmittag.
 – Wie spät ist es?
@@ -755,6 +767,7 @@ Hauptbahnhof?
                             { value: '– Am 12. Mai 1988.', level: 'a1', copyright: c2 },
                             { value: 'Wir fahren im Mai in Urlaub.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Wir fahren im Juli ans Meer.
 – Die Ferien beginnen nächste Woche.
 – Am Morgen/Morgens bin ich immer müde.
@@ -771,6 +784,7 @@ Freunde.
                             { value: 'Komm bitte vor 10 Uhr.', level: 'a1', copyright: c2 },
                             { value: 'Wir sind (zu) früh.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich rufe dich vor dem Unterricht an.
 – Du kommst zu früh.
 */
@@ -783,6 +797,7 @@ Freunde.
                             { value: 'Bitte nach 23 Uhr nicht mehr anrufen.', level: 'a1', copyright: c2 },
                             { value: 'Wir sind leider zu spät.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 Die Hausaufgaben mache ich nach
 dem Essen.
 – Du kommst zu spät.
@@ -799,6 +814,7 @@ dem Essen.
                             { value: 'Heute Abend rufe ich dich an.', level: 'a1', copyright: c2 },
                             { value: 'Am Montag gehen wir ins Kino.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Morgen/Bald/Später kommt mein Vater
 nach Hause.
 – Morgen Nachmittag/ Abend/ Mittag treffen
@@ -820,6 +836,7 @@ In zwei Tagen bin ich zu Hause.
                             { value: 'Ich bin schon da.', level: 'a1', copyright: c2 },
                             { value: 'Er ist heute in Mainz.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Was machst du heute/jetzt?
 */
                         ]
@@ -830,6 +847,7 @@ In zwei Tagen bin ich zu Hause.
                         entries: [
                             { value: 'Gestern/vor zwei Tagen habe ich die Prüfung gemacht.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Gestern/Vor einer Woche war ich in Berlin.
 – Er war gerade noch hier.
 – Ich habe Angelika letzte Woche gesehen.
@@ -842,9 +860,6 @@ In zwei Tagen bin ich zu Hause.
                         translate: ['Verspätung: retard', 'Frühzeitigkeit: précocité'],
                         entries: [
                             { value: 'Es ist schon spät.', level: 'a1', copyright: c2 }
-/*
-
-*/
                         ]
                     },
                     {
@@ -856,6 +871,7 @@ In zwei Tagen bin ich zu Hause.
                             { value: '– (Nicht) Lange.', level: 'a1', copyright: c2 },
                             { value: '– Bis Montag.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Wir bleiben drei Tage in Rom.
 – Wir wohnen schon lange in Livorno.
 – Wir bleiben bis Montag hier.
@@ -870,9 +886,6 @@ In zwei Tagen bin ich zu Hause.
                         entries: [
                             { value: 'Wann beginnt der Film?', level: 'a1', copyright: c2 },
                             { value: '– Um 20 Uhr fängt er an.', level: 'a1', copyright: c2 }
-/*
-
-*/
                         ]
                     },
                     {
@@ -880,9 +893,6 @@ In zwei Tagen bin ich zu Hause.
                         entries: [
                             { value: 'Bis wann arbeitest du?', level: 'a1', copyright: c2 },
                             { value: '– Heute bis 18 Uhr.', level: 'a1', copyright: c2 }
-/*
-
-*/
                         ]
                     },
                     {
@@ -894,6 +904,7 @@ In zwei Tagen bin ich zu Hause.
                             { value: '– Nie!', level: 'a1', copyright: c2 },
                             { value: '– Oft.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Gehst du oft in die Disco?
 – Manchmal./Oft./Nie./Zweimal im Monat.
 – Fährst du jedes Wochenende nach Hause?
@@ -923,6 +934,7 @@ In zwei Tagen bin ich zu Hause.
                             { value: '– Viel.', level: 'a1', copyright: c2 },
                             { value: '– Ein bisschen, bitte.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Was/Wie viel kostet das? Ein Euro fünfzig.
 – Ein Kilo Kartoffeln, ein Glas Wasser,
 ein Teller Suppe, eine Flasche Apfelsaft,
@@ -935,6 +947,7 @@ viele Kartoffeln.
                         ]
                     },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 groupId: Menge
 – Wie viel möchtest du? (Nicht) Alles/Viel/
 Ein bisschen, bitte.
@@ -947,6 +960,7 @@ Ein bisschen, bitte.
                         entries: [
                             { value: 'Das ist sehr/zu gefährlich.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Das ist ziemlich/sehr/viel zu/
 nicht so schwierig.
 – Er hat nur wenig Interesse für uns.
@@ -970,6 +984,7 @@ nicht so schwierig.
                             { value: 'Wie schnell ...?', level: 'a1', copyright: c2 },
                             { value: '– Nur maximal 60 km/h.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Das ist sehr lang/ groß/klein/schwer/
 warm/kalt/schnell/langsam.
 – Das ist ganz einfach.
@@ -1005,6 +1020,7 @@ Das ist zu kurz.
                             { value: '– Schon 60.', level: 'a1', copyright: c2 },
                             { value: '– Erst 50.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Das Essen schmeckt wunderbar.
 – Mein neuer Pullover ist rot, grün, blau ...
 – Angelika ist 15 Jahre alt.
@@ -1038,6 +1054,7 @@ Das ist zu kurz.
                             { value: '(Schwierigkeit?)', level: 'a1', copyright: c2 },
                             { value: '– (nicht) leicht', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Diese Sache ist teuer/billig/
 (nicht) in Ordnung/(nicht) wichtig/
 (nicht) richtig/(nicht) leicht.
@@ -1057,6 +1074,7 @@ versuchst du es noch einmal.
                             { value: 'Sie ist so alt wie ich.', level: 'a1', copyright: c2 },
                             { value: 'Wir sind gleich alt.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich bin so groß wie meine Freundin.
 – Wir sind gleich groß/alt.
 – Ich bin älter als du.
@@ -1078,6 +1096,7 @@ der weiße.
                             { value: 'Warum kommt er nicht mit zur Party?', level: 'a1', copyright: c2 },
                             { value: '– Er kann nicht. Er arbeitet heute lange.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Warum ist Miriam heute nicht in der
 Schule? Sie ist krank./Weil sie krank ist.
 – Miriam ist krank, deshalb kommt sie nicht.
@@ -1091,6 +1110,7 @@ Schule? Sie ist krank./Weil sie krank ist.
                             { value: 'Kann ich das Auto haben?', level: 'a1', copyright: c2 },
                             { value: '– Ja, aber nur für eine Stunde.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Kann ich das Buch haben? Ja, aber du
 musst es mir morgen zurückgeben.
 – Wenn es regnet, bleiben wir zu Hause.
@@ -1104,6 +1124,7 @@ musst es mir morgen zurückgeben.
                             { value: 'Er isst und trinkt gern.', level: 'a1', copyright: c2 },
                             { value: 'Möchtest du Wasser oder Wein?', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich esse gern Brot und Kartoffeln
 und Fleisch.
 – Möchtest du Wasser oder Cola?
@@ -1125,6 +1146,7 @@ ins Café.
                             { value: '– Ja klar.', level: 'a1', copyright: c2 },
                             { value: '– Sicher.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Kannst du Tennis spielen?
 Ja, ein bisschen/gut./Natürlich./
 Leider nicht.
@@ -1138,6 +1160,7 @@ Leider nicht.
                         entries: [
                             { value: 'Können Sie morgen kommen?', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich kann morgen um acht Uhr bei dir sein.
 – Vielleicht sehen wir uns morgen.
 */
@@ -1149,6 +1172,7 @@ Leider nicht.
                         entries: [
                             { value: 'Mein Sohn muss um 8 Uhr zu Hause sein.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Du musst mir helfen!
 – Kannst du sofort kommen? Es ist wichtig.
 */
@@ -1173,6 +1197,7 @@ Leider nicht.
                             { value: 'Brauchen Sie Hilfe?', level: 'a1', copyright: c2 },
                             { value: '(Im Restaurant.) Hallo! Entschuldigung bitte!', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Entschuldigung ...
 – Entschuldige, hast du einen Moment Zeit?
 – Kann ich etwas fragen?
@@ -1193,6 +1218,7 @@ Leider nicht.
                             { value: 'Dann, herzlichen Dank', translate: 'Merci beaucoup !', level: 'a1', copyright: c2 },
                             { value: 'auf Wiedersehen.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Danke. Ich muss jetzt leider gehen.
 – Okay, tschüss, bis bald.
 – Gut: ...
@@ -1211,6 +1237,7 @@ Leider nicht.
                             { value: 'Moment bitte.', level: 'a1', copyright: c2 },
                             { value: 'Bitte!', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Bitte.
 – Ich möchte (noch) etwas sagen.
 */
@@ -1230,6 +1257,7 @@ Leider nicht.
                             { value: 'Bitte?', level: 'a1', copyright: c2 },
                             { value: '(Na) Klar.', translate: ['Forcément !', 'Bien sûr !'], level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja?/So?/Wirklich?
 – Bitte?
 – (Na) klar.
@@ -1248,6 +1276,7 @@ Leider nicht.
                             { value: 'Und dann?', level: 'a1', copyright: c2 },
                             { value: 'Und?', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Also?
 – Ja?
 – Und?
@@ -1259,6 +1288,7 @@ Leider nicht.
                         ]
                     },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 groupId: gemeinsames Wissen andeuten
 – Nein, heute geht es nicht. Da spielen wir
 doch Fußball.
@@ -1270,6 +1300,7 @@ doch Fußball.
                         entries: [
                             { value: 'Ich esse gern Obst, zum Beispiel Orangen, Bananen und Erdbeeren.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich habe viele Hobbys, zum Beispiel
 Fußball spielen und Musik hören.
 – Meine Familie, also das ist: mein Vater
@@ -1279,6 +1310,7 @@ Bruder Fabio.
                         ]
                     },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 groupId: Vermeidung
 – Potsdam liegt ... ja, das liegt nahe
 bei Berlin.
@@ -1294,6 +1326,7 @@ Mutter helfen.
                             { value: 'Kann ich Sie etwas fragen?', level: 'a1', copyright: c2 },
                             { value: 'Darf ich Sie etwas fragen?', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Kann ich dir helfen?
 – Entschuldigung!
 – Darf ich noch ein Stück Torte haben?
@@ -1307,6 +1340,7 @@ Mutter helfen.
                             { value: 'Möchtest du noch etwas?', level: 'a1', copyright: c2 },
                             { value: '– Ja, ein bisschen.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Möchtest du noch etwas? Ja, ein bisschen.
 – Eigentlich hast du ja recht.
 */
@@ -1326,6 +1360,7 @@ Mutter helfen.
                                 entries: [
                                     { value: 'Apotheke: Da kann man Medikamente kaufen.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Küche: Da kann man das Essen machen.
 – Gabel und Messer: Das braucht man beim
 Essen.
@@ -1340,18 +1375,12 @@ oder Rügen.
                                 entries: [
                                     { value: 'Haben Sie das verstanden?', level: 'a1', copyright: c2 },
                                     { value: 'Ist das klar?', level: 'a1', copyright: c2 }
-/*
-
-*/
                                 ]
                             },
                             {
                                 groupId: 'schwierige Wörter buchstabieren',
                                 entries: [
                                     { value: 'Mein Name ist „Kuntz“, ich buchstabiere: K-U-N-T-Z.', level: 'a1', copyright: c2 }
-/*
-
-*/
                                 ]
                             }
                         ]
@@ -1365,6 +1394,7 @@ oder Rügen.
                                     { value: 'Entschuldigung, wie bitte?', level: 'a1', copyright: c2 },
                                     { value: 'Langsamer bitte.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Entschuldigung, wie bitte?
 – Kannst du bitte langsamer sprechen,
 ich habe das nicht verstanden.
@@ -1381,6 +1411,7 @@ ich habe das nicht verstanden.
                                     { value: 'Kannst du das bitte noch einmal sagen?', level: 'a1', copyright: c2 },
                                     { value: 'Wie bitte?', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Noch einmal bitte.
 – Kannst du das noch einmal sagen?
 – Wie bitte?
@@ -1388,6 +1419,7 @@ ich habe das nicht verstanden.
                                 ]
                             },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 groupId: sich bestätigen lassen, ob man richtig gehört bzw. den Kontext richtig verstanden hat
 – Entschuldigung, habe ich das richtig
 verstanden?
@@ -1401,6 +1433,7 @@ verstanden?
                                     { value: 'Entschuldigung, was heißt das?', level: 'a1', copyright: c2 },
                                     { value: 'Was bedeutet ... ?', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Entschuldigung, wie heißt das?
 – Ich kenne das Wort nicht.
 Kannst du es erklären?
@@ -1420,6 +1453,7 @@ Kannst du es erklären?
                                     { value: 'Wie schreibt man ... ?', level: 'a1', copyright: c2 },
                                     { value: 'Bitte schreiben Sie das auf.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Wie schreibt man ...?
 – Kannst du das bitte schreiben?
 */
@@ -1430,15 +1464,18 @@ Kannst du es erklären?
                                 entries: [
                                     { value: 'Bitte ein bisschen langsamer.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Kannst du bitte langsamer sprechen?
 */
                                 ]
                             },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 groupId: Hilfestellung beim Formulieren
 – Meinst du vielleicht ...?
 */
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 groupId: Rückfragen zur Verständnissicherung
 – Hab’ ich richtig verstanden?
 Wir treffen uns bei Eva.
@@ -1450,6 +1487,7 @@ Wir treffen uns bei Eva.
                                     { value: 'Das habe ich nicht verstanden.', level: 'a1', copyright: c2 },
                                     { value: 'Das (Wort) verstehe ich nicht.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich glaube, das habe ich nicht (richtig)
 verstanden.
 – Tut mir leid, ich kann dich nicht verstehen.
@@ -1460,6 +1498,7 @@ verstanden.
                     },
                     {
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 groupId: Wörter und Begriffe umschreiben
 – Ich muss noch die ... ich weiß nicht, wie
 man das sagt – Übung für die Schule –
@@ -1474,6 +1513,7 @@ Ja, die Hausaufgaben.
                                     { value: 'Wo ist mein Buch... nicht ein Buch... ein Schreibbuch.', level: 'a1', copyright: c2 },
                                     { value: '– Ah, dein Heft?', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich habe zwei ...
 – einen Bruder und eine Schwester.
 */
@@ -1484,6 +1524,7 @@ Ja, die Hausaufgaben.
                                 entries: [
                                     { value: 'Ich möchte sagen... Ich fahre zu Paris... nein, nach Paris.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich gehe nach Schule ... nein, in die Schule.
 – Entschuldigung, ich sage es noch einmal: ...
 */
@@ -1495,6 +1536,7 @@ Ja, die Hausaufgaben.
                                     { value: 'Wie sagt man auf Deutsch?', level: 'a1', copyright: c2 },
                                     { value: 'Auf Englisch sagt man ...', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Wie sagt man das auf Deutsch? Auf ............
 heißt es /sagt man ...
 – Jetzt weiß ich das Wort nicht mehr.
@@ -1507,6 +1549,7 @@ heißt es /sagt man ...
                                 entries: [
                                     { value: 'Ich spreche nicht gut Deutsch. Haben Sie verstanden?', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Hast du das verstanden?
 – Ich spreche nicht gut Deutsch.
 Hast du mich verstanden?
@@ -1543,6 +1586,7 @@ Hast du mich verstanden?
                             { value: 'Der Film heißt „Abgeschminkt“.', level: 'a1', copyright: c2 },
                            { value: 'Diese CD gehört mir', level: 'a1', copyright: c2 }
                            /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Alle Schüler kommen aus Russland.
 – Das ist Wolfgang/Frau Brandt/mein Bruder.
 – Das ist ein Musikinstrument.
@@ -1567,6 +1611,7 @@ interessant/langweilig?
                             { value: '– Sie ist braun.', level: 'a1', copyright: c2 }
                         ]
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Kannst du sie beschreiben? Sie ist blond,
 nicht sehr groß und hat grüne Augen.
 – Palermo ist eine große Stadt in Süditalien
@@ -1580,6 +1625,7 @@ und liegt am Meer.
                             { value: 'Wie geht das?', level: 'a1', copyright: c2 }
                         ]
 /*
+                            { value: '', level: 'a2', copyright: c3 },
                         – Wie macht man das? Wie geht das?
                         – Du musst zuerst den Computer anmachen
                         und dann siehst du alles.
@@ -1592,6 +1638,7 @@ und liegt am Meer.
                             { value: 'Was ist passiert?', level: 'a1', copyright: c2 },
                             { value: '– Ich hatte einen Unfall.', level: 'a1', copyright: c2 }
                             /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich war im Sommer in Berlin.
 – Ich habe in den Ferien einen Deutschkurs
 gemacht.
@@ -1610,6 +1657,7 @@ nur leicht verletzt.
                             { value: 'Wann fährst du (wieder)?', level: 'a1', copyright: c2 },
                             { value: '– Nächstes Jahr fahren wir nach Griechenland.', level: 'a1', copyright: c2 }
                             /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Die Party ist am Samstag um halb acht.
 – Wir treffen uns am Samstag vor der Schule.
 – In den Ferien fahre ich zu meiner Tante
@@ -1626,6 +1674,7 @@ Stunde.
                         entries: [
                             { value: 'Was ist das?', level: 'a1', copyright: c2 }
                             /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Das Geschenk ist für Peter.
 – Was ist das? Das brauche ich für meinen
 Motorroller.
@@ -1645,6 +1694,7 @@ Spiele machen.
                             { value: '– Nein.', level: 'a1', copyright: c2 },
                             { value: '– Vielleicht.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Weißt du das? – Ja./Nein./Noch nicht.
 – Bist du sicher? Weißt du das genau?
 – Ich bin (nicht) sicher.
@@ -1654,6 +1704,7 @@ Spiele machen.
                         ]
                     }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 groupId: Nachfrage
 – Wir treffen uns am Mittag vor der Schule.
 Wann genau?
@@ -1667,6 +1718,7 @@ Wann genau?
                 entries: [
                     {
                     /*
+                            { value: '', level: 'a2', copyright: c3 },
 groupId: Meinung/Ansicht
 – Was denkst/meinst du?
 – Ich glaube/denke, ...
@@ -1683,6 +1735,7 @@ groupId: Meinung/Ansicht
                             { value: 'Der Film war sehr gut.', level: 'a1', copyright: c2 }
                         ]
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Wie waren die Ferien? Toll./Gut./
 Nicht (so) gut./Schlecht.
 – Ich freue mich, dass du kommst.
@@ -1724,6 +1777,7 @@ nicht eingeladen hat.
                             { value: 'Ich mag diese Stadt nicht.', level: 'a1', copyright: c2 }
                         ]
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Gefällt dir mein Pullover? Ja, der ist toll/
 Nein, ich finde den Pullover nicht schön.
 – Ich finde den Film langweilig/lustig.
@@ -1750,6 +1804,7 @@ Nein, ich finde sie nicht gut.
                             { value: 'Was sind deine Hobbys?', level: 'a1', copyright: c2 }
                         ]
                         /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Was sind deine Hobbys?
 – Spielst du gern Fußball? Ja, sehr gern./
 Nein.
@@ -1776,6 +1831,7 @@ Ich finde Tennis interessant.
                             { value: '– Es ist zu langweilig.', level: 'a1', copyright: c2 },
                             { value: 'So geht das nicht.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
                             – Wie findest du das?
                             – Ich finde das (nicht) gut.
                             – So geht das nicht!
@@ -1791,6 +1847,7 @@ Ich finde Tennis interessant.
                             { value: 'Das ist falsch.', level: 'a1', copyright: c2 }
                         ]
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich bin einverstanden/nicht einverstanden.
 – Das finde ich toll/langweilig.
 – Das ist in Ordnung. Genau.
@@ -1813,6 +1870,7 @@ Das finde ich auch/nicht.
                             { value: 'Ich möchte den Film sehen.', level: 'a1', copyright: c2 },
                             { value: 'Ich brauche jetzt eine Pause.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Was wollen wir heute machen?
 – Willst du in die Disco?
 – Was wünschst du dir zum Geburtstag?
@@ -1832,6 +1890,7 @@ Ich wünsche mir/Ich hätte gern ein Handy.
                             { value: '– Ich trinke lieber Tee.', level: 'a1', copyright: c2 },
                             { value: '– Nichts, danke.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Hörst du lieber Rap oder Hip Hop?
 Ich höre lieber Rap.
 – Wohin fährst du am liebsten in den Ferien?
@@ -1849,6 +1908,7 @@ Fußball gefällt mir am besten.
                             { value: '– Das ist (schon/sehr) wichtig.', level: 'a1', copyright: c2 },
                             { value: '– Nicht so wichtig.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ist das wichtig? Das ist (sehr) wichtig./
 Das ist nicht so wichtig.
 – Dieses Wort ist wichtig.
@@ -1867,6 +1927,7 @@ Das ist nicht so wichtig.
                             { value: 'Das ist falsch.', level: 'a1', copyright: c2 },
                             { value: 'Unsinn!', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Nein!/Das mache ich nie!
 – Die Antwort ist falsch.
 – Ich glaube das nicht.
@@ -1884,6 +1945,7 @@ Das ist nicht so wichtig.
                             { value: 'Das ist zu teuer!', level: 'a1', copyright: c2 },
                             { value: 'Entschuldigen Sie, die Heizung funktioniert nicht.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Das ist zu teuer.
 – Es ist zu kalt.
 – Der Automat geht nicht.
@@ -1899,6 +1961,7 @@ Das ist nicht so wichtig.
                             { value: '– Ich habe keine Zeit.', level: 'a1', copyright: c2 },
                             { value: 'Seine Mutter ist krank. Deshalb kommt er heute nicht.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Warum kommst du nicht?
 Ich habe keine Lust.
 – Sie ist krank. Deshalb bleibt sie zu Hause.
@@ -1928,6 +1991,7 @@ machen muss.
                             { value: 'Das ist schade!', level: 'a1', copyright: c2 },
                             { value: 'Das tut mir leid.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Das ist toll!
 – Ja, das finde ich auch.
 – Ich bin froh.
@@ -1951,6 +2015,7 @@ machen muss.
                             { value: '– Ja, gern(e).', level: 'a1', copyright: c2 },
                             { value: '– Nein, nie.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Magst du Pizza? Ja, gern./
 Nein, das schmeckt mir nicht.
 – Isst du gern Fisch?
@@ -1966,6 +2031,7 @@ Nein, das schmeckt mir nicht.
                             { value: '– Na und?', level: 'a1', copyright: c2 },
                             { value: '– Das ist mir egal', level: 'a1', copyright: c2 },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ärgerst du dich über das Zeugnis?
 Das ist mir ganz egal.
 – Das interessiert mich nicht.
@@ -1982,6 +2048,7 @@ Da kann man nichts machen.
                             { value: '(Es) Tut mir (wirklich) (sehr) leid.', level: 'a1', copyright: c2 },
                             { value: 'Das finde ich aber traurig.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Das tut mir leid.
 – Das finde ich traurig.
 – Es tut mir so leid, dass du Zahnschmerzen
@@ -1990,6 +2057,7 @@ hast.
                         ]
                     },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 groupId: Schmerz
 – Mein Kopf tut so weh.
 – Ich habe Halsschmerzen.
@@ -2004,6 +2072,7 @@ groupId: Schmerz
                             { value: 'Wie komisch!', level: 'a1', copyright: c2 },
                             { value: '– Ja, sehr komisch.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Willst du das wirklich machen?
 – Das ist ja toll!
 – Das ist doch verrückt.
@@ -2021,6 +2090,7 @@ groupId: Schmerz
                             { value: 'Hoffentlich regnet es nicht.', level: 'a1', copyright: c2 },
                             { value: 'Hoffentlich kommt bald der Bus.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich hoffe, du kommst heute.
 – Hoffentlich finde ich das Heft.
 – Ich hoffe, dass er heute pünktlich ist ...
@@ -2034,6 +2104,7 @@ groupId: Schmerz
                             { value: 'Ich habe Angst.', level: 'a1', copyright: c2 },
                             { value: 'Schon 10 Uhr, und er ist immer noch nicht da.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Hast du Angst?
 – Ich kann die Hausaufgaben nicht machen.
 – Mach schnell. Es ist schon sehr spät.
@@ -2050,6 +2121,7 @@ Hoffentlich ist nichts passiert.
                         entries: [
                             { value: 'Was? Du bleibst zu Hause? Schade!', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Warum kommst du nicht mit?
 – Das ist aber schade!
 – Schade, dass es nicht klappt.
@@ -2058,6 +2130,7 @@ Hoffentlich ist nichts passiert.
                         ]
                     }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 groupId: Sympathie/Antipathie
 – Ich mag Sabine (sehr) gern.
 – Ich finde Frau Berger nicht sympathisch.
@@ -2084,6 +2157,7 @@ groupId: Sympathie/Antipathie
                             { value: 'Eine Frage bitte: Wie spät ist es?', level: 'a1', copyright: c2 },
                             { value: '– Es ist halb acht (Uhr).', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Zeigst du mir deinen Computer?
 Ja gern./Nein.
 – Kann ich das Buch haben? Ja./
@@ -2111,6 +2185,7 @@ Vielleicht./ Jetzt nicht./ Nein, tut mir leid.
                             { value: 'Stimmt.', translate: 'tout à fait!', level: 'a1', copyright: c2 },
                             { value: 'Genau (so).', translate: ['Absolument !', 'parfaitement !', 'tout à fait !'], level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Die Antwort ist richtig.
 – Richtig? Ja!/Nein!/Doch!
 – Ist das so richtig? Aber natürlich./
@@ -2128,6 +2203,7 @@ Klar./Sicher.
                             { value: '– Sehr nett, danke.', level: 'a1', copyright: c2 },
                             { value: '– Nein, danke.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Kann ich helfen?
 – Ja, gern./Klar./Sicher./Danke./Nein danke.
 – Wollen wir das zusammen machen?
@@ -2146,6 +2222,7 @@ Nein danke, ich kann es alleine.
                             { value: 'Sofort.', level: 'a1', copyright: c2 },
                             { value: 'Gleich.', translate: 'tout de suite', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich möchte nach Deutschland fliegen.
 – Ich will morgen ins Schwimmbad.
 – Ich hätte gern eine Fahrkarte.
@@ -2164,6 +2241,7 @@ Nein danke, ich kann es alleine.
                             { value: 'Hilfe!', level: 'a1', copyright: c2 },
                             { value: 'Stopp!', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Der Film ist wunderbar.
 – Das Wasser ist zu kalt.
 – Du musst gut aufpassen.
@@ -2189,6 +2267,7 @@ Nein danke, ich kann es alleine.
                             { value: 'Kann man hier parken?', level: 'a1', copyright: c2 },
                             { value: '– Nein, hier ist Parken verboten.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Kann ich zu dir kommen? Ja./
 Nein, heute nicht.
 – Kann ich die CD haben? Ja./Nein.
@@ -2214,6 +2293,7 @@ Nein, meine Mutter hat es verboten.
                             { value: '– Keine Zeit.', level: 'a1', copyright: c2 },
                             { value: '– Keine Lust', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Gehen wir heute in die Disco? Ja, gern.
 – Kommst du mit ins Schwimmbad?
 Das ist eine tolle Idee./Nein, keine Lust.
@@ -2237,6 +2317,7 @@ Ich bin dafür/dagegen.
                             { value: '– Ich mache es morgen.', level: 'a1', copyright: c2 },
                             { value: '– Das mache ich!', level: 'a1', copyright: c2 },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich komme nach der Schule.
 – Morgen gehen wir zusammen zu Bodo.
 – Wirklich? Versprochen?/Ganz sicher.
@@ -2256,6 +2337,7 @@ Bestimmt.
                             { value: '– Nein, (morgen kann ich/geht es) leider nicht.', level: 'a1', copyright: c2 },
                             { value: 'Wann hast du (mal/denn) Zeit?', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Hast du am Mittwoch Zeit? Ja, wann?/
 Vielleicht./Ich weiß es nicht.
 – Treffen wir uns um acht vor dem Kino?
@@ -2275,6 +2357,7 @@ Ja, das passt mir.
                             { value: 'Setz dich!', level: 'a1', copyright: c2 },
                             { value: 'Setzen Sie sich doch!', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Kommst du heute zu mir? Ja, toll./
 Nein, ich kann nicht./Es tut mir leid, aber
 ich habe keine Zeit.
@@ -2310,6 +2393,7 @@ ich habe keine Zeit.
                             { value: '– Nein, ich heiße ...', level: 'a1', copyright: c2 },
                             { value: '– Nein, mein Name ist ...', level: 'a1', copyright: c2 },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Hallo!
 – Michael!
 – Heißt du Miriam? Nein, ich bin Michaela.
@@ -2361,6 +2445,7 @@ Liebe Frau/Lieber Herr Maier, ...
                             { value: 'Grüß Gott! (süddeutsch)', level: 'a1', copyright: c2 },
                             { value: '– Grüß Gott!', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Guten Tag/Hallo, Bodo.
 – Hi, Marika.
 – Guten Morgen/Tag/Abend.
@@ -2385,6 +2470,7 @@ es geht.
                             { value: '– Ah ja. Ich heiße Johanna Hauser.', level: 'a1', copyright: c2 },
                             { value: '– Ah ja. Ich bin Johanna Hauser.', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich heiße Nina.
 – (Hallo) Ich bin Marko.
 – Ich bin Marco Gellner.
@@ -2410,6 +2496,7 @@ Nein, noch nicht.
                             { value: '– Na ja, es geht!', level: 'a1', copyright: c2 },
                             { value: '– Ach, nicht so gut.', level: 'a1', copyright: c2 },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Wie geht es dir? Gut./Nicht so gut./Schlecht.
 – Geht es dir gut? Ja, super./
 Nein, nicht so gut.
@@ -2427,6 +2514,7 @@ Was ist los?/Was ist passiert?/Was hast du?
                             { value: 'Gut gemacht!', level: 'a1', copyright: c2 },
                             { value: 'Prost!', level: 'a1', copyright: c2 }
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Frohe Weihnachten!
 – (Ich wünsche dir) schöne Ferien!
 – Gute Reise!
@@ -2460,6 +2548,7 @@ Was ist los?/Was ist passiert?/Was hast du?
                         ]
                     },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 grouoId: ein Kompliment machen
 – Du bist toll.
 – Tolle Frisur/Fantastisches Kleid!
@@ -2478,6 +2567,7 @@ grouoId: ein Kompliment machen
                             { value: '– Danke, ebenfalls.', level: 'a1', copyright: c2 },
                             { value: '– (Aber) Bitte.', level: 'a1', copyright: c2 },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Danke, Dankeschön.
 – Vielen Dank für dein Geschenk.
 – Herzlichen Dank.
@@ -2500,6 +2590,7 @@ grouoId: ein Kompliment machen
                             { value: '– Schon gut.', level: 'a1', copyright: c2 },
                             { value: '– Kein Problem.', level: 'a1', copyright: c2 },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Entschuldigung.
 – Kein Problem.
 – Das tut mir sehr/schrecklich/furchtbar leid.
@@ -2517,6 +2608,7 @@ grouoId: ein Kompliment machen
                             { value: 'Bis später.', level: 'a1', copyright: c2 },
                             { value: 'Gute Nacht!', level: 'a1', copyright: c2 },
 /*
+                            { value: '', level: 'a2', copyright: c3 },
 – Tschüss!
 – Bis bald/später!
 – Auf Wiedersehen.
