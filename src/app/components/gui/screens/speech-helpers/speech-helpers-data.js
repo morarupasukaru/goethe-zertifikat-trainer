@@ -665,9 +665,12 @@ const data = [
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Woher kommst du?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich komme aus Polen.
-Um acht gehe ich aus dem Haus.
-Kommst du jetzt vom Arzt?
+                            { value: 'Um acht gehe ich aus dem Haus.', level: 'a2', copyright: c3 },
+
+                            { value: 'Kommst du jetzt vom Arzt?', level: 'a2', copyright: c3 },
+
 */
                         ]
                     },
@@ -686,6 +689,7 @@ Kommst du jetzt vom Arzt?
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Wir gehen (fahren) nach Hause / in die Schule, ans Meer / nach Deutschland / zu meiner Freundin.
+                            { value: '', level: 'a2', copyright: c3 },
 Gehen Sie hier rechts in die Bahnhofsstraße, dann immer geradeaus und bei der Ampel links in die Poststraße.
 */
                         ]
