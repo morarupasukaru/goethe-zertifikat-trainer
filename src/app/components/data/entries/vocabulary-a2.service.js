@@ -1051,15 +1051,15 @@ class VocabularyA2Service {
     createKEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'K'];
-        entries.push(new Builder().id('91e1274a-4018-4664-917d-a2a14a52f8dc').thema(thema).entry('r Keller, -').translate().example('Räum die alten Sachen in den Keller.').get());
-        entries.push(new Builder().id('1c63c547-17e1-4a2c-9682-cd4388f0ef2b').thema(thema).entry('klingeln').translate().example(['Du kannst bei Hausnummer 5 klingeln.', 'Das Telefon klingelt.']).get());
-        entries.push(new Builder().id('fe159594-6d79-4acd-91bf-577938c15afe').thema(thema).entry('r Klub, -s').translate().example('Wollen wir in einen Klub zum Tanzen gehen?').get());
-        entries.push(new Builder().id('f57226d2-59f1-435b-854a-76045ee29033').thema(thema).entry('klug').translate().example(['Eine kluge Antwort.', 'Sie ist ein kluges Mädchen.']).get());
-        entries.push(new Builder().id('978368ca-f6dc-4de4-8a82-3f208ac47cd0').thema(thema).entry('kostenlos').translate().example('Das Programm kannst du kostenlos bekommen. Du musst es nicht bezahlen.').get());
-        entries.push(new Builder().id('641e3b71-35b9-4760-ad7c-8f83ee4973d9').thema(thema).entry('s Krankenhaus, ä, -er').translate().example('Meine Freundin ist im Krankenhaus. Sie ist sehr krank.').get());
-        entries.push(new Builder().id('3572a51a-f646-49aa-92b5-ab6ac0e4fd6c').thema(thema).entry('e Kreuzung, -en').translate().example('An der Kreuzung musst du rechts fahren.').get());
-        entries.push(new Builder().id('8f2ade26-300e-4da1-b0ae-c92f1170aca3').thema(thema).entry('kühl').translate().example('Es ist heute ziemlich kühl. Nimm eine Jacke mit.').get());
-        entries.push(new Builder().id('bc819dbe-351c-409e-8dbd-02fb6bc8ae6a').thema(thema).entry('r Kuchen, -').translate().example('Zum Geburtstag backe ich dir einen Kuchen.').get());
+        entries.push(new Builder().id('91e1274a-4018-4664-917d-a2a14a52f8dc').thema(thema).entry('r Keller, -').translate('cave').example('Räum die alten Sachen in den Keller.').get());
+        entries.push(new Builder().id('1c63c547-17e1-4a2c-9682-cd4388f0ef2b').thema(thema).entry('klingeln').translate('sonner').example(['Du kannst bei Hausnummer 5 klingeln.', 'Das Telefon klingelt.']).get());
+        entries.push(new Builder().id('fe159594-6d79-4acd-91bf-577938c15afe').thema(thema).entry('r Klub, -s').translate('club (disco)').example('Wollen wir in einen Klub zum Tanzen gehen?').get());
+        entries.push(new Builder().id('f57226d2-59f1-435b-854a-76045ee29033').thema(thema).entry('klug').translate(['intelligent(e)', 'sage', 'judicieux, judicieuse', 'fin(e)', 'prudent(e)']).example(['Eine kluge Antwort.', 'Sie ist ein kluges Mädchen.']).get());
+        entries.push(new Builder().id('978368ca-f6dc-4de4-8a82-3f208ac47cd0').thema(thema).entry('kostenlos').translate('gratuit(e)').example('Das Programm kannst du kostenlos bekommen. Du musst es nicht bezahlen.').get());
+        entries.push(new Builder().id('641e3b71-35b9-4760-ad7c-8f83ee4973d9').thema(thema).entry('s Krankenhaus, ä, -er').translate('hôpital').example('Meine Freundin ist im Krankenhaus. Sie ist sehr krank.').get());
+        entries.push(new Builder().id('3572a51a-f646-49aa-92b5-ab6ac0e4fd6c').thema(thema).entry('e Kreuzung, -en').translate(['carrefour', 'intersection', 'croisement']).example('An der Kreuzung musst du rechts fahren.').get());
+        entries.push(new Builder().id('8f2ade26-300e-4da1-b0ae-c92f1170aca3').thema(thema).entry('kühl').translate('frais, fraîche').example('Es ist heute ziemlich kühl. Nimm eine Jacke mit.').get());
+        entries.push(new Builder().id('bc819dbe-351c-409e-8dbd-02fb6bc8ae6a').thema(thema).entry('r Kuchen, -').translate(['gâteau', 'tarte']).example('Zum Geburtstag backe ich dir einen Kuchen.').get());
 /*
         entries.push(new Builder().id('44ef9e74-3d85-4960-ba4c-c90571f623bc').thema(thema).entry('r Kakao (Sg.)').example('Ich trinke lieber Kakao. (Siehe auch Schokolade.)').get());
         entries.push(new Builder().id('5b5c06ba-c54b-4da5-8e0d-23f1ea13d39a').thema(thema).entry('kalt').example(['Im Winter ist es hier sehr kalt.', 'Mir ist kalt.']).get());
@@ -1113,16 +1113,16 @@ class VocabularyA2Service {
     createLEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'L'];
-        entries.push(new Builder().id('abb4e534-afa0-4f6b-a5db-18a832aae131').thema(thema).entry('e Landkarte, -n').translate().example('Das ist eine Landkarte von Europa.').get());
-        entries.push(new Builder().id('ddb1fe91-0bf4-4692-b7cf-bfdd2562ad90').thema(thema).entry('e Landschaft, -en').translate().example('Mir gefällt die Landschaft am Rhein.').get());
-        entries.push(new Builder().id('1010a939-2c6e-4d0d-8189-c1c270f26419').thema(thema).entry('lassen').translate().example(['Ihr könnt die Bücher zu Hause lassen.', 'Lass mich in Ruhe!']).get());
-        entries.push(new Builder().id('bc0278c1-e13d-47e2-868d-d679f84618e4').thema(thema).entry('leid').translate().example('Es tut mir leid.').get());
-        entries.push(new Builder().id('4c892c26-41e1-40a5-a4f0-7246748ca001').thema(thema).entry('leihen').translate().example('Kannst du mir dein Buch leihen? Ich bringe es morgen zurück.').get());
-        entries.push(new Builder().id('d4abd2b9-05a9-4536-8258-282d11340b5c').thema(thema).entry('e Leistung, -en').translate().example('Deine Leistungen in Mathematik sind nicht gut genug.').get());
-        entries.push(new Builder().id('db883f19-b8a3-4332-9b87-c3cad6b70a6c').thema(thema).entry('lieb haben').translate().example(['Hast du mich lieb?', 'Ich habe meine Eltern lieb.']).get());
-        entries.push(new Builder().id('5a21a612-5c26-4498-aca1-82294f647398').thema(thema).entry('lockig').translate().example('Sie hat kurze, lockige Haare.').get());
-        entries.push(new Builder().id('8a75f039-073d-42f6-a1fa-2a266b751ab2').thema(thema).entry('r Löffel, -').translate().example('Ich brauche einen Löffel für die Suppe.').get());
-        entries.push(new Builder().id('e3395468-a570-4d3a-9d75-902e3444a667').thema(thema).entry('e Lust (Sg.)').translate().example('Ich habe jetzt keine Lust.').get());
+        entries.push(new Builder().id('abb4e534-afa0-4f6b-a5db-18a832aae131').thema(thema).entry('e Landkarte, -n').translate('carte (cartographie)').example('Das ist eine Landkarte von Europa.').get());
+        entries.push(new Builder().id('ddb1fe91-0bf4-4692-b7cf-bfdd2562ad90').thema(thema).entry('e Landschaft, -en').translate('paysage').example('Mir gefällt die Landschaft am Rhein.').get());
+        entries.push(new Builder().id('1010a939-2c6e-4d0d-8189-c1c270f26419').thema(thema).entry('lassen').translate('laisser qc.').example(['Ihr könnt die Bücher zu Hause lassen.', 'Lass mich in Ruhe!']).get());
+        entries.push(new Builder().id('bc0278c1-e13d-47e2-868d-d679f84618e4').thema(thema).entry('leid').translate(['las, lasse', 'Es tut mir leid: je suis désolé']).example('Es tut mir leid.').get());
+        entries.push(new Builder().id('4c892c26-41e1-40a5-a4f0-7246748ca001').thema(thema).entry('leihen').translate('prêter').example('Kannst du mir dein Buch leihen? Ich bringe es morgen zurück.').get());
+        entries.push(new Builder().id('d4abd2b9-05a9-4536-8258-282d11340b5c').thema(thema).entry('e Leistung, -en').translate(['performance', 'prestation']).example('Deine Leistungen in Mathematik sind nicht gut genug.').get());
+        entries.push(new Builder().id('db883f19-b8a3-4332-9b87-c3cad6b70a6c').thema(thema).entry('lieb haben').translate('aimer bien').example(['Hast du mich lieb?', 'Ich habe meine Eltern lieb.']).get());
+        entries.push(new Builder().id('5a21a612-5c26-4498-aca1-82294f647398').thema(thema).entry('lockig').translate(['bouclé(e)', 'frisé(e)']).example('Sie hat kurze, lockige Haare.').get());
+        entries.push(new Builder().id('8a75f039-073d-42f6-a1fa-2a266b751ab2').thema(thema).entry('r Löffel, -').translate('cuillière').example('Ich brauche einen Löffel für die Suppe.').get());
+        entries.push(new Builder().id('e3395468-a570-4d3a-9d75-902e3444a667').thema(thema).entry('e Lust (Sg.)').translate('plaisir').example('Ich habe jetzt keine Lust.').get());
 /*
         entries.push(new Builder().id('466e208d-7da0-4914-be3b-49c2272032ea').thema(thema).entry('e Lampe, -n').example('Es ist so dunkel. Ich brauche eine Lampe.').get());
         entries.push(new Builder().id('67a7f540-63b5-445b-830f-7ca903bc14cc').thema(thema).entry('langweilig').example(['Physik ist langweilig. Es interessiert mich nicht.', 'Der Film war langweilig.']).get());
@@ -1160,22 +1160,22 @@ class VocabularyA2Service {
     createMEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'M'];
-        entries.push(new Builder().id('c6e52181-8934-4892-93eb-410b384177bd').thema(thema).entry('s Mal, -e').translate().example(['Ich war zwei Mal in England.', 'Bis zum nächsten Mal!']).get());
-        entries.push(new Builder().id('c1861052-a1bf-4104-9376-6dd330516ee2').thema(thema).entry('mal').translate().example(['Kannst du bitte mal aufpassen?', 'Komm mal her!', 'Sag mal, wie findest du meine neue Hose?']).get());
-        entries.push(new Builder().id('bbaf3b11-20a4-44e0-bc14-11d39b69bf6a').thema(thema).entry('e Maus, ä, -e').translate().example(['Ich glaube, im Keller ist eine Maus.', 'An meinem Computer ist die Maus kaputt.']).get());
-        entries.push(new Builder().id('2e508e21-f0ea-4832-8add-aae75c4c9d59').thema(thema).entry('e Meinung, -en').translate().example(['Sag mir bitte deine Meinung zu diesem Thema.','Meiner Meinung nach ist das eine gute Idee']).get());
-        entries.push(new Builder().id('ec58d53f-e483-4d04-885e-0cca665cda84').thema(thema).entry('e meisten').translate().example('Die meisten Touristen wollen den Kölner Dom besichtigen.').get());
-        entries.push(new Builder().id('d3de0dff-1837-4e52-b8d9-d98191679d2a').thema(thema).entry('mindestens').translate().example(['Ich habe mindestens 30 Minuten gewartet.', 'Du brauchst mindestens 40 Punkte.', 'Schreibe mindestens 50 Wörter.']).get());
-        entries.push(new Builder().id('e40fff0d-c3b9-4586-b9b0-3d0b927bdcaa').thema(thema).entry('minus').translate().example('Sechs minus zwei ist vier.').get());
-        entries.push(new Builder().id('20225c73-e767-4ff3-9c75-0c75d9724d7c').thema(thema).entry('mitgehen').translate().example('Wir gehen alle mit ins Kino.').get());
-        entries.push(new Builder().id('859fd20a-9e5a-4717-b60e-9b568a91df31').thema(thema).entry(['r Mitschüler, -', 'e Mitschülerin, -nen']).translate().example('Meine Mitschüler ärgern mich immer.').get());
-        entries.push(new Builder().id('75e58f0d-7c54-43fb-8ff3-279345541618').thema(thema).entry('mitspielen').translate().example(['Ich möchte auch mitspielen!', 'Das geht nicht, wir sind schon vier Mitspieler.']).get());
-        entries.push(new Builder().id('83246fcf-75dc-4572-a7e4-ff360bf4b626').thema(thema).entry('e Mitteilung, -en').translate().example('Du hörst drei Mitteilungen für Jugendliche im Radio.').get());
-        entries.push(new Builder().id('bfd8ecb7-43ac-46ba-b928-95ab9091f632').thema(thema).entry('e Modenschau, -en').translate().example('Die Modenschau war toll. Es gab so viele schöne Kleider.').get());
-        entries.push(new Builder().id('e0be4750-174c-4007-88fa-5ebda0cafbd4').thema(thema).entry('r Mond, -e').translate().example('Der Mond war ganz hell.').get());
-        entries.push(new Builder().id('6e79ff34-d0f4-432e-a87f-5a54b9396c46').thema(thema).entry('s Moped, -s').translate().example('Er hat ein Moped bekommen. Damit fährt er nun in die Schule.').get());
-        entries.push(new Builder().id('216b7e4a-4640-423e-8a67-3089bde6e881').thema(thema).entry('r Müll (Sg.)').translate().example(['Bringst du bitte den Müll weg/raus?', 'Lassen Sie keinen Müll im Park liegen!']).get());
-        entries.push(new Builder().id('2a61e5c1-7bf2-4483-9574-dcc1d988b534').thema(thema).entry('s Müsli, -s').translate().example('Ich esse jeden Morgen ein Müsli mit Joghurt.').get());
+        entries.push(new Builder().id('c6e52181-8934-4892-93eb-410b384177bd').thema(thema).entry('s Mal, -e').translate('une fois').example(['Ich war zwei Mal in England.', 'Bis zum nächsten Mal!']).get());
+        entries.push(new Builder().id('c1861052-a1bf-4104-9376-6dd330516ee2').thema(thema).entry('mal').translate('donc').example(['Kannst du bitte mal aufpassen?', 'Komm mal her!', 'Sag mal, wie findest du meine neue Hose?']).get());
+        entries.push(new Builder().id('bbaf3b11-20a4-44e0-bc14-11d39b69bf6a').thema(thema).entry('e Maus, ä, -e').translate('souris').example(['Ich glaube, im Keller ist eine Maus.', 'An meinem Computer ist die Maus kaputt.']).get());
+        entries.push(new Builder().id('2e508e21-f0ea-4832-8add-aae75c4c9d59').thema(thema).entry('e Meinung, -en').translate(['opinion', 'avis']).example(['Sag mir bitte deine Meinung zu diesem Thema.','Meiner Meinung nach ist das eine gute Idee']).get());
+        entries.push(new Builder().id('ec58d53f-e483-4d04-885e-0cca665cda84').thema(thema).entry('die meisten').translate('la plupart').example('Die meisten Touristen wollen den Kölner Dom besichtigen.').get());
+        entries.push(new Builder().id('d3de0dff-1837-4e52-b8d9-d98191679d2a').thema(thema).entry('mindestens').translate(['au moins', 'du moins']).example(['Ich habe mindestens 30 Minuten gewartet.', 'Du brauchst mindestens 40 Punkte.', 'Schreibe mindestens 50 Wörter.']).get());
+        entries.push(new Builder().id('e40fff0d-c3b9-4586-b9b0-3d0b927bdcaa').thema(thema).entry('minus').translate('moins').example('Sechs minus zwei ist vier.').get());
+        entries.push(new Builder().id('20225c73-e767-4ff3-9c75-0c75d9724d7c').thema(thema).entry('mitgehen').translate('escorter qn./qc.').example('Wir gehen alle mit ins Kino.').get());
+        entries.push(new Builder().id('859fd20a-9e5a-4717-b60e-9b568a91df31').thema(thema).entry(['r Mitschüler, -', 'e Mitschülerin, -nen']).translate('camarade de classe').example('Meine Mitschüler ärgern mich immer.').get());
+        entries.push(new Builder().id('75e58f0d-7c54-43fb-8ff3-279345541618').thema(thema).entry('mitspielen').translate(['être de la partie', 'participer au jeu']).example(['Ich möchte auch mitspielen!', 'Das geht nicht, wir sind schon vier Mitspieler.']).get());
+        entries.push(new Builder().id('83246fcf-75dc-4572-a7e4-ff360bf4b626').thema(thema).entry('e Mitteilung, -en').translate(['avis', 'communication', 'message', 'notification']).example('Du hörst drei Mitteilungen für Jugendliche im Radio.').get());
+        entries.push(new Builder().id('bfd8ecb7-43ac-46ba-b928-95ab9091f632').thema(thema).entry('e Modenschau, -en').translate('défilé de mode').example('Die Modenschau war toll. Es gab so viele schöne Kleider.').get());
+        entries.push(new Builder().id('e0be4750-174c-4007-88fa-5ebda0cafbd4').thema(thema).entry('r Mond, -e').translate('lune').example('Der Mond war ganz hell.').get());
+        entries.push(new Builder().id('6e79ff34-d0f4-432e-a87f-5a54b9396c46').thema(thema).entry('s Moped, -s').translate('vélomoteur').example('Er hat ein Moped bekommen. Damit fährt er nun in die Schule.').get());
+        entries.push(new Builder().id('216b7e4a-4640-423e-8a67-3089bde6e881').thema(thema).entry('r Müll (Sg.)').translate(['détritus', 'ordures', 'déchets']).example(['Bringst du bitte den Müll weg/raus?', 'Lassen Sie keinen Müll im Park liegen!']).get());
+        entries.push(new Builder().id('2a61e5c1-7bf2-4483-9574-dcc1d988b534').thema(thema).entry('s Müsli, -s').translate(['céréale', 'muesli']).example('Ich esse jeden Morgen ein Müsli mit Joghurt.').get());
 /*
         entries.push(new Builder().id('1a739b05-08a8-4ead-aae6-08209b750544').thema(thema).entry('manchmal').example('Ich bin manchmal sehr traurig, aber nicht immer.').get());
         entries.push(new Builder().id('8b1255b0-3e5d-470d-b782-690c2a4a5a11').thema(thema).entry('r Mantel, ä, -').example('Es ist kalt. Zieh einen Mantel an.').get());
@@ -1224,13 +1224,13 @@ class VocabularyA2Service {
     createNEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'N'];
-        entries.push(new Builder().id('0f38bbb0-20ff-4bf1-a59c-695d5a99ae0a').thema(thema).entry('e Nachricht').translate().example(['Das ist eine gute Nachricht.', 'Jetzt kommen im Radio die Nachrichten für Schüler.', 'Du hörst die Nachricht noch einmal.']).get());
-        entries.push(new Builder().id('f9fcc66a-fe9e-4561-a870-c55f70813ddc').thema(thema).entry('e Nähe (Sg.)').translate().example('Elmshorn liegt in der Nähe von Hamburg.').get());
-        entries.push(new Builder().id('58a26f7f-9e48-435e-bfd2-10426badacc5').thema(thema).entry('nämlich').translate().example('Ich habe es nicht gekauft, es war nämlich sehr teuer.').get());
-        entries.push(new Builder().id('a49e5fca-2a6d-482e-af77-2882f70ca829').thema(thema).entry('neben').translate().example(['Petra sitzt neben mir.', 'Die Bäckerei ist direkt neben dem Supermarkt.']).get());
-        entries.push(new Builder().id('185b09ac-0e0e-40cd-8406-081e9d5a7633').thema(thema).entry('nennen').translate().example('Ich heiße Elisabeth, aber alle nennen mich Betty.').get());
-        entries.push(new Builder().id('ff7b4f75-9053-48db-9c67-81eb4e192995').thema(thema).entry('nett').translate().example(['Wie findest du Maria?', '– Sie ist sehr nett.']).get());
-        entries.push(new Builder().id('dba94f25-9d83-43fb-a090-151b052be068').thema(thema).entry('e Nudel, n').translate().example('Heute gibt es Nudeln.').get());
+        entries.push(new Builder().id('0f38bbb0-20ff-4bf1-a59c-695d5a99ae0a').thema(thema).entry('e Nachricht').translate(['nouvelle', 'message']).example(['Das ist eine gute Nachricht.', 'Jetzt kommen im Radio die Nachrichten für Schüler.', 'Du hörst die Nachricht noch einmal.']).get());
+        entries.push(new Builder().id('f9fcc66a-fe9e-4561-a870-c55f70813ddc').thema(thema).entry('e Nähe (Sg.)').translate('proximité').example('Elmshorn liegt in der Nähe von Hamburg.').get());
+        entries.push(new Builder().id('58a26f7f-9e48-435e-bfd2-10426badacc5').thema(thema).entry('nämlich').translate(["c'est que", 'en effet', 'à savoir']).example('Ich habe es nicht gekauft, es war nämlich sehr teuer.').get());
+        entries.push(new Builder().id('a49e5fca-2a6d-482e-af77-2882f70ca829').thema(thema).entry('neben').translate("à côté d'autres choses").example(['Petra sitzt neben mir.', 'Die Bäckerei ist direkt neben dem Supermarkt.']).get());
+        entries.push(new Builder().id('185b09ac-0e0e-40cd-8406-081e9d5a7633').thema(thema).entry('nennen').translate('appeler qn./qc.').example('Ich heiße Elisabeth, aber alle nennen mich Betty.').get());
+        entries.push(new Builder().id('ff7b4f75-9053-48db-9c67-81eb4e192995').thema(thema).entry('nett').translate(['gentil(le)', 'sympathique']).example(['Wie findest du Maria?', '– Sie ist sehr nett.']).get());
+        entries.push(new Builder().id('dba94f25-9d83-43fb-a090-151b052be068').thema(thema).entry('e Nudel, n').translate('nouille').example('Heute gibt es Nudeln.').get());
 /*
         entries.push(new Builder().id('de7a46de-922d-4484-a74c-82483ae71c03').thema(thema).entry('r Nachbar, -n, e Nachbarin, -nen').example('Die Nachbarn hier im Haus sind sehr nett.').get());
         entries.push(new Builder().id('a187d313-9861-4b4b-ac23-7fd519cf2f07').thema(thema).entry('e Nase, -n').example('Er hat blaue Augen und eine große Nase.').get());
@@ -1264,9 +1264,9 @@ class VocabularyA2Service {
     createOEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'O'];
-        entries.push(new Builder().id('7113b1cb-4c99-4f1c-b490-f87461f9d0bb').thema(thema).entry('s Ohr, -en').translate().example('Er hat große Ohren und eine kleine Nase.').get());
-        entries.push(new Builder().id('38d2ebb6-0200-468e-ac25-f0a6159c3603').thema(thema).entry('r Ohrring, -e').translate().example('Sie trägt einen kleinen Ohrring.').get());
-        entries.push(new Builder().id('65d533ad-a233-41bd-ac73-37824bbdae0d').thema(thema).entry('e Oper, -n').translate().example(['Heute Abend gehen wir in die Oper.', 'Dies ist eine Oper von Mozart.']).get());
+        entries.push(new Builder().id('7113b1cb-4c99-4f1c-b490-f87461f9d0bb').thema(thema).entry('s Ohr, -en').translate('oreille').example('Er hat große Ohren und eine kleine Nase.').get());
+        entries.push(new Builder().id('38d2ebb6-0200-468e-ac25-f0a6159c3603').thema(thema).entry('r Ohrring, -e').translate("boucle d'oreille").example('Sie trägt einen kleinen Ohrring.').get());
+        entries.push(new Builder().id('65d533ad-a233-41bd-ac73-37824bbdae0d').thema(thema).entry('e Oper, -n').translate('opéra').example(['Heute Abend gehen wir in die Oper.', 'Dies ist eine Oper von Mozart.']).get());
 
         /*
         entries.push(new Builder().id('6b40c2e8-b9ee-48f9-a13a-102e83ab0481').thema(thema).entry('offen').example(['Das Fenster ist offen, kannst du es bitte schließen?', 'Die Geschäfte sind bis 20.00 Uhr offen.']).get());
@@ -1288,15 +1288,15 @@ class VocabularyA2Service {
     createPEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'P'];
-        entries.push(new Builder().id('17c56ac4-38dc-4a70-82b1-3af260ef6af0').thema(thema).entry('s Päckchen, -').translate().example('Ist das Päckchen von Tante Claudia endlich angekommen?').get());
-        entries.push(new Builder().id('cb3c20f8-4f4d-49e3-a716-0d4e67abe431').thema(thema).entry('s Paket, -e').translate().example('Ich muss das Paket zur Post bringen.').get());
-        entries.push(new Builder().id('c43cd56d-f277-4aa7-a163-ba3cad24b41c').thema(thema).entry('passen').translate().example('Das Kleid passt mir nicht mehr. Es ist zu klein.').get());
-        entries.push(new Builder().id('cc61c353-fbbd-40db-9b6e-6f5a37e688ae').thema(thema).entry('passieren').translate().example(['Was passiert in der Geschichte?', 'Ist dir etwas passiert?']).get());
-        entries.push(new Builder().id('beeda51c-be7c-49cc-85a8-357f2ab861a8').thema(thema).entry('s Pech (Sg.)').translate().example(['Das war wirklich Pech!', 'Ich habe Pech gehabt.']).get());
-        entries.push(new Builder().id('2c406c5a-ff5e-46b8-91a6-cc69cfb76eb4').thema(thema).entry('s Pferd, -e').translate().example('Ich möchte so gern ein Pferd haben! Ich reite sehr gern.').get());
-        entries.push(new Builder().id('a537ffe9-12e5-4457-8075-ed6375ece41a').thema(thema).entry('s Plakat, -e').translate().example('Was steht auf dem Plakat?').get());
-        entries.push(new Builder().id('8e6ce59c-fd4f-4d43-a9a2-3cf2be1f8980').thema(thema).entry('plus').translate().example('Sieben plus drei ist zehn.').get());
-        entries.push(new Builder().id('944eb7ed-b25b-4132-8e91-839fab0f5b2e').thema(thema).entry('prima').translate().example(['Ich finde deine Idee prima!', 'Was können wir tun? Hast du eine Idee?']).get());
+        entries.push(new Builder().id('17c56ac4-38dc-4a70-82b1-3af260ef6af0').thema(thema).entry('s Päckchen, -').translate(['petit colis', 'paquet']).example('Ist das Päckchen von Tante Claudia endlich angekommen?').get());
+        entries.push(new Builder().id('cb3c20f8-4f4d-49e3-a716-0d4e67abe431').thema(thema).entry('s Paket, -e').translate(['paquet', 'colis']).example('Ich muss das Paket zur Post bringen.').get());
+        entries.push(new Builder().id('c43cd56d-f277-4aa7-a163-ba3cad24b41c').thema(thema).entry('passen').translate('convenir à qn.').example('Das Kleid passt mir nicht mehr. Es ist zu klein.').get());
+        entries.push(new Builder().id('cc61c353-fbbd-40db-9b6e-6f5a37e688ae').thema(thema).entry('passieren').translate(['se passer', 'se produire']).example(['Was passiert in der Geschichte?', 'Ist dir etwas passiert?']).get());
+        entries.push(new Builder().id('beeda51c-be7c-49cc-85a8-357f2ab861a8').thema(thema).entry('s Pech (Sg.)').translate(['poisse', 'malchance', 'malheur']).example(['Das war wirklich Pech!', 'Ich habe Pech gehabt.']).get());
+        entries.push(new Builder().id('2c406c5a-ff5e-46b8-91a6-cc69cfb76eb4').thema(thema).entry('s Pferd, -e').translate('cheval').example('Ich möchte so gern ein Pferd haben! Ich reite sehr gern.').get());
+        entries.push(new Builder().id('a537ffe9-12e5-4457-8075-ed6375ece41a').thema(thema).entry('s Plakat, -e').translate(['affiche', 'écriteau', 'poster']).example('Was steht auf dem Plakat?').get());
+        entries.push(new Builder().id('8e6ce59c-fd4f-4d43-a9a2-3cf2be1f8980').thema(thema).entry('plus').translate('plus').example('Sieben plus drei ist zehn.').get());
+        entries.push(new Builder().id('944eb7ed-b25b-4132-8e91-839fab0f5b2e').thema(thema).entry('prima').translate(['chouette', 'épatant(e)']).example(['Ich finde deine Idee prima!', 'Was können wir tun? Hast du eine Idee?']).get());
 /*
         entries.push(new Builder().id('a963caee-b601-4754-9d75-a25bd56621c0').thema(thema).entry('s Paar, -e').example(['Karla und Uwe sind ein Liebespaar.', 'Ich brauche ein Paar Schuhe.']).get());
         entries.push(new Builder().id('c36ab694-c111-4d4c-9022-892d121530ef').thema(thema).entry('ein paar').example('Wir waren ein paar Tage am Meer.').get());
@@ -1336,26 +1336,26 @@ class VocabularyA2Service {
     createQEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'Q'];
-        entries.push(new Builder().id('3722120f-a3e7-41ea-95aa-27fbd062a9c3').thema(thema).entry('r Quatsch (Sg.)').translate().example('Ich finde, das ist nur Quatsch!').get());
-        entries.push(new Builder().id('9947f705-4e6f-4d2c-9552-4c2df9810bd4').thema(thema).entry('quer').translate().example('Im Sommer reisen wir quer durch Deutschland.').get());
-        entries.push(new Builder().id('fde1527f-62b6-4d30-80e1-9f914aa7a5e7').thema(thema).entry('s Quiz (Sg.)').translate().example('Das ist ein Quiz für Kinder.').get());
+        entries.push(new Builder().id('3722120f-a3e7-41ea-95aa-27fbd062a9c3').thema(thema).entry('r Quatsch (Sg.)').translate(['balivernes', 'sottise', 'foutaise']).example('Ich finde, das ist nur Quatsch!').get());
+        entries.push(new Builder().id('9947f705-4e6f-4d2c-9552-4c2df9810bd4').thema(thema).entry('quer').translate(['à travers', 'en travers', 'en diagonale']).example('Im Sommer reisen wir quer durch Deutschland.').get());
+        entries.push(new Builder().id('fde1527f-62b6-4d30-80e1-9f914aa7a5e7').thema(thema).entry('s Quiz (Sg.)').translate('quiz').example('Das ist ein Quiz für Kinder.').get());
         return entries;
     }
 
     createREntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'R'];
-        entries.push(new Builder().id('5a961b4b-7076-4227-b3ba-c76fac294bea').thema(thema).entry('r Radiergummi, -s').translate().example('Gibst du mir deinen Radiergummi? Ich muss meine Antwort korrigieren.').get());
-        entries.push(new Builder().id('24e9dd71-324a-49ce-9815-4e04d36da706').thema(thema).entry('raten').translate().example(['Das ist ein Quiz, man muss die Städte raten.', 'Ich weiß die Antwort nicht. Ich muss raten.']).get());
-        entries.push(new Builder().id('cde5e9dd-9dbf-4109-b6f2-6ca5a2be6771').thema(thema).entry('s Rätsel, -').translate().example('Ich finde das Rätsel zu schwierig.').get());
-        entries.push(new Builder().id('e938e230-6bf3-4499-a41a-ab41b521d043').thema(thema).entry('rechnen').translate().example('Ich rechne das mit dem Taschenrechner.').get());
-        entries.push(new Builder().id('9cfa38d5-fc7b-4a10-9c85-1ec3cf0e7c5f').thema(thema).entry('reden').translate().example('Sie reden immer so viel./ Er redet immer nur von Autos.').get());
-        entries.push(new Builder().id('57b3327c-e048-46e4-a384-b1b49615663e').thema(thema).entry('e Reihe, en').translate().example(['Ich sitze in der ersten Reihe.', 'Dies ist Reihe fünf.', 'Jetzt bin ich an der Reihe.']).get());
-        entries.push(new Builder().id('d04bf040-83f9-4f40-b5c7-0ff677ac5a9c').thema(thema).entry('reinkommen').translate().example(['Darf ich reinkommen?', '– Ja bitte, kommen Sie rein.']).get());
-        entries.push(new Builder().id('6374dd9a-4a60-4b5f-be89-6ac9535ad176').thema(thema).entry('reiten').translate().example('Ich habe ein Pferd. Reiten ist mein Hobby.').get());
-        entries.push(new Builder().id('0555dc27-5982-47f3-8eee-7169a256751a').thema(thema).entry('r Ring, -e').translate().example('Sie trägt viele Ringe.').get());
-        entries.push(new Builder().id('1116480e-f57c-45b5-adf7-c14ec6dc1782').thema(thema).entry('rufen').translate().example(['Meine Mutter hat mich gerufen, darum bin ich nach Hause gegangen.', 'Ein Unfall! Wir müssen einen Arzt rufen!']).get());
-        entries.push(new Builder().id('143ed5a8-4488-41f1-ad3c-1dc6006d3f84').thema(thema).entry('e Rundfahrt, -en').translate().example('Wir machen eine Rundfahrt durch die Stadt.').get());
+        entries.push(new Builder().id('5a961b4b-7076-4227-b3ba-c76fac294bea').thema(thema).entry('r Radiergummi, -s').translate('gomme').example('Gibst du mir deinen Radiergummi? Ich muss meine Antwort korrigieren.').get());
+        entries.push(new Builder().id('24e9dd71-324a-49ce-9815-4e04d36da706').thema(thema).entry('raten').translate(['deviner qc.', 'conseiller qc. à qn.']).example(['Das ist ein Quiz, man muss die Städte raten.', 'Ich weiß die Antwort nicht. Ich muss raten.']).get());
+        entries.push(new Builder().id('cde5e9dd-9dbf-4109-b6f2-6ca5a2be6771').thema(thema).entry('s Rätsel, -').translate(['devinette', 'énigme', 'mystère']).example('Ich finde das Rätsel zu schwierig.').get());
+        entries.push(new Builder().id('e938e230-6bf3-4499-a41a-ab41b521d043').thema(thema).entry('rechnen').translate('calculer (qc.)').example('Ich rechne das mit dem Taschenrechner.').get());
+        entries.push(new Builder().id('9cfa38d5-fc7b-4a10-9c85-1ec3cf0e7c5f').thema(thema).entry('reden').translate('parler (avec qn. de qc.)').example('Sie reden immer so viel./ Er redet immer nur von Autos.').get());
+        entries.push(new Builder().id('57b3327c-e048-46e4-a384-b1b49615663e').thema(thema).entry('e Reihe, en').translate(['rangée', 'ligne', 'rang', 'série']).example(['Ich sitze in der ersten Reihe.', 'Dies ist Reihe fünf.', 'Jetzt bin ich an der Reihe.']).get());
+        entries.push(new Builder().id('d04bf040-83f9-4f40-b5c7-0ff677ac5a9c').thema(thema).entry('reinkommen').translate('entrer').example(['Darf ich reinkommen?', '– Ja bitte, kommen Sie rein.']).get());
+        entries.push(new Builder().id('6374dd9a-4a60-4b5f-be89-6ac9535ad176').thema(thema).entry('reiten').translate('monter à cheval').example('Ich habe ein Pferd. Reiten ist mein Hobby.').get());
+        entries.push(new Builder().id('0555dc27-5982-47f3-8eee-7169a256751a').thema(thema).entry('r Ring, -e').translate(['bague', 'anneau']).example('Sie trägt viele Ringe.').get());
+        entries.push(new Builder().id('1116480e-f57c-45b5-adf7-c14ec6dc1782').thema(thema).entry('rufen').translate('appeler qn.').example(['Meine Mutter hat mich gerufen, darum bin ich nach Hause gegangen.', 'Ein Unfall! Wir müssen einen Arzt rufen!']).get());
+        entries.push(new Builder().id('143ed5a8-4488-41f1-ad3c-1dc6006d3f84').thema(thema).entry('e Rundfahrt, -en').translate(['tour', 'circuit']).example('Wir machen eine Rundfahrt durch die Stadt.').get());
 /*
         entries.push(new Builder().id('3b677a11-f9d3-4db0-8e23-b0a4af86d25a').thema(thema).entry('s Rad (s Fahrrad), ä, -er').example('Ich fahre mit dem Rad in die Schule.').get());
         entries.push(new Builder().id('8825f670-2e9b-4b94-89dd-80f1e47aa8de').thema(thema).entry('s Radio, -s').example('Im Radio spielen sie gute Musik.').get());
@@ -1387,30 +1387,30 @@ class VocabularyA2Service {
     createSEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'S'];
-        entries.push(new Builder().id('6b0a0af1-b21b-4f21-9eb6-138e3943c481').thema(thema).entry('sauer').translate().example(['Die Milch ist sauer.', 'Der Apfel ist mir zu sauer.']).get());
-        entries.push(new Builder().id('79d43991-d2a5-40fc-8b64-85aa3b699a15').thema(thema).entry('schädlich').translate().example('Zigaretten sind sehr schädlich.').get());
-        entries.push(new Builder().id('ac1867a2-57df-4b32-8ff0-2b526b99fdec').thema(thema).entry('schaffen').translate().example(['Du kannst es bestimmt schaffen!', 'Soll ich dir helfen?', '– Nein, ich schaffe es allein.']).get());
-        entries.push(new Builder().id('193bb442-b776-4870-a49c-57957f884cd6').thema(thema).entry('schenken').translate().example('Was kann ich Anna zum Geburtstag schenken?').get());
-        entries.push(new Builder().id('bbad7bd0-5b73-49f4-86f7-6442f28baa73').thema(thema).entry('e Schere, -n').translate().example('Hast du eine Schere? Ich muss dieses Bild ausschneiden.').get());
-        entries.push(new Builder().id('2d27c8dc-da01-40b8-8f9a-e33c3fd54455').thema(thema).entry('scheußlich').translate().example(['Das Essen hier ist scheußlich!', 'Das Wetter ist scheußlich!']).get());
-        entries.push(new Builder().id('d65edb2a-5ea8-4569-9ed1-679ad59b1958').thema(thema).entry('schimpfen').translate().example('Der Lehrer hat mit mir geschimpft.').get());
-        entries.push(new Builder().id('d894a77d-a21e-4495-af24-981554a03679').thema(thema).entry('schrecklich').translate().example('Ich bin schrecklich nervös.').get());
-        entries.push(new Builder().id('fb01d8e2-deea-45d2-9cf7-6e3d70103033').thema(thema).entry('r Schreibblock, ö, -e').translate().example('Ich brauche einen neuen Schreibblock für die Schule.').get());
-        entries.push(new Builder().id('4110c63f-da99-45e0-b36e-47114615247f').thema(thema).entry('schwach').translate().example(['Deine Leistungen sind sehr schwach.', 'Für diese Arbeit bin ich zu schwach.']).get());
-        entries.push(new Builder().id('5c1e9e58-5894-48e3-939f-96abe4311c10').thema(thema).entry('e Schwimmsachen (Pl.)').translate().example('Wir fahren an den See. Vergesst nicht die Schwimmsachen mitzunehmen.').get());
-        entries.push(new Builder().id('fc61bfb4-2752-4439-8a58-b1b2593d0aa7').thema(thema).entry('e Sendung, -en').translate().example('Um 18 Uhr kommt meine Lieblingssendung im Fernsehen.').get());
-        entries.push(new Builder().id('aafb674c-f50c-4180-98e3-a0bd2ed1b8fe').thema(thema).entry('sogar').translate().example('Er hat mir sogar einen Brief geschrieben.').get());
-        entries.push(new Builder().id('d4cb825d-c6cc-414e-ab9b-21fe6527adbd').thema(thema).entry('sonst').translate().example('Brauchen Sie sonst noch etwas?').get());
-        entries.push(new Builder().id('852727a6-f60a-457f-908c-f34dd7654a6e').thema(thema).entry('e Soße, -n').translate().example('Zum Braten gibt es Kartoffeln und Soße.').get());
-        entries.push(new Builder().id('4217300e-ad2a-4db1-b56c-4955239a5835').thema(thema).entry('sparen').translate().example('Sie hat viel Geld gespart. Jetzt kann sie ein Auto kaufen.').get());
-        entries.push(new Builder().id('c3e9ae14-4b3d-49d8-b9cc-56a370e69e42').thema(thema).entry('steigen').translate().example(['Wir steigen auf den Berg.', 'Bitte steigen Sie jetzt in das Auto.']).get());
-        entries.push(new Builder().id('480f684f-38fc-4d7d-8004-ff9e928cc910').thema(thema).entry('stimmen').translate().example('Das stimmt nicht. Das ist falsch.').get());
-        entries.push(new Builder().id('e1f45ce7-d6a1-4d64-b3af-4a98792f4eb8').thema(thema).entry('streiten (sich)').translate().example(['Wir streiten leider sehr oft.', 'Ich streite mich oft mit meinem Bruder.']).get());
-        entries.push(new Builder().id('eeaf7ddf-8966-4ab4-a2fa-bb9ca6d5c791').thema(thema).entry('Streit haben').translate().example(['Habt ihr schon wieder Streit?', 'Ich habe Streit mit meiner Schwester.']).get());
-        entries.push(new Builder().id('1ac9a35b-8ead-475f-bb19-8b5984068a6d').thema(thema).entry('streng').translate().example(['Der Lehrer ist streng.', 'Meine Eltern sind sehr streng. Sie erlauben uns einfach nichts.']).get());
-        entries.push(new Builder().id('7db342e4-7bce-4de5-adeb-464ede63b2b7').thema(thema).entry('stressig').translate().example('Ich finde diese Situation stressig. Ich habe zu viel zu tun.').get());
-        entries.push(new Builder().id('e081b725-b41b-437a-849e-6cbdf03c476e').thema(thema).entry('süß').translate().example(['Der Kuchen ist zu süß.', 'Der neue Mathelehrer ist wirklich süß!']).get());
-        entries.push(new Builder().id('e15c7e7a-b640-495d-a90d-62e983b6021b').thema(thema).entry('e Süßigkeiten (Pl.)').translate().example('Ich esse so gern Süßigkeiten, leider sind sie nicht gesund.').get());
+        entries.push(new Builder().id('6b0a0af1-b21b-4f21-9eb6-138e3943c481').thema(thema).entry('sauer').translate(['aigre', 'acide    ']).example(['Die Milch ist sauer.', 'Der Apfel ist mir zu sauer.']).get());
+        entries.push(new Builder().id('79d43991-d2a5-40fc-8b64-85aa3b699a15').thema(thema).entry('schädlich').translate(['nocif, nocive', 'nuisible', 'dommageable']).example('Zigaretten sind sehr schädlich.').get());
+        entries.push(new Builder().id('ac1867a2-57df-4b32-8ff0-2b526b99fdec').thema(thema).entry('schaffen').translate('arriver à qc.').example(['Du kannst es bestimmt schaffen!', 'Soll ich dir helfen?', '– Nein, ich schaffe es allein.']).get());
+        entries.push(new Builder().id('193bb442-b776-4870-a49c-57957f884cd6').thema(thema).entry('schenken').translate('offrir qc. à qn.').example('Was kann ich Anna zum Geburtstag schenken?').get());
+        entries.push(new Builder().id('bbad7bd0-5b73-49f4-86f7-6442f28baa73').thema(thema).entry('e Schere, -n').translate('ciseaux').example('Hast du eine Schere? Ich muss dieses Bild ausschneiden.').get());
+        entries.push(new Builder().id('2d27c8dc-da01-40b8-8f9a-e33c3fd54455').thema(thema).entry('scheußlich').translate(['infect(e)', 'dégueulasse', 'abominable', 'horrible']).example(['Das Essen hier ist scheußlich!', 'Das Wetter ist scheußlich!']).get());
+        entries.push(new Builder().id('d65edb2a-5ea8-4569-9ed1-679ad59b1958').thema(thema).entry('schimpfen').translate(['gronder qn.', 'se fâcher contre qn.', 'rouspéter', 'râler']).example('Der Lehrer hat mit mir geschimpft.').get());
+        entries.push(new Builder().id('d894a77d-a21e-4495-af24-981554a03679').thema(thema).entry('schrecklich').translate(['horriblement', 'affreux, affreuse', 'terrible', 'effrayant(e)', 'atroce', 'épouvantable']).example('Ich bin schrecklich nervös.').get());
+        entries.push(new Builder().id('fb01d8e2-deea-45d2-9cf7-6e3d70103033').thema(thema).entry('r Schreibblock, ö, -e').translate('bloc-notes').example('Ich brauche einen neuen Schreibblock für die Schule.').get());
+        entries.push(new Builder().id('4110c63f-da99-45e0-b36e-47114615247f').thema(thema).entry('schwach').translate('faible').example(['Deine Leistungen sind sehr schwach.', 'Für diese Arbeit bin ich zu schwach.']).get());
+        entries.push(new Builder().id('5c1e9e58-5894-48e3-939f-96abe4311c10').thema(thema).entry('e Schwimmsachen (Pl.)').translate('affaires de natation').example('Wir fahren an den See. Vergesst nicht die Schwimmsachen mitzunehmen.').get());
+        entries.push(new Builder().id('fc61bfb4-2752-4439-8a58-b1b2593d0aa7').thema(thema).entry('e Sendung, -en').translate('émission').example('Um 18 Uhr kommt meine Lieblingssendung im Fernsehen.').get());
+        entries.push(new Builder().id('aafb674c-f50c-4180-98e3-a0bd2ed1b8fe').thema(thema).entry('sogar').translate(['même', 'voire même', 'même que']).example('Er hat mir sogar einen Brief geschrieben.').get());
+        entries.push(new Builder().id('d4cb825d-c6cc-414e-ab9b-21fe6527adbd').thema(thema).entry('sonst').translate(['sinon', 'autrement', 'sans quoi', 'faute quoi']).example('Brauchen Sie sonst noch etwas?').get());
+        entries.push(new Builder().id('852727a6-f60a-457f-908c-f34dd7654a6e').thema(thema).entry('e Soße, -n').translate('sauce').example('Zum Braten gibt es Kartoffeln und Soße.').get());
+        entries.push(new Builder().id('4217300e-ad2a-4db1-b56c-4955239a5835').thema(thema).entry('sparen').translate(['économiser qc.', 'épargner qc.']).example('Sie hat viel Geld gespart. Jetzt kann sie ein Auto kaufen.').get());
+        entries.push(new Builder().id('c3e9ae14-4b3d-49d8-b9cc-56a370e69e42').thema(thema).entry('steigen').translate(['monter', 'augmenter', 'être en hausse']).example(['Wir steigen auf den Berg.', 'Bitte steigen Sie jetzt in das Auto.']).get());
+        entries.push(new Builder().id('480f684f-38fc-4d7d-8004-ff9e928cc910').thema(thema).entry('stimmen').translate(['être vrai', 'voter  ']).example('Das stimmt nicht. Das ist falsch.').get());
+        entries.push(new Builder().id('e1f45ce7-d6a1-4d64-b3af-4a98792f4eb8').thema(thema).entry('streiten (sich)').translate('se disputer avec qn.').example(['Wir streiten leider sehr oft.', 'Ich streite mich oft mit meinem Bruder.']).get());
+        entries.push(new Builder().id('eeaf7ddf-8966-4ab4-a2fa-bb9ca6d5c791').thema(thema).entry('Streit haben').translate(['avoir une dispute']).example(['Habt ihr schon wieder Streit?', 'Ich habe Streit mit meiner Schwester.']).get());
+        entries.push(new Builder().id('1ac9a35b-8ead-475f-bb19-8b5984068a6d').thema(thema).entry('streng').translate(['sévère', 'strict(e)', 'rigide', 'dur(e)']).example(['Der Lehrer ist streng.', 'Meine Eltern sind sehr streng. Sie erlauben uns einfach nichts.']).get());
+        entries.push(new Builder().id('7db342e4-7bce-4de5-adeb-464ede63b2b7').thema(thema).entry('stressig').translate('stressant(e)').example('Ich finde diese Situation stressig. Ich habe zu viel zu tun.').get());
+        entries.push(new Builder().id('e081b725-b41b-437a-849e-6cbdf03c476e').thema(thema).entry('süß').translate(['sucré(e)', 'doux, douce', 'mignon(ne)', 'chou']).example(['Der Kuchen ist zu süß.', 'Der neue Mathelehrer ist wirklich süß!']).get());
+        entries.push(new Builder().id('e15c7e7a-b640-495d-a90d-62e983b6021b').thema(thema).entry('e Süßigkeiten (Pl.)').translate(['friandises', 'douceurs', 'sucrerie', 'confiserie']).example('Ich esse so gern Süßigkeiten, leider sind sie nicht gesund.').get());
 
         /*
         entries.push(new Builder().id('b8b2a304-7674-4aea-bdd0-b4bcefb32a9a').thema(thema).entry('e Sache, -n').example(['Wo sind meine Schulsachen?', 'Das ist eine tolle Sache.', 'Pack deine Sachen und komm mit!']).get());
@@ -1511,16 +1511,16 @@ class VocabularyA2Service {
     createTEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'T'];
-        entries.push(new Builder().id('643eaf37-4302-4bc5-a3d8-d1902c653a6f').thema(thema).entry('s Taschengeld (Sg.)').translate().example(['Wie viel Taschengeld bekommt ihr im Monat?', '– 15 Euro.']).get());
-        entries.push(new Builder().id('f07633c1-7879-4623-80af-495c5de260fd').thema(thema).entry('r Taschenrechner, -').translate().example('Ich rechne das mit dem Taschenrechner.').get());
-        entries.push(new Builder().id('3ee8012e-7a67-4d24-a0c3-bb9873209551').thema(thema).entry('tatsächlich').translate().example('Willst du das tatsächlich machen?').get());
-        entries.push(new Builder().id('f143681e-a38d-47fb-994d-4c68ee83ffb7').thema(thema).entry('teilen').translate().example('Wir teilen den Kuchen in 10 Stücke.').get());
-        entries.push(new Builder().id('8ba12b77-2efe-44c8-86ff-43e40a93a875').thema(thema).entry('r Teller, -').translate().example('Ich möchte bitte einen Teller Suppe.').get());
-        entries.push(new Builder().id('8773b144-3f68-4ac8-9653-d181a5948c3d').thema(thema).entry('toll').translate().example('In den Ferien war es toll.').get());
-        entries.push(new Builder().id('5e2d513a-17bb-41cd-96bc-cee3000e0573').thema(thema).entry('e Torte, -n').translate().example('Zum Geburtstag gibt es immer eine große Torte.').get());
-        entries.push(new Builder().id('5cd6916b-8689-4bdd-890c-c3c8990d3177').thema(thema).entry('tragen').translate().example(['Er trägt kurze Hosen.', 'Soll ich deinen Koffer tragen?']).get());
-        entries.push(new Builder().id('31ab2b36-70f8-4730-a40f-e2fc3b89c3f6').thema(thema).entry('trocken').translate().example('Ich habe mein Kleid gewaschen. Ist es jetzt schon trocken?').get());
-        entries.push(new Builder().id('e4026d15-907c-4f5e-95d6-382537e0a755').thema(thema).entry('trösten').translate().example('Ich war traurig, aber meine Mutter hat mich getröstet.').get());
+        entries.push(new Builder().id('643eaf37-4302-4bc5-a3d8-d1902c653a6f').thema(thema).entry('s Taschengeld (Sg.)').translate('argent de poche').example(['Wie viel Taschengeld bekommt ihr im Monat?', '– 15 Euro.']).get());
+        entries.push(new Builder().id('f07633c1-7879-4623-80af-495c5de260fd').thema(thema).entry('r Taschenrechner, -').translate('calculatrice (de poche)').example('Ich rechne das mit dem Taschenrechner.').get());
+        entries.push(new Builder().id('3ee8012e-7a67-4d24-a0c3-bb9873209551').thema(thema).entry('tatsächlich').translate('vraiment').example('Willst du das tatsächlich machen?').get());
+        entries.push(new Builder().id('f143681e-a38d-47fb-994d-4c68ee83ffb7').thema(thema).entry('teilen').translate(['diviser qc.', 'partager qc.']).example('Wir teilen den Kuchen in 10 Stücke.').get());
+        entries.push(new Builder().id('8ba12b77-2efe-44c8-86ff-43e40a93a875').thema(thema).entry('r Teller, -').translate('assiette').example('Ich möchte bitte einen Teller Suppe.').get());
+        entries.push(new Builder().id('8773b144-3f68-4ac8-9653-d181a5948c3d').thema(thema).entry('toll').translate(['génial(le', 'formidable', 'fantastique', 'super', 'chouette']).example('In den Ferien war es toll.').get());
+        entries.push(new Builder().id('5e2d513a-17bb-41cd-96bc-cee3000e0573').thema(thema).entry('e Torte, -n').translate('gâteau').example('Zum Geburtstag gibt es immer eine große Torte.').get());
+        entries.push(new Builder().id('5cd6916b-8689-4bdd-890c-c3c8990d3177').thema(thema).entry('tragen').translate(['porter qc. sur soi', 'porter qc.']).example(['Er trägt kurze Hosen.', 'Soll ich deinen Koffer tragen?']).get());
+        entries.push(new Builder().id('31ab2b36-70f8-4730-a40f-e2fc3b89c3f6').thema(thema).entry('trocken').translate('sec, sèche').example('Ich habe mein Kleid gewaschen. Ist es jetzt schon trocken?').get());
+        entries.push(new Builder().id('e4026d15-907c-4f5e-95d6-382537e0a755').thema(thema).entry('trösten').translate(['consoler qn.', 'réconforter qn.']).example('Ich war traurig, aber meine Mutter hat mich getröstet.').get());
 /*
         entries.push(new Builder().id('bd981c07-9136-4b9f-8629-505c5dbb45e4').thema(thema).entry('e Tasse, -n').example('Ich möchte eine Tasse Tee.').get());
         entries.push(new Builder().id('e93edb0b-4ec1-41a2-9604-3b1e8ef7fc93').thema(thema).entry('teilnehmen').example('Willst du auch am Wettbewerb teilnehmen?').get());
@@ -1564,12 +1564,12 @@ class VocabularyA2Service {
     createUEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'U'];
-        entries.push(new Builder().id('d2412199-8e2b-42b8-962a-1b3b073a17d1').thema(thema).entry('überall').translate().example(['Hast du das Buch gefunden?', '– Nein, ich habe schon überall gesucht.']).get());
-        entries.push(new Builder().id('221423f7-e4aa-4f56-a9be-0d898da5bd52').thema(thema).entry('e Überschrift, -en').translate().example('Finden Sie eine Überschrift für den Text.').get());
-        entries.push(new Builder().id('c7c69f2d-1d77-46ee-83a3-62e2d01ecc94').thema(thema).entry('e Umwelt (Sg.)').translate().example('Diese Fabrik ist schädlich für die Umwelt.').get());
-        entries.push(new Builder().id('d90a8341-2286-4b43-995b-92d6d2f2dc82').thema(thema).entry('r Umweltschutz (Sg.)').translate().example('Ich finde Umweltschutz sehr wichtig.').get());
-        entries.push(new Builder().id('60330f95-2794-4ca5-9662-3dca24e3ac36').thema(thema).entry('und so weiter').translate().example('u.s.w.').get());
-        entries.push(new Builder().id('c4ac766b-07cc-48ac-86d5-9dfc9fd099d5').thema(thema).entry('unerträglich').translate().example(['Wie war die Party?', '– Sehr laut, die Musik war unerträglich.']).get());
+        entries.push(new Builder().id('d2412199-8e2b-42b8-962a-1b3b073a17d1').thema(thema).entry('überall').translate(['partout', 'tous azimuts']).example(['Hast du das Buch gefunden?', '– Nein, ich habe schon überall gesucht.']).get());
+        entries.push(new Builder().id('221423f7-e4aa-4f56-a9be-0d898da5bd52').thema(thema).entry('e Überschrift, -en').translate(['titre', 'intitulé']).example('Finden Sie eine Überschrift für den Text.').get());
+        entries.push(new Builder().id('c7c69f2d-1d77-46ee-83a3-62e2d01ecc94').thema(thema).entry('e Umwelt (Sg.)').translate('environnement').example('Diese Fabrik ist schädlich für die Umwelt.').get());
+        entries.push(new Builder().id('d90a8341-2286-4b43-995b-92d6d2f2dc82').thema(thema).entry('r Umweltschutz (Sg.)').translate(["protection de l'environnement", 'écologie']).example('Ich finde Umweltschutz sehr wichtig.').get());
+        entries.push(new Builder().id('60330f95-2794-4ca5-9662-3dca24e3ac36').thema(thema).entry('und so weiter').translate(['etc', 'et cætera', 'et ainsi de suite']).example('u.s.w.').get());
+        entries.push(new Builder().id('c4ac766b-07cc-48ac-86d5-9dfc9fd099d5').thema(thema).entry('unerträglich').translate(['insupportable', 'intolérable']).example(['Wie war die Party?', '– Sehr laut, die Musik war unerträglich.']).get());
 /*
         entries.push(new Builder().id('658ad303-bb45-4588-8af9-17a40656e19a').thema(thema).entry('e U-Bahn, -en').example(['Wie komme ich zum Bahnhof?', 'Du kannst die U-Bahn nehmen.']).get());
         entries.push(new Builder().id('36dc347b-6d3f-43bf-abd8-92a6fb3c4ba4').thema(thema).entry('üben').example('Ich muss jeden Tag Klavier üben.').get());
@@ -1595,16 +1595,16 @@ class VocabularyA2Service {
     createVEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'V'];
-        entries.push(new Builder().id('db9bb3ac-9ad5-4673-8911-5733381367bd').thema(thema).entry('verabredet sein').translate().example('Ich bin um 15 Uhr mit meiner Freundin verabredet. Wir treffen uns im Park.').get());
-        entries.push(new Builder().id('ffbd8dc5-f39f-48e6-a602-0fecea82aab4').thema(thema).entry('verkleiden (sich)').translate().example('Im Karneval verkleidet sie sich gern.').get());
-        entries.push(new Builder().id('eae64662-15a9-4442-9365-41dec808d247').thema(thema).entry('verliebt sein').translate().example('Ich bin total in ihn/sie verliebt.').get());
-        entries.push(new Builder().id('6eb2f809-7235-4375-b819-04811293d0d3').thema(thema).entry('verlieren').translate().example(['Ich habe mein Geld verloren.', 'Mein Vater hat seine Arbeit verloren.']).get());
-        entries.push(new Builder().id('1d5c2bfb-a001-4a90-a23d-381f078f5a4c').thema(thema).entry('verreisen').translate().example('Herr Müller ist verreist. Er kommt am 15. August wieder.').get());
-        entries.push(new Builder().id('acab0c3c-3988-4817-a5fd-5926227a6930').thema(thema).entry('versprechen').translate().example('Ich komme sicher, das verspreche ich.').get());
-        entries.push(new Builder().id('4c956507-447e-4d53-bc0b-5cc5bc05f398').thema(thema).entry('vor allem').translate().example('Ich möchte vor allem das Museum sehen.').get());
-        entries.push(new Builder().id('48dc591b-e678-4f34-8a81-b68d2baadf87').thema(thema).entry('vorbei').translate().example(['Fahr geradeaus, dann kommst du an der Kirche vorbei.', 'Leider sind die Ferien jetzt vorbei.']).get());
-        entries.push(new Builder().id('f7a273a9-7b0f-4ad4-b3d7-671c24757d50').thema(thema).entry('vorher').translate().example('Um sieben Uhr fahren wir weg, aber vorher muss ich telefonieren.').get());
-        entries.push(new Builder().id('3832a160-08fd-49ff-94ea-25470a87737a').thema(thema).entry('vorn').translate().example('Das Auto ist vorn ein bisschen kaputt.').get());
+        entries.push(new Builder().id('db9bb3ac-9ad5-4673-8911-5733381367bd').thema(thema).entry('verabredet sein').translate(['avoir rendez-vous avec qn.', 'avoir un rencard avec qn.']).example('Ich bin um 15 Uhr mit meiner Freundin verabredet. Wir treffen uns im Park.').get());
+        entries.push(new Builder().id('ffbd8dc5-f39f-48e6-a602-0fecea82aab4').thema(thema).entry('verkleiden (sich)').translate(['se déguiser', 'se costumer en qc.', 'se travestir']).example('Im Karneval verkleidet sie sich gern.').get());
+        entries.push(new Builder().id('eae64662-15a9-4442-9365-41dec808d247').thema(thema).entry('verliebt sein').translate('être amoureux(-euse)').example('Ich bin total in ihn/sie verliebt.').get());
+        entries.push(new Builder().id('6eb2f809-7235-4375-b819-04811293d0d3').thema(thema).entry('verlieren').translate('perdre qn./qc.').example(['Ich habe mein Geld verloren.', 'Mein Vater hat seine Arbeit verloren.']).get());
+        entries.push(new Builder().id('1d5c2bfb-a001-4a90-a23d-381f078f5a4c').thema(thema).entry('verreisen').translate(['se déplacer (voyager)', 'partir en voyage', 'voyager', 'être en voyage']).example('Herr Müller ist verreist. Er kommt am 15. August wieder.').get());
+        entries.push(new Builder().id('acab0c3c-3988-4817-a5fd-5926227a6930').thema(thema).entry('versprechen').translate('promettre qc.').example('Ich komme sicher, das verspreche ich.').get());
+        entries.push(new Builder().id('4c956507-447e-4d53-bc0b-5cc5bc05f398').thema(thema).entry('vor allem').translate(['surtout', 'avant tout']).example('Ich möchte vor allem das Museum sehen.').get());
+        entries.push(new Builder().id('48dc591b-e678-4f34-8a81-b68d2baadf87').thema(thema).entry('vorbei').translate(['devant', 'être terminé']).example(['Fahr geradeaus, dann kommst du an der Kirche vorbei.', 'Leider sind die Ferien jetzt vorbei.']).get());
+        entries.push(new Builder().id('f7a273a9-7b0f-4ad4-b3d7-671c24757d50').thema(thema).entry('vorher').translate(['au prélable', 'auparavant', 'avant']).example('Um sieben Uhr fahren wir weg, aber vorher muss ich telefonieren.').get());
+        entries.push(new Builder().id('3832a160-08fd-49ff-94ea-25470a87737a').thema(thema).entry('vorn').translate('devant').example('Das Auto ist vorn ein bisschen kaputt.').get());
 /*
         entries.push(new Builder().id('d3083cfe-c279-488d-adce-3ef7f8cfb82d').thema(thema).entry('verbieten').example(['Kommst du heute Abend mit?', '– Nein, mein Vater hat es mir verboten.']).get());
         entries.push(new Builder().id('36fe6180-f910-4384-9cd1-a253bbc1fb29').thema(thema).entry('verboten sein').example('Hier ist das Rauchen verboten.').get());
@@ -1639,22 +1639,22 @@ class VocabularyA2Service {
     createWEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'W'];
-        entries.push(new Builder().id('9e137296-4e6c-43fa-a7a6-d813a5dbe9e2').thema(thema).entry('wach').translate().example('Ich war schon um sechs Uhr wach.').get());
-        entries.push(new Builder().id('a8e1e96e-5e90-4441-bddc-1403a05a0c85').thema(thema).entry('wahr').translate().example(['Die Geschichte ist sicher nicht wahr.', 'Das schmeckt gut, nicht wahr?']).get());
-        entries.push(new Builder().id('c45be59e-31cf-4873-9f2f-927548e54351').thema(thema).entry('wahrscheinlich').translate().example(['Wo ist Konrad?', '– Er ist wahrscheinlich noch im Büro.']).get());
-        entries.push(new Builder().id('80003733-c202-489f-b7bd-f18bde47d83b').thema(thema).entry('r Wald, ä, -er').translate().example(['Gehst du gern im Wald spazieren?', '– Ja, die Bäume gefallen mir.']).get());
-        entries.push(new Builder().id('e264768b-00f0-44f2-afa9-bd22e418bac8').thema(thema).entry('wegbringen').translate().example('Kannst du bitte die Post wegbringen?').get());
-        entries.push(new Builder().id('34229d1a-dcff-4615-8f41-becf34e5e208').thema(thema).entry('wegfahren').translate().example('Leider muss ich jetzt wegfahren.').get());
-        entries.push(new Builder().id('8ab64588-a462-411c-8e56-7b0923bd7355').thema(thema).entry('weggehen').translate().example('Am Abend möchte ich noch mit meinen Freunden weggehen.').get());
-        entries.push(new Builder().id('aa6b83c8-c518-4481-ae3a-28e2119f9815').thema(thema).entry('weinen').translate().example('Ich habe geweint, weil ich sehr traurig bin.').get());
-        entries.push(new Builder().id('c312a3f1-f20f-4666-b25a-1f3397536d67').thema(thema).entry('weitermachen').translate().example('Können wir jetzt weitermachen?').get());
-        entries.push(new Builder().id('c00fb640-268f-40f2-b40f-d5b991fdb3c5').thema(thema).entry('weiterspielen').translate().example('Spielt doch weiter!').get());
-        entries.push(new Builder().id('482891f5-9e3d-4154-9e6f-4eaec7ca9175').thema(thema).entry('wenigstens').translate().example('Du musst aber wenigstens anrufen.').get());
-        entries.push(new Builder().id('e6d0e4fe-cd0c-4acc-9a68-90e10f048dd9').thema(thema).entry('r Wettbewerb, -e').translate().example('Das ist ein Wettbewerb: Man muss eine Frage richtig beantworten, dann kann man eine Reise gewinnen.').get());
-        entries.push(new Builder().id('e927afba-26ec-4dc0-85cb-8f5c34a34a2a').thema(thema).entry('e Wiese, -n').translate().example(['Keinen Müll auf der Wiese lassen!', 'Wir spielen auf der Wiese Fußball.']).get());
-        entries.push(new Builder().id('14a06c22-1715-4648-9cb0-c8da7817ed21').thema(thema).entry('r Witz, -e').translate().example('Er erzählt gern Witze. Wir müssen immer lachen.').get());
-        entries.push(new Builder().id('b660d0e6-993d-4b35-b6ea-7c8978811a7d').thema(thema).entry('witzig').translate().example('Das Buch ist so witzig! Ich musste oft lachen.').get());
-        entries.push(new Builder().id('092fee77-588b-4e17-960a-b0d9bb358e17').thema(thema).entry('e Wolke, -n').translate().example('Am Himmel sind viele Wolken. Es regnet bald.').get());
+        entries.push(new Builder().id('9e137296-4e6c-43fa-a7a6-d813a5dbe9e2').thema(thema).entry('wach').translate(['réveillé(e)', 'éveillé(e)']).example('Ich war schon um sechs Uhr wach.').get());
+        entries.push(new Builder().id('a8e1e96e-5e90-4441-bddc-1403a05a0c85').thema(thema).entry('wahr').translate(['vrai(e)', 'véritable']).example(['Die Geschichte ist sicher nicht wahr.', 'Das schmeckt gut, nicht wahr?']).get());
+        entries.push(new Builder().id('c45be59e-31cf-4873-9f2f-927548e54351').thema(thema).entry('wahrscheinlich').translate(['sans doute', 'vraisemblablement', 'probablement']).example(['Wo ist Konrad?', '– Er ist wahrscheinlich noch im Büro.']).get());
+        entries.push(new Builder().id('80003733-c202-489f-b7bd-f18bde47d83b').thema(thema).entry('r Wald, ä, -er').translate(['forêt', 'bois']).example(['Gehst du gern im Wald spazieren?', '– Ja, die Bäume gefallen mir.']).get());
+        entries.push(new Builder().id('e264768b-00f0-44f2-afa9-bd22e418bac8').thema(thema).entry('wegbringen').translate(['emmener qn./qc.', 'emporter qc.', 'remporter qc.']).example('Kannst du bitte die Post wegbringen?').get());
+        entries.push(new Builder().id('34229d1a-dcff-4615-8f41-becf34e5e208').thema(thema).entry('wegfahren').translate(['prendre la route', 'partir (en véhicule)']).example('Leider muss ich jetzt wegfahren.').get());
+        entries.push(new Builder().id('8ab64588-a462-411c-8e56-7b0923bd7355').thema(thema).entry('weggehen').translate("partir (s'en aller)").example('Am Abend möchte ich noch mit meinen Freunden weggehen.').get());
+        entries.push(new Builder().id('aa6b83c8-c518-4481-ae3a-28e2119f9815').thema(thema).entry('weinen').translate('pleurer').example('Ich habe geweint, weil ich sehr traurig bin.').get());
+        entries.push(new Builder().id('c312a3f1-f20f-4666-b25a-1f3397536d67').thema(thema).entry('weitermachen').translate(['poursuivre', 'continuer']).example('Können wir jetzt weitermachen?').get());
+        entries.push(new Builder().id('c00fb640-268f-40f2-b40f-d5b991fdb3c5').thema(thema).entry('weiterspielen').translate("continuer à jouer").example('Spielt doch weiter!').get());
+        entries.push(new Builder().id('482891f5-9e3d-4154-9e6f-4eaec7ca9175').thema(thema).entry('wenigstens').translate(['au moins', 'du moins']).example('Du musst aber wenigstens anrufen.').get());
+        entries.push(new Builder().id('e6d0e4fe-cd0c-4acc-9a68-90e10f048dd9').thema(thema).entry('r Wettbewerb, -e').translate(['concours', 'compétition']).example('Das ist ein Wettbewerb: Man muss eine Frage richtig beantworten, dann kann man eine Reise gewinnen.').get());
+        entries.push(new Builder().id('e927afba-26ec-4dc0-85cb-8f5c34a34a2a').thema(thema).entry('e Wiese, -n').translate(['prairie', 'pré']).example(['Keinen Müll auf der Wiese lassen!', 'Wir spielen auf der Wiese Fußball.']).get());
+        entries.push(new Builder().id('14a06c22-1715-4648-9cb0-c8da7817ed21').thema(thema).entry('r Witz, -e').translate(['blague', 'plaisanterie', 'astuce']).example('Er erzählt gern Witze. Wir müssen immer lachen.').get());
+        entries.push(new Builder().id('b660d0e6-993d-4b35-b6ea-7c8978811a7d').thema(thema).entry('witzig').translate(['drôle', 'rigolo(te)']).example('Das Buch ist so witzig! Ich musste oft lachen.').get());
+        entries.push(new Builder().id('092fee77-588b-4e17-960a-b0d9bb358e17').thema(thema).entry('e Wolke, -n').translate('nuage').example('Am Himmel sind viele Wolken. Es regnet bald.').get());
         /*
         entries.push(new Builder().id('084b19ac-b198-484e-a423-09a3b374620a').thema(thema).entry('wählen').example(['Wählen Sie eine Nummer.', 'Haben Sie schon ein Getränk gewählt?']).get());
         entries.push(new Builder().id('24c9fb78-14b6-444c-88f9-ab022f0ef79e').thema(thema).entry('warm').example('Im Sommer ist es hier sehr warm.').get());
@@ -1711,15 +1711,15 @@ class VocabularyA2Service {
     createZEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A2', 'Alphabetische Wortliste', 'Z'];
-        entries.push(new Builder().id('9cb1cf46-63b7-46da-8211-577cfc4bd311').thema(thema).entry('e Zahnspange, -n').translate().example('Sie trägt eine Zahnspange.').get());
-        entries.push(new Builder().id('5317e393-9494-4c66-bf83-3a98586517f6').thema(thema).entry('zeichnen').translate().example('Wir haben ein Bild gezeichnet.').get());
-        entries.push(new Builder().id('feb7f9ac-8c48-4e8b-bfaf-23a6a30a71f0').thema(thema).entry('s Zelt, -e').translate().example('Früher haben wir im Zelt Ferien gemacht.').get());
-        entries.push(new Builder().id('018d6d3e-5e43-41b3-87f5-1d2d6dc1a0e5').thema(thema).entry('r Zettel, -').translate().example('Wer hat diesen Zettel geschrieben?').get());
-        entries.push(new Builder().id('75c160e7-9962-4d7b-86bc-706529c4970d').thema(thema).entry('s Zeugnis, -se').translate().example('Mein Zeugnis war ziemlich gut.').get());
-        entries.push(new Builder().id('bc41dfb3-343c-4854-a2b2-83cf0f1e196b').thema(thema).entry('zuhören').translate().example('Hör jetzt zu! Das ist wichtig!').get());
-        entries.push(new Builder().id('1e223852-8c23-4e9a-9309-d9605b85ad00').thema(thema).entry('zuletzt').translate().example('Wann hast du ihn zuletzt gesehen? Im letzten Sommer.').get());
-        entries.push(new Builder().id('bd71dd69-d9bd-4b87-81e6-63325cebe2d6').thema(thema).entry('zumachen').translate().example('Mach die Tür bitte zu!').get());
-        entries.push(new Builder().id('bd8f5b81-bb91-497d-a246-07c3273a38e7').thema(thema).entry('zu sein').translate().example('Die Bücherei ist in den Ferien zu.').get());
+        entries.push(new Builder().id('9cb1cf46-63b7-46da-8211-577cfc4bd311').thema(thema).entry('e Zahnspange, -n').translate('appareil dentaire').example('Sie trägt eine Zahnspange.').get());
+        entries.push(new Builder().id('5317e393-9494-4c66-bf83-3a98586517f6').thema(thema).entry('zeichnen').translate('dessiner').example('Wir haben ein Bild gezeichnet.').get());
+        entries.push(new Builder().id('feb7f9ac-8c48-4e8b-bfaf-23a6a30a71f0').thema(thema).entry('s Zelt, -e').translate(['tente', 'chapiteau']).example('Früher haben wir im Zelt Ferien gemacht.').get());
+        entries.push(new Builder().id('018d6d3e-5e43-41b3-87f5-1d2d6dc1a0e5').thema(thema).entry('r Zettel, -').translate(['billet', 'bout de papier', 'fiche']).example('Wer hat diesen Zettel geschrieben?').get());
+        entries.push(new Builder().id('75c160e7-9962-4d7b-86bc-706529c4970d').thema(thema).entry('s Zeugnis, -se').translate(['bulletin', 'brevet', 'certificat']).example('Mein Zeugnis war ziemlich gut.').get());
+        entries.push(new Builder().id('bc41dfb3-343c-4854-a2b2-83cf0f1e196b').thema(thema).entry('zuhören').translate(['écouter (qn./qc.)', "prêter l'oreille à"]).example('Hör jetzt zu! Das ist wichtig!').get());
+        entries.push(new Builder().id('1e223852-8c23-4e9a-9309-d9605b85ad00').thema(thema).entry('zuletzt').translate(['en dernier lieu', 'en dernier', 'à la fin']).example('Wann hast du ihn zuletzt gesehen? Im letzten Sommer.').get());
+        entries.push(new Builder().id('bd71dd69-d9bd-4b87-81e6-63325cebe2d6').thema(thema).entry('zumachen').translate('fermer qc.').example('Mach die Tür bitte zu!').get());
+        entries.push(new Builder().id('bd8f5b81-bb91-497d-a246-07c3273a38e7').thema(thema).entry('zu sein').translate('être fermé').example('Die Bücherei ist in den Ferien zu.').get());
 /*
         entries.push(new Builder().id('36d3209f-f3b1-41db-a1de-e5206db05399').thema(thema).entry('r Zahn, ä, -e').example('Mein Zahn tut weh.').get());
         entries.push(new Builder().id('a817c242-906c-430b-b5b6-ca2746466091').thema(thema).entry('zeigen').example('Können Sie mir den Weg zeigen?').get());
