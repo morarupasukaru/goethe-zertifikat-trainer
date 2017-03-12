@@ -661,17 +661,10 @@ const data = [
                             { value: 'Woher kommst du?', level: 'a1', copyright: c2 },
                             { value: '– Aus der Ukraine.', level: 'a1', copyright: c2 },
                             { value: '– Aus Prag.', level: 'a1', copyright: c2 },
-                            { value: '– Vom Arzt.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Woher kommst du?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ich komme aus Polen.
+                            { value: '– Vom Arzt.', level: 'a1', copyright: c2 },
+                            { value: '– Ich komme aus Polen.', level: 'a2', copyright: c3 },
                             { value: 'Um acht gehe ich aus dem Haus.', level: 'a2', copyright: c3 },
-
-                            { value: 'Kommst du jetzt vom Arzt?', level: 'a2', copyright: c3 },
-
-*/
+                            { value: 'Kommst du jetzt vom Arzt?', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -685,25 +678,22 @@ Woher kommst du?
                             { value: '– Zu Susi.', level: 'a1', copyright: c2 },
                             { value: '– Auf die Bank.', level: 'a1', copyright: c2 },
                             { value: '– Ans Meer.', level: 'a1', copyright: c2 },
-                            { value: '– Nach Österreich.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Wir gehen (fahren) nach Hause / in die Schule, ans Meer / nach Deutschland / zu meiner Freundin.
-                            { value: '', level: 'a2', copyright: c3 },
-Gehen Sie hier rechts in die Bahnhofsstraße, dann immer geradeaus und bei der Ampel links in die Poststraße.
-*/
+                            { value: '– Nach Österreich.', level: 'a1', copyright: c2 },
+                            { value: 'Wir gehen (fahren) nach Hause.', level: 'a2', copyright: c3 },
+                            { value: 'Wir gehen (fahren) in die Schule.', level: 'a2', copyright: c3 },
+                            { value: 'Wir gehen (fahren) ans Meer.', level: 'a2', copyright: c3 },
+                            { value: 'Wir gehen (fahren) nach Deutschland.', level: 'a2', copyright: c3 },
+                            { value: 'Wir gehen (fahren) zu meiner Freundin.', level: 'a2', copyright: c3 },
+                            { value: 'Gehen Sie hier rechts in die Bahnhofsstraße, dann immer geradeaus und bei der Ampel links in die Poststraße.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
                         groupId: 'Distanz',
                         entries: [
                             { value: 'Wie weit ist es bis Bonn?', level: 'a1', copyright: c2 },
-                            { value: '– Nur zehn Kilometer.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Bis zur Schule ist es nicht weit, nur zehn Minuten.
-Wie weit ist es von hier bis zum Hauptbahnhof?
-*/
+                            { value: '– Nur zehn Kilometer.', level: 'a1', copyright: c2 },
+                            { value: 'Bis zur Schule ist es nicht weit, nur zehn Minuten.', level: 'a2', copyright: c3 },
+                            { value: 'Wie weit ist es von hier bis zum Hauptbahnhof?', level: 'a2', copyright: c3 }
                         ]
                     }
                 ]
