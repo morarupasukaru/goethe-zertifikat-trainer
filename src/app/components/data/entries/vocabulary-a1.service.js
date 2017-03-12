@@ -209,7 +209,8 @@ class VocabularyA1Service {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Jahr/Jahreszeiten'];
 		entries.push(new Builder().id('eea71e27-758d-4c51-8957-6ee8b508ca9e').thema(thema).entry('Jahreszeit').translate('saison').get());
-		entries.push(new Builder().id('63f4f5c6-a371-45be-9314-e8e6e12b3939').thema(thema).entry('der Frühling/das Frühjahr').get());
+		entries.push(new Builder().id('63f4f5c6-a371-45be-9314-e8e6e12b3939').thema(thema).entry('der Frühling').translate('printemps').get());
+		entries.push(new Builder().id('307ee13e-69b4-4415-8f98-4cdac800bfd4').thema(thema).entry('das Frühjahr').translate('printemps').get());
 		/*
 		entries.push(new Builder().id('3f3e04d3-abfc-4c1a-9f6d-9ac11330faed').thema(thema).entry('Jahr').get());
 		entries.push(new Builder().id('1d11e0fa-ef02-4877-8cac-25afeb86d6d4').thema(thema).entry('der Sommer').get());
@@ -255,20 +256,20 @@ class VocabularyA1Service {
     createLaenderEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Länder/Ländernamen/Nationalitäten'];
-		entries.push(new Builder().id('d2b8559c-fd60-40c2-be4f-b095d9e5a580').thema(thema).entry('Land').get());
-		entries.push(new Builder().id('023b6cee-b8db-435e-b59d-ac39116fdeb6').thema(thema).entry('Ländername').get());
-		entries.push(new Builder().id('93765f89-3a36-45a6-8987-7677ea3147e6').thema(thema).entry('Nationalität').get());
-		entries.push(new Builder().id('fd0ebdb5-efa7-4382-a92c-65bf50db58df').thema(thema).entry('Deutschland').get());
-		entries.push(new Builder().id('5a8544e8-c949-4ba0-b74a-d65a6fa9021c').thema(thema).entry('der/die Deutsche, -n').get());
-		entries.push(new Builder().id('8fad46b9-1da1-41d2-9615-443523fe36e4').thema(thema).entry('ein Deutscher, eine Deutsche, Deutsche').get());
-		entries.push(new Builder().id('67feb1cd-215b-4ad4-ab2c-f461e573d292').thema(thema).entry('deutsch').get());
-		entries.push(new Builder().id('bdbbb0f0-186c-4b34-983f-6d511f9e05a7').thema(thema).entry('Europa').get());
-		entries.push(new Builder().id('4d222459-2faf-4083-a1e4-87963e9f62ef').thema(thema).entry('Europäer').get());
-		entries.push(new Builder().id('4b2ccfdc-1547-49e5-a94c-b64786332c7c').thema(thema).entry('europäisch').get());
-		entries.push(new Builder().id('e46bf7ca-28f0-42e9-b0c5-e3ac5dce4cf5').thema(thema).entry('Herkunft').get());
+		entries.push(new Builder().id('d2b8559c-fd60-40c2-be4f-b095d9e5a580').thema(thema).entry('Land').translate('pays').get());
+		entries.push(new Builder().id('023b6cee-b8db-435e-b59d-ac39116fdeb6').thema(thema).entry('Ländername').translate('nom de pays').get());
+		entries.push(new Builder().id('93765f89-3a36-45a6-8987-7677ea3147e6').thema(thema).entry('Nationalität').translate('nationalité').get());
+		entries.push(new Builder().id('fd0ebdb5-efa7-4382-a92c-65bf50db58df').thema(thema).entry('Deutschland').translate('Allemagne').get());
+		entries.push(new Builder().id('5a8544e8-c949-4ba0-b74a-d65a6fa9021c').thema(thema).entry('der/die Deutsche, -n').translate('la langue allemande').get());
+		entries.push(new Builder().id('8fad46b9-1da1-41d2-9615-443523fe36e4').thema(thema).entry('ein Deutscher, eine Deutsche, Deutsche').translate('un Allemand, une Allemande, des Allemands').get());
+		entries.push(new Builder().id('67feb1cd-215b-4ad4-ab2c-f461e573d292').thema(thema).entry('deutsch').translate('allemand').get());
+		entries.push(new Builder().id('bdbbb0f0-186c-4b34-983f-6d511f9e05a7').thema(thema).entry('Europa').translate("l'Europe").get());
+		entries.push(new Builder().id('4d222459-2faf-4083-a1e4-87963e9f62ef').thema(thema).entry('Europäer').translate('un Européen, une Européenne').get());
+		entries.push(new Builder().id('4b2ccfdc-1547-49e5-a94c-b64786332c7c').thema(thema).entry('europäisch').translate('européen, européenne').get());
+		entries.push(new Builder().id('e46bf7ca-28f0-42e9-b0c5-e3ac5dce4cf5').thema(thema).entry('Herkunft').translate(['origine', 'provenance']).get());
 		entries.push(new Builder().id('fd3f9268-08c9-4961-af0c-e9f0c0a890e3').thema(thema).entry('Bewohner').translate('habitant').get());
-		entries.push(new Builder().id('1d41f25e-0388-415b-b4cb-025ca17de32b').thema(thema).entry('die Schweiz').get());
-		entries.push(new Builder().id('fc8d33f7-e886-4f9e-94fa-d84629a4c052').thema(thema).entry('der Schweizer, die Schweizerin').get());
+		entries.push(new Builder().id('1d41f25e-0388-415b-b4cb-025ca17de32b').thema(thema).entry('die Schweiz').translate('la Suisse').get());
+		entries.push(new Builder().id('fc8d33f7-e886-4f9e-94fa-d84629a4c052').thema(thema).entry('der Schweizer, die Schweizerin').translate('un Suisse, une Suissesse').get());
         return entries;
     }
 
@@ -517,7 +518,7 @@ class VocabularyA1Service {
 		entries.push(new Builder().id('4a00c5e4-aa5e-4ff5-bb73-c2eda869ac7f').thema(thema).entry('die Ecke, -n').example('An der nächsten Ecke links.').translate(['coin', 'angle']).get());
 		entries.push(new Builder().id('d4d376f9-0a64-4a80-99b1-9e5608d283fe').thema(thema).entry('die Ehefrau, -en/der Ehemann, ä, er').example('Das ist mein (Ehe-) Mann/meine (Ehe-) Frau.').translate(['épouse', 'époux']).get());
 		entries.push(new Builder().id('463410d8-c3f6-44c9-9c66-ee96e0484c73').thema(thema).entry('eilig').example('Hast du es eilig?').translate(['pressant, pressante (adj)', 'pressé, préssée (adj)', 'hâtivement (adv)']).get());
-		entries.push(new Builder().id('3ea82aec-6366-4be5-871f-4b1ae2399b84').thema(thema).entry('der Eingang').example('Der Eingang ist um die Ecke.').get());
+		entries.push(new Builder().id('3ea82aec-6366-4be5-871f-4b1ae2399b84').thema(thema).entry('der Eingang').example('Der Eingang ist um die Ecke.').translate('entrée').get());
 		entries.push(new Builder().id('9e537705-6aca-407c-8009-f01507c68b74').thema(thema).entry('einsteigen').example('Schnell, steig ein, der Zug fährt gleich.').translate('monter (dans un véhicule)').get());
 		entries.push(new Builder().id('215d2769-7041-412c-9ff9-b1c2264bc611').thema(thema).entry('der Eintritt').example('Der Preis für den Eintritt ist 5 Euro.').translate(["billet d'entrée", 'entrée (montant à payer pour entrer)']).get());
 		entries.push(new Builder().id('6ec10241-fb15-41a1-9594-29232abf5c34').thema(thema).entry('der Empfänger, –').example('Auf dem Brief steht dein Name, also bist du der Empfänger.').translate(['bénéficiaire', 'destinataire']).get());
@@ -555,12 +556,12 @@ class VocabularyA1Service {
     createFEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'F'];
-		entries.push(new Builder().id('9460a495-aa1f-40b1-abc8-e9efdd0dcc33').thema(thema).entry('das Fahrrad, -ä, er').example('Fährst du mit dem Fahrrad oder mit dem Auto?').get());
+		entries.push(new Builder().id('9460a495-aa1f-40b1-abc8-e9efdd0dcc33').thema(thema).entry('das Fahrrad, -ä, er').example('Fährst du mit dem Fahrrad oder mit dem Auto?').translate(['vélo', 'bicyclette']).get());
 		entries.push(new Builder().id('7e17939b-e80c-42c6-847d-698cde169c88').thema(thema).entry('der Familienstand').example('Bei „Familienstand“ musst du „ledig“ ankreuzen.').translate('état civil').get());
 		entries.push(new Builder().id('4cc06604-799d-4744-b2d5-e12a09ad7323').thema(thema).entry('fehlen').example(['Herr Müller ist nicht da, er fehlt schon seit drei Tagen.', 'Was fehlt Ihnen?']).translate('manquer').get());
 		entries.push(new Builder().id('3800b932-260a-4416-8f1c-48c023e36f9e').thema(thema).entry('abfliegen').example('Wann fliegst du ab?').translate('décoller').get());
 		entries.push(new Builder().id('2924dddd-4fe2-4d2e-80fe-7e9e8c8e8637').thema(thema).entry('der Abflug').example('Der Abflug ist um 11.20 Uhr.').translate('décollage').get());
-		entries.push(new Builder().id('278cbc77-dc9b-4e48-8b4f-77cd8a705aa9').thema(thema).entry('der Flughafen').example('Kannst du mich zum Flughafen bringen?').get());
+		entries.push(new Builder().id('278cbc77-dc9b-4e48-8b4f-77cd8a705aa9').thema(thema).entry('der Flughafen').example('Kannst du mich zum Flughafen bringen?').translate('aéroport').get());
 		entries.push(new Builder().id('d009e9b7-2c4b-4699-bca2-45feb7aeb87d').thema(thema).entry('das Flugzeug').example('Das Flugzeug aus Berlin kommt heute später an.').translate('avion').get());
 		entries.push(new Builder().id('0a35c425-f05d-477e-a41d-4e011a285835').thema(thema).entry('die Führung').example('Die Führung durch das Haus beginnt in 3 Minuten.').translate('visite guidée').get());
 
@@ -908,7 +909,7 @@ class VocabularyA1Service {
     createPEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'P'];
-		entries.push(new Builder().id('b3a834aa-d082-4d44-a5d3-a75dc78c5f97').thema(thema).entry('das Papier').example('Hier sind Papier und Bleistift.').get());
+		entries.push(new Builder().id('b3a834aa-d082-4d44-a5d3-a75dc78c5f97').thema(thema).entry('das Papier').example('Hier sind Papier und Bleistift.').translate('papier').get());
 		entries.push(new Builder().id('d76ed497-b626-4c16-b198-63210049a153').thema(thema).entry('die Papiere (pl.)').example('Haben Sie Ihre Papiere dabei?').translate('papiers (documents identités)').get());
 		entries.push(new Builder().id('4ee7faa8-9e11-4264-a5c1-8e36b8fd8b1b').thema(thema).entry('die Pommes frites (pl.)').example('Die Kinder essen Hähnchen mit Pommes frites.').translate('frites').get());
 		entries.push(new Builder().id('67ba7e90-387f-480c-9f40-4e5584c1ce99').thema(thema).entry('das Praktikum').example('Ich mache ein Praktikum bei Siemens.').translate('stage').get());
@@ -1097,7 +1098,7 @@ class VocabularyA1Service {
     createVEntries(Builder) {
         let entries = [];
         let thema = ['Wortschatz', 'A1', 'Alphabetische Wortliste', 'V'];
-		entries.push(new Builder().id('6b147409-e533-4976-addf-5d496fd9126b').thema(thema).entry('verdienen').example('Ich verdiene 1.500 Euro im Monat.').get());
+		entries.push(new Builder().id('6b147409-e533-4976-addf-5d496fd9126b').thema(thema).entry('verdienen').example('Ich verdiene 1.500 Euro im Monat.').translate("gagner qc. (de l'argent en travaillant)").get());
 		entries.push(new Builder().id('55d3fca3-0ba1-4a8d-9932-95cad67a07d8').thema(thema).entry('der Verein').example('Es gibt einen neuen Sportverein in der Stadt.').translate(['association', 'club', 'amicale']).get());
 		entries.push(new Builder().id('d573acc9-413c-4e69-845f-e55abfbe4244').thema(thema).entry('verheiratet').example('Ich bin verheiratet und habe drei Kinder.').translate('marié, mariée').get());
 		entries.push(new Builder().id('db3fba27-cc73-4ba8-b709-5954ee65d637').thema(thema).entry('vermieten').example('Die Wohnung ist schon vermietet.').translate('louer qc.').get());
