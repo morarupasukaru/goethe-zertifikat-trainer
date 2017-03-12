@@ -708,18 +708,12 @@ const data = [
                         entries: [
                             { value: 'Wann kommst du?', level: 'a1', copyright: c2 },
                             { value: '– Um 3 (Uhr).', level: 'a1', copyright: c2 },
+                            { value: '– Heute Nachmittag.', level: 'a2', copyright: c3 },
                             { value: '– Am 20. September.', level: 'a1', copyright: c2 },
                             { value: '– Im Juli.', level: 'a1', copyright: c2 },
                             { value: 'Wie spät ist es bitte?', level: 'a1', copyright: c2 },
-                            { value: '– Es ist jetzt 7 Uhr.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Wann kommst du?
-– Um drei./Heute Nachmittag.
-Wie spät ist es?
-– Es ist jetzt 6 Uhr.
-Die Schule geht bis halb zwei.
-*/
+                            { value: '– Es ist jetzt 7 Uhr.', level: 'a1', copyright: c2 },
+                            { value: 'Die Schule geht bis halb zwei.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -728,15 +722,11 @@ Die Schule geht bis halb zwei.
                         entries: [
                             { value: 'Wann sind Sie geboren?', level: 'a1', copyright: c2 },
                             { value: '– Am 12. Mai 1988.', level: 'a1', copyright: c2 },
-                            { value: 'Wir fahren im Mai in Urlaub.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Wir fahren im Juli ans Meer.
-Die Ferien beginnen nächste Woche.
-Am Morgen/Morgens bin ich immer müde.
-Am Abend/Abends etc. treffe ich meine Freunde.
-Wann bist du geboren?
-*/
+                            { value: 'Wir fahren im Mai in Urlaub.', level: 'a1', copyright: c2 },
+                            { value: 'Wir fahren im Juli ans Meer.', level: 'a2', copyright: c3 },
+                            { value: 'Die Ferien beginnen nächste Woche.', level: 'a2', copyright: c3 },
+                            { value: 'Am Morgen/Morgens bin ich immer müde.', level: 'a2', copyright: c3 },
+                            { value: 'Am Abend/Abends etc. treffe ich meine Freunde.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -744,12 +734,9 @@ Wann bist du geboren?
                         translate: 'antériorité',
                         entries: [
                             { value: 'Komm bitte vor 10 Uhr.', level: 'a1', copyright: c2 },
-                            { value: 'Wir sind (zu) früh.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich rufe dich vor dem Unterricht an.
-Du kommst zu früh.
-*/
+                            { value: 'Wir sind (zu) früh.', level: 'a1', copyright: c2 },
+                            { value: 'Du kommst zu früh.', level: 'a2', copyright: c3 },
+                            { value: 'Ich rufe dich vor dem Unterricht an.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -757,12 +744,9 @@ Du kommst zu früh.
                         translate: 'postériorité',
                         entries: [
                             { value: 'Bitte nach 23 Uhr nicht mehr anrufen.', level: 'a1', copyright: c2 },
-                            { value: 'Wir sind leider zu spät.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Die Hausaufgaben mache ich nach dem Essen.
-Du kommst zu spät.
-*/
+                            { value: 'Wir sind leider zu spät.', level: 'a1', copyright: c2 },
+                            { value: 'Du kommst zu spät.', level: 'a2', copyright: c3 },
+                            { value: 'Die Hausaufgaben mache ich nach dem Essen.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -772,15 +756,12 @@ Du kommst zu spät.
                             { value: 'Morgen muss ich arbeiten.', level: 'a1', copyright: c2 },
                             { value: 'Wir machen das bald/später .', level: 'a1', copyright: c2 },
                             { value: 'Heute Abend rufe ich dich an.', level: 'a1', copyright: c2 },
-                            { value: 'Am Montag gehen wir ins Kino.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Morgen/Bald/Später kommt mein Vater nach Hause.
-Morgen Nachmittag/ Abend/ Mittag treffen wir uns wieder.
-Ich rufe dich gleich/später/morgen/nächste Woche an.
-Nächste Woche/Nächsten Monat/Nächstes Jahr kommt er.
-Am Dienstag/ Morgen früh/In zwei Tagen bin ich zu Hause.
-*/
+                            { value: 'Ich rufe dich gleich/später/morgen/nächste Woche an.', level: 'a2', copyright: c3 },
+                            { value: 'Am Montag gehen wir ins Kino.', level: 'a1', copyright: c2 },
+                            { value: 'Morgen/Bald/Später kommt mein Vater nach Hause.', level: 'a2', copyright: c3 },
+                            { value: 'Morgen Nachmittag/Abend/Mittag treffen wir uns wieder.', level: 'a2', copyright: c3 },
+                            { value: 'Nächste Woche/Nächsten Monat/Nächstes Jahr kommt er.', level: 'a2', copyright: c3 },
+                            { value: 'Am Dienstag/ Morgen früh/In zwei Tagen bin ich zu Hause.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -789,24 +770,18 @@ Am Dienstag/ Morgen früh/In zwei Tagen bin ich zu Hause.
                         entries: [
                             { value: 'Wir essen jetzt.', level: 'a1', copyright: c2 },
                             { value: 'Ich bin schon da.', level: 'a1', copyright: c2 },
-                            { value: 'Er ist heute in Mainz.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Was machst du heute/jetzt?
-*/
+                            { value: 'Er ist heute in Mainz.', level: 'a1', copyright: c2 },
+                            { value: 'Was machst du heute/jetzt?', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
                         groupId: 'Vergangenheitsbezug',
                         translate: 'référence passé',
                         entries: [
-                            { value: 'Gestern/vor zwei Tagen habe ich die Prüfung gemacht.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Gestern/Vor einer Woche war ich in Berlin.
-Er war gerade noch hier.
-Ich habe Angelika letzte Woche gesehen.
-*/
+                            { value: 'Gestern/vor zwei Tagen habe ich die Prüfung gemacht.', level: 'a1', copyright: c2 },
+                            { value: 'Gestern/Vor einer Woche war ich in Berlin.', level: 'a2', copyright: c3 },
+                            { value: 'Er war gerade noch hier.', level: 'a2', copyright: c3 },
+                            { value: 'Ich habe Angelika letzte Woche gesehen.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -823,15 +798,12 @@ Ich habe Angelika letzte Woche gesehen.
                             { value: 'Wie lange bleibt ihr in Berlin?', level: 'a1', copyright: c2 },
                             { value: '– Drei Wochen.', level: 'a1', copyright: c2 },
                             { value: '– (Nicht) Lange.', level: 'a1', copyright: c2 },
-                            { value: '– Bis Montag.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Wir bleiben drei Tage in Rom.
-Wir wohnen schon lange in Livorno.
-Wir bleiben bis Montag hier.
-Von acht bis eins haben wir Schule.
-Der Film dauert zwei Stunden.
-*/
+                            { value: '– Bis Montag.', level: 'a1', copyright: c2 },
+                            { value: 'Wir bleiben drei Tage in Rom.', level: 'a2', copyright: c3 },
+                            { value: 'Wir wohnen schon lange in Livorno.', level: 'a2', copyright: c3 },
+                            { value: 'Wir bleiben bis Montag hier.', level: 'a2', copyright: c3 },
+                            { value: 'Von acht bis eins haben wir Schule.', level: 'a2', copyright: c3 },
+                            { value: 'Der Film dauert zwei Stunden.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -856,14 +828,11 @@ Der Film dauert zwei Stunden.
                             { value: 'Wie oft geht sie ins Kino?', level: 'a1', copyright: c2 },
                             { value: '– Zweimal im Monat.', level: 'a1', copyright: c2 },
                             { value: '– Nie!', level: 'a1', copyright: c2 },
-                            { value: '– Oft.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Gehst du oft in die Disco?
-– Manchmal./Oft./Nie./Zweimal im Monat.
-Fährst du jedes Wochenende nach Hause?
-Abends bin ich immer zu Hause.
-*/
+                            { value: '– Oft.', level: 'a1', copyright: c2 },
+                            { value: 'Gehst du oft in die Disco?', level: 'a2', copyright: c3 },
+                            { value: '– Manchmal./Oft./Nie./Zweimal im Monat.', level: 'a2', copyright: c3 },
+                            { value: 'Fährst du jedes Wochenende nach Hause?', level: 'a2', copyright: c3 },
+                            { value: 'Abends bin ich immer zu Hause.', level: 'a2', copyright: c3 }
                         ]
                     }
                 ]
@@ -886,51 +855,47 @@ Abends bin ich immer zu Hause.
                             { value: 'Wie viel möchten Sie?', level: 'a1', copyright: c2 },
                             { value: '– (Nicht) Alles.', level: 'a1', copyright: c2 },
                             { value: '– Viel.', level: 'a1', copyright: c2 },
-                            { value: '– Ein bisschen, bitte.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Was/Wie viel kostet das?
-– Ein Euro fünfzig.
-Ein Kilo Kartoffeln
-Ein Glas Wasser
-Ein Teller Suppe
-Eine Flasche Apfelsaft,
-Eine Tasse Tee
-1 Liter
-500 Gramm.
-Ein halbes Hähnchen.
-Ein paar Äpfel
-ein bisschen Gemüse
-viele Kartoffeln.
-Ich habe alles/nur noch wenig/nichts mehr.
-*/
+                            { value: '– Ein bisschen, bitte.', level: 'a1', copyright: c2 },
+                            { value: 'Was/Wie viel kostet das?', level: 'a2', copyright: c3 },
+                            { value: '– Ein Euro fünfzig.', level: 'a2', copyright: c3 },
+                            { value: 'Ein Kilo Kartoffeln', level: 'a2', copyright: c3 },
+                            { value: 'Ein Glas Wasser', level: 'a2', copyright: c3 },
+                            { value: 'Ein Teller Suppe', level: 'a2', copyright: c3 },
+                            { value: 'Eine Flasche Apfelsaft', level: 'a2', copyright: c3 },
+                            { value: 'Eine Tasse Tee', level: 'a2', copyright: c3 },
+                            { value: '500 Gramm.', level: 'a2', copyright: c3 },
+                            { value: 'Ein halbes Hähnchen.', level: 'a2', copyright: c3 },
+                            { value: 'Ein paar Äpfel', level: 'a2', copyright: c3 },
+                            { value: 'Ein bisschen Gemüse', level: 'a2', copyright: c3 },
+                            { value: 'Viele Kartoffeln.', level: 'a2', copyright: c3 },
+                            { value: 'Ich habe alles/nur noch wenig/nichts mehr.', level: 'a2', copyright: c3 }
                         ]
                     },
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-groupId: Menge
-Wie viel möchtest du?
-– (Nicht) Alles/Viel/Ein bisschen, bitte.
-Ich habe nichts mehr/nur noch wenig.
-Du hast fast alles/nichts gegessen.
-*/
+                    {
+                        groupId: 'Menge',
+                        translate: 'Quantité',
+                        entries: [
+                            { value: 'Wie viel möchtest du?', level: 'a2', copyright: c3 },
+                            { value: '– (Nicht) Alles/Viel/Ein bisschen, bitte.', level: 'a2', copyright: c3 },
+                            { value: 'Ich habe nichts mehr/nur noch wenig.', level: 'a2', copyright: c3 },
+                            { value: 'Du hast fast alles/nichts gegessen.', level: 'a2', copyright: c3 }
+                        ]
+                    },
                     {
                         groupId: 'Grad',
                         translate: ['degré', 'grade'],
                         entries: [
-                            { value: 'Das ist sehr/zu gefährlich.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Das ist ziemlich/sehr/viel zu/nicht so schwierig.
-Er hat nur wenig Interesse für uns.
-*/
+                            { value: 'Das ist sehr/zu gefährlich.', level: 'a1', copyright: c2 },
+                            { value: 'Das ist ziemlich/sehr/viel zu/nicht so schwierig.', level: 'a2', copyright: c3 },
+                            { value: 'Er hat nur wenig Interesse für uns.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
                         groupId: 'Dimension/Maßangabe',
                         entries: [
-                            { value: 'Wie lang/groß ...?', level: 'a1', copyright: c2 },
+                            { value: 'Wie lang/groß ... ist das?', level: 'a1', copyright: c2 },
                             { value: '– 1,5 Meter.', level: 'a1', copyright: c2 },
+                            { value: '– Das ist zu kurz.', level: 'a2', copyright: c3 },
                             { value: 'Wie schwer ...?', level: 'a1', copyright: c2 },
                             { value: '– 500 Gramm.', level: 'a1', copyright: c2 },
                             { value: '– 2 Kilo(gramm).', level: 'a1', copyright: c2 },
@@ -941,15 +906,9 @@ Er hat nur wenig Interesse für uns.
                             { value: 'Wie viel ...?', level: 'a1', copyright: c2 },
                             { value: '– Einen Liter.', level: 'a1', copyright: c2 },
                             { value: 'Wie schnell ...?', level: 'a1', copyright: c2 },
-                            { value: '– Nur maximal 60 km/h.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Das ist sehr lang/ groß/klein/schwer/warm/kalt/schnell/langsam.
-Das ist ganz einfach.
-Wie lang ist das?
-– 1,50 Meter.
-Das ist zu kurz.
-*/
+                            { value: '– Nur maximal 60 km/h.', level: 'a1', copyright: c2 },
+                            { value: 'Das ist sehr lang/ groß/klein/schwer/warm/kalt/schnell/langsam.', level: 'a2', copyright: c3 },
+                            { value: 'Das ist ganz einfach.', level: 'a2', copyright: c3 }
                         ]
                     }
                 ]
@@ -977,17 +936,14 @@ Das ist zu kurz.
                             { value: 'Wie alt ist Dieter?', level: 'a1', copyright: c2 },
                             { value: '– Nicht sehr alt.', level: 'a1', copyright: c2 },
                             { value: '– Schon 60.', level: 'a1', copyright: c2 },
-                            { value: '– Erst 50.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Das Essen schmeckt wunderbar.
-Mein neuer Pullover ist rot, grün, blau ...
-Angelika ist 15 Jahre alt.
-Das Museum ist heute geschlossen/offen.
-Er ist krank/gesund.
-Es geht ihm gut.
-Das ist aus Plastik/Holz/Glas.
-*/
+                            { value: '– Erst 50.', level: 'a1', copyright: c2 },
+                            { value: 'Das Essen schmeckt wunderbar.', level: 'a2', copyright: c3 },
+                            { value: 'Mein neuer Pullover ist rot, grün, blau ...', level: 'a2', copyright: c3 },
+                            { value: 'Angelika ist 15 Jahre alt.', level: 'a2', copyright: c3 },
+                            { value: 'Das Museum ist heute geschlossen/offen.', level: 'a2', copyright: c3 },
+                            { value: 'Er ist krank/gesund.', level: 'a2', copyright: c3 },
+                            { value: 'Es geht ihm gut.', level: 'a2', copyright: c3 },
+                            { value: 'Das ist aus Plastik/Holz/Glas.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1012,14 +968,11 @@ Das ist aus Plastik/Holz/Glas.
                             { value: '(Normalität?)', level: 'a1', copyright: c2 },
                             { value: '– (nicht) normal', level: 'a1', copyright: c2 },
                             { value: '(Schwierigkeit?)', level: 'a1', copyright: c2 },
-                            { value: '– (nicht) leicht', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Diese Sache ist teuer/billig/(nicht) in Ordnung/(nicht) wichtig/(nicht) richtig/(nicht) leicht.
-Die Übung ist nicht schwierig.
-Diesen Film finde ich besser.
-Das hast du falsch gemacht, am besten versuchst du es noch einmal.
-*/
+                            { value: '– (nicht) leicht', level: 'a1', copyright: c2 },
+                            { value: 'Diese Sache ist teuer/billig/(nicht) in Ordnung/(nicht) wichtig/(nicht) richtig/(nicht) leicht.', level: 'a2', copyright: c3 },
+                            { value: 'Die Übung ist nicht schwierig.', level: 'a2', copyright: c3 },
+                            { value: 'Diesen Film finde ich besser.', level: 'a2', copyright: c3 },
+                            { value: 'Das hast du falsch gemacht, am besten versuchst du es noch einmal.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1029,14 +982,11 @@ Das hast du falsch gemacht, am besten versuchst du es noch einmal.
                             { value: 'Spielst du Fußball?', level: 'a1', copyright: c2 },
                             { value: '– Ja, wie meine Schwester.', level: 'a1', copyright: c2 },
                             { value: 'Sie ist so alt wie ich.', level: 'a1', copyright: c2 },
-                            { value: 'Wir sind gleich alt.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich bin so groß wie meine Freundin.
-Wir sind gleich groß/alt.
-Ich bin älter als du.
-Der rote Pullover ist viel teurer als der weiße.
-*/
+                            { value: 'Wir sind gleich alt.', level: 'a1', copyright: c2 },
+                            { value: 'Ich bin so groß wie meine Freundin.', level: 'a2', copyright: c3 },
+                            { value: 'Wir sind gleich groß/alt.', level: 'a2', copyright: c3 },
+                            { value: 'Ich bin älter als du.', level: 'a2', copyright: c3 },
+                            { value: 'Der rote Pullover ist viel teurer als der weiße.', level: 'a2', copyright: c3 }
                         ]
                     }
                 ]
@@ -1050,14 +1000,11 @@ Der rote Pullover ist viel teurer als der weiße.
                         translate: ['cause', 'raison'],
                         entries: [
                             { value: 'Warum kommt er nicht mit zur Party?', level: 'a1', copyright: c2 },
-                            { value: '– Er kann nicht. Er arbeitet heute lange.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Warum ist Miriam heute nicht in der Schule?
-– Sie ist krank.
-– Weil sie krank ist.
-– Miriam ist krank, deshalb kommt sie nicht.
-*/
+                            { value: '– Er kann nicht. Er arbeitet heute lange.', level: 'a1', copyright: c2 },
+                            { value: 'Warum ist Miriam heute nicht in der Schule?', level: 'a2', copyright: c3 },
+                            { value: '– Sie ist krank.', level: 'a2', copyright: c3 },
+                            { value: '– Weil sie krank ist.', level: 'a2', copyright: c3 },
+                            { value: '– Miriam ist krank, deshalb kommt sie nicht.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1065,13 +1012,10 @@ Warum ist Miriam heute nicht in der Schule?
                         translate: 'condition',
                         entries: [
                             { value: 'Kann ich das Auto haben?', level: 'a1', copyright: c2 },
-                            { value: '– Ja, aber nur für eine Stunde.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Kann ich das Buch haben?
-– Ja, aber du musst es mir morgen zurückgeben.
-Wenn es regnet, bleiben wir zu Hause.
-*/
+                            { value: '– Ja, aber nur für eine Stunde.', level: 'a1', copyright: c2 },
+                            { value: 'Kann ich das Buch haben?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, aber du musst es mir morgen zurückgeben.', level: 'a2', copyright: c3 },
+                            { value: 'Wenn es regnet, bleiben wir zu Hause.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1079,13 +1023,10 @@ Wenn es regnet, bleiben wir zu Hause.
                         translate: 'Aufzählung: dénombrement, énumération',
                         entries: [
                             { value: 'Er isst und trinkt gern.', level: 'a1', copyright: c2 },
-                            { value: 'Möchtest du Wasser oder Wein?', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich esse gern Brot und Kartoffeln und Fleisch.
-Möchtest du Wasser oder Cola?
-Wir gehen erst einkaufen und dann ins Café.
-*/
+                            { value: 'Möchtest du Wasser oder Wein?', level: 'a1', copyright: c2 },
+                            { value: 'Ich esse gern Brot und Kartoffeln und Fleisch.', level: 'a2', copyright: c3 },
+                            { value: 'Möchtest du Wasser oder Cola?', level: 'a2', copyright: c3 },
+                            { value: 'Wir gehen erst einkaufen und dann ins Café.', level: 'a2', copyright: c3 }
                         ]
                     }
                 ]
@@ -2124,14 +2065,11 @@ Ich hätte gern eine CD von ...
                             { value: 'Doch.', translate: 'si', level: 'a1', copyright: c2 },
                             { value: 'Das ist richtig.', level: 'a1', copyright: c2 },
                             { value: 'Stimmt.', translate: 'tout à fait!', level: 'a1', copyright: c2 },
-                            { value: 'Genau (so).', translate: ['Absolument !', 'parfaitement !', 'tout à fait !'], level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-– Die Antwort ist richtig.
-– Richtig? Ja!/Nein!/Doch!
-Ist das so richtig?
-– Aber natürlich./Klar./Sicher.
-                            */
+                            { value: 'Genau (so).', translate: ['Absolument !', 'parfaitement !', 'tout à fait !'], level: 'a1', copyright: c2 },
+                            { value: 'Die Antwort ist richtig.', level: 'a2', copyright: c3 },
+                            { value: 'Richtig? Ja!/Nein!/Doch!', level: 'a2', copyright: c3 },
+                            { value: 'Ist das so richtig?', level: 'a2', copyright: c3 },
+                            { value: '– Aber natürlich./Klar./Sicher.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2142,16 +2080,16 @@ Ist das so richtig?
                             { value: '– Ja, danke.', level: 'a1', copyright: c2 },
                             { value: '– Gerne.', level: 'a1', copyright: c2 },
                             { value: '– Sehr nett, danke.', level: 'a1', copyright: c2 },
-                            { value: '– Nein, danke.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Kann ich helfen?
-– Ja, gern./Klar./Sicher./Danke./Nein danke.
-Wollen wir das zusammen machen?
-– Ja, du kannst mir helfen.
-– Das ist lieb/nett.
-– Nein danke, ich kann es alleine.
-                            */
+                            { value: '– Nein, danke.', level: 'a1', copyright: c2 },
+                            { value: 'Kann ich helfen?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, gern.', level: 'a2', copyright: c3 },
+                            { value: '– Klar.', level: 'a2', copyright: c3 },
+                            { value: '– Sicher.', level: 'a2', copyright: c3 },
+                            { value: '– Danke.', level: 'a2', copyright: c3 },
+                            { value: 'Wollen wir das zusammen machen?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, du kannst mir helfen.', level: 'a2', copyright: c3 },
+                            { value: '– Das ist lieb/nett.', level: 'a2', copyright: c3 },
+                            { value: '– Nein danke, ich kann es alleine.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2162,14 +2100,11 @@ Wollen wir das zusammen machen?
                             { value: 'Ich nehme die Tomatensuppe und den Salat.', level: 'a1', copyright: c2 },
                             { value: 'Einen Moment.', level: 'a1', copyright: c2 },
                             { value: 'Sofort.', level: 'a1', copyright: c2 },
-                            { value: 'Gleich.', translate: 'tout de suite', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich möchte nach Deutschland fliegen.
-Ich will morgen ins Schwimmbad.
-Ich hätte gern eine Fahrkarte.
-Kannst du mir bitte den Bleistift geben?
-                            */
+                            { value: 'Gleich.', translate: 'tout de suite', level: 'a1', copyright: c2 },
+                            { value: 'Ich möchte nach Deutschland fliegen.', level: 'a2', copyright: c3 },
+                            { value: 'Ich will morgen ins Schwimmbad.', level: 'a2', copyright: c3 },
+                            { value: 'Ich hätte gern eine Fahrkarte.', level: 'a2', copyright: c3 },
+                            { value: 'Kannst du mir bitte den Bleistift geben?', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2181,19 +2116,16 @@ Kannst du mir bitte den Bleistift geben?
                             { value: 'Achtung!', translate: ['Attention !', 'Gare !', 'garde à vous!'], level: 'a1', copyright: c2 },
                             { value: 'Halt!', translate: 'halte !', level: 'a1', copyright: c2 },
                             { value: 'Hilfe!', level: 'a1', copyright: c2 },
-                            { value: 'Stopp!', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Der Film ist wunderbar.
-Das Wasser ist zu kalt.
-Du musst gut aufpassen.
-Was soll ich machen?
-– Schreib es auf!
-Mach es gleich!
-Pass auf!
-Das ist zu gefährlich.
-Sei vorsichtig! Achtung!
-                            */
+                            { value: 'Stopp!', level: 'a1', copyright: c2 },
+                            { value: 'Der Film ist wunderbar.', level: 'a2', copyright: c3 },
+                            { value: 'Das Wasser ist zu kalt.', level: 'a2', copyright: c3 },
+                            { value: 'Du musst gut aufpassen.', level: 'a2', copyright: c3 },
+                            { value: 'Was soll ich machen?', level: 'a2', copyright: c3 },
+                            { value: 'Schreib es auf!', level: 'a2', copyright: c3 },
+                            { value: 'Mach es gleich!', level: 'a2', copyright: c3 },
+                            { value: 'Pass auf!', level: 'a2', copyright: c3 },
+                            { value: 'Das ist zu gefährlich.', level: 'a2', copyright: c3 },
+                            { value: 'Sei vorsichtig!', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2209,19 +2141,16 @@ Sei vorsichtig! Achtung!
                             { value: '– Das ist hier verboten.', level: 'a1', copyright: c2 },
                             { value: 'Kann ich mal telefonieren?', level: 'a1', copyright: c2 },
                             { value: 'Kann man hier parken?', level: 'a1', copyright: c2 },
-                            { value: '– Nein, hier ist Parken verboten.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Kann ich zu dir kommen?
-– Ja./Nein, heute nicht.
-Kann ich die CD haben?
-– Ja./Nein.
-Darf man hier fahren?
-– Ja, klar./Nein, das ist verboten.
-Darfst du heute Abend weggehen?
-– Ja, meine Eltern erlauben das./
-– Nein, meine Mutter hat es verboten.
-                            */
+                            { value: '– Nein, hier ist Parken verboten.', level: 'a1', copyright: c2 },
+                            { value: 'Kann ich zu dir kommen?', level: 'a2', copyright: c3 },
+                            { value: '– Ja./Nein, heute nicht.', level: 'a2', copyright: c3 },
+                            { value: 'Kann ich die CD haben?', level: 'a2', copyright: c3 },
+                            { value: '– Ja./Nein.', level: 'a2', copyright: c3 },
+                            { value: 'Darf man hier fahren?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, klar./Nein, das ist verboten.', level: 'a2', copyright: c3 },
+                            { value: 'Darfst du heute Abend weggehen?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, meine Eltern erlauben das.', level: 'a2', copyright: c3 },
+                            { value: '– Nein, meine Mutter hat es verboten.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2236,18 +2165,14 @@ Darfst du heute Abend weggehen?
                             { value: '– Gut.', level: 'a1', copyright: c2 },
                             { value: '– Nein, leider nicht.', level: 'a1', copyright: c2 },
                             { value: '– Keine Zeit.', level: 'a1', copyright: c2 },
-                            { value: '– Keine Lust', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Gehen wir heute in die Disco?
-– Ja, gern.
-Kommst du mit ins Schwimmbad?
-– Das ist eine tolle Idee./Nein, keine Lust.
-Darf ich etwas vorschlagen?
-Wollen wir die Hausaufgaben zusammen machen?
-– Einverstanden.
-– Ich bin dafür/dagegen.
-                            */
+                            { value: '– Keine Lust', level: 'a1', copyright: c2 },
+                            { value: 'Kommst du mit ins Schwimmbad?', level: 'a2', copyright: c3 },
+                            { value: '– Das ist eine tolle Idee.', level: 'a2', copyright: c3 },
+                            { value: 'Darf ich etwas vorschlagen?', level: 'a2', copyright: c3 },
+                            { value: 'Wollen wir die Hausaufgaben zusammen machen?', level: 'a2', copyright: c3 },
+                            { value: '– Einverstanden.', level: 'a2', copyright: c3 },
+                            { value: '– Ich bin dafür.', level: 'a2', copyright: c3 },
+                            { value: '– Ich bin dagegen.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2260,16 +2185,12 @@ Wollen wir die Hausaufgaben zusammen machen?
                             { value: '– Hoffentlich!', level: 'a1', copyright: c2 },
                             { value: '– Versprochen?', level: 'a1', copyright: c2 },
                             { value: '– Wirklich?', level: 'a1', copyright: c2 },
+                            { value: '– Ganz sicher.', level: 'a2', copyright: c3 },
+                            { value: '– Bestimmt.', level: 'a2', copyright: c3 },
                             { value: '– Ich mache es morgen.', level: 'a1', copyright: c2 },
                             { value: '– Das mache ich!', level: 'a1', copyright: c2 },
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich komme nach der Schule.
-Morgen gehen wir zusammen zu Bodo.
-Wirklich? Versprochen?
-– Ganz sicher.
-– Bestimmt.
-                            */
+                            { value: 'Ich komme nach der Schule.', level: 'a2', copyright: c3 },
+                            { value: 'Morgen gehen wir zusammen zu Bodo.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2282,14 +2203,10 @@ Wirklich? Versprochen?
                             { value: '– Ja, das ist gut.', level: 'a1', copyright: c2 },
                             { value: '– Vielleicht.', level: 'a1', copyright: c2 },
                             { value: '– Nein, (morgen kann ich/geht es) leider nicht.', level: 'a1', copyright: c2 },
-                            { value: 'Wann hast du (mal/denn) Zeit?', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Hast du am Mittwoch Zeit?
-– Ja, wann?/Vielleicht./Ich weiß es nicht.
-Treffen wir uns um acht vor dem Kino?
-– Ja, das passt mir.
-                            */
+                            { value: '– Ich weiß es nicht.', level: 'a2', copyright: c3 },
+                            { value: 'Wann hast du (mal/denn) Zeit?', level: 'a1', copyright: c2 },
+                            { value: 'Treffen wir uns um acht vor dem Kino?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, das passt mir.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2302,20 +2219,16 @@ Treffen wir uns um acht vor dem Kino?
                             { value: 'Was möchten Sie bitte?', level: 'a1', copyright: c2 },
                             { value: '– Nichts, danke.', level: 'a1', copyright: c2 },
                             { value: 'Setz dich!', level: 'a1', copyright: c2 },
-                            { value: 'Setzen Sie sich doch!', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Kommst du heute zu mir?
-– Ja, toll.
-– Nein, ich kann nicht.
-– Es tut mir leid, aber ich habe keine Zeit.
-Komm doch heute Nachmittag zu mir.
-Bleib doch noch ein bisschen.
-Komm rein.
-Setz dich!
-Ich lade dich zu meinem Geburtstag ein.
-Willst du mit mir essen?
-                            */
+                            { value: 'Setzen Sie sich doch!', level: 'a1', copyright: c2 },
+                            { value: 'Kommst du heute zu mir?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, toll.', level: 'a2', copyright: c3 },
+                            { value: '– Nein, ich kann nicht.', level: 'a2', copyright: c3 },
+                            { value: '– Es tut mir leid, aber ich habe keine Zeit.', level: 'a2', copyright: c3 },
+                            { value: 'Komm doch heute Nachmittag zu mir.', level: 'a2', copyright: c3 },
+                            { value: 'Bleib doch noch ein bisschen.', level: 'a2', copyright: c3 },
+                            { value: 'Komm rein.', level: 'a2', copyright: c3 },
+                            { value: 'Ich lade dich zu meinem Geburtstag ein.', level: 'a2', copyright: c3 },
+                            { value: 'Willst du mit mir essen?', level: 'a2', copyright: c3 }
                         ]
                     }
                 ]
@@ -2341,18 +2254,8 @@ Willst du mit mir essen?
                             { value: '– Nein, ich bin ...', level: 'a1', copyright: c2 },
                             { value: '– Nein, ich heiße ...', level: 'a1', copyright: c2 },
                             { value: '– Nein, mein Name ist ...', level: 'a1', copyright: c2 },
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Hallo!
-Michael!
-Heißt du Miriam?
-– Nein, ich bin Michaela.
-Telefon: Hallo, ich bin es, Meike./
-Guten Tag, kann ich mit Britta sprechen?
-Mail: Hallo ...
-Brief: Liebe/-r Meike/ Micha, ...
-Liebe Frau/Lieber Herr Maier, ...
-                            */
+                            { value: 'Heißt du Miriam?', level: 'a2', copyright: c3 },
+                            { value: '– Nein, ich bin Michaela.', level: 'a2', copyright: c3 },
                             {
                                 groupId: 'Telefon',
                                 entries: [
@@ -2363,7 +2266,8 @@ Liebe Frau/Lieber Herr Maier, ...
                                     { value: 'Guten Tag. Frau Heuer bitte!', level: 'a1', copyright: c2 },
                                     { value: '– Ja, Moment bitte.', level: 'a1', copyright: c2 },
                                     { value: '– Tut mir leid, sie ist nicht da.', level: 'a1', copyright: c2 },
-                                    { value: '– Nein, hier ist ...', level: 'a1', copyright: c2 }
+                                    { value: '– Nein, hier ist ...', level: 'a1', copyright: c2 },
+                                    { value: 'Guten Tag, kann ich mit Britta sprechen?', level: 'a2', copyright: c3 }
                                 ]
                             },
                             {
@@ -2393,19 +2297,12 @@ Liebe Frau/Lieber Herr Maier, ...
                             { value: 'Hallo, wie geht’s?/wie geht es dir?', level: 'a1', copyright: c2 },
                             { value: '– Danke, gut.', level: 'a1', copyright: c2 },
                             { value: 'Grüß Gott! (süddeutsch)', level: 'a1', copyright: c2 },
-                            { value: '– Grüß Gott!', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Guten Tag/Hallo, Bodo.
-Hi, Marika.
-Guten Morgen/Tag/Abend.
-Gute Nacht, Silke.
-Hallo, wie geht es dir?
-– Danke, (sehr) gut/ es geht.
-Und dir?
-Herzlich willkommen!
-Viele Grüße von Angelika.
-                            */
+                            { value: '– Grüß Gott!', level: 'a1', copyright: c2 },
+                            { value: 'Hi, Marika.', level: 'a2', copyright: c3 },
+                            { value: 'Hallo, wie geht es dir?', level: 'a2', copyright: c3 },
+                            { value: '– Danke, (sehr) gut/ es geht. Und dir?', level: 'a2', copyright: c3 },
+                            { value: 'Herzlich willkommen!', level: 'a2', copyright: c3 },
+                            { value: 'Viele Grüße von Angelika.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2418,19 +2315,9 @@ Viele Grüße von Angelika.
                             { value: '– Guten Tag. Ich bin Ulrike Meyer.', level: 'a1', copyright: c2 },
                             { value: 'Das ist Ulrich Pfeiffer.', level: 'a1', copyright: c2 },
                             { value: '– Ah ja. Ich heiße Johanna Hauser.', level: 'a1', copyright: c2 },
-                            { value: '– Ah ja. Ich bin Johanna Hauser.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich heiße Nina.
-(Hallo) Ich bin Marko.
-Ich bin Marco Gellner.
-Mein Name ist Erkan.
-Mein Name ist Erkan Özlem.
-Das ist Anna.
-Sie heißt Pia.
-Kennst du Micha?
-– Ja klar/natürlich./Nein, noch nicht.
-                            */
+                            { value: '– Ah ja. Ich bin Johanna Hauser.', level: 'a1', copyright: c2 },
+                            { value: 'Kennst du Micha?', level: 'a2', copyright: c3 },
+                            { value: '– Ja klar/natürlich./Nein, noch nicht.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2441,23 +2328,19 @@ Kennst du Micha?
                             { value: '– Danke, gut. Und dir?', level: 'a1', copyright: c2 },
                             { value: '– Danke, es geht gut. Und dir?', level: 'a1', copyright: c2 },
                             { value: '– Danke, es geht nicht gut. Und dir?', level: 'a1', copyright: c2 },
+                            { value: '– Gut./Nicht so gut./Schlecht.', level: 'a2', copyright: c3 },
                             { value: 'Geht es Ihnen gut?', level: 'a1', copyright: c2 },
                             { value: '– Ja, super.', level: 'a1', copyright: c2 },
                             { value: '– Na ja, es geht!', level: 'a1', copyright: c2 },
                             { value: '– Ach, nicht so gut.', level: 'a1', copyright: c2 },
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Wie geht es dir?
-– Gut./Nicht so gut./Schlecht.
-Geht es dir gut?
-– Ja, super.
-– Nein, nicht so gut.
-– Ich bin heute (nicht) fit.
-– Prima!/
-Was ist los?
-Was ist passiert?
-Was hast du?
-                            */
+                            { value: 'Geht es dir gut?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, super.', level: 'a2', copyright: c3 },
+                            { value: '– Nein, nicht so gut.', level: 'a2', copyright: c3 },
+                            { value: '– Ich bin heute (nicht) fit.', level: 'a2', copyright: c3 },
+                            { value: '– Prima!', level: 'a2', copyright: c3 },
+                            { value: 'Was ist los?', level: 'a2', copyright: c3 },
+                            { value: 'Was ist passiert?', level: 'a2', copyright: c3 },
+                            { value: 'Was hast du?', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2466,20 +2349,16 @@ Was hast du?
                         entries: [
                             { value: 'Alles Gute.', translate: ['Mes meilleurs vœux !', 'toutes sortes de bonnes choses'], level: 'a1', copyright: c2 },
                             { value: 'Schöne Ferien!', level: 'a1', copyright: c2 },
+                            { value: '(Ich wünsche dir) schöne Ferien!', level: 'a2', copyright: c3 },
                             { value: 'Gut gemacht!', level: 'a1', copyright: c2 },
-                            { value: 'Prost!', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Frohe Weihnachten!
-(Ich wünsche dir) schöne Ferien!
-Gute Reise!
-Guten Appetit!
-Viel Glück!
-Viel Spaß!
-(Herzlichen) Glückwunsch!
-Frohe Weihnachten!
-Ich gratuliere dir zum Geburtstag!
-                            */
+                            { value: 'Prost!', level: 'a1', copyright: c2 },
+                            { value: 'Frohe Weihnachten!', level: 'a2', copyright: c3 },
+                            { value: 'Gute Reise!', level: 'a2', copyright: c3 },
+                            { value: 'Guten Appetit!', level: 'a2', copyright: c3 },
+                            { value: 'Viel Glück!', level: 'a2', copyright: c3 },
+                            { value: 'Viel Spaß!', level: 'a2', copyright: c3 },
+                            { value: '(Herzlichen) Glückwunsch!', level: 'a2', copyright: c3 },
+                            { value: 'Ich gratuliere dir zum Geburtstag!', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2500,35 +2379,27 @@ Ich gratuliere dir zum Geburtstag!
                         entries: [
                             { value: 'Sie sprechen (sehr) gut Deutsch.', level: 'a1', copyright: c2 },
                             { value: 'Das ist toll/(sehr) schön/gut.', level: 'a1', copyright: c2 },
-                            { value: 'Das schmeckt gut.', translate: ["c'est bon", "celà a un bon goût"], level: 'a1', copyright: c2 }
+                            { value: 'Das schmeckt gut.', translate: ["c'est bon", "celà a un bon goût"], level: 'a1', copyright: c2 },
+                            { value: 'Du bist toll.', level: 'a2', copyright: c3 },
+                            { value: 'Tolle Frisur', level: 'a2', copyright: c3 },
+                            { value: 'Fantastisches Kleid!', level: 'a2', copyright: c3 },
+                            { value: 'Du siehst gut/wunderbar aus.', level: 'a2', copyright: c3 },
+                            { value: 'Das ist sehr nett/lieb/freundlich.', level: 'a2', copyright: c3 },
+                            { value: 'Das ist wunderbar.', level: 'a2', copyright: c3 }
                         ]
                     },
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-grouoId: ein Kompliment machen
-Du bist toll.
-Tolle Frisur
-Fantastisches Kleid!
-Du siehst gut/wunderbar aus.
-Das ist sehr nett/lieb/freundlich.
-Das ist wunderbar.
-                    */
                     {
                         groupId: 'Dank',
                         translate: ['merci', 'remerciement'],
                         entries: [
+                            { value: 'Danke', level: 'a2', copyright: c3 },
                             { value: 'Danke (schön)!', level: 'a1', copyright: c2 },
                             { value: 'Herzlichen', level: 'a1', copyright: c2 },
+                            { value: 'Herzlichen Dank.', level: 'a2', copyright: c3 },
                             { value: 'Vielen Dank.', level: 'a1', copyright: c2 },
                             { value: '– Ihnen auch.', level: 'a1', copyright: c2 },
                             { value: '– Danke, ebenfalls.', level: 'a1', copyright: c2 },
                             { value: '– (Aber) Bitte.', level: 'a1', copyright: c2 },
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Danke, Dankeschön.
-Vielen Dank für dein Geschenk.
-Herzlichen Dank.
-*/
                             {
                                 groupId: 'Brief',
                                 entries: [
@@ -2546,13 +2417,8 @@ Herzlichen Dank.
                             { value: '– Bitte!', level: 'a1', copyright: c2 },
                             { value: '– Schon gut.', level: 'a1', copyright: c2 },
                             { value: '– Kein Problem.', level: 'a1', copyright: c2 },
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Entschuldigung.
-Kein Problem.
-Das tut mir sehr/schrecklich/furchtbar leid.
-Das macht nichts.
-                            */
+                            { value: 'Das tut mir sehr/schrecklich/furchtbar leid', level: 'a2', copyright: c3 },
+                            { value: 'Das macht nichts.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2564,13 +2430,6 @@ Das macht nichts.
                             { value: 'Bis bald.', level: 'a1', copyright: c2 },
                             { value: 'Bis später.', level: 'a1', copyright: c2 },
                             { value: 'Gute Nacht!', level: 'a1', copyright: c2 },
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Tschüss!
-Bis bald/später!
-Auf Wiedersehen.
-Brief: Viele/herzliche/liebe Grüße.
-                            */
                             {
                                 groupId: 'Telefon',
                                 entries: [
@@ -2582,7 +2441,8 @@ Brief: Viele/herzliche/liebe Grüße.
                                 entries: [
                                     { value: 'Liebe Grüße', level: 'a1', copyright: c2 },
                                     { value: 'Herzliche Grüße', level: 'a1', copyright: c2 },
-                                    { value: 'Mit freundlichen Grüßen', level: 'a1', copyright: c2 }
+                                    { value: 'Mit freundlichen Grüßen', level: 'a1', copyright: c2 },
+                                    { value: 'Viele Grüße', level: 'a2', copyright: c3 }
                                 ]
                             }
                         ]
