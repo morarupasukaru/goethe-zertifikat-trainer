@@ -1920,15 +1920,10 @@ Auf keinen Fall.
                         entries: [
                             { value: 'Es ist zu warm hier!', level: 'a1', copyright: c2 },
                             { value: 'Das ist zu teuer!', level: 'a1', copyright: c2 },
-                            { value: 'Entschuldigen Sie, die Heizung funktioniert nicht.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Es ist zu kalt.
-                            { value: '', level: 'a2', copyright: c3 },
-Der Automat geht nicht.
-                            { value: '', level: 'a2', copyright: c3 },
-Das Moped ist kaputt.
-                            */
+                            { value: 'Entschuldigen Sie, die Heizung funktioniert nicht.', level: 'a1', copyright: c2 },
+                            { value: 'Es ist zu kalt.', level: 'a2', copyright: c3 },
+                            { value: 'Der Automat geht nicht.', level: 'a2', copyright: c3 },
+                            { value: 'Das Moped ist kaputt.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1937,17 +1932,11 @@ Das Moped ist kaputt.
                         entries: [
                             { value: 'Warum kommst du nicht?', level: 'a1', copyright: c2 },
                             { value: '– Ich habe keine Zeit.', level: 'a1', copyright: c2 },
-                            { value: 'Seine Mutter ist krank. Deshalb kommt er heute nicht.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-– Ich habe keine Lust.
-                            { value: '', level: 'a2', copyright: c3 },
-Sie ist krank. Deshalb bleibt sie zu Hause.
-                            { value: '', level: 'a2', copyright: c3 },
-Warum ...?
-                            { value: '', level: 'a2', copyright: c3 },
-Weil ich noch Hausaufgaben machen muss.
-                            */
+                            { value: 'Seine Mutter ist krank. Deshalb kommt er heute nicht.', level: 'a1', copyright: c2 },
+                            { value: '– Ich habe keine Lust.', level: 'a2', copyright: c3 },
+                            { value: 'Sie ist krank. Deshalb bleibt sie zu Hause.', level: 'a2', copyright: c3 },
+                            { value: 'Warum ...?', level: 'a2', copyright: c3 },
+                            { value: 'Weil ich noch Hausaufgaben machen muss.', level: 'a2', copyright: c3 }
                         ]
                     }
                 ]
@@ -1969,25 +1958,15 @@ Weil ich noch Hausaufgaben machen muss.
                             { value: '– Danke!', level: 'a1', copyright: c2 },
                             { value: 'Leider.', level: 'a1', copyright: c2 },
                             { value: 'Das ist schade!', level: 'a1', copyright: c2 },
-                            { value: 'Das tut mir leid.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Das ist toll!
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja, das finde ich auch.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich bin froh.
-                            { value: '', level: 'a2', copyright: c3 },
-Leider kann ich nicht kommen.
-                            { value: '', level: 'a2', copyright: c3 },
-Der Sprachkurs macht mir viel Spaß.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich freue mich, dass du kommst.
-                            { value: '', level: 'a2', copyright: c3 },
-Schön, dass du mitkommst.
-                            { value: '', level: 'a2', copyright: c3 },
-Schade, dass es morgen nicht klappt.
-                            */
+                            { value: 'Das tut mir leid.', level: 'a1', copyright: c2 },
+                            { value: 'Das ist toll!', level: 'a2', copyright: c3 },
+                            { value: '– Ja, das finde ich auch.', level: 'a2', copyright: c3 },
+                            { value: 'Ich bin froh.', level: 'a2', copyright: c3 },
+                            { value: 'Leider kann ich nicht kommen.', level: 'a2', copyright: c3 },
+                            { value: 'Der Sprachkurs macht mir viel Spaß.', level: 'a2', copyright: c3 },
+                            { value: 'Ich freue mich, dass du kommst.', level: 'a2', copyright: c3 },
+                            { value: 'Schön, dass du mitkommst.', level: 'a2', copyright: c3 },
+                            { value: 'Schade, dass es morgen nicht klappt.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1999,15 +1978,10 @@ Schade, dass es morgen nicht klappt.
                             { value: '– Nein, ich mag eigentlich keinen Fisch.', level: 'a1', copyright: c2 },
                             { value: 'Isst du gern Chinesisch?', level: 'a1', copyright: c2 },
                             { value: '– Ja, gern(e).', level: 'a1', copyright: c2 },
-                            { value: '– Nein, nie.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Magst du Pizza?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja, gern./Nein, das schmeckt mir nicht.
-                            { value: '', level: 'a2', copyright: c3 },
-Isst du gern Fisch?
-                            */
+                            { value: '– Nein, nie.', level: 'a1', copyright: c2 },
+                            { value: 'Magst du Pizza?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, gern./Nein, das schmeckt mir nicht.', level: 'a2', copyright: c3 },
+                            { value: 'Isst du gern Fisch?', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2018,20 +1992,12 @@ Isst du gern Fisch?
                             { value: '– Egal.', level: 'a1', copyright: c2 },
                             { value: '– Na und?', level: 'a1', copyright: c2 },
                             { value: '– Das ist mir egal', level: 'a1', copyright: c2 },
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ärgerst du dich über das Zeugnis?
-                            { value: '', level: 'a2', copyright: c3 },
-– Das ist mir ganz egal.
-                            { value: '', level: 'a2', copyright: c3 },
-– Das interessiert mich nicht.
-                            { value: '', level: 'a2', copyright: c3 },
-– Das ist mir doch gleich.
-                            { value: '', level: 'a2', copyright: c3 },
-Stört dich das nicht?
-                            { value: '', level: 'a2', copyright: c3 },
-Da kann man nichts machen.
-                            */
+                            { value: 'Ärgerst du dich über das Zeugnis?', level: 'a2', copyright: c3 },
+                            { value: '– Das ist mir ganz egal.', level: 'a2', copyright: c3 },
+                            { value: '– Das interessiert mich nicht.', level: 'a2', copyright: c3 },
+                            { value: '– Das ist mir doch gleich.', level: 'a2', copyright: c3 },
+                            { value: 'Stört dich das nicht?', level: 'a2', copyright: c3 },
+                            { value: 'Da kann man nichts machen.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2039,26 +2005,21 @@ Da kann man nichts machen.
                         translate: ['compassion', 'pitié', 'apitoiement'],
                         entries: [
                             { value: '(Es) Tut mir (wirklich) (sehr) leid.', level: 'a1', copyright: c2 },
-                            { value: 'Das finde ich aber traurig.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Das tut mir leid.
-                            { value: '', level: 'a2', copyright: c3 },
-Das finde ich traurig.
-                            { value: '', level: 'a2', copyright: c3 },
-Es tut mir so leid, dass du Zahnschmerzen hast.
-                            */
+                            { value: 'Das finde ich aber traurig.', level: 'a1', copyright: c2 },
+                            { value: 'Das tut mir leid.', level: 'a2', copyright: c3 },
+                            { value: 'Das finde ich traurig.', level: 'a2', copyright: c3 },
+                            { value: 'Es tut mir so leid, dass du Zahnschmerzen hast.', level: 'a2', copyright: c3 }
                         ]
                     },
-/*
-groupId: Schmerz
-                            { value: '', level: 'a2', copyright: c3 },
-Mein Kopf tut so weh.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich habe Halsschmerzen.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich habe starke Schmerzen.
-                    */
+                    {
+                        groupId: 'Schmerz',
+                        translate: ['souffrance', 'douleur', 'mal'],
+                        entries: [
+                            { value: 'Mein Kopf tut so weh.', level: 'a2', copyright: c3 },
+                            { value: 'Ich habe Halsschmerzen.', level: 'a2', copyright: c3 },
+                            { value: 'Ich habe starke Schmerzen.', level: 'a2', copyright: c3 }
+                        ]
+                    },
                     {
                         groupId: 'Erstaunen/Überraschung',
                         translate: ['Erstaunen: étonnement', 'Überraschung: surprise, mauvaise surprise'],
@@ -2066,23 +2027,14 @@ Ich habe starke Schmerzen.
                             { value: 'Komisch!', level: 'a1', copyright: c2 },
                             { value: 'Das ist ja komisch!', level: 'a1', copyright: c2 },
                             { value: 'Wie komisch!', level: 'a1', copyright: c2 },
-                            { value: '– Ja, sehr komisch.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Willst du das wirklich machen?
-                            { value: '', level: 'a2', copyright: c3 },
-Das ist ja toll!
-                            { value: '', level: 'a2', copyright: c3 },
-Das ist doch verrückt.
-                            { value: '', level: 'a2', copyright: c3 },
-Das ist aber komisch.
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja, wirklich komisch.
-                            { value: '', level: 'a2', copyright: c3 },
-Das kann ich nicht glauben.
-                            { value: '', level: 'a2', copyright: c3 },
-Das ist doch nicht möglich.
-                            */
+                            { value: '– Ja, sehr komisch.', level: 'a1', copyright: c2 },
+                            { value: 'Willst du das wirklich machen?', level: 'a2', copyright: c3 },
+                            { value: 'Das ist ja toll!', level: 'a2', copyright: c3 },
+                            { value: 'Das ist doch verrückt.', level: 'a2', copyright: c3 },
+                            { value: 'Das ist aber komisch.', level: 'a2', copyright: c3 },
+                            { value: '– Ja, wirklich komisch.', level: 'a2', copyright: c3 },
+                            { value: 'Das kann ich nicht glauben.', level: 'a2', copyright: c3 },
+                            { value: 'Das ist doch nicht möglich.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2090,15 +2042,10 @@ Das ist doch nicht möglich.
                         translate: ['espoir', 'espérance'],
                         entries: [
                             { value: 'Hoffentlich regnet es nicht.', level: 'a1', copyright: c2 },
-                            { value: 'Hoffentlich kommt bald der Bus.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich hoffe, du kommst heute.
-                            { value: '', level: 'a2', copyright: c3 },
-Hoffentlich finde ich das Heft.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich hoffe, dass er heute pünktlich ist ...
-                            */
+                            { value: 'Hoffentlich kommt bald der Bus.', level: 'a1', copyright: c2 },
+                            { value: 'Ich hoffe, du kommst heute.', level: 'a2', copyright: c3 },
+                            { value: 'Hoffentlich finde ich das Heft.', level: 'a2', copyright: c3 },
+                            { value: 'Ich hoffe, dass er heute pünktlich ist ...', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -2106,51 +2053,35 @@ Ich hoffe, dass er heute pünktlich ist ...
                         translate: ['Sorge: souci, préocupation, inquiétude', 'Befürchtung: appréhension (de qc.)'],
                         entries: [
                             { value: 'Ich habe Angst.', level: 'a1', copyright: c2 },
-                            { value: 'Schon 10 Uhr, und er ist immer noch nicht da.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Hast du Angst?
-                            { value: '', level: 'a2', copyright: c3 },
-Ich kann die Hausaufgaben nicht machen.
-                            { value: '', level: 'a2', copyright: c3 },
-Mach schnell. Es ist schon sehr spät.
-                            { value: '', level: 'a2', copyright: c3 },
-Was ist los?
-                            { value: '', level: 'a2', copyright: c3 },
-Wann antwortet er denn endlich?
-                            { value: '', level: 'a2', copyright: c3 },
-Warum ruft sie nicht an?
-                            { value: '', level: 'a2', copyright: c3 },
-Hoffentlich ist nichts passiert.
-                            */
+                            { value: 'Schon 10 Uhr, und er ist immer noch nicht da.', level: 'a1', copyright: c2 },
+                            { value: 'Hast du Angst?', level: 'a2', copyright: c3 },
+                            { value: 'Ich kann die Hausaufgaben nicht machen.', level: 'a2', copyright: c3 },
+                            { value: 'Mach schnell. Es ist schon sehr spät.', level: 'a2', copyright: c3 },
+                            { value: 'Was ist los?', level: 'a2', copyright: c3 },
+                            { value: 'Wann antwortet er denn endlich?', level: 'a2', copyright: c3 },
+                            { value: 'Warum ruft sie nicht an?', level: 'a2', copyright: c3 },
+                            { value: 'Hoffentlich ist nichts passiert.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
                         groupId: 'Enttäuschung',
                         translate: ['désenchantement', 'déception', 'désillusion'],
                         entries: [
-                            { value: 'Was? Du bleibst zu Hause? Schade!', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Warum kommst du nicht mit?
-                            { value: '', level: 'a2', copyright: c3 },
-Das ist aber schade!
-                            { value: '', level: 'a2', copyright: c3 },
-Schade, dass es nicht klappt.
-                            { value: '', level: 'a2', copyright: c3 },
-Da kann man (leider) nichts machen.
-*/
+                            { value: 'Was? Du bleibst zu Hause? Schade!', level: 'a1', copyright: c2 },
+                            { value: 'Warum kommst du nicht mit?', level: 'a2', copyright: c3 },
+                            { value: 'Das ist aber schade!', level: 'a2', copyright: c3 },
+                            { value: 'Schade, dass es nicht klappt.', level: 'a2', copyright: c3 },
+                            { value: 'Da kann man (leider) nichts machen.', level: 'a2', copyright: c3 }
+                        ]
+                    },
+                    {
+                        groupId: 'Sympathie/Antipathie',
+                        entries: [
+                            { value: 'Ich mag Sabine (sehr) gern.', level: 'a2', copyright: c3 },
+                            { value: 'Ich finde Frau Berger nicht sympathisch.', level: 'a2', copyright: c3 },
+                            { value: 'Ich bin total in sie/ihn verliebt.', level: 'a2', copyright: c3 }
                         ]
                     }
-/*
-groupId: Sympathie/Antipathie
-                            { value: '', level: 'a2', copyright: c3 },
-Ich mag Sabine (sehr) gern.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich finde Frau Berger nicht sympathisch.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich bin total in sie/ihn verliebt.
-*/
                 ]
             },
             {
@@ -2170,41 +2101,23 @@ Ich bin total in sie/ihn verliebt.
                             { value: 'Gehen wir zusammen essen?', level: 'a1', copyright: c2 },
                             { value: '– Gerne.', level: 'a1', copyright: c2 },
                             { value: 'Eine Frage bitte: Wie spät ist es?', level: 'a1', copyright: c2 },
-                            { value: '– Es ist halb acht (Uhr).', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Zeigst du mir deinen Computer?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja gern./Nein.
-                            { value: '', level: 'a2', copyright: c3 },
-Kann ich das Buch haben?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja.
-                            { value: '', level: 'a2', copyright: c3 },
-– Nein, das ist nicht mein Buch.
-                            { value: '', level: 'a2', copyright: c3 },
-Wie spät ist es?
-                            { value: '', level: 'a2', copyright: c3 },
-– Es ist halb acht.
-                            { value: '', level: 'a2', copyright: c3 },
-Mach bitte die Tür auf!
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja, sofort.
-                            { value: '', level: 'a2', copyright: c3 },
-– Nein, ich kann nicht.
-                            { value: '', level: 'a2', copyright: c3 },
-Gib mir bitte das Heft!
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja, gleich.
-                            { value: '', level: 'a2', copyright: c3 },
-– Nein, ich finde das Heft nicht
-                            { value: '', level: 'a2', copyright: c3 },
-Könntest du mir helfen?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja./ Sofort./Vielleicht./ Jetzt nicht./ Nein, tut mir leid.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich hätte gern eine CD von ...
-                            */
+                            { value: '– Es ist halb acht (Uhr).', level: 'a1', copyright: c2 },
+                            { value: 'Zeigst du mir deinen Computer?', level: 'a2', copyright: c3 },
+                            { value: '– Ja gern./Nein.', level: 'a2', copyright: c3 },
+                            { value: 'Kann ich das Buch haben?', level: 'a2', copyright: c3 },
+                            { value: '– Ja.', level: 'a2', copyright: c3 },
+                            { value: '– Nein, das ist nicht mein Buch.', level: 'a2', copyright: c3 },
+                            { value: 'Wie spät ist es?', level: 'a2', copyright: c3 },
+                            { value: '– Es ist halb acht.', level: 'a2', copyright: c3 },
+                            { value: 'Mach bitte die Tür auf!', level: 'a2', copyright: c3 },
+                            { value: '– Ja, sofort.', level: 'a2', copyright: c3 },
+                            { value: '– Nein, ich kann nicht.', level: 'a2', copyright: c3 },
+                            { value: 'Gib mir bitte das Heft!', level: 'a2', copyright: c3 },
+                            { value: '– Ja, gleich.', level: 'a2', copyright: c3 },
+                            { value: '– Nein, ich finde das Heft nicht.', level: 'a2', copyright: c3 },
+                            { value: 'Könntest du mir helfen?', level: 'a2', copyright: c3 },
+                            { value: '– Ja./ Sofort./Vielleicht./ Jetzt nicht./ Nein, tut mir leid.', level: 'a2', copyright: c3 },
+                            { value: 'Ich hätte gern eine CD von ...', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
