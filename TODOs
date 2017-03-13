@@ -19,6 +19,7 @@ general tasks
     data editable?
     copyright (show in screen to manage data)
     font in offline
+    mode offline > telecharge les sons via un service $http custom
 
 tasks to learn german
     business presentation (presentations.controller.js)

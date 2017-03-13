@@ -1040,41 +1040,28 @@ const data = [
                         entries: [
                             { value: 'Können Sie Russisch (sprechen)?', level: 'a1', copyright: c2 },
                             { value: '– Ja klar.', level: 'a1', copyright: c2 },
-                            { value: '– Sicher.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Kannst du Tennis spielen?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja, ein bisschen/gut./Natürlich./Leider nicht.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich weiß nicht, wie man das macht.
-*/
+                            { value: '– Sicher.', level: 'a1', copyright: c2 },
+                            { value: 'Kannst du Tennis spielen?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, ein bisschen/gut./Natürlich./Leider nicht.', level: 'a2', copyright: c3 },
+                            { value: 'Ich weiß nicht, wie man das macht.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
                         groupId: 'Möglichkeit',
                         translate: ['occasion', 'possibilité'],
                         entries: [
-                            { value: 'Können Sie morgen kommen?', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich kann morgen um acht Uhr bei dir sein.
-                            { value: '', level: 'a2', copyright: c3 },
-Vielleicht sehen wir uns morgen.
-*/
+                            { value: 'Können Sie morgen kommen?', level: 'a1', copyright: c2 },
+                            { value: 'Ich kann morgen um acht Uhr bei dir sein.', level: 'a2', copyright: c3 },
+                            { value: 'Vielleicht sehen wir uns morgen.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
                         groupId: 'Notwendigkeit/Verpflichtung',
                         translate: ['Notwendigkeit: besoin/nécessité', 'Verpflichtung: obligation/engagement'],
                         entries: [
-                            { value: 'Mein Sohn muss um 8 Uhr zu Hause sein.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Du musst mir helfen!
-                            { value: '', level: 'a2', copyright: c3 },
-Kannst du sofort kommen? Es ist wichtig.
-*/
+                            { value: 'Mein Sohn muss um 8 Uhr zu Hause sein.', level: 'a1', copyright: c2 },
+                            { value: 'Du musst mir helfen!', level: 'a2', copyright: c3 },
+                            { value: 'Kannst du sofort kommen? Es ist wichtig.', level: 'a2', copyright: c3 }
                         ]
                     }
                 ]
@@ -1094,23 +1081,14 @@ Kannst du sofort kommen? Es ist wichtig.
                             { value: 'Entschuldigen Sie... Kann ich etwas fragen?', level: 'a1', copyright: c2 },
                             { value: 'Was kann ich für Sie tun?', level: 'a1', copyright: c2 },
                             { value: 'Brauchen Sie Hilfe?', level: 'a1', copyright: c2 },
-                            { value: '(Im Restaurant.) Hallo! Entschuldigung bitte!', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Entschuldigung ...
-                            { value: '', level: 'a2', copyright: c3 },
-Entschuldige, hast du einen Moment Zeit?
-                            { value: '', level: 'a2', copyright: c3 },
-Kann ich etwas fragen?
-                            { value: '', level: 'a2', copyright: c3 },
-Kannst du mir helfen?
-                            { value: '', level: 'a2', copyright: c3 },
-Hallo!
-                            { value: '', level: 'a2', copyright: c3 },
-Hallo, Chris! Wie waren deine Ferien?
-                            { value: '', level: 'a2', copyright: c3 },
-Sag mal: wo ist denn ...
-*/
+                            { value: '(Im Restaurant.) Hallo! Entschuldigung bitte!', level: 'a1', copyright: c2 },
+                            { value: 'Entschuldigung ...', level: 'a2', copyright: c3 },
+                            { value: 'Entschuldige, hast du einen Moment Zeit?', level: 'a2', copyright: c3 },
+                            { value: 'Kann ich etwas fragen?', level: 'a2', copyright: c3 },
+                            { value: 'Kannst du mir helfen?', level: 'a2', copyright: c3 },
+                            { value: 'Hallo!', level: 'a2', copyright: c3 },
+                            { value: 'Hallo, Chris! Wie waren deine Ferien?', level: 'a2', copyright: c3 },
+                            { value: 'Sag mal: wo ist denn ...', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1121,15 +1099,10 @@ Sag mal: wo ist denn ...
                             { value: 'Gut: ...', level: 'a1', copyright: c2 },
                             { value: 'Na gut.', translate: 'mouais', level: 'a1', copyright: c2 },
                             { value: 'Dann, herzlichen Dank', translate: 'Merci beaucoup !', level: 'a1', copyright: c2 },
-                            { value: 'auf Wiedersehen.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Entschuldigung, ich muss jetzt weg.
-                            { value: '', level: 'a2', copyright: c3 },
-Also, bis heute Mittag.
-                            { value: '', level: 'a2', copyright: c3 },
-Danke für deine Hilfe.
-*/
+                            { value: 'auf Wiedersehen.', level: 'a1', copyright: c2 },
+                            { value: 'Entschuldigung, ich muss jetzt weg.', level: 'a2', copyright: c3 },
+                            { value: 'Also, bis heute Mittag.', level: 'a2', copyright: c3 },
+                            { value: 'Danke für deine Hilfe.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1137,11 +1110,8 @@ Danke für deine Hilfe.
                         translate: 'prendre la parole',
                         entries: [
                             { value: 'Moment bitte.', level: 'a1', copyright: c2 },
-                            { value: 'Bitte!', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich möchte (noch) etwas sagen.
-*/
+                            { value: 'Bitte!', level: 'a1', copyright: c2 },
+                            { value: 'Ich möchte (noch) etwas sagen.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1156,13 +1126,9 @@ Ich möchte (noch) etwas sagen.
                             { value: 'Aha.', translate: 'Ah! (ironie, étonnement)', level: 'a1', copyright: c2 },
                             { value: 'Naja.', translate: 'bof', level: 'a1', copyright: c2 },
                             { value: 'Bitte?', level: 'a1', copyright: c2 },
-                            { value: '(Na) Klar.', translate: ['Forcément !', 'Bien sûr !'], level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ja?
-                            { value: '', level: 'a2', copyright: c3 },
-Und (dann)?
-*/
+                            { value: '(Na) Klar.', translate: ['Forcément !', 'Bien sûr !'], level: 'a1', copyright: c2 },
+                            { value: 'Ja?', level: 'a2', copyright: c3 },
+                            { value: 'Und (dann)?', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1174,64 +1140,49 @@ Und (dann)?
                             { value: 'Und?', level: 'a1', copyright: c2 },
                             { value: 'Ja bitte !', level: 'a1', copyright: c2 },
                             { value: 'Und dann?', level: 'a1', copyright: c2 },
-                            { value: 'Und?', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Sag!
-                            { value: '', level: 'a2', copyright: c3 },
-Erzähl!
-                            { value: '', level: 'a2', copyright: c3 },
-Fängst du bitte an?
-*/
+                            { value: 'Und?', level: 'a1', copyright: c2 },
+                            { value: 'Sag!', level: 'a2', copyright: c3 },
+                            { value: 'Erzähl!', level: 'a2', copyright: c3 },
+                            { value: 'Fängst du bitte an?', level: 'a2', copyright: c3 }
                         ]
                     },
-/*
-groupId: gemeinsames Wissen andeuten
-                            { value: '', level: 'a2', copyright: c3 },
-Nein, heute geht es nicht. Da spielen wir doch Fußball.
-                            { value: '', level: 'a2', copyright: c3 },
-Du weißt ja, dass Micha krank ist.
-                    */
+                    {
+                        groupId: 'gemeinsames Wissen andeuten',
+                        translate: 'faire comprendre des connaissances partagées',
+                        entries: [
+                            { value: 'Nein, heute geht es nicht. Da spielen wir doch Fußball.', level: 'a2', copyright: c3 },
+                            { value: 'Du weißt ja, dass Micha krank ist.', level: 'a2', copyright: c3 }
+                        ]
+                    },
                     {
                         groupId: 'Beispiele geben/etwas verdeutlichen',
                         translate: ['Beispiele geben: donner des exemples', 'etwas verdeutlichen: expliquer qc.'],
                         entries: [
-                            { value: 'Ich esse gern Obst, zum Beispiel Orangen, Bananen und Erdbeeren.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich habe viele Hobbys, zum Beispiel Fußball spielen und Musik hören.
-                            { value: '', level: 'a2', copyright: c3 },
-Meine Familie, also das ist: mein Vater Bruno, meine Mutter Anna und mein Bruder Fabio.
-*/
+                            { value: 'Ich esse gern Obst, zum Beispiel Orangen, Bananen und Erdbeeren.', level: 'a1', copyright: c2 },
+                            { value: 'Ich habe viele Hobbys, zum Beispiel Fußball spielen und Musik hören.', level: 'a2', copyright: c3 },
+                            { value: 'Meine Familie, also das ist: mein Vater Bruno, meine Mutter Anna und mein Bruder Fabio.', level: 'a2', copyright: c3 }
                         ]
                     },
-/*
-groupId: Vermeidung
-                            { value: '', level: 'a2', copyright: c3 },
-Potsdam liegt ... ja, das liegt nahe bei Berlin.
-                            { value: '', level: 'a2', copyright: c3 },
-Wie viele waren gestern beim Fussball?
-                            { value: '', level: 'a2', copyright: c3 },
-– Hm; vielleicht zehn oder so.
-                            { value: '', level: 'a2', copyright: c3 },
-Kommst du mit?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ach nein, ich muss meiner Mutter helfen.
-*/
+                    {
+                        groupId: 'Vermeidung',
+                        translate: 'évitement',
+                        entries: [
+                            { value: 'Potsdam liegt ... ja, das liegt nahe bei Berlin.', level: 'a2', copyright: c3 },
+                            { value: 'Wie viele waren gestern beim Fussball?', level: 'a2', copyright: c3 },
+                            { value: '– Hm; vielleicht zehn oder so.', level: 'a2', copyright: c3 },
+                            { value: 'Kommst du mit?', level: 'a2', copyright: c3 },
+                            { value: '– Ach nein, ich muss meiner Mutter helfen.', level: 'a2', copyright: c3 }
+                        ]
+                    },
                     {
                         groupId: 'Höflichkeit',
                         translate: ['civilité', 'politesse', 'courtoisie'],
                         entries: [
                             { value: 'Kann ich Sie etwas fragen?', level: 'a1', copyright: c2 },
-                            { value: 'Darf ich Sie etwas fragen?', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Kann ich dir helfen?
-                            { value: '', level: 'a2', copyright: c3 },
-Entschuldigung!
-                            { value: '', level: 'a2', copyright: c3 },
-Darf ich noch ein Stück Torte haben?
-*/
+                            { value: 'Darf ich Sie etwas fragen?', level: 'a1', copyright: c2 },
+                            { value: 'Kann ich dir helfen?', level: 'a2', copyright: c3 },
+                            { value: 'Entschuldigung!', level: 'a2', copyright: c3 },
+                            { value: 'Darf ich noch ein Stück Torte haben?', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1239,11 +1190,8 @@ Darf ich noch ein Stück Torte haben?
                         translate: 'modération',
                         entries: [
                             { value: 'Möchtest du noch etwas?', level: 'a1', copyright: c2 },
-                            { value: '– Ja, ein bisschen.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Eigentlich hast du ja recht.
-*/
+                            { value: '– Ja, ein bisschen.', level: 'a1', copyright: c2 },
+                            { value: 'Eigentlich hast du ja recht.', level: 'a2', copyright: c3 }
                         ]
                     }
                 ]
@@ -1258,15 +1206,10 @@ Eigentlich hast du ja recht.
                                 groupId: 'einzelne Wörter oder Begriffe umschreiben',
                                 translate: 'Begriff: idée, notion, concept, terme',
                                 entries: [
-                                    { value: 'Apotheke: Da kann man Medikamente kaufen.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Küche: Da kann man das Essen machen.
-                            { value: '', level: 'a2', copyright: c3 },
-Gabel und Messer: Das braucht man beim Essen.
-                            { value: '', level: 'a2', copyright: c3 },
-Eine Insel ist zum Beispiel Zypern oder Rügen.
-*/
+                                    { value: 'Apotheke: Da kann man Medikamente kaufen.', level: 'a1', copyright: c2 },
+                                    { value: 'Küche: Da kann man das Essen machen.', level: 'a2', copyright: c3 },
+                                    { value: 'Gabel und Messer: Das braucht man beim Essen.', level: 'a2', copyright: c3 },
+                                    { value: 'Eine Insel ist zum Beispiel Zypern oder Rügen.', level: 'a2', copyright: c3 }
                                 ]
                             },
                             {
@@ -1292,15 +1235,10 @@ Eine Insel ist zum Beispiel Zypern oder Rügen.
                                 groupId: 'signalisieren, dass man etwas nicht verstanden hat',
                                 entries: [
                                     { value: 'Entschuldigung, wie bitte?', level: 'a1', copyright: c2 },
-                                    { value: 'Langsamer bitte.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Kannst du bitte langsamer sprechen, ich habe das nicht verstanden.
-                            { value: '', level: 'a2', copyright: c3 },
-Das (Wort) verstehe ich nicht.
-                            { value: '', level: 'a2', copyright: c3 },
-Tut mir leid, ich verstehe dich nicht.
-*/
+                                    { value: 'Langsamer bitte.', level: 'a1', copyright: c2 },
+                                    { value: 'Kannst du bitte langsamer sprechen, ich habe das nicht verstanden.', level: 'a2', copyright: c3 },
+                                    { value: 'Das (Wort) verstehe ich nicht.', level: 'a2', copyright: c3 },
+                                    { value: 'Tut mir leid, ich verstehe dich nicht.', level: 'a2', copyright: c3 }
                                 ]
                             },
                             {
@@ -1310,35 +1248,27 @@ Tut mir leid, ich verstehe dich nicht.
                                     { value: 'Noch einmal bitte.', level: 'a1', copyright: c2 },
                                     { value: 'Kannst du das bitte noch einmal sagen?', level: 'a1', copyright: c2 },
                                     { value: 'Wie bitte?', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Kannst du das noch einmal sagen?
-*/
+                                    { value: 'Kannst du das noch einmal sagen?', level: 'a2', copyright: c3 }
                                 ]
                             },
-/*
-groupId: sich bestätigen lassen, ob man richtig gehört bzw. den Kontext richtig verstanden hat
-                            { value: '', level: 'a2', copyright: c3 },
-Entschuldigung, habe ich das richtig verstanden?
-                            { value: '', level: 'a2', copyright: c3 },
-Hast du „dreizehn“ oder „dreißig“ gesagt?
-                            { value: '', level: 'a2', copyright: c3 },
-Wie meinst du das?
-*/
+                            {
+                                groupId: 'sich bestätigen lassen, ob man richtig gehört bzw. den Kontext richtig verstanden hat',
+                                translate: "se faire confirmer, si l'on a bien compris ce que l'on a entendu",
+                                entries: [
+                                    { value: 'Entschuldigung, habe ich das richtig verstanden?', level: 'a2', copyright: c3 },
+                                    { value: 'Hast du „dreizehn“ oder „dreißig“ gesagt?', level: 'a2', copyright: c3 },
+                                    { value: 'Wie meinst du das?', level: 'a2', copyright: c3 }
+                                ]
+                            },
                             {
                                 groupId: 'um Erläuterung bitten',
                                 translate: 'Erläuterung: explication',
                                 entries: [
                                     { value: 'Entschuldigung, was heißt das?', level: 'a1', copyright: c2 },
-                                    { value: 'Was bedeutet ... ?', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Entschuldigung, wie heißt das?
-                            { value: '', level: 'a2', copyright: c3 },
-Ich kenne das Wort nicht.
-                            { value: '', level: 'a2', copyright: c3 },
-Kannst du es erklären?
-*/
+                                    { value: 'Was bedeutet ... ?', level: 'a1', copyright: c2 },
+                                    { value: 'Entschuldigung, wie heißt das?', level: 'a2', copyright: c3 },
+                                    { value: 'Ich kenne das Wort nicht.', level: 'a2', copyright: c3 },
+                                    { value: 'Kannst du es erklären?', level: 'a2', copyright: c3 }
                                 ]
                             },
                             {
@@ -1352,21 +1282,15 @@ Kannst du es erklären?
                                 groupId: 'jemanden bitten, etwas aufzuschreiben',
                                 entries: [
                                     { value: 'Wie schreibt man ... ?', level: 'a1', copyright: c2 },
-                                    { value: 'Bitte schreiben Sie das auf.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Kannst du das bitte schreiben?
-*/
+                                    { value: 'Bitte schreiben Sie das auf.', level: 'a1', copyright: c2 },
+                                    { value: 'Kannst du das bitte schreiben?', level: 'a2', copyright: c3 }
                                 ]
                             },
                             {
                                 groupId: 'jemanden bitten, langsamer zu sprechen',
                                 entries: [
-                                    { value: 'Bitte ein bisschen langsamer.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Kannst du bitte langsamer sprechen?
-*/
+                                    { value: 'Bitte ein bisschen langsamer.', level: 'a1', copyright: c2 },
+                                    { value: 'Kannst du bitte langsamer sprechen?', level: 'a2', copyright: c3 }
                                 ]
                             },
 /*
@@ -1387,13 +1311,9 @@ Tut mir leid, ich kann dich nicht verstehen.
                                 groupId: 'anzeigen, dass man etwas nicht verstanden hat',
                                 entries: [
                                     { value: 'Das habe ich nicht verstanden.', level: 'a1', copyright: c2 },
-                                    { value: 'Das (Wort) verstehe ich nicht.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich glaube, das habe ich nicht (richtig) verstanden.
-                            { value: '', level: 'a2', copyright: c3 },
-Tut mir leid, ich kann dich nicht verstehen.
-*/
+                                    { value: 'Das (Wort) verstehe ich nicht.', level: 'a1', copyright: c2 },
+                                    { value: 'Ich glaube, das habe ich nicht (richtig) verstanden.', level: 'a2', copyright: c3 },
+                                    { value: 'Tut mir leid, ich kann dich nicht verstehen.', level: 'a2', copyright: c3 }
                                 ]
                             }
                         ]
@@ -1412,22 +1332,16 @@ Ich muss noch die ... ich weiß nicht, wie man das sagt – Übung für die Schu
                                 groupId: 'Synonyme oder ähnliche Begriffe verwenden',
                                 entries: [
                                     { value: 'Wo ist mein Buch... nicht ein Buch... ein Schreibbuch.', level: 'a1', copyright: c2 },
-                                    { value: '– Ah, dein Heft?', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich habe zwei ... einen Bruder und eine Schwester.
-*/
+                                    { value: '– Ah, dein Heft?', level: 'a1', copyright: c2 },
+                                    { value: 'Ich habe zwei ... einen Bruder und eine Schwester.', level: 'a2', copyright: c3 }
                                 ]
                             },
                             {
                                 groupId: 'Selbstkorrektur',
                                 entries: [
-                                    { value: 'Ich möchte sagen... Ich fahre zu Paris... nein, nach Paris.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich gehe nach Schule ... nein, in die Schule.
-Entschuldigung, ich sage es noch einmal: ...
-*/
+                                    { value: 'Ich möchte sagen... Ich fahre zu Paris... nein, nach Paris.', level: 'a1', copyright: c2 },
+                                    { value: 'Ich gehe nach Schule ... nein, in die Schule.', level: 'a2', copyright: c3 },
+                                    { value: 'Entschuldigung, ich sage es noch einmal: ...', level: 'a2', copyright: c3 }
                                 ]
                             },
                             {
@@ -1448,15 +1362,10 @@ Ich habe das Wort vergessen.
                             {
                                 groupId: 'nachfragen, ob man (trotz fehlerhaftem Deutsch) verstanden wurde',
                                 entries: [
-                                    { value: 'Ich spreche nicht gut Deutsch. Haben Sie verstanden?', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Hast du das verstanden?
-                            { value: '', level: 'a2', copyright: c3 },
-Ich spreche nicht gut Deutsch.
-                            { value: '', level: 'a2', copyright: c3 },
-Hast du mich verstanden?
-*/
+                                    { value: 'Ich spreche nicht gut Deutsch. Haben Sie verstanden?', level: 'a1', copyright: c2 },
+                                    { value: 'Hast du das verstanden?', level: 'a2', copyright: c3 },
+                                    { value: 'Ich spreche nicht gut Deutsch.', level: 'a2', copyright: c3 },
+                                    { value: 'Hast du mich verstanden?', level: 'a2', copyright: c3 }
                                 ]
                             },
                         ]
