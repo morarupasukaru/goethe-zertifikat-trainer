@@ -1412,46 +1412,31 @@ const data = [
                         translate: 'décrire qn./qc.',
                         entries: [
                             { value: 'Wie sieht die Tasche aus?', level: 'a1', copyright: c2 },
-                            { value: '– Sie ist braun.', level: 'a1', copyright: c2 }
+                            { value: '– Sie ist braun.', level: 'a1', copyright: c2 },
+                            { value: 'Kannst du sie beschreiben?', level: 'a2', copyright: c3 },
+                            { value: '– Sie ist blond, nicht sehr groß und hat grüne Augen.', level: 'a2', copyright: c3 },
+                            { value: 'Palermo ist eine große Stadt in Süditalien und liegt am Meer.', level: 'a2', copyright: c3 }
                         ]
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Kannst du sie beschreiben?
-                            { value: '', level: 'a2', copyright: c3 },
-– Sie ist blond, nicht sehr groß und hat grüne Augen.
-                            { value: '', level: 'a2', copyright: c3 },
-Palermo ist eine große Stadt in Süditalien und liegt am Meer.
-                        */
                     },
                     {
                         groupId: 'erklären',
                         translate: 'expliquer qc.',
                         entries: [
-                            { value: 'Wie geht das?', level: 'a1', copyright: c2 }
+                            { value: 'Wie geht das?', level: 'a1', copyright: c2 },
+                            { value: 'Wie macht man das?', level: 'a2', copyright: c3 },
+                            { value: '– Du musst zuerst den Computer anmachen und dann siehst du alles.', level: 'a2', copyright: c3 }
                         ]
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Wie macht man das?
-                            { value: '', level: 'a2', copyright: c3 },
-– Du musst zuerst den Computer anmachen und dann siehst du alles.
-                        */
                     },
                     {
                         groupId: 'berichten',
                         translate: ['communiquer qc.', 'faire un rapport (sur qc.)'],
                         entries: [
                             { value: 'Was ist passiert?', level: 'a1', copyright: c2 },
-                            { value: '– Ich hatte einen Unfall.', level: 'a1', copyright: c2 }
-                            /*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich war im Sommer in Berlin.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich habe in den Ferien einen Deutschkurs gemacht.
-                            { value: '', level: 'a2', copyright: c3 },
-Was ist passiert?
-                            { value: '', level: 'a2', copyright: c3 },
-– Michael hatte einen Unfall und liegt jetzt im Krankenhaus. Er ist aber nur leicht verletzt.
-                            */
+                            { value: '– Ich hatte einen Unfall.', level: 'a1', copyright: c2 },
+                            { value: 'Ich war im Sommer in Berlin.', level: 'a2', copyright: c3 },
+                            { value: 'Ich habe in den Ferien einen Deutschkurs gemacht.', level: 'a2', copyright: c3 },
+                            { value: 'Was ist passiert?', level: 'a2', copyright: c3 },
+                            { value: '– Michael hatte einen Unfall und liegt jetzt im Krankenhaus. Er ist aber nur leicht verletzt.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1461,42 +1446,26 @@ Was ist passiert?
                             { value: 'Was machst du heute Abend?', level: 'a1', copyright: c2 },
                             { value: '– Ich besuche Freunde.', level: 'a1', copyright: c2 },
                             { value: 'Wann fährst du (wieder)?', level: 'a1', copyright: c2 },
-                            { value: '– Nächstes Jahr fahren wir nach Griechenland.', level: 'a1', copyright: c2 }
-                            /*
-                            { value: '', level: 'a2', copyright: c3 },
-Die Party ist am Samstag um halb acht.
-                            { value: '', level: 'a2', copyright: c3 },
-Wir treffen uns am Samstag vor der Schule.
-                            { value: '', level: 'a2', copyright: c3 },
-In den Ferien fahre ich zu meiner Tante nach Paris.
-                            { value: '', level: 'a2', copyright: c3 },
-Wann schreiben wir den Englischtest?
-                            { value: '', level: 'a2', copyright: c3 },
-– Am nächsten Donnerstag in der ersten Stunde.
-                            */
+                            { value: '– Nächstes Jahr fahren wir nach Griechenland.', level: 'a1', copyright: c2 },
+                            { value: 'Die Party ist am Samstag um halb acht.', level: 'a2', copyright: c3 },
+                            { value: 'Wir treffen uns am Samstag vor der Schule.', level: 'a2', copyright: c3 },
+                            { value: 'In den Ferien fahre ich zu meiner Tante nach Paris.', level: 'a2', copyright: c3 },
+                            { value: 'Wann schreiben wir den Englischtest?', level: 'a2', copyright: c3 },
+                            { value: '– Am nächsten Donnerstag in der ersten Stunde.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
                         groupId: 'Zweck und Bestimmung angeben',
                         translate: ['Zweck  angeben: citer but', 'Bestimmung angeben: citer détermination'],
                         entries: [
-                            { value: 'Was ist das?', level: 'a1', copyright: c2 }
-                            /*
-                            { value: '', level: 'a2', copyright: c3 },
-Das Geschenk ist für Peter.
-                            { value: '', level: 'a2', copyright: c3 },
-Was ist das?
-                            { value: '', level: 'a2', copyright: c3 },
-– Das brauche ich für meinen Motorroller.
-                            { value: '', level: 'a2', copyright: c3 },
-Wie geht das?
-                            { value: '', level: 'a2', copyright: c3 },
-– Das geht so: Du musst ...
-                            { value: '', level: 'a2', copyright: c3 },
-Was kann man mit dem Computer machen?
-                            { value: '', level: 'a2', copyright: c3 },
-– Mit dem Computer kann man alle neuen Spiele machen.
-                            */
+                            { value: 'Was ist das?', level: 'a1', copyright: c2 },
+                            { value: 'Das Geschenk ist für Peter.', level: 'a2', copyright: c3 },
+                            { value: 'Was ist das?', level: 'a2', copyright: c3 },
+                            { value: '– Das brauche ich für meinen Motorroller.', level: 'a2', copyright: c3 },
+                            { value: 'Wie geht das?', level: 'a2', copyright: c3 },
+                            { value: '– Das geht so: Du musst ...', level: 'a2', copyright: c3 },
+                            { value: 'Was kann man mit dem Computer machen?', level: 'a2', copyright: c3 },
+                            { value: '– Mit dem Computer kann man alle neuen Spiele machen.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1506,28 +1475,30 @@ Was kann man mit dem Computer machen?
                             { value: 'Weiß sie das?', level: 'a1', copyright: c2 },
                             { value: '– Ja.', level: 'a1', copyright: c2 },
                             { value: '– Nein.', level: 'a1', copyright: c2 },
-                            { value: '– Vielleicht.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Bist du sicher? / Weißt du das genau?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ich bin (nicht) sicher.
-                            { value: '', level: 'a2', copyright: c3 },
-Sie kommt bestimmt/wahrscheinlich.
-                            { value: '', level: 'a2', copyright: c3 },
-Vielleicht hat sie es vergessen.
-                            */
+                            { value: '– Vielleicht.', level: 'a1', copyright: c2 },
+                            { value: 'Bist du sicher? / Weißt du das genau?', level: 'a2', copyright: c3 },
+                            { value: '– Ich bin (nicht) sicher.', level: 'a2', copyright: c3 },
+                            { value: 'Sie kommt bestimmt/wahrscheinlich.', level: 'a2', copyright: c3 },
+                            { value: 'Vielleicht hat sie es vergessen.', level: 'a2', copyright: c3 }
                         ]
                     }
-/*
-groupId: Nachfrage
-                            { value: '', level: 'a2', copyright: c3 },
-Wir treffen uns am Mittag vor der Schule.
-                            { value: '', level: 'a2', copyright: c3 },
-Wann genau?
-                            { value: '', level: 'a2', copyright: c3 },
-– Um halb eins.
-                    */
+                ]
+            },
+            {
+                groupId: 'Nachfrage',
+                translate: 'demande',
+                entries: [
+                    { value: 'Wir treffen uns am Mittag vor der Schule.', level: 'a2', copyright: c3 },
+                    { value: 'Wann genau?', level: 'a2', copyright: c3 },
+                    { value: '– Um halb eins.', level: 'a2', copyright: c3 }
+                ]
+            },
+            {
+                groupId: 'Meinung/Ansicht',
+                translate: ['Meinung: opinion, avis', 'Ansicht: avis, point de vue'],
+                entries: [
+                    { value: 'Was denkst/meinst du?', level: 'a2', copyright: c3 },
+                    { value: '– Ich glaube/denke, ...', level: 'a2', copyright: c3 }
                 ]
             },
             {
@@ -1535,14 +1506,6 @@ Wann genau?
                 translate: ['Bewertung: évaluation (de la valeur), estimation (de la valeur), cote', 'Kommentar: commentaire'],
                 entries: [
                     {
-                    /*
-groupId: Meinung/Ansicht
-                            { value: '', level: 'a2', copyright: c3 },
-Was denkst/meinst du?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ich glaube/denke, ...
-                    */
-
                         groupId: 'Zufriedenheit/Unzufriedenheit',
                         translate: ['Zufriedenheit: satisfaction, contentement', 'Unzufriedenheit: insatisfaction, mécontentement'],
                         entries: [
@@ -1551,30 +1514,18 @@ Was denkst/meinst du?
                             { value: '– Prima.', level: 'a1', copyright: c2 },
                             { value: '– (Ganz) Gut.', level: 'a1', copyright: c2 },
                             { value: '– (Nicht) Schlecht.', level: 'a1', copyright: c2 },
-                            { value: 'Der Film war sehr gut.', level: 'a1', copyright: c2 }
+                            { value: 'Der Film war sehr gut.', level: 'a1', copyright: c2 },
+                            { value: 'Wie waren die Ferien?', level: 'a2', copyright: c3 },
+                            { value: '– Toll./Nicht (so) gut.', level: 'a2', copyright: c3 },
+                            { value: 'Ich freue mich, dass du kommst.', level: 'a2', copyright: c3 },
+                            { value: 'Der Film ist sehr gut.', level: 'a2', copyright: c3 },
+                            { value: 'Bis du mit dem neuen Lehrer zufrieden?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, es geht.', level: 'a2', copyright: c3 },
+                            { value: '– Nein, gar nicht.', level: 'a2', copyright: c3 },
+                            { value: 'Ich bin sehr zufrieden mit meinem neuen Motorrad.', level: 'a2', copyright: c3 },
+                            { value: 'Ich habe keine Lust mehr.', level: 'a2', copyright: c3 },
+                            { value: 'Ich habe mich sehr geärgert, weil er mich nicht eingeladen hat.', level: 'a2', copyright: c3 }
                         ]
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Wie waren die Ferien?
-                            { value: '', level: 'a2', copyright: c3 },
-– Toll./Nicht (so) gut.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich freue mich, dass du kommst.
-                            { value: '', level: 'a2', copyright: c3 },
-Der Film ist sehr gut.
-                            { value: '', level: 'a2', copyright: c3 },
-Bis du mit dem neuen Lehrer zufrieden?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja, es geht.
-                            { value: '', level: 'a2', copyright: c3 },
-– Nein, gar nicht.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich bin sehr zufrieden mit meinem neuen Motorrad.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich habe keine Lust mehr.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich habe mich sehr geärgert, weil er mich nicht eingeladen hat.
-*/
                     },
                     {
                         groupId: 'Gefallen/Missfallen',
