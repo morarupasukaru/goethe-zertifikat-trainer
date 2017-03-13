@@ -595,7 +595,7 @@ const data = [
                     },
                     {
                         groupId: '(nicht) vorkommen/geschehen',
-                        translate: ['(nicht) vorkommen: (ne pas) se passer', '(nicht) geschehen: TODO'], // TODO
+                        translate: '(nicht) vorkommen/geschehen: (ne pas) se passer',
                         entries: [
                             { value: 'Was ist passiert?', level: 'a1', copyright: c2 },
                             { value: 'Wann ist das passiert?', level: 'a1', copyright: c2 },
