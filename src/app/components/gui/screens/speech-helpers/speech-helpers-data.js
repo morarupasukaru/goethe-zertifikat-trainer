@@ -1247,7 +1247,7 @@ const data = [
                                     { value: 'Entschuldigung, noch einmal bitte.', level: 'a1', copyright: c2 },
                                     { value: 'Noch einmal bitte.', level: 'a1', copyright: c2 },
                                     { value: 'Kannst du das bitte noch einmal sagen?', level: 'a1', copyright: c2 },
-                                    { value: 'Wie bitte?', level: 'a1', copyright: c2 }
+                                    { value: 'Wie bitte?', level: 'a1', copyright: c2 },
                                     { value: 'Kannst du das noch einmal sagen?', level: 'a2', copyright: c3 }
                                 ]
                             },
@@ -1293,20 +1293,21 @@ const data = [
                                     { value: 'Kannst du bitte langsamer sprechen?', level: 'a2', copyright: c3 }
                                 ]
                             },
-/*
-groupId: Hilfestellung beim Formulieren
-                            { value: '', level: 'a2', copyright: c3 },
-Meinst du vielleicht ...?
-*/
-/*
-groupId: Rückfragen zur Verständnissicherung
-                            { value: '', level: 'a2', copyright: c3 },
-ab’ ich richtig verstanden?
-                            { value: '', level: 'a2', copyright: c3 },
-Wir treffen uns bei Eva.
-                            { value: '', level: 'a2', copyright: c3 },
-Tut mir leid, ich kann dich nicht verstehen.
-*/
+                            {
+                                groupId: 'Hilfestellung beim Formulieren',
+                                translate: 'aide, coup de pouce à la reformulation',
+                                entries: [
+                                    { value: 'Meinst du vielleicht ...?', level: 'a2', copyright: c3 }
+                                ]
+                            },
+                            {
+                                groupId: 'Rückfragen zur Verständnissicherung',
+                                translate: "demander des précisions pour s'assurer de la compréhension",
+                                entries: [
+                                    { value: 'ab’ ich richtig verstanden? Wir treffen uns bei Eva.', level: 'a2', copyright: c3 },
+                                    { value: 'Tut mir leid, ich kann dich nicht verstehen.', level: 'a2', copyright: c3 }
+                                ]
+                            },
                             {
                                 groupId: 'anzeigen, dass man etwas nicht verstanden hat',
                                 entries: [
@@ -1315,17 +1316,18 @@ Tut mir leid, ich kann dich nicht verstehen.
                                     { value: 'Ich glaube, das habe ich nicht (richtig) verstanden.', level: 'a2', copyright: c3 },
                                     { value: 'Tut mir leid, ich kann dich nicht verstehen.', level: 'a2', copyright: c3 }
                                 ]
+                            },
+                            {
+                                groupId: 'Wörter und Begriffe umschreiben',
+                                translate: 'décrire des mots ou notions',
+                                entries: [
+                                    { value: 'Ich muss noch die ... ich weiß nicht, wie man das sagt – Übung für die Schule machen. Wie sagt man?', level: 'a2', copyright: c3 },
+                                    { value: '– Ja, die Hausaufgaben.', level: 'a2', copyright: c3 }
+                                ]
                             }
                         ]
                     },
                     {
-/*
-groupId: Wörter und Begriffe umschreiben
-                            { value: '', level: 'a2', copyright: c3 },
-Ich muss noch die ... ich weiß nicht, wie man das sagt – Übung für die Schule machen. Wie sagt man?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja, die Hausaufgaben.
-*/
                         groupId: 'Kompensation',
                         entries: [
                             {
@@ -1348,15 +1350,10 @@ Ich muss noch die ... ich weiß nicht, wie man das sagt – Übung für die Schu
                                 groupId: 'ausdrücken, dass man ein Wort nicht kennt oder es vergessen hat',
                                 entries: [
                                     { value: 'Wie sagt man auf Deutsch?', level: 'a1', copyright: c2 },
-                                    { value: 'Auf Englisch sagt man ...', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Auf ... heißt es /sagt man ...
-                            { value: '', level: 'a2', copyright: c3 },
-Jetzt weiß ich das Wort nicht mehr.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich habe das Wort vergessen.
-*/
+                                    { value: 'Auf Englisch sagt man ...', level: 'a1', copyright: c2 },
+                                    { value: 'Auf ... heißt es /sagt man ...', level: 'a2', copyright: c3 },
+                                    { value: 'Jetzt weiß ich das Wort nicht mehr.', level: 'a2', copyright: c3 },
+                                    { value: 'Ich habe das Wort vergessen.', level: 'a2', copyright: c3 }
                                 ]
                             },
                             {
@@ -1396,31 +1393,18 @@ Ich habe das Wort vergessen.
                             { value: '– Nein, eine Zitrone.', level: 'a1', copyright: c2 },
                             { value: 'Wie heißt das auf Deutsch? Erklären Sie mal.', level: 'a1', copyright: c2 },
                             { value: 'Der Film heißt „Abgeschminkt“.', level: 'a1', copyright: c2 },
-                           { value: 'Diese CD gehört mir.', level: 'a1', copyright: c2 }
-                           /*
-                            { value: '', level: 'a2', copyright: c3 },
-Alle Schüler kommen aus Russland.
-                            { value: '', level: 'a2', copyright: c3 },
-Das ist ein Musikinstrument.
-                            { value: '', level: 'a2', copyright: c3 },
-Was ist das deutsche Wort für ...
-                            { value: '', level: 'a2', copyright: c3 },
-Auf Deutsch sagt man „Obst“.
-                            { value: '', level: 'a2', copyright: c3 },
-Wer kann das Wort erklären?
-                            { value: '', level: 'a2', copyright: c3 },
-Was braucht man zum Schreiben?
-                            { value: '', level: 'a2', copyright: c3 },
-Welche Unterrichtsfächer findest du interessant/langweilig?
-                            { value: '', level: 'a2', copyright: c3 },
-Er ist ein typischer Norweger.
-                            { value: '', level: 'a2', copyright: c3 },
-Von Beruf ist meine Mutter Ärztin.
-                            { value: '', level: 'a2', copyright: c3 },
-Der Computer gehört mir.
-                            { value: '', level: 'a2', copyright: c3 },
-Was für einen Pulli hast du gekauft?
-                           */
+                            { value: 'Diese CD gehört mir.', level: 'a1', copyright: c2 },
+                            { value: 'Alle Schüler kommen aus Russland.', level: 'a2', copyright: c3 },
+                            { value: 'Das ist ein Musikinstrument.', level: 'a2', copyright: c3 },
+                            { value: 'Was ist das deutsche Wort für ...', level: 'a2', copyright: c3 },
+                            { value: 'Auf Deutsch sagt man „Obst“.', level: 'a2', copyright: c3 },
+                            { value: 'Wer kann das Wort erklären?', level: 'a2', copyright: c3 },
+                            { value: 'Was braucht man zum Schreiben?', level: 'a2', copyright: c3 },
+                            { value: 'Welche Unterrichtsfächer findest du interessant/langweilig?', level: 'a2', copyright: c3 },
+                            { value: 'Er ist ein typischer Norweger.', level: 'a2', copyright: c3 },
+                            { value: 'Von Beruf ist meine Mutter Ärztin.', level: 'a2', copyright: c3 },
+                            { value: 'Der Computer gehört mir.', level: 'a2', copyright: c3 },
+                            { value: 'Was für einen Pulli hast du gekauft?', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
