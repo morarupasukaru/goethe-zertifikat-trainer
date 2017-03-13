@@ -1708,38 +1708,22 @@ Ich habe mich sehr geärgert, weil er mich nicht eingeladen hat.
                             { value: 'Das Restaurant sieht nett', level: 'a1', copyright: c2 },
                             { value: 'Das Restaurant sieht schrecklich aus.', level: 'a1', copyright: c2 },
                             { value: 'Ich liebe diese Stadt.', level: 'a1', copyright: c2 },
-                            { value: 'Ich mag diese Stadt nicht.', level: 'a1', copyright: c2 }
+                            { value: 'Ich mag diese Stadt nicht.', level: 'a1', copyright: c2 },
+                            { value: 'Gefällt dir mein Pullover?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, der ist toll.', level: 'a2', copyright: c3 },
+                            { value: '– Nein, ich finde den Pullover nicht schön.', level: 'a2', copyright: c3 },
+                            { value: 'Ich finde den Film langweilig/lustig.', level: 'a2', copyright: c3 },
+                            { value: 'Ja, die CD ist toll/fantastisch/wunderbar.', level: 'a2', copyright: c3 },
+                            { value: 'Nein, ich finde sie nicht gut.', level: 'a2', copyright: c3 },
+                            { value: 'Ich finde den Roman spannend/langweilig.', level: 'a2', copyright: c3 },
+                            { value: 'Ich bin zufrieden.', level: 'a2', copyright: c3 },
+                            { value: 'Ich finde die Stadt hübsch/hässlich.', level: 'a2', copyright: c3 },
+                            { value: 'Ist das nicht toll?', level: 'a2', copyright: c3 },
+                            { value: 'Das mag ich sehr gerne/gar nicht.', level: 'a2', copyright: c3 },
+                            { value: 'Das ist doch Unsinn.', level: 'a2', copyright: c3 },
+                            { value: 'Das kann man doch nicht machen.', level: 'a2', copyright: c3 },
+                            { value: 'Physik ist mein Lieblingsfach.', level: 'a2', copyright: c3 }
                         ]
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Gefällt dir mein Pullover?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja, der ist toll.
-                            { value: '', level: 'a2', copyright: c3 },
-– Nein, ich finde den Pullover nicht schön.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich finde den Film langweilig/lustig.
-                            { value: '', level: 'a2', copyright: c3 },
-Ja, die CD ist toll/fantastisch/wunderbar.
-                            { value: '', level: 'a2', copyright: c3 },
-Nein, ich finde sie nicht gut.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich finde den Roman spannend/langweilig.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich bin zufrieden.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich finde die Stadt hübsch/hässlich.
-                            { value: '', level: 'a2', copyright: c3 },
-Ist das nicht toll?
-                            { value: '', level: 'a2', copyright: c3 },
-Das mag ich sehr gerne/gar nicht.
-                            { value: '', level: 'a2', copyright: c3 },
-Das ist doch Unsinn.
-                            { value: '', level: 'a2', copyright: c3 },
-Das kann man doch nicht machen.
-                            { value: '', level: 'a2', copyright: c3 },
-Physik ist mein Lieblingsfach.
-                        */
                     },
                     {
                         groupId: 'Interesse/Desinteresse',
@@ -1749,30 +1733,18 @@ Physik ist mein Lieblingsfach.
                             { value: '– Ja klar.', level: 'a1', copyright: c2 },
                             { value: '– Na ja, es geht.', level: 'a1', copyright: c2 },
                             { value: '– Nicht so.', level: 'a1', copyright: c2 },
-                            { value: 'Was sind deine Hobbys?', level: 'a1', copyright: c2 }
+                            { value: 'Was sind deine Hobbys?', level: 'a1', copyright: c2 },
+                            { value: 'Was sind deine Hobbys?', level: 'a2', copyright: c3 },
+                            { value: 'Spielst du gern Fußball?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, sehr gern./Nein.', level: 'a2', copyright: c3 },
+                            { value: 'Was machst du in deiner Freizeit?', level: 'a2', copyright: c3 },
+                            { value: '– Am liebsten treffe ich meine Freunde.', level: 'a2', copyright: c3 },
+                            { value: 'Gehst du gern ins Kino?', level: 'a2', copyright: c3 },
+                            { value: '– Ja gern.', level: 'a2', copyright: c3 },
+                            { value: '– Nein, ich sehe lieber fern.', level: 'a2', copyright: c3 },
+                            { value: 'Fußball interessiert mich nicht.', level: 'a2', copyright: c3 },
+                            { value: 'Ich finde Tennis interessant.', level: 'a2', copyright: c3 }
                         ]
-                        /*
-                            { value: '', level: 'a2', copyright: c3 },
-Was sind deine Hobbys?
-                            { value: '', level: 'a2', copyright: c3 },
-Spielst du gern Fußball?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja, sehr gern./Nein.
-                            { value: '', level: 'a2', copyright: c3 },
-Was machst du in deiner Freizeit?
-                            { value: '', level: 'a2', copyright: c3 },
-– Am liebsten treffe ich meine Freunde.
-                            { value: '', level: 'a2', copyright: c3 },
-Gehst du gern ins Kino?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja gern.
-                            { value: '', level: 'a2', copyright: c3 },
-– Nein, ich sehe lieber fern.
-                            { value: '', level: 'a2', copyright: c3 },
-Fußball interessiert mich nicht.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich finde Tennis interessant.
-                        */
                     },
                     {
                         groupId: 'Billigung/Missbilligung',
@@ -1797,26 +1769,16 @@ Ich finde Tennis interessant.
                         entries: [
                             { value: 'Das stimmt (nicht).', level: 'a1', copyright: c2 },
                             { value: 'Das ist richtig.', level: 'a1', copyright: c2 },
-                            { value: 'Das ist falsch.', level: 'a1', copyright: c2 }
+                            { value: 'Das ist falsch.', level: 'a1', copyright: c2 },
+                            { value: 'Ich bin einverstanden/nicht einverstanden.', level: 'a2', copyright: c3 },
+                            { value: 'Das finde ich toll/langweilig.', level: 'a2', copyright: c3 },
+                            { value: 'Das ist in Ordnung. Genau.', level: 'a2', copyright: c3 },
+                            { value: 'Das ist eine tolle Idee.', level: 'a2', copyright: c3 },
+                            { value: 'Stimmt das?', level: 'a2', copyright: c3 },
+                            { value: '– Klar./Sicher./Natürlich./Nein, das stimmt so nicht.', level: 'a2', copyright: c3 },
+                            { value: 'Ich denke, das ist richtig/falsch.', level: 'a2', copyright: c3 },
+                            { value: 'Das finde ich auch/nicht.', level: 'a2', copyright: c3 }
                         ]
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Ich bin einverstanden/nicht einverstanden.
-                            { value: '', level: 'a2', copyright: c3 },
-Das finde ich toll/langweilig.
-                            { value: '', level: 'a2', copyright: c3 },
-Das ist in Ordnung. Genau.
-                            { value: '', level: 'a2', copyright: c3 },
-Das ist eine tolle Idee.
-                            { value: '', level: 'a2', copyright: c3 },
-Stimmt das?
-                            { value: '', level: 'a2', copyright: c3 },
-– Klar./Sicher./Natürlich./Nein, das stimmt so nicht.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich denke, das ist richtig/falsch.
-                            { value: '', level: 'a2', copyright: c3 },
-Das finde ich auch/nicht.
-                        */
                     },
                     {
                         groupId: 'Wunsch',
@@ -1828,19 +1790,12 @@ Das finde ich auch/nicht.
                             { value: 'Ich möchte einen Kaffee.', level: 'a1', copyright: c2 },
                             { value: 'Peter will ein Eis.', level: 'a1', copyright: c2 },
                             { value: 'Ich möchte den Film sehen.', level: 'a1', copyright: c2 },
-                            { value: 'Ich brauche jetzt eine Pause.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Willst du in die Disco?
-                            { value: '', level: 'a2', copyright: c3 },
-Was wünschst du dir zum Geburtstag?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ich wünsche mir/Ich hätte gern ein Handy.
-                            { value: '', level: 'a2', copyright: c3 },
-– Ich möchte ein neues Fahrrad.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich wünsche dir viel Spaß.
-                            */
+                            { value: 'Ich brauche jetzt eine Pause.', level: 'a1', copyright: c2 },
+                            { value: 'Willst du in die Disco?', level: 'a2', copyright: c3 },
+                            { value: 'Was wünschst du dir zum Geburtstag?', level: 'a2', copyright: c3 },
+                            { value: '– Ich wünsche mir/Ich hätte gern ein Handy.', level: 'a2', copyright: c3 },
+                            { value: '– Ich möchte ein neues Fahrrad.', level: 'a2', copyright: c3 },
+                            { value: 'Ich wünsche dir viel Spaß.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1851,21 +1806,13 @@ Ich wünsche dir viel Spaß.
                             { value: '– Kaffee, bitte.', level: 'a1', copyright: c2 },
                             { value: 'Magst du Tee oder Kaffee?', level: 'a1', copyright: c2 },
                             { value: '– Ich trinke lieber Tee.', level: 'a1', copyright: c2 },
-                            { value: '– Nichts, danke.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Hörst du lieber Rap oder Hip Hop?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ich höre lieber Rap.
-                            { value: '', level: 'a2', copyright: c3 },
-Wohin fährst du am liebsten in den Ferien?
-                            { value: '', level: 'a2', copyright: c3 },
-– Am liebsten fahre ich ans Meer.
-                            { value: '', level: 'a2', copyright: c3 },
-Welcher Sport gefällt dir am besten?
-                            { value: '', level: 'a2', copyright: c3 },
-– Fußball gefällt mir am besten.
-                            */
+                            { value: '– Nichts, danke.', level: 'a1', copyright: c2 },
+                            { value: 'Hörst du lieber Rap oder Hip Hop?', level: 'a2', copyright: c3 },
+                            { value: '– Ich höre lieber Rap.', level: 'a2', copyright: c3 },
+                            { value: 'Wohin fährst du am liebsten in den Ferien?', level: 'a2', copyright: c3 },
+                            { value: '– Am liebsten fahre ich ans Meer.', level: 'a2', copyright: c3 },
+                            { value: 'Welcher Sport gefällt dir am besten?', level: 'a2', copyright: c3 },
+                            { value: '– Fußball gefällt mir am besten.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1874,19 +1821,12 @@ Welcher Sport gefällt dir am besten?
                         entries: [
                             { value: 'Ist das (wirklich) wichtig?', level: 'a1', copyright: c2 },
                             { value: '– Das ist (schon/sehr) wichtig.', level: 'a1', copyright: c2 },
-                            { value: '– Nicht so wichtig.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-– Das ist nicht so wichtig.
-                            { value: '', level: 'a2', copyright: c3 },
-Dieses Wort ist wichtig.
-                            { value: '', level: 'a2', copyright: c3 },
-Muss das sein?
-                            { value: '', level: 'a2', copyright: c3 },
-– Ja, sofort.
-                            { value: '', level: 'a2', copyright: c3 },
-Vergiss ja die CD nicht.
-                            */
+                            { value: '– Nicht so wichtig.', level: 'a1', copyright: c2 },
+                            { value: '– Das ist nicht so wichtig.', level: 'a2', copyright: c3 },
+                            { value: 'Dieses Wort ist wichtig.', level: 'a2', copyright: c3 },
+                            { value: 'Muss das sein?', level: 'a2', copyright: c3 },
+                            { value: '– Ja, sofort.', level: 'a2', copyright: c3 },
+                            { value: 'Vergiss ja die CD nicht.', level: 'a2', copyright: c3 }
                         ]
                     },
                     {
@@ -1897,21 +1837,13 @@ Vergiss ja die CD nicht.
                             { value: 'Doch!', translate: 'si', level: 'a1', copyright: c2 },
                             { value: 'Das stimmt nicht.', level: 'a1', copyright: c2 },
                             { value: 'Das ist falsch.', level: 'a1', copyright: c2 },
-                            { value: 'Unsinn!', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Das mache ich nie!
-                            { value: '', level: 'a2', copyright: c3 },
-Die Antwort ist falsch.
-                            { value: '', level: 'a2', copyright: c3 },
-Ich glaube das nicht.
-                            { value: '', level: 'a2', copyright: c3 },
-Also, ich weiß nicht.
-                            { value: '', level: 'a2', copyright: c3 },
-Du hast nicht recht.
-                            { value: '', level: 'a2', copyright: c3 },
-Auf keinen Fall.
-                            */
+                            { value: 'Unsinn!', level: 'a1', copyright: c2 },
+                            { value: 'Das mache ich nie!', level: 'a2', copyright: c3 },
+                            { value: 'Die Antwort ist falsch.', level: 'a2', copyright: c3 },
+                            { value: 'Ich glaube das nicht.', level: 'a2', copyright: c3 },
+                            { value: 'Also, ich weiß nicht.', level: 'a2', copyright: c3 },
+                            { value: 'Du hast nicht recht.', level: 'a2', copyright: c3 },
+                            { value: 'Auf keinen Fall.', level: 'a2', copyright: c3 }
                        ]
                     },
                     {
