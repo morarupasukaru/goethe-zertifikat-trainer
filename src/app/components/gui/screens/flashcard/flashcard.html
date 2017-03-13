@@ -19,15 +19,14 @@
                        ng-if="(!row.question && !$ctrl.showAnswer)" readonly>
             </div>
 
-            <button ng-click="$ctrl.displayAnswer()">Antwort anzeigen</button>
-            <button ng-class="{'button-primary': !!$ctrl.stackSelection }" ng-click="$ctrl.startStackSelection()">Wähl nächste Lernkartei</button>
-            <button ng-class="{'button-primary': !$ctrl.stackSelection }" ng-click="$ctrl.stopStackSelection()">Beweg Lernkartei</button>
+            <button ng-click="$ctrl.displayAnswer()" accesskey="a"><u>A</u>ntwort anzeigen</button>
+            <button ng-click="$ctrl.previousStack()" accesskey="l">Beweg in der <u>l</u>etzten Kiste</button>
+            <button ng-click="$ctrl.nextStack()" accesskey="n">... in der <u>n</u>ächsten Kiste</button>
 
             <div>
-                <label ng-if="!$ctrl.stackSelection">Beweg Lernkartei im ...</label>
-                <label ng-if="!!$ctrl.stackSelection">Prüf nächste Lernkartei von ...</label>
+                <label>Wähl nächste Lernkartei im ...</label>
                 <ng-repeat ng-repeat="stack in $ctrl.stacksDestination">
-                    <button ng-click="$ctrl.onStackClick(stack.id)" ng-class="{'button-primary': $ctrl.currentStackName === stack.name }">{{ stack.name }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
+                    <button ng-click="$ctrl.onStackClick(stack.id)" ng-class="{'button-primary': $ctrl.currentStackId === stack.id }" accesskey="{{ stack.shortcut }}">{{ stack.leftName }}<u>{{ stack.shortcut }}</u>{{ stack.rightName }} {{ '(' + stack.count + (!!(stack.max) ? '/' + stack.max : '') + (stack.count > 1 ? ' Einträge)': ' Eintrag)') }}</button>
                 </ng-repeat>
             </div>
         </div>

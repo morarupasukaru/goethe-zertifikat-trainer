@@ -21,10 +21,9 @@ class FlashcardController {
         let currentStackId = this.stackPersistenceService.getStackFromFlashcard(this.type, entry.id);
         let currentStack = this.stackService.getStack(currentStackId);
         if (!!currentStack) {
-            this.currentStackName = currentStack.name;
+            this.currentStackId = currentStack.id;
         }
         this.stacksDestination = this.stackService.getStacks();
-        this.stackSelection = false;
     }
 
     computeFields(entry, flashcardType) {
@@ -60,20 +59,8 @@ class FlashcardController {
         this.showAnswer = true;
     }
 
-    startStackSelection() {
-        this.stackSelection = true;
-    }
-
-    stopStackSelection() {
-        this.stackSelection = false;
-    }
-
     onStackClick(stackId) {
-        if (!!this.stackSelection) {
-            this.testNextFlashcard(stackId);
-        } else {
-            this.addToStack(stackId);
-        }
+        this.testNextFlashcard(stackId);
     }
 
     addToStack(stackId) {
@@ -85,9 +72,50 @@ class FlashcardController {
     testNextFlashcard(stackId) {
         let nextEntryKey = this.stackPersistenceService.testNextFlashcard(stackId);
         if (!!nextEntryKey) {
-            this.stackSelection = false;
             this.$location.url('flashcard/' + nextEntryKey);
         }
+    }
+
+    previousStack() {
+        let previous = this.getPreviousStack();
+        if (!!previous) {
+            this.addToStack(previous.id);
+        }
+    }
+
+    nextStack() {
+        let next = this.getNextStack();
+        if (!!next) {
+            this.addToStack(next.id);
+        }
+    }
+
+    getPreviousStack() {
+        let previousStack = null;
+        if (!!this.currentStackId) {
+            for (let i = 0; i < this.stacksDestination.length; i++) {
+                if (this.stacksDestination[i].id === this.currentStackId) {
+                    return previousStack;
+                }
+                previousStack = this.stacksDestination[i];
+            }
+        }
+        return previousStack;
+    }
+
+    getNextStack() {
+        if (!!this.currentStackId) {
+            for (let i = 0; i < this.stacksDestination.length; i++) {
+                if (this.stacksDestination[i].id === this.currentStackId) {
+                    if (i < this.stacksDestination.length-1) {
+                        return this.stacksDestination[i+1];
+                    } else {
+                        return null;
+                    }
+                }
+            }
+        }
+        return null;
     }
 }
 

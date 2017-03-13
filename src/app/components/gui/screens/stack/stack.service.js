@@ -18,7 +18,7 @@ class StackService {
 
     getStacks() {
         let stacks = [
-                { id: this.initialStack, name: 'Zu lernen' },
+                { id: this.initialStack, leftName: null, shortcut: 'z', rightName: 'u lernen' },
                 { id: 'stufe1', name: 'Stufe 1', max: 3 },
                 { id: 'stufe2', name: 'Stufe 2', max: 5 },
                 { id: 'stufe3', name: 'Stufe 3', max: 5 },
@@ -29,8 +29,8 @@ class StackService {
                 { id: 'kiste4', name: 'Kiste 4', max: 400 },
                 { id: 'kiste5', name: 'Kiste 5', max: 1000 },
                 { id: 'kiste6', name: 'Kiste 6', max: 2000 },
-                { id: 'gelernt', name: 'Gelernt' },
-                { id: 'ausgegrenzte', name: 'Ausgegrenzte' }
+                { id: 'gelernt', leftName: null, shortcut: 'g', rightName: 'elernt' },
+                { id: 'ausgegrenzte', leftName: 'A', shortcut: 'u', rightName: 'sgegrente' }
         ];
         for (let i = 0; i < stacks.length; i++) {
             let count = this.stackPersistenceService.getCount(stacks[i].id);

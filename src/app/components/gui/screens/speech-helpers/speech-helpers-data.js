@@ -1044,7 +1044,9 @@ const data = [
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Kannst du Tennis spielen?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja, ein bisschen/gut./Natürlich./Leider nicht.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich weiß nicht, wie man das macht.
 */
                         ]
@@ -1057,6 +1059,7 @@ Ich weiß nicht, wie man das macht.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Ich kann morgen um acht Uhr bei dir sein.
+                            { value: '', level: 'a2', copyright: c3 },
 Vielleicht sehen wir uns morgen.
 */
                         ]
@@ -1069,6 +1072,7 @@ Vielleicht sehen wir uns morgen.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Du musst mir helfen!
+                            { value: '', level: 'a2', copyright: c3 },
 Kannst du sofort kommen? Es ist wichtig.
 */
                         ]
@@ -1094,11 +1098,17 @@ Kannst du sofort kommen? Es ist wichtig.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Entschuldigung ...
+                            { value: '', level: 'a2', copyright: c3 },
 Entschuldige, hast du einen Moment Zeit?
+                            { value: '', level: 'a2', copyright: c3 },
 Kann ich etwas fragen?
+                            { value: '', level: 'a2', copyright: c3 },
 Kannst du mir helfen?
+                            { value: '', level: 'a2', copyright: c3 },
 Hallo!
+                            { value: '', level: 'a2', copyright: c3 },
 Hallo, Chris! Wie waren deine Ferien?
+                            { value: '', level: 'a2', copyright: c3 },
 Sag mal: wo ist denn ...
 */
                         ]
@@ -1114,13 +1124,10 @@ Sag mal: wo ist denn ...
                             { value: 'auf Wiedersehen.', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Danke. Ich muss jetzt leider gehen.
-Okay, tschüss, bis bald.
-Gut: ...
-Na gut.
-Dann herzlichen Dank/auf Wiedersehen.
 Entschuldigung, ich muss jetzt weg.
+                            { value: '', level: 'a2', copyright: c3 },
 Also, bis heute Mittag.
+                            { value: '', level: 'a2', copyright: c3 },
 Danke für deine Hilfe.
 */
                         ]
@@ -1133,7 +1140,6 @@ Danke für deine Hilfe.
                             { value: 'Bitte!', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Bitte.
 Ich möchte (noch) etwas sagen.
 */
                         ]
@@ -1153,9 +1159,8 @@ Ich möchte (noch) etwas sagen.
                             { value: '(Na) Klar.', translate: ['Forcément !', 'Bien sûr !'], level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Ja?/So?/Wirklich?
-Bitte?
-(Na) klar.
+Ja?
+                            { value: '', level: 'a2', copyright: c3 },
 Und (dann)?
 */
                         ]
@@ -1172,20 +1177,19 @@ Und (dann)?
                             { value: 'Und?', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Also?
-Ja?
-Und?
-Ja, bitte!
 Sag!
+                            { value: '', level: 'a2', copyright: c3 },
 Erzähl!
+                            { value: '', level: 'a2', copyright: c3 },
 Fängst du bitte an?
 */
                         ]
                     },
 /*
-                            { value: '', level: 'a2', copyright: c3 },
 groupId: gemeinsames Wissen andeuten
+                            { value: '', level: 'a2', copyright: c3 },
 Nein, heute geht es nicht. Da spielen wir doch Fußball.
+                            { value: '', level: 'a2', copyright: c3 },
 Du weißt ja, dass Micha krank ist.
                     */
                     {
@@ -1196,17 +1200,22 @@ Du weißt ja, dass Micha krank ist.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Ich habe viele Hobbys, zum Beispiel Fußball spielen und Musik hören.
+                            { value: '', level: 'a2', copyright: c3 },
 Meine Familie, also das ist: mein Vater Bruno, meine Mutter Anna und mein Bruder Fabio.
 */
                         ]
                     },
 /*
-                            { value: '', level: 'a2', copyright: c3 },
 groupId: Vermeidung
+                            { value: '', level: 'a2', copyright: c3 },
 Potsdam liegt ... ja, das liegt nahe bei Berlin.
+                            { value: '', level: 'a2', copyright: c3 },
 Wie viele waren gestern beim Fussball?
+                            { value: '', level: 'a2', copyright: c3 },
 – Hm; vielleicht zehn oder so.
+                            { value: '', level: 'a2', copyright: c3 },
 Kommst du mit?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ach nein, ich muss meiner Mutter helfen.
 */
                     {
@@ -1218,7 +1227,9 @@ Kommst du mit?
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Kann ich dir helfen?
+                            { value: '', level: 'a2', copyright: c3 },
 Entschuldigung!
+                            { value: '', level: 'a2', copyright: c3 },
 Darf ich noch ein Stück Torte haben?
 */
                         ]
@@ -1231,8 +1242,6 @@ Darf ich noch ein Stück Torte haben?
                             { value: '– Ja, ein bisschen.', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Möchtest du noch etwas?
-– Ja, ein bisschen.
 Eigentlich hast du ja recht.
 */
                         ]
@@ -1253,7 +1262,9 @@ Eigentlich hast du ja recht.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Küche: Da kann man das Essen machen.
+                            { value: '', level: 'a2', copyright: c3 },
 Gabel und Messer: Das braucht man beim Essen.
+                            { value: '', level: 'a2', copyright: c3 },
 Eine Insel ist zum Beispiel Zypern oder Rügen.
 */
                                 ]
@@ -1284,9 +1295,10 @@ Eine Insel ist zum Beispiel Zypern oder Rügen.
                                     { value: 'Langsamer bitte.', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Entschuldigung, wie bitte?
 Kannst du bitte langsamer sprechen, ich habe das nicht verstanden.
+                            { value: '', level: 'a2', copyright: c3 },
 Das (Wort) verstehe ich nicht.
+                            { value: '', level: 'a2', copyright: c3 },
 Tut mir leid, ich verstehe dich nicht.
 */
                                 ]
@@ -1300,17 +1312,17 @@ Tut mir leid, ich verstehe dich nicht.
                                     { value: 'Wie bitte?', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Noch einmal bitte.
 Kannst du das noch einmal sagen?
-Wie bitte?
 */
                                 ]
                             },
 /*
-                            { value: '', level: 'a2', copyright: c3 },
 groupId: sich bestätigen lassen, ob man richtig gehört bzw. den Kontext richtig verstanden hat
+                            { value: '', level: 'a2', copyright: c3 },
 Entschuldigung, habe ich das richtig verstanden?
+                            { value: '', level: 'a2', copyright: c3 },
 Hast du „dreizehn“ oder „dreißig“ gesagt?
+                            { value: '', level: 'a2', copyright: c3 },
 Wie meinst du das?
 */
                             {
@@ -1322,7 +1334,9 @@ Wie meinst du das?
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Entschuldigung, wie heißt das?
+                            { value: '', level: 'a2', copyright: c3 },
 Ich kenne das Wort nicht.
+                            { value: '', level: 'a2', copyright: c3 },
 Kannst du es erklären?
 */
                                 ]
@@ -1341,7 +1355,6 @@ Kannst du es erklären?
                                     { value: 'Bitte schreiben Sie das auf.', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Wie schreibt man ...?
 Kannst du das bitte schreiben?
 */
                                 ]
@@ -1357,15 +1370,17 @@ Kannst du bitte langsamer sprechen?
                                 ]
                             },
 /*
-                            { value: '', level: 'a2', copyright: c3 },
 groupId: Hilfestellung beim Formulieren
+                            { value: '', level: 'a2', copyright: c3 },
 Meinst du vielleicht ...?
 */
 /*
-                            { value: '', level: 'a2', copyright: c3 },
 groupId: Rückfragen zur Verständnissicherung
+                            { value: '', level: 'a2', copyright: c3 },
 ab’ ich richtig verstanden?
+                            { value: '', level: 'a2', copyright: c3 },
 Wir treffen uns bei Eva.
+                            { value: '', level: 'a2', copyright: c3 },
 Tut mir leid, ich kann dich nicht verstehen.
 */
                             {
@@ -1376,6 +1391,7 @@ Tut mir leid, ich kann dich nicht verstehen.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Ich glaube, das habe ich nicht (richtig) verstanden.
+                            { value: '', level: 'a2', copyright: c3 },
 Tut mir leid, ich kann dich nicht verstehen.
 */
                                 ]
@@ -1384,9 +1400,10 @@ Tut mir leid, ich kann dich nicht verstehen.
                     },
                     {
 /*
-                            { value: '', level: 'a2', copyright: c3 },
 groupId: Wörter und Begriffe umschreiben
+                            { value: '', level: 'a2', copyright: c3 },
 Ich muss noch die ... ich weiß nicht, wie man das sagt – Übung für die Schule machen. Wie sagt man?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja, die Hausaufgaben.
 */
                         groupId: 'Kompensation',
@@ -1420,8 +1437,10 @@ Entschuldigung, ich sage es noch einmal: ...
                                     { value: 'Auf Englisch sagt man ...', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Wie sagt man das auf Deutsch? Auf ... heißt es /sagt man ...
+Auf ... heißt es /sagt man ...
+                            { value: '', level: 'a2', copyright: c3 },
 Jetzt weiß ich das Wort nicht mehr.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich habe das Wort vergessen.
 */
                                 ]
@@ -1433,7 +1452,9 @@ Ich habe das Wort vergessen.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Hast du das verstanden?
+                            { value: '', level: 'a2', copyright: c3 },
 Ich spreche nicht gut Deutsch.
+                            { value: '', level: 'a2', copyright: c3 },
 Hast du mich verstanden?
 */
                                 ]
@@ -1466,20 +1487,29 @@ Hast du mich verstanden?
                             { value: '– Nein, eine Zitrone.', level: 'a1', copyright: c2 },
                             { value: 'Wie heißt das auf Deutsch? Erklären Sie mal.', level: 'a1', copyright: c2 },
                             { value: 'Der Film heißt „Abgeschminkt“.', level: 'a1', copyright: c2 },
-                           { value: 'Diese CD gehört mir', level: 'a1', copyright: c2 }
+                           { value: 'Diese CD gehört mir.', level: 'a1', copyright: c2 }
                            /*
                             { value: '', level: 'a2', copyright: c3 },
 Alle Schüler kommen aus Russland.
-Das ist Wolfgang/Frau Brandt/mein Bruder.
+                            { value: '', level: 'a2', copyright: c3 },
 Das ist ein Musikinstrument.
+                            { value: '', level: 'a2', copyright: c3 },
 Was ist das deutsche Wort für ...
+                            { value: '', level: 'a2', copyright: c3 },
 Auf Deutsch sagt man „Obst“.
+                            { value: '', level: 'a2', copyright: c3 },
 Wer kann das Wort erklären?
+                            { value: '', level: 'a2', copyright: c3 },
 Was braucht man zum Schreiben?
-elche Unterrichtsfächer findest du interessant/langweilig?
+                            { value: '', level: 'a2', copyright: c3 },
+Welche Unterrichtsfächer findest du interessant/langweilig?
+                            { value: '', level: 'a2', copyright: c3 },
 Er ist ein typischer Norweger.
+                            { value: '', level: 'a2', copyright: c3 },
 Von Beruf ist meine Mutter Ärztin.
+                            { value: '', level: 'a2', copyright: c3 },
 Der Computer gehört mir.
+                            { value: '', level: 'a2', copyright: c3 },
 Was für einen Pulli hast du gekauft?
                            */
                         ]
@@ -1494,8 +1524,10 @@ Was für einen Pulli hast du gekauft?
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Kannst du sie beschreiben?
+                            { value: '', level: 'a2', copyright: c3 },
 – Sie ist blond, nicht sehr groß und hat grüne Augen.
-– Palermo ist eine große Stadt in Süditalien und liegt am Meer.
+                            { value: '', level: 'a2', copyright: c3 },
+Palermo ist eine große Stadt in Süditalien und liegt am Meer.
                         */
                     },
                     {
@@ -1506,7 +1538,8 @@ Kannst du sie beschreiben?
                         ]
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Wie macht man das? / Wie geht das?
+Wie macht man das?
+                            { value: '', level: 'a2', copyright: c3 },
 – Du musst zuerst den Computer anmachen und dann siehst du alles.
                         */
                     },
@@ -1519,8 +1552,11 @@ Wie macht man das? / Wie geht das?
                             /*
                             { value: '', level: 'a2', copyright: c3 },
 Ich war im Sommer in Berlin.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich habe in den Ferien einen Deutschkurs gemacht.
+                            { value: '', level: 'a2', copyright: c3 },
 Was ist passiert?
+                            { value: '', level: 'a2', copyright: c3 },
 – Michael hatte einen Unfall und liegt jetzt im Krankenhaus. Er ist aber nur leicht verletzt.
                             */
                         ]
@@ -1536,9 +1572,13 @@ Was ist passiert?
                             /*
                             { value: '', level: 'a2', copyright: c3 },
 Die Party ist am Samstag um halb acht.
+                            { value: '', level: 'a2', copyright: c3 },
 Wir treffen uns am Samstag vor der Schule.
+                            { value: '', level: 'a2', copyright: c3 },
 In den Ferien fahre ich zu meiner Tante nach Paris.
+                            { value: '', level: 'a2', copyright: c3 },
 Wann schreiben wir den Englischtest?
+                            { value: '', level: 'a2', copyright: c3 },
 – Am nächsten Donnerstag in der ersten Stunde.
                             */
                         ]
@@ -1551,11 +1591,17 @@ Wann schreiben wir den Englischtest?
                             /*
                             { value: '', level: 'a2', copyright: c3 },
 Das Geschenk ist für Peter.
+                            { value: '', level: 'a2', copyright: c3 },
 Was ist das?
+                            { value: '', level: 'a2', copyright: c3 },
 – Das brauche ich für meinen Motorroller.
+                            { value: '', level: 'a2', copyright: c3 },
 Wie geht das?
+                            { value: '', level: 'a2', copyright: c3 },
 – Das geht so: Du musst ...
+                            { value: '', level: 'a2', copyright: c3 },
 Was kann man mit dem Computer machen?
+                            { value: '', level: 'a2', copyright: c3 },
 – Mit dem Computer kann man alle neuen Spiele machen.
                             */
                         ]
@@ -1570,20 +1616,23 @@ Was kann man mit dem Computer machen?
                             { value: '– Vielleicht.', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Weißt du das?
-– Ja./Nein./Noch nicht.
 Bist du sicher? / Weißt du das genau?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich bin (nicht) sicher.
+                            { value: '', level: 'a2', copyright: c3 },
 Sie kommt bestimmt/wahrscheinlich.
+                            { value: '', level: 'a2', copyright: c3 },
 Vielleicht hat sie es vergessen.
                             */
                         ]
                     }
 /*
-                            { value: '', level: 'a2', copyright: c3 },
 groupId: Nachfrage
+                            { value: '', level: 'a2', copyright: c3 },
 Wir treffen uns am Mittag vor der Schule.
+                            { value: '', level: 'a2', copyright: c3 },
 Wann genau?
+                            { value: '', level: 'a2', copyright: c3 },
 – Um halb eins.
                     */
                 ]
@@ -1594,9 +1643,10 @@ Wann genau?
                 entries: [
                     {
                     /*
-                            { value: '', level: 'a2', copyright: c3 },
 groupId: Meinung/Ansicht
+                            { value: '', level: 'a2', copyright: c3 },
 Was denkst/meinst du?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich glaube/denke, ...
                     */
 
@@ -1613,14 +1663,23 @@ Was denkst/meinst du?
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Wie waren die Ferien?
-– Toll./Gut./Nicht (so) gut./Schlecht.
+                            { value: '', level: 'a2', copyright: c3 },
+– Toll./Nicht (so) gut.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich freue mich, dass du kommst.
+                            { value: '', level: 'a2', copyright: c3 },
 Der Film ist sehr gut.
+                            { value: '', level: 'a2', copyright: c3 },
 Bis du mit dem neuen Lehrer zufrieden?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja, es geht.
+                            { value: '', level: 'a2', copyright: c3 },
 – Nein, gar nicht.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich bin sehr zufrieden mit meinem neuen Motorrad.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich habe keine Lust mehr.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich habe mich sehr geärgert, weil er mich nicht eingeladen hat.
 */
                     },
@@ -1654,18 +1713,31 @@ Ich habe mich sehr geärgert, weil er mich nicht eingeladen hat.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Gefällt dir mein Pullover?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja, der ist toll.
+                            { value: '', level: 'a2', copyright: c3 },
 – Nein, ich finde den Pullover nicht schön.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich finde den Film langweilig/lustig.
-Ja, die CD ist toll/fantastisch/wunderbar./
+                            { value: '', level: 'a2', copyright: c3 },
+Ja, die CD ist toll/fantastisch/wunderbar.
+                            { value: '', level: 'a2', copyright: c3 },
 Nein, ich finde sie nicht gut.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich finde den Roman spannend/langweilig.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich bin zufrieden.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich finde die Stadt hübsch/hässlich.
+                            { value: '', level: 'a2', copyright: c3 },
 Ist das nicht toll?
+                            { value: '', level: 'a2', copyright: c3 },
 Das mag ich sehr gerne/gar nicht.
+                            { value: '', level: 'a2', copyright: c3 },
 Das ist doch Unsinn.
+                            { value: '', level: 'a2', copyright: c3 },
 Das kann man doch nicht machen.
+                            { value: '', level: 'a2', copyright: c3 },
 Physik ist mein Lieblingsfach.
                         */
                     },
@@ -1682,14 +1754,23 @@ Physik ist mein Lieblingsfach.
                         /*
                             { value: '', level: 'a2', copyright: c3 },
 Was sind deine Hobbys?
+                            { value: '', level: 'a2', copyright: c3 },
 Spielst du gern Fußball?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja, sehr gern./Nein.
+                            { value: '', level: 'a2', copyright: c3 },
 Was machst du in deiner Freizeit?
+                            { value: '', level: 'a2', copyright: c3 },
 – Am liebsten treffe ich meine Freunde.
+                            { value: '', level: 'a2', copyright: c3 },
 Gehst du gern ins Kino?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja gern.
+                            { value: '', level: 'a2', copyright: c3 },
 – Nein, ich sehe lieber fern.
+                            { value: '', level: 'a2', copyright: c3 },
 Fußball interessiert mich nicht.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich finde Tennis interessant.
                         */
                     },
@@ -1703,15 +1784,11 @@ Ich finde Tennis interessant.
                             { value: '– Es geht.', level: 'a1', copyright: c2 },
                             { value: '– Langweilig.', level: 'a1', copyright: c2 },
                             { value: '– (Nicht) Schlecht.', level: 'a1', copyright: c2 },
+                            { value: '– Ich finde das (nicht) gut.', level: 'a2', copyright: c3 },
                             { value: 'Wie finden Sie das Lehrbuch?', level: 'a1', copyright: c2 },
                             { value: '– Es ist (sehr) interessant', level: 'a1', copyright: c2 },
                             { value: '– Es ist zu langweilig.', level: 'a1', copyright: c2 },
                             { value: 'So geht das nicht.', level: 'a1', copyright: c2 }
-/*
-                            { value: '', level: 'a2', copyright: c3 },
-Wie findest du das?
-– Ich finde das (nicht) gut.
-                            */
                         ]
                     },
                     {
@@ -1725,12 +1802,19 @@ Wie findest du das?
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Ich bin einverstanden/nicht einverstanden.
+                            { value: '', level: 'a2', copyright: c3 },
 Das finde ich toll/langweilig.
+                            { value: '', level: 'a2', copyright: c3 },
 Das ist in Ordnung. Genau.
+                            { value: '', level: 'a2', copyright: c3 },
 Das ist eine tolle Idee.
+                            { value: '', level: 'a2', copyright: c3 },
 Stimmt das?
+                            { value: '', level: 'a2', copyright: c3 },
 – Klar./Sicher./Natürlich./Nein, das stimmt so nicht.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich denke, das ist richtig/falsch.
+                            { value: '', level: 'a2', copyright: c3 },
 Das finde ich auch/nicht.
                         */
                     },
@@ -1747,12 +1831,15 @@ Das finde ich auch/nicht.
                             { value: 'Ich brauche jetzt eine Pause.', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Was wollen wir heute machen?
 Willst du in die Disco?
+                            { value: '', level: 'a2', copyright: c3 },
 Was wünschst du dir zum Geburtstag?
-Ich wünsche mir/Ich hätte gern ein Handy.
+                            { value: '', level: 'a2', copyright: c3 },
+– Ich wünsche mir/Ich hätte gern ein Handy.
+                            { value: '', level: 'a2', copyright: c3 },
+– Ich möchte ein neues Fahrrad.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich wünsche dir viel Spaß.
-Ich möchte ein neues Fahrrad.
                             */
                         ]
                     },
@@ -1768,10 +1855,15 @@ Ich möchte ein neues Fahrrad.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Hörst du lieber Rap oder Hip Hop?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ich höre lieber Rap.
+                            { value: '', level: 'a2', copyright: c3 },
 Wohin fährst du am liebsten in den Ferien?
+                            { value: '', level: 'a2', copyright: c3 },
 – Am liebsten fahre ich ans Meer.
+                            { value: '', level: 'a2', copyright: c3 },
 Welcher Sport gefällt dir am besten?
+                            { value: '', level: 'a2', copyright: c3 },
 – Fußball gefällt mir am besten.
                             */
                         ]
@@ -1785,12 +1877,14 @@ Welcher Sport gefällt dir am besten?
                             { value: '– Nicht so wichtig.', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Ist das wichtig?
-– Das ist (sehr) wichtig.
 – Das ist nicht so wichtig.
+                            { value: '', level: 'a2', copyright: c3 },
 Dieses Wort ist wichtig.
+                            { value: '', level: 'a2', copyright: c3 },
 Muss das sein?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja, sofort.
+                            { value: '', level: 'a2', copyright: c3 },
 Vergiss ja die CD nicht.
                             */
                         ]
@@ -1806,12 +1900,16 @@ Vergiss ja die CD nicht.
                             { value: 'Unsinn!', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Nein!
 Das mache ich nie!
+                            { value: '', level: 'a2', copyright: c3 },
 Die Antwort ist falsch.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich glaube das nicht.
+                            { value: '', level: 'a2', copyright: c3 },
 Also, ich weiß nicht.
+                            { value: '', level: 'a2', copyright: c3 },
 Du hast nicht recht.
+                            { value: '', level: 'a2', copyright: c3 },
 Auf keinen Fall.
                             */
                        ]
@@ -1825,9 +1923,10 @@ Auf keinen Fall.
                             { value: 'Entschuldigen Sie, die Heizung funktioniert nicht.', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Das ist zu teuer.
 Es ist zu kalt.
+                            { value: '', level: 'a2', copyright: c3 },
 Der Automat geht nicht.
+                            { value: '', level: 'a2', copyright: c3 },
 Das Moped ist kaputt.
                             */
                         ]
@@ -1841,10 +1940,12 @@ Das Moped ist kaputt.
                             { value: 'Seine Mutter ist krank. Deshalb kommt er heute nicht.', level: 'a1', copyright: c2 }
 /*
                             { value: '', level: 'a2', copyright: c3 },
-Warum kommst du nicht?
 – Ich habe keine Lust.
+                            { value: '', level: 'a2', copyright: c3 },
 Sie ist krank. Deshalb bleibt sie zu Hause.
+                            { value: '', level: 'a2', copyright: c3 },
 Warum ...?
+                            { value: '', level: 'a2', copyright: c3 },
 Weil ich noch Hausaufgaben machen muss.
                             */
                         ]
@@ -1872,13 +1973,19 @@ Weil ich noch Hausaufgaben machen muss.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Das ist toll!
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja, das finde ich auch.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich bin froh.
+                            { value: '', level: 'a2', copyright: c3 },
 Leider kann ich nicht kommen.
-Das tut mir leid.
+                            { value: '', level: 'a2', copyright: c3 },
 Der Sprachkurs macht mir viel Spaß.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich freue mich, dass du kommst.
+                            { value: '', level: 'a2', copyright: c3 },
 Schön, dass du mitkommst.
+                            { value: '', level: 'a2', copyright: c3 },
 Schade, dass es morgen nicht klappt.
                             */
                         ]
@@ -1896,7 +2003,9 @@ Schade, dass es morgen nicht klappt.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Magst du Pizza?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja, gern./Nein, das schmeckt mir nicht.
+                            { value: '', level: 'a2', copyright: c3 },
 Isst du gern Fisch?
                             */
                         ]
@@ -1912,10 +2021,15 @@ Isst du gern Fisch?
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Ärgerst du dich über das Zeugnis?
+                            { value: '', level: 'a2', copyright: c3 },
 – Das ist mir ganz egal.
+                            { value: '', level: 'a2', copyright: c3 },
 – Das interessiert mich nicht.
+                            { value: '', level: 'a2', copyright: c3 },
 – Das ist mir doch gleich.
+                            { value: '', level: 'a2', copyright: c3 },
 Stört dich das nicht?
+                            { value: '', level: 'a2', copyright: c3 },
 Da kann man nichts machen.
                             */
                         ]
@@ -1929,16 +2043,20 @@ Da kann man nichts machen.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Das tut mir leid.
+                            { value: '', level: 'a2', copyright: c3 },
 Das finde ich traurig.
+                            { value: '', level: 'a2', copyright: c3 },
 Es tut mir so leid, dass du Zahnschmerzen hast.
                             */
                         ]
                     },
 /*
-                            { value: '', level: 'a2', copyright: c3 },
 groupId: Schmerz
+                            { value: '', level: 'a2', copyright: c3 },
 Mein Kopf tut so weh.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich habe Halsschmerzen.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich habe starke Schmerzen.
                     */
                     {
@@ -1952,11 +2070,17 @@ Ich habe starke Schmerzen.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Willst du das wirklich machen?
+                            { value: '', level: 'a2', copyright: c3 },
 Das ist ja toll!
+                            { value: '', level: 'a2', copyright: c3 },
 Das ist doch verrückt.
+                            { value: '', level: 'a2', copyright: c3 },
 Das ist aber komisch.
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja, wirklich komisch.
+                            { value: '', level: 'a2', copyright: c3 },
 Das kann ich nicht glauben.
+                            { value: '', level: 'a2', copyright: c3 },
 Das ist doch nicht möglich.
                             */
                         ]
@@ -1970,7 +2094,9 @@ Das ist doch nicht möglich.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Ich hoffe, du kommst heute.
+                            { value: '', level: 'a2', copyright: c3 },
 Hoffentlich finde ich das Heft.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich hoffe, dass er heute pünktlich ist ...
                             */
                         ]
@@ -1984,11 +2110,17 @@ Ich hoffe, dass er heute pünktlich ist ...
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Hast du Angst?
+                            { value: '', level: 'a2', copyright: c3 },
 Ich kann die Hausaufgaben nicht machen.
+                            { value: '', level: 'a2', copyright: c3 },
 Mach schnell. Es ist schon sehr spät.
+                            { value: '', level: 'a2', copyright: c3 },
 Was ist los?
+                            { value: '', level: 'a2', copyright: c3 },
 Wann antwortet er denn endlich?
+                            { value: '', level: 'a2', copyright: c3 },
 Warum ruft sie nicht an?
+                            { value: '', level: 'a2', copyright: c3 },
 Hoffentlich ist nichts passiert.
                             */
                         ]
@@ -2001,17 +2133,22 @@ Hoffentlich ist nichts passiert.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Warum kommst du nicht mit?
+                            { value: '', level: 'a2', copyright: c3 },
 Das ist aber schade!
+                            { value: '', level: 'a2', copyright: c3 },
 Schade, dass es nicht klappt.
+                            { value: '', level: 'a2', copyright: c3 },
 Da kann man (leider) nichts machen.
 */
                         ]
                     }
 /*
-                            { value: '', level: 'a2', copyright: c3 },
 groupId: Sympathie/Antipathie
+                            { value: '', level: 'a2', copyright: c3 },
 Ich mag Sabine (sehr) gern.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich finde Frau Berger nicht sympathisch.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich bin total in sie/ihn verliebt.
 */
                 ]
@@ -2037,20 +2174,35 @@ Ich bin total in sie/ihn verliebt.
 /*
                             { value: '', level: 'a2', copyright: c3 },
 Zeigst du mir deinen Computer?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja gern./Nein.
+                            { value: '', level: 'a2', copyright: c3 },
 Kann ich das Buch haben?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja.
+                            { value: '', level: 'a2', copyright: c3 },
 – Nein, das ist nicht mein Buch.
+                            { value: '', level: 'a2', copyright: c3 },
 Wie spät ist es?
+                            { value: '', level: 'a2', copyright: c3 },
 – Es ist halb acht.
+                            { value: '', level: 'a2', copyright: c3 },
 Mach bitte die Tür auf!
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja, sofort.
+                            { value: '', level: 'a2', copyright: c3 },
 – Nein, ich kann nicht.
+                            { value: '', level: 'a2', copyright: c3 },
 Gib mir bitte das Heft!
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja, gleich.
+                            { value: '', level: 'a2', copyright: c3 },
 – Nein, ich finde das Heft nicht
+                            { value: '', level: 'a2', copyright: c3 },
 Könntest du mir helfen?
+                            { value: '', level: 'a2', copyright: c3 },
 – Ja./ Sofort./Vielleicht./ Jetzt nicht./ Nein, tut mir leid.
+                            { value: '', level: 'a2', copyright: c3 },
 Ich hätte gern eine CD von ...
                             */
                         ]
