@@ -37,11 +37,7 @@ class FlashcardService {
 
     getFlashcardTypes() {
         return [
-            this.getVocabularyFlashcardType()
-//            this.getSpeechActsFlashcardType(),
-//            this.getStrategiesFlashcardType(),
-//            this.getNotionFlashcardType(),
-//            this.getThemaFlashcardType()
+                this.getVocabularyFlashcardType()
             ];
     }
 
@@ -50,7 +46,7 @@ class FlashcardService {
             id: 'vocabulary-entry-example',
             name: 'Verstehen Sie diese Wortschatz Eintrag?',
             fields: {
-                question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
+                question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen', separator: ' / ' } ],
                 answer: [ { id:'alternative', name: 'Alternative' }, { id:'example', name: 'Beispiel' }, { id:'translate', name:'Übersetzung' } ]
             }
         }
@@ -59,68 +55,6 @@ class FlashcardService {
         }
         return flashcardType;
     }
-
-    getSpeechActsFlashcardType() {
-        let flashcardType = {
-            id: 'speechActs-entry',
-            name: 'Verstehen Sie den Sprachhandlung Eintrag?',
-            fields: {
-                question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
-                answer: [ { id:'translate', name:'Übersetzung' } ]
-            }
-        }
-        flashcardType.isSupported = function(entry) {
-            return "speechAct" === entry.type;
-        }
-        return flashcardType;
-    }
-
-    getStrategiesFlashcardType() {
-        let flashcardType = {
-            id: 'strategies-entry',
-            name: 'Verstehen Sie den Strategie Eintrag?',
-            fields: {
-                question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
-                answer: [ { id:'translate', name:'Übersetzung' } ]
-            }
-        }
-        flashcardType.isSupported = function(entry) {
-            return "strategy" === entry.type;
-        }
-        return flashcardType;
-    }
-
-    getNotionFlashcardType() {
-        let flashcardType = {
-            id: 'notions-entry',
-            name: 'Verstehen Sie den Notion Eintrag?',
-            fields: {
-                question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
-                answer: [ { id:'translate', name:'Übersetzung' } ]
-            }
-        }
-        flashcardType.isSupported = function(entry) {
-            return "notion" === entry.type;
-        }
-        return flashcardType;
-    }
-
-    getThemaFlashcardType() {
-        let flashcardType = {
-            id: 'themas-entry',
-            name: 'Verstehen Sie den Thema Eintrag?',
-            fields: {
-                question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen' } ],
-                answer: [ { id:'translate', name:'Übersetzung' } ]
-            }
-        }
-        flashcardType.isSupported = function(entry) {
-            return "thema" === entry.type;
-        }
-        return flashcardType;
-    }
-
-
 }
 
 export default FlashcardService;

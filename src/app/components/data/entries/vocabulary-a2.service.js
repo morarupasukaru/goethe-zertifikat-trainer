@@ -561,7 +561,6 @@ class VocabularyA2Service {
         entries.push(new Builder().id('06e7631c-c507-443c-825f-36eb87fe5c8c').thema(thema).entry('aufräumen').translate('faire du rangement').example('Bitte räum dein Zimmer auf.').get());
         entries.push(new Builder().id('1e786c14-ffe1-451a-9880-0e3722cccee2').thema(thema).entry('aufregend').translate(['excitant(e)', 'palpipant(e)', 'vibrant(e)']).example(['Ich finde den Film aufregend.', 'Es ist aufregend bei diesem Wettbewerb zu sein.']).get());
         entries.push(new Builder().id('a77a23bf-47e1-4980-b290-422abdccbf44').thema(thema).entry('r Aufsatz, ä, -e').translate('rédaction').example('Ich muss noch einen Aufsatz über die Römer schreiben.').get());
-        entries.push(new Builder().id('6acc4acb-ec3f-45c8-8e7e-2f20055af117').thema(thema).entry('ausfüllen').translate('compléter qc.').example('Bitte füllen Sie das Formular aus.').get());
         entries.push(new Builder().id('436bc23c-d161-4cfa-b6b1-6c0747f17a68').thema(thema).entry('ausgehen').translate('sortir (weekend)').example('Am Wochenende gehe ich gern mit meinen Freunden aus.').get());
         entries.push(new Builder().id('705d6286-215d-49d1-a1dd-507d99cafd9a').thema(thema).entry('auspacken').translate(['dépaqueter qc.', 'déballer qc.']).example('Hast du schon deinen Koffer ausgepackt?').get());
         entries.push(new Builder().id('4accd1be-a15e-45ac-bb50-ada4ec2c0973').thema(thema).entry('außerdem').translate(['en plus', 'en outre']).example('Möchten Sie außerdem noch etwas?').get());
@@ -577,6 +576,7 @@ class VocabularyA2Service {
         entries.push(new Builder().id('88d54d2a-32e3-4dca-b5f4-e1c79e99d617').thema(thema).entry('außer').example('Außer mir gehen alle Schüler zu der Party.').get());
         entries.push(new Builder().id('ff67d52d-881a-4aed-b93c-70ebaf340f09').thema(thema).entry('r Autor, -en/e Autorin, -nen').example('Der Autor von diesem Buch heißt Stefan Zweig.').get());
 */
+// /* Double */        entries.push(new Builder().id('6acc4acb-ec3f-45c8-8e7e-2f20055af117').thema(thema).entry('ausfüllen').translate('compléter qc.').example('Bitte füllen Sie das Formular aus.').get());
 // /* Double */        entries.push(new Builder().id('a52b3d13-a7a0-4a19-a683-7376fa2cc331').thema(thema).entry('Ab').example('Ab morgen muss ich wieder arbeiten.').get());
 // /* Double */        entries.push(new Builder().id('f2226add-c3e4-4e78-8512-0570e43e7010').thema(thema).entry('aber').example(['Der Film ist traurig, aber auch sehr schön.', 'Heute geht es nicht, aber morgen.']).get());
 // /* Double */        entries.push(new Builder().id('3dae69f7-6258-4ea5-82ae-42d3ff6f3142').thema(thema).entry('abfahren').example('Der Zug fährt pünktlich ab.').get());
@@ -738,7 +738,7 @@ class VocabularyA2Service {
         entries.push(new Builder().id('80a9ed51-1e3c-450b-b86d-2b5d7af7cca1').thema(thema).entry('r Dichter, -').translate('poète').example('Goethe war ein berühmter Dichter.').get());
         entries.push(new Builder().id('4f53f5f7-6d48-4f16-a42b-8fcd5e9fdb5a').thema(thema).entry('dick').translate(['épais(se)', 'gros(se)', "de 2m d'épaisseur"]).example(['Ich bin leider sehr dick.', 'Die Wand ist zwei Meter dick.']).get());
         entries.push(new Builder().id('c56f18be-1aba-40ff-a84f-25e9635cc2e0').thema(thema).entry('s Diktat, -e').translate('dictée').example('Wir schreiben heute in der Schule ein Diktat.').get());
-        entries.push(new Builder().id('c671bd41-763f-4891-adcd-fe8b37d406dd').thema(thema).entry('doch').translate(['si', 'quand même']).example('Magst du das nicht?', '– Doch, es schmeckt gut.').get());
+        entries.push(new Builder().id('c671bd41-763f-4891-adcd-fe8b37d406dd').thema(thema).entry('doch').translate(['si', 'quand même']).example(['Magst du das nicht?', '– Doch, es schmeckt gut.']).get());
         entries.push(new Builder().id('806ef41d-8f79-4073-9e50-04250aa117d0').thema(thema).entry('dort').translate(['là-bas (un endroit plus ou moins éloigné)', 'là']).example('Du gehst in die Stadt? Und was machst du dort?').get());
         entries.push(new Builder().id('db126ddf-b67e-4641-a94a-c6cc0b9df980').thema(thema).entry('drinnen').translate(['dedans', 'au-dedans']).example('Draußen ist es kalt, ich bleibe lieber drinnen.').get());
         entries.push(new Builder().id('eeb49833-a6a2-4ad7-b1f1-8cb7bdb90e37').thema(thema).entry('drüben').translate("là-bas (de l'autre côté)").example('Das hier ist die Goethestraße und da drüben wohne ich.').get());

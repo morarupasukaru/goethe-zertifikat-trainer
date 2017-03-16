@@ -4,9 +4,14 @@
             <h1>{{ $ctrl.title }}</h1>
             <div ng-if="!!row.value" ng-repeat="row in $ctrl.fields">
                 <label for="{{ row.name }}">{{ row.name + (!!row.question ? ' (Frage)' : ' (Antwort)') }} </label>
-                <ul ng-if="!!row.list && (!!row.question || !!$ctrl.showAnswer)">
-                    <li ng-repeat="value in row.value">{{ value }}</li>
+                <ul ng-if="!!row.list && !row.separator && (!!row.question || !!$ctrl.showAnswer)">
+                    <li ng-repeat="value in row.value track by $index">{{ value }}</li>
                 </ul>
+
+                <ng-repeat ng-repeat="value in row.value track by $index" ng-if="!!row.list && !!row.separator && (!!row.question || !!$ctrl.showAnswer)">
+                    {{ value }} {{ $last === true ? '' : row.separator }}
+                </ng-repeat>
+
                 <input class="u-full-width"
                        type="text"
                        id="{{ row.name }}"

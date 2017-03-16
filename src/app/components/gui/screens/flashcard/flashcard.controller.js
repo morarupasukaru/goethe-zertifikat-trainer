@@ -14,14 +14,16 @@ class FlashcardController {
 
     initData() {
         let entry = this.entriesService.getEntry(this.id);
-        let flashcardType = this.flashcardService.getFlashcardType(this.type);
-        this.fields = this.computeFields(entry, flashcardType);
-        this.title = flashcardType.name;
+        if (!!entry) {
+            let flashcardType = this.flashcardService.getFlashcardType(this.type);
+            this.fields = this.computeFields(entry, flashcardType);
+            this.title = flashcardType.name;
 
-        let currentStackId = this.stackPersistenceService.getStackFromFlashcard(this.type, entry.id);
-        let currentStack = this.stackService.getStack(currentStackId);
-        if (!!currentStack) {
-            this.currentStackId = currentStack.id;
+            let currentStackId = this.stackPersistenceService.getStackFromFlashcard(this.type, entry.id);
+            let currentStack = this.stackService.getStack(currentStackId);
+            if (!!currentStack) {
+                this.currentStackId = currentStack.id;
+            }
         }
         this.stacksDestination = this.stackService.getStacks();
     }
@@ -37,6 +39,7 @@ class FlashcardController {
             field.list = Array.isArray(field.value);
             field.leoEnabled = !!flashcardType.fields.question[i].leoEnabled;
             field.question = true;
+            field.separator = flashcardType.fields.question[i].separator;
             fields.push(field);
         }
         for (let i = 0; i < flashcardType.fields.answer.length; i++) {
@@ -47,6 +50,7 @@ class FlashcardController {
             field.list = Array.isArray(field.value);
             field.leoEnabled = !!flashcardType.fields.answer[i].leoEnabled;
             field.question = false;
+            field.separator = flashcardType.fields.answer[i].separator;
             fields.push(field);
             if (!!field.value) {
                 this.showAnswer = false;
