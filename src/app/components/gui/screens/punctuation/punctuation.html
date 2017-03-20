@@ -2,13 +2,11 @@
     <div class="row">
         <div class="twelve column" style="margin-top: 5%">
             <h1>Satzzeichen</h1>
-            <ul>
-                <li ng-repeat="entry in $ctrl.entries">
-                    <button class="notext-transform" ng-click="$ctrl.show(entry)">
-                        {{ !!entry.displayed ? entry.signAndSignification : entry.sign }}
-                    </button>
-                </li>
-            </ul>
+            <ng-repeat ng-repeat="entry in $ctrl.entries">
+                <button class="notext-transform" ng-click="$ctrl.show(entry)">
+                    {{ !!entry.displayed ? entry.signAndSignification : entry.sign }}
+                </button>
+            </ng-repeat>
 
             <button ng-click="$ctrl.showAll()">
                 Alles Anzeigen

@@ -4,9 +4,9 @@
             <h1>Vorstellung</h1>
 
             <ng-repeat ng-repeat="top in $ctrl.data">
-                <h2>{{ top.groupId }}</h2>
+                <h5>{{ top.groupId }}</h5>
                 <ng-repeat ng-repeat="group in top.groups">
-                    <h3>{{ group.groupId }}</h3>
+                    <h6>{{ group.groupId }}</h6>
                     <button ng-click="$ctrl.show(group)" ng-show="$ctrl.isButtonVisible(group)">
                         Anzeigen
                     </button>

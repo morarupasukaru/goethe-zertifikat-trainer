@@ -9,6 +9,7 @@ import Mathematics from './mathematics/mathematics';
 import Punctuation from './punctuation/punctuation';
 import Presentations from './presentations/presentations';
 import SpeechHelpers from './speech-helpers/speech-helpers';
+import Credits from './credits/credits';
 
 let screensModule = angular.module('app.components.gui.screens', [
     Home.name,
@@ -20,7 +21,8 @@ let screensModule = angular.module('app.components.gui.screens', [
     Mathematics.name,
     Punctuation.name,
     Presentations.name,
-    SpeechHelpers.name
+    SpeechHelpers.name,
+    Credits.name
 ]);
 
 export default screensModule;

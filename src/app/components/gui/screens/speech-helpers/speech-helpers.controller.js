@@ -35,19 +35,32 @@ class SpeechHelpersController {
         for (let i = 0; i < speechHelpersData.length; i++) {
             let topGroup = speechHelpersData[i];
             let newEntries = [];
-            this.flatinizeSubGroups(topGroup.entries, newEntries);
+            this.flatinizeSubGroups(topGroup.entries, newEntries, []);
             topGroup.entries = newEntries;
             this.data.push(topGroup);
         }
     }
 
-    flatinizeSubGroups(entries, newEntries) {
+    flatinizeSubGroups(entries, newEntries, allGroupLinkIds) {
         if (!!entries && entries.length > 0) {
             for (let i = 0; i < entries.length; i++) {
                 let entry = entries[i];
                 if (!!entry.groupId) {
+                    if (allGroupLinkIds.indexOf(entry.groupId) !== -1) {
+                        debugger;
+                        let i = 0;
+                        let computeGroupLinkId;
+                        do {
+                            i++;
+                            computeGroupLinkId = entry.groupId + i;
+                        } while (allGroupLinkIds.indexOf(computeGroupLinkId) !== -1);
+                        entry.groupLinkId = entry.groupId + i;
+                    } else {
+                        entry.groupLinkId = entry.groupId;
+                    }
+                    allGroupLinkIds.push(entry.groupLinkId);
                     newEntries.push(entry);
-                    this.flatinizeSubGroups(entry.entries, newEntries);
+                    this.flatinizeSubGroups(entry.entries, newEntries, allGroupLinkIds);
                 }
             }
         }

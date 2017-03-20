@@ -1,33 +1,60 @@
-next tasks
-    integrate redelmittel of goethe a2
-    bug with id in redelmittel a double (brief, p.ex.)
+tasks to learn language
+    voc récéptif: voc a1-b2 + custom (pour c1&2) à apprendre via flashcard (text de > fr/en/...)
+    redelmittel (shadowing) => textes avec/sans son à apprendre via flashcard sonore (écoute > reproduire, voir l'entrée)
+    grammaire: TBD
 
-general tasks
-    language texts customizable par "set"
-    create "set" learn deutsch
-    screen to import, delete data
-    json importable par type (voc, speech-helpers, ...)
-    ecran d'import (par defaut si pas donnees)
+copyright:
+    est-ce que les listes de voc a1-c2 sont sous copyright?
+
+task
+    shuffle des nouvelles entrées dans flashcard
+    v2: généralisation à d'autres langues
+    séparée voc dans langue à apprendre et traduction
+    simplification: transformer spa en site avec pages mvc, difficulté: données partagés dans localstorage? but pas de données sur serveur (injure, login...)
+        ou mix: "Alphabet" est par ex. une application (page standalone)
+    i18n du site (lié à la langue étudiée?)
+    écran développé sans notions de langue étudié spécifique (flashcard)
+    écran d'importation de données réutilisable (evt seul le(s) service sont des components node), customisation écran: langue, type (dropdown)
     merge of data (e.g. examples of word)
-    level customizable
+    écran de recherches d'entrées (voc, redelmitel) avec champs de recherche "level" customizable
     print: dedicated css for print (component with mode preatyprint?, override css?)
-    vocabulary with fulltext searched (similar to redelmittel), link to external website (leo)
-    configurable stacks
-    selection of flaschcards (level, type, ...)
-    grammar screen (similar to redelmittel, jump on specific screen? all in one?) link to external website?
+    configurable stacks (with preset of standard stacks)
+    aide (p.ex. liens sur wikipedia de flashcard & stacks)
+    sélection des entrées à apprendre par niveau, par recherche dans le voc
     sound < how to import them? link them?
-    data editable?
-    copyright (show in screen to manage data)
-    font in offline
-    mode offline > telecharge les sons via un service $http custom
+    copyright: stocké 1x par source de donnée (evt pouvoir l'affiché si on le veut via une vue détaillé des entrées)
+    grammar: certainement 1 écran mvc par thème avec evt intégration dans flashcard
+    comment intégrer font skeleton js en offline?
+    (offline mode?)
 
-tasks to learn german
-    business presentation (presentations.controller.js)
-    Merge voc a1, a2 (attention, y a des fois plus d'info dans a2 ou a1)
-    preposition
-    verbe modal
-    conjonction
-    extends A1, A2, ... with langenscheidt entries
-    extends A1, A2, ... with power wörterbuch entries
-    extends A1, A2, ... by recording examples
-    add B1, B2, ... wortschartz with goethe inventar
+sources allemand
+    voc
+        todo
+    redelmittel
+        todo
+    grammaire
+        todo
+
+sources portugais
+    voc
+        todo
+    redelmittel
+        todo
+    grammaire
+        todo
+
+sources japonais
+    voc
+        todo
+    redelmittel
+        todo
+    grammaire
+        todo
+
+sources anglais
+    voc
+        todo
+    redelmittel
+        todo
+    grammaire
+        todo

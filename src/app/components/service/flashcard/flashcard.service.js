@@ -44,7 +44,7 @@ class FlashcardService {
     getVocabularyFlashcardType() {
         let flashcardType = {
             id: 'vocabulary-entry-example',
-            name: 'Verstehen Sie diese Wortschatz Eintrag?',
+            name: 'Was ist dieses Wort?',
             fields: {
                 question: [ { id: 'entry', name: 'Eintrag', leoEnabled: true }, { id: 'thema', name: 'Themen', separator: ' / ' } ],
                 answer: [ { id:'alternative', name: 'Alternative' }, { id:'example', name: 'Beispiel' }, { id:'translate', name:'Übersetzung' } ]

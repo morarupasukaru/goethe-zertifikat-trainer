@@ -13,15 +13,16 @@
                 <span ng-show="$ctrl.isGroupVisible(top) && !$ctrl.print" ng-repeat="top in $ctrl.data">
                     <button class="button-primary" ng-click="$ctrl.toogleSelection(top)" title="{{ $ctrl.title(top) }}">{{ top.groupId }}</button>
                     <span ng-show="$ctrl.isGroupVisible(group)" ng-repeat="group in top.entries">
-                        <a class="button" ng-show="!!top.selected" ng-click="$ctrl.scrollTo(group.groupId)" title="{{ $ctrl.title(group) }}">{{ group.groupId }}</a>
+                        <a class="button" ng-show="!!top.selected" ng-click="$ctrl.scrollTo(group.groupLinkId)" title="{{ $ctrl.title(group) }}">{{ group.groupId }}</a>
                     </span>
                 </span>
             </div>
+            <button ng-hide="!!$ctrl.print" ng-click="$ctrl.back()">Zurück</button>
 
             <div ng-show="$ctrl.isGroupVisible(top)" ng-repeat="top in $ctrl.data">
-                <h2 id="{{ top.groupId }}" title="{{ $ctrl.title(top) }}">{{ top.groupId }}</h2>
+                <h5 id="{{ top.groupLinkId }}" title="{{ $ctrl.title(top) }}">{{ top.groupId }}</h5>
                 <div ng-show="$ctrl.isGroupVisible(group)" ng-repeat="group in top.entries">
-                    <h3 id="{{ group.groupId }}" title="{{ $ctrl.title(group) }}">{{ group.groupId }}</h3>
+                    <h6 id="{{ group.groupLinkId }}" title="{{ $ctrl.title(group) }}">{{ group.groupId }}</h6>
                     <ul>
                         <li ng-repeat="entry in group.entries" ng-show="$ctrl.isEntryVisible(entry)" title="{{ $ctrl.title(entry) }}">{{ entry.value }}</li>
                     </ul>
