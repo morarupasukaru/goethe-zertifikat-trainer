@@ -3,9 +3,6 @@ tasks to learn language
     redelmittel (shadowing) => textes avec/sans son à apprendre via flashcard sonore (écoute > reproduire, voir l'entrée)
     grammaire: TBD
 
-copyright:
-    est-ce que les listes de voc a1-c2 sont sous copyright?
-
 task
     shuffle des nouvelles entrées dans flashcard
     v2: généralisation à d'autres langues
@@ -29,11 +26,30 @@ task
 
 sources allemand
     voc
-        todo
+        copyright:
+            est-ce que les listes de voc a1-c2 sont sous copyright? oui
+        Zertifikatswortschatz
+        Liste mots a1-b2 > Profile deutsch
+        Entrée dico langenscheidt a1-b2, Profile deutsch
+        (Power wörterbuch buch deutsch: liste mots a1-b2, complétion du détail profile deutsch)
+        (Vocabulaire de base langenscheidt, pour niveau c1: ->2000, c2: -> 4000)
+        Handbuch Prüfungsziele Testbeschreibung A1, Goethe Institut
+        Prüfungsziele, Testbeschreibung Start Deutsch 2, Goethe Institut
+        https://fr.wiktionary.org/wiki/Wiktionnaire:Listes_de_fr%C3%A9quence
+
     redelmittel
-        todo
+        Alltagstauglich französisch, Hueber
+        Deutsch in der firma, Hueber
+        Handbuch Prüfungsziele Testbeschreibung A1, Goethe Institut
+        Prüfungsziele, Testbeschreibung Start Deutsch 2, Goethe Institut
+        Fit fürs Goethe-Zertifikat A2, Hueber
+        Prüfungstraining DaF A1, Cornelsen Verlag
+        Prüfungstraining DaF A2, Cornelsen Verlag
     grammaire
-        todo
+        Grammaire allemande, Harrap's
+        Handbuch Prüfungsziele Testbeschreibung A1, Goethe Institut
+        Prüfungsziele, Testbeschreibung Start Deutsch 2, Goethe Institut
+        Grammaire allemande, Bordas
 
 sources portugais
     voc
