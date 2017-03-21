@@ -4,6 +4,11 @@ tasks to learn language
     grammaire: TBD
 
 task
+    intégrate null-checker
+    integrate npm object-merger (existe deja?)
+    integrate npm  object-property-finder (existe deja?)
+    integrate npm localstorage property-finder (mix object-property-finder)
+
     shuffle des nouvelles entrées dans flashcard
     v2: généralisation à d'autres langues
     séparée voc dans langue à apprendre et traduction
