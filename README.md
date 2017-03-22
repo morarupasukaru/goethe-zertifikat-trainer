@@ -4,3 +4,5 @@ Trainer to study objectives of the german examinations "Goethe-Zertifikat" (http
 Initial goal: help achievement of the examination of "Goethe-Zertifikat" A2.
 
 Responsive-design, CSS taken from http://getskeleton.com/
+
+Site: https://morarupasukaru.github.io/goethe-zertifikat-trainer/
