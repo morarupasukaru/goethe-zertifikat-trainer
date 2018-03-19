@@ -47,7 +47,6 @@ class SpeechHelpersController {
                 let entry = entries[i];
                 if (!!entry.groupId) {
                     if (allGroupLinkIds.indexOf(entry.groupId) !== -1) {
-                        debugger;
                         let i = 0;
                         let computeGroupLinkId;
                         do {

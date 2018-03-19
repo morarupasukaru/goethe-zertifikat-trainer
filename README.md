@@ -36,10 +36,6 @@ The project is currently suspended because of other on-going projects.
 - [Goethe - Handbuch Prüfungsziele Testbeschreibung A1](https://www.goethe.de/ins/de/de/prf/prf_neu/gzfit1/inf.html)
 - [Goethe - Prüfungsziele, Testbeschreibung Start Deutsch 2](http://www.goethe.de/lrn/prj/pba/bes/sd2/mat/deindex.htm)
 - [Wikipedia German Alphabet Audios](https://en.m.wikipedia.org/wiki/German_orthography)
-- Several "Redellmitel" from various sources:
-	- [Huber - Fit fürs Goethe-Zertifikat A2](https://shop.hueber.de/de/fit-f-goethe-z-a2-lb-m-cd-f-erw.html)
-	- [Cornelsen - Prüfungstraining DaF A1](https://www.cornelsen.de/cbb/reihe/r-5498/ra/titel/9783060207473)
-	- [Cornelsen - Prüfungstraining DaF A2](https://www.cornelsen.de/cbb/reihe/r-5498/ra/titel/9783061217730)
 
 	
 ### License
