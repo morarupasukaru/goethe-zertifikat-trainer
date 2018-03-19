@@ -3,7 +3,9 @@ import vocabularyA1Service from './vocabulary-a1.service';
 import vocabularyA2Service from './vocabulary-a2.service';
 import entriesService from './entries.service';
 
-let isNull = require('null-checker');
+var isNull = function (value) {
+    return !value && value !== 0 && value !== false;
+};
 
 let entriesModule = angular.module('app.components.data.entries', [])
     .service('vocabularyA1Service', vocabularyA1Service)

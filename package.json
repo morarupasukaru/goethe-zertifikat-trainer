@@ -5,8 +5,7 @@
   "homepage": "https://github.com/morarupasukaru/goethe-zertifikat-trainer",
   "dependencies": {
     "angular": "1.5.8",
-    "angular-ui-router": "0.3.2",
-    "null-checker": "0.0.8"
+    "angular-ui-router": "0.3.2"
   },
   "devDependencies": {
     "babel-core": "^6.16.0",
