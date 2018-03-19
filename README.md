@@ -9,7 +9,7 @@ The motivation of this "private" project was to help me to achieve the examinati
 
 - Clone the repo: `git clone https://github.com/morarupasukaru/gamebooks-assistant.git`
 - Install [node.js](https://nodejs.org) with [npm](https://www.npmjs.com/), see https://nodejs.org
-- Install Project dependency
+- Install the project's dependencies
 ```bash
 cd ...\goethe-zertifikat-trainer
 npm install
