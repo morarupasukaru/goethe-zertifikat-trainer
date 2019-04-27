@@ -11,12 +11,10 @@ The motivation of this "private" project was to help me to achieve the examinati
 - Install [node.js](https://nodejs.org) with [npm](https://www.npmjs.com/), see https://nodejs.org
 - Install the project's dependencies:
 ```bash
-cd goethe-zertifikat-trainer
 npm install
 ```
 - Start the applications' build:
 ```bash
-cd goethe-zertifikat-trainer
 npm run gulp
 ```
 - The application will be available at http://localhost:3001/#
@@ -25,7 +23,7 @@ optional: build for production deployment:
 ```bash
 rm -Rf dist
 npm install
-gulp build
+npm run gulp build
 ```
 
 
